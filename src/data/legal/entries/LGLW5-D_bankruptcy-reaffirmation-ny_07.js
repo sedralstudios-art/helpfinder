@@ -1,7 +1,6 @@
 // LGLW5-D_bankruptcy-reaffirmation-ny_07.js
 // Category: consumer (Consumer & Debt)
 // Jurisdiction: ny (New York State)
-// Source: Prof. Gregory Germain, Syracuse University College of Law
 // Schema: V3 — English only (translation after verification)
 // LGLW5-D | April 5, 2026
 
@@ -102,7 +101,7 @@ export const entry = {
   ],
 
   lastAudited: "2026-04-05",
-  lastVerifiedBy: "Prof. Gregory Germain + Claude + Tony",
+  lastVerifiedBy: "Claude + Tony",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
