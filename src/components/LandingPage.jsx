@@ -446,6 +446,16 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => { const tm = setTimeout(() => setLoaded(true), 50); return () => clearTimeout(tm); }, []);
+
+  // Auto-navigate to Support page if URL hash is #support (used by HelpFinder footer link)
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.location.hash === "#support") {
+      setPage(PAGES.SUPPORT);
+      // Clear the hash so refreshing the page doesn't keep going to Support
+      try { window.history.replaceState(null, "", window.location.pathname); } catch (e) {}
+    }
+  }, []);
+
   const nav = (p) => { setPage(p); setMenuOpen(false); window.scrollTo(0, 0); };
   const isRTL = lang === "ar";
 

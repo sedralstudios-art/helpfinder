@@ -2009,7 +2009,25 @@ function RocHelpInner({ onExit, city = "your area" }) {
         Sedral Studios · {city}<br />
         Built with nothing. Built for everyone.<br />
         <span style={{ fontSize: 9, color: "#bbb" }}>© 2026 Sedral Studios. All rights reserved.</span>
-        <div style={{ marginTop: 8 }}>
+        <div style={{ marginTop: 12 }}>
+          <button
+            onClick={() => {
+              try { window.location.hash = "#support"; } catch (e) {}
+              if (onExit) onExit();
+            }}
+            style={{
+              background: "none", border: "1px solid #c8e6c9", borderRadius: 16,
+              padding: "6px 14px", fontSize: 12, fontWeight: 600,
+              color: "#2e7d32", cursor: "pointer", fontFamily: "inherit",
+              transition: "all 0.15s",
+            }}
+            onMouseOver={e => { e.currentTarget.style.background = "#e8f5e9"; }}
+            onMouseOut={e => { e.currentTarget.style.background = "none"; }}
+          >
+            ❤ {({es:"Apoyar HelpFinder",ne:"HelpFinder लाई समर्थन",ar:"دعم HelpFinder",sw:"Saidia HelpFinder",my:"HelpFinder ကိုထောက်ပံ့",so:"Taageer HelpFinder",zh:"支持 HelpFinder"}[lang] || "Support HelpFinder")}
+          </button>
+        </div>
+        <div style={{ marginTop: 10 }}>
           <span style={{ marginTop: 4, display: "inline-block" }}>
             {({es:"Datos verificados",ne:"डाटा प्रमाणित",ar:"تم التحقق من البيانات",sw:"Data imethibitishwa",my:"အချက်အလက်စစ်ဆေးပြီး",so:"Xogta waa la xaqiijiyay",zh:"数据已验证"}[lang] || "Data verified")}: {DATA_VERIFIED}
           </span>
