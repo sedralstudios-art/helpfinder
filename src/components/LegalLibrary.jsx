@@ -270,9 +270,29 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
         {pickText(entry.title, legalLang)}
       </h1>
 
-      <p style={{ fontSize: 17, color: C.stone, lineHeight: 1.6, marginBottom: 28, fontWeight: 500 }}>
+      <p style={{ fontSize: 17, color: C.stone, lineHeight: 1.6, marginBottom: 20, fontWeight: 500 }}>
         {pickText(entry.summary, legalLang)}
       </p>
+
+      {entry.reviewedBy && (
+        <div style={{
+          marginBottom: 24,
+          padding: "14px 18px",
+          background: C.sage,
+          borderRadius: 12,
+          border: "1px solid #c8e6c9",
+          fontSize: 13,
+          lineHeight: 1.55,
+        }}>
+          <div style={{ color: C.forest, fontWeight: 600, marginBottom: 6, display: "flex", alignItems: "center", gap: 6 }}>
+            <span style={{ fontSize: 14 }}>✓</span>
+            <span>Reviewed by {entry.reviewedBy}</span>
+          </div>
+          <div style={{ color: C.stone, fontStyle: "italic" }}>
+            This guide is general legal information, not legal advice for your specific situation.
+          </div>
+        </div>
+      )}
 
       {whoQualArr.length > 0 && (
         <section style={{ marginBottom: 26 }}>
