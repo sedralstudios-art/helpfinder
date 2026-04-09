@@ -2,29 +2,41 @@
 // ============================================
 // HelpFinder Verification Bot
 // Run on the 1st of each month from Git Bash:
-//   cd ~/roc-help-finder && node verify.js
+//   cd ~/roc-help-finder && node verify.cjs
 // ============================================
-
+// Last patched: April 8, 2026
+//   - Added 6 domains to BOT_BLOCKED_DOMAINS (known 403 false positives)
+//   - Added '311' as valid shortcode (city services number)
+//   - Added 'ext.XXX' phone extension parsing
+// ============================================
 const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-
 // ─── CONFIG ─────────────────────────────────
 const SITE_URL = 'https://helpfinder.help';
 const SOURCE_FILE = path.join(__dirname, 'src', 'components', 'HelpFinder.jsx');
 const REPORT_FILE = path.join(__dirname, 'verification-report.json');
 const TIMEOUT_MS = 10000;
-
-// Gov domains that block bots (403/503 is expected, treat as live)
+// Gov domains and known-good sites that block bots (403/503 is expected, treat as live)
 const BOT_BLOCKED_DOMAINS = [
+  // Government domains — were in the original list
   'otda.ny.gov', 'health.ny.gov', 'ssa.gov', 'nycourts.gov',
   'fcc.gov', 'nystateofhealth.ny.gov', 'ocfs.ny.gov',
   'childsupport.ny.gov', 'codes.findlaw.com', 'law.justia.com',
   'ww2.nycourts.gov', 'reentry.net', 'labor.ny.gov',
-  'mybenefits.ny.gov', 'monroecounty.gov', 'affordableconnectivity.gov'
+  'mybenefits.ny.gov', 'monroecounty.gov', 'affordableconnectivity.gov',
+  // Added April 8, 2026 — known orgs that 403 on bot UA but are alive.
+  // Each one was manually verified as an active organization whose site
+  // works in a browser but blocks non-browser user agents via Cloudflare,
+  // Akamai, or similar bot-protection services.
+  'namiroc.org',           // NAMI Rochester — confirmed alive
+  'brockport.edu',         // SUNY Brockport REOC — confirmed alive
+  'rainn.org',             // RAINN (sexual assault hotline) — confirmed alive
+  'cityofrochester.gov',   // City of Rochester — confirmed alive
+  'lionsclubs.org',        // Lions Clubs International — confirmed alive
+  'plannedparenthood.org', // Planned Parenthood — confirmed alive
 ];
-
 // ─── HELPERS ────────────────────────────────
 function extractURLs(source) {
   const urlRegex = /url:\s*["']?(https?:\/\/[^\s"',}]+)/g;
@@ -35,7 +47,6 @@ function extractURLs(source) {
   }
   return [...urls];
 }
-
 function extractPhones(source) {
   const phoneRegex = /ph:\s*["']([^"']+)["']/g;
   const phones = [];
@@ -45,7 +56,6 @@ function extractPhones(source) {
   }
   return phones;
 }
-
 function extractPrograms(source) {
   const programRegex = /\{\s*id:\s*["']([^"']+)["'][^}]*n:\s*["']([^"']+)["'][^}]*url:\s*["'](https?:\/\/[^"']+)["']/g;
   const programs = [];
@@ -55,21 +65,18 @@ function extractPrograms(source) {
   }
   return programs;
 }
-
 function isDomainBotBlocked(url) {
   try {
     const hostname = new URL(url).hostname;
     return BOT_BLOCKED_DOMAINS.some(d => hostname.includes(d));
   } catch { return false; }
 }
-
 function checkURL(url) {
   return new Promise((resolve) => {
     const protocol = url.startsWith('https') ? https : http;
     const timeout = setTimeout(() => {
       resolve({ url, status: 'TIMEOUT', code: 0, note: 'Request timed out after 10s' });
     }, TIMEOUT_MS);
-
     try {
       const req = protocol.get(url, {
         headers: { 'User-Agent': 'HelpFinder-VerificationBot/1.0' },
@@ -116,9 +123,22 @@ function checkURL(url) {
 }
 
 function validatePhone(phone) {
-  // Skip non-phone entries
-  if (['211', '988', '911'].includes(phone)) return { phone, valid: true, type: 'shortcode' };
+  // Skip non-phone entries — city services shortcodes
+  // Added April 8, 2026: 311 is the city services non-emergency number
+  // (same category as 211/988/911 which were already whitelisted)
+  if (['211', '311', '988', '911'].includes(phone)) return { phone, valid: true, type: 'shortcode' };
   if (phone.startsWith('Text ')) return { phone, valid: true, type: 'text_service' };
+
+  // Handle phone extension format: "585-244-8400 ext.244" or "585-244-8400 ext 244"
+  // Added April 8, 2026: extract the base number, validate it, preserve extension info
+  const extMatch = phone.match(/^(.+?)\s*(ext\.?|extension|x)\s*\d+\s*$/i);
+  if (extMatch) {
+    const baseNumber = extMatch[1];
+    const cleaned = baseNumber.replace(/[^0-9]/g, '');
+    if (cleaned.length === 10 || cleaned.length === 11) {
+      return { phone, valid: true, type: 'standard_with_extension' };
+    }
+  }
 
   // Standard US phone formats
   const cleaned = phone.replace(/[^0-9]/g, '');
