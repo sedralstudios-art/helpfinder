@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useRef } from "react";
 import { QUESTIONS, getFirstQuestion, isDirectToResults, isHiddenCategory, getInitialPrograms, applyAnswerFilters, applyTownFilter, getUrgencyLevel } from "./HelpFinderQuestions";
+import ShareButton from "./ShareButton";
 
 // ─────────────────────────────────────────────
 // mapsHandoff — universal tap-to-navigate (added April 9, 2026)
@@ -1860,6 +1861,17 @@ function RocHelpInner({ onExit, city = "your area" }) {
               <option key={l.code} value={l.code} style={{ color: "#333" }}>{l.label}</option>
             ))}
           </select>
+        </div>
+
+        {/* Share — added April 9, 2026. TODO: i18n */}
+        <div style={{ marginTop: 8, textAlign: "center" }}>
+          <ShareButton
+            title="HelpFinder"
+            text="Free help and legal info for Monroe County. No accounts, no ads, no tracking."
+            url="https://helpfinder.help"
+            label="Share HelpFinder"
+            ariaLabel="Share HelpFinder with someone who needs it"
+          />
         </div>
 
         {/* Step indicator */}

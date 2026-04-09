@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { LegalLibraryCategories, LegalLibraryBrowse, LegalLibraryEntry } from "./LegalLibrary";
+import ShareButton from "./ShareButton";
 
 // ═══════════════════════════════════════════════════
 // HELPFINDER.HELP — Landing Page v2
@@ -737,6 +738,17 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             </a>
           </div>
 
+          {/* Share — homepage placement, added April 9, 2026. TODO: i18n */}
+          <div style={{ textAlign: "center", marginTop: 20, marginBottom: 4 }}>
+            <ShareButton
+              title="HelpFinder"
+              text="Free help and legal info for Monroe County. No accounts, no ads, no tracking."
+              url="https://helpfinder.help"
+              label="Share HelpFinder"
+              ariaLabel="Share HelpFinder with a friend who needs it"
+            />
+          </div>
+
           {/* ── KNOW YOUR RIGHTS TILE ── */}
           <button
             onClick={() => nav(PAGES.LEGAL_LIBRARY)}
@@ -918,6 +930,17 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
           >
             {t(lang,"donatePaypal")}
           </a>
+
+          {/* Share — added April 9, 2026. TODO: i18n */}
+          <div style={{ textAlign: "center", marginBottom: 20 }}>
+            <ShareButton
+              title="HelpFinder"
+              text="Free help and legal info for Monroe County. No accounts, no ads, no tracking."
+              url="https://helpfinder.help"
+              label="Share HelpFinder"
+              ariaLabel="Share HelpFinder with someone who needs it"
+            />
+          </div>
 
           {/* Disclaimer */}
           <p style={{ fontSize: 12, color: C.stone, lineHeight: 1.6, textAlign: "center", marginBottom: 12 }}>
