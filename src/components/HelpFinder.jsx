@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useRef } from "react";
+import { QUESTIONS, getFirstQuestion, isDirectToResults, isHiddenCategory, getInitialPrograms, applyAnswerFilters, getUrgencyLevel } from "./HelpFinderQuestions";
 
 // ═══════════════════════════════════════════════════
 // HELPFINDER — Help Directory
@@ -1571,7 +1572,7 @@ const btnStyle = (accent) => ({
 // ════════════════════════════════════
 // MAIN APP
 // ════════════════════════════════════
-const STEPS = { HOME: 0, WHAT_TAB: 1, WHAT_CAT: 2, WHO: 3, HOW: 4, RESULTS: 5 };
+const STEPS = { HOME: 0, WHAT_TAB: 1, WHAT_CAT: 2, WHO: 3, HOW: 4, RESULTS: 5, QUESTION: 6 };
 
 function RocHelpInner({ onExit, city = "your area" }) {
   const [lang, setLang] = useState("en");
@@ -1586,6 +1587,8 @@ function RocHelpInner({ onExit, city = "your area" }) {
   const [how, setHow] = useState(null);
   const [expandedCard, setExpandedCard] = useState(null);
   const [showDVExit, setShowDVExit] = useState(false);
+  const [answers, setAnswers] = useState({});
+  const [currentQuestionKey, setCurrentQuestionKey] = useState(null);
   const containerRef = useRef(null);
 
 
@@ -1599,7 +1602,17 @@ function RocHelpInner({ onExit, city = "your area" }) {
       if (c && CATEGORIES[c]) {
         setCategory(c);
         if (DV_CATS.has(c)) setShowDVExit(true);
-        setStep(STEPS.WHO);
+        if (isDirectToResults(c)) {
+          setStep(STEPS.RESULTS);
+        } else {
+          const firstQ = getFirstQuestion(c);
+          if (firstQ) {
+            setCurrentQuestionKey(firstQ);
+            setStep(STEPS.QUESTION);
+          } else {
+            setStep(STEPS.WHO);
+          }
+        }
       }
       const l = params.get("l");
       if (l && LANGS.some((lg) => lg.code === l)) setLang(l);
@@ -1628,15 +1641,43 @@ function RocHelpInner({ onExit, city = "your area" }) {
   const selectCategory = (key) => {
     setCategory(key);
     if (DV_CATS.has(key)) setShowDVExit(true);
-    goTo(STEPS.WHO);
+    setAnswers({});
+    setCurrentQuestionKey(null);
+    if (isDirectToResults(key)) {
+      goTo(STEPS.RESULTS);
+    } else {
+      const firstQ = getFirstQuestion(key);
+      if (firstQ) {
+        setCurrentQuestionKey(firstQ);
+        goTo(STEPS.QUESTION);
+      } else {
+        goTo(STEPS.WHO);
+      }
+    }
   };
   const selectWho = (val) => { setWho(val); goTo(STEPS.HOW); };
   const selectHow = (val) => { setHow(val); goTo(STEPS.RESULTS); };
+
+  const answerQuestion = (questionKey, value) => {
+    const newAnswers = { ...answers, [questionKey]: value };
+    setAnswers(newAnswers);
+    const question = QUESTIONS[questionKey];
+    const option = question && question.options && question.options.find(o => o.key === value);
+    const next = option && option.next;
+    if (next === "how") goTo(STEPS.HOW);
+    else if (next === "who") goTo(STEPS.WHO);
+    else if (next === "results" || next === null || next === undefined) goTo(STEPS.RESULTS);
+    else {
+      setCurrentQuestionKey(next);
+      goTo(STEPS.QUESTION);
+    }
+  };
 
   const reset = () => {
     setStep(STEPS.HOME); setTab(null); setCategory(null);
     setNearMe(false); setUserCoords(null); setGeoError(false);
     setWho(null); setHow(null); setExpandedCard(null);
+    setAnswers({}); setCurrentQuestionKey(null);
     // NOTE: showDVExit intentionally NOT cleared — once activated, stays visible for safety
     scrollTop();
   };
@@ -1644,7 +1685,8 @@ function RocHelpInner({ onExit, city = "your area" }) {
   // ── FILTERING ──
   const filteredPrograms = useMemo(() => {
     if (!category) return [];
-    let progs = PROGRAMS.filter((p) => p.c === category);
+    let progs = getInitialPrograms(PROGRAMS, category);
+    progs = applyAnswerFilters(progs, answers);
 
     // WHO filter (targeting tags)
     const whoTags = {
@@ -1697,7 +1739,7 @@ function RocHelpInner({ onExit, city = "your area" }) {
     }
 
     return progs;
-  }, [category, who, how, nearMe, userCoords]);
+  }, [category, who, how, nearMe, userCoords, answers]);
 
   // ── STEP INDICATOR ──
   const stepLabels = [
@@ -1708,7 +1750,7 @@ function RocHelpInner({ onExit, city = "your area" }) {
   ];
   const currentStepIndex =
     step === STEPS.WHAT_TAB || step === STEPS.WHAT_CAT ? 0
-    : step === STEPS.WHO ? 1
+    : step === STEPS.WHO || step === STEPS.QUESTION ? 1
     : step === STEPS.HOW ? 2
     : step === STEPS.RESULTS ? 3
     : -1;
@@ -1939,7 +1981,7 @@ function RocHelpInner({ onExit, city = "your area" }) {
               {t(lang, "stepWhat")}
             </h2>
             <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-              {TABS[tab].needs.map((catKey) => {
+              {TABS[tab].needs.filter(catKey => !isHiddenCategory(catKey)).map((catKey) => {
                 const cat = CATEGORIES[catKey];
                 if (!cat) return null;
                 return (
@@ -1957,6 +1999,31 @@ function RocHelpInner({ onExit, city = "your area" }) {
             {TABS[tab].needs.some((c) => SENSITIVE.has(c)) && (
               <PrivacyBadge lang={lang} sensitive />
             )}
+          </div>
+        )}
+
+        {/* ── QUESTION (registry-driven) ── */}
+        {step === STEPS.QUESTION && currentQuestionKey && QUESTIONS[currentQuestionKey] && (
+          <div>
+            <h2 style={{ fontSize: 18, fontWeight: 700, marginBottom: 12 }}>
+              {QUESTIONS[currentQuestionKey].prompt}
+            </h2>
+            {SENSITIVE.has(category) && <PrivacyBadge lang={lang} sensitive />}
+            <DVSafetyNotice lang={lang} category={category} />
+            <CrisisIntercept lang={lang} category={category} />
+            <div style={{ display: "flex", flexDirection: "column", gap: 8, marginTop: 12 }}>
+              {QUESTIONS[currentQuestionKey].options.map(opt => (
+                <button
+                  key={opt.key}
+                  onClick={() => answerQuestion(currentQuestionKey, opt.key)}
+                  className="roc-btn"
+                  style={btnStyle()}
+                >
+                  {opt.icon && <span style={{ fontSize: 22, marginRight: 4 }}>{opt.icon}</span>}
+                  <span>{opt.label}</span>
+                </button>
+              ))}
+            </div>
           </div>
         )}
 
@@ -2020,6 +2087,32 @@ function RocHelpInner({ onExit, city = "your area" }) {
         {/* ── RESULTS ── */}
         {step === STEPS.RESULTS && (
           <div>
+            {getUrgencyLevel(answers) === 'critical' && (
+              <div style={{
+                background: "#ffebee", border: "2px solid #c62828",
+                borderRadius: 12, padding: 14, marginBottom: 16,
+              }}>
+                <div style={{ fontSize: 14, fontWeight: 700, color: "#c62828", marginBottom: 4 }}>
+                  🚨 This is urgent — call today
+                </div>
+                <div style={{ fontSize: 13, color: "#5d1a1a" }}>
+                  Don't wait. The first program below is the fastest path to help.
+                </div>
+              </div>
+            )}
+            {getUrgencyLevel(answers) === 'high' && (
+              <div style={{
+                background: "#fff3e0", border: "2px solid #ef6c00",
+                borderRadius: 12, padding: 14, marginBottom: 16,
+              }}>
+                <div style={{ fontSize: 14, fontWeight: 700, color: "#ef6c00", marginBottom: 4 }}>
+                  ⏰ Time-sensitive — call this week
+                </div>
+                <div style={{ fontSize: 13, color: "#5d2a00" }}>
+                  Don't wait until your court date. Free legal help is available now.
+                </div>
+              </div>
+            )}
             <h2 style={{ fontSize: 18, fontWeight: 700, marginBottom: 4 }}>
               {t(lang, "stepResults")}
             </h2>
