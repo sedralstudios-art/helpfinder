@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useRef } from "react";
-import { QUESTIONS, getFirstQuestion, isDirectToResults, isHiddenCategory, getInitialPrograms, applyAnswerFilters, getUrgencyLevel } from "./HelpFinderQuestions";
+import { QUESTIONS, getFirstQuestion, isDirectToResults, isHiddenCategory, getInitialPrograms, applyAnswerFilters, applyTownFilter, getUrgencyLevel } from "./HelpFinderQuestions";
 
 // ═══════════════════════════════════════════════════
 // HELPFINDER — Help Directory
@@ -724,6 +724,24 @@ const MONROE_TOWNS = [
 // HelpFinder's rule: match the operator's published specificity, never
 // exceed it. Aggregation in a directory amplifies discovery risk for
 // vulnerable populations beyond what each source intended.
+// ─────────────────────────────────────────────
+
+// SERVES — multi-town service declaration (added April 9, 2026)
+//
+//   serves: ["town1","town2",...]  Optional array of additional towns this
+//                                  program serves. A program shows in a town's
+//                                  results if program.town === userTown OR
+//                                  program.serves.includes(userTown).
+//
+//   Use serves when ONE program physically operates in or covers MULTIPLE
+//   specific towns — e.g. a Foodlink mobile pantry stopping in 6 villages,
+//   or a workforce program serving Spencerport, Hilton, and Hamlin from a
+//   Greece office. Do NOT use serves to express "regional" coverage that
+//   isn't town-specific — use reach:"regional" for that.
+//
+//   serves is OPTIONAL. Single-town programs use only the existing town field.
+//   Multi-town programs may set both town (the primary location) and serves
+//   (the additional towns covered).
 // ─────────────────────────────────────────────
 
 const DATA_VERIFIED = "April 2026";
@@ -1589,6 +1607,7 @@ function RocHelpInner({ onExit, city = "your area" }) {
   const [showDVExit, setShowDVExit] = useState(false);
   const [answers, setAnswers] = useState({});
   const [currentQuestionKey, setCurrentQuestionKey] = useState(null);
+  const [userTown, setUserTown] = useState(null);  // null = no town filter; set by future town picker / zip lookup / URL param
   const containerRef = useRef(null);
 
 
@@ -1687,6 +1706,7 @@ function RocHelpInner({ onExit, city = "your area" }) {
     if (!category) return [];
     let progs = getInitialPrograms(PROGRAMS, category);
     progs = applyAnswerFilters(progs, answers);
+    progs = applyTownFilter(progs, userTown);
 
     // WHO filter (targeting tags)
     const whoTags = {
@@ -1739,7 +1759,7 @@ function RocHelpInner({ onExit, city = "your area" }) {
     }
 
     return progs;
-  }, [category, who, how, nearMe, userCoords, answers]);
+  }, [category, who, how, nearMe, userCoords, answers, userTown]);
 
   // ── STEP INDICATOR ──
   const stepLabels = [

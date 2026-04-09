@@ -279,6 +279,22 @@ export function applyAnswerFilters(programs, answers) {
   return result;
 }
 
+// Returns programs filtered by user's town. A program matches if either:
+//   - its `town` field equals userTown (single-town program), OR
+//   - its `serves` array includes userTown (multi-town program)
+// When userTown is null/undefined, returns programs unchanged (no-op).
+//
+// Multi-town schema fix added April 9, 2026: programs that serve multiple
+// specific towns (e.g. a Foodlink mobile pantry stopping in 6 villages, or
+// a workforce program serving Spencerport, Hilton, and Hamlin from a Greece
+// office) can declare `serves: ["brockport","spencerport","hilton"]` and
+// will appear in each town's results without needing duplicate program entries.
+export function applyTownFilter(programs, userTown) {
+  if (!userTown) return programs;
+  return programs.filter(p => p.town === userTown || (p.serves && p.serves.includes(userTown)));
+}
+
+
 // Returns the highest urgency level across all answered questions, or null.
 // 'critical' > 'high' > null
 export function getUrgencyLevel(answers) {
