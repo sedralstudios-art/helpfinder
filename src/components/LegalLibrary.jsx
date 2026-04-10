@@ -55,6 +55,11 @@ export const CATEGORY_META = {
     label: "Criminal Record",
     desc: "NY Clean Slate Act, sealing records, certificates of relief, expungement.",
   },
+  trades: {
+    icon: "🔨",
+    label: "Trades & Permits",
+    desc: "Building permits, contractor requirements, and local ordinances by town.",
+  },
 };
 
 function pickText(field, lang) {

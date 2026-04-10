@@ -93,6 +93,12 @@ const CATEGORY_META = {
     desc: 'NY Clean Slate Act, sealing records, certificates of relief, expungement — clear your record.',
     seoKeywords: 'NY Clean Slate Act, sealing criminal record, certificate of relief, expungement New York',
   },
+  trades: {
+    icon: '🔨',
+    label: 'Trades & Permits',
+    desc: 'Building permits, contractor insurance, and local ordinances — what the rules are where you are.',
+    seoKeywords: 'building permit NY, contractor requirements, roofing permit, town ordinance, Monroe County permits',
+  },
 };
 
 // ── Helpers ──
