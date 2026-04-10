@@ -178,10 +178,30 @@ export function LegalLibraryCategories({ legalLang, setLegalLang, onOpenCategory
 // ═══════════════════════════════════════════════════════════════════════════
 // CATEGORY BROWSE — entries filtered to one category
 // ═══════════════════════════════════════════════════════════════════════════
-export function LegalLibraryBrowse({ legalLang, setLegalLang, categoryFilter, onOpenEntry, onBack }) {
+export function LegalLibraryBrowse({ legalLang, setLegalLang, categoryFilter, onOpenEntry, onBack, jurisdictions = [] }) {
   const isRTL = RTL_LEGAL_LANGS.has(legalLang);
   const meta = CATEGORY_META[categoryFilter] || { icon: "📄", label: categoryFilter || "Guides", desc: "" };
-  const entries = LEGAL_ENTRIES_BY_CATEGORY[categoryFilter] || [];
+  const allEntries = LEGAL_ENTRIES_BY_CATEGORY[categoryFilter] || [];
+
+  // Jurisdiction filtering: town/village entries filter to user's location.
+  // Federal, state, and county entries always show.
+  const [showAll, setShowAll] = React.useState(false);
+  const hasGeo = jurisdictions.length > 0;
+
+  // Build jurisdiction slugs from geo matches: "Sweden" + "town" → "sweden-town"
+  const geoSlugs = jurisdictions.map(j =>
+    j.name.toLowerCase().replace(/\s+/g, '-') + '-' + j.tier
+  );
+
+  const filteredEntries = (!hasGeo || showAll) ? allEntries : allEntries.filter(entry => {
+    // Always show federal, state, county entries
+    if (entry.tier === 'federal' || entry.tier === 'state' || entry.tier === 'county') return true;
+    // Town/village/city entries: check if jurisdiction matches any geo slug
+    return geoSlugs.some(slug => entry.jurisdiction && entry.jurisdiction.endsWith(slug));
+  });
+
+  const entries = filteredEntries;
+  const hiddenCount = allEntries.length - filteredEntries.length;
 
   return (
     <main dir={isRTL ? "rtl" : "ltr"} style={{ padding: "0 20px 40px", maxWidth: 920, margin: "0 auto" }}>
@@ -192,7 +212,22 @@ export function LegalLibraryBrowse({ legalLang, setLegalLang, categoryFilter, on
         <h1 style={{ fontFamily: SERIF, fontSize: 32, fontWeight: 400, margin: 0, color: C.bark, lineHeight: 1.2 }}>{meta.label}</h1>
       </div>
       <p style={{ fontSize: 14, color: C.stone, marginBottom: 6, lineHeight: 1.6 }}>{meta.desc}</p>
-      <p style={{ fontSize: 12, color: C.dust, marginBottom: 22 }}>{entries.length} guide{entries.length === 1 ? "" : "s"}</p>
+      <p style={{ fontSize: 12, color: C.dust, marginBottom: hasGeo && !showAll && hiddenCount > 0 ? 8 : 22 }}>
+        {entries.length} guide{entries.length === 1 ? "" : "s"}
+        {hasGeo && !showAll ? " for " + jurisdictions.map(j => j.name).join(" + ") : ""}
+      </p>
+      {hasGeo && hiddenCount > 0 && (
+        <button
+          onClick={() => setShowAll(!showAll)}
+          style={{
+            background: "none", border: "none", cursor: "pointer",
+            fontSize: 12, color: C.forest, padding: "0 0 14px", fontFamily: "inherit",
+            textDecoration: "underline"
+          }}
+        >
+          {showAll ? "Show my area only" : "Show all " + allEntries.length + " jurisdictions"}
+        </button>
+      )}
 
       <LanguagePicker legalLang={legalLang} setLegalLang={setLegalLang} />
 

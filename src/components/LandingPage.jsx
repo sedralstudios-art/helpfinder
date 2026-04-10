@@ -489,6 +489,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
   const [menuOpen, setMenuOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [city, setCity] = useState("your area");
+  const [localJurisdictions, setLocalJurisdictions] = useState([]);
 
   // Detect town/village via local GeoJSON — no coordinates leave the device
   useEffect(() => {
@@ -502,6 +503,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
         setCity(displayName);
         if (onCityDetected) onCityDetected(displayName);
         if (onJurisdictionsDetected) onJurisdictionsDetected(matches);
+        setLocalJurisdictions(matches);
       }
     }, () => {});
   }, []);
@@ -1052,6 +1054,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
           categoryFilter={selectedCategory}
           onOpenEntry={openEntry}
           onBack={() => nav(PAGES.LEGAL_LIBRARY)}
+          jurisdictions={localJurisdictions}
         />
       )}
 
