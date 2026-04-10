@@ -11,10 +11,11 @@ export default function App() {
   const [view, setView] = useState(VIEWS.LANDING);
   const [lang, setLang] = useState("en");
   const [city, setCity] = useState("your area");
+  const [jurisdictions, setJurisdictions] = useState([]);
 
   const goToHelp = () => { setView(VIEWS.HELP); window.scrollTo(0, 0); };
   const goHome = () => { setView(VIEWS.LANDING); window.scrollTo(0, 0); };
 
-  if (view === VIEWS.HELP) return <HelpFinder onExit={goHome} city={city} />;
-  return <LandingPage onNavigateHelp={goToHelp} onLangChange={setLang} onCityDetected={setCity} />;
+  if (view === VIEWS.HELP) return <HelpFinder onExit={goHome} city={city} jurisdictions={jurisdictions} />;
+  return <LandingPage onNavigateHelp={goToHelp} onLangChange={setLang} onCityDetected={setCity} onJurisdictionsDetected={setJurisdictions} />;
 }

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { LegalLibraryCategories, LegalLibraryBrowse, LegalLibraryEntry } from "./LegalLibrary";
 import ShareButton from "./ShareButton";
+import { resolveJurisdiction } from "../utils/resolveJurisdiction.js";
 
 // ═══════════════════════════════════════════════════
 // HELPFINDER.HELP — Landing Page v2
@@ -479,7 +480,7 @@ const C = {
   amberLight: "#fdf6ec", white: "#fff", border: "#e8e4dc",
 };
 
-export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCityDetected }) {
+export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCityDetected, onJurisdictionsDetected }) {
   const [page, setPage] = useState(PAGES.HOME);
   const [lang, setLang] = useState("en");
   const [selectedEntryId, setSelectedEntryId] = useState(null);
@@ -489,19 +490,19 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
   const [search, setSearch] = useState("");
   const [city, setCity] = useState("your area");
 
-  // Detect city via geolocation + free reverse geocode
+  // Detect town/village via local GeoJSON — no coordinates leave the device
   useEffect(() => {
     if (!navigator.geolocation) return;
     navigator.geolocation.getCurrentPosition((pos) => {
       const { latitude, longitude } = pos.coords;
-      fetch(`https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`)
-        .then((r) => r.json())
-        .then((d) => {
-          const addr = d.address || {};
-          const place = addr.city || addr.town || addr.village || addr.county || null;
-          if (place) { setCity(place); if (onCityDetected) onCityDetected(place); }
-        })
-        .catch(() => {});
+      const matches = resolveJurisdiction({ lat: latitude, lng: longitude });
+      if (matches.length > 0) {
+        // Use the most specific match (village first, then town/city) for display
+        const displayName = matches[0].name;
+        setCity(displayName);
+        if (onCityDetected) onCityDetected(displayName);
+        if (onJurisdictionsDetected) onJurisdictionsDetected(matches);
+      }
     }, () => {});
   }, []);
   const [loaded, setLoaded] = useState(false);
