@@ -47,6 +47,7 @@ const CATEGORIES = ['benefits', 'consumer', 'housing', 'family', 'employment', '
 
 const STATIC_PAGES = [
   { path: '/', priority: '1.0', changefreq: 'weekly' },
+  { path: '/help', priority: '0.9', changefreq: 'weekly' },
   { path: '/about', priority: '0.6', changefreq: 'monthly' },
   { path: '/support', priority: '0.7', changefreq: 'monthly' },
   { path: '/privacy', priority: '0.3', changefreq: 'yearly' },
