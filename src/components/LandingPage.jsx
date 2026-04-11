@@ -112,7 +112,7 @@ const UI = {
     back: "← Back",
     aboutTitle: "About",
     aboutP1: "HelpFinder is a free tool that connects people with real programs in their city. No accounts. No personal data collected. No ads. Just answers.",
-    aboutP2: "Starting in Rochester, NY — with 250+ programs across 36 categories in 8 languages. Food, housing, healthcare, legal help, mental health, job training, and more. Every program is verified by hand.",
+    aboutP2: "Starting in Rochester, NY. Free. Verified. No account needed. Growing daily.",
     aboutP3: "The Clarity Reading is a guided reflection tool. Six questions. An honest reading based on what you share. Nothing is saved. Nothing is sold. The basic reading is free. Deeper tiers are donation-based. Clarity shouldn't have a price tag — but keeping this running does.",
     aboutPersonal: "I'm Anthony DiMarzo of Rochester. I have a CDL and I spend my days building roads. I spend my nights building this. I'd rather be building a better future for tomorrow. I noticed people in crisis can't find help — not because it doesn't exist, but because nobody put it in one place in plain language. So I did. No degree. No funding. No investors. Just me and a computer.",
     aboutFamily: "I live in Brockport with my fiancée and our son. He's six. He's the reason this exists. The world he inherits should be better than the one he was born into.",
@@ -186,7 +186,7 @@ const UI = {
     back: "← Atrás",
     aboutTitle: "Acerca de",
     aboutP1: "HelpFinder es una herramienta gratuita que conecta a las personas con programas reales en su ciudad. Sin cuentas. Sin datos recopilados. Sin anuncios. Solo respuestas.",
-    aboutP2: "Comenzando en Rochester, NY — con más de 250 programas en 36 categorías en 8 idiomas. Comida, vivienda, salud, ayuda legal, salud mental, capacitación laboral y más. Cada programa verificado a mano.",
+    aboutP2: "Comenzando en Rochester, NY. Gratis. Verificado. Sin cuenta. Creciendo cada día.",
     aboutP3: "La Lectura de Claridad es una herramienta de reflexión guiada. Seis preguntas. Una lectura honesta. Nada se guarda. Nada se vende. La lectura básica es gratis. Los niveles más profundos son por donación. La claridad no debería tener precio — pero mantener esto funcionando sí.",
     aboutPersonal: "Soy Anthony DiMarzo de Rochester. Tengo una licencia comercial y paso mis días construyendo caminos. Paso mis noches construyendo esto. Prefiero construir un mejor futuro para mañana. Noté que la gente en crisis no puede encontrar ayuda — no porque no exista, sino porque nadie la puso en un solo lugar en lenguaje sencillo. Así que lo hice yo. Sin título. Sin financiamiento. Sin inversionistas. Solo yo y una computadora.",
     aboutFamily: "Vivo en Brockport con mi prometida y nuestro hijo. Tiene seis años. Él es la razón por la que esto existe. El mundo que hereda debería ser mejor que en el que nació.",
@@ -285,7 +285,7 @@ const UI = {
     navHome: "الرئيسية", navAbout: "عن", navSupport: "دعم", navPrivacy: "الخصوصية", navContact: "اتصل",
     back: "← رجوع", aboutTitle: "عن",
     aboutP1: "HelpFinder أداة مجانية. لا حسابات. لا بيانات. لا إعلانات.",
-    aboutP2: "المدينة الأولى روتشستر — أكثر من 180 برنامجاً في 34 فئة.",
+    aboutP2: "نبدأ في روتشستر، نيويورك. مجاني. موثّق. بدون حساب. ينمو كل يوم.",
     aboutP3: "قراءة الوضوح أداة تأمل موجهة.",
     aboutPersonal: "أنا Anthony DiMarzo من روتشستر. أحمل رخصة قيادة تجارية وأقضي أيامي في بناء الطرق. أقضي ليالي في بناء هذا. أفضّل بناء مستقبل أفضل للغد. لاحظت أن الناس في أزمة لا يجدون المساعدة — ليس لأنها غير موجودة، بل لأن أحداً لم يجمعها في مكان واحد بلغة بسيطة. ففعلت ذلك. لا شهادة. لا تمويل. لا مستثمرين. أنا وحاسوب فقط.",
     aboutFamily: "أعيش في Brockport مع خطيبتي وابننا. عمره ست سنوات. هو سبب وجود هذا. العالم الذي سيرثه يجب أن يكون أفضل من الذي وُلد فيه.",
@@ -440,7 +440,7 @@ const UI = {
     navHome: "首页", navAbout: "关于", navSupport: "支持", navPrivacy: "隐私", navContact: "联系",
     back: "← 返回", aboutTitle: "关于",
     aboutP1: "HelpFinder是一个免费工具。无账户。无数据。无广告。",
-    aboutP2: "第一个城市是Rochester, NY — 34个类别中有180+个项目。",
+    aboutP2: "从纽约州罗切斯特起步。免费。已核实。无需账户。每日更新。",
     aboutP3: "清晰阅读是引导反思工具。",
     aboutPersonal: "我是Anthony DiMarzo，来自Rochester。我有商业驾照，白天修路。晚上建造这个。我宁愿为明天建造更好的未来。我注意到危机中的人找不到帮助——不是因为帮助不存在，而是没人用简单的语言把它放在一个地方。所以我做了。没有学位。没有资金。没有投资者。只有我和一台电脑。",
     aboutFamily: "我和未婚妻以及我们的儿子住在Brockport。他六岁。他是这一切存在的原因。他将继承的世界应该比他出生时的更好。",
@@ -782,7 +782,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             <div style={{ fontSize: 34, flexShrink: 0, lineHeight: 1 }}>⚖️</div>
             <div style={{ flex: 1, minWidth: 0 }}>
               <div style={{ fontSize: 16, fontWeight: 700, color: C.bark, marginBottom: 3 }}>Know Your Rights</div>
-              <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.45 }}>46 free legal guides. Benefits, housing, employment, immigration. In 20 languages.</div>
+              <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.45 }}>Free legal guides. Benefits, housing, employment, immigration.</div>
             </div>
             <div style={{ fontSize: 22, color: C.amber, flexShrink: 0, fontWeight: 700 }}>→</div>
           </button>
