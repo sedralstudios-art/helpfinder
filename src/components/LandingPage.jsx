@@ -491,7 +491,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
       const matches = resolveJurisdiction({ lat: latitude, lng: longitude });
       if (matches.length > 0) {
         // Use the most specific match (village first, then town/city) for display
-        const displayName = matches[0].name;
+        const displayName = matches[0].displayName;
         setCity(displayName);
         if (onCityDetected) onCityDetected(displayName);
         if (onJurisdictionsDetected) onJurisdictionsDetected(matches);

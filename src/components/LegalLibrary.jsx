@@ -215,7 +215,7 @@ export function LegalLibraryBrowse({ legalLang, setLegalLang, categoryFilter, on
       <p style={{ fontSize: 14, color: C.stone, marginBottom: 6, lineHeight: 1.6 }}>{meta.desc}</p>
       <p style={{ fontSize: 12, color: C.dust, marginBottom: hasGeo && !showAll && hiddenCount > 0 ? 8 : 22 }}>
         {entries.length} guide{entries.length === 1 ? "" : "s"}
-        {hasGeo && !showAll ? " for " + jurisdictions.map(j => j.name).join(" + ") : ""}
+        {hasGeo && !showAll ? " for " + jurisdictions.map(j => j.displayName || j.name).join(" + ") : ""}
       </p>
       {hasGeo && hiddenCount > 0 && (
         <button

@@ -90,7 +90,7 @@ export const entry = {
       access: "Online complaint form or phone intake",
       outcome: "State investigation and potential recovery of unpaid wages",
       phone: "1-888-469-7365",
-      url: "https://dol.ny.gov/wage-theft",
+      url: "https://dol.ny.gov/wage-theft-hub",
       verified: true,
       bilingual: true,
       languages: ["en", "es"]
@@ -107,8 +107,8 @@ export const entry = {
   ],
 
   sources: [
-    "https://dos.ny.gov/uniform-code",
-    "https://dol.ny.gov/wage-theft",
+    "https://dos.ny.gov/building-standards-and-codes",
+    "https://dol.ny.gov/wage-theft-hub",
     "https://www.nysenate.gov/legislation/laws/LAB/191",
     "https://www.nysenate.gov/legislation/laws/LIE/3"
   ],

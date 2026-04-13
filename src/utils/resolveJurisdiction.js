@@ -50,7 +50,10 @@ export function resolveJurisdiction({ lat, lng }) {
   const matches = [];
   for (const feature of jurisdictions.features) {
     if (pointInGeometry(point, feature.geometry)) {
-      matches.push({ name: feature.properties.name, tier: feature.properties.tier });
+      const tier = feature.properties.tier;
+      const name = feature.properties.name;
+      const prefix = tier === 'city' ? 'City of' : tier === 'village' ? 'Village of' : 'Town of';
+      matches.push({ name, tier, displayName: prefix + ' ' + name });
     }
   }
   matches.sort((a, b) => {

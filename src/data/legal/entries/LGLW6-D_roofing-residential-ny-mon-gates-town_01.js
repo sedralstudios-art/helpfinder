@@ -59,7 +59,7 @@ export const entry = {
       access: "1605 Buffalo Road, Rochester, NY 14624; phone; email trech@townofgates.org",
       outcome: "Permit issuance, inspection scheduling, code guidance, grant coordination",
       phone: "585-247-6100",
-      url: "https://www.townofgatesny.gov/building-department-permit-issuance/",
+      url: "https://www.townofgatesny.gov/building-department-and-public-works/",
       verified: true,
       bilingual: false,
       languages: ["en"]
@@ -75,7 +75,7 @@ export const entry = {
   ],
 
   sources: [
-    "https://www.townofgatesny.gov/building-department-permit-issuance/",
+    "https://www.townofgatesny.gov/building-department-and-public-works/",
     "https://ecode360.com/12241717",
     "https://ecode360.com/12242998"
   ],
