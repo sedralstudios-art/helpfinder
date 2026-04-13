@@ -312,8 +312,3 @@ export function getUrgencyLevel(answers) {
   return highest;
 }
 
-// Returns the language code the user said they need help in, or null.
-// Used by results render to show an interpreter notice.
-export function getRequestedLanguage(answers) {
-  return (answers && answers.language) || null;
-}
