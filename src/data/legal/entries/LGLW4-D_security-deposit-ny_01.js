@@ -85,7 +85,7 @@ export const SECURITY_DEPOSIT_NY = {
       qualifier: "Low income residents of Monroe County",
       access: "Referral through Monroe County Bar Association",
       outcome: "Pro bono volunteer attorney representation",
-      phone: "",
+      phone: "585-232-3051",
       url: "https://mcba.org/?pg=TelescaCenterforJustice",
       verified: true,
       bilingual: false,

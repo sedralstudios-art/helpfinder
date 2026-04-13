@@ -32,7 +32,7 @@ export const EVICTION_PROCESS_NY = {
       "You have the right to appear in court, present evidence, and raise defenses including breach of the warranty of habitability, retaliation, or improper notice.",
       "After a warrant of eviction is issued, you have the right to at least 14 days notice before a sheriff or marshal can carry out the eviction (RPAPL § 749).",
       "You may request a stay of eviction for up to one year in cases of hardship if you cannot find similar housing in the area (RPAPL § 753).",
-      "If your landlord uses force, threats, lockouts, or utility shutoffs to remove you without a court order, you may be entitled to triple damages (RPAPL § 853)."
+      "RPAPL § 853 allows a court to award treble damages against a landlord who uses force, threats, lockouts, or utility shutoffs to remove a tenant without a court order."
     ]
   },
 
@@ -85,7 +85,7 @@ export const EVICTION_PROCESS_NY = {
       qualifier: "Low income residents of Monroe County",
       access: "Referral through Monroe County Bar Association",
       outcome: "Pro bono volunteer attorney representation",
-      phone: "",
+      phone: "585-232-3051",
       url: "https://mcba.org/?pg=TelescaCenterforJustice",
       verified: true,
       bilingual: false,

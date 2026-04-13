@@ -30,7 +30,7 @@ export const MINIMUM_WAGE_NY = {
       "You have the right to receive a written wage notice at the time of hire stating your pay rate, pay schedule, and employer information. This is required by the Wage Theft Prevention Act (Labor Law § 195).",
       "You have the right to receive pay stubs with every payment showing hours worked, rate of pay, deductions, and other required information (Labor Law § 195).",
       "You have the right to file a complaint with the New York State Department of Labor if you are being paid less than the minimum wage, without fear of retaliation.",
-      "If your employer violates the minimum wage law, you may be entitled to recover the unpaid wages plus liquidated damages of up to 100% of the underpayment (Labor Law § 663).",
+      "Under Labor Law § 663, an employee who is paid less than the minimum wage can sue to recover the unpaid wages plus liquidated damages of up to 100% of the underpayment. Courts decide what applies in each case.",
       "Your employer cannot retaliate against you for making a wage complaint. Retaliation is a separate violation of New York Labor Law."
     ]
   },

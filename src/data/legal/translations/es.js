@@ -206,7 +206,7 @@ export default {
       "Tiene derecho a comparecer ante el tribunal, presentar evidencia y plantear defensas, incluyendo incumplimiento de la garantía de habitabilidad, represalias o notificación indebida.",
       "Después de que se emita una orden de desalojo, tiene derecho a al menos 14 días de aviso antes de que un alguacil o marshal pueda ejecutar el desalojo (RPAPL § 749).",
       "Puede solicitar una suspensión del desalojo por hasta un año en casos de dificultades económicas si no puede encontrar vivienda similar en el área (RPAPL § 753).",
-      "Si su arrendador usa fuerza, amenazas, cambio de cerraduras o corte de servicios públicos para sacarlo sin una orden judicial, puede tener derecho a daños triplicados (RPAPL § 853)."
+      "RPAPL § 853 permite a un tribunal otorgar daños triplicados contra un arrendador que use fuerza, amenazas, cambio de cerraduras o corte de servicios públicos para sacar a un inquilino sin una orden judicial."
     ]
   },
   "section-8-housing-voucher-ny": {
@@ -397,7 +397,7 @@ export default {
       "Tiene derecho a que le paguen por cada hora que trabaje, incluyendo horas extras a 1.5 veces su tarifa regular por todas las horas que excedan las 40 en una semana laboral (Labor Law § 160).",
       "Tiene derecho a quedarse con sus propinas. Su empleador no puede tomar sus propinas ni exigirle que las comparta con gerentes o dueños (Labor Law § 196-d).",
       "Tiene derecho a estar libre de deducciones no autorizadas. Su empleador no puede descontar dinero de su cheque por roturas, faltantes en la caja registradora o uniformes sin su consentimiento por escrito y solo si la deducción le beneficia a usted (Labor Law § 193).",
-      "Tiene derecho a un aviso de salario por escrito al momento de ser contratado y a un recibo de pago detallado con cada pago (Labor Law § 195). Si su empleador no se los proporciona, puede tener derecho a daños de $50 por día por un aviso de salario faltante y $250 por día por recibos de pago faltantes, cada uno con un tope de $5,000.",
+      "Tiene derecho a un aviso de salario por escrito al momento de ser contratado y a un recibo de pago detallado con cada pago (Labor Law § 195). Labor Law § 198 establece daños estatutarios por estas violaciones: $50 por día por un aviso de salario faltante y $250 por día por recibos de pago faltantes, cada uno con un tope de $5,000. Los tribunales deciden qué aplica en cada caso.",
       "Tiene derecho a presentar una queja ante el Departamento de Trabajo o a entablar una demanda civil para recuperar salarios no pagados de hasta seis años atrás, más daños liquidados de hasta el 100% de lo que se le debe, más honorarios de abogado (Labor Law § 198).",
       "Está protegido contra represalias. Su empleador no puede despedirlo, reducirle sus horas ni castigarlo por presentar una queja salarial (Labor Law § 215)."
     ]
@@ -411,7 +411,7 @@ export default {
       "Tiene derecho a no ser despedido por denunciar — reportar actividad que razonablemente crea que viola una ley, norma o regulación, o que crea un peligro sustancial para la salud o seguridad pública (Labor Law § 740).",
       "Tiene derecho a no ser despedido por ejercer derechos legalmente protegidos, incluyendo tomar licencia familiar o médica, presentar un reclamo de compensación laboral, servir como jurado, votar o servir en las fuerzas armadas.",
       "Tiene derecho a no ser despedido por solicitar un acomodo razonable para una discapacidad o embarazo. Bajo la Ley Anti-Represalias por Acomodo Razonable (vigente desde diciembre de 2025), solicitar un acomodo es en sí mismo una actividad protegida.",
-      "Si es despedido en violación de estas protecciones, puede tener derecho a pago retroactivo, pago prospectivo, daños compensatorios, daños por angustia emocional, daños punitivos, reinstalación y honorarios de abogado."
+      "Los remedios bajo estas leyes pueden incluir pago retroactivo, pago prospectivo, daños compensatorios, daños por angustia emocional, daños punitivos, reinstalación y honorarios de abogado. Los tribunales deciden qué remedios aplican en cada caso."
     ]
   },
   "illegal-eviction-ny": {
@@ -422,7 +422,7 @@ export default {
       "Si lo han dejado fuera ilegalmente, tiene derecho a ser restituido a su hogar. Los agentes del orden tienen directrices del Fiscal General para ayudar a los inquilinos a volver a entrar a sus hogares durante un bloqueo ilegal.",
       "Tiene derecho a llamar a la policía. Un desalojo ilegal es un delito menor de Clase A, y la persona responsable puede ser arrestada (RPAPL § 768).",
       "Tiene derecho a presentar un procedimiento judicial para ser restituido a la posesión de su hogar si ha sido removido ilegalmente (RPAPL § 713(10)). Este procedimiento debe iniciarse dentro de un año del desalojo ilegal.",
-      "Puede tener derecho a recuperar daños triplicados — tres veces sus pérdidas financieras comprobadas — por un desalojo forzado o ilegal. Esto puede incluir el costo de vivienda temporal, bienes dañados o perdidos y otras pérdidas (RPAPL § 853).",
+      "Bajo RPAPL § 853, un tribunal puede otorgar daños triplicados — tres veces las pérdidas financieras comprobadas — por un desalojo forzado o ilegal. Las pérdidas comprobables pueden incluir el costo de vivienda temporal, bienes dañados o perdidos y otros daños financieros. Los tribunales deciden qué aplica en cada caso.",
       "La falta del arrendador de restituirlo después de que usted lo solicite es en sí misma una violación criminal separada, que conlleva penalidades adicionales de hasta $100 por día (RPAPL § 768)."
     ]
   },
@@ -434,7 +434,7 @@ export default {
       "Tiene derecho a recibir un aviso de salario por escrito al momento de ser contratado que indique su tarifa de pago, horario de pago e información del empleador. Esto es requerido por la Ley de Prevención del Robo de Salario (Labor Law § 195).",
       "Tiene derecho a recibir recibos de pago con cada pago que muestren las horas trabajadas, la tarifa de pago, las deducciones y otra información requerida (Labor Law § 195).",
       "Tiene derecho a presentar una queja ante el Departamento de Trabajo del Estado de Nueva York si le están pagando menos del salario mínimo, sin temor a represalias.",
-      "Si su empleador viola la ley del salario mínimo, puede tener derecho a recuperar los salarios no pagados más daños liquidados de hasta el 100% del pago insuficiente (Labor Law § 663).",
+      "Bajo Labor Law § 663, un empleado al que se le paga menos del salario mínimo puede demandar para recuperar los salarios no pagados más daños liquidados de hasta el 100% del pago insuficiente. Los tribunales deciden qué aplica en cada caso.",
       "Su empleador no puede tomar represalias contra usted por presentar una queja salarial. La represalia es una violación separada de la Ley Laboral de Nueva York."
     ]
   },
@@ -495,7 +495,7 @@ export default {
       "Tiene derecho a calefacción funcional desde el 1 de octubre hasta el 31 de mayo, y a agua caliente durante todo el año.",
       "Tiene derecho a estar libre de represalias. Bajo RPL § 223-b, su arrendador no puede desalojarlo, aumentarle la renta ni reducirle servicios porque usted se haya quejado de las condiciones o haya contactado a una agencia gubernamental.",
       "Tiene derecho a solicitar reparaciones y a contactar al cumplimiento de códigos locales si su arrendador no responde.",
-      "Si su hogar se vuelve inhabitable debido a un incendio o daño no causado por usted, puede tener derecho a cancelar el contrato de arrendamiento y a que le devuelvan la renta pagada por adelantado y su depósito de seguridad (RPL § 227).",
+      "RPL § 227 permite a un inquilino cancelar el contrato de arrendamiento y recuperar la renta pagada por adelantado y el depósito de seguridad si el hogar se vuelve inhabitable debido a un incendio o daño que el inquilino no causó.",
       "Cualquier lenguaje en el contrato de arrendamiento que intente renunciar a su derecho a un hogar habitable es nulo por ser contrario a la política pública."
     ]
   }

@@ -31,7 +31,7 @@ export const WRONGFUL_TERMINATION_NY = {
       "You have the right not to be fired for whistleblowing — reporting activity that you reasonably believe violates a law, rule, or regulation, or that creates a substantial danger to public health or safety (Labor Law § 740).",
       "You have the right not to be fired for exercising legally protected rights, including taking family or medical leave, filing a workers' compensation claim, serving on a jury, voting, or serving in the military.",
       "You have the right not to be fired for requesting a reasonable accommodation for a disability or pregnancy. Under the Reasonable Accommodation Anti-Retaliation Act (effective December 2025), requesting an accommodation is itself a protected activity.",
-      "If you are fired in violation of these protections, you may be entitled to back pay, front pay, compensatory damages, emotional distress damages, punitive damages, reinstatement, and attorney's fees."
+      "Remedies under these laws can include back pay, front pay, compensatory damages, emotional distress damages, punitive damages, reinstatement, and attorney's fees. Courts decide what remedies apply in each case."
     ]
   },
 

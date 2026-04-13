@@ -29,7 +29,7 @@ export const WAGE_THEFT_NY = {
       "You have the right to be paid for every hour you work, including overtime at 1.5 times your regular rate for all hours over 40 in a work week (Labor Law § 160).",
       "You have the right to keep your tips. Your employer cannot take your tips or require you to share them with managers or owners (Labor Law § 196-d).",
       "You have the right to be free from unauthorized deductions. Your employer cannot take money from your paycheck for breakage, cash register shortages, or uniforms without your written consent and only if the deduction benefits you (Labor Law § 193).",
-      "You have the right to a written wage notice at the time of hire and a detailed pay stub with every payment (Labor Law § 195). If your employer fails to provide these, you may be entitled to damages of $50 per day for a missing wage notice and $250 per day for missing pay stubs, each capped at $5,000.",
+      "You have the right to a written wage notice at the time of hire and a detailed pay stub with every payment (Labor Law § 195). Labor Law § 198 sets statutory damages for these violations: $50 per day for a missing wage notice and $250 per day for missing pay stubs, each capped at $5,000. Courts decide what applies in each case.",
       "You have the right to file a complaint with the Department of Labor or bring a civil lawsuit to recover unpaid wages going back six years, plus liquidated damages of up to 100% of what you are owed, plus attorney's fees (Labor Law § 198).",
       "You are protected from retaliation. Your employer cannot fire you, reduce your hours, or punish you for filing a wage complaint (Labor Law § 215)."
     ]

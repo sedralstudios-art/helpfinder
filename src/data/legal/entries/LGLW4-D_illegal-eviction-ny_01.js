@@ -30,7 +30,7 @@ export const ILLEGAL_EVICTION_NY = {
       "If you are illegally locked out, you have the right to be restored to your home. Law enforcement officers have guidance from the Attorney General to help tenants get back into their homes during an illegal lockout.",
       "You have the right to call the police. An illegal eviction is a Class A misdemeanor, and the person responsible can be arrested (RPAPL § 768).",
       "You have the right to file a court proceeding to be restored to possession of your home if you have been illegally removed (RPAPL § 713(10)). This proceeding must be started within one year of the illegal eviction.",
-      "You may be entitled to recover triple damages — three times your proven financial losses — for a forcible or unlawful eviction. This can include the cost of temporary housing, damaged or lost property, and other losses (RPAPL § 853).",
+      "Under RPAPL § 853, a court can award treble damages — three times proven financial losses — for a forcible or unlawful eviction. Provable losses can include temporary housing costs, damaged or lost property, and other financial harm. Courts decide what applies in each case.",
       "The landlord's failure to restore you after you request it is itself a separate criminal violation, carrying additional penalties of up to $100 per day (RPAPL § 768)."
     ]
   },
@@ -84,7 +84,7 @@ export const ILLEGAL_EVICTION_NY = {
       qualifier: "Low income residents of Monroe County",
       access: "Referral through Monroe County Bar Association",
       outcome: "Pro bono volunteer attorney representation",
-      phone: "",
+      phone: "585-232-3051",
       url: "https://mcba.org/?pg=TelescaCenterforJustice",
       verified: true,
       bilingual: false,

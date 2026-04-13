@@ -30,7 +30,7 @@ export const TENANT_HABITABILITY_NY = {
       "You have the right to working heat from October 1 through May 31, and hot water year-round.",
       "You have the right to be free from retaliation. Under RPL § 223-b, your landlord cannot evict you, raise your rent, or reduce services because you complained about conditions or contacted a government agency.",
       "You have the right to request repairs and to contact local code enforcement if your landlord does not respond.",
-      "If your home becomes uninhabitable due to fire or damage not caused by you, you may be entitled to cancel the lease and have prepaid rent and your security deposit returned (RPL § 227).",
+      "RPL § 227 allows a tenant to cancel a lease and recover prepaid rent and security deposit if the home becomes uninhabitable through fire or damage the tenant did not cause.",
       "Any lease language that tries to waive your right to a habitable home is void as against public policy."
     ]
   },
@@ -84,7 +84,7 @@ export const TENANT_HABITABILITY_NY = {
       qualifier: "Low income residents of Monroe County",
       access: "Referral through Monroe County Bar Association",
       outcome: "Pro bono volunteer attorney representation",
-      phone: "",
+      phone: "585-232-3051",
       url: "https://mcba.org/?pg=TelescaCenterforJustice",
       verified: true,
       bilingual: false,
