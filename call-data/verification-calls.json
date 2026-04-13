@@ -58,5 +58,13 @@
   {"id":"webster-clerk-hours","name":"Webster Town Clerk","number":"585-872-1000","ask":"Confirm hours. Not published on website. M-F 8:30am-4:30pm?","status":"pending"},
   {"id":"webster-commchest-hours","name":"Webster Community Chest","number":"585-671-2060","ask":"Confirm meal distribution schedule and hours.","status":"pending"},
   {"id":"wheatland-dogcontrol","name":"Wheatland Dog Control","number":"585-747-0275","ask":"Confirm this is current dog control number.","status":"pending"},
-  {"id":"stmartin-food","name":"St. Martin de Porres Food Cupboard","number":"585-294-3065","ask":"Confirm food cupboard hours and if by appointment.","status":"pending"}
+  {"id":"stmartin-food","name":"St. Martin de Porres Food Cupboard","number":"585-294-3065","ask":"Confirm food cupboard hours and if by appointment.","status":"pending"},
+  {"id":"roc-market-sat","name":"Rochester Public Market","number":"585-428-6907","ask":"Saturday opening time: 5am or 6am?","status":"pending"},
+  {"id":"roc-housingcourt","name":"Rochester Housing Court","number":"585-371-3608","ask":"Confirm this is the correct direct line for housing court.","status":"pending"},
+  {"id":"roc-teenempower","name":"Teen Empowerment (Dewey)","number":"585-445-5380","ask":"Confirm this phone for the 1298 Dewey Ave location.","status":"pending"},
+  {"id":"roc-cfc-refugees","name":"Catholic Family Center Refugees","number":"585-262-7050","ask":"Are refugee resettlement services still active? Org rebranded to CCFCS.","status":"pending"},
+  {"id":"roc-eitc-phone","name":"EITC entry","number":"585-258-3500","ask":"This is RochesterWorks phone. Should EITC entry point to CASH Coalition (585-242-6485) instead?","status":"pending"},
+  {"id":"roc-dss-transport","name":"DSS Transportation Vouchers","number":"585-753-6960","ask":"Does this number handle transportation voucher requests specifically?","status":"pending"},
+  {"id":"roc-rainbow-union","name":"Rochester Rainbow Union","number":"unknown","ask":"Confirm phone, address, website for Out Alliance successor org.","status":"pending"},
+  {"id":"roc-voa-veterans","name":"VOA Veterans Housing","number":"585-454-1150","ask":"Confirm this phone is still current for VOA Veterans Housing.","status":"pending"}
 ]
