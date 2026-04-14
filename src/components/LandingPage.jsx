@@ -95,6 +95,21 @@ const UI = {
     tier1: "Keeps the site running for a week",
     tier2: "Covers a full month of hosting",
     tier3: "Helps us add a new city",
+    tier1Monthly: "Keeps the lights on",
+    tier2Monthly: "Real sponsor",
+    tier3Monthly: "Funds expansion",
+    donateOneTime: "One-time",
+    donateMonthly: "Monthly",
+    donateCustomLabel: "Other amount",
+    donateCustomBtn: "Donate",
+    taxStatusBanner: "Not tax-deductible yet — we're working toward 501(c)(3) status.",
+    memoryNote: "Sedral Studios carries the name of Steven T. May. Your donation keeps that name in the world.",
+    budgetHeading: "Where your money goes",
+    budgetText: "Hosting, domain registration, phone verification calls, and expansion to new Monroe County neighbors (Wayne, Ontario, Livingston counties next).",
+    nonMonetaryHeading: "Support without money",
+    nonMonetaryShare: "Share HelpFinder with someone who might need it",
+    nonMonetaryFeedback: "Tell us what's missing or wrong",
+    nonMonetaryAdd: "Add a program you know about that isn't listed",
     donatePaypal: "Donate via PayPal", teamwork: "Teamwork makes the dream work.",
     supportDisclaimer: "Sedral Studios is not a registered nonprofit. Donations support hosting, research, and expansion to new cities. Thank you.",
     shareLabel: "Share HelpFinder",
@@ -474,6 +489,8 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
   // ── Donation handler — calls Stripe checkout API ──
   const [donateLoading, setDonateLoading] = useState(false);
   const [donateError, setDonateError] = useState(null);
+  const [donateRecurring, setDonateRecurring] = useState(false);
+  const [donateCustom, setDonateCustom] = useState("");
   const handleDonate = async (amountCents) => {
     setDonateLoading(true);
     setDonateError(null);
@@ -481,7 +498,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
       const res = await fetch("/api/create-checkout-session", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ amount: amountCents }),
+        body: JSON.stringify({ amount: amountCents, recurring: donateRecurring }),
       });
       const data = await res.json();
       if (data.url) {
@@ -493,6 +510,18 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
       setDonateError("Card payment is temporarily unavailable. Please try PayPal below.");
       setDonateLoading(false);
     }
+  };
+  const handleDonateCustom = () => {
+    const dollars = parseFloat(donateCustom);
+    if (isNaN(dollars) || dollars < 1) {
+      setDonateError("Please enter an amount of $1 or more.");
+      return;
+    }
+    if (dollars > 10000) {
+      setDonateError("For donations over $10,000, please contact us directly at hello@helpfinder.help.");
+      return;
+    }
+    handleDonate(Math.round(dollars * 100));
   };
 
   return (
@@ -758,69 +787,106 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
         <main style={{ padding: "0 20px 40px" }}>
           <button onClick={() => nav(PAGES.HOME)} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, color: C.stone, padding: "16px 0", fontFamily: "inherit" }}>{t(lang,"back")}</button>
           <h2 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 28, fontWeight: 400, marginBottom: 12, color: C.bark }}>{t(lang,"supportTitle")}</h2>
-          <p style={{ fontSize: 15, lineHeight: 1.6, color: C.stone, marginBottom: 24 }}>{t(lang,"supportDesc")}</p>
+
+          {/* Tax status banner — up top, honest */}
+          <p style={{
+            background: C.amberLight, border: `1px solid ${C.amber}`, borderRadius: 10,
+            padding: "10px 14px", fontSize: 13, color: C.bark,
+            marginBottom: 20, lineHeight: 1.5,
+          }}>
+            {t(lang,"taxStatusBanner")}
+          </p>
+
+          <p style={{ fontSize: 15, lineHeight: 1.6, color: C.stone, marginBottom: 20 }}>{t(lang,"supportDesc")}</p>
+
+          {/* One-time / Monthly toggle */}
+          <div style={{ display: "flex", gap: 0, marginBottom: 16, border: `1.5px solid ${C.border}`, borderRadius: 24, padding: 4, background: C.white }}>
+            <button
+              onClick={() => setDonateRecurring(false)}
+              style={{
+                flex: 1, padding: "8px 12px", border: "none",
+                background: !donateRecurring ? C.forest : "transparent",
+                color: !donateRecurring ? C.white : C.stone,
+                borderRadius: 20, cursor: "pointer", fontFamily: "inherit",
+                fontSize: 14, fontWeight: 600, transition: "all 0.15s",
+              }}
+            >{t(lang,"donateOneTime")}</button>
+            <button
+              onClick={() => setDonateRecurring(true)}
+              style={{
+                flex: 1, padding: "8px 12px", border: "none",
+                background: donateRecurring ? C.forest : "transparent",
+                color: donateRecurring ? C.white : C.stone,
+                borderRadius: 20, cursor: "pointer", fontFamily: "inherit",
+                fontSize: 14, fontWeight: 600, transition: "all 0.15s",
+              }}
+            >{t(lang,"donateMonthly")}</button>
+          </div>
 
           {/* Three tier buttons */}
-          <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 20 }}>
-            <button
-              onClick={() => handleDonate(500)}
-              disabled={donateLoading}
-              style={{
-                background: C.white, border: `2px solid ${C.border}`, borderRadius: 16,
-                padding: "16px 18px", cursor: donateLoading ? "default" : "pointer",
-                textAlign: "left", fontFamily: "inherit",
-                display: "flex", justifyContent: "space-between", alignItems: "center",
-                transition: "all 0.15s",
-              }}
-              onMouseOver={e => { if (!donateLoading) { e.currentTarget.style.borderColor = C.forest; e.currentTarget.style.background = C.sage; } }}
-              onMouseOut={e => { e.currentTarget.style.borderColor = C.border; e.currentTarget.style.background = C.white; }}
-            >
-              <div>
-                <div style={{ fontSize: 18, fontWeight: 700, color: C.bark, marginBottom: 2 }}>$5</div>
-                <div style={{ fontSize: 13, color: C.stone }}>{t(lang,"tier1")}</div>
-              </div>
-              <span style={{ fontSize: 20, color: C.forest }}>→</span>
-            </button>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 14 }}>
+            {[
+              { amount: 500, label: "$5", oneTimeKey: "tier1", monthlyKey: "tier1Monthly" },
+              { amount: 2000, label: "$20", oneTimeKey: "tier2", monthlyKey: "tier2Monthly" },
+              { amount: 10000, label: "$100", oneTimeKey: "tier3", monthlyKey: "tier3Monthly" },
+            ].map((tier) => (
+              <button
+                key={tier.amount}
+                onClick={() => handleDonate(tier.amount)}
+                disabled={donateLoading}
+                style={{
+                  background: C.white, border: `2px solid ${C.border}`, borderRadius: 16,
+                  padding: "16px 18px", cursor: donateLoading ? "default" : "pointer",
+                  textAlign: "left", fontFamily: "inherit",
+                  display: "flex", justifyContent: "space-between", alignItems: "center",
+                  transition: "all 0.15s",
+                }}
+                onMouseOver={e => { if (!donateLoading) { e.currentTarget.style.borderColor = C.forest; e.currentTarget.style.background = C.sage; } }}
+                onMouseOut={e => { e.currentTarget.style.borderColor = C.border; e.currentTarget.style.background = C.white; }}
+              >
+                <div>
+                  <div style={{ fontSize: 18, fontWeight: 700, color: C.bark, marginBottom: 2 }}>
+                    {tier.label}{donateRecurring ? "/mo" : ""}
+                  </div>
+                  <div style={{ fontSize: 13, color: C.stone }}>
+                    {t(lang, donateRecurring ? tier.monthlyKey : tier.oneTimeKey)}
+                  </div>
+                </div>
+                <span style={{ fontSize: 20, color: C.forest }}>→</span>
+              </button>
+            ))}
+          </div>
 
+          {/* Custom amount */}
+          <div style={{ display: "flex", gap: 8, marginBottom: 18 }}>
+            <div style={{ flex: 1, position: "relative" }}>
+              <span style={{ position: "absolute", left: 14, top: "50%", transform: "translateY(-50%)", color: C.dust, fontSize: 16 }}>$</span>
+              <input
+                type="number" min="1" max="10000" step="1"
+                placeholder={t(lang,"donateCustomLabel")}
+                value={donateCustom}
+                onChange={(e) => setDonateCustom(e.target.value)}
+                style={{
+                  width: "100%", padding: "14px 14px 14px 28px",
+                  border: `2px solid ${C.border}`, borderRadius: 16,
+                  fontSize: 15, fontFamily: "inherit", color: C.bark,
+                  background: C.white, outline: "none",
+                }}
+                onFocus={e => e.currentTarget.style.borderColor = C.forest}
+                onBlur={e => e.currentTarget.style.borderColor = C.border}
+              />
+            </div>
             <button
-              onClick={() => handleDonate(2000)}
-              disabled={donateLoading}
+              onClick={handleDonateCustom}
+              disabled={donateLoading || !donateCustom}
               style={{
-                background: C.white, border: `2px solid ${C.border}`, borderRadius: 16,
-                padding: "16px 18px", cursor: donateLoading ? "default" : "pointer",
-                textAlign: "left", fontFamily: "inherit",
-                display: "flex", justifyContent: "space-between", alignItems: "center",
-                transition: "all 0.15s",
+                background: (donateCustom && !donateLoading) ? C.forest : C.border,
+                color: C.white, border: "none", borderRadius: 16,
+                padding: "0 20px", fontSize: 14, fontWeight: 700,
+                cursor: (donateCustom && !donateLoading) ? "pointer" : "default",
+                fontFamily: "inherit", transition: "background 0.15s",
               }}
-              onMouseOver={e => { if (!donateLoading) { e.currentTarget.style.borderColor = C.forest; e.currentTarget.style.background = C.sage; } }}
-              onMouseOut={e => { e.currentTarget.style.borderColor = C.border; e.currentTarget.style.background = C.white; }}
-            >
-              <div>
-                <div style={{ fontSize: 18, fontWeight: 700, color: C.bark, marginBottom: 2 }}>$20</div>
-                <div style={{ fontSize: 13, color: C.stone }}>{t(lang,"tier2")}</div>
-              </div>
-              <span style={{ fontSize: 20, color: C.forest }}>→</span>
-            </button>
-
-            <button
-              onClick={() => handleDonate(10000)}
-              disabled={donateLoading}
-              style={{
-                background: C.white, border: `2px solid ${C.border}`, borderRadius: 16,
-                padding: "16px 18px", cursor: donateLoading ? "default" : "pointer",
-                textAlign: "left", fontFamily: "inherit",
-                display: "flex", justifyContent: "space-between", alignItems: "center",
-                transition: "all 0.15s",
-              }}
-              onMouseOver={e => { if (!donateLoading) { e.currentTarget.style.borderColor = C.forest; e.currentTarget.style.background = C.sage; } }}
-              onMouseOut={e => { e.currentTarget.style.borderColor = C.border; e.currentTarget.style.background = C.white; }}
-            >
-              <div>
-                <div style={{ fontSize: 18, fontWeight: 700, color: C.bark, marginBottom: 2 }}>$100</div>
-                <div style={{ fontSize: 13, color: C.stone }}>{t(lang,"tier3")}</div>
-              </div>
-              <span style={{ fontSize: 20, color: C.forest }}>→</span>
-            </button>
+            >{t(lang,"donateCustomBtn")}</button>
           </div>
 
           {donateLoading && (
@@ -851,20 +917,55 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
               background: "#0070ba", color: "#fff",
               padding: "14px 18px", borderRadius: 16,
               fontSize: 15, fontWeight: 700, textDecoration: "none",
-              marginBottom: 20,
+              marginBottom: 24,
             }}
           >
             {t(lang,"donatePaypal")}
           </a>
 
-          <div style={{ textAlign: "center", marginBottom: 20 }}>
-            <ShareButton
-              title="HelpFinder"
-              text={t(lang, "shareText")}
-              url="https://helpfinder.help"
-              label={t(lang, "shareLabel")}
-              ariaLabel={t(lang, "shareAriaLabel")}
-            />
+          {/* Steven T. May memorial note */}
+          <div style={{
+            background: C.cream, borderRadius: 12, padding: "16px 18px",
+            marginBottom: 24, fontSize: 14, lineHeight: 1.6, color: C.bark,
+            fontStyle: "italic",
+          }}>
+            {t(lang,"memoryNote")}
+          </div>
+
+          {/* Where the money goes */}
+          <div style={{ marginBottom: 28 }}>
+            <h3 style={{ fontSize: 16, fontWeight: 700, color: C.bark, marginBottom: 8 }}>
+              {t(lang,"budgetHeading")}
+            </h3>
+            <p style={{ fontSize: 14, color: C.stone, lineHeight: 1.6 }}>
+              {t(lang,"budgetText")}
+            </p>
+          </div>
+
+          {/* Support without money */}
+          <div style={{ marginBottom: 28, paddingTop: 24, borderTop: `1px solid ${C.border}` }}>
+            <h3 style={{ fontSize: 16, fontWeight: 700, color: C.bark, marginBottom: 12 }}>
+              {t(lang,"nonMonetaryHeading")}
+            </h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+              <div style={{ padding: "10px 0" }}>
+                <ShareButton
+                  title="HelpFinder"
+                  text={t(lang, "shareText")}
+                  url="https://helpfinder.help"
+                  label={t(lang, "nonMonetaryShare")}
+                  ariaLabel={t(lang, "shareAriaLabel")}
+                />
+              </div>
+              <a href="mailto:hello@helpfinder.help?subject=HelpFinder%20feedback" style={{
+                padding: "10px 0", color: C.forest, fontSize: 14,
+                textDecoration: "none", fontWeight: 600,
+              }}>→ {t(lang,"nonMonetaryFeedback")}</a>
+              <a href="mailto:hello@helpfinder.help?subject=Program%20to%20add" style={{
+                padding: "10px 0", color: C.forest, fontSize: 14,
+                textDecoration: "none", fontWeight: 600,
+              }}>→ {t(lang,"nonMonetaryAdd")}</a>
+            </div>
           </div>
 
           {/* Disclaimer */}

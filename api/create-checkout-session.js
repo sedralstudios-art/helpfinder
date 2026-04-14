@@ -8,9 +8,37 @@ export default async function handler(req, res) {
   }
 
   try {
-    const session = await stripe.checkout.sessions.create({
+    const amount = Number(req.body.amount) || 1000;
+    const isRecurring = req.body.recurring === true;
+
+    // Clamp to safe bounds — $1 min, $10,000 max per transaction.
+    const safeAmount = Math.max(100, Math.min(1000000, Math.round(amount)));
+
+    const sessionConfig = {
       payment_method_types: ['card'],
-      line_items: [
+      success_url: `${req.headers.origin}/thank-you`,
+      cancel_url: `${req.headers.origin}/support`,
+    };
+
+    if (isRecurring) {
+      sessionConfig.mode = 'subscription';
+      sessionConfig.line_items = [
+        {
+          price_data: {
+            currency: 'usd',
+            product_data: {
+              name: 'HelpFinder Monthly Supporter',
+              description: 'Monthly donation. Not tax-deductible. Supports hosting, research, and expansion.',
+            },
+            unit_amount: safeAmount,
+            recurring: { interval: 'month' },
+          },
+          quantity: 1,
+        },
+      ];
+    } else {
+      sessionConfig.mode = 'payment';
+      sessionConfig.line_items = [
         {
           price_data: {
             currency: 'usd',
@@ -18,16 +46,14 @@ export default async function handler(req, res) {
               name: 'Support HelpFinder',
               description: 'Voluntary donation. Not tax-deductible. All contributions support site operations.',
             },
-            unit_amount: req.body.amount || 1000,
+            unit_amount: safeAmount,
           },
           quantity: 1,
         },
-      ],
-      mode: 'payment',
-      success_url: `${req.headers.origin}/thank-you`,
-      cancel_url: `${req.headers.origin}/`,
-    });
+      ];
+    }
 
+    const session = await stripe.checkout.sessions.create(sessionConfig);
     res.status(200).json({ url: session.url });
   } catch (err) {
     res.status(500).json({ error: err.message });
