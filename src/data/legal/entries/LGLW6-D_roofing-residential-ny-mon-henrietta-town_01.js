@@ -19,7 +19,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Henrietta's permit requirement language is broad: building permits are required to construct, modify, install, or demolish any structures on properties, including houses. The Town does not publish a specific roofing exemption the way some neighboring towns do. The Building and Fire Prevention Department, staffed by NYS Department of State certified Code Enforcement inspectors, reviews all permit applications. Electrical inspections are performed by three outside agencies — call the Building Department for the list. The Town also adopted NYStretch Energy Code (effective January 2023) which adds energy efficiency requirements beyond the base NYS Energy Code."
+    en: "Henrietta's permit requirement language is broad: building permits must construct, modify, install, or demolish any structures on properties, including houses. The Town does not publish a specific roofing exemption the way some neighboring towns do. The Building and Fire Prevention Department, staffed by NYS Department of State certified Code Enforcement inspectors, reviews all permit applications. Electrical inspections are performed by three outside agencies — call the Building Department for the list. The Town also adopted NYStretch Energy Code (effective January 2023) which adds energy efficiency requirements beyond the base NYS Energy Code."
   },
 
   example: {

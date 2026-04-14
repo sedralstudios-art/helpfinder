@@ -16,15 +16,15 @@ export const entry = {
   },
 
   summary: {
-    en: "The Town of Hamlin explicitly requires a building permit for all roof-related work, including tear-offs and re-roofing. NYS Code limits roofing to no more than two layers — after that, a full tear-off down to the sheathing is required. Failure to obtain a permit results in a $125 fine."
+    en: "The Town of Hamlin explicitly requires a building permit for all roof-related work, including tear-offs and re-roofing. NYS Code limits roofing to no more than two layers — after that, a full tear-off down to the sheathing is required. Failure to get a permit results in a $125 fine."
   },
 
   whatItMeans: {
-    en: "Hamlin's Building Inspector states that a permit is required for all roof-related items, including tear-off and re-roof jobs. New York State Code allows a maximum of two layers of roofing — you can go over an existing roof once. After that, the roof must be torn off down to the sheathing before a new roof is installed. The Building Department issues over 300 permits per year and each permit requires one or more inspections. Property owners are responsible for knowing the Town's zoning code and the permits required. Failure to obtain a necessary permit before starting work adds a $125 fee or fine to the permit cost."
+    en: "Hamlin's Building Inspector states that a permit is required for all roof-related items, including tear-off and re-roof jobs. New York State Code allows up to two layers of roofing — you can go over an existing roof once. After that, the roof must be torn off down to the sheathing before a new roof is installed. The Building Department issues over 300 permits per year and each permit requires one or more inspections. Property owners are responsible for knowing the Town's zoning code and the permits required. Failure to get a necessary permit before starting work adds a $125 fee or fine to the permit cost."
   },
 
   example: {
-    en: "A homeowner in Hamlin hires a roofer to strip and replace their aging roof. Before work begins, the contractor obtains a building permit from the Building Department. The inspector verifies that the existing roof has only one layer of shingles, so a second layer could technically be added — but the homeowner has chosen a full tear-off for quality reasons. The permit is issued and inspections are scheduled."
+    en: "A homeowner in Hamlin hires a roofer to strip and replace their aging roof. Before work begins, the contractor gets a building permit from the Building Department. The inspector verifies that the existing roof has only one layer of shingles, so a second layer could technically be added — but the homeowner has chosen a full tear-off for quality reasons. The permit is issued and inspections are scheduled."
   },
 
   whoQualifies: {

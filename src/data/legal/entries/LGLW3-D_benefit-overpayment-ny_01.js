@@ -21,7 +21,7 @@ export const BENEFIT_OVERPAYMENT_NY = {
   },
 
   whatItMeans: {
-    en: "An overpayment happens when the agency determines you received more benefits than you should have. This can happen because of an agency error or a change in your circumstances that was not reported in time. It can also happen because benefits continued during a fair hearing that you lost. The agency is required to send you a written notice explaining the overpayment amount and the reason. If you have an active case, the agency may reduce your current benefits to collect the overpayment. This is called recoupment. For Temporary Assistance, recoupment is limited to 10% of your monthly grant. You can request a reduction to 5% if repaying at 10% causes undue hardship. For SNAP, recoupment is taken from your monthly SNAP benefit. If your case is closed, the agency may ask you to set up a repayment plan. For SNAP overpayments that are not repaid, the federal government may collect the amount from your federal tax refund. This is done through the Treasury Offset Program. You have the right to appeal any overpayment determination through a fair hearing."
+    en: "An overpayment happens when the agency determines you received more benefits than you should have. This can happen because of an agency error or a change in your circumstances that was not reported in time. It can also happen because benefits continued during a fair hearing that you lost. The agency must send you a written notice explaining the overpayment amount and the reason. If you have an active case, the agency may reduce your current benefits to collect the overpayment. This is called recoupment. For Temporary Assistance, recoupment is limited to 10% of your monthly grant. You can request a reduction to 5% if repaying at 10% causes undue hardship. For SNAP, recoupment is taken from your monthly SNAP benefit. If your case is closed, the agency may ask you to set up a repayment plan. For SNAP overpayments that are not repaid, the federal government may collect the amount from your federal tax refund. This is done through the Treasury Offset Program. You have the right to appeal any overpayment determination through a fair hearing."
   },
 
   yourRights: {
@@ -124,7 +124,7 @@ export const BENEFIT_OVERPAYMENT_NY = {
     "https://www.law.cornell.edu/cfr/text/7/273.18"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

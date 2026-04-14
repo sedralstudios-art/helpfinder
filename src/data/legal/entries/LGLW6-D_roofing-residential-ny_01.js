@@ -18,7 +18,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Roofing work on one- and two-family homes in New York falls under the NYS Uniform Fire Prevention and Building Code. Paid contractors are required to carry workers comp and disability insurance under NY Workers' Compensation Law, or to hold a state waiver for people who work for themselves with no employees. Home improvement contractor licensing is required in New York City and the downstate counties of Nassau, Suffolk, Westchester, Rockland, and Putnam. Most of upstate New York, including Monroe County, has no statewide contractor license — licensing is handled town by town."
+    en: "Roofing work on one- and two-family homes in New York falls under the NYS Uniform Fire Prevention and Building Code. Paid contractors must carry workers comp and disability insurance under NY Workers' Compensation Law, or to hold a state waiver for people who work for themselves with no employees. Home improvement contractor licensing is required in New York City and the downstate counties of Nassau, Suffolk, Westchester, Rockland, and Putnam. Most of upstate New York, including Monroe County, has no statewide contractor license — licensing is handled town by town."
   },
 
   example: {

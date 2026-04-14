@@ -19,7 +19,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Greece takes a middle position on roofing permits. The Town's Building Department guidelines list 'replacing a roof that needs new plywood or sheathing' as requiring a permit, while simple re-roofing (shingle replacement over sound decking) is not listed among permit-required work. This means the permit requirement depends on the condition of the roof deck, not just whether the shingles are being replaced. Contractors should confirm the scope with the Building Department before starting if there is any uncertainty about whether sheathing will need replacement. The Town administers its own code under NYS Uniform Fire Prevention and Building Code. Plumbing work requires a permit obtained by a plumber registered with the Town of Greece."
+    en: "Greece takes a middle position on roofing permits. The Town's Building Department guidelines list 'replacing a roof that needs new plywood or sheathing' as requiring a permit, while simple re-roofing (shingle replacement over sound decking) is not listed among permit-required work. This means the permit requirement depends on the condition of the roof deck, not just whether the shingles are being replaced. Contractors should confirm the scope with the Building Department before starting if there is any uncertainty about whether sheathing will need replacement. The Town administers its own code under NYS Uniform Fire Prevention and Building Code. Plumbing work requires a permit geted by a plumber registered with the Town of Greece."
   },
 
   example: {

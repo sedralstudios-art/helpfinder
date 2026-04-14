@@ -47,7 +47,7 @@ export const CHILDCARE_ASSISTANCE_NY = {
       "Applications are submitted to the local DSS office. Each county may have its own application form and process.",
       "The subsidy covers care during work hours, school hours, training hours, and up to one hour of travel time each way.",
       "Legally exempt providers — such as a grandparent, aunt, uncle, or close friend — may be eligible to receive subsidy payments. The provider must complete an enrollment packet through the local Child Care Resource and Referral agency.",
-      "If child care assistance is denied or terminated, a fair hearing may be requested by calling 1-800-342-3334.",
+      "If child care assistance is denied or ended, a fair hearing may be requested by calling 1-800-342-3334.",
       "Free legal help with child care assistance issues and fair hearings is available through Legal Aid Society of Rochester at (585) 232-4090 and LawNY at (585) 325-2520."
     ]
   },
@@ -127,7 +127,7 @@ export const CHILDCARE_ASSISTANCE_NY = {
     "https://www.law.cornell.edu/uscode/text/42/9857"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

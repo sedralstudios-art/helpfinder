@@ -29,7 +29,7 @@ export const CUSTODY_BASICS_NY = {
       "You have the right to petition the court for custody of your child at any time, regardless of marital status (DRL § 70).",
       "Neither parent has a legal advantage over the other. Mothers and fathers are treated equally in custody proceedings.",
       "You have the right to have an attorney. In contested Family Court cases, the court will appoint an Attorney for the Child to represent the child's interests.",
-      "If you are a victim of domestic violence, the court is required to consider the effect of that violence on the child when making its custody decision (DRL § 240). A parent who makes a good-faith allegation of abuse or neglect in order to protect the child cannot be penalized for doing so.",
+      "If you are a victim of domestic violence, the court must consider the effect of that violence on the child when making its custody decision (DRL § 240). A parent who makes a good-faith allegation of abuse or neglect in order to protect the child cannot be penalized for doing so.",
       "You have the right to request a modification of custody if there has been a significant change in circumstances since the last order.",
       "If you and the other parent agree on custody, you may submit a written agreement to the court. The court will approve it if it finds the arrangement is in the child's best interest."
     ]
@@ -38,7 +38,7 @@ export const CUSTODY_BASICS_NY = {
   legalOptions: {
     en: [
       "Custody petitions may be filed in Family Court in the county where the child lives. Family Court handles custody cases between unmarried parents and post-divorce modification requests. If a divorce is pending, custody is decided in Supreme Court as part of the divorce proceeding.",
-      "The New York State Unified Court System provides custody petition forms and instructions at nycourts.gov. No filing fee is required to file a custody or visitation petition in Family Court.",
+      "The New York State Unified Court System provides custody petition forms and instructions at nycourts.gov. No filing fee must file a custody or visitation petition in Family Court.",
       "Mediation is available in many New York courts as an alternative to a contested hearing. Mediation is voluntary and can help parents reach an agreement without a trial. However, mediation is generally not appropriate where there is a history of domestic violence.",
       "Free legal help for custody cases in Monroe County is available through the Legal Aid Society of Rochester at (585) 232-4090 and Legal Assistance of Western New York (LawNY) at (585) 325-2520.",
       "The court may appoint an Attorney for the Child in contested cases. This attorney represents the child's wishes and interests and is paid by public funds when the parties cannot afford the cost.",
@@ -125,7 +125,7 @@ export const CUSTODY_BASICS_NY = {
     "https://www.nysenate.gov/legislation/laws/DOM/72"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

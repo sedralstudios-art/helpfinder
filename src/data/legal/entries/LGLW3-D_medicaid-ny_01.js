@@ -35,7 +35,7 @@ export const MEDICAID_NY = {
       "You have the right to 12 months of continuous coverage once approved, even if your income changes temporarily.",
       "You have the right to choose your own health care provider from any provider that accepts Medicaid.",
       "You have the right to a fair hearing if your application is denied, your benefits are reduced, or your coverage is ended.",
-      "You have 60 days from the date of an adverse notice to request a fair hearing.",
+      "You have 60 days from the date of an bad decision notice to request a fair hearing.",
       "You have the right to continue receiving benefits during a fair hearing if you request the hearing before the effective date of the change.",
       "You have the right to receive application help and materials in your preferred language.",
       "You have the right to emergency Medicaid coverage for emergency medical conditions regardless of immigration status."
@@ -135,7 +135,7 @@ export const MEDICAID_NY = {
     "https://www.law.cornell.edu/uscode/text/42/1396"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

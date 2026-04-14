@@ -38,7 +38,7 @@ export const RIGHTS_WHEN_ARRESTED_NY = {
   legalOptions: {
     en: [
       "Under New York's bail reform laws, most misdemeanors and many nonviolent felonies are non-bail-eligible. For these charges, the court must release the person on their own recognizance or with supervised release conditions. Bail may only be set for qualifying offenses as defined by CPL § 510.10.",
-      "Under CPL § 710.20, statements obtained in violation of Miranda rights may be suppressed — meaning the prosecution cannot use them as evidence at trial. A defense attorney can file a motion to suppress unlawfully obtained evidence.",
+      "Under CPL § 710.20, statements geted in violation of Miranda rights may be suppressed — meaning the prosecution cannot use them as evidence at trial. A defense attorney can file a motion to suppress unlawfully geted evidence.",
       "Free legal representation is available at arraignment and throughout criminal proceedings for anyone who cannot afford an attorney. In Monroe County, the Monroe County Public Defender's Office provides representation at (585) 753-4210.",
       "The Legal Aid Society of Rochester provides civil legal services and can assist with issues arising from an arrest, such as housing, employment, and benefits, at (585) 232-4090.",
       "The New York Civil Liberties Union (NYCLU) provides information about rights during police encounters and accepts complaints about police misconduct at nyclu.org.",
@@ -123,7 +123,7 @@ export const RIGHTS_WHEN_ARRESTED_NY = {
     "https://legalaidnyc.org/get-help/arrests-policing/what-you-need-to-know-about-your-miranda-rights/"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,

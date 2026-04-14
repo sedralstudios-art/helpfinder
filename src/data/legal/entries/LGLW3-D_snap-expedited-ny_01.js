@@ -21,7 +21,7 @@ export const SNAP_EXPEDITED_NY = {
   },
 
   whatItMeans: {
-    en: "Expedited SNAP is a faster version of the regular SNAP process. It exists so that people in crisis can get food help without waiting the standard 30 days. Under federal law, the local Department of Social Services must issue expedited benefits within 7 calendar days of the application date. In some cases, benefits may be available within 24 to 48 hours. Expedited benefits are a one-time emergency issuance. The full application process must still be completed afterward. This means an interview and documents will still be required. If those steps are not completed, ongoing monthly benefits will not continue. The DSS office is required to screen every applicant for expedited eligibility on the same day the application is filed. This screening happens even if the full interview cannot take place that day."
+    en: "Expedited SNAP is a faster version of the regular SNAP process. It exists so that people in crisis can get food help without waiting the standard 30 days. Under federal law, the local Department of Social Services must issue expedited benefits within 7 calendar days of the application date. In some cases, benefits may be available within 24 to 48 hours. Expedited benefits are a one-time emergency issuance. The full application process must still be completed afterward. This means an interview and documents will still be required. If those steps are not completed, ongoing monthly benefits will not continue. The DSS office must screen every applicant for expedited eligibility on the same day the application is filed. This screening happens even if the full interview cannot take place that day."
   },
 
   yourRights: {
@@ -37,7 +37,7 @@ export const SNAP_EXPEDITED_NY = {
 
   legalOptions: {
     en: [
-      "Under 7 CFR § 273.2(i), local social services offices are required to process expedited SNAP applications within 7 calendar days.",
+      "Under 7 CFR § 273.2(i), local social services offices must process expedited SNAP applications within 7 calendar days.",
       "Applications for expedited SNAP are accepted at every county Department of Social Services office in New York State.",
       "Online applications through mybenefits.ny.gov include screening for expedited eligibility.",
       "The statewide SNAP helpline at 1-800-342-3009 can provide information about applying for expedited benefits.",
@@ -123,7 +123,7 @@ export const SNAP_EXPEDITED_NY = {
     "https://www.law.cornell.edu/cfr/text/7/273.2"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,
