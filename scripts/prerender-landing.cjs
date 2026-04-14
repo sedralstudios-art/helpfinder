@@ -75,6 +75,7 @@ const S = {
     navTerms: 'Terms',
     navLegal: 'Know Your Rights',
     footer: 'Built with nothing. Built for everyone.',
+    universalDisclaimer: 'HelpFinder is an informational tool only. Program details may change without notice. Contact programs directly to confirm eligibility, hours, and availability. This is not legal, medical, or financial advice.',
   },
   es: {
     siteName: 'HelpFinder',
@@ -397,7 +398,10 @@ function bodyContentFor(lang, pageKey) {
       '<p><a href="' + legal + '">' + xmlEsc(s.door2Title) + ' →</a></p>',
       '</section>',
       langSwitch,
-      '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;">' + xmlEsc(s.footer) + '</footer>',
+      '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;line-height:1.6;">' +
+        '<p style="margin-bottom:8px;">' + xmlEsc(s.footer) + '</p>' +
+        '<p style="font-size:12px;">' + xmlEsc(s.universalDisclaimer || s.footer) + '</p>' +
+      '</footer>',
     ].join('');
   }
 
@@ -408,7 +412,10 @@ function bodyContentFor(lang, pageKey) {
       '<p>' + xmlEsc(s.aboutP1) + '</p>',
       '<p>' + xmlEsc(s.aboutP2) + '</p>',
       langSwitch,
-      '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;">' + xmlEsc(s.footer) + '</footer>',
+      '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;line-height:1.6;">' +
+        '<p style="margin-bottom:8px;">' + xmlEsc(s.footer) + '</p>' +
+        '<p style="font-size:12px;">' + xmlEsc(s.universalDisclaimer || s.footer) + '</p>' +
+      '</footer>',
     ].join('');
   }
 
@@ -418,7 +425,10 @@ function bodyContentFor(lang, pageKey) {
       nav,
       '<p>' + xmlEsc(s.supportDesc) + '</p>',
       langSwitch,
-      '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;">' + xmlEsc(s.footer) + '</footer>',
+      '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;line-height:1.6;">' +
+        '<p style="margin-bottom:8px;">' + xmlEsc(s.footer) + '</p>' +
+        '<p style="font-size:12px;">' + xmlEsc(s.universalDisclaimer || s.footer) + '</p>' +
+      '</footer>',
     ].join('');
   }
 
@@ -429,7 +439,10 @@ function bodyContentFor(lang, pageKey) {
       '<p><strong>' + xmlEsc(s.privacyShort) + '</strong></p>',
       '<p>' + xmlEsc(s.privacyP1) + '</p>',
       langSwitch,
-      '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;">' + xmlEsc(s.footer) + '</footer>',
+      '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;line-height:1.6;">' +
+        '<p style="margin-bottom:8px;">' + xmlEsc(s.footer) + '</p>' +
+        '<p style="font-size:12px;">' + xmlEsc(s.universalDisclaimer || s.footer) + '</p>' +
+      '</footer>',
     ].join('');
   }
 
@@ -440,7 +453,10 @@ function bodyContentFor(lang, pageKey) {
       '<p>' + xmlEsc(s.termsP1) + '</p>',
       '<p>' + xmlEsc(s.termsP2) + '</p>',
       langSwitch,
-      '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;">' + xmlEsc(s.footer) + '</footer>',
+      '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;line-height:1.6;">' +
+        '<p style="margin-bottom:8px;">' + xmlEsc(s.footer) + '</p>' +
+        '<p style="font-size:12px;">' + xmlEsc(s.universalDisclaimer || s.footer) + '</p>' +
+      '</footer>',
     ].join('');
   }
   return '';

@@ -697,6 +697,26 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             <div style={{ fontSize: 22, color: C.amber, flexShrink: 0, fontWeight: 700 }}>→</div>
           </button>
 
+          {/* ── TRADES TILE ── permit rules for contractors and homeowners */}
+          <button
+            onClick={() => openCategory("trades")}
+            className="hf-fade-in hf-d5"
+            style={{
+              width: "100%", textAlign: isRTL ? "right" : "left",
+              background: "#f5ede0", border: "1px solid #8d6e63",
+              borderRadius: 24, padding: "18px 22px", cursor: "pointer",
+              marginTop: 12, fontFamily: "inherit",
+              display: "flex", alignItems: "center", gap: 16,
+            }}
+          >
+            <div style={{ fontSize: 34, flexShrink: 0, lineHeight: 1 }}>🔨</div>
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div style={{ fontSize: 16, fontWeight: 700, color: C.bark, marginBottom: 3 }}>Trade permits</div>
+              <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.45 }}>Roofing, plumbing, electrical. Permit rules for every Monroe County town.</div>
+            </div>
+            <div style={{ fontSize: 22, color: "#6d4c41", flexShrink: 0, fontWeight: 700 }}>→</div>
+          </button>
+
           {/* ── PETS TILE ── added April 9, 2026, nav fixed migrate-11 */}
           {/* Peer to Know Your Rights. Soft blue, paw icon. */}
           {/* Uses the same <a href="/help"> + onNavigateHelp() pattern as the */}

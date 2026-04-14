@@ -3,24 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, follow" />
   <title>Page not found — HelpFinder</title>
+  <meta name="description" content="That page doesn't exist. Head back to HelpFinder or jump straight to the help you need." />
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #fafaf7; display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 24px; }
-    .wrap { text-align: center; max-width: 400px; }
-    .logo { font-family: Georgia, serif; font-size: 48px; font-weight: 700; color: #2e7d32; margin-bottom: 8px; }
-    h1 { font-size: 22px; color: #1a1a1a; margin-bottom: 12px; }
-    p { font-size: 15px; color: #767676; line-height: 1.6; margin-bottom: 32px; }
-    a { display: inline-block; background: #2e7d32; color: #fff; text-decoration: none; padding: 14px 36px; border-radius: 28px; font-size: 16px; font-weight: 600; }
-    a:hover { background: #43a047; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #fafaf7; color: #1a1a1a; min-height: 100vh; padding: 40px 20px; line-height: 1.6; }
+    .wrap { max-width: 520px; margin: 0 auto; }
+    .logo { font-family: Georgia, serif; font-size: 48px; font-weight: 700; color: #2e7d32; margin-bottom: 8px; text-align: center; }
+    h1 { font-size: 24px; margin-bottom: 12px; text-align: center; }
+    p.lead { font-size: 15px; color: #555; margin-bottom: 32px; text-align: center; }
+    .cta { display: block; background: #2e7d32; color: #fff; text-decoration: none; padding: 14px 28px; border-radius: 28px; font-size: 16px; font-weight: 600; text-align: center; margin-bottom: 32px; }
+    .cta:hover { background: #43a047; }
+    h2 { font-size: 15px; color: #767676; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; text-align: center; }
+    ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    li a { display: flex; justify-content: space-between; align-items: center; padding: 14px 18px; background: #fff; border: 1px solid #e8e4dc; border-radius: 12px; text-decoration: none; color: #1a1a1a; }
+    li a:hover { border-color: #2e7d32; background: #e8f5e9; }
+    li a span.icon { font-size: 20px; margin-right: 10px; }
+    li a span.label { flex: 1; font-weight: 600; }
+    li a span.arrow { color: #2e7d32; font-weight: 700; }
   </style>
 </head>
 <body>
   <div class="wrap">
     <div class="logo">HF</div>
-    <h1>This page doesn't exist.</h1>
-    <p>But the help does. Head back home — everything you need is there.</p>
-    <a href="/">Back to HelpFinder</a>
+    <h1>That page doesn't exist</h1>
+    <p class="lead">But the help does. Here are common places to go.</p>
+
+    <a class="cta" href="/">← Back to HelpFinder home</a>
+
+    <h2>Or jump straight to</h2>
+    <ul>
+      <li><a href="/know-your-rights"><span class="icon">⚖️</span><span class="label">Know Your Rights — free legal guides</span><span class="arrow">→</span></a></li>
+      <li><a href="/know-your-rights/topic/trades"><span class="icon">🔨</span><span class="label">Trade permits — roofing, plumbing, electrical</span><span class="arrow">→</span></a></li>
+      <li><a href="/know-your-rights/topic/benefits"><span class="icon">🍞</span><span class="label">Benefits — SNAP, Medicaid, cash help</span><span class="arrow">→</span></a></li>
+      <li><a href="/know-your-rights/topic/housing"><span class="icon">🏠</span><span class="label">Housing — eviction, deposits, habitability</span><span class="arrow">→</span></a></li>
+      <li><a href="/know-your-rights/topic/employment"><span class="icon">💼</span><span class="label">Employment — wages, firing, discrimination</span><span class="arrow">→</span></a></li>
+      <li><a href="/about"><span class="icon">ℹ️</span><span class="label">About HelpFinder and Sedral Studios</span><span class="arrow">→</span></a></li>
+    </ul>
   </div>
 </body>
 </html>
