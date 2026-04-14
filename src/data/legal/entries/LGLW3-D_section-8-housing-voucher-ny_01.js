@@ -5,52 +5,52 @@ export const SECTION_8_HOUSING_VOUCHER_NY = {
   jurisdiction: "us-ny",
   status: "active",
 
-  title: { en: "Section 8 — Housing Choice Vouchers to Help Pay Rent" },
+  title: { en: "Section 8 — Housing Vouchers to Help Pay Rent" },
 
   summary: {
-    en: "The Section 8 Housing Choice Voucher program helps low-income families, seniors, and people with disabilities afford safe rental housing. If you qualify, the government pays part of your rent directly to your landlord. Waiting lists are often long, but applying when a list is open is the first step."
+    en: "Section 8 helps low-income families, seniors, and people with disabilities afford rent. If you qualify, the government pays part of your rent straight to your landlord. Waiting lists are usually long, but getting on a list is the first step."
   },
 
   whoQualifies: {
     en: [
-      "Families, individuals, seniors, and people with disabilities whose household income is at or below 50% of the Area Median Income for their county.",
-      "By federal rule, at least 75% of new vouchers must go to households at or below 30% of the Area Median Income (extremely low income).",
-      "Applicants must be U.S. citizens or have eligible immigration status.",
-      "Income limits vary by county and household size. Current limits are published annually by HUD.",
-      "Applicants may apply to multiple waiting lists at the same time."
+      "Families, single people, seniors, and people with disabilities who earn half or less of what an average family in their county earns (at or below 50% of the Area Median Income).",
+      "Federal rules say at least 75% of new vouchers go to people who earn 30% or less of the county average. This is called extremely low income.",
+      "You must be a U.S. citizen or have a qualifying immigration status.",
+      "Income limits depend on your county and household size. HUD updates them each year.",
+      "You can apply to more than one waiting list at the same time."
     ]
   },
 
   whatItMeans: {
-    en: "Section 8 is a federal rental assistance program funded by the U.S. Department of Housing and Urban Development. In New York, the program is administered by NYS Homes and Community Renewal and by local Public Housing Authorities. If you receive a voucher, you generally pay about 30% of your adjusted monthly income toward rent. The voucher covers the rest, up to a local payment standard. The voucher stays with you — if you move to a new home that meets program requirements, the voucher moves with you. Waiting lists for vouchers are often very long. Some lists are closed for years at a time. When a waiting list opens, it may only be open for a short period. Applying to an open waiting list does not guarantee a voucher. It places you in line to be considered when a voucher becomes available. Special voucher types may also be available for veterans and people with disabilities. Other vouchers serve people experiencing homelessness or fleeing unsafe situations."
+    en: "Section 8 is a federal rental help program. It's paid for by the U.S. Department of Housing and Urban Development (HUD). In New York, NYS Homes and Community Renewal (HCR) runs the program along with local housing authorities.\n\nIf you get a voucher, you pay about 30% of your income toward rent. The voucher covers the rest, up to a set amount.\n\nThe voucher stays with YOU, not the apartment. If you move to a new home that meets program rules, your voucher moves with you.\n\nWaiting lists are often very long. Some lists stay closed for years. When a list opens, it may only be open for a short time. Getting on an open list doesn't mean you'll get a voucher — it puts you in line.\n\nSome special voucher types exist for veterans, people with disabilities, and people who are homeless or fleeing unsafe situations."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for Section 8 when a waiting list is open. Applications are free — it is illegal for anyone to charge a fee for a Section 8 application.",
-      "You have the right to use your voucher at any rental unit that meets program requirements, including units outside the county where you applied.",
-      "Under New York State and local human rights laws, landlords cannot refuse to rent to you because you have a housing voucher. This is called source of income discrimination and it is illegal in New York.",
-      "You have the right to a hearing if your voucher is terminated or if you are denied assistance.",
-      "You have the right to request a reasonable accommodation if you or a household member has a disability.",
-      "You have the right to move to a new home with your voucher as long as you follow the program's transfer rules."
+      "You have the right to apply for Section 8 when a waiting list is open. Applications are free. Nobody can charge you to apply.",
+      "You have the right to use your voucher at any rental that meets program rules — even in a different county than where you applied.",
+      "You have the right to not be turned down by a landlord just because you have a voucher. That's called source-of-income discrimination, and it's against the law in New York.",
+      "You have the right to a hearing if your voucher is taken away or if you are denied.",
+      "You have the right to ask for changes (called reasonable accommodations) if you or someone in your household has a disability.",
+      "You have the right to move to a new home with your voucher if you follow the program's transfer rules."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under 42 U.S.C. § 1437f, Section 8 Housing Choice Vouchers are administered in New York through NYS Homes and Community Renewal (HCR) and local Public Housing Authorities.",
-      "Open waiting lists and online applications are available through the NYS HCR MyHousing Portal at hcr.ny.gov/hcv.",
-      "Paper applications may be submitted to the local Section 8 program administrator. A list of local administrators is available on the HCR website.",
-      "HUD publishes annual income limits by county and household size at huduser.gov/portal/datasets/il.html.",
-      "If a landlord refuses to accept a housing voucher, a complaint may be filed with the NYS Division of Human Rights at dhr.ny.gov or by calling 1-888-392-3644.",
-      "If a voucher is terminated, a hearing may be requested through the administering housing authority.",
-      "Special voucher programs — including Veterans Affairs Supportive Housing (VASH) vouchers, Mainstream vouchers for people with disabilities, and Emergency Housing Vouchers — may have separate application processes. Application processes for special voucher programs are available through the local housing authority or HCR.",
-      "Free legal help with Section 8 issues, landlord discrimination, and housing voucher terminations is available through LawNY at (585) 325-2520 and Legal Aid Society of Rochester at (585) 232-4090."
+      "Section 8 in New York is run by NYS Homes and Community Renewal (HCR) and by local housing authorities (42 U.S.C. § 1437f).",
+      "You can see open waiting lists and apply online at hcr.ny.gov/hcv (MyHousing Portal).",
+      "You can also turn in paper applications to the local Section 8 office. List of local offices at the HCR site.",
+      "HUD publishes yearly income limits by county at huduser.gov/portal/datasets/il.html.",
+      "If a landlord refuses your voucher, file a complaint with the NYS Division of Human Rights at dhr.ny.gov or call 1-888-392-3644.",
+      "If your voucher is taken away, ask for a hearing through the local housing authority.",
+      "Special voucher programs — like VASH (for veterans), Mainstream (for people with disabilities), and Emergency Housing Vouchers — have their own application steps. Check with your local housing authority or HCR.",
+      "Free legal help: LawNY (585-325-2520) and Legal Aid Society of Rochester (585-232-4090)."
     ]
   },
 
   example: {
-    en: "Denise is a single mother in Monroe County earning about $1,800 per month. She applied to the Section 8 waiting list when it opened through the MyHousing Portal. After about two years on the list, she received a voucher. She found a two-bedroom apartment that passed inspection. She now pays about 30% of her income toward rent, and the voucher covers the rest. When her landlord initially hesitated to accept her voucher, she explained that source of income discrimination is illegal in New York. The landlord accepted the voucher."
+    en: "Denise is a single mother earning about $1,800 a month. She applied to the Section 8 waiting list online when it opened. After about 2 years, she got a voucher. She found a 2-bedroom apartment that passed inspection. Now she pays about 30% of her income for rent, and the voucher covers the rest. Her landlord was nervous about taking the voucher at first. Denise told him that source-of-income discrimination is against the law in New York. The landlord accepted it."
   },
 
   counsel: [
@@ -126,7 +126,7 @@ export const SECTION_8_HOUSING_VOUCHER_NY = {
     "https://www.law.cornell.edu/uscode/text/42/1437f"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
