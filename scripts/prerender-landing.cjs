@@ -455,6 +455,79 @@ function hreflangLinks(pageKey) {
   return links.join('\n');
 }
 
+function structuredDataFor(lang, pageKey) {
+  const s = S[lang] || S.en;
+  const l = LANGS.find((x) => x.code === lang);
+  const canonical = urlForPage(lang, pageKey);
+  const title = titleFor(lang, pageKey);
+  const description = descriptionFor(lang, pageKey);
+
+  // Organization schema — Sedral Studios, the operator of HelpFinder.
+  const organization = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'HelpFinder',
+    alternateName: 'Sedral Studios',
+    url: SITE_URL,
+    logo: SITE_URL + '/apple-touch-icon.png',
+    description: 'Free community resource directory and legal rights guides for Rochester and Monroe County, New York. 8 languages. No accounts, no tracking.',
+    areaServed: {
+      '@type': 'AdministrativeArea',
+      name: 'Monroe County, New York',
+    },
+    sameAs: [
+      'https://paypal.me/sedralstudios',
+    ],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      email: 'hello@helpfinder.help',
+      contactType: 'customer support',
+      availableLanguage: LANGS.map((lg) => lg.htmlLang),
+    },
+  };
+
+  // WebSite schema on the homepage only.
+  const website = pageKey === 'home' ? {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'HelpFinder',
+    url: SITE_URL,
+    description: s.homeLede,
+    inLanguage: l.htmlLang,
+    publisher: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
+  } : null;
+
+  // BreadcrumbList — Home > [Page] (only for non-home pages)
+  const homePath = lang === 'en' ? '/' : '/' + lang + '/';
+  const breadcrumb = pageKey !== 'home' ? {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: s.navHome, item: SITE_URL + homePath },
+      { '@type': 'ListItem', position: 2, name: title.split('|')[0].trim(), item: canonical },
+    ],
+  } : null;
+
+  // WebPage schema — basic identification for all pages.
+  const webpage = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: title,
+    description: description,
+    url: canonical,
+    inLanguage: l.htmlLang,
+    isPartOf: { '@type': 'WebSite', name: 'HelpFinder', url: SITE_URL },
+  };
+
+  const blocks = [organization, webpage];
+  if (website) blocks.push(website);
+  if (breadcrumb) blocks.push(breadcrumb);
+
+  return blocks
+    .map((b) => '    <script type="application/ld+json">\n' + JSON.stringify(b, null, 2) + '\n    </script>')
+    .join('\n');
+}
+
 function buildHtml(baseTemplate, lang, pageKey) {
   const s = S[lang] || S.en;
   const l = LANGS.find((x) => x.code === lang);
@@ -520,6 +593,10 @@ function buildHtml(baseTemplate, lang, pageKey) {
   const hreflang = hreflangLinks(pageKey);
   html = html.replace('</head>', hreflang + '\n  </head>');
 
+  // Add structured data (Organization, WebSite, WebPage, BreadcrumbList) before </head>
+  const structuredData = structuredDataFor(lang, pageKey);
+  html = html.replace('</head>', structuredData + '\n  </head>');
+
   // Inject static content before <div id="root">
   const staticBlock = '<div id="prerender-content" style="max-width:900px;margin:0 auto;padding:40px 24px;font-family:\'Segoe UI\',system-ui,-apple-system,sans-serif;color:#1a1a1a;line-height:1.6;">' + body + '</div>';
 
@@ -551,6 +628,11 @@ function main() {
   // Also strip any prior hreflang block we injected.
   baseTemplate = baseTemplate.replace(
     /\s*<link rel="alternate" hreflang="[^"]*" href="[^"]*" \/>/g,
+    ''
+  );
+  // Strip any prior application/ld+json blocks we injected.
+  baseTemplate = baseTemplate.replace(
+    /\s*<script type="application\/ld\+json">[\s\S]*?<\/script>/g,
     ''
   );
 

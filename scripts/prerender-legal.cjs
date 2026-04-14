@@ -319,13 +319,26 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
     headline: title,
     description: summary,
     inLanguage: langMeta.htmlLang,
-    datePublished: entry.lastAudited || '2026-04-04',
-    dateModified: entry.lastAudited || '2026-04-04',
+    datePublished: entry.lastVerified || entry.lastAudited || '2026-04-04',
+    dateModified: entry.lastVerified || entry.lastAudited || '2026-04-04',
     author: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
     publisher: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
     mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
     keywords: tags.join(', '),
     about: { '@type': 'Thing', name: (CATEGORY_META[entry.category] && CATEGORY_META[entry.category].label) || entry.category || 'Legal rights' },
+  });
+
+  // BreadcrumbList: Home → Know Your Rights → [Category] → [Entry]
+  const categoryLabel = (CATEGORY_META[entry.category] && CATEGORY_META[entry.category].label) || entry.category || 'Legal';
+  const breadcrumbJsonLD = jsonLDSafe({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL + (lang === 'en' ? '/' : '/' + lang + '/') },
+      { '@type': 'ListItem', position: 2, name: 'Know Your Rights', item: SITE_URL + urlPathForLibrary(lang) },
+      { '@type': 'ListItem', position: 3, name: categoryLabel, item: SITE_URL + urlPathForCategory(lang, entry.category || 'other') },
+      { '@type': 'ListItem', position: 4, name: title, item: canonical },
+    ],
   });
 
   return `<!DOCTYPE html>
@@ -350,6 +363,9 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
 ${buildHreflang(urlPathForEntry, entry.id)}
     <script type="application/ld+json">
 ${jsonLD}
+    </script>
+    <script type="application/ld+json">
+${breadcrumbJsonLD}
     </script>
     ${bundleTags.links}
     ${bundleTags.scripts}
