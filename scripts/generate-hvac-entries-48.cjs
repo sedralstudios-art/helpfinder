@@ -249,7 +249,7 @@ function entryTemplate(t) {
   const id = 'hvac-residential-ny-mon-' + t.slug;
   const jurisdiction = 'us-ny-monroe-' + t.slug;
   const tierWord = t.tier === 'village' ? 'village' : t.tier === 'city' ? 'city' : 'town';
-  const notes = t.extraNote ? '\n\n' + t.extraNote : '';
+  const notes = t.extraNote ? '\\n\\n' + t.extraNote : '';
 
   return `// LGLW6-D_${id}_01.js
 

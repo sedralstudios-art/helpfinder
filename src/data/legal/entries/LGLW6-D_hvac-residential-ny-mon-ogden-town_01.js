@@ -14,9 +14,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Town of Ogden follows the state Uniform Fire Prevention and Building Code for HVAC work. That includes the Mechanical Code and the Fuel Gas Code. The 2025 Energy Code applies to any permit filed after December 31, 2025 — replacement furnaces, heat pumps, and AC units all have to meet the stricter efficiency rules.\n\nThe town does NOT license HVAC contractors. But gas line work is plumbing. Gas line work needs a qualified plumber.\n\nHVAC permits go through the Building Department. There's no separate third-party agency for HVAC inspection — the town's own inspectors handle it. That's different from electrical, which does use outside agencies.\n\nAnyone handling refrigerant must have federal EPA Section 608 certification.\n\nHomeowner rules: Call the Building Department at (585) 617-6195 to confirm homeowner HVAC rules.
-
-Ogden also handles all HVAC permits for properties inside the Village of Spencerport — Spencerport delegates all building/mechanical permits to Ogden."
+    en: "Town of Ogden follows the state Uniform Fire Prevention and Building Code for HVAC work. That includes the Mechanical Code and the Fuel Gas Code. The 2025 Energy Code applies to any permit filed after December 31, 2025 — replacement furnaces, heat pumps, and AC units all have to meet the stricter efficiency rules.\n\nThe town does NOT license HVAC contractors. But gas line work is plumbing. Gas line work needs a qualified plumber.\n\nHVAC permits go through the Building Department. There's no separate third-party agency for HVAC inspection — the town's own inspectors handle it. That's different from electrical, which does use outside agencies.\n\nAnyone handling refrigerant must have federal EPA Section 608 certification.\n\nHomeowner rules: Call the Building Department at (585) 617-6195 to confirm homeowner HVAC rules.\n\nOgden also handles all HVAC permits for properties inside the Village of Spencerport — Spencerport delegates all building/mechanical permits to Ogden."
   },
 
   example: {

@@ -14,9 +14,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Town of Chili follows the state Uniform Fire Prevention and Building Code for HVAC work. That includes the Mechanical Code and the Fuel Gas Code. The 2025 Energy Code applies to any permit filed after December 31, 2025 — replacement furnaces, heat pumps, and AC units all have to meet the stricter efficiency rules.\n\nThe town does NOT license HVAC contractors. But gas line work is plumbing. Gas line work needs a Chili-licensed master plumber. Chili licenses its own plumbers (doesn't accept Rochester certs for plumbing).\n\nHVAC permits go through the Building Department. There's no separate third-party agency for HVAC inspection — the town's own inspectors handle it. That's different from electrical, which does use outside agencies.\n\nAnyone handling refrigerant must have federal EPA Section 608 certification.\n\nHomeowner rules: Chili allows homeowner plumbing on like-for-like swaps. Call the Building Department to confirm what HVAC work is open to homeowners.
-
-Permits file through the CloudPermit portal."
+    en: "Town of Chili follows the state Uniform Fire Prevention and Building Code for HVAC work. That includes the Mechanical Code and the Fuel Gas Code. The 2025 Energy Code applies to any permit filed after December 31, 2025 — replacement furnaces, heat pumps, and AC units all have to meet the stricter efficiency rules.\n\nThe town does NOT license HVAC contractors. But gas line work is plumbing. Gas line work needs a Chili-licensed master plumber. Chili licenses its own plumbers (doesn't accept Rochester certs for plumbing).\n\nHVAC permits go through the Building Department. There's no separate third-party agency for HVAC inspection — the town's own inspectors handle it. That's different from electrical, which does use outside agencies.\n\nAnyone handling refrigerant must have federal EPA Section 608 certification.\n\nHomeowner rules: Chili allows homeowner plumbing on like-for-like swaps. Call the Building Department to confirm what HVAC work is open to homeowners.\n\nPermits file through the CloudPermit portal."
   },
 
   example: {
