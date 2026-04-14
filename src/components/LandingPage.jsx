@@ -377,7 +377,6 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [legalLang, setLegalLang] = useState("en");
   const [menuOpen, setMenuOpen] = useState(false);
-  const [search, setSearch] = useState("");
   const [city, setCity] = useState("your area");
   const [localJurisdictions, setLocalJurisdictions] = useState([]);
 
@@ -602,30 +601,6 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             }}>HelpFinder</h1>
             <div style={{ fontSize: 13, color: C.dust, letterSpacing: 0.5 }}>
               Free help in {city}.
-            </div>
-          </div>
-
-          {/* SEARCH BAR */}
-          <div className="hf-fade-in hf-d2" style={{ marginTop: 24 }}>
-            <div style={{
-              display: "flex", alignItems: "center", gap: 8,
-              background: C.white, border: `1.5px solid ${C.border}`,
-              borderRadius: 28, padding: "12px 18px",
-            }}>
-              <span style={{ fontSize: 16, color: C.dust, flexShrink: 0 }}>🔍</span>
-              <input
-                type="text" placeholder={t(lang, "searchPlaceholder")}
-                value={search} onChange={(e) => setSearch(e.target.value)}
-                onKeyDown={(e) => { if (e.key === "Enter" && search.trim()) { /* Route to Help Finder filtered */ } }}
-                style={{
-                  flex: 1, border: "none", outline: "none", fontSize: 15,
-                  background: "transparent", color: C.bark, fontFamily: "inherit",
-                }}
-              />
-              {search && (
-                <button onClick={() => setSearch("")} aria-label="Clear"
-                  style={{ background: "none", border: "none", cursor: "pointer", fontSize: 16, color: C.dust, padding: 0 }}>✕</button>
-              )}
             </div>
           </div>
 
