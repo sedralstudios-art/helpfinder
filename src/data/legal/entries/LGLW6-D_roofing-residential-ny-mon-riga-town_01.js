@@ -39,7 +39,7 @@ export const entry = {
     en: [
       "The right to clear guidance from the Building Department on permit requirements",
       "The right to contact the Fire Marshal at ext 132 for fire-related code questions",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -80,7 +80,7 @@ export const entry = {
     "https://ecode360.com/9619068"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

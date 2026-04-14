@@ -42,7 +42,7 @@ export const entry = {
       "The right to perform DIY roofing with a no-fee permit",
       "The right to clear fee information — the published fee schedule is available online",
       "Properties in the Clarkson Historical Overlay District may require Historic Preservation Board review for exterior work",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -85,7 +85,7 @@ export const entry = {
     "https://ecode360.com/8648444"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

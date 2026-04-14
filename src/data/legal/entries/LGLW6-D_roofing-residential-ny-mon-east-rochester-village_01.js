@@ -39,7 +39,7 @@ export const entry = {
     en: [
       "The right to a decision on a residential permit application within 45 days of referral to the Zoning Board",
       "The right to clear guidance from the Building Department on permit requirements",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -81,7 +81,7 @@ export const entry = {
     "https://ecode360.com/10126851"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

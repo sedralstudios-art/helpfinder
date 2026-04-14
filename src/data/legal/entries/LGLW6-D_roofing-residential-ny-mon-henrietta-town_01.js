@@ -38,7 +38,7 @@ export const entry = {
     en: [
       "The right to clear guidance from the Building and Fire Prevention Department on permit requirements",
       "All permit transaction records are public records open to inspection during business hours",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -80,7 +80,7 @@ export const entry = {
     "https://ecode360.com/8222912"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

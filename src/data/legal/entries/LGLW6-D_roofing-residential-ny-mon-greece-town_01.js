@@ -38,7 +38,7 @@ export const entry = {
     en: [
       "The right to have simple re-shingling done without a building permit when the roof deck is sound",
       "The right to contact the Building Department for guidance when the scope is uncertain",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -80,7 +80,7 @@ export const entry = {
     "https://ecode360.com/10838059"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

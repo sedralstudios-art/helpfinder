@@ -39,7 +39,7 @@ export const entry = {
     en: [
       "The right to contact the Building Department to verify permit requirements before starting",
       "The right to clear information about the two-layer maximum under NYS Code",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -79,7 +79,7 @@ export const entry = {
     "https://hamlinny.org/building-inspector/"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

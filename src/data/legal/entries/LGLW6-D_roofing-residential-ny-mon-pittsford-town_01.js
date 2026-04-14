@@ -19,11 +19,11 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "As of the most recent Town of Pittsford Building Department guidance (revised March 2025), building permits for roofing, siding, and replacement windows on existing houses are not required inside the Town. All state-level rules still apply — Workers' Compensation, NYS Uniform Code, and wage laws. Any contractor working in the Town of Pittsford must provide proof of $1,000,000 liability insurance listing the Town of Pittsford (11 South Main Street, Pittsford, NY 14534) as certificate holder, plus Workers' Compensation and disability insurance or a NYS waiver of exemption. Firms performing plumbing work must hold an annual plumbing license from the Town Code Enforcement Department."
+    en: "As of the most recent Town of Pittsford Building Department guidance (revised March 2025), building permits for roofing, siding, and replacement windows on existing houses are not required inside the Town. All state-level rules still apply — Workers' Compensation, NYS Uniform Code, and wage laws. Any contractor working in the Town of Pittsford must provide proof of $1,000,000 liability insurance listing the Town of Pittsford (11 South Main Street, Pittsford, NY 14534) as certificate holder, plus workers comp and disability insurance or a NYS waiver of exemption. Firms performing plumbing work must hold an annual plumbing license from the Town Code Enforcement Department."
   },
 
   example: {
-    en: "A homeowner on Monroe Avenue in the Town of Pittsford hires a roofer to replace asphalt shingles. Because the property is inside the Town boundary (not the Village), no Town building permit is required. The contractor still provides Workers' Compensation insurance and lists the Town as certificate holder on their liability policy before starting."
+    en: "A homeowner on Monroe Avenue in the Town of Pittsford hires a roofer to replace asphalt shingles. Because the property is inside the Town boundary (not the Village), no Town building permit is required. The contractor still provides workers comp insurance (pays medical bills if a worker gets hurt on the job) and lists the Town as certificate holder on their liability policy before starting."
   },
 
   whoQualifies: {
@@ -37,7 +37,7 @@ export const entry = {
   yourRights: {
     en: [
       "The right to have re-roofing, siding, or window replacement done without a Town building permit",
-      "All state-level worker protections carried forward from New York State law",
+      "State worker protections (wage, safety, injury) still apply here",
       "The right to verify a contractor's insurance filings with the Town Code Enforcement Department before work begins"
     ]
   },
@@ -80,7 +80,7 @@ export const entry = {
     "https://www.townofpittsfordny.gov/sites/default/files/forms/bldg_permit.pdf"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

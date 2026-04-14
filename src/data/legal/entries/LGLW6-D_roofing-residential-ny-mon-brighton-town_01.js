@@ -18,11 +18,11 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Re-roofing in the Town of Brighton requires a building permit, unlike some neighboring towns. The application must include a completed permit form and a proposal or contract showing a breakdown of the work. Workers' Compensation insurance is required for all contractors. The Building and Planning Department reviews applications for compliance with NYS Building Code and Town of Brighton Comprehensive Development Regulations. Window replacement also requires a permit if replacing more than 50% of windows, and may require Architectural Review Board review if visible from the street. Review of complete applications can take up to four to six weeks."
+    en: "Re-roofing in the Town of Brighton requires a building permit, unlike some neighboring towns. The application must include a completed permit form and a proposal or contract showing a breakdown of the work. workers comp insurance (pays medical bills if a worker gets hurt on the job) is required for all contractors. The Building and Planning Department reviews applications for compliance with NYS Building Code and Town of Brighton Comprehensive Development Regulations. Window replacement also requires a permit if replacing more than 50% of windows, and may require Architectural Review Board review if visible from the street. Review of complete applications can take up to four to six weeks."
   },
 
   example: {
-    en: "A roofing contractor accepts a job to tear off and replace shingles on a house in Brighton. Before starting, the contractor submits a permit application with the signed contract to the Building and Planning Department and pays the $35 fee. The contractor also provides proof of Workers' Compensation insurance. Work cannot begin until the permit is issued."
+    en: "A roofing contractor accepts a job to tear off and replace shingles on a house in Brighton. Before starting, the contractor submits a permit application with the signed contract to the Building and Planning Department and pays the $35 fee. The contractor also provides proof of workers comp insurance (pays medical bills if a worker gets hurt on the job). Work cannot begin until the permit is issued."
   },
 
   whoQualifies: {
@@ -37,7 +37,7 @@ export const entry = {
     en: [
       "The right to a clear permit decision within 30 days of filing a complete application, per Town code",
       "The right to written reasons if a permit is denied",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -79,7 +79,7 @@ export const entry = {
     "https://ecode360.com/9443471"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

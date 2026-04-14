@@ -20,7 +20,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Irondequoit's Town Code Chapter 98 exempts non-structural repairs from the building permit requirement. Re-shingling a roof where the underlying decking and framing are sound falls under this exemption — it is a repair, not a structural alteration. If the project involves replacing plywood sheathing, repairing structural framing, or altering the roof structure, a building permit is required. Additionally, the Fire Marshal requires a separate permit for any roof repair or replacement that uses heat-generating equipment or open-flame devices (such as torch-applied roofing). Contractors must carry liability, disability, and Workers' Compensation insurance with the Town of Irondequoit named as certificate holder for the duration of the project. Plumbing work requires a plumber licensed in the Town."
+    en: "Irondequoit's Town Code Chapter 98 exempts non-structural repairs from the building permit requirement. Re-shingling a roof where the underlying decking and framing are sound falls under this exemption — it is a repair, not a structural alteration. If the project involves replacing plywood sheathing, repairing structural framing, or altering the roof structure, a building permit is required. Additionally, the Fire Marshal requires a separate permit for any roof repair or replacement that uses heat-generating equipment or open-flame devices (such as torch-applied roofing). Contractors must carry liability, disability, and workers comp insurance (pays medical bills if a worker gets hurt on the job) with the Town of Irondequoit named as certificate holder for the duration of the project. Plumbing work requires a plumber licensed in the Town."
   },
 
   example: {
@@ -41,7 +41,7 @@ export const entry = {
       "The right to perform non-structural roof repairs without a building permit",
       "The right to contact the Building Department to verify permit needs before starting",
       "Qualified residents may be eligible for the Irondequoit Home Improvement Program (IHIP) which provides grant funds for specified renovation projects",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -85,7 +85,7 @@ export const entry = {
     "https://ecode360.com/6404785"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

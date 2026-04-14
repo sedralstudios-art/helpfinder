@@ -40,7 +40,7 @@ export const entry = {
     en: [
       "The right to clear information about permit requirements — the Building Department publishes a detailed list",
       "The right to know the penalty structure before starting work (4x permit cost + $100 for no permit)",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -82,7 +82,7 @@ export const entry = {
     "https://ecode360.com/10499430"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

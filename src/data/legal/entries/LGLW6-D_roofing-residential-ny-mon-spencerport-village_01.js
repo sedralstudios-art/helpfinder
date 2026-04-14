@@ -38,7 +38,7 @@ export const entry = {
   yourRights: {
     en: [
       "The right to clear guidance on which office handles your specific need — permits (Ogden) vs code enforcement (Village)",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -92,7 +92,7 @@ export const entry = {
     "https://ecode360.com/14661684"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

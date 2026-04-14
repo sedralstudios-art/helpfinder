@@ -38,7 +38,7 @@ export const entry = {
     en: [
       "The right to make ordinary like-kind repairs without a building permit",
       "The right to clear guidance from the Building Department on whether larger projects require a permit",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -78,7 +78,7 @@ export const entry = {
     "https://www.townofrush.com/departments/building.html"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

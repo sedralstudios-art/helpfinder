@@ -18,7 +18,7 @@ export const entry = {
   },
 
   whatItMeans: {
-    en: "Roofing work on one- and two-family homes in New York falls under the NYS Uniform Fire Prevention and Building Code. Paid contractors are required to carry Workers' Compensation and disability insurance under NY Workers' Compensation Law, or to hold a state-issued waiver for sole proprietors with no employees. Home improvement contractor licensing is required in New York City and the downstate counties of Nassau, Suffolk, Westchester, Rockland, and Putnam. Most of upstate New York, including Monroe County, has no statewide contractor license — licensing is handled town by town."
+    en: "Roofing work on one- and two-family homes in New York falls under the NYS Uniform Fire Prevention and Building Code. Paid contractors are required to carry workers comp and disability insurance under NY Workers' Compensation Law, or to hold a state waiver for people who work for themselves with no employees. Home improvement contractor licensing is required in New York City and the downstate counties of Nassau, Suffolk, Westchester, Rockland, and Putnam. Most of upstate New York, including Monroe County, has no statewide contractor license — licensing is handled town by town."
   },
 
   example: {
@@ -38,7 +38,7 @@ export const entry = {
     en: [
       "The right to be paid for hours worked under New York Labor Law §191 and §193, even without a written contract",
       "The right to safe working conditions, including fall protection for roofing work under OSHA and the NYS Industrial Code",
-      "The right to Workers' Compensation coverage for injuries sustained while working for a contractor",
+      "The right to workers comp coverage for injuries sustained while working for a contractor",
       "The right to not be misclassified as an independent contractor when working as an employee",
       "The right to file a wage theft claim without retaliation, regardless of immigration status"
     ]
@@ -113,7 +113,7 @@ export const entry = {
     "https://www.nysenate.gov/legislation/laws/LIE/3"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

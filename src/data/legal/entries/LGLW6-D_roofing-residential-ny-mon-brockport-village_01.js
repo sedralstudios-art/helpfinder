@@ -38,7 +38,7 @@ export const entry = {
     en: [
       "The right to clear guidance from the Building and Codes Office on permit requirements",
       "The right to know which jurisdiction your property is in before starting work",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -78,7 +78,7 @@ export const entry = {
     "https://brockportny.org/building-code/"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

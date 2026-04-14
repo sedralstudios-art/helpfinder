@@ -39,7 +39,7 @@ export const entry = {
       "The right to clear guidance from the Building Department on permit requirements before work begins",
       "The right to a Certificate of Occupancy or Certificate of Compliance upon completion of permitted work",
       "Penfield Landmark property owners have the right to repair exteriors with identical materials without additional review",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -80,7 +80,7 @@ export const entry = {
     "https://ecode360.com/15180704"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

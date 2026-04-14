@@ -22,7 +22,7 @@ export const entry = {
   },
 
   example: {
-    en: "A homeowner in Perinton hires a contractor to strip and replace the roof. Because Perinton exempts re-roofing from permits, no application is needed. The homeowner confirms the contractor carries Workers' Compensation insurance. After the job, if the homeowner has concerns about the workmanship, they can contact the Building and Codes Department."
+    en: "A homeowner in Perinton hires a contractor to strip and replace the roof. Because Perinton exempts re-roofing from permits, no application is needed. The homeowner confirms the contractor carries workers comp insurance (pays medical bills if a worker gets hurt on the job). After the job, if the homeowner has concerns about the workmanship, they can contact the Building and Codes Department."
   },
 
   whoQualifies: {
@@ -37,7 +37,7 @@ export const entry = {
     en: [
       "The right to have re-roofing done without a Town building permit",
       "The right to verify a contractor's insurance through the Building and Codes Department",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -78,7 +78,7 @@ export const entry = {
     "https://ecode360.com/6739149"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

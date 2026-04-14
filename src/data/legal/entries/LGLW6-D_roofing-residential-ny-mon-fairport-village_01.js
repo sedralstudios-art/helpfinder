@@ -15,11 +15,11 @@ export const entry = {
   },
 
   summary: {
-    en: "The Village of Fairport has its own Building and Code Enforcement office, separate from the Town of Perinton that surrounds it. Most construction projects in the Village require a permit, including renovations, alterations, and additions. Contractors must provide proof of Workers' Compensation insurance and list the Village as additionally insured on their liability policy."
+    en: "The Village of Fairport has its own Building and Code Enforcement office, separate from the Town of Perinton that surrounds it. Most construction projects in the Village require a permit, including renovations, alterations, and additions. Contractors must provide proof of workers comp insurance (pays medical bills if a worker gets hurt on the job) and list the Village as additionally insured on their liability policy."
   },
 
   whatItMeans: {
-    en: "The Village of Fairport administers its own building code enforcement under the NYS Uniform Code and the Code of the Village of Fairport. Most construction projects require a permit — renovations, alterations, additions, sheds, decks, pools, hot tubs, fences, signs, and changes to electrical, gas, or plumbing systems. Before contractors can begin work in the Village, they must provide proof of current Workers' Compensation insurance and list the Village as additionally insured on their liability policy. Contractors with no employees must provide a NYS waiver confirming that status. This is a separate requirement from the Town of Perinton — being cleared to work in the Town does not clear a contractor to work in the Village."
+    en: "The Village of Fairport administers its own building code enforcement under the NYS Uniform Code and the Code of the Village of Fairport. Most construction projects require a permit — renovations, alterations, additions, sheds, decks, pools, hot tubs, fences, signs, and changes to electrical, gas, or plumbing systems. Before contractors can begin work in the Village, they must provide proof of current workers comp insurance (pays medical bills if a worker gets hurt on the job) and list the Village as additionally insured on their liability policy. Contractors with no employees must provide a NYS waiver confirming that status. This is a separate requirement from the Town of Perinton — being cleared to work in the Town does not clear a contractor to work in the Village."
   },
 
   example: {
@@ -38,7 +38,7 @@ export const entry = {
     en: [
       "The right to clear information about which permits are required before work begins",
       "The right to attend and testify at public hearings on applications that affect neighboring properties",
-      "All state-level worker protections carried forward from New York State law"
+      "State worker protections (wage, safety, injury) still apply here"
     ]
   },
 
@@ -80,7 +80,7 @@ export const entry = {
     "https://www.fairportny.org/departments/building_planning___zoning_code_enforcement/index.php"
   ],
 
-  lastVerified: "2026-04-10",
+  lastVerified: "2026-04-13",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
