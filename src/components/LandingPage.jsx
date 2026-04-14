@@ -401,6 +401,14 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
 
   useEffect(() => { const tm = setTimeout(() => setLoaded(true), 50); return () => clearTimeout(tm); }, []);
 
+  // Remove the prerendered static content once React is running.
+  // The prerender script injects a #prerender-content div for SEO
+  // (so Googlebot sees real text). When React mounts, it's no longer needed.
+  useEffect(() => {
+    const el = document.getElementById("prerender-content");
+    if (el) el.remove();
+  }, []);
+
   // Initialize page state from URL pathname (history-based routing)
   useEffect(() => {
     const parsed = parsePath(window.location.pathname);

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/prerender-legal.cjs && node scripts/generate-sitemap.cjs",
+    "build": "vite build && node scripts/prerender-legal.cjs && node scripts/prerender-landing.cjs && node scripts/generate-sitemap.cjs",
     "preview": "vite preview"
   },
   "dependencies": {
