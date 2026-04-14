@@ -11,63 +11,64 @@ export const MEDICAL_DEBT_NY = {
   jurisdiction: "us-ny",
   status: "active",
 
-  title: { en: "Medical Debt — Hospital Financial Assistance and New York Protections" },
+  title: { en: "Medical Bills — Hospital Help Programs and New York Protections" },
 
   summary: {
-    en: "New York hospitals that receive state Indigent Care Pool funding must offer a financial assistance program with sliding-scale discounts for patients below 300% of the Federal Poverty Level. New York also prohibits medical debt from appearing on consumer credit reports, limits wage garnishment for medical debt, and bars hospitals from placing liens on a patient's primary residence to collect unpaid medical bills."
+    en: "Most New York hospitals have to offer a discount program for patients who cannot afford their bills. If your income is under a certain level, you can qualify for a lower bill — sometimes as low as $0. New York also bans medical debt from showing up on your credit report. And hospitals cannot put a lien on your home for unpaid medical bills."
   },
 
   whoQualifies: {
     en: [
-      "Uninsured or underinsured patients treated at New York hospitals that receive Indigent Care Pool funding (most nonprofit hospitals in the state).",
-      "Hospital financial assistance is available to patients with incomes at or below 300% of the Federal Poverty Level under Public Health Law § 2807-k. Some hospitals extend it further.",
-      "Immigration status does not disqualify a patient from hospital financial assistance.",
-      "New York's medical-debt credit reporting ban and hospital-lien prohibition apply to all consumers regardless of income."
+      "Patients at most New York hospitals who were treated and got a bill they cannot afford.",
+      "Hospital discount programs help patients whose income is at or below 300% of the Federal Poverty Level (Public Health Law § 2807-k). Some hospitals go higher than that.",
+      "Immigration status does not matter. Hospitals cannot use it to deny you the discount.",
+      "The New York ban on medical debt credit reporting and the ban on medical debt home liens apply to every New Yorker."
     ]
   },
 
   whatItMeans: {
-    en: "New York's Hospital Financial Assistance Law (Public Health Law § 2807-k) requires every hospital receiving state Indigent Care Pool funding to maintain a written financial assistance policy, post it publicly, and include notice of it on every bill. Patients at or below 100% of the Federal Poverty Level qualify for the largest discount, often full write-offs. A sliding scale extends the benefit up to 300% of the Federal Poverty Level. Hospitals must give patients at least ninety days after the first billing statement to apply for assistance and must screen uninsured patients for Medicaid and other public coverage before pursuing collection. In 2023, New York enacted the Fair Medical Debt Reporting Act (General Business Law § 380-j), which prohibits consumer credit reporting agencies from including medical debt in a New York consumer's credit report. In 2022, the Ending Medical Debt Act and related amendments limited hospital collection practices: hospitals cannot place liens on a patient's primary residence for unpaid medical bills (CPLR § 5231-a), and wage garnishment caps for medical debt were reduced (CPLR § 5231). The three-year statute of limitations on consumer credit debt under the Consumer Credit Fairness Act (CPLR § 214-i) applies to most medical debt."
+    en: "If you are treated at a New York hospital and cannot afford the bill, there is a law that can help. Most hospitals have to offer a discount program called financial assistance (Public Health Law § 2807-k). Patients with very low income often get their bill written off to $0. Patients with higher income get a smaller discount. The cutoff is 300% of the Federal Poverty Level — for a single person in 2026, that is about $47,000 a year. You have at least 90 days after the first bill to apply. The hospital must tell you about the program on every bill. If you do not have insurance, the hospital also has to help check if you qualify for Medicaid before they start collecting. In 2023, New York passed a law (GBL § 380-j) that says credit bureaus cannot put medical debt on your credit report. In 2022, another law (CPLR § 5231-a) stopped hospitals from putting a lien on your home for a medical bill. Other 2022 changes lowered how much of your paycheck a medical debt collector can take (CPLR § 5231). Most medical debt also has a 3-year \"too old to sue\" rule in New York (CPLR § 214-i)."
   },
 
   yourRights: {
     en: [
-      "The right to receive written notice of the hospital's financial assistance policy on every bill and to apply at any time up to at least ninety days after the first billing statement (PHL § 2807-k).",
-      "The right, as an uninsured patient, to be screened for Medicaid, Child Health Plus, and other public coverage before a hospital pursues collection (PHL § 2807-k).",
-      "The right to a sliding-scale discount if income is at or below 300% of the Federal Poverty Level. Patients at or below 100% of the Federal Poverty Level generally qualify for the largest discount.",
-      "The right to apply for hospital financial assistance regardless of immigration status. Citizenship and residency questions cannot be used to deny an application.",
-      "The right to have medical debt excluded from consumer credit reports in New York (GBL § 380-j). This applies whether the debt is with a hospital, doctor, lab, or collection agency.",
-      "The right to have a primary residence protected from hospital medical-debt liens (CPLR § 5231-a).",
-      "The right to reduced wage garnishment caps on medical debt compared with other consumer debt (CPLR § 5231).",
-      "The right to dispute a medical bill's accuracy, including surprise out-of-network charges barred by the federal No Surprises Act (42 U.S.C. § 300gg-111 et seq.).",
-      "The right to request an itemized bill and to have errors corrected before any collection action proceeds."
+      "You have the right to see the hospital's financial assistance policy on every bill (PHL § 2807-k).",
+      "You have the right to at least 90 days after the first bill to apply for the discount.",
+      "You have the right to a hospital discount if your income is at or below 300% of the Federal Poverty Level. Lower-income patients get a bigger discount.",
+      "You have the right to apply no matter your immigration status. The hospital cannot use that to turn you down.",
+      "You have the right as an uninsured patient to be screened for Medicaid before the hospital starts collecting (PHL § 2807-k).",
+      "You have the right to keep medical debt off your credit report in New York (GBL § 380-j). This covers hospital bills, doctor bills, and medical collection accounts.",
+      "You have the right to keep your home safe from hospital medical-debt liens (CPLR § 5231-a).",
+      "You have the right to lower paycheck garnishment for medical debt than for other debts (CPLR § 5231).",
+      "You have the right to dispute a bill if the charges are wrong. Surprise bills from out-of-network doctors at an in-network hospital are limited by federal law (the No Surprises Act, 42 U.S.C. § 300gg-111).",
+      "You have the right to ask for an itemized bill and have errors fixed before anyone tries to collect."
     ]
   },
 
   legalOptions: {
     en: [
-      "Hospital financial assistance applications are submitted to the hospital's patient financial services or billing office. Each hospital posts its policy on its website and must provide a copy on request.",
-      "Complaints about hospital billing or denial of financial assistance can be filed with the New York State Department of Health (health.ny.gov/facilities/hospital/financial_assistance).",
-      "Complaints about surprise out-of-network billing can be filed with the New York Department of Financial Services (dfs.ny.gov) or, for federal protections under the No Surprises Act, with the U.S. Department of Health and Human Services at nosurprises.cms.gov.",
-      "Complaints about credit reporting violations involving medical debt can be filed with the federal Consumer Financial Protection Bureau (consumerfinance.gov) and the New York Attorney General (ag.ny.gov/consumer-frauds).",
-      "The Community Service Society of New York operates a free statewide Community Health Advocates helpline for medical billing and insurance problems at 1-888-614-5400.",
-      "Free legal help with medical debt lawsuits, financial assistance denials, and billing disputes in Monroe County is available through Legal Aid Society of Rochester at (585) 232-4090, LawNY at (585) 325-2520, and the Empire Justice Center at (585) 454-4060.",
-      "Under CPLR § 214-i, a medical debt lawsuit filed more than three years after the debt arose can be dismissed on statute-of-limitations grounds as an affirmative defense."
+      "To apply for hospital financial assistance, call the billing office at your hospital. Every New York hospital must post its policy on its website. You can also ask for a paper copy.",
+      "If the hospital denies you or bills you wrong, you can file a complaint with the New York Department of Health at health.ny.gov/facilities/hospital/financial_assistance.",
+      "For surprise out-of-network bills, you can file a complaint with the New York Department of Financial Services at dfs.ny.gov, or use the federal dispute process at nosurprises.cms.gov.",
+      "For medical debt that wrongly shows up on your credit report, you can complain to the Consumer Financial Protection Bureau at consumerfinance.gov and to the New York Attorney General at ag.ny.gov/consumer-frauds.",
+      "The Community Service Society runs a free statewide helpline called Community Health Advocates. They help with hospital bills and insurance problems. Call 1-888-614-5400.",
+      "Free legal help for medical debt in Monroe County: Legal Aid Society of Rochester (585-232-4090), LawNY (585-325-2520), and Empire Justice Center (585-454-4060).",
+      "If a hospital or medical collector sues you on a bill that is more than 3 years old, you can ask the court to throw the case out under CPLR § 214-i."
     ]
   },
 
   example: {
-    en: "Amira is uninsured and goes to the emergency room at a Rochester hospital. She receives a bill for $6,000. The bill includes notice of the hospital's financial assistance policy as required by Public Health Law § 2807-k. Her household income is 180% of the Federal Poverty Level. She applies to the hospital's financial assistance program within ninety days. Based on the sliding scale, the hospital reduces her bill substantially and screens her for Medicaid. Six months later, a collector contacts her about the remaining balance. Because the Fair Medical Debt Reporting Act (GBL § 380-j) applies, no credit reporting agency includes the debt on her New York credit report."
+    en: "Amira does not have insurance. She goes to the emergency room at a Rochester hospital and gets a bill for $6,000. Her bill has a notice about the hospital's financial assistance program, as required by PHL § 2807-k. Her household income is about 180% of the Federal Poverty Level. She calls the billing office and applies within 90 days. The hospital lowers her bill under its sliding scale and also helps her apply for Medicaid. Six months later, a collector contacts her about the smaller balance that is left. Because of New York's 2023 law (GBL § 380-j), the debt does not appear on her credit report."
   },
 
   counsel: [
     {
       type: "free",
       name: "Legal Aid Society of Rochester",
-      focus: "Medical debt lawsuit defense, hospital financial assistance denials, consumer debt",
-      qualifier: "Low-income residents of Monroe County and surrounding counties",
-      access: "Phone intake at (585) 232-4090",
-      outcome: "Direct representation and advice in medical debt matters",
+      focus: "Medical debt lawsuits, denied hospital financial assistance, consumer debt",
+      qualifier: "Low-income residents of Monroe County and nearby counties",
+      access: "Call 585-232-4090",
+      outcome: "Free lawyer or advice on medical debt cases",
       phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
@@ -77,10 +78,10 @@ export const MEDICAL_DEBT_NY = {
     {
       type: "free",
       name: "Legal Assistance of Western New York (LawNY)",
-      focus: "Consumer debt, medical debt collection lawsuits, public benefits",
+      focus: "Medical debt collection lawsuits, consumer rights, public benefits",
       qualifier: "Low-income residents in 14 Western NY counties including Monroe",
-      access: "Phone intake at (585) 325-2520",
-      outcome: "Direct representation in consumer cases",
+      access: "Call 585-325-2520",
+      outcome: "Free lawyer in consumer cases",
       phone: "(585) 325-2520",
       url: "https://www.lawny.org",
       verified: true,
@@ -90,10 +91,10 @@ export const MEDICAL_DEBT_NY = {
     {
       type: "free",
       name: "Empire Justice Center",
-      focus: "Medical debt, health coverage, systemic consumer advocacy",
-      qualifier: "Low- and moderate-income residents statewide",
-      access: "Phone intake at (585) 454-4060",
-      outcome: "Direct representation, impact litigation, policy advocacy",
+      focus: "Medical debt, health coverage, consumer rights",
+      qualifier: "Low- and moderate-income New Yorkers",
+      access: "Call 585-454-4060",
+      outcome: "Free lawyer or impact litigation",
       phone: "(585) 454-4060",
       url: "https://www.empirejustice.org",
       verified: true,
@@ -103,10 +104,10 @@ export const MEDICAL_DEBT_NY = {
     {
       type: "free",
       name: "Community Health Advocates (CHA)",
-      focus: "Hospital billing problems, insurance denials, financial assistance navigation",
-      qualifier: "Any New York resident; no income limit",
-      access: "Statewide helpline at 1-888-614-5400",
-      outcome: "Billing error resolution, financial assistance application support",
+      focus: "Hospital billing problems, insurance denials, help applying for financial assistance",
+      qualifier: "Any New Yorker — no income limit",
+      access: "Call 1-888-614-5400",
+      outcome: "Free help with your bill or insurance",
       phone: "1-888-614-5400",
       url: "https://www.communityhealthadvocates.org",
       verified: true,
