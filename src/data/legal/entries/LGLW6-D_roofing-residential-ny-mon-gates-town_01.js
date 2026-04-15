@@ -30,7 +30,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Town of Gates",
       "Building permits required for construction, additions, alterations, decks, pools, and signs",
-      "Contact the Building Department at 585-247-6100 to confirm specific project requirements"
+      "The Building Department (585-247-6100) is the office that confirms specific project requirements"
     ]
   },
 

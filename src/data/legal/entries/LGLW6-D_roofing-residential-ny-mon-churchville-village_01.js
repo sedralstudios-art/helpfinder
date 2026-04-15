@@ -32,7 +32,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Village of Churchville boundary",
       "Building permits required for construction, alteration, improvement, and demolition of structures",
-      "Contact the Building Inspector at 585-293-3720 ext 119 to confirm specific project requirements"
+      "The Building Inspector (585-293-3720 ext 119) is the office that confirms specific project requirements"
     ]
   },
 

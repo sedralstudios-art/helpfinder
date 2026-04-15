@@ -31,7 +31,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Town of Riga, outside the Village of Churchville",
       "Building permits required for construction and alterations under the NYS Uniform Code",
-      "Contact the Building Department at 585-293-3880 ext 124 to confirm specific project requirements"
+      "The Building Department (585-293-3880 ext 124) is the office that confirms specific project requirements"
     ]
   },
 

@@ -30,7 +30,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Town of Penfield",
       "Building permits required for construction, enlargement, alteration, repair, moving, and demolition of structures",
-      "Contact the Building Department at 585-340-8636 to confirm specific project requirements"
+      "The Building Department (585-340-8636) is the office that confirms specific project requirements"
     ]
   },
 

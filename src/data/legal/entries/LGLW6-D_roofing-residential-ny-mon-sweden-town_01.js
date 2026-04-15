@@ -31,7 +31,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Town of Sweden, outside the Village of Brockport",
       "Building permits required for construction and alterations under the NYS Uniform Code",
-      "Contact the Building Department at 585-637-8684 to confirm specific project requirements"
+      "The Building Department (585-637-8684) is the office that confirms specific project requirements"
     ]
   },
 

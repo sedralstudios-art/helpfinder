@@ -31,7 +31,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Town/Village of East Rochester",
       "Building permits required for construction or structural alteration of buildings",
-      "Contact the Building Department at 585-586-3553 to confirm specific project requirements"
+      "The Building Department (585-586-3553) is the office that confirms specific project requirements"
     ]
   },
 

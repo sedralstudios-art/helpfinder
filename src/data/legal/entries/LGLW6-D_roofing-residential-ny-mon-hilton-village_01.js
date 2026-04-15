@@ -30,7 +30,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Village of Hilton boundary",
       "The Village has separate code enforcement from the Town of Parma",
-      "Contact the Building Department at 585-392-4144 ext 106 to confirm specific project requirements"
+      "The Building Department (585-392-4144 ext 106) is the office that confirms specific project requirements"
     ]
   },
 

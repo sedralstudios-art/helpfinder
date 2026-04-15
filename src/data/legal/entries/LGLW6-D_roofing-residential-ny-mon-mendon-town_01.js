@@ -31,7 +31,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Town of Mendon, outside the Village of Honeoye Falls",
       "Building permits required for construction and alterations under the NYS Uniform Code",
-      "Contact the Building Department at 585-624-6066 to confirm specific project requirements"
+      "The Building Department (585-624-6066) is the office that confirms specific project requirements"
     ]
   },
 

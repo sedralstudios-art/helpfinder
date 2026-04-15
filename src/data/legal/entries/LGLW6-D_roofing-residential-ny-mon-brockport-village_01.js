@@ -30,7 +30,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Village of Brockport boundary",
       "The Village has separate code enforcement from the Towns of Sweden and Clarkson",
-      "Contact the Building and Codes Office at 585-637-5300 to confirm specific project requirements"
+      "The Building and Codes Office (585-637-5300) is the office that confirms specific project requirements"
     ]
   },
 

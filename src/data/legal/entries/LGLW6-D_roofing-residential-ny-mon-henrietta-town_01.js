@@ -30,7 +30,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Town of Henrietta",
       "Building permits cover construction, modification, installation, and demolition of structures",
-      "Contact the Building and Fire Prevention Department to confirm specific project requirements"
+      "The Building and Fire Prevention Department is the office that confirms specific project requirements"
     ]
   },
 

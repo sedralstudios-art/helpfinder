@@ -31,7 +31,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Town of Chili",
       "Building permits required for construction, alterations, and other work under the NYS Uniform Code",
-      "Contact the Building Department at 585-889-6143 to confirm whether your roofing project requires a permit"
+      "The Building Department (585-889-6143) is the office that confirms whether a roofing project requires a permit"
     ]
   },
 

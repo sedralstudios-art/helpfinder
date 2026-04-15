@@ -31,7 +31,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Village of Scottsville boundary",
       "Properties in the Rochester Street Historic District may require a Certificate of Appropriateness for exterior work",
-      "Contact the Village Office at 585-889-6050 to confirm specific project requirements"
+      "The Village Office (585-889-6050) is the office that confirms specific project requirements"
     ]
   },
 

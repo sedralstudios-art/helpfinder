@@ -30,7 +30,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Town of Webster boundary",
       "The Village of Webster is a separate jurisdiction — verify which you are in before starting",
-      "Contact the Building Department at 585-872-7036 to confirm permit needs before starting"
+      "The Building Department (585-872-7036) is the office that confirms permit needs before starting"
     ]
   },
 

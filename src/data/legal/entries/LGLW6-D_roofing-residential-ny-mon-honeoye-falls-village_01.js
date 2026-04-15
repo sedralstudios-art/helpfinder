@@ -31,7 +31,7 @@ export const entry = {
     en: [
       "Property owners and contractors working inside the Village of Honeoye Falls boundary",
       "The Village has separate code enforcement from the Town of Mendon",
-      "Contact the Code Enforcement Office at 585-624-6150 to confirm specific project requirements"
+      "The Code Enforcement Office (585-624-6150) is the office that confirms specific project requirements"
     ]
   },
 
