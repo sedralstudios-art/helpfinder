@@ -129,7 +129,6 @@ const UI = {
     startOver: "Start Over",
     stepWhat: "What do you need?",
     stepWho: "Who needs help?",
-    stepHow: "How is your money situation?",
     stepResults: "Here's what we found",
     whoSelf: "Just me",
     whoFamily: "Me and my family",
@@ -139,10 +138,6 @@ const UI = {
     whoPregnant: "I'm pregnant or have a baby",
     whoDisability: "Someone with a disability",
     whoAnyone: "I'd rather not say",
-    howOk: "We're getting by",
-    howTight: "Money is tight",
-    howCrisis: "We can't pay for basics",
-    howNone: "No income right now",
     call211: "Need something not listed? Call 211 for a referral.",
     privacy: "Nothing you share here is saved or sent anywhere. Ever.",
     privacySensitive: "This is private. We don't save or share anything. No one will know you looked here.",
@@ -178,7 +173,6 @@ const UI = {
     startOver: "Empezar de nuevo",
     stepWhat: "¿Qué necesita?",
     stepWho: "¿Quién necesita ayuda?",
-    stepHow: "¿Cómo está su situación económica?",
     stepResults: "Esto es lo que encontramos",
     whoSelf: "Solo yo",
     whoFamily: "Yo y mi familia",
@@ -188,10 +182,6 @@ const UI = {
     whoPregnant: "Estoy embarazada o tengo un bebé",
     whoDisability: "Alguien con discapacidad",
     whoAnyone: "Prefiero no decir",
-    howOk: "Nos mantenemos",
-    howTight: "El dinero está apretado",
-    howCrisis: "No podemos pagar lo básico",
-    howNone: "Sin ingresos ahora",
     call211: "¿Necesita algo no listado? Llame al 211 para una referencia.",
     privacy: "Nada de lo que comparte aquí se guarda ni se envía a ningún lado. Nunca.",
     privacySensitive: "Esto es privado. No guardamos ni compartimos nada. Nadie sabrá que buscó aquí.",
@@ -232,7 +222,6 @@ Object.assign(UI, {
     startOver: "फेरि सुरु गर्नुहोस्",
     stepWhat: "तपाईंलाई के चाहिन्छ?",
     stepWho: "कसलाई सहायता चाहिन्छ?",
-    stepHow: "तपाईंको आर्थिक अवस्था कस्तो छ?",
     stepResults: "हामीले यो भेट्टायौं",
     whoSelf: "म मात्र",
     whoFamily: "म र मेरो परिवार",
@@ -242,10 +231,6 @@ Object.assign(UI, {
     whoPregnant: "म गर्भवती छु वा शिशु छ",
     whoDisability: "अपाङ्गता भएको कोही",
     whoAnyone: "भन्न चाहन्न",
-    howOk: "हामी चलिरहेका छौं",
-    howTight: "पैसा तन्किएको छ",
-    howCrisis: "आधारभूत कुरा तिर्न सक्दैनौं",
-    howNone: "अहिले आम्दानी छैन",
     call211: "सूचीमा नभएको कुरा चाहिन्छ? 211 मा कल गर्नुहोस्।",
     privacy: "तपाईंले यहाँ साझा गरेको कुनै कुरा सेभ वा पठाइँदैन। कहिल्यै।",
     privacySensitive: "यो निजी छ। हामी केही सेभ वा साझा गर्दैनौं। कसैलाई थाहा हुँदैन।",
@@ -280,7 +265,6 @@ Object.assign(UI, {
     startOver: "ابدأ من جديد",
     stepWhat: "ماذا تحتاج؟",
     stepWho: "من يحتاج المساعدة؟",
-    stepHow: "كيف وضعك المادي؟",
     stepResults: "هذا ما وجدناه",
     whoSelf: "أنا فقط",
     whoFamily: "أنا وعائلتي",
@@ -290,10 +274,6 @@ Object.assign(UI, {
     whoPregnant: "أنا حامل أو لدي طفل رضيع",
     whoDisability: "شخص ذو إعاقة",
     whoAnyone: "أفضل عدم القول",
-    howOk: "نحن بخير",
-    howTight: "المال ضيق",
-    howCrisis: "لا نستطيع دفع الأساسيات",
-    howNone: "لا دخل حالياً",
     call211: "تحتاج شيئاً غير مدرج؟ اتصل بـ 211 للإحالة.",
     privacy: "لا يتم حفظ أو إرسال أي شيء تشاركه هنا. أبداً.",
     privacySensitive: "هذا خاص. لا نحفظ أو نشارك شيئاً. لن يعرف أحد أنك بحثت هنا.",
@@ -328,7 +308,6 @@ Object.assign(UI, {
     startOver: "Anza Upya",
     stepWhat: "Unahitaji nini?",
     stepWho: "Nani anahitaji msaada?",
-    stepHow: "Hali yako ya fedha ikoje?",
     stepResults: "Hivi ndivyo tulivyopata",
     whoSelf: "Mimi tu",
     whoFamily: "Mimi na familia yangu",
@@ -338,10 +317,6 @@ Object.assign(UI, {
     whoPregnant: "Nina mimba au nina mtoto mchanga",
     whoDisability: "Mtu mwenye ulemavu",
     whoAnyone: "Sipendelei kusema",
-    howOk: "Tunaendelea",
-    howTight: "Fedha ni ngumu",
-    howCrisis: "Hatuwezi kulipa mahitaji ya msingi",
-    howNone: "Hakuna mapato sasa",
     call211: "Unahitaji kitu kisichoorodheshwa? Piga 211 kwa rufaa.",
     privacy: "Hakuna unachoshiriki hapa kinachohifadhiwa au kutumwa. Kamwe.",
     privacySensitive: "Hii ni siri. Hatuhifadhi au kushiriki chochote. Hakuna mtu atakayejua ulitafuta hapa.",
@@ -376,7 +351,6 @@ Object.assign(UI, {
     startOver: "အစကပြန်စပါ",
     stepWhat: "ဘာလိုအပ်ပါသလဲ?",
     stepWho: "ဘယ်သူအကူအညီလိုပါသလဲ?",
-    stepHow: "ငွေကြေးအခြေအနေဘယ်လိုရှိပါသလဲ?",
     stepResults: "ဒါတွေကိုတွေ့ပါတယ်",
     whoSelf: "ကျွန်တော်/မ တစ်ယောက်တည်း",
     whoFamily: "ကျွန်တော်/မ နှင့် မိသားစု",
@@ -386,10 +360,6 @@ Object.assign(UI, {
     whoPregnant: "ကိုယ်ဝန်ဆောင်နေတယ် သို့ ကလေးငယ်ရှိတယ်",
     whoDisability: "မသန်စွမ်းသူတစ်ယောက်",
     whoAnyone: "မပြောချင်ပါ",
-    howOk: "ရပ်တည်နိုင်ပါတယ်",
-    howTight: "ငွေကြေးကျပ်တည်းပါတယ်",
-    howCrisis: "အခြေခံစရိတ်မပေးနိုင်ပါ",
-    howNone: "အခုဝင်ငွေမရှိပါ",
     call211: "စာရင်းမပါတာ လိုအပ်ပါသလား? 211 ခေါ်ပါ။",
     privacy: "ဒီမှာမျှဝေတာ ဘာမှသိမ်းဆည်းခြင်း သို့ ပေးပို့ခြင်းမရှိပါ။",
     privacySensitive: "ဒါလျှို့ဝှက်ပါ။ ဘာမှမသိမ်းပါ။ ဘယ်သူမှမသိပါ။",
@@ -424,7 +394,6 @@ Object.assign(UI, {
     startOver: "Dib u Bilow",
     stepWhat: "Maxaad u baahan tahay?",
     stepWho: "Yaa u baahan caawimo?",
-    stepHow: "Sidee bay tahay xaaladaada dhaqaale?",
     stepResults: "Waxaan helnay kuwan",
     whoSelf: "Aniga kaliya",
     whoFamily: "Aniga iyo qoyskayga",
@@ -434,10 +403,6 @@ Object.assign(UI, {
     whoPregnant: "Waan uurka leeyahay ama ilmo yar baan haystaa",
     whoDisability: "Qof naafo ah",
     whoAnyone: "Ma rabo inaan sheego",
-    howOk: "Waan iska maareynaa",
-    howTight: "Lacagtu way cidhiidhi tahay",
-    howCrisis: "Aasaasiga ma bixin karno",
-    howNone: "Dakhli ma hayno hadda",
     call211: "Wax aan liiska ku jirin ma u baahan tahay? Wac 211.",
     privacy: "Waxba laguma keydiyo ama lama diro. Weligaa.",
     privacySensitive: "Tani waa sir. Waxba lama keydiyo ama lama wadaago. Qofna ma ogaan doono.",
@@ -472,7 +437,6 @@ Object.assign(UI, {
     startOver: "重新开始",
     stepWhat: "您需要什么？",
     stepWho: "谁需要帮助？",
-    stepHow: "您的经济状况如何？",
     stepResults: "以下是我们找到的",
     whoSelf: "只有我自己",
     whoFamily: "我和我的家人",
@@ -482,10 +446,6 @@ Object.assign(UI, {
     whoPregnant: "我怀孕了或有婴儿",
     whoDisability: "残障人士",
     whoAnyone: "不想说",
-    howOk: "还过得去",
-    howTight: "钱很紧",
-    howCrisis: "付不起基本开支",
-    howNone: "目前没有收入",
     call211: "需要未列出的服务？拨打211获取转介。",
     privacy: "您在这里分享的任何内容都不会被保存或发送。绝对不会。",
     privacySensitive: "这是私密的。我们不保存或分享任何内容。没有人会知道您在这里查看过。",
@@ -2043,7 +2003,6 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
   const [geoError, setGeoError] = useState(false);
   const [geoLoading, setGeoLoading] = useState(false);
   const [who, setWho] = useState(null);
-  const [how, setHow] = useState(null);
   const [expandedCard, setExpandedCard] = useState(null);
   const [showDVExit, setShowDVExit] = useState(false);
   const [answers, setAnswers] = useState({});
@@ -2126,8 +2085,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
       }
     }
   };
-  const selectWho = (val) => { setWho(val); goTo(STEPS.HOW); };
-  const selectHow = (val) => { setHow(val); goTo(STEPS.RESULTS); };
+  const selectWho = (val) => { setWho(val); goTo(STEPS.RESULTS); };
 
   const answerQuestion = (questionKey, value) => {
     const newAnswers = { ...answers, [questionKey]: value };
@@ -2135,7 +2093,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
     const question = QUESTIONS[questionKey];
     const option = question && question.options && question.options.find(o => o.key === value);
     const next = option && option.next;
-    if (next === "how") goTo(STEPS.HOW);
+    if (next === "how") goTo(STEPS.RESULTS);
     else if (next === "who") goTo(STEPS.WHO);
     else if (next === "results" || next === null || next === undefined) goTo(STEPS.RESULTS);
     else {
@@ -2148,7 +2106,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
     setStep(STEPS.HOME); setTab(null); setCategory(null);
     setEnteredViaDeepLink(false);
     setNearMe(false); setUserCoords(null); setGeoError(false);
-    setWho(null); setHow(null); setExpandedCard(null);
+    setWho(null); setExpandedCard(null);
     setAnswers({}); setCurrentQuestionKey(null);
     // NOTE: showDVExit intentionally NOT cleared — once activated, stays visible for safety
     scrollTop();
@@ -2179,17 +2137,6 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
       );
     }
 
-    // HOW filter (income)
-    // p.inc = max FPL% to qualify (e.g. SNAP=130 means must be ≤130% FPL)
-    // We estimate the user's likely FPL range and hide programs they
-    // almost certainly exceed the cutoff for. We err on SHOWING too much —
-    // better to show something they might not qualify for than hide help they need.
-    const estimatedMinFPL = { ok: 200, tight: 100, crisis: 0, none: 0 };
-    if (how && estimatedMinFPL[how] > 0) {
-      const userMin = estimatedMinFPL[how];
-      progs = progs.filter((p) => !p.inc || p.inc >= userMin);
-    }
-    // "none" and "crisis" = show everything (they qualify for all income-limited programs)
 
     // NEAR ME: when user enables location, sort by distance from user.
     // Programs with addressSuppressed:true (crisis nurseries, DV shelters)
@@ -2212,7 +2159,7 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
     }
 
     return progs;
-  }, [category, who, how, nearMe, userCoords, answers, userTown]);
+  }, [category, who, nearMe, userCoords, answers, userTown]);
 
   // Per-entry safety override — see SAFETY_SENSITIVE doc block above DV_CATS.
   // If ANY visible program is flagged safetySensitive, escalate to Quick Exit.
@@ -2231,14 +2178,12 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
   const stepLabels = [
     t(lang, "stepWhat"),
     t(lang, "stepWho"),
-    t(lang, "stepHow"),
     t(lang, "stepResults"),
   ];
   const currentStepIndex =
     step === STEPS.WHAT_TAB || step === STEPS.WHAT_CAT ? 0
     : step === STEPS.WHO || step === STEPS.QUESTION ? 1
-    : step === STEPS.HOW ? 2
-    : step === STEPS.RESULTS ? 3
+    : step === STEPS.RESULTS ? 2
     : -1;
 
   return (
@@ -2562,31 +2507,6 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
                 { key: "anyone", label: t(lang, "whoAnyone"), icon: "🙂" },
               ].map((opt) => (
                 <button key={opt.key} onClick={() => selectWho(opt.key)} className="roc-btn" style={btnStyle()}
-                >
-                  <span style={{ fontSize: 20 }}>{opt.icon}</span>
-                  <span>{opt.label}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* ── HOW ── */}
-        {step === STEPS.HOW && (
-          <div>
-            <h2 style={{ fontSize: 18, fontWeight: 700, marginBottom: 6 }}>
-              {t(lang, "stepHow")}
-            </h2>
-            {SENSITIVE.has(category) && <PrivacyBadge lang={lang} sensitive />}
-
-            <div style={{ display: "flex", flexDirection: "column", gap: 8, marginTop: 12 }}>
-              {[
-                { key: "ok", label: t(lang, "howOk"), icon: "👍" },
-                { key: "tight", label: t(lang, "howTight"), icon: "🤞" },
-                { key: "crisis", label: t(lang, "howCrisis"), icon: "🫶" },
-                { key: "none", label: t(lang, "howNone"), icon: "🌱" },
-              ].map((opt) => (
-                <button key={opt.key} onClick={() => selectHow(opt.key)} className="roc-btn" style={btnStyle()}
                 >
                   <span style={{ fontSize: 20 }}>{opt.icon}</span>
                   <span>{opt.label}</span>
