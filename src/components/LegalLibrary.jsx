@@ -23,43 +23,43 @@ const SERIF = "'DM Serif Display', Georgia, serif";
 export const CATEGORY_META = {
   benefits: {
     icon: "💰",
-    label: "Public Benefits",
-    desc: "SNAP, Medicaid, cash assistance, fair hearings, disability, appeals.",
+    label: "Money & Benefits",
+    desc: "SNAP, Medicaid, Medicare, cash help, disability, fair hearings, appeals.",
   },
   consumer: {
     icon: "🛒",
-    label: "Consumer Rights",
-    desc: "Debt collection, scams, contracts, refunds, unfair business practices.",
+    label: "Debt & Money Problems",
+    desc: "Debt collection, scams, contracts, refunds, unfair charges.",
   },
   housing: {
     icon: "🏠",
-    label: "Housing & Eviction",
-    desc: "Landlord disputes, eviction defense, security deposits, housing discrimination.",
+    label: "Housing & Rent",
+    desc: "Landlord disputes, eviction, security deposits, housing discrimination.",
   },
   family: {
     icon: "👨‍👩‍👧",
-    label: "Family & Child Care",
-    desc: "Child care assistance, custody, family support programs.",
+    label: "Family Decisions",
+    desc: "Child care, custody, planning ahead with Power of Attorney or Health Care Proxy, guardianship alternatives.",
   },
   employment: {
     icon: "💼",
-    label: "Employment & Wages",
-    desc: "Wage theft, unpaid wages, overtime, workplace rights.",
+    label: "Work & Pay",
+    desc: "Wage theft, unpaid wages, overtime, wrongful firing, workplace rights.",
   },
   vehicle: {
     icon: "🚗",
-    label: "Vehicle & Driver",
-    desc: "Driver's license, suspensions, registration, traffic issues.",
+    label: "Driving & Tickets",
+    desc: "Driver's license, suspensions, registration, tickets, DWI.",
   },
   criminal: {
     icon: "⚖️",
-    label: "Criminal Record",
-    desc: "NY Clean Slate Act, sealing records, certificates of relief, expungement.",
+    label: "Arrests & Records",
+    desc: "Rights when arrested, drug charges, Good Samaritan Law, sealing or expunging a record.",
   },
   trades: {
     icon: "🔨",
-    label: "Trades & Permits",
-    desc: "Building permits, contractor requirements, and local ordinances by town.",
+    label: "Home Projects & Permits",
+    desc: "Building permits, contractor rules, and local ordinances for roofing, plumbing, electrical, and HVAC work.",
   },
 };
 
