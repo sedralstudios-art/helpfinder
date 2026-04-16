@@ -29,7 +29,7 @@ export const RESTITUTION = {
   },
 
   related: ["plea", "conditional-discharge", "probation", "mandatory-surcharge", "sentence"],
-  legalEntryIds: [],
+  legalEntryIds: ["sentencing-options-ny"],
 
   citation: "NY Penal Law § 60.27; CPL Article 420 (collection)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/PEN/60.27",

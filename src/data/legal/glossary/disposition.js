@@ -28,7 +28,7 @@ export const DISPOSITION = {
   },
 
   related: ["acd", "plea", "sealed-record", "conditional-discharge"],
-  legalEntryIds: [],
+  legalEntryIds: ["criminal-case-process-ny","sentencing-options-ny"],
 
   citation: "General term used throughout NY Criminal Procedure Law",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/A1",

@@ -31,7 +31,7 @@ export const PINS = {
   },
 
   related: ["family-court", "public-defender"],
-  legalEntryIds: [],
+  legalEntryIds: ["custody-basics-ny"],
 
   citation: "NY FCA Article 7 (§ 711+)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/FCT/A7",

@@ -30,7 +30,7 @@ export const TRIAL = {
   },
 
   related: ["plea", "plea-bargain", "discovery", "speedy-trial", "public-defender", "sentence", "appeal"],
-  legalEntryIds: [],
+  legalEntryIds: ["criminal-case-process-ny"],
 
   citation: "NY CPL Article 260 (jury); Article 320 (non-jury)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/A260",

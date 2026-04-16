@@ -30,7 +30,7 @@ export const PRELIMINARY_HEARING = {
   },
 
   related: ["arraignment", "grand-jury", "indictment", "felony", "public-defender", "motion-to-dismiss"],
-  legalEntryIds: [],
+  legalEntryIds: ["criminal-case-process-ny"],
 
   citation: "NY CPL § 180.60",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/180.60",

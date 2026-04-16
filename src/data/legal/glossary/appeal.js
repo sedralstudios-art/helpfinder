@@ -29,7 +29,7 @@ export const APPEAL = {
   },
 
   related: ["plea", "public-defender", "sentence"],
-  legalEntryIds: [],
+  legalEntryIds: ["criminal-appeal-ny"],
 
   citation: "NY CPL Article 450; § 460.10 (notice of appeal)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/A450",

@@ -29,7 +29,7 @@ export const MANDATORY_SURCHARGE = {
   },
 
   related: ["restitution", "sentence", "plea", "conditional-discharge"],
-  legalEntryIds: [],
+  legalEntryIds: ["sentencing-options-ny"],
 
   citation: "NY Penal Law § 60.35",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/PEN/60.35",

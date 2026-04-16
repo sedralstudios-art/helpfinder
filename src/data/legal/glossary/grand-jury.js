@@ -27,7 +27,7 @@ export const GRAND_JURY = {
   },
 
   related: ["indictment", "felony", "arraignment", "motion-to-dismiss", "public-defender"],
-  legalEntryIds: [],
+  legalEntryIds: ["criminal-case-process-ny"],
 
   citation: "NY CPL Article 190 (§ 190.25, § 190.65)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/A190",

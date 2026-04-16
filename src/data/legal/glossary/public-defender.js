@@ -30,7 +30,7 @@ export const PUBLIC_DEFENDER = {
   },
 
   related: ["arraignment", "plea", "motion-to-dismiss"],
-  legalEntryIds: [],
+  legalEntryIds: ["right-to-a-lawyer-ny"],
 
   citation: "NY County Law § 722 (Article 18-B)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CNT/722",

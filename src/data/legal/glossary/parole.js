@@ -31,7 +31,7 @@ export const PAROLE = {
   },
 
   related: ["probation", "violation-of-probation", "sentence", "felony"],
-  legalEntryIds: [],
+  legalEntryIds: ["parole-community-supervision-ny"],
 
   citation: "NY Executive Law § 259-i (conditions, supervision); Penal Law § 70.40 (release)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/EXC/259-I",

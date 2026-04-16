@@ -31,7 +31,7 @@ export const FINE = {
   },
 
   related: ["sentence", "restitution", "mandatory-surcharge", "plea-bargain", "conditional-discharge"],
-  legalEntryIds: [],
+  legalEntryIds: ["sentencing-options-ny"],
 
   citation: "NY Penal Law § 80.00 (felony); § 80.05 (misdemeanor & violation)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/PEN/80.00",

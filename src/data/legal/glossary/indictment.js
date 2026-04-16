@@ -27,7 +27,7 @@ export const INDICTMENT = {
   },
 
   related: ["grand-jury", "felony", "arraignment", "motion-to-dismiss"],
-  legalEntryIds: [],
+  legalEntryIds: ["criminal-case-process-ny"],
 
   citation: "NY CPL § 200.10",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/200.10",

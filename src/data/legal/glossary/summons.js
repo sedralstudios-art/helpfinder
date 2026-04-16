@@ -29,7 +29,7 @@ export const SUMMONS = {
   },
 
   related: ["arrest-warrant", "desk-appearance-ticket", "arraignment", "bench-warrant"],
-  legalEntryIds: [],
+  legalEntryIds: ["criminal-case-process-ny"],
 
   citation: "NY CPL Article 130 (§ 130.10)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/A130",

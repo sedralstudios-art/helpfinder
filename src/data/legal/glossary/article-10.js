@@ -31,7 +31,7 @@ export const ARTICLE_10 = {
   },
 
   related: ["family-court", "custody", "visitation", "public-defender"],
-  legalEntryIds: [],
+  legalEntryIds: ["custody-basics-ny","order-of-protection-ny"],
 
   citation: "NY FCA Article 10 (§ 1011+); § 262 (right to counsel)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/FCT/A10",

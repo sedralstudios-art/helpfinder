@@ -29,7 +29,7 @@ export const MOTION_TO_DISMISS = {
   },
 
   related: ["arraignment", "plea", "public-defender", "speedy-trial"],
-  legalEntryIds: [],
+  legalEntryIds: ["criminal-case-process-ny"],
 
   citation: "NY CPL § 170.30 (misdemeanor); NY CPL § 210.20 (felony)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/170.30",
