@@ -3,6 +3,7 @@ import { QUESTIONS, getFirstQuestion, isDirectToResults, isHiddenCategory, getIn
 import ShareButton from "./ShareButton";
 import { helpFinderToGlossaryCategory, glossaryCategoryLabel } from "../data/legal/glossary-tag-map";
 import { GLOSSARY_TERMS_BY_CATEGORY } from "../data/legal/glossary-index";
+import GlossaryText from "./GlossaryTooltip";
 
 // ─────────────────────────────────────────────
 // mapsHandoff — universal tap-to-navigate (added April 9, 2026)
@@ -1909,7 +1910,7 @@ const ProgramCard = ({ program: p, lang, expanded, onToggle }) => {
         <span style={{ fontSize: 22, flexShrink: 0 }}>{catInfo?.icon || "📌"}</span>
         <div style={{ flex: 1, minWidth: 0 }}>
           <div style={{ fontWeight: 700, fontSize: 15, color: "#1a1a1a", lineHeight: 1.3 }}>{p.n}</div>
-          <div style={{ fontSize: 13, color: "#555", marginTop: 3, lineHeight: 1.45 }}>{desc}</div>
+          <div style={{ fontSize: 13, color: "#555", marginTop: 3, lineHeight: 1.45 }}><GlossaryText text={desc} maxHighlights={2} /></div>
         </div>
         <span style={{ fontSize: 12, color: "#767676", flexShrink: 0, marginTop: 2 }}>
           {expanded ? "▲" : "▼"}
