@@ -676,8 +676,16 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             )}
           </div>
 
+          {/* ── MISSION LINE ── */}
+          <div className="hf-fade-in hf-d2" style={{ textAlign: "center", marginTop: 24, padding: "0 20px" }}>
+            <div style={{ fontSize: 14, color: C.stone, lineHeight: 1.6, maxWidth: 360, margin: "0 auto" }}>
+              Programs. Rights. Answers.<br />
+              <span style={{ fontSize: 12, color: C.dust }}>Built by someone who needed this help and couldn't find it.</span>
+            </div>
+          </div>
+
           {/* ── ENTER BUTTON ── */}
-          <div className="hf-fade-in hf-d3" style={{ display: "flex", justifyContent: "center", marginTop: 32 }}>
+          <div className="hf-fade-in hf-d3" style={{ display: "flex", justifyContent: "center", marginTop: 28 }}>
             <a href="/help" rel="nofollow"
               onClick={(e) => { e.preventDefault(); if (onNavigateHelp) onNavigateHelp(); }}
               style={{
