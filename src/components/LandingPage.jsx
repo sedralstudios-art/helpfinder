@@ -96,14 +96,15 @@ const UI = {
     navContact: "Contact",
     back: "← Back",
     aboutTitle: "About",
-    aboutP1: "HelpFinder is a free tool that connects people with real programs in their city. No accounts. No personal data collected. No ads. Just answers.",
-    aboutP2: "Starting in Rochester, NY. Free. Verified. No account needed. Growing daily.",
-    aboutPersonal: "I'm Anthony DiMarzo of Rochester. I have a CDL and I spend my days building roads. I spend my nights building this. I'd rather be building a better future for tomorrow. I noticed people in crisis can't find help — not because it doesn't exist, but because nobody put it in one place in plain language. So I did. No degree. No funding. No investors. Just me and a computer.",
-    aboutFamily: "I live in Brockport with my fiancée and our son. He's six. He's the reason this exists. The world he inherits should be better than the one he was born into.",
+    aboutP1: "HelpFinder connects people with real programs, legal rights, and plain-English answers — all in one place. No accounts. No personal data collected. No ads. No fees. Just help.",
+    aboutP2: "I grew up watching my family navigate the system. Uncles on my dad's side, six great-aunts and great-uncles on my mom's — most of them in Rochester, most with families of their own, and many of their kids have kids now too. My family is big. And at one time or another, most of them have needed help finding food, housing, legal advice, or a program that actually existed but nobody could find. I watched people I love struggle — not because help wasn't there, but because nobody put it all in one place in language regular people could understand.",
+    aboutPersonal: "I'm Anthony DiMarzo. I have a CDL and I spend my days building roads. I spend my nights building this. No degree in law. No nonprofit funding. No investors. Just someone who has watched this problem his whole life and finally decided to do something about it.",
+    aboutFamily: "I live in Brockport with my fiancee and our son. He's six. He's the reason I keep going. The world he grows up in should be better than the one he was born into.",
     aboutSedral: "Sedral Studios is named for Steven T. May. He was my friend. He studied at MIT. He built computers, installed security systems, read philosophy and psychology, and loved his cats. He was autistic, and he had the kind of mind that saw what others couldn't. He left on Christmas Eve 2025, at 47. This work carries his name because the things that matter most shouldn't disappear when someone does.",
+    aboutWhat: "HelpFinder is built differently. Every legal guide is written at a 6th-grade reading level and backed by statute citations. Every program listing is verified with a phone number, address, and what to bring. Every page has a Quick Exit button for anyone who needs to leave fast. Legal content is reviewed by law professors. The glossary decodes the jargon that courts, agencies, and insurance companies use — in plain English, right where you need it. And none of it requires an account, a login, or giving up any personal information.",
     aboutClose: "Everything here is free. If you want to help keep it free, there's a donate button. If you can't donate, use the tools. That's enough.",
-    aboutSign: "— Ozramid Of March",
-    aboutAgency: "If you work at an agency and want your program listed, or if something needs correcting, reach out.",
+    aboutSign: "— Anthony DiMarzo / Ozramid Of March",
+    aboutAgency: "If you work at an agency and want your program listed, if you're a legal professional who wants to help verify content, or if something needs correcting — reach out.",
     contactTitle: "Contact",
     supportTitle: "Support this project",
     supportDesc: "HelpFinder is free for everyone who uses it. It stays free because people like you decide it should exist.",
@@ -861,16 +862,32 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
 
       {/* ═══════════════════ ABOUT ═══════════════════ */}
       {page === PAGES.ABOUT && (
-        <main style={{ padding: "0 20px 40px" }}>
+        <main style={{ maxWidth: 640, margin: "0 auto", padding: "0 20px 40px" }}>
           <button onClick={() => nav(PAGES.HOME)} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, color: C.stone, padding: "16px 0", fontFamily: "inherit" }}>{t(lang,"back")}</button>
-          <h2 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 28, fontWeight: 400, marginBottom: 20, color: C.bark }}>{t(lang,"aboutTitle")}</h2>
-          <div style={{ fontSize: 15, lineHeight: 1.7, color: C.bark }}>
-            <p style={{ marginBottom: 16 }}>{t(lang,"aboutP1")}</p>
+          <h2 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 30, fontWeight: 400, marginBottom: 8, color: C.bark }}>{t(lang,"aboutTitle")}</h2>
+          <p style={{ fontSize: 16, lineHeight: 1.7, color: C.bark, marginBottom: 20 }}>{t(lang,"aboutP1")}</p>
+
+          {/* Family photo */}
+          <div style={{ margin: "0 auto 24px", maxWidth: 320, borderRadius: 16, overflow: "hidden", boxShadow: "0 4px 20px rgba(0,0,0,0.12)" }}>
+            <img src="/family.jpg" alt="The DiMarzo family" style={{ width: "100%", display: "block" }} />
+          </div>
+
+          <div style={{ fontSize: 15, lineHeight: 1.75, color: C.bark }}>
             <p style={{ marginBottom: 16 }}>{t(lang,"aboutP2")}</p>
-                        <p style={{ marginBottom: 16 }}>{t(lang,"aboutPersonal")}</p>
+            <p style={{ marginBottom: 16 }}>{t(lang,"aboutPersonal")}</p>
             <p style={{ marginBottom: 16 }}>{t(lang,"aboutFamily")}</p>
-            <p style={{ marginBottom: 16, fontStyle: "italic", color: C.stone }}>{t(lang,"aboutSedral")}</p>
-            <p style={{ marginBottom: 16 }}>Everything here is free. If you want to help keep it free, <button onClick={() => nav(PAGES.SUPPORT)} style={{ background: "none", border: "none", color: C.forest, fontWeight: 600, cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit", textDecoration: "underline" }}>there's a donate page</button>. If you can't, use the tools. That's enough.</p>
+
+            {/* What makes HelpFinder different */}
+            <h3 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 22, fontWeight: 400, marginTop: 28, marginBottom: 12, color: C.bark }}>What makes this different</h3>
+            <p style={{ marginBottom: 16 }}>{t(lang,"aboutWhat")}</p>
+
+            {/* Steven / Sedral */}
+            <h3 style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontSize: 22, fontWeight: 400, marginTop: 28, marginBottom: 12, color: C.bark }}>Why it's called Sedral</h3>
+            <p style={{ marginBottom: 16, color: C.stone }}>{t(lang,"aboutSedral")}</p>
+
+            <p style={{ marginBottom: 16 }}>{t(lang,"aboutClose")} {" "}
+              <button onClick={() => nav(PAGES.SUPPORT)} style={{ background: "none", border: "none", color: C.forest, fontWeight: 600, cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit", textDecoration: "underline" }}>Donate</button>.
+            </p>
             <p style={{ marginBottom: 16, fontStyle: "italic", color: C.stone }}>{t(lang,"aboutSign")}</p>
             <p style={{ marginBottom: 0, color: C.stone, fontSize: 14 }}>{t(lang,"aboutAgency")}</p>
           </div>
