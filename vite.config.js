@@ -15,15 +15,21 @@ export default defineConfig({
           if (id.includes('node_modules/@stripe')) {
             return 'stripe';
           }
-          // All legal library data and components into their own chunk.
-          // Only loaded when user navigates to /know-your-rights.
-          if (id.includes('src/data/legal/') || id.includes('src/components/LegalLibrary')) {
+          // Program data into its own chunk — shared by HelpFinder, Search, and prerender.
+          if (id.includes('src/data/programs')) {
+            return 'programs';
+          }
+          // Legal library data and components into their own chunk.
+          if (id.includes('src/data/legal/') || id.includes('src/components/LegalLibrary') || id.includes('src/components/Glossary')) {
             return 'legal';
           }
-          // HelpFinder questionnaire and program directory into their own chunk.
-          // Only loaded when user navigates to /help.
+          // HelpFinder questionnaire into its own chunk.
           if (id.includes('src/components/HelpFinder') || id.includes('src/components/HelpFinderQuestions')) {
             return 'helpfinder';
+          }
+          // Search page into its own chunk.
+          if (id.includes('src/components/Search')) {
+            return 'search';
           }
         },
       },
