@@ -605,6 +605,11 @@ function buildHtml(baseTemplate, lang, pageKey) {
     html = html.replace('</head>', '    <link rel="canonical" href="' + canonical + '" />\n  </head>');
   }
 
+  // Add robots meta
+  if (!html.includes('name="robots"')) {
+    html = html.replace('</head>', '    <meta name="robots" content="index, follow" />\n  </head>');
+  }
+
   // Add hreflang links before </head>
   const hreflang = hreflangLinks(pageKey);
   html = html.replace('</head>', hreflang + '\n  </head>');

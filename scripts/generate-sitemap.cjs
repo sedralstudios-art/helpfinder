@@ -234,6 +234,25 @@ async function main() {
     console.log('\u2713 Wrote sitemap-glossary.xml (' + (1 + gCats.length + glossaryTerms.length) + ' URLs)');
   }
 
+  // 3c. sitemap-help.xml — /help index + per-category program pages
+  const helpDir = path.join(ROOT, 'dist', 'help');
+  if (fs.existsSync(helpDir)) {
+    let helpXml = '';
+    helpXml += buildUrlBlock(SITE_URL + '/help', today, 'weekly', '0.9', null);
+    totalUrls++;
+    const helpCatDir = path.join(helpDir, 'c');
+    if (fs.existsSync(helpCatDir)) {
+      const cats = fs.readdirSync(helpCatDir).filter((f) => fs.statSync(path.join(helpCatDir, f)).isDirectory());
+      for (const cat of cats.sort()) {
+        helpXml += buildUrlBlock(SITE_URL + '/help/c/' + cat, today, 'weekly', '0.85', null);
+        totalUrls++;
+      }
+      console.log('\u2713 Wrote sitemap-help.xml (' + (1 + cats.length) + ' URLs)');
+    }
+    writeSubsitemap('sitemap-help.xml', helpXml);
+    writtenFiles.push('sitemap-help.xml');
+  }
+
   // 4. sitemap.xml — the INDEX pointing to all sub-sitemaps
   let indexXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   indexXml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
