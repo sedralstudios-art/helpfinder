@@ -282,6 +282,20 @@ const SHARED_CSS = `
 `;
 
 // ── Entry page ──
+function autoLinkGlossary(text) {
+  const regex = globalThis.GLOSSARY_REGEX;
+  const map = globalThis.GLOSSARY_ALIAS_MAP || {};
+  if (!regex || !text) return esc(text);
+  const escaped = esc(text);
+  const seen = new Set();
+  return escaped.replace(regex, (match) => {
+    const id = map[match.toLowerCase()];
+    if (!id || seen.has(id)) return match;
+    seen.add(id);
+    return '<a href="/glossary/' + id + '" style="color:#5e35b1;text-decoration:underline dotted #5e35b1;text-underline-offset:2px;">' + match + '</a>';
+  });
+}
+
 function generateEntryHTML(entry, langMeta, bundleTags) {
   const lang = langMeta.code;
   const canonical = SITE_URL + urlPathForEntry(lang, entry.id);
@@ -312,14 +326,14 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
   const whoQualHTML = whoQual.length
     ? '<h2>Who qualifies</h2><ul>' + whoQual.map((i) => '<li>' + esc(i) + '</li>').join('') + '</ul>'
     : '';
-  const whatItMeansHTML = whatItMeans ? '<h2>What it means</h2><p>' + esc(whatItMeans) + '</p>' : '';
+  const whatItMeansHTML = whatItMeans ? '<h2>What it means</h2><p>' + autoLinkGlossary(whatItMeans) + '</p>' : '';
   const rightsHTML = rights.length
-    ? '<section class="rights-box"><h2>Your rights</h2><ul>' + rights.map((i) => '<li>' + esc(i) + '</li>').join('') + '</ul></section>'
+    ? '<section class="rights-box"><h2>Your rights</h2><ul>' + rights.map((i) => '<li>' + autoLinkGlossary(i) + '</li>').join('') + '</ul></section>'
     : '';
   const optionsHTML = options.length
-    ? '<h2>Legal options</h2><ul>' + options.map((i) => '<li>' + esc(i) + '</li>').join('') + '</ul>'
+    ? '<h2>Legal options</h2><ul>' + options.map((i) => '<li>' + autoLinkGlossary(i) + '</li>').join('') + '</ul>'
     : '';
-  const exampleHTML = example ? '<h2>Example</h2><p><em>' + esc(example) + '</em></p>' : '';
+  const exampleHTML = example ? '<h2>Example</h2><p><em>' + autoLinkGlossary(example) + '</em></p>' : '';
   const counselHTML = counsel.length
     ? '<h2>Get free legal help</h2><ul class="counsel">' +
       counsel
@@ -615,7 +629,24 @@ async function main() {
     const c = t.category || 'general';
     (globalThis.GLOSSARY_BY_CAT[c] = globalThis.GLOSSARY_BY_CAT[c] || []).push(t);
   }
+  console.log('\u2713 Loaded ' + glossaryTerms.length + ' glossary terms for cross-linking');
+
+  // Build alias map + regex for auto-linking terms in entry HTML
+  const aliasMap = {};
+  for (const t of glossaryTerms) {
+    const full = (t.term && t.term.en) || '';
+    if (full) aliasMap[full.toLowerCase()] = t.id;
+    for (const a of (t.aka || [])) {
+      if (a) aliasMap[String(a).toLowerCase()] = t.id;
+    }
+  }
+  const aliasKeys = Object.keys(aliasMap).sort((a, b) => b.length - a.length);
   console.log('✓ Loaded ' + glossaryTerms.length + ' glossary terms for cross-linking');
+  const glossaryRegex = aliasKeys.length > 0
+    ? new RegExp('\\b(' + aliasKeys.map(function(k) { return k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }).join('|') + ')\\b', 'gi')
+    : null;
+  globalThis.GLOSSARY_ALIAS_MAP = aliasMap;
+  globalThis.GLOSSARY_REGEX = glossaryRegex;
 
   const translations = await loadTranslations();
   const translatedLangs = Object.keys(translations);
