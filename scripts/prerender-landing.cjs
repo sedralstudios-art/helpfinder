@@ -76,6 +76,8 @@ const S = {
     navLegal: 'Know Your Rights',
     footer: 'Built with nothing. Built for everyone.',
     universalDisclaimer: 'HelpFinder is an informational tool only. HelpFinder is operated by Sedral Studios, a for-profit business entity — not a nonprofit, not a government agency, and not a substitute for a lawyer. Program details may change without notice. Contact programs directly to confirm eligibility, hours, and availability. This is not legal, medical, or financial advice.',
+    searchTitle: 'Search — Programs, Legal Guides, Glossary',
+    searchDesc: 'Search across free programs, legal guides, and glossary terms for Rochester and Monroe County, New York. One search box, three products.',
   },
   es: {
     siteName: 'HelpFinder',
@@ -297,6 +299,7 @@ const PAGES = [
   { key: 'support', path: 'support',  priority: '0.7', changefreq: 'monthly' },
   { key: 'privacy', path: 'privacy',  priority: '0.3', changefreq: 'yearly'  },
   { key: 'terms',   path: 'terms',    priority: '0.3', changefreq: 'yearly'  },
+  { key: 'search',  path: 'search',   priority: '0.7', changefreq: 'weekly'  },
 ];
 
 function xmlEsc(s) {
@@ -332,6 +335,7 @@ function titleFor(lang, pageKey) {
   if (pageKey === 'support') return s.supportTitle + ' | ' + s.siteName;
   if (pageKey === 'privacy') return s.privacyTitle + ' | ' + s.siteName;
   if (pageKey === 'terms')   return s.termsTitle + ' | ' + s.siteName;
+  if (pageKey === 'search')  return (s.searchTitle || 'Search') + ' | ' + s.siteName;
   return s.siteName;
 }
 
@@ -342,6 +346,7 @@ function descriptionFor(lang, pageKey) {
   if (pageKey === 'support') return s.supportDesc;
   if (pageKey === 'privacy') return s.privacyShort + ' ' + s.privacyP1;
   if (pageKey === 'terms')   return s.termsP1 + ' ' + s.termsP2;
+  if (pageKey === 'search')  return s.searchDesc || 'Search programs, legal guides, and glossary terms.';
   return '';
 }
 
@@ -455,6 +460,18 @@ function bodyContentFor(lang, pageKey) {
       langSwitch,
       '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;line-height:1.6;">' +
         '<p style="margin-bottom:8px;">' + xmlEsc(s.footer) + '</p>' +
+        '<p style="font-size:12px;">' + xmlEsc(s.universalDisclaimer || s.footer) + '</p>' +
+      '</footer>',
+    ].join('');
+  }
+  if (pageKey === 'search') {
+    return [
+      '<header><h1>Search everything</h1></header>',
+      nav,
+      '<p style="font-size:17px;line-height:1.6;">' + xmlEsc(s.searchDesc || 'Search programs, legal guides, and glossary terms.') + '</p>',
+      '<p>Type anything — food, eviction, ACD, SNAP, sliding scale — and results appear instantly.</p>',
+      '<p><a href="/help">Browse programs</a> · <a href="/know-your-rights">Legal guides</a> · <a href="/glossary">Glossary</a></p>',
+      '<footer style="margin-top:48px;padding-top:24px;border-top:1px solid #e8e4dc;color:#767676;font-size:13px;line-height:1.6;">' +
         '<p style="font-size:12px;">' + xmlEsc(s.universalDisclaimer || s.footer) + '</p>' +
       '</footer>',
     ].join('');
