@@ -122,7 +122,7 @@ export default function GlossaryText({ text, maxHighlights }) {
                 borderBottom: "1.5px dotted #5e35b1",
                 color: "#4527a0",
                 cursor: "pointer",
-                padding: 0,
+                padding: "2px 1px",
                 fontFamily: "inherit",
                 fontSize: "inherit",
                 lineHeight: "inherit",
