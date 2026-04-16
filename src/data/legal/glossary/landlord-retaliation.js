@@ -31,7 +31,7 @@ export const LANDLORD_RETALIATION = {
   },
 
   related: ["eviction", "holdover", "nonpayment-proceeding", "warranty-of-habitability"],
-  legalEntryIds: [],
+  legalEntryIds: ["tenant-rights-repairs-ny","eviction-process-ny"],
 
   citation: "NY RPL § 223-b",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/RPP/223-B",

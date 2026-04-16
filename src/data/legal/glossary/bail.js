@@ -30,7 +30,7 @@ export const BAIL = {
   },
 
   related: ["ror", "arraignment", "bench-warrant"],
-  legalEntryIds: [],
+  legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY CPL § 510.10",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/510.10",

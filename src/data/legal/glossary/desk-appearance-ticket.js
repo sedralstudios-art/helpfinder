@@ -30,7 +30,7 @@ export const DESK_APPEARANCE_TICKET = {
   },
 
   related: ["arrest", "arraignment", "bench-warrant", "summons", "public-defender"],
-  legalEntryIds: [],
+  legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY CPL Article 150 (§ 150.10, § 150.20)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/A150",

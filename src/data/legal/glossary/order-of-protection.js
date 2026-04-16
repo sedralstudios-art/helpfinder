@@ -30,7 +30,7 @@ export const ORDER_OF_PROTECTION = {
   },
 
   related: ["arraignment", "plea", "bail", "public-defender"],
-  legalEntryIds: [],
+  legalEntryIds: ["order-of-protection-ny"],
 
   citation: "NY CPL § 530.12 (family); § 530.13 (non-family)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/530.12",

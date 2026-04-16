@@ -30,7 +30,7 @@ export const JUDGMENT = {
   },
 
   related: ["debt-collection", "wage-garnishment", "small-claims", "bankruptcy", "automatic-stay", "statute-of-limitations-debt"],
-  legalEntryIds: [],
+  legalEntryIds: ["debt-collection-rights-ny"],
 
   citation: "NY CPLR § 5011; Article 52 (§§ 5201-5253)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CVP/5011",

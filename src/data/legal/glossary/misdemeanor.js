@@ -26,7 +26,7 @@ export const MISDEMEANOR = {
   },
 
   related: ["felony", "violation", "acd", "sealed-record", "arraignment"],
-  legalEntryIds: [],
+  legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY Penal Law § 55.10",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/PEN/55.10",

@@ -27,7 +27,7 @@ export const ARRAIGNMENT = {
   },
 
   related: ["acd", "bail", "ror", "bench-warrant", "misdemeanor", "felony", "sealed-record"],
-  legalEntryIds: [],
+  legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY CPL § 170.10 (misdemeanor); NY CPL § 180.10 (felony)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/170.10",

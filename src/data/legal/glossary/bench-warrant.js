@@ -26,7 +26,7 @@ export const BENCH_WARRANT = {
   },
 
   related: ["arraignment", "ror", "bail"],
-  legalEntryIds: [],
+  legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY CPL § 530.70",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/530.70",

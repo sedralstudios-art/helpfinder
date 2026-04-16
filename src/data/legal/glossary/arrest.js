@@ -28,7 +28,7 @@ export const ARREST = {
   },
 
   related: ["arraignment", "bail", "ror", "bench-warrant", "public-defender", "misdemeanor", "felony"],
-  legalEntryIds: [],
+  legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY CPL Article 140 (§ 140.10, § 140.20)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/A140",

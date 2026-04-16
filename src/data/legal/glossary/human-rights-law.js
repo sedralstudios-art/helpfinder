@@ -31,7 +31,7 @@ export const HUMAN_RIGHTS_LAW = {
   },
 
   related: ["at-will-employment", "retaliation-employment", "wage-theft", "landlord-retaliation"],
-  legalEntryIds: [],
+  legalEntryIds: ["wrongful-termination-ny"],
 
   citation: "NY Executive Law § 296",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/EXC/296",

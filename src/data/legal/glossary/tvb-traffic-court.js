@@ -32,7 +32,7 @@ export const TVB_TRAFFIC_COURT = {
   },
 
   related: ["traffic-infraction", "dwi-dwai", "license-suspension", "misdemeanor"],
-  legalEntryIds: [],
+  legalEntryIds: ["speeding-ticket-ny"],
 
   citation: "NY VTL § 225 (Traffic Violations Bureau)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/VAT/225",

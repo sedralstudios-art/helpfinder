@@ -31,7 +31,7 @@ export const UNEMPLOYMENT_INSURANCE = {
   },
 
   related: ["at-will-employment", "wage-theft", "retaliation-employment", "final-wages"],
-  legalEntryIds: [],
+  legalEntryIds: ["unemployment-appeal-ny"],
 
   citation: "NY Labor Law Article 18 (§§ 500-649)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/LAB/A18",

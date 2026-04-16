@@ -32,7 +32,7 @@ export const DRIVER_RESPONSIBILITY_ASSESSMENT = {
   },
 
   related: ["dwi-dwai", "license-suspension", "traffic-infraction", "tvb-traffic-court"],
-  legalEntryIds: [],
+  legalEntryIds: ["dwi-first-offense-ny"],
 
   citation: "NY VTL § 503(4)",
   sourceUrl: "https://dmv.ny.gov/points-and-penalties/driver-responsibility-assessment-dra",

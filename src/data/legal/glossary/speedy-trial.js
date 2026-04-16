@@ -29,7 +29,7 @@ export const SPEEDY_TRIAL = {
   },
 
   related: ["motion-to-dismiss", "arraignment", "plea", "public-defender"],
-  legalEntryIds: [],
+  legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY CPL § 30.30",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/30.30",

@@ -30,7 +30,7 @@ export const PROBATION = {
   },
 
   related: ["conditional-discharge", "acd", "plea", "sealed-record", "felony", "misdemeanor"],
-  legalEntryIds: [],
+  legalEntryIds: ["clean-slate-ny"],
 
   citation: "NY Penal Law § 65.00 (conditions: § 65.10)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/PEN/65.00",

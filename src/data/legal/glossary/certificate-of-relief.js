@@ -29,7 +29,7 @@ export const CERTIFICATE_OF_RELIEF = {
   },
 
   related: ["sealed-record", "plea", "sentence", "felony", "misdemeanor"],
-  legalEntryIds: [],
+  legalEntryIds: ["clean-slate-ny"],
 
   citation: "NY Correction Law § 702 (court-issued); § 703 (DOCCS-issued); § 703-A (Good Conduct)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/COR/A23",

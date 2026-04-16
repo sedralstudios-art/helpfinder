@@ -29,7 +29,7 @@ export const CONDITIONAL_DISCHARGE = {
   },
 
   related: ["acd", "plea", "misdemeanor", "felony", "violation", "sealed-record"],
-  legalEntryIds: [],
+  legalEntryIds: ["clean-slate-ny","dismissed-case-sealing-ny"],
 
   citation: "NY Penal Law § 65.05",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/PEN/65.05",

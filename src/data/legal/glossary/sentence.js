@@ -28,7 +28,7 @@ export const SENTENCE = {
   },
 
   related: ["plea", "plea-bargain", "conditional-discharge", "probation", "restitution", "mandatory-surcharge", "appeal"],
-  legalEntryIds: [],
+  legalEntryIds: ["clean-slate-ny"],
 
   citation: "NY Penal Law § 60.01 (authorized dispositions)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/PEN/60.01",

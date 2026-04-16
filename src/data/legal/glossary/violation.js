@@ -26,7 +26,7 @@ export const VIOLATION = {
   },
 
   related: ["misdemeanor", "felony", "sealed-record", "plea"],
-  legalEntryIds: [],
+  legalEntryIds: ["dismissed-case-sealing-ny"],
 
   citation: "NY Penal Law § 55.10",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/PEN/55.10",

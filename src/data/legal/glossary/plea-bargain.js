@@ -29,7 +29,7 @@ export const PLEA_BARGAIN = {
   },
 
   related: ["plea", "acd", "conditional-discharge", "sentence", "public-defender"],
-  legalEntryIds: [],
+  legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY CPL § 220.10 (felony); § 340.20 (misdemeanor)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/220.10",

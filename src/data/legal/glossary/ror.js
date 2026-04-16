@@ -26,7 +26,7 @@ export const ROR = {
   },
 
   related: ["bail", "arraignment", "bench-warrant", "supervised-release"],
-  legalEntryIds: [],
+  legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY CPL § 510.40",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/510.40",

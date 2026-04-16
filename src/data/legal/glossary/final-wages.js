@@ -31,7 +31,7 @@ export const FINAL_WAGES = {
   },
 
   related: ["wage-theft", "at-will-employment", "unemployment-insurance", "retaliation-employment"],
-  legalEntryIds: [],
+  legalEntryIds: ["wage-theft-ny"],
 
   citation: "NY Labor Law § 191",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/LAB/191",

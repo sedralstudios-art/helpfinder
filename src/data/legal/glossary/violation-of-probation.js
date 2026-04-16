@@ -29,7 +29,7 @@ export const VIOLATION_OF_PROBATION = {
   },
 
   related: ["probation", "conditional-discharge", "public-defender", "plea"],
-  legalEntryIds: [],
+  legalEntryIds: ["clean-slate-ny"],
 
   citation: "NY CPL § 410.70",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/410.70",

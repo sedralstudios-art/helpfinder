@@ -30,7 +30,7 @@ export const DISCOVERY = {
   },
 
   related: ["arraignment", "motion-to-dismiss", "speedy-trial", "public-defender", "plea"],
-  legalEntryIds: [],
+  legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY CPL Article 245 (§ 245.20 automatic discovery)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/A245",

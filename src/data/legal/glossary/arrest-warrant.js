@@ -30,7 +30,7 @@ export const ARREST_WARRANT = {
   },
 
   related: ["bench-warrant", "arrest", "arraignment", "summons", "desk-appearance-ticket"],
-  legalEntryIds: [],
+  legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY CPL Article 120 (§ 120.10, § 120.20, § 120.90)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CPL/A120",

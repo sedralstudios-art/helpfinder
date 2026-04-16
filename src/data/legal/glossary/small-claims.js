@@ -30,7 +30,7 @@ export const SMALL_CLAIMS = {
   },
 
   related: ["judgment", "debt-collection", "statute-of-limitations-debt", "security-deposit", "wage-garnishment"],
-  legalEntryIds: [],
+  legalEntryIds: ["small-claims-procedure-ny"],
 
   citation: "NYCCCA § 1801 (NYC); UCCA § 1801; UJCA § 1801",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/UJC/1801",

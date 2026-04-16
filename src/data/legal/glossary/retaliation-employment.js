@@ -30,7 +30,7 @@ export const RETALIATION_EMPLOYMENT = {
   },
 
   related: ["wage-theft", "human-rights-law", "at-will-employment", "unemployment-insurance"],
-  legalEntryIds: [],
+  legalEntryIds: ["wage-theft-ny","wrongful-termination-ny"],
 
   citation: "NY Labor Law § 215; § 740; Exec Law § 296(7)",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/LAB/215",
