@@ -4,6 +4,9 @@ import { GlossaryCategories, GlossaryBrowse, GlossaryTerm } from "./Glossary";
 import UnifiedSearch from "./Search";
 import ShareButton from "./ShareButton";
 import { resolveJurisdiction } from "../utils/resolveJurisdiction.js";
+import { PROGRAMS } from "../data/programs.js";
+import { LEGAL_ENTRIES } from "../data/legal";
+import { GLOSSARY_TERMS } from "../data/legal/glossary-index";
 
 // ═══════════════════════════════════════════════════
 // HELPFINDER.HELP — Landing Page v2
@@ -684,8 +687,15 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
             </div>
           </div>
 
+          {/* ── STATS ── */}
+          <div className="hf-fade-in hf-d2" style={{ textAlign: "center", marginTop: 16 }}>
+            <div style={{ fontSize: 11, color: C.dust, letterSpacing: 0.5 }}>
+              {PROGRAMS.length} programs · {LEGAL_ENTRIES.length} legal guides · {GLOSSARY_TERMS.length} definitions
+            </div>
+          </div>
+
           {/* ── ENTER BUTTON ── */}
-          <div className="hf-fade-in hf-d3" style={{ display: "flex", justifyContent: "center", marginTop: 28 }}>
+          <div className="hf-fade-in hf-d3" style={{ display: "flex", justifyContent: "center", marginTop: 24 }}>
             <a href="/help" rel="nofollow"
               onClick={(e) => { e.preventDefault(); if (onNavigateHelp) onNavigateHelp(); }}
               style={{
