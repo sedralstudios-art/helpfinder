@@ -39,7 +39,7 @@ export const DRIVEWAY_PAVING_SCAM_NY = {
     en: [
       "Under PPL Section 425, a contract signed at home can be cancelled within three business days by sending a written cancellation to the contractor.",
       "Under GBL Article 36-A, an unregistered home improvement contractor in Monroe County cannot legally collect payment. Check registration at (585) 753-1600.",
-      "Report paving scams to the NYS Attorney General at (800) 771-7755 and to the local police non-emergency line.",
+      "Paving scams can be reported to the NYS Attorney General at (800) 771-7755 and to the local police non-emergency line.",
       "The Monroe County Sheriff at (585) 753-4178 handles complaints in the suburbs. Rochester Police at (585) 428-6720 handles the city.",
       "If the homeowner paid by check, a stop payment may be possible through the bank. If paid in cash, recovery is harder.",
       "Free legal advice on contractor scams is available through JustCause (formerly VLSP) at (585) 232-3051."
