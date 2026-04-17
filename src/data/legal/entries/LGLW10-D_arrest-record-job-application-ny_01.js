@@ -21,16 +21,16 @@ export const ARREST_RECORD_JOB_APPLICATION_NY = {
   },
 
   whatItMeans: {
-    en: "New York has several laws that protect job applicants with criminal records. The state Fair Chance Act (Correction Law Article 23-A) says that most employers cannot deny a job based on a criminal conviction unless there is a direct relationship between the crime and the job, or hiring the person would create an unreasonable risk. The employer must consider factors like how long ago the conviction was, how serious it was, and whether the person has shown rehabilitation. Separately, the NYC Fair Chance Act (which applies to NYC employers but not Monroe County) bans criminal history questions before a conditional offer. In Monroe County, the state law applies. Under Correction Law Section 752, an employer cannot ask about or consider any arrest that did not result in a conviction, any case that was sealed or dismissed, any youthful offender adjudication, or any violation (as opposed to a misdemeanor or felony). If an employer takes back a job offer because of a criminal record, they must give the applicant a written explanation and a copy of the background check, and the applicant has time to respond before the decision is final."
+    en: "New York has several laws that protect job applicants with criminal records. The state Fair Chance Act (Correction Law Article 23-A) says that most employers cannot deny a job based on a criminal conviction unless there is a direct relationship between the crime and the job, or hiring the person would create an unreasonable risk. The employer must consider factors like how long ago the conviction was, how serious it was, and whether the person has shown rehabilitation. Separately, the NYC Fair Chance Act (which applies to NYC employers but not Monroe County) bans criminal history questions before a conditional offer. In Monroe County, the state law applies. Under Correction Law Section 752, an employer cannot ask about or consider any arrest that did not result in a conviction, any case that was sealed or dismissed, any youthful offender finding, or any violation (as opposed to a misdemeanor or felony). If an employer takes back a job offer because of a criminal record, they must give the applicant a written explanation and a copy of the background check, and the applicant has time to respond before the decision is final."
   },
 
   yourRights: {
     en: [
       "An employer cannot ask about or consider an arrest that did not lead to a conviction.",
-      "An employer cannot ask about sealed records, youthful offender adjudications, or violations.",
+      "An employer cannot ask about sealed records, youthful offender findings, or violations.",
       "An employer who denies a job based on a conviction must explain why in writing and give the applicant a chance to respond.",
       "An employer must consider how long ago the conviction was, how serious it was, and evidence of rehabilitation before denying a job.",
-      "A person with a Certificate of Relief from Disabilities or a Certificate of Good Conduct has additional protection — the certificate creates a presumption of rehabilitation.",
+      "A person with a Certificate of Relief from Disabilities or a Certificate of Good Conduct has additional protection — the certificate tells employers that the state considers the person rehabilitated.",
       "A person whose rights were violated can file a complaint with the NYS Division of Human Rights at (888) 392-3644."
     ]
   },

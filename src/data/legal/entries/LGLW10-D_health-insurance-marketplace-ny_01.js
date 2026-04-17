@@ -43,7 +43,7 @@ export const HEALTH_INSURANCE_MARKETPLACE_NY = {
       "Anthony L. Jordan Health Center provides free navigator services at (585) 423-2800.",
       "The Essential Plan ($0-$20/month) is available year-round for individuals earning up to about $19,000 and families up to about $39,000 (2-person household). Income limits change annually.",
       "If a marketplace plan is denied or a subsidy amount seems wrong, the applicant can request a fair hearing through the marketplace.",
-      "COBRA coverage (continuing employer insurance after a job loss) is usually much more expensive than a marketplace plan. Comparing both options before choosing is important."
+      "COBRA coverage (continuing employer insurance after a job loss) is usually much more expensive than a marketplace plan. The marketplace often offers better rates for the same or better coverage."
     ]
   },
 

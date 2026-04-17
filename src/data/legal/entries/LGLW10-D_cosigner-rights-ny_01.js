@@ -38,7 +38,7 @@ export const COSIGNER_RIGHTS_NY = {
   legalOptions: {
     en: [
       "Under federal law (FTC Credit Practices Rule), a lender must give the cosigner a written notice explaining the risks before the cosigner signs. If no notice was given, the cosigner may have a defense.",
-      "If the cosigner pays the debt, they have the legal right to sue the borrower for the amount paid. This is called a right of contribution.",
+      "If the cosigner ends up paying the debt, they have the legal right to sue the borrower to get that money back.",
       "If the debt goes to collections, the cosigner has the same rights under the FDCPA as any debtor — including the right to demand written proof of the debt within 30 days.",
       "If the cosigner cannot pay and has no significant assets or income, they may be considered judgment-proof. The debt still exists but cannot be collected at that time.",
       "Free legal help with cosigner disputes and debt issues is available through Legal Aid Society of Rochester at (585) 232-4090.",
