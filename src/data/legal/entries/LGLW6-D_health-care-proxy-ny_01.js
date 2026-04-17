@@ -40,7 +40,7 @@ export const HEALTH_CARE_PROXY_NY = {
       "The form requires only two adult witnesses — no notary, no lawyer, no fee.",
       "Copies should be given to the health care agent, the patient's doctor, the nearest hospital, and a trusted family member.",
       "Free legal help with health care proxies and advance directives is available through Legal Aid Society of Rochester at (585) 232-4090.",
-      "The Volunteer Legal Services Project of Monroe County at (585) 232-3051 also assists with advance directives for eligible residents.",
+      "The JustCause (formerly Volunteer Legal Services Project) at (585) 232-3051 also assists with advance directives for eligible residents.",
       "If a health care provider refuses to follow the agent's decision, the agent can request a transfer to another provider or facility."
     ]
   },
@@ -65,13 +65,13 @@ export const HEALTH_CARE_PROXY_NY = {
     },
     {
       type: "free",
-      name: "Volunteer Legal Services Project of Monroe County",
+      name: "JustCause (formerly Volunteer Legal Services Project)",
       focus: "Advance directives, health care proxy, power of attorney",
       qualifier: "Low-income residents of Monroe County",
       access: "Phone intake",
       outcome: "Legal assistance with advance directive documents",
       phone: "(585) 232-3051",
-      url: "https://www.vlsprochester.org",
+      url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,
       languages: []

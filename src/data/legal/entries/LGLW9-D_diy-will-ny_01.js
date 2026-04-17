@@ -37,7 +37,7 @@ export const DIY_WILL_NY = {
 
   legalOptions: {
     en: [
-      "Free will-preparation assistance is available through the Volunteer Legal Services Project of Monroe County at (585) 232-3051 for qualifying residents.",
+      "Free will-preparation assistance is available through the JustCause (formerly Volunteer Legal Services Project) at (585) 232-3051 for qualifying residents.",
       "Legal Aid Society of Rochester at (585) 232-4090 can advise on will requirements.",
       "Eldersource (Lifespan) at (585) 325-2800 provides elder planning guidance including wills.",
       "Online will templates exist — but they must comply with New York's specific requirements. Using a NY-specific template and following the witness rules is critical.",
@@ -52,13 +52,13 @@ export const DIY_WILL_NY = {
   counsel: [
     {
       type: "free",
-      name: "Volunteer Legal Services Project of Monroe County",
+      name: "JustCause (formerly Volunteer Legal Services Project)",
       focus: "Will preparation, advance directives, estate planning",
       qualifier: "Low-income residents of Monroe County",
       access: "Phone intake",
       outcome: "Free will preparation assistance",
       phone: "(585) 232-3051",
-      url: "https://www.vlsprochester.org",
+      url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,
       languages: []

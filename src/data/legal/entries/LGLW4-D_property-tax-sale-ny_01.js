@@ -41,7 +41,7 @@ export const PROPERTY_TAX_SALE_NY = {
       "Free legal help for homeowners facing tax foreclosure is available through Legal Aid Society of Rochester at (585) 232-4090 and through Empire Justice Center at (585) 454-4060.",
       "The Monroe County Real Property Tax office at (585) 753-1220 handles exemption applications (STAR, senior, disability, veteran).",
       "For seniors struggling with property taxes, Eldersource (Lifespan) at (585) 325-2800 can help navigate exemption programs and connect with financial counseling.",
-      "The Volunteer Legal Services Project of Monroe County at (585) 232-3051 also assists with tax foreclosure defense for eligible residents."
+      "JustCause at (585) 232-3051 also assists with tax foreclosure defense for eligible residents."
     ]
   },
 

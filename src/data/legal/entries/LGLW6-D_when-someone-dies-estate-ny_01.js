@@ -41,7 +41,7 @@ export const WHEN_SOMEONE_DIES_ESTATE_NY = {
       "Forms for administration and small estate proceedings are available from the Surrogate's Court clerk or at nycourts.gov/courthelp.",
       "For small estates under $50,000 in personal property (no real estate), the voluntary administration affidavit is a simpler process that does not require a full court proceeding.",
       "Free legal help with estate matters is available through Legal Aid Society of Rochester at (585) 232-4090 for low-income residents.",
-      "The Volunteer Legal Services Project of Monroe County at (585) 232-3051 also assists with estate matters for eligible residents."
+      "The JustCause (formerly Volunteer Legal Services Project) at (585) 232-3051 also assists with estate matters for eligible residents."
     ]
   },
 
@@ -65,13 +65,13 @@ export const WHEN_SOMEONE_DIES_ESTATE_NY = {
     },
     {
       type: "free",
-      name: "Volunteer Legal Services Project of Monroe County",
+      name: "JustCause (formerly Volunteer Legal Services Project)",
       focus: "Estate planning, wills, administration for low-income residents",
       qualifier: "Low-income residents of Monroe County",
       access: "Phone intake",
       outcome: "Legal advice and limited representation",
       phone: "(585) 232-3051",
-      url: "https://www.vlsprochester.org",
+      url: "https://www.justcauseny.org",
       verified: true,
       bilingual: false,
       languages: []

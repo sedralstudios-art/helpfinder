@@ -40,7 +40,7 @@ export const SMALL_ESTATE_AFFIDAVIT_NY = {
       "The voluntary administration petition is filed with the Surrogate's Court in the county where the deceased lived. Monroe County Surrogate's Court: (585) 753-5363, 99 Exchange Blvd, Rochester NY 14614.",
       "The forms are available from the Surrogate's Court clerk or at nycourts.gov/courthelp.",
       "A death certificate is required. Certified copies can be obtained from the Vital Records office where the death occurred.",
-      "Free legal help with small estate proceedings is available through Legal Aid Society of Rochester at (585) 232-4090 and the Volunteer Legal Services Project at (585) 232-3051.",
+      "Free legal help with small estate proceedings is available through Legal Aid Society of Rochester at (585) 232-4090 and JustCause at (585) 232-3051.",
       "If the estate includes real property, voluntary administration cannot be used — a full administration is required."
     ]
   },

@@ -37,7 +37,7 @@ export const DIVORCE_SEPARATION_NY = {
   legalOptions: {
     en: [
       "Uncontested divorce forms are available from the NYS Unified Court System at nycourts.gov/divorce. The filing fee was $420 total ($210 filing + $210 index number) as of April 2026 (subject to change — verify at nycourts.gov/divorce). Fee waivers are available for low-income filers.",
-      "For contested divorces, free legal help is available through Legal Aid Society of Rochester at (585) 232-4090, LawNY at (585) 295-5700, and the Volunteer Legal Services Project (JustCause) at (585) 232-3051.",
+      "For contested divorces, free legal help is available through Legal Aid Society of Rochester at (585) 232-4090, LawNY at (585) 295-5700, and the JustCause (formerly Volunteer Legal Services Project) at (585) 232-3051.",
       "Mediation is available as an alternative to litigation. The court may refer parties to mediation for custody and visitation disputes.",
       "Under Domestic Relations Law Article 13 (§ 236), marital property is divided equitably. Separate property (owned before the marriage, inherited, or gifted to one spouse) is generally not divided.",
       "Child support follows the CSSA formula: 17% of combined parental income for one child, 25% for two, 29% for three, 31% for four, 35%+ for five or more."
