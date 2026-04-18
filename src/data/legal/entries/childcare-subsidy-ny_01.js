@@ -99,6 +99,8 @@ export const CHILDCARE_SUBSIDY_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/9858",
+    "https://www.nysenate.gov/legislation/laws/SOS/410-W",
     "https://ocfs.ny.gov/programs/childcare/",
     "https://mybenefits.ny.gov"
   ],

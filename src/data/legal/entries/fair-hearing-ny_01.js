@@ -123,10 +123,11 @@ export const FAIR_HEARING_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/SOS/22",
+    "https://www.law.cornell.edu/regulations/new-york/title-18/chapter-II/subchapter-B/article-1/part-358/subpart-358-5",
     "https://otda.ny.gov/hearings/",
     "https://otda.ny.gov/hearings/faq.asp",
-    "https://otda.ny.gov/hearings/telephonic-hearings.asp",
-    "https://www.law.cornell.edu/regulations/new-york/title-18/chapter-II/subchapter-B/article-1/part-358/subpart-358-5"
+    "https://otda.ny.gov/hearings/telephonic-hearings.asp"
   ],
 
   lastVerified: "2026-04-13",

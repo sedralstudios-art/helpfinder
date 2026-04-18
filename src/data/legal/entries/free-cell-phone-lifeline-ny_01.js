@@ -88,6 +88,8 @@ export const FREE_CELL_PHONE_LIFELINE_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/cfr/text/47/part-54/subpart-E",
+    "https://www.law.cornell.edu/uscode/text/47/254",
     "https://www.lifelinesupport.org",
     "https://www.checklifeline.org",
     "https://www.fcc.gov/lifeline-consumers"

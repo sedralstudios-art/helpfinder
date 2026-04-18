@@ -102,6 +102,7 @@ export const EPIC_PRESCRIPTION_SENIORS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/ELD/A9",
     "https://www.health.ny.gov/health_care/epic/",
     "https://www.health.ny.gov/health_care/epic/questions_and_answers.htm"
   ],

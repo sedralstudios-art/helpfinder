@@ -89,6 +89,8 @@ export const FREE_TAX_FILING_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/26/32",
+    "https://www.law.cornell.edu/uscode/text/26/6020",
     "https://www.irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayers",
     "https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free"
   ],
