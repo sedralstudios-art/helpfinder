@@ -4,6 +4,7 @@ export const HOME_EQUITY_THEFT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPT A11",
   status: "active",
 
   title: { en: "Home Equity Theft — What Happens When the County Sells Your House for Back Taxes" },

@@ -4,6 +4,7 @@ export const REVENGE_PORN_ONLINE_HARASSMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 245.15",
   status: "active",
   draft: true,
 

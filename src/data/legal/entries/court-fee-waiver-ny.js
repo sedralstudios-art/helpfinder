@@ -4,6 +4,7 @@ export const COURT_FEE_WAIVER_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 1101",
   status: "active",
 
   title: { en: "Court Fee Waivers — How to File a Case When You Cannot Afford the Filing Fee" },

@@ -4,6 +4,7 @@ export const CODE_ENFORCEMENT_COMPLAINT_NY = {
   tier: "county",
   jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
+  primaryStatute: "NY RPP 223-B",
   status: "active",
 
   title: { en: "Code Enforcement Complaints — How to Report Housing and Property Problems in Monroe County" },

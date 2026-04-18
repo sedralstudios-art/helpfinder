@@ -4,6 +4,7 @@ export const NOISE_COMPLAINT_QUIET_HOURS_NY = {
   tier: "local",
   jurisdiction: "us-ny",
   authorityType: "local-ordinance",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Noise Complaints and Quiet Hours — What Renters and Homeowners Can Do in Rochester" },

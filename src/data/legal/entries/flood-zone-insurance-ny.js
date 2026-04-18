@@ -4,6 +4,7 @@ export const FLOOD_ZONE_INSURANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 4001",
   status: "active",
 
   title: { en: "Flood Zones and Flood Insurance — What Homeowners Need to Know" },

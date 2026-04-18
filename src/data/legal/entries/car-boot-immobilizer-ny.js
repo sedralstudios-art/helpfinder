@@ -4,6 +4,7 @@ export const CAR_BOOT_IMMOBILIZER_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 397-B",
   status: "active",
 
   title: { en: "Car Booted — What a Parking Lot or City Can Do and What They Cannot" },

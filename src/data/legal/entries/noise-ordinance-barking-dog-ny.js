@@ -4,6 +4,7 @@ export const NOISE_ORDINANCE_BARKING_DOG_NY = {
   tier: "local",
   jurisdiction: "us-ny",
   authorityType: "local-ordinance",
+  primaryStatute: "NY AGM 121",
   status: "active",
 
   title: { en: "Barking Dogs — What the Law Says and How to Handle a Neighbor's Noisy Dog" },

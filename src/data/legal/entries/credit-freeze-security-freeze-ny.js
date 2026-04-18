@@ -4,6 +4,7 @@ export const CREDIT_FREEZE_SECURITY_FREEZE_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "15 USC 1681C-1",
   status: "active",
 
   title: { en: "Credit Freeze — Free Way to Block Identity Thieves From Opening Accounts" },

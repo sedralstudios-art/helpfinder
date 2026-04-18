@@ -4,6 +4,7 @@ export const EARLY_INTERVENTION_INFANTS_TODDLERS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH 2541",
   status: "active",
 
   title: { en: "Early Intervention (EI) — Free Services for Children Under 3 with Developmental Delays" },

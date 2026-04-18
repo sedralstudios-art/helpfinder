@@ -4,6 +4,7 @@ export const FREE_TAX_FILING_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "26 USC 32",
   status: "active",
 
   title: { en: "Free Tax Filing — VITA, IRS Free File, and Where to Get Help in Monroe County" },

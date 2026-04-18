@@ -4,6 +4,7 @@ export const JURY_DUTY_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY JUD 519",
   status: "active",
 
   title: { en: "Jury Duty — Your Rights and Your Employer's Obligations in New York" },

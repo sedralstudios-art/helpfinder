@@ -4,6 +4,7 @@ export const LEMON_LAW_USED_CAR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 198-A",
   status: "active",
 
   title: { en: "Lemon Law — Protections for New and Used Car Buyers in New York" },

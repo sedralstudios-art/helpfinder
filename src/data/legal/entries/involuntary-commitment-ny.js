@@ -4,6 +4,7 @@ export const INVOLUNTARY_COMMITMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY MHY 9.27",
   status: "active",
 
   title: { en: "Involuntary Psychiatric Commitment in New York — How It Works and What Rights the Patient Has" },

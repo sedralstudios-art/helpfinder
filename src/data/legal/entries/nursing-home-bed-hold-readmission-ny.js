@@ -4,6 +4,7 @@ export const NURSING_HOME_BED_HOLD_READMISSION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "federal-regulation",
+  primaryStatute: "42 CFR PART 483",
   status: "active",
 
   title: { en: "Nursing Home Bed-Hold and Readmission Rights — Getting the Room Back After Hospitalization" },

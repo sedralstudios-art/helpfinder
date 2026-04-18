@@ -4,6 +4,7 @@ export const CAR_REPOSSESSION_PERSONAL_PROPERTY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "UCC 9-609",
   status: "active",
 
   title: { en: "Car Repossession — Rights to Personal Property Left Inside and What the Lender Cannot Do" },

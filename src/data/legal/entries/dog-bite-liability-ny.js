@@ -4,6 +4,7 @@ export const DOG_BITE_LIABILITY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY AGM 121",
   status: "active",
 
   title: { en: "Dog Bite Liability — What Happens When a Dog Injures Someone in New York" },

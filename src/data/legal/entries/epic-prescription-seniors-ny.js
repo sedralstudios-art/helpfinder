@@ -4,6 +4,7 @@ export const EPIC_PRESCRIPTION_SENIORS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ELD A9",
   status: "active",
 
   title: { en: "EPIC — Free and Low-Cost Prescription Drug Help for Seniors in New York" },

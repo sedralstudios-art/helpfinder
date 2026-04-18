@@ -8,6 +8,7 @@ export const entry = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 191",
   status: "active",
 
   title: {

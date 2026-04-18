@@ -4,6 +4,7 @@ export const LICENSE_POINTS_REDUCTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 2336",
   status: "active",
 
   title: { en: "Reducing Points on Your License — The PIRP Defensive Driving Course" },

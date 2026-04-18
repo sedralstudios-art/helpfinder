@@ -4,6 +4,7 @@ export const GYM_MEMBERSHIP_CANCELLATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 621",
   status: "active",
 
   title: { en: "Gym Membership Cancellation — Your Rights Under New York's Health Club Law" },

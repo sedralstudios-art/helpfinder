@@ -4,6 +4,7 @@ export const CEMETERY_PLOT_ABANDONED_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY NPC A15",
   status: "active",
 
   title: { en: "Cemetery Plot Problems — Abandoned Plots, Upkeep, and Transfer Rights" },

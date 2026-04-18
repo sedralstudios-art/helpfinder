@@ -4,6 +4,7 @@ export const MOBILE_HOME_TENANT_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 233",
   status: "active",
 
   title: { en: "Mobile Home and Manufactured Housing Tenant Rights in New York" },

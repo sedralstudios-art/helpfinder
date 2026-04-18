@@ -4,6 +4,7 @@ export const SNAP_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 95",
   status: "active",
 
   title: { en: "SNAP (Food Stamps) — Your Rights in New York" },

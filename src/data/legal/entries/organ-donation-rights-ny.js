@@ -4,6 +4,7 @@ export const ORGAN_DONATION_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH A43-A",
   status: "active",
 
   title: { en: "Organ Donation in New York — What the Law Says About Your Choice" },

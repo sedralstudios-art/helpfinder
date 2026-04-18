@@ -4,6 +4,7 @@ export const HOA_DISPUTES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 339-W",
   status: "active",
 
   title: { en: "HOA and Condo Association Disputes — What Homeowners Can Do" },

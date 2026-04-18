@@ -4,6 +4,7 @@ export const TENANT_RIGHTS_REPAIRS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Tenant Rights — Repairs, Habitability, and Withholding Rent" },

@@ -4,6 +4,7 @@ export const HOUSING_DISCRIMINATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EXC 296",
   status: "active",
 
   title: { en: "Housing Discrimination — Illegal Reasons a Landlord Can Reject You in New York" },

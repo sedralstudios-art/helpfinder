@@ -4,6 +4,7 @@ export const TAP_TUITION_ASSISTANCE_PROGRAM_NY_PROGRAM = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "agency-program",
+  primaryStatute: "NY EDN 667",
   status: "active",
 
   title: { en: "TAP — New York Tuition Assistance Program for College Students" },

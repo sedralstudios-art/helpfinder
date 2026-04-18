@@ -4,6 +4,7 @@ export const MEDICAL_RECORDS_ACCESS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH 18",
   status: "active",
 
   title: { en: "Getting Your Medical Records in New York" },

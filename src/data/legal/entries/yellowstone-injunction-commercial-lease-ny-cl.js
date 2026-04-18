@@ -4,6 +4,7 @@ export const YELLOWSTONE_INJUNCTION_COMMERCIAL_LEASE_NY_CL = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "common-law",
+  primaryStatute: "NY CVP 3001",
   status: "active",
 
   title: { en: "Yellowstone Injunction — Buying Time to Cure a Commercial Lease Default" },

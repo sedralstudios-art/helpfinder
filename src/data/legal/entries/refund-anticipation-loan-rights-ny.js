@@ -4,6 +4,7 @@ export const REFUND_ANTICIPATION_LOAN_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 372",
   status: "active",
 
   title: { en: "Refund Anticipation Loans and Predatory Tax Preparation — What to Watch For Before Signing" },

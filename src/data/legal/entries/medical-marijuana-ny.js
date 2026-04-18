@@ -4,6 +4,7 @@ export const MEDICAL_MARIJUANA_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CAN 125",
   status: "active",
 
   title: { en: "Medical Marijuana in New York — How to Get a Card and What It Covers" },

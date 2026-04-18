@@ -4,6 +4,7 @@ export const BAIL_REFORM_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 510.10",
   status: "active",
 
   title: { en: "Bail Reform in New York — Who Gets Released and Who Does Not" },

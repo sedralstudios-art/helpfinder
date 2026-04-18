@@ -4,6 +4,7 @@ export const PAWN_SHOP_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS A5",
   status: "active",
 
   title: { en: "Pawn Shop Rights — What a Pawn Broker Must Tell a Customer and How to Get Items Back" },

@@ -4,6 +4,7 @@ export const HOMELESS_STUDENT_RIGHTS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 11431",
   status: "active",
 
   title: { en: "Homeless Student Rights — McKinney-Vento and School Enrollment in New York" },

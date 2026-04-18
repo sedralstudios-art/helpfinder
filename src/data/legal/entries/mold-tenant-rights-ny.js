@@ -4,6 +4,7 @@ export const MOLD_TENANT_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Mold in a Rental — Tenant Rights and Landlord Obligations in New York" },

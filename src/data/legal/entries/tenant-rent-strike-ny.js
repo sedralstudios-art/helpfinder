@@ -4,6 +4,7 @@ export const TENANT_RENT_STRIKE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Rent Withholding — When Tenants Can Legally Hold Back Rent" },

@@ -4,6 +4,7 @@ export const CHILD_CUSTODY_RELOCATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 240",
   status: "active",
 
   title: { en: "Custody and Relocation — Moving Away With Your Child" },

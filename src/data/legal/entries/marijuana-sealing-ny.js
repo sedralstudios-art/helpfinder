@@ -4,6 +4,7 @@ export const MARIJUANA_SEALING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 1.20",
   status: "active",
 
   title: { en: "Old Marijuana Cases — What New York Law Does Automatically" },

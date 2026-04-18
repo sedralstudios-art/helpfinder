@@ -4,6 +4,7 @@ export const RENTERS_INSURANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 3420",
   status: "active",
 
   title: { en: "Renters Insurance — What It Covers and Whether Your Landlord Can Require It" },

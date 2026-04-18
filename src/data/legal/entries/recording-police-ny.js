@@ -4,6 +4,7 @@ export const RECORDING_POLICE_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "US CONST FIRST_AMENDMENT",
   status: "active",
   draft: true,
 

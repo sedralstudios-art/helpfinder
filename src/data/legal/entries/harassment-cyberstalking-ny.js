@@ -4,6 +4,7 @@ export const HARASSMENT_CYBERSTALKING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 240.26",
   status: "active",
   draft: true,
 

@@ -4,6 +4,7 @@ export const CAREGIVER_RIGHTS_FAMILY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "29 USC 2612",
   status: "active",
 
   title: { en: "Family Caregivers — Legal Rights and Programs That Can Help" },

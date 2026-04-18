@@ -4,6 +4,7 @@ export const MIRANDA_RIGHTS_EXPLAINED_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "NY CPL 60.45",
   status: "active",
 
   title: { en: "Miranda Rights — What the Police Must Say and What Happens If They Do Not" },

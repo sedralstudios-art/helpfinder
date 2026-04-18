@@ -4,6 +4,7 @@ export const MEDICARE_LATE_ENROLLMENT_PENALTY_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 1395R",
   status: "active",
 
   title: { en: "Medicare Late Enrollment Penalty — When the Premium Goes Up Permanently and How to Avoid It" },

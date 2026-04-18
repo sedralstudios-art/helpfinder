@@ -4,6 +4,7 @@ export const PROPERTY_SURVEY_BOUNDARY_DISPUTE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPA 501",
   status: "active",
 
   title: { en: "Property Line Disputes — When to Get a Survey and What Happens Next" },

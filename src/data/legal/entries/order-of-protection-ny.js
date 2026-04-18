@@ -4,6 +4,7 @@ export const ORDER_OF_PROTECTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FCT 812",
   status: "active",
   draft: true,
 

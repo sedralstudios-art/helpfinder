@@ -4,6 +4,7 @@ export const STRUCTURED_SETTLEMENT_TRANSFER_REVIEW_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GOB 5-1701",
   status: "active",
 
   title: { en: "Structured Settlement Transfers — Court Review Before Selling Future Payments" },

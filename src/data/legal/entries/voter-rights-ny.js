@@ -4,6 +4,7 @@ export const VOTER_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ELN 3-110",
   status: "active",
 
   title: { en: "Voter Rights in New York — Registration, Voting After Incarceration, and Protections" },

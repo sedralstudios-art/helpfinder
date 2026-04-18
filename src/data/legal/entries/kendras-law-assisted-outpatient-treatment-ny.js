@@ -4,6 +4,7 @@ export const KENDRAS_LAW_ASSISTED_OUTPATIENT_TREATMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY MHY 9.60",
   status: "active",
   draft: true,
 

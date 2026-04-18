@@ -4,6 +4,7 @@ export const MEDICAID_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 366",
   status: "active",
 
   title: { en: "Medicaid — Free Health Insurance in New York" },

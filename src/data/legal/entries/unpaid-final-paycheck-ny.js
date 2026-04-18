@@ -4,6 +4,7 @@ export const UNPAID_FINAL_PAYCHECK_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 191",
   status: "active",
 
   title: { en: "Employer Won't Pay Your Last Paycheck — What to Do in New York" },

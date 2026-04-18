@@ -4,6 +4,7 @@ export const SEPTIC_SYSTEM_RULES_NY = {
   tier: "county",
   jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
+  primaryStatute: "10 NYCRR PART 75",
   status: "active",
 
   title: { en: "Septic Systems in Monroe County — Rules, Inspections, and What to Do When It Fails" },

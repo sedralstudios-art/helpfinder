@@ -4,6 +4,7 @@ export const PHOTO_RED_LIGHT_TICKET_POINTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1111-A",
   status: "active",
 
   title: { en: "Red Light Camera vs. Officer Ticket — Why the Difference Matters" },

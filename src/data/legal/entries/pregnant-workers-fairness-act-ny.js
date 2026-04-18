@@ -4,6 +4,7 @@ export const PREGNANT_WORKERS_FAIRNESS_ACT_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 2000GG",
   status: "active",
 
   title: { en: "Pregnant Workers Fairness Act — Right to Accommodation During Pregnancy and Childbirth" },

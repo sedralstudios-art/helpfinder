@@ -4,6 +4,7 @@ export const AFTER_A_FIRE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 227-A",
   status: "active",
 
   title: { en: "After a House or Apartment Fire — What to Do and Who Can Help in Monroe County" },

@@ -4,6 +4,7 @@ export const OPEN_MEETINGS_LAW_PUBLIC_PARTICIPATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBO A7",
   status: "active",
 
   title: { en: "Open Meetings Law — The Public Right to Attend Government Meetings in New York" },

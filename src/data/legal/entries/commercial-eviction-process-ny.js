@@ -4,6 +4,7 @@ export const COMMERCIAL_EVICTION_PROCESS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPA 711",
   status: "active",
 
   title: { en: "Commercial Eviction Process — How a Landlord Removes a Business Tenant in New York" },

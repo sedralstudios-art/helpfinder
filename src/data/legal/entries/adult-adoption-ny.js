@@ -4,6 +4,7 @@ export const ADULT_ADOPTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 110",
   status: "active",
 
   title: { en: "Adult Adoption — How a Stepparent, Partner, or Family Member Can Legally Adopt an Adult" },

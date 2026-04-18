@@ -4,6 +4,7 @@ export const HOMESTEAD_EXEMPTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 5206",
   status: "active",
 
   title: { en: "Homestead Exemption — Protecting Your Home From Creditors" },

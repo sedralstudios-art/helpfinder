@@ -4,6 +4,7 @@ export const GIFT_CARD_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GOB 5-702",
   status: "active",
 
   title: { en: "Gift Card Rights — Expiration, Fees, and Unused Balances in New York" },

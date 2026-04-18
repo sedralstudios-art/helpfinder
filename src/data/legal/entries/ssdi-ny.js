@@ -4,6 +4,7 @@ export const SSDI_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 423",
   status: "active",
 
   title: { en: "SSDI — Disability Checks Based on Your Work History" },

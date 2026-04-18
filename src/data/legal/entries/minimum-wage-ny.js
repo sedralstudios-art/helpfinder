@@ -4,6 +4,7 @@ export const MINIMUM_WAGE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 652",
   status: "active",
 
   title: { en: "Minimum Wage — What New York Law Requires Your Employer to Pay" },

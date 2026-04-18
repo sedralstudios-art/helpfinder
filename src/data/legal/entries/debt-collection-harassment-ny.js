@@ -4,6 +4,7 @@ export const DEBT_COLLECTION_HARASSMENT_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "15 USC 1692",
   status: "active",
 
   title: { en: "Debt Collector Harassment — What They Cannot Do and How to Stop Them" },

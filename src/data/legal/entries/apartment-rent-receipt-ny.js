@@ -4,6 +4,7 @@ export const APARTMENT_RENT_RECEIPT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-E",
   status: "active",
 
   title: { en: "Rent Receipts — A Landlord Must Provide One and What to Do If They Refuse" },

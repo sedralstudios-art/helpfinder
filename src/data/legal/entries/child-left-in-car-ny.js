@@ -4,6 +4,7 @@ export const CHILD_LEFT_IN_CAR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 260.10",
   status: "active",
 
   title: { en: "Child Left in a Car — What the Law Says and What Bystanders Can Do" },

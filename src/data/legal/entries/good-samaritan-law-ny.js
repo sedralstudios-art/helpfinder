@@ -4,6 +4,7 @@ export const GOOD_SAMARITAN_LAW_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 220.78",
   status: "active",
 
   title: { en: "If Someone Is Overdosing — What the Law Protects You From" },

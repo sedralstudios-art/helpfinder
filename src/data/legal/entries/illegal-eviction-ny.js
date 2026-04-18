@@ -4,6 +4,7 @@ export const ILLEGAL_EVICTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPA 768",
   status: "active",
 
   title: { en: "Illegal Eviction — Your Landlord Cannot Remove You Without a Court Order" },

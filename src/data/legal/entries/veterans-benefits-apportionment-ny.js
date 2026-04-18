@@ -4,6 +4,7 @@ export const VETERANS_BENEFITS_APPORTIONMENT_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-regulation",
+  primaryStatute: "38 CFR PART 3",
   status: "active",
 
   title: { en: "VA Benefits Apportionment — When a Spouse or Child Can Claim a Share of a Veteran's Disability or Pension" },

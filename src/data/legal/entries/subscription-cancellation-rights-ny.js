@@ -4,6 +4,7 @@ export const SUBSCRIPTION_CANCELLATION_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 527",
   status: "active",
 
   title: { en: "Subscription Cancellation — Rights When a Company Makes It Hard to Cancel" },

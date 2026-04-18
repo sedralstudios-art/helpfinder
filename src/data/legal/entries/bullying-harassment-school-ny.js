@@ -4,6 +4,7 @@ export const BULLYING_HARASSMENT_SCHOOL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDN 10",
   status: "active",
 
   title: { en: "Bullying and Harassment in Schools — What Parents and Students Can Do in New York" },

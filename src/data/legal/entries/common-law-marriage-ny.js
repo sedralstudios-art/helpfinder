@@ -4,6 +4,7 @@ export const COMMON_LAW_MARRIAGE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 11",
   status: "active",
 
   title: { en: "Common Law Marriage — New York Does Not Recognize It (With One Exception)" },

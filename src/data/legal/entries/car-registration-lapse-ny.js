@@ -4,6 +4,7 @@ export const CAR_REGISTRATION_LAPSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 401",
   status: "active",
 
   title: { en: "Expired Car Registration — What Happens and How to Fix It" },

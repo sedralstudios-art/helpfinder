@@ -4,6 +4,7 @@ export const NURSING_HOME_MEDICAID_ASSET_PROTECTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 1396P",
   status: "active",
 
   title: { en: "Medicaid and Nursing Homes — What Happens to the House and Savings" },

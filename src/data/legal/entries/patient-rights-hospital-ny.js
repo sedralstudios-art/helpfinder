@@ -4,6 +4,7 @@ export const PATIENT_RIGHTS_HOSPITAL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH 2803",
   status: "active",
 
   title: { en: "Hospital Patient Rights in New York — What Every Patient Is Entitled To" },

@@ -4,6 +4,7 @@ export const UTILITY_SCAM_IMPERSONATION_NY = {
   tier: "state",
   jurisdiction: "us-ny-mon",
   authorityType: "state-statute",
+  primaryStatute: "NY PBS 32",
   status: "active",
 
   title: { en: "Utility Scams — Fake Shutoff Threats, Impersonators, and How to Verify" },

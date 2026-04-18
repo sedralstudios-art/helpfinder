@@ -4,6 +4,7 @@ export const MEDICARE_VS_MEDICAID_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 1395",
   status: "active",
 
   title: { en: "Medicare vs. Medicaid — What Each One Covers and Who Qualifies" },

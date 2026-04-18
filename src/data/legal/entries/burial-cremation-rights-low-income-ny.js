@@ -4,6 +4,7 @@ export const BURIAL_CREMATION_RIGHTS_LOW_INCOME_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 141",
   status: "active",
 
   title: { en: "Funeral and Burial Costs — Help for Families Who Cannot Afford It" },

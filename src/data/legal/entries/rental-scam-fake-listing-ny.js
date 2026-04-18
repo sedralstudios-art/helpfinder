@@ -4,6 +4,7 @@ export const RENTAL_SCAM_FAKE_LISTING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 349",
   status: "active",
 
   title: { en: "Rental Scams — How to Spot a Fake Listing and What to Do If Scammed" },

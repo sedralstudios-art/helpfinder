@@ -4,6 +4,7 @@ export const RETURN_REFUND_POLICY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 218-A",
   status: "active",
 
   title: { en: "Return and Refund Policies — What Stores Must Tell You in New York" },

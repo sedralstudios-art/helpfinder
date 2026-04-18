@@ -4,6 +4,7 @@ export const CRIMINAL_APPEAL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL A450",
   status: "active",
 
   title: { en: "Appealing a Criminal Conviction in New York" },

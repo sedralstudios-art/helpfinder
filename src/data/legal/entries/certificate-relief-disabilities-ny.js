@@ -4,6 +4,7 @@ export const CERTIFICATE_RELIEF_DISABILITIES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY COR 700",
   status: "active",
 
   title: { en: "Certificate of Relief from Disabilities — Removing Barriers from a Criminal Record in New York" },

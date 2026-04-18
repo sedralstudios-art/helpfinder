@@ -4,6 +4,7 @@ export const POLITICAL_SIGNS_YARD_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 339-V",
   status: "active",
 
   title: { en: "Political Signs in the Yard — What Towns Can and Cannot Restrict" },

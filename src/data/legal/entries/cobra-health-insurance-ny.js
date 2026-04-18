@@ -4,6 +4,7 @@ export const COBRA_HEALTH_INSURANCE_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "29 USC 1161",
   status: "active",
 
   title: { en: "COBRA Health Insurance — Keeping Coverage After a Job Loss" },

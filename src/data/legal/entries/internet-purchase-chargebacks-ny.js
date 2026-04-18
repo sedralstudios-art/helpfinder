@@ -4,6 +4,7 @@ export const INTERNET_PURCHASE_CHARGEBACKS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "15 USC 1666",
   status: "active",
 
   title: { en: "Online Purchase Disputes — Chargebacks, Refunds, and What to Do When a Seller Will Not Cooperate" },

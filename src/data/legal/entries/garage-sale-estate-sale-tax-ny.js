@@ -4,6 +4,7 @@ export const GARAGE_SALE_ESTATE_SALE_TAX_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY TAX 1115",
   status: "active",
 
   title: { en: "Do You Owe Taxes on Garage Sale and Estate Sale Money" },

@@ -4,6 +4,7 @@ export const POST_ADOPTION_CONTACT_AGREEMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 112-B",
   status: "active",
 
   title: { en: "Post-Adoption Contact Agreement — When Birth and Adoptive Families Keep in Touch" },

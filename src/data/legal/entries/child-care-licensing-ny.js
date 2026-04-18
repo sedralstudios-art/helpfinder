@@ -4,6 +4,7 @@ export const CHILD_CARE_LICENSING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-regulation",
+  primaryStatute: "18 NYCRR PART 413",
   status: "active",
 
   title: { en: "Child Care Licensing in New York — Provider Types, Inspections, and Complaint Rights" },

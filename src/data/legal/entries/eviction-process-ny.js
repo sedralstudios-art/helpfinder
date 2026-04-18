@@ -4,6 +4,7 @@ export const EVICTION_PROCESS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPA A7",
   status: "active",
 
   title: { en: "Eviction — What Your Landlord Has to Do Before You Can Be Removed" },

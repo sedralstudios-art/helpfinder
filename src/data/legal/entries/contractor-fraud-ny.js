@@ -4,6 +4,7 @@ export const CONTRACTOR_FRAUD_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 190.60",
   status: "active",
 
   title: { en: "Contractor Fraud — What to Do When a Contractor Takes Your Money and Disappears" },

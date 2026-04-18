@@ -4,6 +4,7 @@ export const GUARDIAN_AD_LITEM_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 1201",
   status: "active",
 
   title: { en: "Guardian Ad Litem — Court-Appointed Representative for a Person Unable to Protect Their Own Interests" },

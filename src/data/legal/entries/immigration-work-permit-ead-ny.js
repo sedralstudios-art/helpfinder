@@ -4,6 +4,7 @@ export const IMMIGRATION_WORK_PERMIT_EAD_NY = {
   tier: "federal",
   jurisdiction: "us-fed",
   authorityType: "federal-statute",
+  primaryStatute: "8 USC 1324A",
   status: "active",
   draft: true,
 

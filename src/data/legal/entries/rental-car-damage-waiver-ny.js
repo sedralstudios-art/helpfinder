@@ -4,6 +4,7 @@ export const RENTAL_CAR_DAMAGE_WAIVER_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 396-Z",
   status: "active",
 
   title: { en: "Rental Car Damage Waivers and Liability — New York Consumer Protection Limits" },

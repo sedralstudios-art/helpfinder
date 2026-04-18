@@ -4,6 +4,7 @@ export const ILLEGAL_LOCKOUT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPA 768",
   status: "active",
 
   title: { en: "Illegal Lockouts — What to Do If Your Landlord Changes the Locks" },

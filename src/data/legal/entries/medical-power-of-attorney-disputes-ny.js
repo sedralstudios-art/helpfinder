@@ -4,6 +4,7 @@ export const MEDICAL_POWER_OF_ATTORNEY_DISPUTES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH A29-C",
   status: "active",
 
   title: { en: "Health Care Proxy Disputes — What Happens When Family Members Disagree About Medical Decisions" },

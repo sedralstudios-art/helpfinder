@@ -4,6 +4,7 @@ export const WARN_ACT_MASS_LAYOFF_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "29 USC 2101",
   status: "active",
 
   title: { en: "Mass Layoff or Plant Closing — WARN Act Notice Rights" },

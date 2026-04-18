@@ -4,6 +4,7 @@ export const ACCESS_TO_COURTS_INCARCERATED_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 1983",
   status: "active",
 
   title: { en: "Access to Courts While Incarcerated — Legal Rights of People in Jail and Prison" },

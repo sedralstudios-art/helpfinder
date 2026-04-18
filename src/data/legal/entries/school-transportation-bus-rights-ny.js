@@ -4,6 +4,7 @@ export const SCHOOL_TRANSPORTATION_BUS_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDN 3635",
   status: "active",
 
   title: { en: "School Bus Transportation — Who Qualifies and What to Do If Your Child Is Denied" },

@@ -4,6 +4,7 @@ export const CHILD_LABOR_LAWS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB A4",
   status: "active",
 
   title: { en: "Child Labor Laws in New York — Working Age, Hours, and Required Permits" },

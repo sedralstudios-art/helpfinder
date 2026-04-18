@@ -4,6 +4,7 @@ export const TIMESHARE_CANCELLATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 396-CC",
   status: "active",
 
   title: { en: "Timeshare Cancellation — How to Get Out of a Timeshare Contract" },

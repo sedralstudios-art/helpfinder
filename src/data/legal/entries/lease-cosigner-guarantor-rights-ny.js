@@ -4,6 +4,7 @@ export const LEASE_COSIGNER_GUARANTOR_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GOB 5-701",
   status: "active",
 
   title: { en: "Lease Cosigner and Guarantor — What Happens When the Tenant Does Not Pay" },

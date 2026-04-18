@@ -4,6 +4,7 @@ export const WRONGFUL_DEATH_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EPT 5-4.1",
   status: "active",
 
   title: { en: "Wrongful Death Claims in New York — When a Death Is Caused by Someone Else's Negligence" },

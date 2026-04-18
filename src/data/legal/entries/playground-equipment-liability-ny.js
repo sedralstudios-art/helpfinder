@@ -4,6 +4,7 @@ export const PLAYGROUND_EQUIPMENT_LIABILITY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GMU 50-E",
   status: "active",
 
   title: { en: "Backyard Playground and Swing Set — Liability, Rules, and Neighbor Safety" },

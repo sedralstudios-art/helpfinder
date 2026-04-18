@@ -4,6 +4,7 @@ export const DRUG_TESTING_WORK_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 201-D",
   status: "active",
 
   title: { en: "Drug Testing at Work — What Employers Can and Cannot Do in New York" },

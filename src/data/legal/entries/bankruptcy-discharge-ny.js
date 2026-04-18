@@ -12,6 +12,7 @@ export const entry = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "11 USC 523",
   status: "active",
 
   title: { en: "Bankruptcy Discharge — What Gets Eliminated and What Does Not" },

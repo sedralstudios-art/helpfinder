@@ -4,6 +4,7 @@ export const SPECIAL_EDUCATION_IEP_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "20 USC CHAPTER 33",
   status: "active",
 
   title: { en: "Special Education and IEP Rights in New York" },

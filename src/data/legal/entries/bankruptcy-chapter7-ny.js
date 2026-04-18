@@ -13,6 +13,7 @@ export const entry = {
   jurisdiction: "us-ny",
 
   authorityType: "federal-statute",
+  primaryStatute: "11 USC CHAPTER 7",
   status: "active",
 
   title: { en: "Chapter 7 Bankruptcy — Eliminating Debt and Starting Over" },

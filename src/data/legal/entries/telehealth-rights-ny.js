@@ -4,6 +4,7 @@ export const TELEHEALTH_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 3217-H",
   status: "active",
 
   title: { en: "Telehealth Rights — What Insurance Must Cover for Virtual Doctor Visits" },

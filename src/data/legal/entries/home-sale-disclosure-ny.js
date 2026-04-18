@@ -4,6 +4,7 @@ export const HOME_SALE_DISCLOSURE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 462",
   status: "active",
 
   title: { en: "Selling a Home — What the Seller Must Disclose in New York" },

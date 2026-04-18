@@ -4,6 +4,7 @@ export const FAIR_HOUSING_DISCRIMINATION_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 3604",
   status: "active",
 
   title: { en: "Housing Discrimination — Federal Fair Housing Act and New York Protections" },

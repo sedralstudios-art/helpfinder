@@ -4,6 +4,7 @@ export const UNCLAIMED_LIFE_INSURANCE_BENEFITS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 3240",
   status: "active",
 
   title: { en: "Unclaimed Life Insurance Benefits — How to Find Policies a Deceased Relative May Have Had" },

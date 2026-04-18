@@ -4,6 +4,7 @@ export const MEDICAID_BUY_IN_WORKING_DISABLED_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 366",
   status: "active",
 
   title: { en: "Medicaid Buy-In for Working People With Disabilities — Keeping Coverage While Earning More" },

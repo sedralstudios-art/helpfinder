@@ -4,6 +4,7 @@ export const HOME_INSURANCE_CLAIM_DENIED_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 2601",
   status: "active",
 
   title: { en: "Homeowner's Insurance Claim Denied — What to Do Next" },

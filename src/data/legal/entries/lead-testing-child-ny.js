@@ -4,6 +4,7 @@ export const LEAD_TESTING_CHILD_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH 1370-A",
   status: "active",
 
   title: { en: "Lead Poisoning in Children — Testing, Treatment, and Who Is Responsible" },

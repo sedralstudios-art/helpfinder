@@ -4,6 +4,7 @@ export const DUMPSTER_DIVING_SCRAP_LAW_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 396-GG",
   status: "active",
 
   title: { en: "Dumpster Diving and Scrap Metal Collection — Is It Legal in New York?" },

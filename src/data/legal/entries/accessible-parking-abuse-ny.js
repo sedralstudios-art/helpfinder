@@ -4,6 +4,7 @@ export const ACCESSIBLE_PARKING_ABUSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1203-A",
   status: "active",
 
   title: { en: "Accessible Parking Abuse — Reporting Misuse and Protecting Parking Spaces" },

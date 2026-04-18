@@ -4,6 +4,7 @@ export const VEHICLE_REGISTRATION_INSPECTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 401",
   status: "active",
 
   title: { en: "Vehicle Registration, Inspection, and Insurance Requirements in New York" },

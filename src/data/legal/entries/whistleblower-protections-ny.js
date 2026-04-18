@@ -4,6 +4,7 @@ export const WHISTLEBLOWER_PROTECTIONS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 740",
   status: "active",
 
   title: { en: "Whistleblower Protections in New York — Reporting Illegal Activity at Work" },

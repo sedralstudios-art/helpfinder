@@ -4,6 +4,7 @@ export const DECK_PATIO_PERMIT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP A14",
   status: "active",
 
   title: { en: "Deck and Patio Permits — When a Permit Is Needed and What Happens Without One" },

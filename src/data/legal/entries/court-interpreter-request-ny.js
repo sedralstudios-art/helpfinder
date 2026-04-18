@@ -4,6 +4,7 @@ export const COURT_INTERPRETER_REQUEST_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-regulation",
+  primaryStatute: "42 USC 2000D",
   status: "active",
 
   title: { en: "Court Interpreter Rights in New York — How to Request Free Language or Sign Language Services" },

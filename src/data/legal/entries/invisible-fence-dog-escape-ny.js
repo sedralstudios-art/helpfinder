@@ -4,6 +4,7 @@ export const INVISIBLE_FENCE_DOG_ESCAPE_NY = {
   tier: "county",
   jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
+  primaryStatute: "NY AGM 121",
   status: "active",
 
   title: { en: "Invisible Fences and Dog Containment — Legal Requirements and Liability" },

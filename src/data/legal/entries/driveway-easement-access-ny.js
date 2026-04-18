@@ -4,6 +4,7 @@ export const DRIVEWAY_EASEMENT_ACCESS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPA 1011",
   status: "active",
 
   title: { en: "Landlocked Property and Access Easements — Getting to a Home When There Is No Road" },

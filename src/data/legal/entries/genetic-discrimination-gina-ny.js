@@ -4,6 +4,7 @@ export const GENETIC_DISCRIMINATION_GINA_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 2000FF",
   status: "active",
 
   title: { en: "Genetic Discrimination — An Employer or Insurer Cannot Use DNA Test Results Against a Person" },

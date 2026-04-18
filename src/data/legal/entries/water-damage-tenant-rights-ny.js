@@ -4,6 +4,7 @@ export const WATER_DAMAGE_TENANT_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Water Damage in a Rental — Who Pays and What Tenants Can Do" },

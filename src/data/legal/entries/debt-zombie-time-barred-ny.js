@@ -4,6 +4,7 @@ export const DEBT_ZOMBIE_TIME_BARRED_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 213",
   status: "active",
 
   title: { en: "Zombie Debt — When a Collector Tries to Collect a Debt That Is Too Old to Sue On" },

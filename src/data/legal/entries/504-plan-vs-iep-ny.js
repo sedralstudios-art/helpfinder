@@ -4,6 +4,7 @@ export const PLAN_504_VS_IEP_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "29 USC 794",
   status: "active",
 
   title: { en: "504 Plan vs. IEP — Which One Your Child Needs and How They Are Different" },

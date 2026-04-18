@@ -4,6 +4,7 @@ export const SWIMMING_POOL_LIABILITY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 120.20",
   status: "active",
 
   title: { en: "Swimming Pool Accidents — Fencing Laws, Liability, and What Homeowners Must Know" },

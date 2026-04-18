@@ -4,6 +4,7 @@ export const SAFE_HAVEN_NEWBORN_ABANDONMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 372-G",
   status: "active",
   draft: true,
 

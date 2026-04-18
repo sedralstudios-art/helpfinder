@@ -4,6 +4,7 @@ export const WRONGFUL_CONVICTION_COMPENSATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CCT 8-B",
   status: "active",
 
   title: { en: "Wrongful Conviction Compensation — What Exonerated People Are Entitled To in New York" },

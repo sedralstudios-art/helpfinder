@@ -4,6 +4,7 @@ export const MILITARY_SPOUSE_RIGHTS_NY = {
   tier: "federal",
   jurisdiction: "us-fed",
   authorityType: "federal-statute",
+  primaryStatute: "50 USC CHAPTER 50",
   status: "active",
 
   title: { en: "Military Spouse Rights — Protections During Deployment and Divorce" },

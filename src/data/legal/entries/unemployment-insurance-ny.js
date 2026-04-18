@@ -4,6 +4,7 @@ export const UNEMPLOYMENT_INSURANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB A18",
   status: "active",
 
   title: { en: "Unemployment Insurance — Weekly Benefits After Losing Your Job" },

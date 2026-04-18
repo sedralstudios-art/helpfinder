@@ -4,6 +4,7 @@ export const BANK_ACCOUNT_FROZEN_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP A52",
   status: "active",
 
   title: { en: "Bank Account Frozen — Why It Happened and How to Unfreeze It" },

@@ -4,6 +4,7 @@ export const GENDER_MARKER_CHANGE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH 4138",
   status: "active",
 
   title: { en: "Gender Marker Change in New York — Birth Certificate, Driver's License, and Other Documents" },

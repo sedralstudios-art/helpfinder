@@ -4,6 +4,7 @@ export const ADA_PUBLIC_TRANSIT_NY = {
   tier: "federal",
   jurisdiction: "us-fed",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 12143",
   status: "active",
 
   title: { en: "Disability Rights on Public Transit — Buses, Lifts, and Paratransit" },

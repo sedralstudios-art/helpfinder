@@ -4,6 +4,7 @@ export const CHILD_SUPPORT_MODIFICATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FCT 451",
   status: "active",
 
   title: { en: "Changing a Child Support Order in New York" },

@@ -4,6 +4,7 @@ export const TANF_PUBLIC_ASSISTANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 601",
   status: "active",
 
   title: { en: "Temporary Assistance — Cash Help for Families and Adults in Need" },

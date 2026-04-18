@@ -4,6 +4,7 @@ export const PET_LICENSING_DOG_LICENSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY AGM 109",
   status: "active",
 
   title: { en: "Dog Licensing in New York — Why It Matters and How It Works" },

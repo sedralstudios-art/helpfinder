@@ -4,6 +4,7 @@ export const EMINENT_DOMAIN_CONDEMNATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDP",
   status: "active",
 
   title: { en: "Eminent Domain — When the Government Takes Your Property in New York" },

@@ -4,6 +4,7 @@ export const SMALL_ESTATE_AFFIDAVIT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SCP 1301",
   status: "active",
 
   title: { en: "Small Estate Affidavit — A Simpler Way to Settle an Estate Under $50,000" },

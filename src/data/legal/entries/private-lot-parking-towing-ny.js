@@ -4,6 +4,7 @@ export const PRIVATE_LOT_PARKING_TOWING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1224",
   status: "active",
 
   title: { en: "Private Parking Lot Towing — When a Store or Lot Can Tow a Car and What the Driver Can Do" },

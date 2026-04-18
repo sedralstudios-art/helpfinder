@@ -4,6 +4,7 @@ export const NURSING_HOME_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH A28",
   status: "active",
 
   title: { en: "Nursing Home and Long-Term Care Rights in New York" },

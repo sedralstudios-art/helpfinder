@@ -4,6 +4,7 @@ export const SURVIVING_SPOUSE_ELECTIVE_SHARE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EPT 5-1.1-A",
   status: "active",
 
   title: { en: "Surviving Spouse Elective Share — Right to a Minimum Inheritance in New York" },

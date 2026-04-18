@@ -4,6 +4,7 @@ export const CELL_PHONE_CONTRACT_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 349",
   status: "active",
 
   title: { en: "Cell Phone Contract Rights — Early Termination, Billing Disputes, and Unlocking" },

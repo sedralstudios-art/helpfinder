@@ -4,6 +4,7 @@ export const VET_MALPRACTICE_PET_INJURY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 214",
   status: "active",
 
   title: { en: "Veterinary Malpractice — When Your Pet Is Injured by a Vet" },

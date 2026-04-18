@@ -4,6 +4,7 @@ export const AUTO_INSURANCE_CLAIM_DENIED_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 2601",
   status: "active",
 
   title: { en: "Auto Insurance Claim Denied — What to Do Next" },

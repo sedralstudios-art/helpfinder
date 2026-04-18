@@ -4,6 +4,7 @@ export const FIRST_TIME_HOMEBUYER_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "12 USC 1701Q",
   status: "active",
 
   title: { en: "First-Time Home Buyer Programs in New York — Down Payment Help and Tax Credits" },

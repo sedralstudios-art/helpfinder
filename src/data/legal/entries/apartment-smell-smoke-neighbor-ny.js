@@ -4,6 +4,7 @@ export const APARTMENT_SMELL_SMOKE_NEIGHBOR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH A13-E",
   status: "active",
 
   title: { en: "Cigarette Smoke From a Neighbor's Apartment — What Tenants Can Do" },

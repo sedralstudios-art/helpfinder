@@ -4,6 +4,7 @@ export const MEDICAID_ESTATE_RECOVERY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 369",
   status: "active",
 
   title: { en: "Medicaid Estate Recovery — Can New York Take the House After Someone Dies?" },

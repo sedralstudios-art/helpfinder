@@ -4,6 +4,7 @@ export const BENEFIT_OVERPAYMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "7 CFR 273.18",
   status: "active",
 
   title: { en: "Benefits Overpayment — What to Do If the Agency Says You Owe Money Back" },

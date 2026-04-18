@@ -4,6 +4,7 @@ export const SENIOR_DISABLED_EARLY_LEASE_TERMINATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 227-A",
   status: "active",
 
   title: { en: "Early Lease Termination for Seniors and People With Disabilities — NY Statutory Right" },

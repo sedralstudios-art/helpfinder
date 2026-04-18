@@ -4,6 +4,7 @@ export const FREE_CELL_PHONE_LIFELINE_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "47 CFR PART 54 SUBPART E",
   status: "active",
 
   title: { en: "Free Cell Phone and Internet — Lifeline and ACP Programs" },

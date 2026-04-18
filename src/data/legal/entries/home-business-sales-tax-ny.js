@@ -4,6 +4,7 @@ export const HOME_BUSINESS_SALES_TAX_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY TAX A28",
   status: "active",
 
   title: { en: "Selling Online From Home — When You Need to Collect Sales Tax in New York" },

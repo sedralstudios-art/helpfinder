@@ -4,6 +4,7 @@ export const MOVING_VIOLATION_VS_NONMOVING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 155",
   status: "active",
 
   title: { en: "Moving vs. Non-Moving Violations — Why It Matters for Your License and Insurance" },

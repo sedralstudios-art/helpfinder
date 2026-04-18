@@ -4,6 +4,7 @@ export const NATURALIZATION_CITIZENSHIP_ELIGIBILITY_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "8 USC 1427",
   status: "active",
   draft: true,
 

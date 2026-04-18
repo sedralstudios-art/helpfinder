@@ -4,6 +4,7 @@ export const CHANGE_LOCKS_TENANT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 227-C",
   status: "active",
 
   title: { en: "Changing the Locks — A Tenant's Right in New York, Especially After Domestic Violence" },

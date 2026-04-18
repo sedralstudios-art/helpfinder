@@ -4,6 +4,7 @@ export const ATTIC_INSULATION_REBATE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "26 USC 25C",
   status: "active",
 
   title: { en: "Attic Insulation and Home Energy Upgrades — Rebates and Free Programs" },

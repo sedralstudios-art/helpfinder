@@ -4,6 +4,7 @@ export const ALIMONY_MODIFICATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 236",
   status: "active",
 
   title: { en: "Alimony Modification — Changing Spousal Support After a Job Loss, Retirement, or Remarriage" },

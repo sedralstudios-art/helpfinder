@@ -4,6 +4,7 @@ export const INHERITED_PROPERTY_TAXES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPT A11",
   status: "active",
 
   title: { en: "Inherited a House With Back Taxes — What to Do" },

@@ -4,6 +4,7 @@ export const KIDS_SELLING_LEMONADE_STAND_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH 1352-E",
   status: "active",
 
   title: { en: "Lemonade Stands and Kids Selling Things — What the Law Actually Says" },

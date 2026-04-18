@@ -4,6 +4,7 @@ export const SELF_DEFENSE_LAWS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 35.15",
   status: "active",
 
   title: { en: "Self-Defense Laws in New York — When Force Is Legally Justified" },

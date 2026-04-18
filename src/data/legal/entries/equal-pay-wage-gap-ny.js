@@ -4,6 +4,7 @@ export const EQUAL_PAY_WAGE_GAP_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 194",
   status: "active",
 
   title: { en: "Equal Pay — The Right to the Same Pay for the Same Work in New York" },

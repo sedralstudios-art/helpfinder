@@ -4,6 +4,7 @@ export const NEIGHBOR_HARASSMENT_RESTRAINING_ORDER_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 240.25",
   status: "active",
   draft: true,
 

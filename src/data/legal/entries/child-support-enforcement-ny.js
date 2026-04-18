@@ -4,6 +4,7 @@ export const CHILD_SUPPORT_ENFORCEMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FCT 454",
   status: "active",
 
   title: { en: "Child Support Not Being Paid — How to Enforce a Court Order" },

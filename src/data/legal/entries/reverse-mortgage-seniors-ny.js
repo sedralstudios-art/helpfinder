@@ -4,6 +4,7 @@ export const REVERSE_MORTGAGE_SENIORS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 280",
   status: "active",
 
   title: { en: "Reverse Mortgage — How It Works, Risks, and Protections for Seniors" },

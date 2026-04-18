@@ -4,6 +4,7 @@ export const LIFE_INSURANCE_POLICY_LAPSE_PROTECTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 3211",
   status: "active",
 
   title: { en: "Life Insurance Lapse Protections — When a Missed Premium Does Not End the Policy" },

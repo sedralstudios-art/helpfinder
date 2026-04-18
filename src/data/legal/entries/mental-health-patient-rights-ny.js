@@ -4,6 +4,7 @@ export const MENTAL_HEALTH_PATIENT_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY MHY A33T1",
   status: "active",
 
   title: { en: "Mental Health Patient Rights in New York — What You Are Entitled To" },

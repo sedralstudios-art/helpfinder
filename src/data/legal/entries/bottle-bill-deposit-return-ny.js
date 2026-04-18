@@ -4,6 +4,7 @@ export const BOTTLE_BILL_DEPOSIT_RETURN_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ENV A27T10",
   status: "active",
 
   title: { en: "Bottle Bill Deposit Return — 5-Cent Returnable Container Deposit in New York" },

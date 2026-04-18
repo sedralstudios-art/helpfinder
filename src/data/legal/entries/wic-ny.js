@@ -4,6 +4,7 @@ export const WIC_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 1786",
   status: "active",
 
   title: { en: "WIC — Free Healthy Food for Pregnant Women, Babies, and Young Children" },

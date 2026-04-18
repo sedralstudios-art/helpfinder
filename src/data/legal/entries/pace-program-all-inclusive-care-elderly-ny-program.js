@@ -4,6 +4,7 @@ export const PACE_PROGRAM_ALL_INCLUSIVE_CARE_ELDERLY_NY_PROGRAM = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "agency-program",
+  primaryStatute: "42 CFR PART 460",
   status: "active",
 
   title: { en: "PACE — Program of All-Inclusive Care for the Elderly (55+ Who Qualify for Nursing Home Care)" },

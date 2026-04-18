@@ -4,6 +4,7 @@ export const RELIGIOUS_ACCOMMODATION_WORK_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 2000E",
   status: "active",
 
   title: { en: "Religious Accommodation at Work — Requesting Schedule Changes, Dress Code Exceptions, and Other Accommodations" },

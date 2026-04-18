@@ -4,6 +4,7 @@ export const DISMISSED_CASE_SEALING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 160.50",
   status: "active",
 
   title: { en: "My Case Was Dismissed — Why Is It Still On My Record?" },

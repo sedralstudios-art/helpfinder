@@ -4,6 +4,7 @@ export const DOMESTIC_VIOLENCE_LEGAL_OPTIONS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FCT A8",
   status: "active",
   draft: true,
 

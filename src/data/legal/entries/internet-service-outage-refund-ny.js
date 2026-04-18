@@ -4,6 +4,7 @@ export const INTERNET_SERVICE_OUTAGE_REFUND_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 349",
   status: "active",
 
   title: { en: "Internet and Cable Outages — When the Provider Owes a Refund or Credit" },

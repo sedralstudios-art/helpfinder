@@ -4,6 +4,7 @@ export const MOLD_HOMEOWNER_REMEDIATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB A32",
   status: "active",
 
   title: { en: "Mold in a Home a Person Owns — Testing, Remediation, and When Insurance Covers It" },

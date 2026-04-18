@@ -4,6 +4,7 @@ export const CDPAP_CONSUMER_DIRECTED_CARE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 365-F",
   status: "active",
 
   title: { en: "CDPAP — Hiring a Family Member or Friend as a Paid Caregiver Through Medicaid" },

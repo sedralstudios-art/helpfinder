@@ -4,6 +4,7 @@ export const JURY_NULLIFICATION_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "US CONST FIFTH_AMENDMENT",
   status: "active",
 
   title: { en: "Jury Nullification — What It Is, Whether It Is Legal, and Why Courts Do Not Talk About It" },

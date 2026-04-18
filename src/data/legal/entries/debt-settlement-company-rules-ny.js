@@ -4,6 +4,7 @@ export const DEBT_SETTLEMENT_COMPANY_RULES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 456",
   status: "active",
 
   title: { en: "Debt Settlement Companies — Consumer Protections and Why Most Customers Are Worse Off" },

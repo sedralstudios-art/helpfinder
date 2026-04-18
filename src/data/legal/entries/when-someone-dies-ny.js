@@ -4,6 +4,7 @@ export const WHEN_SOMEONE_DIES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EPT 5-1.1-A",
   status: "active",
 
   title: { en: "When Someone Dies — What Needs to Happen and Who Can Help in New York" },

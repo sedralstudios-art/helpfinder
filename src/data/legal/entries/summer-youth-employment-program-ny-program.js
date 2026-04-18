@@ -4,6 +4,7 @@ export const SUMMER_YOUTH_EMPLOYMENT_PROGRAM_NY_PROGRAM = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "agency-program",
+  primaryStatute: "42 USC 603",
   status: "active",
 
   title: { en: "Summer Youth Employment Program (SYEP) — Paid Summer Jobs for Low-Income Teens" },

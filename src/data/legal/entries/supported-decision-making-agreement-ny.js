@@ -4,6 +4,7 @@ export const SUPPORTED_DECISION_MAKING_AGREEMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY MHY A82",
   status: "active",
 
   title: { en: "Supported Decision-Making — A Legal Alternative to Guardianship in New York" },

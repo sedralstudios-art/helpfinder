@@ -4,6 +4,7 @@ export const COSIGNER_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GOB 5-701",
   status: "active",
 
   title: { en: "Cosigning a Loan — What Happens If the Borrower Stops Paying" },

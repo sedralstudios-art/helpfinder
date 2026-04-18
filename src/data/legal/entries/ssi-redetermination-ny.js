@@ -4,6 +4,7 @@ export const SSI_REDETERMINATION_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 1382",
   status: "active",
 
   title: { en: "SSI Redetermination — What Happens When Social Security Reviews Benefits" },

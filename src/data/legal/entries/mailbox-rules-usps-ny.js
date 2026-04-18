@@ -4,6 +4,7 @@ export const MAILBOX_RULES_USPS_NY = {
   tier: "federal",
   jurisdiction: "us-fed",
   authorityType: "federal-statute",
+  primaryStatute: "18 USC 1708",
   status: "active",
 
   title: { en: "Mailbox Rules — What You Can and Cannot Do With Your Own Mailbox" },

@@ -4,6 +4,7 @@ export const INDEPENDENT_CONTRACTOR_MISCLASS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB A6",
   status: "active",
 
   title: { en: "Misclassified as an Independent Contractor — Your Rights in New York" },

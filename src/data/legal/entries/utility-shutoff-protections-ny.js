@@ -4,6 +4,7 @@ export const UTILITY_SHUTOFF_PROTECTIONS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBS A2",
   status: "active",
 
   title: { en: "Utility Shutoff Protections — Heat, Electric, and Gas in New York" },

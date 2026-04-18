@@ -4,6 +4,7 @@ export const PAROLE_COMMUNITY_SUPERVISION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EXC 259-I",
   status: "active",
 
   title: { en: "Parole and Community Supervision in New York" },

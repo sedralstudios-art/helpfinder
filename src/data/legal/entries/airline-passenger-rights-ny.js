@@ -4,6 +4,7 @@ export const AIRLINE_PASSENGER_RIGHTS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-regulation",
+  primaryStatute: "14 CFR PART 259",
   status: "active",
 
   title: { en: "Airline Passenger Rights — Delays, Cancellations, Refunds, and Compensation Rules" },

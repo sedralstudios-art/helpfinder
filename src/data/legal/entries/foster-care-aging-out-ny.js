@@ -4,6 +4,7 @@ export const FOSTER_CARE_AGING_OUT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 392",
   status: "active",
 
   title: { en: "Aging Out of Foster Care — Rights and Resources for Youth Turning 18-21 in New York" },

@@ -4,6 +4,7 @@ export const EMPLOYER_REFERENCES_DEFAMATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVR A5",
   status: "active",
 
   title: { en: "Employer References — What a Former Boss Can and Cannot Say About a Worker" },

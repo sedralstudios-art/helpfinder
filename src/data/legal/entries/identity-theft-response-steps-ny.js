@@ -4,6 +4,7 @@ export const IDENTITY_THEFT_RESPONSE_STEPS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "15 USC 1681",
   status: "active",
 
   title: { en: "Identity Theft Response — The Fast Steps to Take When Personal Information Is Stolen" },

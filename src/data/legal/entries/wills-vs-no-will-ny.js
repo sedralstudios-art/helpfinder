@@ -4,6 +4,7 @@ export const WILLS_VS_NO_WILL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EPT 4-1.1",
   status: "active",
 
   title: { en: "What Happens When Someone Dies Without a Will in New York" },

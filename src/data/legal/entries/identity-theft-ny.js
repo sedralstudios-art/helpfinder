@@ -4,6 +4,7 @@ export const IDENTITY_THEFT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 190.78",
   status: "active",
 
   title: { en: "Identity Theft — What to Do If Someone Uses Your Information" },

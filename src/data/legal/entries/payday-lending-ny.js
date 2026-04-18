@@ -4,6 +4,7 @@ export const PAYDAY_LENDING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY BNK 340",
   status: "active",
 
   title: { en: "Payday Loans and Predatory Lending — What Is Illegal in New York" },

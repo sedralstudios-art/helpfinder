@@ -4,6 +4,7 @@ export const TENANT_DEATH_LEASE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 236",
   status: "active",
 
   title: { en: "What Happens to a Lease When a Tenant Dies in New York" },

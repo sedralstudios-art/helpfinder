@@ -4,6 +4,7 @@ export const EMERGENCY_SHELTER_WARMING_CENTER_NY = {
   tier: "county",
   jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
+  primaryStatute: "NY SOS 131",
   status: "active",
 
   title: { en: "Emergency Shelter and Warming Centers — Where to Go When There Is No Place to Stay" },

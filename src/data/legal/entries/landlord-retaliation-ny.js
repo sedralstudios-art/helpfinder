@@ -4,6 +4,7 @@ export const LANDLORD_RETALIATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 223-B",
   status: "active",
 
   title: { en: "Landlord Retaliation — What the Law Protects You From After Complaining" },

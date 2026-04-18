@@ -4,6 +4,7 @@ export const SEAT_BELT_CHILD_SEAT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1229-C",
   status: "active",
 
   title: { en: "Seat Belt and Child Car Seat Laws in New York" },

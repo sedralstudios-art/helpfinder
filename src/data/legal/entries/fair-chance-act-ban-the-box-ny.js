@@ -4,6 +4,7 @@ export const FAIR_CHANCE_ACT_BAN_THE_BOX_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY COR 752",
   status: "active",
 
   title: { en: "Fair Chance Act (Ban the Box) — Criminal Record and Employment in New York" },

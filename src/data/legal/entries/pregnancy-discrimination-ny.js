@@ -4,6 +4,7 @@ export const PREGNANCY_DISCRIMINATION_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 2000E",
   status: "active",
 
   title: { en: "Pregnancy Discrimination at Work — What Employers Cannot Do in New York" },

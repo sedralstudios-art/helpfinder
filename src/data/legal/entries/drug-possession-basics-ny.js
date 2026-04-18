@@ -4,6 +4,7 @@ export const DRUG_POSSESSION_BASICS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 220.03",
   status: "active",
 
   title: { en: "Drug Possession in New York — What the Law Actually Says" },

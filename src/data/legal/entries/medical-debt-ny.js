@@ -10,6 +10,7 @@ export const MEDICAL_DEBT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH 2807-K",
   status: "active",
 
   title: { en: "Medical Bills — Hospital Help Programs and New York Protections" },

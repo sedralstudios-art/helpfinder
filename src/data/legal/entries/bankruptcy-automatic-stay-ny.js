@@ -12,6 +12,7 @@ export const entry = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "11 USC 362",
   status: "active",
 
   title: { en: "The Automatic Stay — Instant Protection From Creditors" },

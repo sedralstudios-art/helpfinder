@@ -4,6 +4,7 @@ export const PET_DEPOSIT_PET_RENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 7-108",
   status: "active",
 
   title: { en: "Pet Deposits and Pet Rent — What Landlords Can and Cannot Charge in New York" },

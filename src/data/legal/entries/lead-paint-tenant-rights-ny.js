@@ -4,6 +4,7 @@ export const LEAD_PAINT_TENANT_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Lead Paint in Rental Housing — Tenant Rights and Landlord Obligations in New York" },

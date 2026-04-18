@@ -4,6 +4,7 @@ export const RIGHT_TO_A_LAWYER_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CNT 722",
   status: "active",
 
   title: { en: "Your Right to a Free Lawyer in a Criminal Case in New York" },

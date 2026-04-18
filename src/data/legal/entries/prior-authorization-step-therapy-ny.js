@@ -4,6 +4,7 @@ export const PRIOR_AUTHORIZATION_STEP_THERAPY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 4903",
   status: "active",
 
   title: { en: "Prior Authorization and Step Therapy — When an Insurer Makes a Patient Try Another Drug First" },

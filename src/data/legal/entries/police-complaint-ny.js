@@ -4,6 +4,7 @@ export const POLICE_COMPLAINT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EXC 70-B",
   status: "active",
   draft: true,
 

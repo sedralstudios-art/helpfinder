@@ -4,6 +4,7 @@ export const KEEPING_A_FOUND_PET_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY AGM 117",
   status: "active",
 
   title: { en: "Found a Stray Dog or Cat — Can You Keep It" },

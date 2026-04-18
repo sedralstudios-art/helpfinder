@@ -4,6 +4,7 @@ export const HOME_WARRANTY_VS_HOME_INSURANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 396-S",
   status: "active",
 
   title: { en: "Home Warranty vs. Home Insurance — What Each Covers and Common Complaints" },

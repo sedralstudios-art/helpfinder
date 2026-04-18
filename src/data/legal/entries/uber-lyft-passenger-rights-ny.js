@@ -4,6 +4,7 @@ export const UBER_LYFT_PASSENGER_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT A44-B",
   status: "active",
 
   title: { en: "Rideshare Passenger Rights — What Happens When Something Goes Wrong" },

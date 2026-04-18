@@ -4,6 +4,7 @@ export const INTERNET_OUTAGE_REFUND_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 349",
   status: "active",
 
   title: { en: "Internet Outage — Can You Get a Refund or Credit on Your Bill" },

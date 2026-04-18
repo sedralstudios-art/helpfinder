@@ -4,6 +4,7 @@ export const SCHOOL_LUNCH_DEBT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDN 908",
   status: "active",
 
   title: { en: "School Lunch Debt — What Happens and What Schools Cannot Do" },

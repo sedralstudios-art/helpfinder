@@ -4,6 +4,7 @@ export const ABANDONED_PROPERTY_AFTER_EVICTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPA 749",
   status: "active",
 
   title: { en: "Belongings Left Behind After an Eviction — What Happens to Your Property" },

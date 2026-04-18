@@ -4,6 +4,7 @@ export const SURPRISE_MEDICAL_BILLING_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "NY FIS 603",
   status: "active",
 
   title: { en: "Surprise Medical Bills — The No Surprises Act and Your Rights" },

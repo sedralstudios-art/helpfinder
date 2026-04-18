@@ -4,6 +4,7 @@ export const MEDICAID_HOME_CARE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 1396",
   status: "active",
 
   title: { en: "Medicaid Home Care — Staying Home Instead of a Nursing Home in New York" },

@@ -4,6 +4,7 @@ export const HOSPICE_PALLIATIVE_CARE_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH A29-CC",
   status: "active",
 
   title: { en: "Hospice and Palliative Care — What Families Need to Know" },

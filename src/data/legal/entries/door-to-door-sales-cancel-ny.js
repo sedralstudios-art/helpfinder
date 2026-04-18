@@ -4,6 +4,7 @@ export const DOOR_TO_DOOR_SALES_CANCEL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEP 425",
   status: "active",
 
   title: { en: "Door-to-Door Sales — The 3-Day Cancellation Rule and How to Use It" },

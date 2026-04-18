@@ -4,6 +4,7 @@ export const HIPAA_MEDICAL_PRIVACY_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "45 CFR PART 164",
   status: "active",
 
   title: { en: "HIPAA and Medical Privacy — What Your Doctor Can and Cannot Share" },

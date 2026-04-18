@@ -4,6 +4,7 @@ export const PUBLIC_RECORDS_REQUEST_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBO 84",
   status: "active",
 
   title: { en: "Public Records Requests — How to Get Government Documents Through FOIL" },

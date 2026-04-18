@@ -4,6 +4,7 @@ export const DWI_FIRST_OFFENSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1192",
   status: "active",
 
   title: { en: "DWI First Offense — What Happens After a Drunk Driving Arrest in New York" },

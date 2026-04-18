@@ -4,6 +4,7 @@ export const DIY_WILL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EPT 3-2.1",
   status: "active",
 
   title: { en: "Writing a Will in New York — What the Law Requires for It to Be Valid" },

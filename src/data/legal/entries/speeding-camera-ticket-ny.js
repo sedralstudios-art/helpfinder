@@ -4,6 +4,7 @@ export const SPEEDING_CAMERA_TICKET_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1180-B",
   status: "active",
 
   title: { en: "Speed Camera and Red Light Camera Tickets — How They Work" },

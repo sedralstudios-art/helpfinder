@@ -4,6 +4,7 @@ export const SCAM_PROTECTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 349",
   status: "active",
 
   title: { en: "Scams and Fraud — How to Recognize, Report, and Recover in New York" },

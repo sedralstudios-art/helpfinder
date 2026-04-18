@@ -4,6 +4,7 @@ export const PREDATORY_LENDING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GOB 5-501",
   status: "active",
 
   title: { en: "Predatory Lending — How to Recognize It and What Protections Exist in New York" },

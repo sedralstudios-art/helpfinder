@@ -4,6 +4,7 @@ export const EXCELSIOR_SCHOLARSHIP_NY_PROGRAM = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "agency-program",
+  primaryStatute: "NY EDN 669-H",
   status: "active",
 
   title: { en: "Excelsior Scholarship — Tuition-Free SUNY and CUNY for Middle-Income Families" },

@@ -4,6 +4,7 @@ export const TRANSFER_ON_DEATH_DEED_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EPT 13-4.1",
   status: "active",
 
   title: { en: "Transfer on Death Deed — Passing a Home Without Probate in New York" },

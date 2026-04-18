@@ -4,6 +4,7 @@ export const EXTENDED_WARRANTY_SCAM_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 396-S",
   status: "active",
 
   title: { en: "Extended Warranty Scams — Robocalls, Deceptive Contracts, and How to Cancel" },

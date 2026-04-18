@@ -4,6 +4,7 @@ export const FUNERAL_HOME_PRICE_DISCLOSURE_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "16 CFR PART 453",
   status: "active",
 
   title: { en: "Funeral Home Prices — The Right to See a Price List Before Paying" },

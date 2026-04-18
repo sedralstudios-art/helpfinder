@@ -12,6 +12,7 @@ export const entry = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "11 USC 524",
   status: "active",
 
   title: { en: "Reaffirmation Agreements — Keeping a Secured Asset After Bankruptcy" },

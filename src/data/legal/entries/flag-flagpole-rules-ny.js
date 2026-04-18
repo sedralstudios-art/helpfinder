@@ -4,6 +4,7 @@ export const FLAG_FLAGPOLE_RULES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "4 USC 5",
   status: "active",
 
   title: { en: "Flags and Flagpoles — What HOAs and Towns Can and Cannot Restrict" },

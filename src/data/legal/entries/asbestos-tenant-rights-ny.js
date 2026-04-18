@@ -4,6 +4,7 @@ export const ASBESTOS_TENANT_RIGHTS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "40 CFR PART 61",
   status: "active",
 
   title: { en: "Asbestos in Rental Housing — What Tenants Need to Know" },

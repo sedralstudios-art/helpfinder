@@ -4,6 +4,7 @@ export const CONSUMER_ARBITRATION_CLAUSE_NY_CL = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "common-law",
+  primaryStatute: "9 USC 1",
   status: "active",
 
   title: { en: "Arbitration Clauses in Consumer Contracts — What They Do and How Courts Treat Them" },

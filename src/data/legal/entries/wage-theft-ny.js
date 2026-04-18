@@ -4,6 +4,7 @@ export const WAGE_THEFT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB A6",
   status: "active",
 
   title: { en: "Wage Theft — When Your Boss Doesn't Pay What You're Owed" },

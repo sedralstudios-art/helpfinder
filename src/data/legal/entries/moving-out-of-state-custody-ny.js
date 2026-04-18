@@ -4,6 +4,7 @@ export const MOVING_OUT_OF_STATE_CUSTODY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 240",
   status: "active",
 
   title: { en: "Moving Out of State with a Child — Relocation and Custody in New York" },

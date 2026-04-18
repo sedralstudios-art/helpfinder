@@ -4,6 +4,7 @@ export const SCAFFOLD_LAW_CONSTRUCTION_240_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 240",
   status: "active",
 
   title: { en: "New York Scaffold Law — Strict Liability for Construction Workers Injured in Falls" },

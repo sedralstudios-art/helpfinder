@@ -4,6 +4,7 @@ export const SEPTIC_INSPECTION_HOME_SALE_NY = {
   tier: "county",
   jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
+  primaryStatute: "NY RPP A14",
   status: "active",
 
   title: { en: "Septic Inspection When Selling a Home — Monroe County Requirements" },

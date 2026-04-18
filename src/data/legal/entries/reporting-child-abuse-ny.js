@@ -4,6 +4,7 @@ export const REPORTING_CHILD_ABUSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 413",
   status: "active",
   draft: true,
 

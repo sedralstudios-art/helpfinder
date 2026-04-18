@@ -5,6 +5,7 @@ export const PAROLE_BASICS_NY = {
   jurisdiction: "us-ny",
 
   authorityType: "state-statute",
+  primaryStatute: "NY EXC 259",
   status: "active",
 
   title: { en: "Parole in New York — How It Works, What the Conditions Are, and What to Do If You Are Violated" },

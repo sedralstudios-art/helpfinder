@@ -4,6 +4,7 @@ export const GRANDPARENT_ADOPTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM A7",
   status: "active",
 
   title: { en: "Grandparent Adoption — When Grandparents Want to Legally Adopt" },

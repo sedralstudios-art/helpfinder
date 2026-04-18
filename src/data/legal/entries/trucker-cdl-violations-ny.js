@@ -4,6 +4,7 @@ export const TRUCKER_CDL_VIOLATIONS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1806-A",
   status: "active",
 
   title: { en: "CDL Violations — What Truck Drivers Need to Know" },

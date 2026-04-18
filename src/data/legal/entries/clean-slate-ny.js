@@ -4,6 +4,7 @@ export const CLEAN_SLATE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 160.57",
   status: "active",
 
   title: { en: "Clean Slate Act — Automatic Sealing of Your Criminal Record" },

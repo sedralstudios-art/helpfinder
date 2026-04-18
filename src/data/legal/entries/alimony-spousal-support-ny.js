@@ -4,6 +4,7 @@ export const ALIMONY_SPOUSAL_SUPPORT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 236",
   status: "active",
 
   title: { en: "Spousal Support (Alimony) — How It Works in New York Divorces" },

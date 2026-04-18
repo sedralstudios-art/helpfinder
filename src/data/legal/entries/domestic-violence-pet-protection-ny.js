@@ -4,6 +4,7 @@ export const DOMESTIC_VIOLENCE_PET_PROTECTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FCT 842-A",
   status: "active",
   draft: true,
 

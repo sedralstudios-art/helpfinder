@@ -4,6 +4,7 @@ export const FIREARM_SURRENDER_ORDER_PROTECTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 530.14",
   status: "active",
   draft: true,
 

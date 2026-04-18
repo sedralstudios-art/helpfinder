@@ -4,6 +4,7 @@ export const ANTI_SLAPP_LAWSUIT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVR 70-A",
   status: "active",
 
   title: { en: "Anti-SLAPP in New York — Protections Against Lawsuits That Silence Public Speech" },

@@ -4,6 +4,7 @@ export const PARKING_TICKET_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1200",
   status: "active",
 
   title: { en: "Parking Tickets in Rochester and Monroe County — Pay, Fight, or Consequences" },

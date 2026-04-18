@@ -12,6 +12,7 @@ export const entry = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "11 USC 522",
   status: "active",
 
   title: { en: "Bankruptcy Exemptions — What Property You Get to Keep" },

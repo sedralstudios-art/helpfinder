@@ -4,6 +4,7 @@ export const CHILD_SUPPORT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 240",
   status: "active",
 
   title: { en: "Child Support — How New York Figures Out What a Parent Pays" },

@@ -4,6 +4,7 @@ export const ANIMAL_HOARDING_REPORTING_NY = {
   tier: "state",
   jurisdiction: "us-ny-mon",
   authorityType: "state-statute",
+  primaryStatute: "NY AGM 353",
   status: "active",
 
   title: { en: "Animal Hoarding — How to Report It and What Happens Next" },

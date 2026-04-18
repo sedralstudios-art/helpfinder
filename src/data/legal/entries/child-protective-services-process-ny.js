@@ -4,6 +4,7 @@ export const CHILD_PROTECTIVE_SERVICES_PROCESS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 413",
   status: "active",
   draft: true,
 

@@ -4,6 +4,7 @@ export const HOME_ENERGY_AUDIT_REBATES_NY = {
   tier: "state",
   jurisdiction: "us-ny-mon",
   authorityType: "state-statute",
+  primaryStatute: "26 USC 25C",
   status: "active",
 
   title: { en: "Home Energy Audits and Rebates — Free and Discounted Programs in Monroe County" },

@@ -4,6 +4,7 @@ export const VISITATION_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 240",
   status: "active",
 
   title: { en: "Visitation Rights — When a Parent Is Denied Time with Their Child" },

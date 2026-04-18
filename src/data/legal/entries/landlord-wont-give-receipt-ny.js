@@ -4,6 +4,7 @@ export const LANDLORD_WONT_GIVE_RECEIPT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-E",
   status: "active",
 
   title: { en: "Landlord Will Not Give a Rent Receipt — What the Law Requires" },

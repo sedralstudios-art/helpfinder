@@ -4,6 +4,7 @@ export const AGE_DISCRIMINATION_WORK_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "29 USC 621",
   status: "active",
 
   title: { en: "Age Discrimination at Work — Protections for Workers 40 and Older in New York" },

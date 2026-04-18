@@ -4,6 +4,7 @@ export const CRIMINAL_CASE_PROCESS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL",
   status: "active",
 
   title: { en: "How a Criminal Case Works in New York — From Arrest to Verdict" },

@@ -4,6 +4,7 @@ export const TRASH_PICKUP_MISSED_COMPLAINT_NY = {
   tier: "county",
   jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
+  primaryStatute: "NY ENV 71-2703",
   status: "active",
 
   title: { en: "Missed Trash Pickup — How to Report It and What Each Town Requires" },

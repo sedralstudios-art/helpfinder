@@ -4,6 +4,7 @@ export const SPEEDING_TICKET_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1180",
   status: "active",
 
   title: { en: "Speeding Tickets — Points, Fines, and What You Can Do" },

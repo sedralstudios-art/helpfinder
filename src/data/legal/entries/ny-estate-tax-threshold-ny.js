@@ -4,6 +4,7 @@ export const NY_ESTATE_TAX_THRESHOLD_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY TAX A26",
   status: "active",
 
   title: { en: "New York Estate Tax — The Cliff, the Exemption, and Who Actually Owes" },

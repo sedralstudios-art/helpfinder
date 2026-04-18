@@ -4,6 +4,7 @@ export const HOME_ALONE_AGE_KIDS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FCT A10",
   status: "active",
 
   title: { en: "Leaving Kids Home Alone — What Age Is Legal in New York" },

@@ -4,6 +4,7 @@ export const APARTMENT_SMELL_MARIJUANA_NEIGHBOR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CNB",
   status: "active",
 
   title: { en: "Marijuana Smell from a Neighbor's Apartment — What the Law Says After Legalization" },

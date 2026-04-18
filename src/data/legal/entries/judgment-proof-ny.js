@@ -4,6 +4,7 @@ export const JUDGMENT_PROOF_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 5205",
   status: "active",
 
   title: { en: "Judgment Proof — When a Creditor Wins a Judgment But Cannot Collect" },

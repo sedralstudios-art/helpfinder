@@ -4,6 +4,7 @@ export const LOCKED_OUT_OF_HOUSE_LOCKSMITH_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 70-G",
   status: "active",
 
   title: { en: "Locked Out of Your House — Locksmith Scams and What to Watch For" },

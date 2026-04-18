@@ -4,6 +4,7 @@ export const ASBESTOS_HOME_RENOVATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB A30",
   status: "active",
 
   title: { en: "Asbestos in Your Home — What to Know Before Renovating" },

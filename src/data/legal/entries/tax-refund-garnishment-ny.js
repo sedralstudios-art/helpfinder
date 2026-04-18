@@ -4,6 +4,7 @@ export const TAX_REFUND_GARNISHMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "31 USC 3720A",
   status: "active",
 
   title: { en: "Tax Refund Taken by the Government — Why It Happens and What to Do" },

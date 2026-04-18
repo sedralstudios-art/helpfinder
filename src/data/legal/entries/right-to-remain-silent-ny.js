@@ -4,6 +4,7 @@ export const RIGHT_TO_REMAIN_SILENT_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "US CONST FIFTH_AMENDMENT",
   status: "active",
 
   title: { en: "The Right to Remain Silent — What It Means, When It Applies, and How to Use It" },

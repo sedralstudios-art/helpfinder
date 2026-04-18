@@ -4,6 +4,7 @@ export const TEMP_WORKER_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 201-G",
   status: "active",
 
   title: { en: "Temp Worker Rights — What Staffing Agencies and Employers Owe Temporary Workers" },

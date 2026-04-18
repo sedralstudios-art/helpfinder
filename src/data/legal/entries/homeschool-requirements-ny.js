@@ -4,6 +4,7 @@ export const HOMESCHOOL_REQUIREMENTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDN 3204",
   status: "active",
 
   title: { en: "Homeschooling in New York — What the Law Requires" },

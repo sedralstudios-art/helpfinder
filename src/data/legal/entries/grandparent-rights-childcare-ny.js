@@ -4,6 +4,7 @@ export const GRANDPARENT_RIGHTS_CHILDCARE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 72",
   status: "active",
 
   title: { en: "Grandparent Rights — When a Parent Cuts Off Contact with Grandchildren" },

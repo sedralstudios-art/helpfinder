@@ -4,6 +4,7 @@ export const ELECTRIC_VEHICLE_CHARGING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 339-JJ",
   status: "active",
 
   title: { en: "Electric Vehicle Charging at Home — Permits, Costs, and Tenant Rights" },

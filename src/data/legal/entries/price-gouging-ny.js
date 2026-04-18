@@ -4,6 +4,7 @@ export const PRICE_GOUGING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 396-R",
   status: "active",
 
   title: { en: "Price Gouging — What Sellers Cannot Do During an Emergency in New York" },

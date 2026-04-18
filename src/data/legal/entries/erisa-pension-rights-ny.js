@@ -4,6 +4,7 @@ export const ERISA_PENSION_RIGHTS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "29 USC 1001",
   status: "active",
 
   title: { en: "ERISA Pension Rights — Protecting Retirement Benefits From a Current or Former Employer" },

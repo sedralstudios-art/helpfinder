@@ -4,6 +4,7 @@ export const COMMUNITY_SOLAR_SUBSCRIPTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-regulation",
+  primaryStatute: "NY PBS 66-J",
   status: "active",
 
   title: { en: "Community Solar in New York — How a Subscription Works and the Consumer Disclosure Rules" },

@@ -4,6 +4,7 @@ export const LIFELINE_PHONE_PROGRAM_FED = {
   tier: "federal",
   jurisdiction: "us",
   authorityType: "federal-statute",
+  primaryStatute: "47 USC 254",
   status: "active",
 
   title: { en: "Lifeline — Discounted Phone and Internet Service" },

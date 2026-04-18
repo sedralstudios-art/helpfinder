@@ -4,6 +4,7 @@ export const NOTICE_OF_CLAIM_MUNICIPAL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GMU 50-E",
   status: "active",
 
   title: { en: "Notice of Claim Against a City, County, Town, Village, or School District — 90-Day Deadline in New York" },

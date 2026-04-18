@@ -4,6 +4,7 @@ export const WEATHERIZATION_ASSISTANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny-mon",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 6861",
   status: "active",
 
   title: { en: "Free Weatherization — Insulation, Windows, and Energy Upgrades at No Cost" },

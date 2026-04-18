@@ -10,6 +10,7 @@ export const DEBT_COLLECTION_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "15 USC CHAPTER 41",
   status: "active",
 
   title: { en: "Debt Collectors — What They Can and Cannot Do" },

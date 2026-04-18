@@ -4,6 +4,7 @@ export const RESTITUTION_CRIMINAL_CASE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 60.27",
   status: "active",
 
   title: { en: "Restitution — When a Court Orders a Defendant to Pay the Victim" },

@@ -4,6 +4,7 @@ export const EMERGENCY_MEDICAID_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 1396B",
   status: "active",
 
   title: { en: "Emergency Medicaid — Coverage for Uninsured People in a Medical Crisis" },

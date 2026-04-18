@@ -4,6 +4,7 @@ export const IRS_OFFER_IN_COMPROMISE_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "26 USC 7122",
   status: "active",
 
   title: { en: "IRS Offer in Compromise — Settling Federal Tax Debt for Less Than Owed" },

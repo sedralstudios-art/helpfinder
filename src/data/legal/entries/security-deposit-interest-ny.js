@@ -4,6 +4,7 @@ export const SECURITY_DEPOSIT_INTEREST_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GOB 7-103",
   status: "active",
 
   title: { en: "Security Deposit Interest — When a Landlord Must Pay Interest on the Deposit" },

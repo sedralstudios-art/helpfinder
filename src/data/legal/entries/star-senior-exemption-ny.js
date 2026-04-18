@@ -4,6 +4,7 @@ export const STAR_SENIOR_EXEMPTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPT 425",
   status: "active",
 
   title: { en: "Lowering Your Property Tax — STAR, Enhanced STAR, and the Senior Exemption" },

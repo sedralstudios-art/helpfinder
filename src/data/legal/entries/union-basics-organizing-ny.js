@@ -4,6 +4,7 @@ export const UNION_BASICS_ORGANIZING_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "29 USC 157",
   status: "active",
 
   title: { en: "Unions — The Right to Organize and What an Employer Cannot Do" },

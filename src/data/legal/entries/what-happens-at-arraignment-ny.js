@@ -4,6 +4,7 @@ export const WHAT_HAPPENS_AT_ARRAIGNMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 170.10",
   status: "active",
 
   title: { en: "What Happens at an Arraignment — The First Court Appearance After Arrest" },

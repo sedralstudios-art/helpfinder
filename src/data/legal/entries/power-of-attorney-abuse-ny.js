@@ -4,6 +4,7 @@ export const POWER_OF_ATTORNEY_ABUSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GOB 5-1501",
   status: "active",
   draft: true,
 

@@ -4,6 +4,7 @@ export const EMANCIPATION_MINOR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 240",
   status: "active",
 
   title: { en: "Emancipation — When a Minor Becomes Legally Independent" },

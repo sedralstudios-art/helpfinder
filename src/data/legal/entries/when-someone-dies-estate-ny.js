@@ -4,6 +4,7 @@ export const WHEN_SOMEONE_DIES_ESTATE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EPT 4-1.1",
   status: "active",
 
   title: { en: "When Someone Dies Without a Will — Intestate Succession in New York" },

@@ -4,6 +4,7 @@ export const HUMAN_TRAFFICKING_VICTIM_RELIEF_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 230.34",
   status: "active",
   draft: true,
 

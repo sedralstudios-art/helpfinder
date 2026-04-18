@@ -4,6 +4,7 @@ export const FISHING_HUNTING_LICENSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ENV A11",
   status: "active",
 
   title: { en: "Fishing and Hunting Licenses — What You Need in New York" },

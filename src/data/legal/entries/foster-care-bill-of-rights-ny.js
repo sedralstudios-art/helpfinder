@@ -4,6 +4,7 @@ export const FOSTER_CARE_BILL_OF_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 398-B",
   status: "active",
 
   title: { en: "Foster Care Bill of Rights — What Children and Youth in Foster Care Are Entitled To" },

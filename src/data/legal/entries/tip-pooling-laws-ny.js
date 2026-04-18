@@ -4,6 +4,7 @@ export const TIP_POOLING_LAWS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 196-D",
   status: "active",
 
   title: { en: "Tip Pooling — Who Can Share Tips and What an Employer Cannot Do" },

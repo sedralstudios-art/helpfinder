@@ -4,6 +4,7 @@ export const MEDICARE_SAVINGS_PROGRAM_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 1396A",
   status: "active",
 
   title: { en: "Medicare Savings Programs — Help Paying Medicare Costs" },

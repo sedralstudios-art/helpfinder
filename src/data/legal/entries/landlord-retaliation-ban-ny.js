@@ -4,6 +4,7 @@ export const LANDLORD_RETALIATION_BAN_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 223-B",
   status: "active",
 
   title: { en: "Landlord Retaliation — New York Bans Eviction or Rent Hikes for Tenants Who Complain" },

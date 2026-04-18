@@ -4,6 +4,7 @@ export const NEIGHBOR_SMOKING_SECONDHAND_APARTMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Secondhand Smoke from a Neighbor's Apartment — What Tenants and Landlords Can Do" },

@@ -4,6 +4,7 @@ export const LANDLORD_ENTRY_PRIVACY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Landlord Entering Your Apartment — Privacy Rights and Notice Requirements in New York" },

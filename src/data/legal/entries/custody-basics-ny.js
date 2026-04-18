@@ -4,6 +4,7 @@ export const CUSTODY_BASICS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 70",
   status: "active",
 
   title: { en: "Child Custody — How Courts Decide Who the Child Lives With" },

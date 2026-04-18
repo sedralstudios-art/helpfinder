@@ -4,6 +4,7 @@ export const AUTO_LEMON_LAW_NEW_CAR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 198-A",
   status: "active",
 
   title: { en: "New Car Lemon Law — When the Dealer Cannot Fix Your New Vehicle" },

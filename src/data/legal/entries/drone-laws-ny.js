@@ -4,6 +4,7 @@ export const DRONE_LAWS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "49 USC 44809",
   status: "active",
 
   title: { en: "Drone Laws in New York — Where You Can Fly and What You Need" },

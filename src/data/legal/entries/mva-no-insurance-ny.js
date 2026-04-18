@@ -4,6 +4,7 @@ export const MVA_NO_INSURANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 319",
   status: "active",
 
   title: { en: "Car Accident Without Insurance — What Happens Next" },

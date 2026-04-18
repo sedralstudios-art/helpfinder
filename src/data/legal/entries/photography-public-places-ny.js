@@ -4,6 +4,7 @@ export const PHOTOGRAPHY_PUBLIC_PLACES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 250.45",
   status: "active",
 
   title: { en: "Taking Photos in Public — What Is Legal and When Someone Can Tell You to Stop" },

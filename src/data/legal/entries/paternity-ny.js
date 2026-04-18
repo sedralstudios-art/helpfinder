@@ -4,6 +4,7 @@ export const PATERNITY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FCT A5",
   status: "active",
 
   title: { en: "Establishing Paternity in New York — Acknowledgment, DNA Testing, and Family Court" },

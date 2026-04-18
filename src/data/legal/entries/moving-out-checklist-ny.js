@@ -4,6 +4,7 @@ export const MOVING_OUT_CHECKLIST_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GOB 7-108",
   status: "active",
 
   title: { en: "Moving Out of an Apartment — Checklist to Protect Your Security Deposit" },

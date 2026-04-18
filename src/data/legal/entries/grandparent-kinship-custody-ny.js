@@ -4,6 +4,7 @@ export const GRANDPARENT_KINSHIP_CUSTODY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 72",
   status: "active",
 
   title: { en: "Grandparent and Kinship Custody — When a Relative Raises the Child" },

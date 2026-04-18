@@ -4,6 +4,7 @@ export const HOUSING_CODE_VIOLATIONS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Housing Code Violations — How to Report and What Happens Next" },

@@ -4,6 +4,7 @@ export const VOLUNTEER_LIABILITY_GOOD_SAMARITAN_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 14503",
   status: "active",
 
   title: { en: "Volunteer Liability — Legal Protection for People Who Volunteer" },

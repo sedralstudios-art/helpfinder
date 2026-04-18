@@ -4,6 +4,7 @@ export const PHARMACY_ERRORS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 214",
   status: "active",
 
   title: { en: "Pharmacy Errors — What to Do If You Got the Wrong Medication" },

@@ -4,6 +4,7 @@ export const SECTION_8_PORTABILITY_NY_PROGRAM = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "agency-program",
+  primaryStatute: "42 USC 1437F",
   status: "active",
 
   title: { en: "Moving With a Section 8 Voucher — Portability Rules for Housing Choice Voucher Holders" },

@@ -4,6 +4,7 @@ export const PROBATION_VIOLATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 410.70",
   status: "active",
 
   title: { en: "Probation Violation — What Happens and What a Person Can Do" },

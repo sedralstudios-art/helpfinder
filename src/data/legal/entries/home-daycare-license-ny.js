@@ -4,6 +4,7 @@ export const HOME_DAYCARE_LICENSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 390",
   status: "active",
 
   title: { en: "Running a Home Daycare — Licensing Rules in New York" },

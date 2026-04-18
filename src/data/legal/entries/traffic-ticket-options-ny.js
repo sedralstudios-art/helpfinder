@@ -4,6 +4,7 @@ export const TRAFFIC_TICKET_OPTIONS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1800",
   status: "active",
 
   title: { en: "Got a Traffic Ticket — Your Options in New York (Outside NYC)" },

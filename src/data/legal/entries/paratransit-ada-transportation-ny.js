@@ -4,6 +4,7 @@ export const PARATRANSIT_ADA_TRANSPORTATION_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 12143",
   status: "active",
 
   title: { en: "Paratransit and ADA Transportation Rights in Monroe County" },

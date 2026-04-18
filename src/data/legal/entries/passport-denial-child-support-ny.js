@@ -4,6 +4,7 @@ export const PASSPORT_DENIAL_CHILD_SUPPORT_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 652",
   status: "active",
 
   title: { en: "Passport Denied for Child Support — What Happens and How to Fix It" },

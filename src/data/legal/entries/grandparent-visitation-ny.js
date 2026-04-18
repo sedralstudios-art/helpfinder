@@ -4,6 +4,7 @@ export const GRANDPARENT_VISITATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 72",
   status: "active",
 
   title: { en: "Grandparent Visitation Rights in New York" },

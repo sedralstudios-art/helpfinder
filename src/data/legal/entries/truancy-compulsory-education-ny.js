@@ -4,6 +4,7 @@ export const TRUANCY_COMPULSORY_EDUCATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDN 3212",
   status: "active",
 
   title: { en: "Truancy and Compulsory Education — What Parents Need to Know in New York" },

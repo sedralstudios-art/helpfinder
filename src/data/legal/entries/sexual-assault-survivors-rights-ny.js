@@ -4,6 +4,7 @@ export const SEXUAL_ASSAULT_SURVIVORS_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EXC 625-A",
   status: "active",
   draft: true,
 

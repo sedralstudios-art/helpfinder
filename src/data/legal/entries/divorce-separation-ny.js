@@ -4,6 +4,7 @@ export const DIVORCE_SEPARATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 170",
   status: "active",
 
   title: { en: "Divorce and Separation in New York" },

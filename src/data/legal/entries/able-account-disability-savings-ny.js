@@ -4,6 +4,7 @@ export const ABLE_ACCOUNT_DISABILITY_SAVINGS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "26 USC 529A",
   status: "active",
 
   title: { en: "ABLE Accounts — Saving Money Without Losing SSI or Medicaid" },

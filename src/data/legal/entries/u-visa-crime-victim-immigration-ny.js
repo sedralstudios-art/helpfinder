@@ -4,6 +4,7 @@ export const U_VISA_CRIME_VICTIM_IMMIGRATION_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "8 USC 1101",
   status: "active",
   draft: true,
 

@@ -4,6 +4,7 @@ export const BAIL_HOW_IT_WORKS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL A510",
   status: "active",
 
   title: { en: "How Bail Works in New York — Paying, Bonds, and Getting Your Money Back" },

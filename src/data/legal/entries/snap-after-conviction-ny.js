@@ -4,6 +4,7 @@ export const SNAP_AFTER_CONVICTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "21 USC 862A",
   status: "active",
 
   title: { en: "SNAP After a Conviction — You Can Still Get Food Benefits in New York" },

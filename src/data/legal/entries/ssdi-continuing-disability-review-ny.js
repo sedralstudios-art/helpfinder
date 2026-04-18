@@ -4,6 +4,7 @@ export const SSDI_CONTINUING_DISABILITY_REVIEW_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 421",
   status: "active",
 
   title: { en: "Social Security Continuing Disability Review (CDR) — Keeping Disability Benefits Through Periodic Check-Ins" },

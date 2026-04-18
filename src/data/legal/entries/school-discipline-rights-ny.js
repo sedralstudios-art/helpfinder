@@ -4,6 +4,7 @@ export const SCHOOL_DISCIPLINE_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDN 3214",
   status: "active",
 
   title: { en: "School Discipline and Suspension Rights in New York" },

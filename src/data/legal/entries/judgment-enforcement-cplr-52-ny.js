@@ -4,6 +4,7 @@ export const JUDGMENT_ENFORCEMENT_CPLR_52_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP A52",
   status: "active",
 
   title: { en: "Collecting on a Money Judgment — CPLR Article 52 Enforcement Tools in New York" },

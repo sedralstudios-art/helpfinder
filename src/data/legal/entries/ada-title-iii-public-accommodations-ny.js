@@ -4,6 +4,7 @@ export const ADA_TITLE_III_PUBLIC_ACCOMMODATIONS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 12181",
   status: "active",
 
   title: { en: "ADA Title III — Disability Access in Stores, Restaurants, Doctors' Offices, and Other Public Places" },

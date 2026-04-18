@@ -4,6 +4,7 @@ export const AMENDED_TAX_RETURN_1040X_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "26 USC 6511",
   status: "active",
 
   title: { en: "Amending a Federal Tax Return — Form 1040-X and the Three-Year Refund Window" },

@@ -4,6 +4,7 @@ export const MECHANICS_LIEN_PRIVATE_CONSTRUCTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LIE A2",
   status: "active",
 
   title: { en: "Mechanic's Lien for Private Construction Work — New York Lien Law Article 2" },

@@ -4,6 +4,7 @@ export const HEAP_UTILITY_ASSISTANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 8621",
   status: "active",
 
   title: { en: "HEAP — Help Paying for Heat, Utilities, and Cooling" },

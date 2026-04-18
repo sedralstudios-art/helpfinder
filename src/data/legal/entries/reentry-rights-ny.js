@@ -4,6 +4,7 @@ export const REENTRY_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY COR A23-A",
   status: "active",
 
   title: { en: "Reentry After Incarceration — Your Rights and Resources in Monroe County" },

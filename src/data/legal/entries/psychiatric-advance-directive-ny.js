@@ -4,6 +4,7 @@ export const PSYCHIATRIC_ADVANCE_DIRECTIVE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH A29-C",
   status: "active",
   draft: true,
 

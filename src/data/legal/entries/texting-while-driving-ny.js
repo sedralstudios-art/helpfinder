@@ -4,6 +4,7 @@ export const TEXTING_WHILE_DRIVING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1225-C",
   status: "active",
 
   title: { en: "Texting While Driving — Penalties and What Counts as a Violation" },

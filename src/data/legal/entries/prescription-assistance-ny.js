@@ -4,6 +4,7 @@ export const PRESCRIPTION_ASSISTANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ELD A9",
   status: "active",
 
   title: { en: "Help Paying for Prescriptions in New York" },

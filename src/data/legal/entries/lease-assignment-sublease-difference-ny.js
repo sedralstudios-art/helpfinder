@@ -4,6 +4,7 @@ export const LEASE_ASSIGNMENT_SUBLEASE_DIFFERENCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 226-B",
   status: "active",
 
   title: { en: "Lease Assignment vs. Sublease — How to Transfer a Lease to Someone Else in New York" },

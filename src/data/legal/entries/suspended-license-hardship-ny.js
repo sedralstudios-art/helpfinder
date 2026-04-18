@@ -4,6 +4,7 @@ export const SUSPENDED_LICENSE_HARDSHIP_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 511",
   status: "active",
 
   title: { en: "Driving With a Suspended License — Hardship and Restricted Licenses" },

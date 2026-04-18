@@ -4,6 +4,7 @@ export const PET_HOUSING_BREED_RESTRICTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY MDW 27-2009.1",
   status: "active",
 
   title: { en: "Pets in Rental Housing — Breed Bans, Pet Fees, and the 90-Day Waiver Rule" },

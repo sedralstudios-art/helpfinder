@@ -4,6 +4,7 @@ export const PAY_ON_DEATH_BANK_ACCOUNT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY BNK 675",
   status: "active",
 
   title: { en: "Pay-on-Death Bank Accounts — Passing Savings Without Probate in New York" },

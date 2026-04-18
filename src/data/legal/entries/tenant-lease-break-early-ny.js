@@ -4,6 +4,7 @@ export const TENANT_LEASE_BREAK_EARLY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 227-E",
   status: "active",
 
   title: { en: "Breaking a Lease Early — When a Tenant Can Leave Before the Lease Ends" },

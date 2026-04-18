@@ -4,6 +4,7 @@ export const EMERGENCY_CASH_ASSISTANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 604",
   status: "active",
 
   title: { en: "Emergency Cash Help — One-Time Money for Rent, Utilities, and Crises" },

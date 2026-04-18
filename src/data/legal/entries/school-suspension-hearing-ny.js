@@ -4,6 +4,7 @@ export const SCHOOL_SUSPENSION_HEARING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDN 3214",
   status: "active",
 
   title: { en: "School Suspension Hearings — What Parents and Students Need to Know" },

@@ -4,6 +4,7 @@ export const POWER_OF_ATTORNEY_FINANCIAL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GOB 5-1501",
   status: "active",
 
   title: { en: "Financial Power of Attorney — What It Does, How to Set It Up, and How to Prevent Abuse" },

@@ -4,6 +4,7 @@ export const SCHOOL_IMMUNIZATION_REQUIREMENTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH 2164",
   status: "active",
 
   title: { en: "School Immunization Requirements in New York — What Is Required and the Medical Exemption Process" },

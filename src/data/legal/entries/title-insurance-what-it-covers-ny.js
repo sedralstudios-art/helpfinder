@@ -4,6 +4,7 @@ export const TITLE_INSURANCE_WHAT_IT_COVERS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC A64",
   status: "active",
 
   title: { en: "Title Insurance — What It Covers, Whether It Is Required, and When to File a Claim" },

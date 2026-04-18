@@ -4,6 +4,7 @@ export const EMOTIONAL_SUPPORT_ANIMAL_HOUSING_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 3604",
   status: "active",
 
   title: { en: "Emotional Support Animals in Housing — Fair Housing Act Protections Distinct From Service Animals" },

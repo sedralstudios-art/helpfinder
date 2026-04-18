@@ -4,6 +4,7 @@ export const MARRIAGE_LICENSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 13",
   status: "active",
 
   title: { en: "Getting a Marriage License in New York — Requirements, Waiting Period, and Where to Apply" },

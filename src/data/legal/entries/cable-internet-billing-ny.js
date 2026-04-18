@@ -4,6 +4,7 @@ export const CABLE_INTERNET_BILLING_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "NY PBS 215",
   status: "active",
 
   title: { en: "Cable and Internet Billing Disputes — What Companies Must Disclose and How to Fight Charges" },

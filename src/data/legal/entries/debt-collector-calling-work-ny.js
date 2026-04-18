@@ -4,6 +4,7 @@ export const DEBT_COLLECTOR_CALLING_WORK_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "15 USC 1692C",
   status: "active",
 
   title: { en: "Debt Collectors Calling Your Job — What the Law Allows and Does Not" },

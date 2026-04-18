@@ -4,6 +4,7 @@ export const GAS_LEAK_WHAT_TO_DO_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Gas Leak — What to Do and Who Is Responsible" },

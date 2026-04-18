@@ -4,6 +4,7 @@ export const FOSTER_PARENT_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 392",
   status: "active",
 
   title: { en: "Foster Parent Rights — What You Can and Cannot Do as a Foster Parent" },

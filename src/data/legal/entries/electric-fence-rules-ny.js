@@ -4,6 +4,7 @@ export const ELECTRIC_FENCE_RULES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY AGM 30-A",
   status: "active",
 
   title: { en: "Electric Fences — When They Are Legal and What the Rules Are" },

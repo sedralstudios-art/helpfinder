@@ -4,6 +4,7 @@ export const METAL_DETECTING_LAWS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEP 252",
   status: "active",
 
   title: { en: "Metal Detecting in New York — Where You Can Search and Who Owns What You Find" },

@@ -4,6 +4,7 @@ export const HOW_TO_READ_LEASE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "How to Read a Lease — What to Look For Before You Sign" },

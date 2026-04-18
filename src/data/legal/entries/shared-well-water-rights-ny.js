@@ -4,6 +4,7 @@ export const SHARED_WELL_WATER_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "10 NYCRR PART 5 SUBPART 5-1",
   status: "active",
 
   title: { en: "Shared Wells and Private Water — Rights When Your Water Comes From a Well" },

@@ -4,6 +4,7 @@ export const BANK_ACCOUNT_FREEZE_EXEMPTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 5222",
   status: "active",
 
   title: { en: "Frozen Bank Account — Exempt Funds and How to Get Them Released" },

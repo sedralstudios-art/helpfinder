@@ -4,6 +4,7 @@ export const PARENTAL_KIDNAPPING_CUSTODY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 135.45",
   status: "active",
 
   title: { en: "Parental Kidnapping — When One Parent Takes the Child and Won't Return Them" },

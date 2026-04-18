@@ -4,6 +4,7 @@ export const WORKERS_COMP_RETALIATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY WKC 120",
   status: "active",
 
   title: { en: "Workers' Comp Retaliation — What to Do If Your Employer Fires or Punishes You for Filing a Claim" },

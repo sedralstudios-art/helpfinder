@@ -4,6 +4,7 @@ export const VETERANS_TREATMENT_COURT_NY = {
   tier: "state",
   jurisdiction: "us-ny-mon",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 170.15",
   status: "active",
 
   title: { en: "Veterans Treatment Court — An Alternative to Regular Criminal Court" },

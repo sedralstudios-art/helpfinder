@@ -4,6 +4,7 @@ export const MEDICAL_DEBT_CREDIT_REPORT_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "15 USC 1681",
   status: "active",
 
   title: { en: "Medical Debt on Credit Reports — New Rules That Protect Patients" },

@@ -4,6 +4,7 @@ export const RIGHTS_WHEN_ARRESTED_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 170.10",
   status: "active",
 
   title: { en: "Your Rights When Arrested — What the Police Must Tell You and What You Can Do" },

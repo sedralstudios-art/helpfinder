@@ -4,6 +4,7 @@ export const RIGHTS_DURING_POLICE_ENCOUNTER_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "US CONST FOURTH_AMENDMENT",
   status: "active",
   draft: true,
 

@@ -12,6 +12,7 @@ export const entry = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "11 USC 707",
   status: "active",
 
   title: { en: "The Means Test — Do You Qualify for Chapter 7?" },

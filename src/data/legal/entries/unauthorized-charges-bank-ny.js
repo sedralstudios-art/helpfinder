@@ -4,6 +4,7 @@ export const UNAUTHORIZED_CHARGES_BANK_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "15 USC 1666",
   status: "active",
 
   title: { en: "Unauthorized Bank and Credit Card Charges — How to Dispute and Get Your Money Back" },

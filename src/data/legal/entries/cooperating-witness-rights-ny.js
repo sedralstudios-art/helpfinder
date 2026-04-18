@@ -4,6 +4,7 @@ export const COOPERATING_WITNESS_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "US CONST FIFTH_AMENDMENT",
   status: "active",
 
   title: { en: "Cooperating with Prosecutors — What to Know Before Agreeing to Be a Witness" },

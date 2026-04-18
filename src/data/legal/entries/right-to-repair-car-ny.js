@@ -4,6 +4,7 @@ export const RIGHT_TO_REPAIR_CAR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "15 USC 2302",
   status: "active",
 
   title: { en: "Right to Repair Your Own Car — What Dealers Cannot Block" },

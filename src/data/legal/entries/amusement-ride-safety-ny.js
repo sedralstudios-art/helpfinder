@@ -4,6 +4,7 @@ export const AMUSEMENT_RIDE_SAFETY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-regulation",
+  primaryStatute: "NY LAB A34",
   status: "active",
 
   title: { en: "Amusement Ride Safety — Inspection, Injury Claims, and Reporting in New York" },

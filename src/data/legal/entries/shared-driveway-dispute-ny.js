@@ -4,6 +4,7 @@ export const SHARED_DRIVEWAY_DISPUTE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPA 501",
   status: "active",
 
   title: { en: "Shared Driveway Disputes — Easements, Maintenance, and Neighbor Rights" },

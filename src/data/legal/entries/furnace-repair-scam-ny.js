@@ -4,6 +4,7 @@ export const FURNACE_REPAIR_SCAM_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS A36-A",
   status: "active",
 
   title: { en: "Furnace Repair Scams — What to Watch For When the Heat Goes Out" },

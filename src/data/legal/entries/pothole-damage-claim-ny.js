@@ -4,6 +4,7 @@ export const POTHOLE_DAMAGE_CLAIM_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GMU 50-E",
   status: "active",
 
   title: { en: "Pothole Damage to Your Car — Can You Get the City or County to Pay" },

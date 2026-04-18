@@ -4,6 +4,7 @@ export const RENT_STABILIZATION_BASICS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EHR A11-B",
   status: "active",
 
   title: { en: "Rent Stabilization in New York — Where It Applies and What Protections It Provides" },

@@ -4,6 +4,7 @@ export const MISSED_COURT_WARRANT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 530.70",
   status: "active",
 
   title: { en: "Missed a Court Date — What Happens and How to Clear a Warrant in New York" },

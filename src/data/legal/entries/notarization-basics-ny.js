@@ -4,6 +4,7 @@ export const NOTARIZATION_BASICS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EXC 135-A",
   status: "active",
 
   title: { en: "Notarization — Where to Get Documents Notarized for Free or Low Cost" },

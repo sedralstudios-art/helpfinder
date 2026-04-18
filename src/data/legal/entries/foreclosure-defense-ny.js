@@ -4,6 +4,7 @@ export const FORECLOSURE_DEFENSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPA 1304",
   status: "active",
 
   title: { en: "Foreclosure Defense — Your Rights When You Fall Behind on a Mortgage in New York" },

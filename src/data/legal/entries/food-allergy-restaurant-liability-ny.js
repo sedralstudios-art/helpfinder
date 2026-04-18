@@ -4,6 +4,7 @@ export const FOOD_ALLERGY_RESTAURANT_LIABILITY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH 1399-II",
   status: "active",
 
   title: { en: "Food Allergies at Restaurants — What the Law Requires and Who Is Liable" },

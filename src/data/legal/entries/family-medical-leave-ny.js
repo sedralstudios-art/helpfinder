@@ -4,6 +4,7 @@ export const FAMILY_MEDICAL_LEAVE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "29 USC 2611",
   status: "active",
 
   title: { en: "Family and Medical Leave — FMLA and New York Paid Family Leave" },

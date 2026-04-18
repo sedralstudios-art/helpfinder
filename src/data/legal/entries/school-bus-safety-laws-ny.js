@@ -4,6 +4,7 @@ export const SCHOOL_BUS_SAFETY_LAWS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1174",
   status: "active",
 
   title: { en: "School Bus Safety Laws — Passing a Stopped Bus and Other Rules in New York" },

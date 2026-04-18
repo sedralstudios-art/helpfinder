@@ -4,6 +4,7 @@ export const SCHOOL_FIELD_TRIP_PERMISSION_LIABILITY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDN 3023",
   status: "active",
 
   title: { en: "School Field Trips — Permission Slips, Liability Waivers, and What Happens If a Child Is Hurt" },

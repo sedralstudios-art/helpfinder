@@ -4,6 +4,7 @@ export const RIGHT_TO_REPAIR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 399-NN",
   status: "active",
 
   title: { en: "Right to Repair — New York's Digital Fair Repair Act" },

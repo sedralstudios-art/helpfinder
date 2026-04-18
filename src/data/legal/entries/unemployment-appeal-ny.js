@@ -4,6 +4,7 @@ export const UNEMPLOYMENT_APPEAL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB A18",
   status: "active",
 
   title: { en: "Appealing an Unemployment Insurance Denial in New York" },

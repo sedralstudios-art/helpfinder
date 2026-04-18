@@ -4,6 +4,7 @@ export const SNAP_WORK_REQUIREMENTS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "7 USC 2015",
   status: "active",
 
   title: { en: "SNAP Work Requirements and the ABAWD Rule — Who Must Work to Keep Food Benefits" },

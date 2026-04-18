@@ -4,6 +4,7 @@ export const MOVE_OVER_LAW_EMERGENCY_VEHICLES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1144-A",
   status: "active",
 
   title: { en: "New York's Move Over Law — When a Driver Must Slow Down and Change Lanes" },

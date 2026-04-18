@@ -4,6 +4,7 @@ export const TENANT_PAINT_APARTMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Can a Tenant Paint the Apartment — Rules, Security Deposit, and What to Know" },

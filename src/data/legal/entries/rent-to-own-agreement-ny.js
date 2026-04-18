@@ -4,6 +4,7 @@ export const RENT_TO_OWN_AGREEMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PPL A5",
   status: "active",
 
   title: { en: "Rent-to-Own Agreements — How They Work and What Can Go Wrong" },

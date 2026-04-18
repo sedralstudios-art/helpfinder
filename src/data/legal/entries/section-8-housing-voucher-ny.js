@@ -4,6 +4,7 @@ export const SECTION_8_HOUSING_VOUCHER_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 1437F",
   status: "active",
 
   title: { en: "Section 8 — Housing Vouchers to Help Pay Rent" },

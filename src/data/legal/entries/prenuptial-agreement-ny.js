@@ -4,6 +4,7 @@ export const PRENUPTIAL_AGREEMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 236",
   status: "active",
 
   title: { en: "Prenuptial Agreements — What They Cover and When They Can Be Thrown Out" },

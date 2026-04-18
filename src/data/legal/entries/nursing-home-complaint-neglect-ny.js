@@ -4,6 +4,7 @@ export const NURSING_HOME_COMPLAINT_NEGLECT_NY = {
   tier: "state",
   jurisdiction: "us-ny-mon",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH A28",
   status: "active",
 
   title: { en: "Nursing Home Complaints — How to Report Neglect, Abuse, or Poor Conditions" },

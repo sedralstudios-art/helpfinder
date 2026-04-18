@@ -4,6 +4,7 @@ export const APARTMENT_BED_BUG_NEW_TENANT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-BB",
   status: "active",
 
   title: { en: "Bed Bugs When Moving In — The Landlord's Disclosure Obligation and Tenant Remedies" },

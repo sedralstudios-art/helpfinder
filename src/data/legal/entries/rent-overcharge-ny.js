@@ -4,6 +4,7 @@ export const RENT_OVERCHARGE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY NYC 26-516",
   status: "active",
 
   title: { en: "Rent Overcharge — When the Landlord Charges More Than the Law Allows" },

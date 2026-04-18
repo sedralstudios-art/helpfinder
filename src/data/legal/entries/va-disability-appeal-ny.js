@@ -4,6 +4,7 @@ export const VA_DISABILITY_APPEAL_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "38 USC 7104",
   status: "active",
 
   title: { en: "VA Disability Appeal — What to Do When a Claim Is Denied or Rated Too Low" },

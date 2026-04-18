@@ -4,6 +4,7 @@ export const SNOW_PLOW_DAMAGE_PROPERTY_NY = {
   tier: "county",
   jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
+  primaryStatute: "NY GMU 50-E",
   status: "active",
 
   title: { en: "Snow Plow Damaged Your Mailbox, Lawn, or Driveway — How to File a Claim" },

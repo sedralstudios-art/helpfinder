@@ -4,6 +4,7 @@ export const DRIVING_WITHOUT_INSURANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 319",
   status: "active",
 
   title: { en: "Driving Without Insurance in New York — Penalties and What to Do" },

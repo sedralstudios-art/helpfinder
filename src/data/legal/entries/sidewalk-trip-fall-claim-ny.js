@@ -4,6 +4,7 @@ export const SIDEWALK_TRIP_FALL_CLAIM_NY = {
   tier: "state",
   jurisdiction: "us-ny-mon",
   authorityType: "state-statute",
+  primaryStatute: "NY GMU 50-E",
   status: "active",
 
   title: { en: "Tripped on a Broken Sidewalk — Who Is Liable and How to File a Claim" },

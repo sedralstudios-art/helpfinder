@@ -4,6 +4,7 @@ export const FOIL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBO A6",
   status: "active",
 
   title: { en: "FOIL — How to Get Government Records in New York" },

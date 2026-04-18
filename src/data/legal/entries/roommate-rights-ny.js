@@ -4,6 +4,7 @@ export const ROOMMATE_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-F",
   status: "active",
 
   title: { en: "Roommate Rights in New York — What Happens When One Person Is on the Lease" },

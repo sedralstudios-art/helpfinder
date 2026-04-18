@@ -4,6 +4,7 @@ export const WAGE_GARNISHMENT_EXEMPTIONS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 5231",
   status: "active",
 
   title: { en: "Wage Garnishment Exemptions — How Much of Your Paycheck Is Protected in New York" },

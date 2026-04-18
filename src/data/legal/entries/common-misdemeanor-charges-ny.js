@@ -4,6 +4,7 @@ export const COMMON_MISDEMEANOR_CHARGES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN",
   status: "active",
 
   title: { en: "Common Misdemeanor and Violation Charges in New York — What They Mean and What to Expect" },

@@ -4,6 +4,7 @@ export const REENTRY_HOUSING_VOUCHER_NY_PROGRAM = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "agency-program",
+  primaryStatute: "NY EXC 296",
   status: "active",
 
   title: { en: "Housing Help After Incarceration — Reentry Programs, Vouchers, and Fair Chance Housing" },

@@ -4,6 +4,7 @@ export const IMMIGRATION_BASICS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "NY GBS 460-C",
   status: "active",
   draft: true,
 

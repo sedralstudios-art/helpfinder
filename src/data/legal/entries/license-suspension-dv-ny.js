@@ -4,6 +4,7 @@ export const LICENSE_SUSPENSION_DV_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 511",
   status: "active",
   draft: true,
 

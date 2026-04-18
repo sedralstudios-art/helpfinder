@@ -4,6 +4,7 @@ export const LICENSE_PLATE_READER_PRIVACY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EXC 228",
   status: "active",
 
   title: { en: "License Plate Readers — What Police Collect, How Long They Keep It, and Privacy Rights" },

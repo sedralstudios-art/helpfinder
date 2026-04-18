@@ -4,6 +4,7 @@ export const TENANT_PAINT_LEAD_SAFE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 4852D",
   status: "active",
 
   title: { en: "Lead-Safe Renovations — Rules for Working on Homes Built Before 1978" },

@@ -4,6 +4,7 @@ export const CONTEMPT_OF_COURT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY JUD 750",
   status: "active",
 
   title: { en: "Contempt of Court — What It Means and What Can Happen" },

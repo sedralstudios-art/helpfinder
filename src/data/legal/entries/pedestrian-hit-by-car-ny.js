@@ -4,6 +4,7 @@ export const PEDESTRIAN_HIT_BY_CAR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 5102",
   status: "active",
 
   title: { en: "Hit by a Car as a Pedestrian — What New York Law Says About Your Rights" },

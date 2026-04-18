@@ -4,6 +4,7 @@ export const FUNERAL_PREPAYMENT_TRUST_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 453",
   status: "active",
 
   title: { en: "Prepaid Funeral Contracts — Trust Protection for Money Paid in Advance" },

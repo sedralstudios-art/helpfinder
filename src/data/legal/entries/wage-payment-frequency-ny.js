@@ -4,6 +4,7 @@ export const WAGE_PAYMENT_FREQUENCY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 191",
   status: "active",
 
   title: { en: "How Often Must You Be Paid — Wage Payment Frequency Rules in New York" },

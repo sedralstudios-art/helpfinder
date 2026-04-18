@@ -4,6 +4,7 @@ export const REFUSE_TO_SHOW_ID_POLICE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 507",
   status: "active",
   draft: true,
 

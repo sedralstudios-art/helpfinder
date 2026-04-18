@@ -13,6 +13,7 @@ export const entry = {
   jurisdiction: "us-ny",
 
   authorityType: "federal-statute",
+  primaryStatute: "11 USC CHAPTER 13",
   status: "active",
 
   title: { en: "Chapter 13 Bankruptcy — Keeping Property Through a Repayment Plan" },

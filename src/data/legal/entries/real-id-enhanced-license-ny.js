@@ -4,6 +4,7 @@ export const REAL_ID_ENHANCED_LICENSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-regulation",
+  primaryStatute: "49 USC 30301",
   status: "active",
 
   title: { en: "REAL ID and Enhanced License — Which New York License a Person Needs and Why" },

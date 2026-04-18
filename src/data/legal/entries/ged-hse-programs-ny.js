@@ -4,6 +4,7 @@ export const GED_HSE_PROGRAMS_NY = {
   tier: "county",
   jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
+  primaryStatute: "NY EDN A55",
   status: "active",
 
   title: { en: "GED and High School Equivalency — Free Programs in Monroe County" },

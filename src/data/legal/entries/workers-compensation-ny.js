@@ -4,6 +4,7 @@ export const WORKERS_COMPENSATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY WKC",
   status: "active",
 
   title: { en: "Workers' Compensation — Your Rights If You Get Hurt at Work" },

@@ -4,6 +4,7 @@ export const AUTO_REPAIR_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 398-E",
   status: "active",
 
   title: { en: "Auto Repair Rights — What Mechanics Must Tell You in New York" },

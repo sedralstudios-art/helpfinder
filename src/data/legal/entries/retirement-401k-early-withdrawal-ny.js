@@ -4,6 +4,7 @@ export const RETIREMENT_401K_EARLY_WITHDRAWAL_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "26 USC 72",
   status: "active",
 
   title: { en: "Early Withdrawal From a 401(k) or IRA — Tax Penalty and Hardship Exceptions" },

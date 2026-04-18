@@ -4,6 +4,7 @@ export const BEEKEEPING_LAWS_NY = {
   tier: "county",
   jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
+  primaryStatute: "NY AGM A29",
   status: "active",
 
   title: { en: "Beekeeping Laws — Keeping Bees in Monroe County" },

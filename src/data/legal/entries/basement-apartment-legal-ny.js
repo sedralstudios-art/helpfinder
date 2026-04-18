@@ -4,6 +4,7 @@ export const BASEMENT_APARTMENT_LEGAL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Basement Apartments — When They Are Legal and When They Are Not" },

@@ -4,6 +4,7 @@ export const MOVING_COMPANY_DISPUTES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY TRA A8",
   status: "active",
 
   title: { en: "Moving Company Problems — Damaged Items, Hostage Loads, and Scams" },

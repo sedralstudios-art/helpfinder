@@ -4,6 +4,7 @@ export const NURSING_MOTHERS_WORKPLACE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 206-C",
   status: "active",
 
   title: { en: "Nursing Mothers at Work — Pumping Rights and Break Time in New York" },

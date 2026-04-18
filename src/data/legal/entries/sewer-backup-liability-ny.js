@@ -4,6 +4,7 @@ export const SEWER_BACKUP_LIABILITY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GMU 50-E",
   status: "active",
 
   title: { en: "Sewer Backup in Your Home — Who Is Responsible and What to Do" },

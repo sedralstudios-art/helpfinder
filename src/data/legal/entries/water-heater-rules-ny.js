@@ -4,6 +4,7 @@ export const WATER_HEATER_RULES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Water Heater Replacement — Permits, Codes, and What Landlords Must Provide" },

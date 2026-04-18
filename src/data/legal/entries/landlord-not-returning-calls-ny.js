@@ -4,6 +4,7 @@ export const LANDLORD_NOT_RETURNING_CALLS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Landlord Not Responding — What to Do When They Ignore You" },

@@ -4,6 +4,7 @@ export const ABANDONED_HOUSE_NEXT_DOOR_NY = {
   tier: "county",
   jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
+  primaryStatute: "NY RPA 1308",
   status: "active",
 
   title: { en: "Abandoned House Next Door — What Neighbors Can Do" },

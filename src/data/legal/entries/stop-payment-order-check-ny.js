@@ -4,6 +4,7 @@ export const STOP_PAYMENT_ORDER_CHECK_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY UCC 4-403",
   status: "active",
 
   title: { en: "Stop Payment Order on a Check — Stopping a Check Before the Bank Pays It" },

@@ -4,6 +4,7 @@ export const TENANT_SCREENING_BLACKLIST_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 213-B",
   status: "active",
 
   title: { en: "Tenant Screening and Blacklists — What Landlords Can and Cannot Use Against You in New York" },

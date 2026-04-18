@@ -4,6 +4,7 @@ export const PRIVATE_ROAD_MAINTENANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY HAY 171",
   status: "active",
 
   title: { en: "Private Roads — Who Pays for Plowing, Paving, and Repairs" },

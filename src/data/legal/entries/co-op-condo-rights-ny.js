@@ -4,6 +4,7 @@ export const CO_OP_CONDO_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 339-V",
   status: "active",
 
   title: { en: "Co-op vs. Condo — What Owners and Buyers Need to Know" },

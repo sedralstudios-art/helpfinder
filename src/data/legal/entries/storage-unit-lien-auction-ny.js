@@ -4,6 +4,7 @@ export const STORAGE_UNIT_LIEN_AUCTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LIE A8",
   status: "active",
 
   title: { en: "Storage Unit Lien and Auction — What Happens When Rent Is Not Paid" },

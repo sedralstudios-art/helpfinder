@@ -4,6 +4,7 @@ export const CPS_INVESTIGATION_PROCESS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 422",
   status: "active",
   draft: true,
 

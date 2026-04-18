@@ -4,6 +4,7 @@ export const SERVICE_ANIMAL_PUBLIC_ACCESS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVR 47",
   status: "active",
 
   title: { en: "Service Animals in Public Places — What Businesses Must Allow" },

@@ -4,6 +4,7 @@ export const APPLIANCE_REPAIR_REFUND_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 349",
   status: "active",
 
   title: { en: "Appliance Repair Scams — What to Do When the Repair Did Not Work" },

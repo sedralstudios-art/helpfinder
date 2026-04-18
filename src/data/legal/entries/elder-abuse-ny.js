@@ -4,6 +4,7 @@ export const ELDER_ABUSE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 473",
   status: "active",
   draft: true,
 

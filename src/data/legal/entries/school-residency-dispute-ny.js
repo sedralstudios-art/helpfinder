@@ -4,6 +4,7 @@ export const SCHOOL_RESIDENCY_DISPUTE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDN 3202",
   status: "active",
 
   title: { en: "School Residency Disputes — When a District Says a Child Cannot Attend" },

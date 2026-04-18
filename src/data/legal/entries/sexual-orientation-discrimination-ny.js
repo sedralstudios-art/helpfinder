@@ -4,6 +4,7 @@ export const SEXUAL_ORIENTATION_DISCRIMINATION_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "NY EXC 296",
   status: "active",
 
   title: { en: "LGBTQ+ Workplace Discrimination — Protections in New York" },

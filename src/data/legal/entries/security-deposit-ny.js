@@ -4,6 +4,7 @@ export const SECURITY_DEPOSIT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GOB 7-108",
   status: "active",
 
   title: { en: "Security Deposits — Your Rights When You Move In and Move Out" },

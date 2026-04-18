@@ -4,6 +4,7 @@ export const KINSHIP_CARE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FCT 651-A",
   status: "active",
 
   title: { en: "Kinship Care — When a Relative Raises a Child in New York" },

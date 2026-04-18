@@ -4,6 +4,7 @@ export const BREAK_MEAL_PERIOD_WORK_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 162",
   status: "active",
 
   title: { en: "Breaks and Meal Periods at Work — What New York Law Requires" },

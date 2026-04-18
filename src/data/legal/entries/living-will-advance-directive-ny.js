@@ -4,6 +4,7 @@ export const LIVING_WILL_ADVANCE_DIRECTIVE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH A29-C",
   status: "active",
 
   title: { en: "Living Will and MOLST — Writing Down Medical Wishes for End-of-Life Care" },

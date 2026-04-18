@@ -4,6 +4,7 @@ export const PLEA_BARGAIN_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 220.50",
   status: "active",
 
   title: { en: "Plea Bargains — What a Defendant Needs to Know Before Accepting a Deal" },

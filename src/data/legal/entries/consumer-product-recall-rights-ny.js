@@ -4,6 +4,7 @@ export const CONSUMER_PRODUCT_RECALL_RIGHTS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "15 USC 2064",
   status: "active",
 
   title: { en: "Consumer Product Recalls — How to Find Out About Them and What a Manufacturer Owes You" },

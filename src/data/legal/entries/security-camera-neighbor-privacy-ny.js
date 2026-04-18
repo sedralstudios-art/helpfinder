@@ -4,6 +4,7 @@ export const SECURITY_CAMERA_NEIGHBOR_PRIVACY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 250.00",
   status: "active",
 
   title: { en: "Security Cameras and Neighbor Privacy — What the Law Allows" },

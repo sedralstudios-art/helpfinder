@@ -4,6 +4,7 @@ export const ABANDONED_VEHICLE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1224",
   status: "active",
 
   title: { en: "Abandoned Vehicles — What to Do If a Car Is Left on Your Property or the Street" },

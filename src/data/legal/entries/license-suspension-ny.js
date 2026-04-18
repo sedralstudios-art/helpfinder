@@ -4,6 +4,7 @@ export const LICENSE_SUSPENSION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 510",
   status: "active",
 
   title: { en: "Driver's License Suspension — Your Rights in New York" },

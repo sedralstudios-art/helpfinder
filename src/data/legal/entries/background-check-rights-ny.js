@@ -4,6 +4,7 @@ export const BACKGROUND_CHECK_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY COR A23-A",
   status: "active",
 
   title: { en: "Background Check Rights — What Employers Can and Cannot Ask in New York" },

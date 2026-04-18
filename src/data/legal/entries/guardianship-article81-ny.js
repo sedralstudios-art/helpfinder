@@ -4,6 +4,7 @@ export const GUARDIANSHIP_ARTICLE81_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY MHY A81",
   status: "active",
 
   title: { en: "Guardianship (Article 81) — When Someone Cannot Make Decisions for Themselves" },

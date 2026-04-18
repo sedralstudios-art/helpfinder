@@ -4,6 +4,7 @@ export const UNAUTHORIZED_TOWING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 182",
   status: "active",
 
   title: { en: "Unauthorized Towing — What Tow Companies Can and Cannot Do in New York" },

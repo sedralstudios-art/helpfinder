@@ -4,6 +4,7 @@ export const LEASE_ASSIGNMENT_SUBLET_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 226-B",
   status: "active",
 
   title: { en: "Subletting and Lease Assignment — A Tenant's Right to Transfer the Lease" },

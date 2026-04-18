@@ -4,6 +4,7 @@ export const PROPERTY_TAX_GRIEVANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPT A5",
   status: "active",
 
   title: { en: "Property Tax Grievance — How to Challenge Your Assessment in New York" },

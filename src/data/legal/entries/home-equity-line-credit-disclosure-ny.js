@@ -4,6 +4,7 @@ export const HOME_EQUITY_LINE_CREDIT_DISCLOSURE_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "15 USC 1635",
   status: "active",
 
   title: { en: "Home Equity Lines and Loans — Required Disclosures and the Three-Day Right to Cancel" },

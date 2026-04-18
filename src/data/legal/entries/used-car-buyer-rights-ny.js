@@ -4,6 +4,7 @@ export const USED_CAR_BUYER_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 198-B",
   status: "active",
 
   title: { en: "Used Car Buyer Rights — What Dealers Must Disclose and What Protections Exist" },

@@ -4,6 +4,7 @@ export const DRIVEWAY_PAVING_SCAM_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS A36-A",
   status: "active",
 
   title: { en: "Driveway Paving Scams — The Door-to-Door Pitch and How to Protect Yourself" },

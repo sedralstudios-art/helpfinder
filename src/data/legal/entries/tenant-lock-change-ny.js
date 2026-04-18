@@ -4,6 +4,7 @@ export const TENANT_LOCK_CHANGE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 227-D",
   status: "active",
 
   title: { en: "Can a Tenant Change the Locks? Your Right to Security in New York" },

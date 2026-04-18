@@ -4,6 +4,7 @@ export const REPO_CAR_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY UCC A9",
   status: "active",
 
   title: { en: "Car Repossession Rights — What the Lender Can and Cannot Do in New York" },

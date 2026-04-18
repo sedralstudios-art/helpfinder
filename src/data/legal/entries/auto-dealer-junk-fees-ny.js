@@ -4,6 +4,7 @@ export const AUTO_DEALER_JUNK_FEES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 396-Z",
   status: "active",
 
   title: { en: "Auto Dealer Add-On Fees — What a Car Dealer Cannot Charge" },

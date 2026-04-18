@@ -4,6 +4,7 @@ export const SELLING_HOME_WITHOUT_REALTOR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 462",
   status: "active",
 
   title: { en: "Selling a Home Without a Realtor (FSBO) — What New York Law Requires" },

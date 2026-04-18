@@ -4,6 +4,7 @@ export const BASEMENT_WATERPROOFING_CONTRACTOR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS A36-A",
   status: "active",
 
   title: { en: "Basement Waterproofing Scams — What to Watch For and Your Rights" },

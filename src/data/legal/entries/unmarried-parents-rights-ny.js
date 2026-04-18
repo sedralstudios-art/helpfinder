@@ -4,6 +4,7 @@ export const UNMARRIED_PARENTS_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FCT 522",
   status: "active",
 
   title: { en: "Unmarried Parents — Custody, Paternity, and Rights Without Marriage" },

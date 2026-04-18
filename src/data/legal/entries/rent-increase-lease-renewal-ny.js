@@ -4,6 +4,7 @@ export const RENT_INCREASE_LEASE_RENEWAL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 226-C",
   status: "active",
 
   title: { en: "Rent Increases and Lease Renewal in New York (Outside NYC)" },

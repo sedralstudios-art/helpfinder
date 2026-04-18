@@ -4,6 +4,7 @@ export const HEALTH_INSURANCE_DENIAL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 4914",
   status: "active",
 
   title: { en: "Health Insurance Denied a Claim or Service — How to Appeal in New York" },

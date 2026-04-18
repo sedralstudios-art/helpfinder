@@ -4,6 +4,7 @@ export const HOTEL_GUEST_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS A12",
   status: "active",
 
   title: { en: "Hotel Guest Rights — Refunds, Overbooking, Bedbug Claims, and When a Hotel Can Remove a Guest" },

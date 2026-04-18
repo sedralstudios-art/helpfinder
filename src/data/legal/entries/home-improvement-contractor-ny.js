@@ -4,6 +4,7 @@ export const HOME_IMPROVEMENT_CONTRACTOR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS A36-A",
   status: "active",
 
   title: { en: "Home Improvement Contractor Problems — Protecting Yourself in New York" },

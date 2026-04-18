@@ -4,6 +4,7 @@ export const HEALTH_INSURANCE_MARKETPLACE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 18031",
   status: "active",
 
   title: { en: "NY State of Health — How to Get Health Insurance If You Do Not Have It" },

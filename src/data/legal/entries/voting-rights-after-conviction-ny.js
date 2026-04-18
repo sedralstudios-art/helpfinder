@@ -4,6 +4,7 @@ export const VOTING_RIGHTS_AFTER_CONVICTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ELN 5-106",
   status: "active",
 
   title: { en: "Voting Rights After a Criminal Conviction in New York" },

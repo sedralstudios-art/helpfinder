@@ -4,6 +4,7 @@ export const SENTENCING_OPTIONS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN P2TEA60",
   status: "active",
 
   title: { en: "Sentencing in New York — What a Judge Can Order After a Conviction" },

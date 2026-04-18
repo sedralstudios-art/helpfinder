@@ -4,6 +4,7 @@ export const FORECLOSURE_SETTLEMENT_CONFERENCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 3408",
   status: "active",
 
   title: { en: "Foreclosure Settlement Conference — The Mandatory First Step in NY Home Foreclosure" },

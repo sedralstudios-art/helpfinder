@@ -4,6 +4,7 @@ export const PORCH_PIRACY_PACKAGE_THEFT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 155.30",
   status: "active",
 
   title: { en: "Package Theft (Porch Piracy) — What to Do When a Delivery Is Stolen" },

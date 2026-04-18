@@ -4,6 +4,7 @@ export const TENANT_RIGHT_TO_ORGANIZE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 230",
   status: "active",
 
   title: { en: "Tenant Right to Organize — Forming a Tenants' Association in New York" },

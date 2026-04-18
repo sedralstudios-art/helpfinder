@@ -4,6 +4,7 @@ export const SELLING_ONLINE_SALES_TAX_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY TAX 1101",
   status: "active",
 
   title: { en: "Selling Things Online — When Sales Tax, Income Tax, and Business Rules Apply" },

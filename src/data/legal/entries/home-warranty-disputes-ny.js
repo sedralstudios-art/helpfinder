@@ -4,6 +4,7 @@ export const HOME_WARRANTY_DISPUTES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 349",
   status: "active",
 
   title: { en: "Home Warranty Disputes — When the Company Won't Cover the Repair" },

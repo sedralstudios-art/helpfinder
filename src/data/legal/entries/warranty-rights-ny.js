@@ -4,6 +4,7 @@ export const WARRANTY_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "UCC 2-314",
   status: "active",
 
   title: { en: "Product Warranty and Refund Rights in New York" },

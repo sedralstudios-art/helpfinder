@@ -4,6 +4,7 @@ export const ECONOMIC_IMPACT_PAYMENT_RECOVERY_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "26 USC 6428",
   status: "active",
 
   title: { en: "Missing Stimulus Checks and Recovery Rebate Credits — How to Claim Past Payments" },

@@ -4,6 +4,7 @@ export const GRANDPARENT_SCAM_PHONE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 190.65",
   status: "active",
 
   title: { en: "The Grandparent Scam — How It Works and What to Do" },

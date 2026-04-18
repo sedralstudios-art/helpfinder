@@ -4,6 +4,7 @@ export const MEALS_ON_WHEELS_SENIOR_NUTRITION_NY_PROGRAM = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "agency-program",
+  primaryStatute: "42 USC 3030D",
   status: "active",
 
   title: { en: "Meals on Wheels and Senior Nutrition — Home-Delivered Meals and Congregate Dining" },

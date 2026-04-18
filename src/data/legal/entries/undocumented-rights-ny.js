@@ -4,6 +4,7 @@ export const UNDOCUMENTED_RIGHTS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "NY EXC 837-V",
   status: "active",
   draft: true,
 

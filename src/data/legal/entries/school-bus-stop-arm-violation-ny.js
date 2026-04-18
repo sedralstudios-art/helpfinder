@@ -4,6 +4,7 @@ export const SCHOOL_BUS_STOP_ARM_VIOLATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1174",
   status: "active",
 
   title: { en: "Passing a Stopped School Bus — Penalties, Cameras, and How to Fight the Ticket" },

@@ -4,6 +4,7 @@ export const LOTTERY_PRIZE_CLAIMS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY TAX 1612",
   status: "active",
 
   title: { en: "Lottery Prize Claims — How to Collect Winnings and What to Know in New York" },

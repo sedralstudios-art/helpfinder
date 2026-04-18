@@ -4,6 +4,7 @@ export const DEFAULT_JUDGMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 5015",
   status: "active",
 
   title: { en: "Default Judgments — What Happens If You Ignore a Debt Lawsuit" },

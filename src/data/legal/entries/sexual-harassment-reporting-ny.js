@@ -4,6 +4,7 @@ export const SEXUAL_HARASSMENT_REPORTING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EXC 296",
   status: "active",
   draft: true,
 

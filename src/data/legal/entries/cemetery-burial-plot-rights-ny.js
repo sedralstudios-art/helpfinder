@@ -4,6 +4,7 @@ export const CEMETERY_BURIAL_PLOT_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY NPC A15",
   status: "active",
 
   title: { en: "Burial Plot Rights — What Happens When a Cemetery Raises Prices or Limits Access" },

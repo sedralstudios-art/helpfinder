@@ -4,6 +4,7 @@ export const SNAP_RECERTIFICATION_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "7 USC 2020",
   status: "active",
 
   title: { en: "SNAP Recertification — How to Keep Your Food Stamps" },

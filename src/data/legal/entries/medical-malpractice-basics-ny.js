@@ -4,6 +4,7 @@ export const MEDICAL_MALPRACTICE_BASICS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 214-A",
   status: "active",
 
   title: { en: "Medical Malpractice in New York — When a Doctor's Mistake Causes Harm" },

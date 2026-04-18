@@ -4,6 +4,7 @@ export const CHILD_VICTIMS_ACT_STATUTE_OF_LIMITATIONS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 214-G",
   status: "active",
   draft: true,
 

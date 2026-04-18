@@ -4,6 +4,7 @@ export const EMERGENCY_ROOM_BILLING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FIS 603",
   status: "active",
 
   title: { en: "Emergency Room Bills — What You Can Do About Surprise Charges" },

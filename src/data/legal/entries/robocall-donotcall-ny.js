@@ -4,6 +4,7 @@ export const ROBOCALL_DONOTCALL_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "47 USC 227",
   status: "active",
 
   title: { en: "Robocalls, Spam Calls, and the Do Not Call Registry" },

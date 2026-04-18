@@ -4,6 +4,7 @@ export const FAIR_HEARING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 22",
   status: "active",
 
   title: { en: "Fair Hearings — What to Expect and How to Get Ready" },

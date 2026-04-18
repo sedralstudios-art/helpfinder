@@ -4,6 +4,7 @@ export const INMATE_VISITATION_COMMUNICATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY COR 138",
   status: "active",
 
   title: { en: "Inmate Visits, Mail, and Phone Calls — New York State Prisons and County Jails" },

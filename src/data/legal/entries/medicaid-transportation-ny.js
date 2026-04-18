@@ -4,6 +4,7 @@ export const MEDICAID_TRANSPORTATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 1396D",
   status: "active",
 
   title: { en: "Medicaid Transportation — Free Rides to Medical Appointments in New York" },

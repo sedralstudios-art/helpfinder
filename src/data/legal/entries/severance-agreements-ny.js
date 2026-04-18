@@ -4,6 +4,7 @@ export const SEVERANCE_AGREEMENTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "29 USC 626",
   status: "active",
 
   title: { en: "Severance Agreements — What to Know Before Signing When You Lose a Job" },

@@ -4,6 +4,7 @@ export const SHOPLIFTING_PETIT_LARCENY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 155.25",
   status: "active",
 
   title: { en: "Shoplifting and Petit Larceny Charges in New York — What to Expect" },

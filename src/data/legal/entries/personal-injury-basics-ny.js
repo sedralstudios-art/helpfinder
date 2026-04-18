@@ -4,6 +4,7 @@ export const PERSONAL_INJURY_BASICS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 214",
   status: "active",
 
   title: { en: "Personal Injury Basics — Slip and Fall, Car Accidents, and Negligence in New York" },

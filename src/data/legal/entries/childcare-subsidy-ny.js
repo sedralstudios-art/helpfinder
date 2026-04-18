@@ -4,6 +4,7 @@ export const CHILDCARE_SUBSIDY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 9858",
   status: "active",
 
   title: { en: "Child Care Subsidy — Help Paying for Day Care in New York" },

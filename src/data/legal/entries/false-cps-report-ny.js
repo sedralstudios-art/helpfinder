@@ -4,6 +4,7 @@ export const FALSE_CPS_REPORT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 415",
   status: "active",
   draft: true,
 

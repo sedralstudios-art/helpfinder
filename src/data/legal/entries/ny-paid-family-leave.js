@@ -4,6 +4,7 @@ export const NY_PAID_FAMILY_LEAVE = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY WKC 200",
   status: "active",
 
   title: { en: "New York Paid Family Leave — Time Off to Bond with a Baby, Care for a Sick Family Member, or Support a Military Family" },

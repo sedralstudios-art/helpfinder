@@ -4,6 +4,7 @@ export const MLTC_MANAGED_LONG_TERM_CARE_NY_PROGRAM = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "agency-program",
+  primaryStatute: "42 CFR PART 438",
   status: "active",
 
   title: { en: "Medicaid Managed Long-Term Care (MLTC) — Enrollment, Plan Selection, and Enrollee Rights" },

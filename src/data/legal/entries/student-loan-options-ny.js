@@ -4,6 +4,7 @@ export const STUDENT_LOAN_OPTIONS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "20 USC 1087E",
   status: "active",
 
   title: { en: "Student Loan Debt — Repayment Options, Forgiveness, and Default in New York" },

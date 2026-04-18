@@ -4,6 +4,7 @@ export const FAFSA_FINANCIAL_AID_APPLICATION_NY_PROGRAM = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "agency-program",
+  primaryStatute: "20 USC 1087NN",
   status: "active",
 
   title: { en: "FAFSA — Free Application for Federal Student Aid" },

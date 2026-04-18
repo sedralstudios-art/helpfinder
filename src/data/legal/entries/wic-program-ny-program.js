@@ -4,6 +4,7 @@ export const WIC_PROGRAM_NY_PROGRAM = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "agency-program",
+  primaryStatute: "42 USC 1786",
   status: "active",
 
   title: { en: "WIC — Food and Nutrition Help for Pregnant Women, Infants, and Children" },

@@ -4,6 +4,7 @@ export const CHILD_SUPPORT_NEW_HIRE_REPORTING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 111-H",
   status: "active",
 
   title: { en: "Child Support Enforcement — How New Hire Reporting and Tax Refund Intercepts Work" },

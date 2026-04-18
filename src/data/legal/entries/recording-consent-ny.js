@@ -4,6 +4,7 @@ export const RECORDING_CONSENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 250.00",
   status: "active",
 
   title: { en: "Recording Phone Calls and Conversations — One-Party Consent in New York" },

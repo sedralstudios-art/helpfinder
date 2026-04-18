@@ -4,6 +4,7 @@ export const REPLEVIN_PERSONAL_PROPERTY_RECOVERY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP 7101",
   status: "active",
 
   title: { en: "Replevin — How to Get Back Personal Property Someone Else Is Holding" },

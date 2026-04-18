@@ -4,6 +4,7 @@ export const TENANT_HABITABILITY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Warranty of Habitability — Your Right to a Safe Home" },

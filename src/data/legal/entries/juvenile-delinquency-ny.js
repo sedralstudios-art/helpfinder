@@ -4,6 +4,7 @@ export const JUVENILE_DELINQUENCY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FCT A3",
   status: "active",
 
   title: { en: "Juvenile Delinquency — When a Child Is Charged With a Crime in New York" },

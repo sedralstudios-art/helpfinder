@@ -4,6 +4,7 @@ export const SOLAR_PANEL_RULES_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-EE",
   status: "active",
 
   title: { en: "Solar Panels on Your Home — Permits, HOA Rules, and Net Metering" },

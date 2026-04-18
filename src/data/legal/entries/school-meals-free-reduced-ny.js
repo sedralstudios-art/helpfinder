@@ -4,6 +4,7 @@ export const SCHOOL_MEALS_FREE_REDUCED_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 1751",
   status: "active",
 
   title: { en: "Free School Meals — Every Student in New York Gets Free Breakfast and Lunch" },

@@ -4,6 +4,7 @@ export const GARAGE_DOOR_OPENER_LIABILITY_NY = {
   tier: "federal",
   jurisdiction: "us-fed",
   authorityType: "federal-regulation",
+  primaryStatute: "16 CFR PART 1211",
   status: "active",
 
   title: { en: "Garage Door Safety — Auto-Reverse Rules and What Happens If Someone Is Hurt" },

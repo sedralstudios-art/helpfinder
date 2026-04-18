@@ -4,6 +4,7 @@ export const NAME_CHANGE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVR 60",
   status: "active",
 
   title: { en: "How to Legally Change Your Name in New York" },

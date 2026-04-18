@@ -4,6 +4,7 @@ export const PREGNANT_WORKER_ACCOMMODATIONS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 206-C",
   status: "active",
 
   title: { en: "Pregnant Worker Accommodations — What Employers Must Provide in New York" },

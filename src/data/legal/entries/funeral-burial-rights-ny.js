@@ -4,6 +4,7 @@ export const FUNERAL_BURIAL_RIGHTS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "16 CFR PART 453",
   status: "active",
 
   title: { en: "Funeral and Burial Rights — What Families Are Entitled To in New York" },

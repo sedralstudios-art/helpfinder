@@ -4,6 +4,7 @@ export const POWER_OUTAGE_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBS 32",
   status: "active",
 
   title: { en: "Power Outages — Your Rights When the Electricity Goes Out" },

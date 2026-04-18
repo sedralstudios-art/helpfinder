@@ -4,6 +4,7 @@ export const SENIOR_FRAUD_PREVENTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 190.65",
   status: "active",
 
   title: { en: "Protecting Seniors from Fraud — Common Scams and What to Do" },

@@ -4,6 +4,7 @@ export const RENTAL_APPLICATION_FEE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 238-B",
   status: "active",
 
   title: { en: "Rental Application Fees — What Landlords Can and Cannot Charge" },

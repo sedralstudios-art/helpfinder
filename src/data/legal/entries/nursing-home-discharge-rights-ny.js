@@ -4,6 +4,7 @@ export const NURSING_HOME_DISCHARGE_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 CFR 483.15",
   status: "active",
 
   title: { en: "Nursing Home Discharge — When a Facility Wants to Send You Home" },

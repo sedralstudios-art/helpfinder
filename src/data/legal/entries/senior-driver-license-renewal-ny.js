@@ -4,6 +4,7 @@ export const SENIOR_DRIVER_LICENSE_RENEWAL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 503",
   status: "active",
 
   title: { en: "Senior Driver's License — Renewal Rules, Vision Tests, and Reporting an Unsafe Driver" },

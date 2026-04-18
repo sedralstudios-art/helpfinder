@@ -4,6 +4,7 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 22",
   status: "active",
 
   title: { en: "Benefits Denied or Cut? How to Appeal Through a Fair Hearing" },

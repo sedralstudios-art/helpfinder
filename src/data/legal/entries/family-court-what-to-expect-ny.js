@@ -4,6 +4,7 @@ export const FAMILY_COURT_WHAT_TO_EXPECT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY FCT A1",
   status: "active",
 
   title: { en: "Going to Family Court — What to Expect at Your First Appearance" },

@@ -4,6 +4,7 @@ export const CHILDCARE_ASSISTANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "42 USC 9857",
   status: "active",
 
   title: { en: "Child Care Assistance — Help Paying for Day Care" },

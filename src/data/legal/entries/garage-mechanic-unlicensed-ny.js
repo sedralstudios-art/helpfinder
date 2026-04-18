@@ -4,6 +4,7 @@ export const GARAGE_MECHANIC_UNLICENSED_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 398-D",
   status: "active",
 
   title: { en: "Backyard Mechanic Did Bad Work — Can You Sue If They Are Not Licensed" },

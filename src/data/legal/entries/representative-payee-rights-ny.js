@@ -4,6 +4,7 @@ export const REPRESENTATIVE_PAYEE_RIGHTS_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 405",
   status: "active",
 
   title: { en: "Representative Payee — When Someone Else Manages SSI or Social Security Money" },

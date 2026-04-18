@@ -4,6 +4,7 @@ export const ACCES_VR_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "34 CFR PART 361",
   status: "active",
 
   title: { en: "ACCES-VR — Free Job Training and Support for People with Disabilities" },

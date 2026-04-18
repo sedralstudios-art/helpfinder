@@ -4,6 +4,7 @@ export const CONTRACTOR_HOME_IMPROVEMENT_DEPOSIT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 771",
   status: "active",
 
   title: { en: "Contractor Deposits — How Much Is Too Much and What the Law Requires" },

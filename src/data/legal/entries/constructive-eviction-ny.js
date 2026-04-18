@@ -4,6 +4,7 @@ export const CONSTRUCTIVE_EVICTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 227-A",
   status: "active",
 
   title: { en: "Constructive Eviction — When a Landlord Makes Life So Bad You Have to Leave" },

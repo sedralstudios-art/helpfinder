@@ -4,6 +4,7 @@ export const CATALYTIC_CONVERTER_THEFT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 165.54",
   status: "active",
 
   title: { en: "Catalytic Converter Theft — What to Do If Yours Is Stolen" },

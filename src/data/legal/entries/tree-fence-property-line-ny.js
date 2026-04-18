@@ -4,6 +4,7 @@ export const TREE_FENCE_PROPERTY_LINE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY TWN 300",
   status: "active",
 
   title: { en: "Trees, Fences, and Property Lines — Neighbor Disputes in New York" },

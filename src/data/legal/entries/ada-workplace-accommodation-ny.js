@@ -4,6 +4,7 @@ export const ADA_WORKPLACE_ACCOMMODATION_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "42 USC 12101",
   status: "active",
 
   title: { en: "Disability Accommodation at Work — ADA and New York Human Rights Law" },

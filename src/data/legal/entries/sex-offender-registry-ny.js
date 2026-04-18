@@ -4,6 +4,7 @@ export const SEX_OFFENDER_REGISTRY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY COR A6-C",
   status: "active",
 
   title: { en: "Sex Offender Registry — How It Works, Levels, and What Registrants Must Do" },

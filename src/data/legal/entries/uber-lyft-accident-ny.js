@@ -4,6 +4,7 @@ export const UBER_LYFT_ACCIDENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC A69-B",
   status: "active",
 
   title: { en: "Uber or Lyft Accident — Who Pays for Injuries and Damage" },

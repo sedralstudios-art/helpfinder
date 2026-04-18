@@ -4,6 +4,7 @@ export const RENTERS_RIGHTS_CHECKLIST_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 235-B",
   status: "active",
 
   title: { en: "Renter's Rights Checklist — Everything a Tenant in New York Should Know" },

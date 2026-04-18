@@ -4,6 +4,7 @@ export const ANNULMENT_VS_DIVORCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DOM 140",
   status: "active",
 
   title: { en: "Annulment vs. Divorce — When a Marriage Can Be Declared Invalid in New York" },

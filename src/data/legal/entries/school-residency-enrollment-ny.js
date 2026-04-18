@@ -4,6 +4,7 @@ export const SCHOOL_RESIDENCY_ENROLLMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDN 3202",
   status: "active",
 
   title: { en: "School Enrollment — What Happens When You Cannot Prove Your Address" },

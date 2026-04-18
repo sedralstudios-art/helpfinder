@@ -4,6 +4,7 @@ export const CRIME_VICTIM_COMPENSATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EXC 621",
   status: "active",
   draft: true,
 

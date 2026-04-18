@@ -4,6 +4,7 @@ export const OVERTIME_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB A6",
   status: "active",
 
   title: { en: "Overtime Pay Rights in New York" },

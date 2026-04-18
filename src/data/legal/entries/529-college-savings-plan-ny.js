@@ -4,6 +4,7 @@ export const NY_529_COLLEGE_SAVINGS_PLAN_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "26 USC 529",
   status: "active",
 
   title: { en: "529 College Savings Plans — Tax-Advantaged Accounts for Education Costs" },

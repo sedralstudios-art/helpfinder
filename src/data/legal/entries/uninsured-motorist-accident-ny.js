@@ -4,6 +4,7 @@ export const UNINSURED_MOTORIST_ACCIDENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 3420",
   status: "active",
 
   title: { en: "Hit by an Uninsured or Hit-and-Run Driver — What to Do in New York" },

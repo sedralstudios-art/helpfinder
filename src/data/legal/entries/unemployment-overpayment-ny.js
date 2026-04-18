@@ -4,6 +4,7 @@ export const UNEMPLOYMENT_OVERPAYMENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY LAB 597",
   status: "active",
 
   title: { en: "Unemployment Overpayment — What to Do If the DOL Says You Were Overpaid" },

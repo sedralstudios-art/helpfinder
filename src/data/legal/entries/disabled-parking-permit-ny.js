@@ -4,6 +4,7 @@ export const DISABLED_PARKING_PERMIT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 404-A",
   status: "active",
 
   title: { en: "Disabled Parking Permits — How to Get One in New York" },

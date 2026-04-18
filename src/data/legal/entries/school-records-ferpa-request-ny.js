@@ -4,6 +4,7 @@ export const SCHOOL_RECORDS_FERPA_REQUEST_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "20 USC 1232G",
   status: "active",
 
   title: { en: "Student Records — How a Parent Can Request School Files Under FERPA" },

@@ -4,6 +4,7 @@ export const COTTAGE_FOOD_SELLING_FROM_HOME_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY AGM A20-C",
   status: "active",
 
   title: { en: "Selling Food from Home — New York Cottage Food Laws" },

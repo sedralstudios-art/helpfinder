@@ -4,6 +4,7 @@ export const HOME_TITLE_THEFT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPP 299-A",
   status: "active",
 
   title: { en: "Home Title Theft — How It Happens and How to Protect a Property" },

@@ -4,6 +4,7 @@ export const MEDICAL_BILL_NEGOTIATION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH 2807-K",
   status: "active",
 
   title: { en: "Medical Bills You Cannot Pay — Negotiation, Financial Assistance, and Your Rights" },

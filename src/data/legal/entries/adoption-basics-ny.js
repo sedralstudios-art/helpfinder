@@ -4,6 +4,7 @@ export const ADOPTION_BASICS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY DRL A7",
   status: "active",
 
   title: { en: "Adoption in New York — Types, Process, and Where to Get Help" },

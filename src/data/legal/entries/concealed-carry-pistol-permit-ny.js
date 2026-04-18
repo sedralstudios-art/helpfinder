@@ -4,6 +4,7 @@ export const CONCEALED_CARRY_PISTOL_PERMIT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 400.00",
   status: "active",
 
   title: { en: "Pistol Permits in New York — How to Apply and What the Law Requires" },

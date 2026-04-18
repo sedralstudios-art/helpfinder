@@ -4,6 +4,7 @@ export const HOSPITAL_DISCHARGE_RIGHTS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PBH 2803-W",
   status: "active",
 
   title: { en: "Hospital Discharge Rights — Unsafe Discharge, Observation Status, and the NY CARE Act" },

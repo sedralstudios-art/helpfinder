@@ -4,6 +4,7 @@ export const VETERANS_PROPERTY_TAX_EXEMPTION_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY RPT 458-A",
   status: "active",
 
   title: { en: "Veterans Property Tax Exemptions — How to Reduce Your Tax Bill" },

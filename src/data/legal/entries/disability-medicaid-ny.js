@@ -4,6 +4,7 @@ export const DISABILITY_MEDICAID_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY SOS 366",
   status: "active",
 
   title: { en: "Disability Medicaid — Health Coverage for People with Disabilities" },

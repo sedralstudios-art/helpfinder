@@ -4,6 +4,7 @@ export const EXPUNGEMENT_VS_SEALING_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 160.59",
   status: "active",
 
   title: { en: "Expungement vs. Sealing — What New York Actually Offers for Criminal Records" },

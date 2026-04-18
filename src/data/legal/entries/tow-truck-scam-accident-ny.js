@@ -4,6 +4,7 @@ export const TOW_TRUCK_SCAM_ACCIDENT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 1220-A",
   status: "active",
 
   title: { en: "Tow Truck Scams After an Accident — Predatory Towing and Overcharging" },

@@ -4,6 +4,7 @@ export const LEMON_LAW_LEASED_VEHICLE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GBS 198-A",
   status: "active",
 
   title: { en: "New York Lemon Law for Leased Vehicles — Rights When a Leased Car Cannot Be Fixed" },

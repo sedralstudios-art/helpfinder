@@ -4,6 +4,7 @@ export const GET_RAP_SHEET_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 160.59",
   status: "active",
 
   title: { en: "How to Get Your Criminal Record (RAP Sheet) in New York" },

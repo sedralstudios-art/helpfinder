@@ -4,6 +4,7 @@ export const JUNIOR_LICENSE_GDL_RESTRICTIONS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY VAT 501-B",
   status: "active",
 
   title: { en: "Junior Driver License and Graduated License Rules — What Teen Drivers in New York Can and Cannot Do" },

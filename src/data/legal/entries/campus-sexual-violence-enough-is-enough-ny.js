@@ -4,6 +4,7 @@ export const CAMPUS_SEXUAL_VIOLENCE_ENOUGH_IS_ENOUGH_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY EDN A129-B",
   status: "active",
   draft: true,
 

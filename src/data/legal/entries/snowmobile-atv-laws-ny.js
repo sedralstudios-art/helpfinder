@@ -4,6 +4,7 @@ export const SNOWMOBILE_ATV_LAWS_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY PEN 140.05",
   status: "active",
 
   title: { en: "Snowmobile and ATV Laws — Registration, Where You Can Ride, and Helmet Rules" },

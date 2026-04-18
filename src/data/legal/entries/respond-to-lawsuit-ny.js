@@ -4,6 +4,7 @@ export const RESPOND_TO_LAWSUIT_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CVP A3",
   status: "active",
 
   title: { en: "You Got Sued — How to Respond to a Civil Lawsuit in New York" },

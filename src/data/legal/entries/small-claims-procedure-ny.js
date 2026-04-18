@@ -4,6 +4,7 @@ export const SMALL_CLAIMS_PROCEDURE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY UJC 1801",
   status: "active",
 
   title: { en: "How to File a Small Claims Case in New York" },

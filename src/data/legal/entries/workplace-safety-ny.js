@@ -4,6 +4,7 @@ export const WORKPLACE_SAFETY_NY = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
+  primaryStatute: "NY LAB 27-A",
   status: "active",
 
   title: { en: "Workplace Safety Rights — OSHA and New York PESH" },

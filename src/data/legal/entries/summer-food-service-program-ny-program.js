@@ -4,6 +4,7 @@ export const SUMMER_FOOD_SERVICE_PROGRAM_NY_PROGRAM = {
   tier: "federal",
   jurisdiction: "us-ny",
   authorityType: "agency-program",
+  primaryStatute: "42 USC 1761",
   status: "active",
 
   title: { en: "Summer Meals for Kids — Free Breakfast and Lunch at Summer Sites in Monroe County" },

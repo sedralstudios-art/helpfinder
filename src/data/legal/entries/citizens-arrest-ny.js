@@ -4,6 +4,7 @@ export const CITIZENS_ARREST_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY CPL 140.30",
   status: "active",
   draft: true,
 

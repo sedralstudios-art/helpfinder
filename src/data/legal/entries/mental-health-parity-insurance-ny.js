@@ -4,6 +4,7 @@ export const MENTAL_HEALTH_PARITY_INSURANCE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY ISC 3221",
   status: "active",
 
   title: { en: "Mental Health Parity — Insurance Must Cover Mental Health the Same as Physical Health" },

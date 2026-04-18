@@ -4,6 +4,7 @@ export const STUDENT_LOAN_FORGIVENESS_PSLF_NY = {
   tier: "federal",
   jurisdiction: "us-fed",
   authorityType: "federal-statute",
+  primaryStatute: "20 USC 1087E",
   status: "active",
 
   title: { en: "Student Loan Forgiveness — PSLF and Other Options" },

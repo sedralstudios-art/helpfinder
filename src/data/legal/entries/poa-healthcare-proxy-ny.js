@@ -4,6 +4,7 @@ export const POA_HEALTHCARE_PROXY_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
+  primaryStatute: "NY GOB A5T15",
   status: "active",
 
   title: { en: "Planning Ahead — Power of Attorney, Health Care Proxy, and Alternatives to Guardianship" },
