@@ -87,6 +87,8 @@ export const VEHICLE_REGISTRATION_INSPECTION_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/VAT/401",
+    "https://www.nysenate.gov/legislation/laws/VAT/301",
     "https://dmv.ny.gov/registration",
     "https://dmv.ny.gov/insurance/lapse-insurance-702"
   ],

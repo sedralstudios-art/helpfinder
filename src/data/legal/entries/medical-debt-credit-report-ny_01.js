@@ -92,6 +92,8 @@ export const MEDICAL_DEBT_CREDIT_REPORT_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/15/1681",
+    "https://www.nysenate.gov/legislation/laws/GBS/380-J",
     "https://www.consumerfinance.gov/about-us/newsroom/cfpb-publishes-analysis-of-medical-debt-burden/",
     "https://www.cms.gov/nosurprises"
   ],

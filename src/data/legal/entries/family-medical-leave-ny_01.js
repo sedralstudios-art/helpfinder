@@ -101,6 +101,9 @@ export const FAMILY_MEDICAL_LEAVE_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/29/2611",
+    "https://www.law.cornell.edu/uscode/text/29/2612",
+    "https://www.nysenate.gov/legislation/laws/WKC/204",
     "https://paidfamilyleave.ny.gov",
     "https://www.dol.gov/agencies/whd/fmla"
   ],

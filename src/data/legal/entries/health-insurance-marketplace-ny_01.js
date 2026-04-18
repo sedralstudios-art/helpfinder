@@ -106,6 +106,8 @@ export const HEALTH_INSURANCE_MARKETPLACE_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/18031",
+    "https://www.law.cornell.edu/uscode/text/42/18071",
     "https://nystateofhealth.ny.gov",
     "https://info.nystateofhealth.ny.gov/essentialplan"
   ],

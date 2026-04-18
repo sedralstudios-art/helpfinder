@@ -104,6 +104,8 @@ export const IMMIGRATION_WORK_PERMIT_EAD_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/8/1324a",
+    "https://www.law.cornell.edu/cfr/text/8/274a.12",
     "https://www.uscis.gov/working-in-the-united-states/information-for-employers-and-employees/employment-authorization-document",
     "https://www.uscis.gov/i-765"
   ],
