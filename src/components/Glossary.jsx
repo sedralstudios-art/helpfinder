@@ -134,7 +134,7 @@ function BackLink({ onBack, label }) {
 // ═══════════════════════════════════════════════════════════════════════════
 export function GlossaryCategories({ legalLang, setLegalLang, onOpenCategory, onOpenTerm, onBack }) {
   const [query, setQuery] = useState("");
-  const isRTL = RTL_LEGAL_LANGS && RTL_LEGAL_LANGS.includes(legalLang);
+  const isRTL = RTL_LEGAL_LANGS && RTL_LEGAL_LANGS.has(legalLang);
 
   const categoriesWithTerms = useMemo(
     () => Object.keys(GLOSSARY_TERMS_BY_CATEGORY).sort(),
@@ -308,7 +308,7 @@ export function GlossaryCategories({ legalLang, setLegalLang, onOpenCategory, on
 // BROWSE — terms filtered to one category
 // ═══════════════════════════════════════════════════════════════════════════
 export function GlossaryBrowse({ legalLang, setLegalLang, categoryFilter, onOpenTerm, onBack }) {
-  const isRTL = RTL_LEGAL_LANGS && RTL_LEGAL_LANGS.includes(legalLang);
+  const isRTL = RTL_LEGAL_LANGS && RTL_LEGAL_LANGS.has(legalLang);
   const meta = GLOSSARY_CATEGORY_META[categoryFilter] || { icon: "📖", label: categoryFilter, desc: "" };
   const terms = (GLOSSARY_TERMS_BY_CATEGORY[categoryFilter] || [])
     .slice()
@@ -377,7 +377,7 @@ export function GlossaryBrowse({ legalLang, setLegalLang, categoryFilter, onOpen
 // ═══════════════════════════════════════════════════════════════════════════
 export function GlossaryTerm({ termId, legalLang, setLegalLang, onBack, onOpenTerm, onOpenLegalEntry }) {
   const term = GLOSSARY_TERMS_BY_ID[termId];
-  const isRTL = RTL_LEGAL_LANGS && RTL_LEGAL_LANGS.includes(legalLang);
+  const isRTL = RTL_LEGAL_LANGS && RTL_LEGAL_LANGS.has(legalLang);
 
   if (!term) {
     return (

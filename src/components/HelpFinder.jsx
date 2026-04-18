@@ -1573,10 +1573,10 @@ function RocHelpInner({ onExit, city = "your area", jurisdictions = [] }) {
         )}
       </div>
 
-      {/* NAV */}
-      {step >= STEPS.HOME && (
+      {/* NAV — only show when user is mid-flow, not on HOME */}
+      {step > STEPS.HOME && (
         <div style={{ display: "flex", gap: 8, padding: "10px 20px 0" }}>
-          <button onClick={() => { if (enteredViaDeepLink || step === STEPS.HOME) { if (onExit) onExit(); } else if (step === STEPS.WHAT_CAT) { goTo(STEPS.HOME); } else { goTo(Math.max(0, step - 1)); } }} aria-label={t(lang, "back")} style={{
+          <button onClick={() => { if (enteredViaDeepLink) { if (onExit) onExit(); } else if (step === STEPS.WHAT_CAT) { goTo(STEPS.HOME); } else { goTo(Math.max(0, step - 1)); } }} aria-label={t(lang, "back")} style={{
             background: "none", border: "1px solid #e8e4dc", borderRadius: 20,
             padding: "6px 14px", fontSize: 13, cursor: "pointer", color: "#555",
           }}>
