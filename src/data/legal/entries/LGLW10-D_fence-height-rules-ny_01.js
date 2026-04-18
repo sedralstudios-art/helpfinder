@@ -45,6 +45,11 @@ export const FENCE_HEIGHT_RULES_NY = {
       "Webster: Building Department at (585) 872-7068.",
       "For any other town, the town clerk can direct the homeowner to the building department for fence rules and permits.",
       "Henrietta: Building Department at (585) 334-7700. Front yard fences limited to 3 feet, side/rear to 6 feet, privacy fences up to 8 feet with conditions. (Verified 2026-04-17.)",
+      "Penfield: 6 feet max; 3 feet max within 20 feet of front property line. No setback from property line required. (Verified 2026-04-17.)",
+      "Pittsford: 3 feet in front of front setback line; 6 feet behind front setback. (Verified 2026-04-17.)",
+      "Greece: 8 feet max overall; 3 feet in front/corner visibility area; 4 feet in rear/waterfront yards (open construction). (Verified 2026-04-17.)",
+      "Perinton: 6 feet in side and rear yards. Permit required. (Verified 2026-04-17.)",
+      "Chili: contact Building Department at (585) 889-3550 for fence height limits. (Verified 2026-04-17.)",
       "If a neighbor dispute about a fence cannot be resolved, mediation or small claims court are options.",
       "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]

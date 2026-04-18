@@ -8,7 +8,7 @@ export const LEAF_BLOWER_NOISE_RULES_NY = {
   title: { en: "Leaf Blower Noise — What Hours Are Allowed and How to File a Complaint" },
 
   summary: {
-    en: "Leaf blowers are one of the most common sources of neighbor complaints. Most Monroe County towns regulate when leaf blowers and other power equipment can be used — typically not before 7 or 8 AM and not after 8 or 9 PM. Some towns set decibel limits. Commercial landscapers must follow the same rules as homeowners."
+    en: "Leaf blowers are one of the most common sources of neighbor complaints. Monroe County towns regulate when leaf blowers and other power equipment can be used — the allowed hours vary by town. Some towns set decibel limits. Commercial landscapers must follow the same rules as homeowners."
   },
 
   whoQualifies: {
@@ -21,7 +21,7 @@ export const LEAF_BLOWER_NOISE_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "There is no statewide law in New York that sets hours for leaf blower use. Each town, city, or village sets its own noise ordinance. Most Monroe County towns follow a similar pattern: power equipment (lawn mowers, leaf blowers, chain saws, snow blowers) is restricted to daytime hours, typically between 7 AM and 9 PM on weekdays and 8 AM to 9 PM on weekends. Rochester city code restricts unreasonable noise at any hour but does not set specific equipment hours — enforcement is based on whether the noise is unreasonable for the time of day and neighborhood. Some towns set decibel limits — usually 65 to 75 decibels at the property line. Gas-powered leaf blowers are significantly louder (90-100 dB) than electric models (60-70 dB). A persistent noise problem from a neighbor's leaf blower use outside of allowed hours can be reported to the local code enforcement office. A single complaint usually results in a warning. Repeat violations can result in fines, typically $50 to $250 per violation. Commercial landscaping companies must follow the same hours as homeowners. A homeowner is responsible for their landscaping crew's noise violations."
+    en: "There is no statewide law in New York that sets hours for leaf blower use. Each town, city, or village sets its own noise ordinance. Monroe County towns set their own hours for power equipment use. Rochester restricts unreasonable noise at any hour — enforcement is based on whether the noise is unreasonable for the time of day. Other towns set specific quiet hours (see the legalOptions section for verified per-town hours). Some towns set decibel limits at the property line — contact the local code enforcement office for the exact limit. Gas-powered leaf blowers are significantly louder (90-100 dB) than electric models (60-70 dB). A persistent noise problem from a neighbor's leaf blower use outside of allowed hours can be reported to the local code enforcement office. A single complaint usually results in a warning. Repeat violations can result in fines, typically $50 to $250 per violation. Commercial landscaping companies must follow the same hours as homeowners. A homeowner is responsible for their landscaping crew's noise violations."
   },
 
   yourRights: {
@@ -37,12 +37,13 @@ export const LEAF_BLOWER_NOISE_RULES_NY = {
 
   legalOptions: {
     en: [
-      "Rochester: noise complaints through 311. No specific equipment hour restriction — enforcement is based on unreasonable noise for the time of day.",
-      "Henrietta: power equipment and construction noise allowed only between 7:00 AM and 9:00 PM (Code § 168-2). Violations enforced by Code Enforcement. (Verified 2026-04-17.)",
-      "Greece: Code Enforcement at (585) 723-2396 for noise rules and complaints.",
+      "Rochester: construction activities permitted 7:00 AM to 10:00 PM. No specific equipment hour restriction outside construction — enforcement is based on unreasonable noise. Call 311. (Verified 2026-04-17.)",
+      "Henrietta: power equipment and construction noise allowed only between 7:00 AM and 9:00 PM (Code § 168-2). (Verified 2026-04-17.)",
+      "Greece: construction noise prohibited 10:00 PM to 7:00 AM. Code Enforcement at (585) 723-2396. (Verified 2026-04-17.)",
+      "Penfield: quiet hours 11:00 PM to 7:00 AM. Code Enforcement at (585) 340-8640. (Verified 2026-04-17.)",
+      "Chili: noise prohibited 10:00 PM to 7:00 AM. (Verified 2026-04-17.)",
       "Irondequoit: Code Enforcement at (585) 336-6060. Noise ordinance Chapter 160.",
       "Brighton: Code Enforcement at (585) 784-5220.",
-      "Penfield: Code Enforcement at (585) 340-8640.",
       "For any other town, call the town hall and ask for code enforcement.",
       "If the noise is extreme or ongoing and code enforcement is not helping, a resident can pursue a private nuisance claim in court.",
       "A polite conversation with the neighbor is often the fastest solution — many people do not realize how loud leaf blowers are or that the timing bothers someone.",

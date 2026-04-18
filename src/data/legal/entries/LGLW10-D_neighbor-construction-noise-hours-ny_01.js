@@ -47,6 +47,10 @@ export const NEIGHBOR_CONSTRUCTION_NOISE_HOURS_NY = {
       "For any other town, the town clerk or building department can confirm the allowed construction hours.",
       "A noise log (date, time, type of noise, duration) strengthens complaints about ongoing violations.",
       "Henrietta: Construction allowed 7 a.m. to 9 p.m. (Code § 168-2). (Verified 2026-04-17.)",
+      "Rochester: construction activities permitted 7:00 AM to 10:00 PM. Call 311. (Verified 2026-04-17.)",
+      "Greece: construction noise prohibited 10:00 PM to 7:00 AM. Code Enforcement at (585) 723-2396. (Verified 2026-04-17.)",
+      "Penfield: quiet hours 11:00 PM to 7:00 AM. Code Enforcement at (585) 340-8640. (Verified 2026-04-17.)",
+      "Chili: noise prohibited 10:00 PM to 7:00 AM. (Verified 2026-04-17.)",
       "If the project has a building permit, the local building department can add conditions about hours if the noise is creating a problem.",
       "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]

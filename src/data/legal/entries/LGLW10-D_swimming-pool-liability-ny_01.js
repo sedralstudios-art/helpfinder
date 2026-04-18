@@ -44,6 +44,10 @@ export const SWIMMING_POOL_LIABILITY_NY = {
       "Greece: Pool must be at least 10 feet from the water's edge to any structure. A barrier is required if the pool wall is under 48 inches. A permit is required for pools over 24 inches deep. Code Enforcement at (585) 723-2396. (Verified 2026-04-17.)",
       "Webster: Pool must be at least 15 feet from any property line. Building Department at (585) 872-7068. (Verified 2026-04-17.)",
       "Gates: Pools require a rigid fence with a lockable gate. Deck fences must be 30 inches minimum and 4 feet maximum. Code Enforcement at (585) 247-6100. (Verified 2026-04-17.)",
+      "Rochester: pools per Chapter 120 Zoning Code. Construction 7 AM to 10 PM. Bureau of Buildings at (585) 428-6520. (Verified 2026-04-17.)",
+      "Penfield: pool setback minimum 10 feet to rear property line. Building Department at (585) 340-8636. (Verified 2026-04-17.)",
+      "Perinton: pool edge of water not closer than 15 feet to side or rear property line. Fence 4 to 6 feet enclosing pool. Building Department contact via town hall. (Verified 2026-04-17.)",
+      "Chili: pool fence not less than 5 feet from pool wall, completely surrounding pool. Above-ground pool deck fence 4 to 6 feet. Building Department at (585) 889-3550. (Verified 2026-04-17.)",
       "A neighbor can report an unfenced or unsafe pool to local code enforcement, which can inspect and cite the property owner.",
       "If a drowning or serious injury occurs, criminal charges (reckless endangerment under Penal Law Section 120.20) may be filed in addition to civil claims.",
       "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."

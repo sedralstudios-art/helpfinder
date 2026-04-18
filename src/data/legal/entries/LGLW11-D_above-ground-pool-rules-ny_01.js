@@ -21,7 +21,7 @@ export const ABOVE_GROUND_POOL_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "Under the NYS Uniform Code and the Residential Code of New York State (Section R326), any pool — in-ground or above-ground — that can hold more than 24 inches of water requires a barrier. The barrier must be at least 48 inches high (measured from the outside), have no openings a child could climb through, and have a self-closing, self-latching gate. For above-ground pools, the pool wall itself can count as part of the barrier if it is at least 48 inches high and the ladder or steps are removable or have a lockable gate. If the pool wall is less than 48 inches, a separate fence is required. Most Monroe County towns require a building permit for pools. Some towns also require an electrical permit for the pump, filter, and any lighting — the electrical must include a GFCI-protected outlet. Setback rules vary by town — typically the pool must be a certain distance from the property line (often 5 to 10 feet) and from the house. An inflatable pool or kiddie pool over 24 inches deep is technically subject to the same rules, though enforcement is rare for small seasonal pools. Liability is the biggest concern. Under the attractive nuisance doctrine, a homeowner can be held responsible if a child is injured or drowns in an unsecured pool — even if the child was trespassing."
+    en: "Under the NYS Uniform Code and the Residential Code of New York State (Section R326), any pool — in-ground or above-ground — that can hold more than 24 inches of water requires a barrier. The barrier must be at least 48 inches high (measured from the outside), have no openings a child could climb through, and have a self-closing, self-latching gate. For above-ground pools, the pool wall itself can count as part of the barrier if it is at least 48 inches high and the ladder or steps are removable or have a lockable gate. If the pool wall is less than 48 inches, a separate fence is required. Most Monroe County towns require a building permit for pools. Some towns also require an electrical permit for the pump, filter, and any lighting — the electrical must include a GFCI-protected outlet. Setback rules vary by town — see the legalOptions section for verified per-town setback distances. An inflatable pool or kiddie pool over 24 inches deep is technically subject to the same rules, though enforcement is rare for small seasonal pools. Liability is the biggest concern. Under the attractive nuisance doctrine, a homeowner can be held responsible if a child is injured or drowns in an unsecured pool — even if the child was trespassing."
   },
 
   yourRights: {
@@ -42,10 +42,12 @@ export const ABOVE_GROUND_POOL_RULES_NY = {
       "Greece: permit required for pools over 24 inches deep. Pool must be at least 10 feet from water's edge to any structure. Barrier required if pool wall is under 48 inches. Building Department at (585) 723-2443. (Verified 2026-04-17.)",
       "Webster: pool must be at least 15 feet from any property line. Must also meet zoning setbacks per Chapter 350. Building Department at (585) 872-7035. (Verified 2026-04-17.)",
       "Gates: fence must be rigid construction with lockable gate. Above-ground pool deck fence: minimum 30 inches, maximum 4 feet on outside edge of deck. Building Department at (585) 247-6100. (Verified 2026-04-17.)",
-      "Rochester: Bureau of Buildings at (585) 428-6520.",
+      "Rochester: pools per Chapter 120 Zoning Code. Bureau of Buildings at (585) 428-6520. (Verified 2026-04-17.)",
+      "Penfield: pool setback minimum 10 feet to rear property line. Building Department at (585) 340-8636. (Verified 2026-04-17.)",
+      "Perinton: pool edge of water not closer than 15 feet to side or rear property line. Fence 4 to 6 feet enclosing pool. (Verified 2026-04-17.)",
+      "Chili: pool fence not less than 5 feet from pool wall, completely surrounding pool. Above-ground pool deck fence 4 to 6 feet. Building Department at (585) 889-3550. (Verified 2026-04-17.)",
       "Irondequoit: Building Department at (585) 336-6060.",
       "Brighton: Building Department at (585) 784-5220.",
-      "Penfield: Building Department at (585) 340-8640.",
       "For other towns, call the town hall and ask for the building department.",
       "If a child was injured or drowned in an unsecured pool, a personal injury attorney can advise — Monroe County Bar Association referral at (585) 546-2130.",
       "The Consumer Product Safety Commission has pool safety resources at cpsc.gov/safety-education/safety-guides/pools-and-spas.",

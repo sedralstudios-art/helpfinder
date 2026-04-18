@@ -21,13 +21,13 @@ export const OUTDOOR_FIRE_PIT_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "Under 6 NYCRR Part 215, small outdoor fires for cooking, warmth, or ceremonial purposes are allowed statewide as long as they are contained (in a fire pit, ring, or outdoor fireplace), the fuel is clean, dry wood (no treated lumber, no trash, no leaves), and the fire is attended at all times. Local codes add more rules. Most Monroe County towns require the fire pit to be at least 15 to 25 feet from any structure (house, garage, fence, shed). Some towns require a screen or spark arrestor on top. Some towns require a permit for permanent built-in fire pits. Portable metal fire pits typically do not need a permit. Burning trash, cardboard, leaves, or construction materials in a fire pit is illegal under the statewide open burning ban — only clean wood and charcoal are allowed. If a fire pit causes a problem — excessive smoke affecting neighbors, fire spreading to the grass or a structure — the homeowner is liable for the damage and can face fines."
+    en: "Under 6 NYCRR Part 215, small outdoor fires for cooking, warmth, or ceremonial purposes are allowed statewide as long as they are contained (in a fire pit, ring, or outdoor fireplace), the fuel is clean, dry wood (no treated lumber, no trash, no leaves), and the fire is attended at all times. Local codes add more rules. Local codes add rules about how far a fire pit must be from structures. The exact distance varies by town — see the legalOptions section for verified per-town rules. Some towns require a screen or spark arrestor on top. Some towns require a permit for permanent built-in fire pits. Portable metal fire pits typically do not need a permit. Burning trash, cardboard, leaves, or construction materials in a fire pit is illegal under the statewide open burning ban — only clean wood and charcoal are allowed. If a fire pit causes a problem — excessive smoke affecting neighbors, fire spreading to the grass or a structure — the homeowner is liable for the damage and can face fines."
   },
 
   yourRights: {
     en: [
       "A homeowner has the right to use a fire pit for cooking or warmth as long as it meets state and local rules.",
-      "A fire pit must be a safe distance from structures — 15 to 25 feet depending on the town.",
+      "A fire pit must be a safe distance from structures — the exact distance varies by town. See the legalOptions section for verified per-town rules.",
       "Only clean, dry wood and charcoal can be burned. Trash, leaves, treated wood, and cardboard are prohibited statewide.",
       "The fire must be attended at all times and fully extinguished before leaving.",
       "A neighbor affected by excessive smoke can call the fire department or file a code complaint.",
@@ -41,7 +41,7 @@ export const OUTDOOR_FIRE_PIT_RULES_NY = {
       "Rochester: contained fire pit, 25 feet from any structure. Enforced by Rochester Fire Department. Call 311.",
       "Brighton: recreational fire 25 feet from any structure or combustible material. Portable outdoor fireplace (manufactured unit) 15 feet. Bonfire 50 feet. Max size 3 feet diameter, 2 feet height. Adult supervision required at all times. (Source: Town of Brighton Recreational Fires & Open Burning Guidelines, verified 2026-04-17.)",
       "Gates: open burning is prohibited unless in a completely enclosed incinerator approved by the Fire and Building Departments. Traditional fire pits are effectively not allowed without approval. (Source: ecode360 Town of Gates, verified 2026-04-17.)",
-      "Greece: contact Code Enforcement at (585) 723-2396 for fire pit distance and permit rules.",
+      "Greece: recreational fires allowed, 25 feet from structure or combustible material. Must be attended. Fire Marshal at (585) 723-2443. (Verified 2026-04-17.)",
       "Irondequoit: contact Fire Department non-emergency at (585) 336-6000.",
       "Henrietta: contact Building Department at (585) 359-7060.",
       "For any other town, call the fire department or building department for the specific distance and size rules.",

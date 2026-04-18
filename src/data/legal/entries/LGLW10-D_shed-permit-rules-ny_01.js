@@ -45,6 +45,10 @@ export const SHED_PERMIT_RULES_NY = {
       "Penfield: Building and Zoning at (585) 340-8630.",
       "Webster: Building Department at (585) 872-7068.",
       "For any other town, the town clerk or building department has the local shed size and setback rules.",
+      "Penfield: sheds require 10-foot rear setback minimum. Over 300 sq ft requires 50-foot setback from property line. Building Dept at (585) 340-8636. (Verified 2026-04-17.)",
+      "Chili: sheds 119 sq ft or less do not require a permit. Building Dept at (585) 889-3550. (Verified 2026-04-17.)",
+      "Irondequoit: sheds over 30 sq ft require a building permit. Building Dept at (585) 336-7287. (Verified 2026-04-17.)",
+      "Greece: sheds permitted in rear yards only. Building Dept at (585) 723-2443. (Verified 2026-04-17.)",
       "If a variance is needed, the application goes to the local Zoning Board of Appeals. A public hearing is usually required.",
       "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
