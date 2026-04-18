@@ -3,6 +3,7 @@ export const SMALL_CLAIMS_PROCEDURE_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "How to File a Small Claims Case in New York" },

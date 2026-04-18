@@ -3,6 +3,7 @@ export const SSDI_DENIAL_APPEAL_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "SSDI or SSI Denied — How to Appeal a Social Security Disability Decision" },

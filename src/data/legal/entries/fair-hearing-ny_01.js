@@ -3,6 +3,7 @@ export const FAIR_HEARING_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Fair Hearings — What to Expect and How to Get Ready" },

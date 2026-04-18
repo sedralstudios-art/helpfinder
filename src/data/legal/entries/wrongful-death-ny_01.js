@@ -3,6 +3,7 @@ export const WRONGFUL_DEATH_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Wrongful Death Claims in New York — When a Death Is Caused by Someone Else's Negligence" },

@@ -3,6 +3,7 @@ export const SLIP_AND_FALL_PREMISES_LIABILITY_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Slip and Fall Injuries — Premises Liability and Property Owner Responsibility in New York" },

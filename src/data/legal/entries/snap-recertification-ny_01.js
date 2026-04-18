@@ -1,8 +1,9 @@
 export const SNAP_RECERTIFICATION_NY = {
   id: "snap-recertification-ny",
   category: "benefits",
-  tier: "state",
+  tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "SNAP Recertification — How to Keep Your Food Stamps" },

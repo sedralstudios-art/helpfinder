@@ -3,6 +3,7 @@ export const CHILD_CUSTODY_RELOCATION_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Custody and Relocation — Moving Away With Your Child" },

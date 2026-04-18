@@ -3,6 +3,7 @@ export const BEDBUG_TENANT_RIGHTS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Bedbug Infestations — Tenant Rights and Landlord Obligations in New York" },
