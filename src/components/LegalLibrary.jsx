@@ -21,6 +21,80 @@ const C = {
 
 const SERIF = "'DM Serif Display', Georgia, serif";
 
+const AUTHORITY_META = {
+  "state-statute": {
+    label: "NY State Statute",
+    caption: "This rule comes from a law passed by the New York State Legislature.",
+    color: "#1565c0",
+    bg: "#e3f2fd",
+    border: "#bbdefb",
+  },
+  "federal-statute": {
+    label: "Federal Statute",
+    caption: "This rule comes from a law passed by Congress. It applies nationwide.",
+    color: "#4527a0",
+    bg: "#ede7f6",
+    border: "#d1c4e9",
+  },
+  "state-regulation": {
+    label: "NY Regulation",
+    caption: "This rule comes from a state agency regulation, adopted under a state statute.",
+    color: "#00695c",
+    bg: "#e0f2f1",
+    border: "#b2dfdb",
+  },
+  "federal-regulation": {
+    label: "Federal Regulation",
+    caption: "This rule comes from a federal agency regulation, adopted under a federal statute.",
+    color: "#6a1b9a",
+    bg: "#f3e5f5",
+    border: "#e1bee7",
+  },
+  "local-ordinance": {
+    label: "Local Ordinance",
+    caption: "This rule is set by a town, village, or city — not state law. Rules differ between municipalities.",
+    color: "#bf360c",
+    bg: "#fbe9e7",
+    border: "#ffccbc",
+  },
+  "common-law": {
+    label: "Court-Made Law",
+    caption: "This rule comes from court decisions, not a statute. Rules can shift as new cases are decided.",
+    color: "#6d4c41",
+    bg: "#efebe9",
+    border: "#d7ccc8",
+  },
+  "agency-program": {
+    label: "Agency Program",
+    caption: "This describes how a government program works. Procedures are set by the agency running it.",
+    color: "#2e7d32",
+    bg: "#e8f5e9",
+    border: "#c8e6c9",
+  },
+};
+
+function AuthorityBadge({ authorityType }) {
+  if (!authorityType) return null;
+  const meta = AUTHORITY_META[authorityType];
+  if (!meta) return null;
+  return (
+    <div style={{
+      marginBottom: 20,
+      padding: "10px 14px",
+      background: meta.bg,
+      border: "1px solid " + meta.border,
+      borderRadius: 10,
+      fontSize: 13,
+      lineHeight: 1.5,
+    }}>
+      <span style={{ fontWeight: 700, color: meta.color, marginRight: 8 }}>
+        {meta.label}
+      </span>
+      <span style={{ color: "#555" }}>{meta.caption}</span>
+    </div>
+  );
+}
+
 // Category metadata — icons, labels, and short descriptions for the tiles
 export const CATEGORY_META = {
   benefits: {
@@ -386,6 +460,8 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
       <p style={{ fontSize: 17, color: C.stone, lineHeight: 1.6, marginBottom: 20, fontWeight: 500 }}>
         {pickText(entry.summary, legalLang)}
       </p>
+
+      <AuthorityBadge authorityType={entry.authorityType} />
 
       <ShareBar entryId={entry.id} title={pickText(entry.title, "en")} />
 

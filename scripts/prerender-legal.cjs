@@ -264,6 +264,23 @@ const SHARED_CSS = `
       .ssr-content .counsel li { background: #fff; border: 1px solid #e8e4dc; border-radius: 10px; padding: 10px 14px; list-style: none; margin-bottom: 10px; }
       .ssr-content .counsel .focus { font-size: 12px; color: #767676; }
       .ssr-content .example-caption { font-size: 12px; color: #767676; line-height: 1.5; margin-top: 10px; }
+      .ssr-content .authority-badge { padding: 10px 14px; border-radius: 10px; margin: 0 0 20px; font-size: 13px; line-height: 1.5; border: 1px solid transparent; }
+      .ssr-content .authority-badge .authority-label { font-weight: 700; margin-right: 8px; }
+      .ssr-content .authority-badge .authority-caption { color: #555; }
+      .ssr-content .auth-state-statute { background: #e3f2fd; border-color: #bbdefb; }
+      .ssr-content .auth-state-statute .authority-label { color: #1565c0; }
+      .ssr-content .auth-federal-statute { background: #ede7f6; border-color: #d1c4e9; }
+      .ssr-content .auth-federal-statute .authority-label { color: #4527a0; }
+      .ssr-content .auth-state-regulation { background: #e0f2f1; border-color: #b2dfdb; }
+      .ssr-content .auth-state-regulation .authority-label { color: #00695c; }
+      .ssr-content .auth-federal-regulation { background: #f3e5f5; border-color: #e1bee7; }
+      .ssr-content .auth-federal-regulation .authority-label { color: #6a1b9a; }
+      .ssr-content .auth-local-ordinance { background: #fbe9e7; border-color: #ffccbc; }
+      .ssr-content .auth-local-ordinance .authority-label { color: #bf360c; }
+      .ssr-content .auth-common-law { background: #efebe9; border-color: #d7ccc8; }
+      .ssr-content .auth-common-law .authority-label { color: #6d4c41; }
+      .ssr-content .auth-agency-program { background: #e8f5e9; border-color: #c8e6c9; }
+      .ssr-content .auth-agency-program .authority-label { color: #2e7d32; }
       .ssr-content .sources li { font-size: 11px; color: #767676; }
       .ssr-content .sources a { color: #767676; word-break: break-all; }
       .ssr-content .entry-list { list-style: none; padding: 0; display: grid; gap: 10px; margin: 0; }
@@ -322,6 +339,20 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
       '<div class="reviewed-name"><span class="reviewed-check">✓</span><span>Reviewed by ' + esc(entry.reviewedBy) + '</span></div>' +
       '<div class="reviewed-disclaimer">This guide is general legal information, not legal advice for your specific situation.</div>' +
       '</div>'
+    : '';
+
+  const AUTHORITY_META_SSR = {
+    "state-statute": { label: "NY State Statute", caption: "This rule comes from a law passed by the New York State Legislature.", cls: "auth-state-statute" },
+    "federal-statute": { label: "Federal Statute", caption: "This rule comes from a law passed by Congress. It applies nationwide.", cls: "auth-federal-statute" },
+    "state-regulation": { label: "NY Regulation", caption: "This rule comes from a state agency regulation, adopted under a state statute.", cls: "auth-state-regulation" },
+    "federal-regulation": { label: "Federal Regulation", caption: "This rule comes from a federal agency regulation, adopted under a federal statute.", cls: "auth-federal-regulation" },
+    "local-ordinance": { label: "Local Ordinance", caption: "This rule is set by a town, village, or city — not state law. Rules differ between municipalities.", cls: "auth-local-ordinance" },
+    "common-law": { label: "Court-Made Law", caption: "This rule comes from court decisions, not a statute. Rules can shift as new cases are decided.", cls: "auth-common-law" },
+    "agency-program": { label: "Agency Program", caption: "This describes how a government program works. Procedures are set by the agency running it.", cls: "auth-agency-program" },
+  };
+  const authMeta = AUTHORITY_META_SSR[entry.authorityType];
+  const authorityBadgeHTML = authMeta
+    ? '<div class="authority-badge ' + authMeta.cls + '"><span class="authority-label">' + esc(authMeta.label) + '</span> <span class="authority-caption">' + esc(authMeta.caption) + '</span></div>'
     : '';
 
   const whoQualHTML = whoQual.length
@@ -430,6 +461,7 @@ ${breadcrumbJsonLD}
         </div>
         <h1>${esc(title)}</h1>
         <p class="lead">${esc(summary)}</p>
+        ${authorityBadgeHTML}
         ${reviewedByHTML}
         ${whoQualHTML}
         ${whatItMeansHTML}
