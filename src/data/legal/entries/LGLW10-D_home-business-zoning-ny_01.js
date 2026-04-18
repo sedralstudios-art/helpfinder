@@ -21,7 +21,7 @@ export const HOME_BUSINESS_ZONING_NY = {
   },
 
   whatItMeans: {
-    en: "Most Monroe County towns allow home occupations in residential zones — but there are limits. The typical rules are: the business cannot change the appearance of the home (no commercial signage, no storefront), the business cannot generate excessive traffic or parking beyond what is normal for a residential street, no more than one or two non-resident employees can work at the home, hazardous materials cannot be stored, and the business use cannot take up more than 25% to 30% of the home's floor area. In Rochester, a home occupation permit may be required depending on the type of business. Some businesses — like a hair salon, a car repair shop, or a commercial kitchen — require a special use permit or a variance because they involve customers coming to the home, equipment that creates noise, or health department oversight. A home business that operates entirely online with no customer visits, no deliveries beyond normal mail, and no employees typically does not need any permit."
+    en: "Most Monroe County towns allow home occupations in residential zones — but there are limits. Common rules include: the business cannot change the appearance of the home (no commercial signage, no storefront), the business cannot generate excessive traffic or parking beyond what is normal for a residential street, limits on non-resident employees, no hazardous materials, and limits on what percentage of the home can be used for business. The exact limits vary by town — contact the local building department for the specific rules in each municipality. In Rochester, a home occupation permit may be required depending on the type of business. Some businesses — like a hair salon, a car repair shop, or a commercial kitchen — require a special use permit or a variance because they involve customers coming to the home, equipment that creates noise, or health department oversight. A home business that operates entirely online with no customer visits, no deliveries beyond normal mail, and no employees typically does not need any permit."
   },
 
   yourRights: {
@@ -45,7 +45,8 @@ export const HOME_BUSINESS_ZONING_NY = {
       "Penfield: Building and Zoning at (585) 340-8630.",
       "For any other town, the town clerk or building department can explain the home occupation rules.",
       "A special use permit requires an application to the Zoning Board of Appeals and usually includes a public hearing where neighbors can comment.",
-      "A business license from the state (like a sales tax certificate) is separate from zoning — having a state license does not mean the zoning allows the business at home."
+      "A business license from the state (like a sales tax certificate) is separate from zoning — having a state license does not mean the zoning allows the business at home.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

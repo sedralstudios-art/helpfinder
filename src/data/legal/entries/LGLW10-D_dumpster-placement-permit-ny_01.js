@@ -21,7 +21,7 @@ export const DUMPSTER_PLACEMENT_PERMIT_NY = {
   },
 
   whatItMeans: {
-    en: "When a dumpster is placed on the homeowner's own driveway or property, most towns do not require a permit — but there are often rules about how long it can stay (usually 7 to 30 days) and what can go in it. Hazardous materials (paint, chemicals, asbestos, batteries) cannot go in a standard dumpster. When a dumpster is placed on the street or public right-of-way, a permit is almost always required. In Rochester, a street obstruction permit is needed from the Bureau of Operations. The permit costs $25 to $75 and specifies how long the dumpster can stay and where it must be placed. The dumpster must have reflectors or lights at night. Blocking the sidewalk or a fire hydrant can result in the dumpster being removed and the homeowner being fined. Most dumpster rental companies handle the permit for the customer, but the responsibility ultimately falls on the property owner."
+    en: "When a dumpster is placed on the homeowner's own driveway or property, most towns do not require a permit — but there are often rules about how long it can stay and what can go in it. Contact the local code enforcement office for the time limit in each town. Hazardous materials (paint, chemicals, asbestos, batteries) cannot go in a standard dumpster. When a dumpster is placed on the street or public right-of-way, a permit is almost always required. In Rochester, a street obstruction permit is needed from the Bureau of Operations. The permit costs $25 to $75 and specifies how long the dumpster can stay and where it must be placed. The dumpster must have reflectors or lights at night. Blocking the sidewalk or a fire hydrant can result in the dumpster being removed and the homeowner being fined. Most dumpster rental companies handle the permit for the customer, but the responsibility ultimately falls on the property owner."
   },
 
   yourRights: {
@@ -43,7 +43,8 @@ export const DUMPSTER_PLACEMENT_PERMIT_NY = {
       "Brighton: Building Department at (585) 784-5220.",
       "For any other town, the town clerk or building department can explain the local dumpster rules.",
       "Hazardous waste disposal is handled by the Monroe County ecopark at monroecounty.gov/ecopark. Electronics, paint, chemicals, and batteries go there, not in a dumpster.",
-      "Most dumpster rental companies (like Budget Dumpster, Waste Management, or local haulers) can advise on permit requirements when the dumpster is ordered."
+      "Most dumpster rental companies can advise on permit requirements when the dumpster is ordered.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

@@ -21,7 +21,7 @@ export const BEEKEEPING_LAWS_NY = {
   },
 
   whatItMeans: {
-    en: "Under NYS Agriculture and Markets Law Article 29, beekeeping is legal statewide and is classified as an agricultural activity. Every beekeeper must register with the NYS Department of Agriculture and Markets annually. Registration is free. The state apiary inspector may visit to check for disease. Local towns can set rules about hive placement. Common local rules include keeping hives a set distance from property lines (often 10 to 25 feet), limiting the number of hives on small lots, requiring a flyway barrier (a fence or hedge at least 6 feet tall near the hive entrance so bees fly up and over neighboring yards), and orienting hive entrances away from neighbors. Rochester city code does not specifically address beekeeping, but nuisance laws apply if bees are causing a problem for neighbors. Most suburban Monroe County towns allow beekeeping with reasonable placement. If a neighbor complains, the issue usually comes down to whether the beekeeper took reasonable steps to prevent the bees from being a nuisance — water sources for the bees, flyway barriers, and hive placement all matter. Africanized bees are not present in New York. Honeybees in this area are generally docile."
+    en: "Under NYS Agriculture and Markets Law Article 29, beekeeping is legal statewide and is classified as an agricultural activity. Every beekeeper must register with the NYS Department of Agriculture and Markets annually. Registration is free. The state apiary inspector may visit to check for disease. Local towns can set rules about hive placement. Common local rules include keeping hives a set distance from property lines, limiting the number of hives on small lots, requiring a flyway barrier (a fence or hedge at least 6 feet tall near the hive entrance so bees fly up and over neighboring yards), and orienting hive entrances away from neighbors. The exact setback distance and hive limits vary by town — contact the local building department for the specific rules in each municipality. Rochester city code does not specifically address beekeeping, but nuisance laws apply if bees are causing a problem for neighbors. Most suburban Monroe County towns allow beekeeping with reasonable placement. If a neighbor complains, the issue usually comes down to whether the beekeeper took reasonable steps to prevent the bees from being a nuisance — water sources for the bees, flyway barriers, and hive placement all matter. Africanized bees are not present in New York. Honeybees in this area are generally docile."
   },
 
   yourRights: {
@@ -41,12 +41,13 @@ export const BEEKEEPING_LAWS_NY = {
       "The local town code enforcement office can explain hive placement rules for a specific town.",
       "Monroe County Beekeepers Association is a volunteer group that can help new beekeepers understand local rules and best practices.",
       "Cornell Cooperative Extension of Monroe County at (585) 753-2550 offers beekeeping education and can help resolve neighbor disputes.",
-      "If a town tries to ban beekeeping entirely, the NYS Department of Agriculture and Markets can be contacted to clarify that beekeeping is a protected agricultural activity."
+      "If a town tries to ban beekeeping entirely, the NYS Department of Agriculture and Markets can be contacted to clarify that beekeeping is a protected agricultural activity.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 
   example: {
-    en: "Priya in Penfield wanted to keep two hives in her backyard. She checked with the Penfield building department and learned she needed to keep hives at least 15 feet from the property line and put up a flyway barrier. She registered her hives with the state for free. She placed the hives along the back fence with entrances facing away from the neighbor's yard and planted a row of tall sunflowers as a natural flyway barrier. Her neighbors barely notice the bees, and Priya harvests about 60 pounds of honey a year."
+    en: "Priya in Penfield wanted to keep two hives in her backyard. She checked with the Penfield building department and learned she needed to keep hives a minimum distance from the property line and put up a flyway barrier. She registered her hives with the state for free. She placed the hives along the back fence with entrances facing away from the neighbor's yard and planted a row of tall sunflowers as a natural flyway barrier. Her neighbors barely notice the bees, and Priya harvests about 60 pounds of honey a year."
   },
 
   counsel: [

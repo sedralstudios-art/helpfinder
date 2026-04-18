@@ -21,7 +21,7 @@ export const DUMPSTER_RENTAL_HOMEOWNER_NY = {
   },
 
   whatItMeans: {
-    en: "When a dumpster is placed on private property (driveway, side yard), most Monroe County towns do not require a permit. Some towns limit how long the dumpster can stay — typically 7 to 30 days. If the dumpster is placed in the street or on the sidewalk, a street obstruction permit is required. In Rochester, this is a Temporary Street Obstruction Permit from the Department of Environmental Services. The permit costs around $25 to $50 and specifies the allowed location and duration. Reflective cones or markers may be required at night. Prohibited items vary by company but generally include hazardous waste (paint, chemicals, oil, pesticides), tires, appliances containing refrigerant (refrigerators, air conditioners — the refrigerant must be professionally removed first), batteries, electronics, medical waste, and asbestos. Concrete and dirt are allowed in most dumpsters but are very heavy — the company may charge extra for overweight loads. Most dumpster rental companies serve Monroe County. Sizes range from 10-yard (small cleanout) to 40-yard (major demolition). Prices typically range from $300 to $600 for a week, depending on size and contents."
+    en: "When a dumpster is placed on private property (driveway, side yard), most Monroe County towns do not require a permit. Some towns limit how long the dumpster can stay. Contact the local code enforcement office for the time limit in each town. If the dumpster is placed in the street or on the sidewalk, a street obstruction permit is required. In Rochester, this is a Temporary Street Obstruction Permit from the Department of Environmental Services. The permit costs around $25 to $50 and specifies the allowed location and duration. Reflective cones or markers may be required at night. Prohibited items vary by company but generally include hazardous waste (paint, chemicals, oil, pesticides), tires, appliances containing refrigerant (refrigerators, air conditioners — the refrigerant must be professionally removed first), batteries, electronics, medical waste, and asbestos. Concrete and dirt are allowed in most dumpsters but are very heavy — the company may charge extra for overweight loads. Most dumpster rental companies serve Monroe County. Sizes range from 10-yard (small cleanout) to 40-yard (major demolition). Prices typically range from $300 to $600 for a week, depending on size and contents."
   },
 
   yourRights: {
@@ -42,7 +42,8 @@ export const DUMPSTER_RENTAL_HOMEOWNER_NY = {
       "In Irondequoit, call the Highway Department at (585) 336-6060.",
       "For other towns, call the town highway department or clerk's office.",
       "Monroe County ecopark at (585) 753-7600 accepts hazardous waste, electronics, and other items that cannot go in dumpsters.",
-      "If a dumpster company overcharges or refuses to pick up as scheduled, file a complaint with the NYS Division of Consumer Protection at (800) 697-1220."
+      "If a dumpster company overcharges or refuses to pick up as scheduled, file a complaint with the NYS Division of Consumer Protection at (800) 697-1220.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

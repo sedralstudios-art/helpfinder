@@ -8,7 +8,7 @@ export const SHED_PERMIT_RULES_NY = {
   title: { en: "Building a Shed — Permit Rules and Setbacks in Monroe County" },
 
   summary: {
-    en: "Putting up a storage shed in the backyard may require a building permit depending on the size and the town. Most municipalities allow small sheds (under 120 to 200 square feet) without a permit, but they still must meet setback rules — how far from the property line, the house, and the street. A shed placed too close can result in a code violation and an order to move it."
+    en: "Putting up a storage shed in the backyard may require a building permit depending on the size and the town. Some municipalities allow small sheds under a certain size without a permit, but they still must meet setback rules — how far from the property line, the house, and the street. Contact the local building department for the exact size threshold and setback distances in each town. A shed placed too close can result in a code violation and an order to move it."
   },
 
   whoQualifies: {
@@ -21,7 +21,7 @@ export const SHED_PERMIT_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "Shed rules in Monroe County are set by each municipality's zoning code. The two main factors are size and placement. Most towns exempt sheds under a certain size from the building permit requirement — typically 120 to 200 square feet. But even an exempt shed must meet setback requirements — it cannot be placed within a certain distance of the property line, the house, or the road. Common setbacks are 3 to 5 feet from the property line and behind the front building line of the house. A shed in the front yard is usually not allowed. Larger sheds (over the exempt size) require a building permit and may need to meet building code for foundation, wind resistance, and structural integrity. Some towns limit the height of accessory structures to one story or 15 feet. An HOA may have additional rules about shed size, material, and color. If a shed is built without a required permit or in the wrong location, code enforcement can require the homeowner to get a retroactive permit (with penalties), move the shed, or remove it entirely."
+    en: "Shed rules in Monroe County are set by each municipality's zoning code. The two main factors are size and placement. Many towns exempt sheds under a certain size from the building permit requirement — for example, Rochester exempts sheds under 120 sq ft and Greece exempts sheds under 200 sq ft. But even an exempt shed must meet setback requirements — it cannot be placed within a certain distance of the property line, the house, or the road. Contact the local building department for the exact setback distances in each town. A shed in the front yard is generally not allowed in most municipalities. Larger sheds (over the exempt size) require a building permit and may need to meet building code for foundation, wind resistance, and structural integrity. Some towns limit the height of accessory structures to one story or 15 feet. An HOA may have additional rules about shed size, material, and color. If a shed is built without a required permit or in the wrong location, code enforcement can require the homeowner to get a retroactive permit (with penalties), move the shed, or remove it entirely."
   },
 
   yourRights: {
@@ -45,7 +45,8 @@ export const SHED_PERMIT_RULES_NY = {
       "Penfield: Building and Zoning at (585) 340-8630.",
       "Webster: Building Department at (585) 872-7068.",
       "For any other town, the town clerk or building department has the local shed size and setback rules.",
-      "If a variance is needed, the application goes to the local Zoning Board of Appeals. A public hearing is usually required."
+      "If a variance is needed, the application goes to the local Zoning Board of Appeals. A public hearing is usually required.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

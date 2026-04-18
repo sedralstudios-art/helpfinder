@@ -42,7 +42,8 @@ export const NOISE_ORDINANCE_BARKING_DOG_NY = {
       "In Rochester, animal control can be reached at (585) 428-7274.",
       "Keep a log of the barking — dates, times, duration — this is essential evidence for any legal action.",
       "If the problem continues, a nuisance complaint can be filed in local court under AML § 121.",
-      "For tenants, notifying the landlord in writing puts the responsibility on the landlord to act."
+      "For tenants, notifying the landlord in writing puts the responsibility on the landlord to act.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

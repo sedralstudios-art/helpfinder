@@ -42,7 +42,8 @@ export const SHORT_TERM_RENTAL_HOSTING_AIRBNB_NY = {
       "NYS Department of Taxation and Finance at (518) 485-2889 handles sales tax registration for hosts who must collect tax directly.",
       "If a neighbor's short-term rental is causing problems (noise, parking, trash), file a complaint with the local code enforcement office.",
       "A host should consult their homeowner's insurance company about short-term rental coverage.",
-      "For tax questions about short-term rental income, the VITA free tax prep sites in Monroe County can help — call 211 for locations."
+      "For tax questions about short-term rental income, the VITA free tax prep sites in Monroe County can help — call 211 for locations.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

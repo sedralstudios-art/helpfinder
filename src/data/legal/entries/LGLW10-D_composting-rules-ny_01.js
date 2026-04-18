@@ -21,7 +21,7 @@ export const COMPOSTING_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "Composting food scraps and yard waste at home is legal in New York and encouraged by Monroe County's waste reduction program. However, local codes may have rules. Common rules include: the compost bin or pile must be a certain distance from the property line (often 3 to 5 feet), it must be enclosed or contained (not just a loose pile), meat and dairy should not be composted in a backyard bin (they attract animals), and the pile cannot create a nuisance (odor, rodents, flies) for neighbors. In Rochester, composting is allowed but a compost pile that attracts vermin or creates odor can be cited as a nuisance under the property maintenance code. Most suburban towns allow composting with similar restrictions. Monroe County's Ecopark and recycling program periodically offers free compost bins and composting workshops. The county also operates a yard waste drop-off where residents can bring leaves, branches, and grass clippings for free."
+    en: "Composting food scraps and yard waste at home is legal in New York and encouraged by Monroe County's waste reduction program. However, local codes may have rules. Common rules include: the compost bin or pile must be a certain distance from the property line (the exact distance varies by town — contact the local code enforcement office for the rule in your municipality), it must be enclosed or contained (not just a loose pile), meat and dairy should not be composted in a backyard bin (they attract animals), and the pile cannot create a nuisance (odor, rodents, flies) for neighbors. In Rochester, composting is allowed but a compost pile that attracts vermin or creates odor can be cited as a nuisance under the property maintenance code. Most suburban towns allow composting with similar restrictions. Monroe County's Ecopark and recycling program periodically offers free compost bins and composting workshops. The county also operates a yard waste drop-off where residents can bring leaves, branches, and grass clippings for free."
   },
 
   yourRights: {
@@ -42,7 +42,8 @@ export const COMPOSTING_RULES_NY = {
       "Free compost bins are offered periodically through Monroe County — check the ecopark website for availability.",
       "Yard waste drop-off locations in Monroe County are listed at monroecounty.gov. Leaves, grass, and brush are accepted for free.",
       "If a neighbor's compost is attracting rats, the local code enforcement or health department can investigate.",
-      "The Cornell Cooperative Extension of Monroe County offers composting classes and guidance at (585) 753-2550."
+      "The Cornell Cooperative Extension of Monroe County offers composting classes and guidance at (585) 753-2550.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

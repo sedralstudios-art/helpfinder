@@ -21,7 +21,7 @@ export const HOT_TUB_SPA_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "Most Monroe County towns require an electrical permit for a permanently wired hot tub. A hot tub that plugs into a standard 120-volt outlet (a plug-and-play model) may not need an electrical permit, but a 240-volt hardwired spa always does. The electrical work must be done by a licensed electrician and must include a GFCI disconnect within sight of the tub (required by the National Electrical Code). Some towns treat a hot tub as a swimming pool if it holds more than 24 inches of water. Under the NYS Uniform Code and many local codes, pools over 24 inches deep require a barrier — typically a fence at least 4 feet high with a self-closing, self-latching gate. Whether a hot tub needs a fence depends on the town's definition. A hot tub with a locking cover that meets ASTM safety standards may satisfy the barrier requirement in some towns but not all. A homeowner can be liable if a child drowns or is injured in an unsecured hot tub, even if the child was trespassing — this is the attractive nuisance doctrine. If a hot tub is on a deck, the deck must be able to support the weight. A filled hot tub weighs 3,000 to 6,000 pounds. If the deck was not built for that load, it can collapse. A building permit for the deck may need to be updated."
+    en: "Most Monroe County towns require an electrical permit for a permanently wired hot tub. A hot tub that plugs into a standard 120-volt outlet (a plug-and-play model) may not need an electrical permit, but a 240-volt hardwired spa always does. The electrical work must be done by a licensed electrician and must include a GFCI disconnect within sight of the tub (required by the National Electrical Code). Some towns treat a hot tub as a swimming pool if it holds more than 24 inches of water. Under the NYS Uniform Code and many local codes, pools over 24 inches deep require a barrier — a fence with a self-closing, self-latching gate. The exact fence height requirement varies by town — contact the local building department for the specific rule. Whether a hot tub needs a fence depends on the town's definition. A hot tub with a locking cover that meets ASTM safety standards may satisfy the barrier requirement in some towns but not all. A homeowner can be liable if a child drowns or is injured in an unsecured hot tub, even if the child was trespassing — this is the attractive nuisance doctrine. If a hot tub is on a deck, the deck must be able to support the weight. A filled hot tub weighs 3,000 to 6,000 pounds. If the deck was not built for that load, it can collapse. A building permit for the deck may need to be updated."
   },
 
   yourRights: {
@@ -43,7 +43,8 @@ export const HOT_TUB_SPA_RULES_NY = {
       "Brighton Building Department at (585) 784-5220.",
       "Irondequoit Building Department at (585) 336-6060.",
       "For electrical questions, a licensed electrician should be consulted. The NYS Department of State can verify electrician licenses.",
-      "If a child was injured in an unsecured hot tub, a personal injury attorney can advise — Monroe County Bar Association referral at (585) 546-2130."
+      "If a child was injured in an unsecured hot tub, a personal injury attorney can advise — Monroe County Bar Association referral at (585) 546-2130.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

@@ -21,12 +21,12 @@ export const GARAGE_BAND_NOISE_NY = {
   },
 
   whatItMeans: {
-    en: "Local noise ordinances in Monroe County generally do not ban music — they ban unreasonable noise. Most towns have quiet hours (usually 10 p.m. to 7 a.m.) during which any noise audible across a property line may be a violation. During daytime hours, the standard is higher — the noise must be unreasonably loud to be a violation. A band practicing in a garage at 3 p.m. on a Saturday is harder to enforce against than the same band at 11 p.m. on a Tuesday. Some towns measure noise by decibels; others use the reasonable person standard. Rochester's noise ordinance (City Code Chapter 75) prohibits unreasonable noise at any time, with stricter enforcement during quiet hours. Repeated violations can escalate from warnings to fines ($50 to $250+) to a court-ordered abatement (the court orders the noise to stop). A musician who soundproofs their space, keeps windows closed, and stays within daytime hours is much harder to enforce against. A musician whose noise crosses into the quiet hours repeatedly is an easy enforcement target."
+    en: "Local noise ordinances in Monroe County generally do not ban music — they ban unreasonable noise. Most towns have quiet hours during which any noise audible across a property line may be a violation. Contact the local police non-emergency line for the exact quiet hours in each town. During daytime hours, the standard is higher — the noise must be unreasonably loud to be a violation. A band practicing in a garage at 3 p.m. on a Saturday is harder to enforce against than the same band at 11 p.m. on a Tuesday. Some towns measure noise by decibels; others use the reasonable person standard. Rochester's noise ordinance (City Code Chapter 75) prohibits unreasonable noise at any time, with stricter enforcement during quiet hours. Repeated violations can escalate from warnings to fines ($50 to $250+) to a court-ordered abatement (the court orders the noise to stop). A musician who soundproofs their space, keeps windows closed, and stays within daytime hours is much harder to enforce against. A musician whose noise crosses into the quiet hours repeatedly is an easy enforcement target."
   },
 
   yourRights: {
     en: [
-      "A resident has the right to peace and quiet during quiet hours (typically 10 p.m. to 7 a.m.).",
+      "A resident has the right to peace and quiet during quiet hours. Contact the local police non-emergency line for the exact quiet hours in each town.",
       "A resident can call the police non-emergency line to report noise during quiet hours for an immediate response.",
       "A resident can file a pattern complaint with code enforcement for repeated daytime noise problems.",
       "A musician has the right to play during daytime hours at a reasonable volume.",
@@ -44,7 +44,8 @@ export const GARAGE_BAND_NOISE_NY = {
       "Henrietta: Police non-emergency at (585) 334-4500.",
       "Penfield: Police non-emergency at (585) 340-8600.",
       "For pattern complaints, keeping a log (date, time, duration, description) strengthens the case with code enforcement.",
-      "If police warnings and fines do not work, the affected resident can pursue a civil nuisance action in court seeking an order to limit the noise."
+      "If police warnings and fines do not work, the affected resident can pursue a civil nuisance action in court seeking an order to limit the noise.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

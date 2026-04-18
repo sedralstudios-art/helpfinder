@@ -42,7 +42,8 @@ export const SEPTIC_INSPECTION_HOME_SALE_NY = {
       "For septic financing assistance, contact Monroe County at (585) 753-5171 or ask about the Septic System Replacement Fund.",
       "If a buyer discovers a failed septic after closing and the seller did not disclose it, a real estate attorney can assess a claim — Monroe County Bar Association referral at (585) 546-2130.",
       "Cornell Cooperative Extension of Monroe County at (585) 753-2550 provides septic maintenance education.",
-      "For well water testing near a septic system, the Monroe County Health Department can advise on testing options."
+      "For well water testing near a septic system, the Monroe County Health Department can advise on testing options.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

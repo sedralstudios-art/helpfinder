@@ -21,7 +21,7 @@ export const HOME_GENERATOR_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "Under the NYS Uniform Fire Prevention and Building Code, a permanently installed standby generator requires a building permit and an electrical permit. The generator must be installed by a licensed electrician and connected through an automatic transfer switch so it does not back-feed electricity into the power grid (which can electrocute utility workers). Most Monroe County towns require the generator to be a set distance from the house, property lines, windows, and doors — typically 5 feet from the house and 5 feet from any property line, but this varies by town. Noise is also regulated — permanent generators must meet local noise ordinance limits, which usually means no louder than 65-75 decibels at the property line. Portable generators do not need a permit but have strict safety rules. A portable generator must never be run inside a home, garage, basement, or any enclosed space. Carbon monoxide from a running generator can kill in minutes. The generator should be at least 20 feet from any window, door, or vent. Using a portable generator to power a home through the breaker panel requires a manual transfer switch installed by an electrician — plugging the generator directly into an outlet (called backfeeding) is illegal and extremely dangerous."
+    en: "Under the NYS Uniform Fire Prevention and Building Code, a permanently installed standby generator requires a building permit and an electrical permit. The generator must be installed by a licensed electrician and connected through an automatic transfer switch so it does not back-feed electricity into the power grid (which can electrocute utility workers). Most Monroe County towns require the generator to be a set distance from the house, property lines, windows, and doors. Contact the local building department for the exact setback distances in each town. Noise is also regulated — permanent generators must meet local noise ordinance limits. Contact the local code enforcement office for the exact decibel limit in each town. Portable generators do not need a permit but have strict safety rules. A portable generator must never be run inside a home, garage, basement, or any enclosed space. Carbon monoxide from a running generator can kill in minutes. The generator should be at least 20 feet from any window, door, or vent. Using a portable generator to power a home through the breaker panel requires a manual transfer switch installed by an electrician — plugging the generator directly into an outlet (called backfeeding) is illegal and extremely dangerous."
   },
 
   yourRights: {
@@ -41,7 +41,8 @@ export const HOME_GENERATOR_RULES_NY = {
       "RG&E (Rochester Gas and Electric) has rules about generator connection to the grid — call (800) 743-2110 for requirements.",
       "For noise complaints about a neighbor's generator, contact the local code enforcement office.",
       "The NYS Department of State Division of Building Standards at (518) 474-4073 can answer questions about the building code requirements for generators.",
-      "For generator safety information, the Monroe County Fire Prevention Bureau can be reached through the county at (585) 753-1640."
+      "For generator safety information, the Monroe County Fire Prevention Bureau can be reached through the county at (585) 753-1640.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

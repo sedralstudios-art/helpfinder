@@ -41,8 +41,12 @@ export const SWIMMING_POOL_LIABILITY_NY = {
       "A building permit is generally required before installing an in-ground pool. The permit process includes a barrier inspection.",
       "If a child is injured at an unfenced pool, a personal injury attorney can evaluate the case under the attractive nuisance doctrine. Many take these cases with no upfront fee.",
       "A homeowner should check their insurance policy for pool exclusions. Some policies require a fence to be in place for liability coverage to apply.",
+      "Greece: Pool must be at least 10 feet from the water's edge to any structure. A barrier is required if the pool wall is under 48 inches. A permit is required for pools over 24 inches deep. Code Enforcement at (585) 723-2396. (Verified 2026-04-17.)",
+      "Webster: Pool must be at least 15 feet from any property line. Building Department at (585) 872-7068. (Verified 2026-04-17.)",
+      "Gates: Pools require a rigid fence with a lockable gate. Deck fences must be 30 inches minimum and 4 feet maximum. Code Enforcement at (585) 247-6100. (Verified 2026-04-17.)",
       "A neighbor can report an unfenced or unsafe pool to local code enforcement, which can inspect and cite the property owner.",
-      "If a drowning or serious injury occurs, criminal charges (reckless endangerment under Penal Law Section 120.20) may be filed in addition to civil claims."
+      "If a drowning or serious injury occurs, criminal charges (reckless endangerment under Penal Law Section 120.20) may be filed in addition to civil claims.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

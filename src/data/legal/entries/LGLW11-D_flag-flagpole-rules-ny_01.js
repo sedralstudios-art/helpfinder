@@ -21,7 +21,7 @@ export const FLAG_FLAGPOLE_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "The Freedom to Display the American Flag Act (2005, 4 USC Section 5) prohibits any HOA, condo association, or cooperative board from banning the display of the American flag on residential property. The association can set reasonable restrictions on the manner of display (time, place, manner), but cannot prevent display altogether. A flagpole height limit is usually considered reasonable — most HOAs and towns set a maximum of 15 to 25 feet for residential flagpoles. Some Monroe County towns treat a freestanding flagpole as a structure and require a setback from property lines. Others do not regulate flagpoles specifically. A permanent in-ground flagpole may need a building permit if the town classifies it as a structure — check with the building department. A flag bracket on the house or porch typically does not need a permit. For flags other than the American flag, the protections are weaker. An HOA can restrict political flags, sports flags, or decorative flags through its governing documents. A town can regulate non-governmental flags under its sign ordinance, treating them as temporary signs. However, political flags on private property have First Amendment protections similar to political signs."
+    en: "The Freedom to Display the American Flag Act (2005, 4 USC Section 5) prohibits any HOA, condo association, or cooperative board from banning the display of the American flag on residential property. The association can set reasonable restrictions on the manner of display (time, place, manner), but cannot prevent display altogether. A flagpole height limit is usually considered reasonable — HOAs and towns may set a maximum height for residential flagpoles (the exact limit varies — check the HOA rules or contact the local building department). Some Monroe County towns treat a freestanding flagpole as a structure and require a setback from property lines. Others do not regulate flagpoles specifically. A permanent in-ground flagpole may need a building permit if the town classifies it as a structure — check with the building department. A flag bracket on the house or porch typically does not need a permit. For flags other than the American flag, the protections are weaker. An HOA can restrict political flags, sports flags, or decorative flags through its governing documents. A town can regulate non-governmental flags under its sign ordinance, treating them as temporary signs. However, political flags on private property have First Amendment protections similar to political signs."
   },
 
   yourRights: {
@@ -41,7 +41,8 @@ export const FLAG_FLAGPOLE_RULES_NY = {
       "If the HOA continues to fine, the homeowner can file a complaint with the NYS Attorney General's office at (800) 771-7755.",
       "The local building department can explain flagpole height limits and permit requirements for a specific town.",
       "For HOA disputes over non-American flags, review the HOA governing documents — the CC&Rs set the enforceable rules.",
-      "A homeowner who believes a flagpole permit denial was unreasonable can appeal to the local Zoning Board of Appeals."
+      "A homeowner who believes a flagpole permit denial was unreasonable can appeal to the local Zoning Board of Appeals.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

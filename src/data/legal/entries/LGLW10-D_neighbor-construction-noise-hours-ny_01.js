@@ -8,7 +8,7 @@ export const NEIGHBOR_CONSTRUCTION_NOISE_HOURS_NY = {
   title: { en: "Construction Noise From a Neighbor — What Hours Are Allowed" },
 
   summary: {
-    en: "When a neighbor is doing a renovation, building an addition, or having work done on their property, the noise is legal during certain hours and illegal outside those hours. Most Monroe County towns allow construction between 7 a.m. and 9 p.m. on weekdays with more limited weekend hours."
+    en: "When a neighbor is doing a renovation, building an addition, or having work done on their property, the noise is legal during certain hours and illegal outside those hours. Each town sets its own allowed construction hours. In Henrietta, construction is allowed from 7 a.m. to 9 p.m. (Code § 168-2). (Verified 2026-04-17.) Contact the local building department or police non-emergency line for the exact hours in each town."
   },
 
   whoQualifies: {
@@ -21,7 +21,7 @@ export const NEIGHBOR_CONSTRUCTION_NOISE_HOURS_NY = {
   },
 
   whatItMeans: {
-    en: "Construction noise is regulated by local noise ordinances and building codes. Most Monroe County municipalities allow residential construction during set hours — the typical window is 7 a.m. to 9 p.m. on weekdays and 8 a.m. to 6 p.m. on weekends. Some towns are stricter on weekends and holidays. Commercial and industrial construction may have different hours. Work outside the allowed hours is a noise violation that can be reported to the police or code enforcement. The type of work matters too — interior work that does not create noise audible from outside (like painting, drywall finishing, or electrical work) is generally not restricted by noise ordinances. Power tools, hammering, concrete work, heavy equipment, and demolition are the activities most likely to generate complaints. A homeowner doing their own DIY project is subject to the same rules as a hired contractor. If a building permit was issued for the project, the permit does not override the noise ordinance — the work must still happen during allowed hours."
+    en: "Construction noise is regulated by local noise ordinances and building codes. Monroe County municipalities each set their own allowed construction hours. In Henrietta, construction is allowed from 7 a.m. to 9 p.m. under Code § 168-2 (Verified 2026-04-17.) Other towns have different windows. Contact the local building department or police non-emergency line for the exact hours in each town, including weekend and holiday restrictions. Commercial and industrial construction may have different hours. Work outside the allowed hours is a noise violation that can be reported to the police or code enforcement. The type of work matters too — interior work that does not create noise audible from outside (like painting, drywall finishing, or electrical work) is generally not restricted by noise ordinances. Power tools, hammering, concrete work, heavy equipment, and demolition are the activities most likely to generate complaints. A homeowner doing their own DIY project is subject to the same rules as a hired contractor. If a building permit was issued for the project, the permit does not override the noise ordinance — the work must still happen during allowed hours."
   },
 
   yourRights: {
@@ -46,7 +46,9 @@ export const NEIGHBOR_CONSTRUCTION_NOISE_HOURS_NY = {
       "Webster: Police non-emergency at (585) 872-1216.",
       "For any other town, the town clerk or building department can confirm the allowed construction hours.",
       "A noise log (date, time, type of noise, duration) strengthens complaints about ongoing violations.",
-      "If the project has a building permit, the local building department can add conditions about hours if the noise is creating a problem."
+      "Henrietta: Construction allowed 7 a.m. to 9 p.m. (Code § 168-2). (Verified 2026-04-17.)",
+      "If the project has a building permit, the local building department can add conditions about hours if the noise is creating a problem.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

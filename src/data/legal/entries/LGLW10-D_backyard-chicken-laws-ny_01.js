@@ -21,7 +21,7 @@ export const BACKYARD_CHICKEN_LAWS_NY = {
   },
 
   whatItMeans: {
-    en: "New York state law does not prohibit backyard chickens. The rules come from local zoning codes, which vary by municipality. In Rochester, keeping up to 10 chickens (hens only, no roosters) is allowed without a permit in most residential zones. In many Monroe County suburbs, the rules are different. Some towns allow chickens with a special use permit. Some allow them only on lots above a certain size. Some ban them entirely in residential zones. Common rules where chickens are allowed include: hens only (no roosters because of noise), a limit on the number of birds (usually 4-10), the coop must be set back from property lines (often 10-25 feet), and the coop must be kept clean to avoid odor and pest problems. A neighbor who is affected by noise, odor, or pest issues from a neighbor's chickens can file a complaint with local code enforcement. If chickens are not allowed by the local code, the owner can be ordered to remove them."
+    en: "New York state law does not prohibit backyard chickens. The rules come from local zoning codes, which vary by municipality. In Rochester, keeping up to 10 chickens (hens only, no roosters) is allowed without a permit in most residential zones. In many Monroe County suburbs, the rules are different. Some towns allow chickens with a special use permit. Some allow them only on lots above a certain size. Some ban them entirely in residential zones. Common rules where chickens are allowed include: hens only (no roosters because of noise), a limit on the number of birds, the coop must be set back from property lines, and the coop must be kept clean to avoid odor and pest problems. Contact the local building department for the exact limits in each town — the number of birds allowed and the setback distance vary. A neighbor who is affected by noise, odor, or pest issues from a neighbor's chickens can file a complaint with local code enforcement. If chickens are not allowed by the local code, the owner can be ordered to remove them."
   },
 
   yourRights: {
@@ -44,12 +44,13 @@ export const BACKYARD_CHICKEN_LAWS_NY = {
       "Henrietta: Chickens may require a special use permit. Building Department at (585) 334-7700.",
       "Penfield: Check zoning code. Building and Zoning at (585) 340-8630.",
       "For any other town, the town clerk or building department can explain the local rules.",
-      "If a town does not allow chickens, a homeowner can petition the town board or zoning board for a change or variance."
+      "If a town does not allow chickens, a homeowner can petition the town board or zoning board for a change or variance.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 
   example: {
-    en: "Sophie wanted to keep four hens in her backyard in Greece for fresh eggs. She called the Greece code enforcement office, which told her that chickens were allowed in her zone but required a minimum lot size. Her lot qualified. She built a coop 15 feet from the property line (the required setback), kept it clean, and limited her flock to hens. Her neighbor initially complained about the noise, but since Sophie had no roosters and kept the area clean, code enforcement found no violation."
+    en: "Sophie wanted to keep four hens in her backyard in Greece for fresh eggs. She called the Greece code enforcement office, which told her that chickens were allowed in her zone but required a minimum lot size. Her lot qualified. She built a coop well back from the property line (meeting the required setback), kept it clean, and limited her flock to hens. Her neighbor initially complained about the noise, but since Sophie had no roosters and kept the area clean, code enforcement found no violation."
   },
 
   counsel: [

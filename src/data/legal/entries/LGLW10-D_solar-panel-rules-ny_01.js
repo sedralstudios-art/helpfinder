@@ -42,7 +42,8 @@ export const SOLAR_PANEL_RULES_NY = {
       "The federal Investment Tax Credit (ITC) covers 30% of installation costs. The NYS solar tax credit covers 25% up to $5,000. Both reduce the cost significantly.",
       "Net metering applications are filed through RG&E or National Grid. The installer typically handles this as part of the project.",
       "The NY-Sun program (nyserda.ny.gov/ny-sun) provides additional incentives and a list of approved installers.",
-      "If a solar lease or PPA was signed at home, the homeowner has three business days to cancel under PPL Section 425."
+      "If a solar lease or PPA was signed at home, the homeowner has three business days to cancel under PPL Section 425.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

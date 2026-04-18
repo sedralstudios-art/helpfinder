@@ -8,7 +8,7 @@ export const FENCE_HEIGHT_RULES_NY = {
   title: { en: "Fence Rules in Monroe County — Height Limits, Permits, and Neighbor Disputes" },
 
   summary: {
-    en: "Every town in Monroe County has its own rules about how tall a fence can be, what materials are allowed, and whether a permit is needed. Most towns limit front yard fences to 4 feet and backyard fences to 6 feet. Building a fence without checking the rules first can result in a code violation and an order to take it down."
+    en: "Every town in Monroe County has its own rules about how tall a fence can be, what materials are allowed, and whether a permit is needed. Each town sets its own height limits — for example, Henrietta allows 3 feet in the front yard, 6 feet elsewhere, and privacy fences up to 8 feet with conditions. Contact the local building department for the exact rule in each town. Building a fence without checking the rules first can result in a code violation and an order to take it down."
   },
 
   whoQualifies: {
@@ -21,7 +21,7 @@ export const FENCE_HEIGHT_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "Fence rules in New York are set at the local level — each city, town, and village has its own zoning code that covers fences. In most Monroe County municipalities, the general rules are: front yard fences cannot be taller than 4 feet, side and backyard fences cannot be taller than 6 feet, and fences on corner lots have special setback requirements to maintain visibility for drivers. Some towns require a permit before building any fence; others only require a permit for fences over a certain height. Rochester requires a building permit for fences over 6 feet. Most suburbs require a permit for any fence. The finished (good-looking) side of the fence generally must face the neighbor's property — this is a common local requirement though not universal. If a fence is on the exact property line, both neighbors may share responsibility for it. If there is a dispute about where the property line is, a land survey can settle it. A homeowner who builds a fence that violates the local code can receive a code violation, a fine, and an order to modify or remove the fence."
+    en: "Fence rules in New York are set at the local level — each city, town, and village has its own zoning code that covers fences. Height limits vary by town. In Henrietta, front yard fences are limited to 3 feet, side and rear fences to 6 feet, and privacy fences may go up to 8 feet with conditions (Verified 2026-04-17.) In Rochester, the limit is 4 feet front and 6 feet side/rear. Contact the local building department for the exact rule in each town. Fences on corner lots have special setback requirements to maintain visibility for drivers. Some towns require a permit before building any fence; others only require a permit for fences over a certain height. Rochester requires a building permit for fences over 6 feet. Many suburbs require a permit for any fence — check with the local building department. The finished (good-looking) side of the fence generally must face the neighbor's property — this is a common local requirement though not universal. If a fence is on the exact property line, both neighbors may share responsibility for it. If there is a dispute about where the property line is, a land survey can settle it. A homeowner who builds a fence that violates the local code can receive a code violation, a fine, and an order to modify or remove the fence."
   },
 
   yourRights: {
@@ -44,7 +44,9 @@ export const FENCE_HEIGHT_RULES_NY = {
       "Penfield: Building and Zoning at (585) 340-8630.",
       "Webster: Building Department at (585) 872-7068.",
       "For any other town, the town clerk can direct the homeowner to the building department for fence rules and permits.",
-      "If a neighbor dispute about a fence cannot be resolved, mediation or small claims court are options."
+      "Henrietta: Building Department at (585) 334-7700. Front yard fences limited to 3 feet, side/rear to 6 feet, privacy fences up to 8 feet with conditions. (Verified 2026-04-17.)",
+      "If a neighbor dispute about a fence cannot be resolved, mediation or small claims court are options.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

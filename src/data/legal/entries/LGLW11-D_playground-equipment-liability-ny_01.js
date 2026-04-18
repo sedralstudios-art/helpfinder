@@ -21,7 +21,7 @@ export const PLAYGROUND_EQUIPMENT_LIABILITY_NY = {
   },
 
   whatItMeans: {
-    en: "Most Monroe County towns do not require a building permit for a freestanding swing set or play structure that is not attached to the house. However, setback rules may apply — the structure usually needs to be a certain distance from property lines (often 5 to 10 feet). A homeowner is legally responsible for the condition of play equipment on their property. Under the attractive nuisance doctrine in New York, a homeowner can be liable if a child is injured on equipment that attracted the child onto the property — even if the child was trespassing. To reduce liability, the homeowner should maintain the equipment in safe condition (no rusted bolts, cracked wood, or missing guardrails), place it on impact-absorbing material (wood chips, rubber mulch, or sand — not bare ground or concrete), keep it away from fences and walls so children cannot fall and hit a hard surface, and supervise young children using the equipment. If a child is injured on a neighbor's play equipment, the homeowner's insurance (homeowner's or renter's) typically covers the claim under the liability portion of the policy. If the homeowner has no insurance and the equipment was known to be unsafe, the homeowner can be sued for negligence."
+    en: "Most Monroe County towns do not require a building permit for a freestanding swing set or play structure that is not attached to the house. However, setback rules may apply — the structure needs to be a certain distance from property lines. Contact the local building department for the exact setback in each town. A homeowner is legally responsible for the condition of play equipment on their property. Under the attractive nuisance doctrine in New York, a homeowner can be liable if a child is injured on equipment that attracted the child onto the property — even if the child was trespassing. To reduce liability, the homeowner should maintain the equipment in safe condition (no rusted bolts, cracked wood, or missing guardrails), place it on impact-absorbing material (wood chips, rubber mulch, or sand — not bare ground or concrete), keep it away from fences and walls so children cannot fall and hit a hard surface, and supervise young children using the equipment. If a child is injured on a neighbor's play equipment, the homeowner's insurance (homeowner's or renter's) typically covers the claim under the liability portion of the policy. If the homeowner has no insurance and the equipment was known to be unsafe, the homeowner can be sued for negligence."
   },
 
   yourRights: {
@@ -41,7 +41,8 @@ export const PLAYGROUND_EQUIPMENT_LIABILITY_NY = {
       "For injuries requiring medical treatment, a personal injury attorney can assess the case — Monroe County Bar Association referral at (585) 546-2130.",
       "If play equipment violates a setback rule (too close to the property line), a complaint can be filed with the local code enforcement office.",
       "The Consumer Product Safety Commission (CPSC) has safety guidelines for home playground equipment at cpsc.gov.",
-      "If a child is injured on play equipment at a public park, a claim can be filed with the municipality that owns the park — a Notice of Claim must be filed within 90 days (GML Section 50-e)."
+      "If a child is injured on play equipment at a public park, a claim can be filed with the municipality that owns the park — a Notice of Claim must be filed within 90 days (GML Section 50-e).",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

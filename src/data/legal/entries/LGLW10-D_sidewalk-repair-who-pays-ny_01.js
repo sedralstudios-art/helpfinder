@@ -44,7 +44,8 @@ export const SIDEWALK_REPAIR_WHO_PAYS_NY = {
       "Henrietta: DPW at (585) 334-7730.",
       "Penfield: DPW at (585) 340-8660.",
       "A building permit may be required for sidewalk work — check with the local building department before starting.",
-      "If the homeowner cannot afford the repair, some towns offer payment plans or defer the cost until the property is sold."
+      "If the homeowner cannot afford the repair, some towns offer payment plans or defer the cost until the property is sold.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

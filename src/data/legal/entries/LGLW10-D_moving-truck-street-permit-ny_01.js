@@ -21,7 +21,7 @@ export const MOVING_TRUCK_STREET_PERMIT_NY = {
   },
 
   whatItMeans: {
-    en: "When a rental truck (U-Haul, Penske, Budget) is parked on the street during a move, the rules depend on the municipality. In Rochester, parking a large vehicle on the street that blocks a travel lane or bike lane requires a temporary street obstruction permit from the Bureau of Operations. The permit costs $25 to $75 and reserves the space for a specific time period. Without a permit, the truck can be ticketed or towed if it blocks traffic. For brief loading and unloading (a few hours), most Rochester streets allow double parking or temporary blocking as long as someone is actively loading. In most Monroe County suburbs, there is no formal moving truck permit. However, overnight parking bans (typically 2 a.m. to 6 a.m.) apply to vehicles of all sizes, and some towns have additional restrictions on vehicles over a certain length. A moving pod (PODS, 1-800-PACK-RAT) placed on the street or in a parking spot may need a permit even in the suburbs if it stays overnight or for multiple days."
+    en: "When a rental truck is parked on the street during a move, the rules depend on the municipality. In Rochester, parking a large vehicle on the street that blocks a travel lane or bike lane requires a temporary street obstruction permit from the Bureau of Operations. The permit costs $25 to $75 and reserves the space for a specific time period. Without a permit, the truck can be ticketed or towed if it blocks traffic. For brief loading and unloading (a few hours), most Rochester streets allow double parking or temporary blocking as long as someone is actively loading. In most Monroe County suburbs, there is no formal moving truck permit. However, overnight parking bans apply to vehicles of all sizes (the exact hours vary by town — contact the local police non-emergency line for the ban times in each municipality), and some towns have additional restrictions on vehicles over a certain length. A moving pod or container placed on the street or in a parking spot may need a permit even in the suburbs if it stays overnight or for multiple days."
   },
 
   yourRights: {
@@ -42,12 +42,13 @@ export const MOVING_TRUCK_STREET_PERMIT_NY = {
       "Irondequoit: Check with DPW at (585) 336-6075.",
       "Brighton: Check with DPW at (585) 784-5250.",
       "For pods or containers placed on the street for multiple days, a permit is more likely to be required. Check with the local building department.",
-      "If the truck blocks a fire hydrant, crosswalk, or driveway, it can be ticketed regardless of whether a permit was obtained."
+      "If the truck blocks a fire hydrant, crosswalk, or driveway, it can be ticketed regardless of whether a permit was obtained.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 
   example: {
-    en: "When the Garcias moved from their apartment in Rochester, they rented a 26-foot U-Haul. The street in front of their building was narrow. They called the Bureau of Operations and got a street obstruction permit for $50 — it reserved the space from 8 a.m. to 6 p.m. on moving day and included no-parking signs that the city posted 48 hours in advance. Without the permit, they would have been competing for space with other parked cars and risked a ticket for blocking the travel lane."
+    en: "When the Garcias moved from their apartment in Rochester, they rented a 26-foot moving truck. The street in front of their building was narrow. They called the Bureau of Operations and got a street obstruction permit for $50 — it reserved the space from 8 a.m. to 6 p.m. on moving day and included no-parking signs that the city posted 48 hours in advance. Without the permit, they would have been competing for space with other parked cars and risked a ticket for blocking the travel lane."
   },
 
   counsel: [

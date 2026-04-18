@@ -8,7 +8,7 @@ export const PARKING_OVERNIGHT_STREET_NY = {
   title: { en: "Overnight Street Parking Rules in Monroe County — Where You Can and Cannot Park" },
 
   summary: {
-    en: "Most Monroe County towns have overnight parking bans on public streets, usually from 2 a.m. to 6 a.m. Rochester has seasonal overnight parking bans during winter months. Breaking the rules can result in a ticket or a tow. The rules are different in every municipality."
+    en: "Most Monroe County towns have overnight parking bans on public streets. Rochester has seasonal overnight parking bans during winter months. Breaking the rules can result in a ticket or a tow. The rules and hours are different in every municipality — contact the local police non-emergency line for the exact ban hours."
   },
 
   whoQualifies: {
@@ -21,7 +21,7 @@ export const PARKING_OVERNIGHT_STREET_NY = {
   },
 
   whatItMeans: {
-    en: "Overnight street parking rules in Monroe County vary by municipality. In Rochester, there is a seasonal overnight parking ban from November 1 through April 1 — no parking on city streets between 2 a.m. and 6 a.m. during those months. This is for snow plowing. Outside the winter ban period, overnight parking is generally allowed on most Rochester streets. In many suburbs, overnight parking bans run year-round. Greece, Irondequoit, Brighton, Henrietta, and most other towns prohibit parking on public streets between 2 a.m. and 6 a.m. every night of the year. Some towns allow residents to request temporary overnight parking permits for visitors or when the driveway is being repaired. A few towns have no overnight ban at all. Violating the overnight parking ban results in a ticket — typically $30 to $50. During snow emergencies, the fine may be higher and the car may be towed. The tow fee plus storage adds $150 to $300 on top of the ticket."
+    en: "Overnight street parking rules in Monroe County vary by municipality. In Rochester, there is a seasonal overnight parking ban from November 1 through April 1 — no parking on city streets between 2 a.m. and 6 a.m. during those months. This is for snow plowing. Outside the winter ban period, overnight parking is generally allowed on most Rochester streets. In many suburbs, overnight parking bans run year-round. Greece, Irondequoit, Brighton, Henrietta, and most other towns prohibit parking on public streets between 2 a.m. and 6 a.m. every night of the year. Some towns allow residents to request temporary overnight parking permits for visitors or when the driveway is being repaired. A few towns have no overnight ban at all. Violating the overnight parking ban results in a ticket. In Rochester, the fine is $40. Contact the local police non-emergency line for the exact fine amount in each town. During snow emergencies, the fine may be higher and the car may be towed. The tow fee plus storage adds to the cost on top of the ticket — contact the local police for the exact amounts."
   },
 
   yourRights: {
@@ -46,7 +46,8 @@ export const PARKING_OVERNIGHT_STREET_NY = {
       "Webster: Year-round overnight ban. Police at (585) 872-1216.",
       "Gates: Year-round overnight ban. Police at (585) 247-2262.",
       "Some towns offer temporary permits for visitors — call the town clerk to ask.",
-      "Snow emergency parking rules are announced through local media, town websites, and alert systems. Sign up for alerts through the town or county."
+      "Snow emergency parking rules are announced through local media, town websites, and alert systems. Sign up for alerts through the town or county.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

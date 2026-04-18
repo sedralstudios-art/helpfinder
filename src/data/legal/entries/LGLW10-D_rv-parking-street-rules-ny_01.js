@@ -21,7 +21,7 @@ export const RV_PARKING_STREET_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "New York state law does not specifically regulate where RVs and boats can be parked on residential property. The rules come from local zoning codes. In Rochester, vehicles over a certain size cannot be parked on the street for extended periods. RVs and boats stored on the property must usually be in the driveway or backyard — not in the front yard. In many Monroe County suburbs, similar rules apply with variations. Some towns allow RV storage in the side or rear yard only. Some require the vehicle to be behind the front building line. Some ban street parking for any vehicle over a certain length. Trailers (utility, enclosed, flatbed) have similar rules. An unregistered vehicle of any kind cannot be parked on the street. On private property, some towns treat an unregistered vehicle as a code violation (abandoned vehicle) after a certain period. Boats on trailers follow the same rules as other trailers. The key is to check with the local code enforcement or building department before parking a large vehicle to avoid a violation."
+    en: "New York state law does not specifically regulate where RVs and boats can be parked on residential property. The rules come from local zoning codes. In Rochester, oversized vehicles cannot be parked on the street for extended periods. RVs and boats stored on the property must generally be in the driveway or backyard — not in the front yard. Rules vary by town. Contact the local code enforcement or building department for the exact size limits, placement rules, and street parking restrictions in each town. Trailers (utility, enclosed, flatbed) have similar rules. An unregistered vehicle of any kind cannot be parked on the street. On private property, some towns treat an unregistered vehicle as a code violation (abandoned vehicle) after a certain period. Boats on trailers follow the same rules as other trailers. The key is to check with the local code enforcement or building department before parking a large vehicle to avoid a violation."
   },
 
   yourRights: {
@@ -45,7 +45,8 @@ export const RV_PARKING_STREET_RULES_NY = {
       "Penfield: Building and Zoning at (585) 340-8630.",
       "Webster: Building Department at (585) 872-7068.",
       "For any other town, the town clerk can direct the homeowner to the right department.",
-      "If a vehicle is on the street and unregistered, it can be reported to the police as an abandoned vehicle."
+      "If a vehicle is on the street and unregistered, it can be reported to the police as an abandoned vehicle.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

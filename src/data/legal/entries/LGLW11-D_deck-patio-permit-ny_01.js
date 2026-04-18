@@ -21,7 +21,7 @@ export const DECK_PATIO_PERMIT_NY = {
   },
 
   whatItMeans: {
-    en: "Under the NYS Uniform Fire Prevention and Building Code (19 NYCRR Part 1220), any structure attached to a home that is more than 30 inches above grade requires a building permit. That includes most raised decks. The permit process ensures the deck meets safety standards — proper footings, railings at least 36 inches high, spacing between balusters no more than 4 inches, and the right structural load. A ground-level patio made of pavers, concrete, or stone usually does not need a permit because it sits on the ground and is not a structure. However, a patio with a roof (a covered patio or pergola) may need a permit depending on the town. The homeowner or their contractor applies for the permit at the local building department, submits a plan or drawing, and pays a fee (usually $50 to $200 depending on the town). After the deck is built, an inspector checks it before it can be used. A deck built without a permit is a code violation. The building department can require the homeowner to apply for a retroactive permit, tear down the deck, or bring it up to code. When selling a home, an unpermitted deck can delay or block the sale — title companies and buyers' attorneys check for open permits and code violations."
+    en: "Under the NYS Uniform Fire Prevention and Building Code (19 NYCRR Part 1220), any structure attached to a home that is more than 30 inches above grade requires a building permit. That includes most raised decks. The permit process ensures the deck meets safety standards — proper footings, railings at least 36 inches high, spacing between balusters no more than 4 inches, and the right structural load. A ground-level patio made of pavers, concrete, or stone usually does not need a permit because it sits on the ground and is not a structure. However, a patio with a roof (a covered patio or pergola) may need a permit depending on the town. The homeowner or their contractor applies for the permit at the local building department, submits a plan or drawing, and pays a fee (the amount varies by town — contact the local building department). After the deck is built, an inspector checks it before it can be used. A deck built without a permit is a code violation. The building department can require the homeowner to apply for a retroactive permit, tear down the deck, or bring it up to code. When selling a home, an unpermitted deck can delay or block the sale — title companies and buyers' attorneys check for open permits and code violations."
   },
 
   yourRights: {
@@ -43,7 +43,8 @@ export const DECK_PATIO_PERMIT_NY = {
       "In Brighton, call the Building Department at (585) 784-5220.",
       "For other towns, search the town name plus 'building department' or call the town hall.",
       "If a contractor built a deck without pulling a permit, a complaint can be filed with the NYS Division of Consumer Protection at (800) 697-1220.",
-      "If an unpermitted deck causes problems during a home sale, a real estate attorney can advise — the Monroe County Bar Association referral line is (585) 546-2130."
+      "If an unpermitted deck causes problems during a home sale, a real estate attorney can advise — the Monroe County Bar Association referral line is (585) 546-2130.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

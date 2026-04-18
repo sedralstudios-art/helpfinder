@@ -21,7 +21,7 @@ export const SNOW_REMOVAL_ORDINANCE_NY = {
   },
 
   whatItMeans: {
-    en: "Snow removal rules in Monroe County come from local ordinances — each municipality sets its own deadline and fine structure. In Rochester, property owners must clear sidewalks within 24 hours after the snow stops falling. The fine for not clearing is $25 to $250 per day. If a property owner does not clear, the city can clear it and bill the property owner. In many suburbs, similar rules apply with deadlines ranging from 12 to 48 hours. Some towns do not have a sidewalk snow removal ordinance because the streets do not have sidewalks. For tenants, the lease determines who is responsible. If the lease is silent, the landlord is generally responsible for common areas (parking lots, shared walkways) and the tenant is responsible for their individual entrance. However, if a person slips and falls on an uncleared sidewalk, both the landlord and the property owner can be held liable. Businesses have the same obligation as residential property owners and face the same fines plus the risk of personal injury lawsuits from customers."
+    en: "Snow removal rules in Monroe County come from local ordinances — each municipality sets its own deadline and fine structure. In Rochester, property owners must clear sidewalks within 24 hours after the snow stops falling. The fine for not clearing is $25 to $250 per day. If a property owner does not clear, the city can clear it and bill the property owner. In many suburbs, similar rules apply — contact the local DPW for the exact deadline in each town. Some towns do not have a sidewalk snow removal ordinance because the streets do not have sidewalks. For tenants, the lease determines who is responsible. If the lease is silent, the landlord is generally responsible for common areas (parking lots, shared walkways) and the tenant is responsible for their individual entrance. However, if a person slips and falls on an uncleared sidewalk, both the landlord and the property owner can be held liable. Businesses have the same obligation as residential property owners and face the same fines plus the risk of personal injury lawsuits from customers."
   },
 
   yourRights: {
@@ -46,7 +46,8 @@ export const SNOW_REMOVAL_ORDINANCE_NY = {
       "Webster: Check with DPW at (585) 872-7070.",
       "For elderly or disabled residents in Rochester, free snow removal may be available through the Rochester Aging in Place program. Call 311 or the Office for the Aging at (585) 428-7543.",
       "If someone slips on an uncleared sidewalk, the injured person can file a personal injury claim against the property owner.",
-      "A slip-and-fall on a commercial property (store, restaurant) during business hours creates stronger liability for the business because they have a higher duty to keep the entrance safe."
+      "A slip-and-fall on a commercial property (store, restaurant) during business hours creates stronger liability for the business because they have a higher duty to keep the entrance safe.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

@@ -21,7 +21,7 @@ export const BASKETBALL_HOOP_STREET_DRIVEWAY_NY = {
   },
 
   whatItMeans: {
-    en: "Most Monroe County towns do not have a specific basketball hoop ordinance. The issue usually falls under rules about structures in the public right-of-way. The public right-of-way includes the street and often extends several feet past the curb (sometimes to the sidewalk or beyond). Placing a portable basketball hoop in the street is generally prohibited because it blocks traffic and creates a liability hazard. On the driveway or on private property, a basketball hoop is usually allowed. A permanent in-ground hoop may need to comply with setback rules — it cannot be too close to the property line or the street. Some towns treat a permanent basketball hoop like a structure and require it to be set back from the road. Portable hoops on the driveway usually have no restrictions, but if the base extends into the road or sidewalk, code enforcement may ask the homeowner to move it. Noise from basketball playing can be an issue. Most Monroe County towns have noise ordinances that apply after 10 or 11 PM. Playing basketball during normal hours is generally not a noise violation even if neighbors find it annoying. If a basketball hoop is on the street and someone is injured, the homeowner who placed it there could be liable."
+    en: "Most Monroe County towns do not have a specific basketball hoop ordinance. The issue usually falls under rules about structures in the public right-of-way. The public right-of-way includes the street and extends past the curb (the exact distance varies by town — sometimes to the sidewalk or beyond). Placing a portable basketball hoop in the street is generally prohibited because it blocks traffic and creates a liability hazard. On the driveway or on private property, a basketball hoop is usually allowed. A permanent in-ground hoop may need to comply with setback rules — it cannot be too close to the property line or the street. Some towns treat a permanent basketball hoop like a structure and require it to be set back from the road. Portable hoops on the driveway usually have no restrictions, but if the base extends into the road or sidewalk, code enforcement may ask the homeowner to move it. Noise from basketball playing can be an issue. Most Monroe County towns have noise ordinances that apply during nighttime hours (the exact start time varies by town — contact the local code enforcement office for the quiet hours in each municipality). Playing basketball during normal hours is generally not a noise violation even if neighbors find it annoying. If a basketball hoop is on the street and someone is injured, the homeowner who placed it there could be liable."
   },
 
   yourRights: {
@@ -31,7 +31,7 @@ export const BASKETBALL_HOOP_STREET_DRIVEWAY_NY = {
       "A permanent in-ground hoop may need to meet setback rules — check with the local building department.",
       "A homeowner cannot place a basketball hoop in the public street or right-of-way. Code enforcement can order it removed.",
       "Playing basketball during normal daytime hours is generally not a noise violation.",
-      "A neighbor can file a noise complaint if playing continues past the town's quiet hours (usually 10 or 11 PM).",
+      "A neighbor can file a noise complaint if playing continues past the town's quiet hours. Contact the local code enforcement office for the exact quiet hours in each town.",
       "If code enforcement orders a hoop removed, the homeowner has the right to a written notice explaining the violation."
     ]
   },
@@ -43,7 +43,8 @@ export const BASKETBALL_HOOP_STREET_DRIVEWAY_NY = {
       "In Irondequoit, call Code Enforcement at (585) 336-6060.",
       "In Penfield, call Code Enforcement at (585) 340-8640.",
       "For any other town, call the town hall and ask for the building or code enforcement department.",
-      "If a neighbor complaint leads to an order to remove a hoop that is on private property (not the right-of-way), the homeowner can appeal to the local Zoning Board of Appeals."
+      "If a neighbor complaint leads to an order to remove a hoop that is on private property (not the right-of-way), the homeowner can appeal to the local Zoning Board of Appeals.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

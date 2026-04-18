@@ -42,7 +42,8 @@ export const PROPANE_TANK_RULES_NY = {
       "For other towns, call the town building department or fire department.",
       "NYS Division of Consumer Protection at (800) 697-1220 handles complaints about propane company practices.",
       "NYS Department of State Division of Building Standards at (518) 474-4073 can answer questions about propane tank code requirements.",
-      "If a propane company is charging excessive removal fees, the customer can negotiate or file a consumer complaint."
+      "If a propane company is charging excessive removal fees, the customer can negotiate or file a consumer complaint.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 

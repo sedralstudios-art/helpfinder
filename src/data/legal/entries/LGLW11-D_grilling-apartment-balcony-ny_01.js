@@ -41,7 +41,8 @@ export const GRILLING_APARTMENT_BALCONY_NY = {
       "For any Monroe County town, the local fire department or code enforcement office can clarify the grilling rules.",
       "If a lease does not mention grilling and the fire code allows it (electric grill, ground-floor patio 10+ feet from building), the landlord generally cannot prohibit it after the fact without a lease amendment.",
       "If a landlord tries to evict a tenant for grilling and the lease does not address it, Legal Aid Society of Rochester at (585) 232-4090 can advise.",
-      "A renter can ask the landlord for a designated grilling area — some apartment complexes set up a shared grill station on a concrete pad away from the building."
+      "A renter can ask the landlord for a designated grilling area — some apartment complexes set up a shared grill station on a concrete pad away from the building.",
+      "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
   },
 
