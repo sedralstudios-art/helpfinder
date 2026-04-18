@@ -91,6 +91,7 @@ export const LEASE_COSIGNER_GUARANTOR_RIGHTS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/GOB/5-701",
     "https://ag.ny.gov/publications/residential-tenants-rights-guide",
     "https://www.nycourts.gov/courthelp/smallclaims/basics.shtml"
   ],

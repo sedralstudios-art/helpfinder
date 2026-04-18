@@ -92,6 +92,8 @@ export const RENT_TO_OWN_AGREEMENT_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/PPL/A5",
+    "https://www.nysenate.gov/legislation/laws/GBS/A40",
     "https://www.consumerfinance.gov/ask-cfpb/what-is-a-rent-to-own-lease-option-agreement-en-329/",
     "https://ag.ny.gov/consumer-frauds-bureau"
   ],

@@ -90,6 +90,9 @@ export const ZONING_VARIANCE_PERMIT_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/TWN/267-B",
+    "https://www.nysenate.gov/legislation/laws/VIL/7-712-B",
+    "https://www.nysenate.gov/legislation/laws/GCT/81-B",
     "https://ecode360.com/8681641",
     "https://www.cityofrochester.gov/buildings/"
   ],

@@ -91,6 +91,9 @@ export const APARTMENT_SMELL_MARIJUANA_NEIGHBOR_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/CNB",
+    "https://www.nysenate.gov/legislation/laws/PBH/A13-E",
+    "https://www.nysenate.gov/legislation/laws/RPP/235-B",
     "https://cannabis.ny.gov",
     "https://www.health.ny.gov/prevention/tobacco_control/clean_indoor_air_act/"
   ],

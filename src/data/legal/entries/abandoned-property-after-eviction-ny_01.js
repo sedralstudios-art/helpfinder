@@ -89,6 +89,8 @@ export const ABANDONED_PROPERTY_AFTER_EVICTION_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/RPA/749",
+    "https://www.nysenate.gov/legislation/laws/RPP/227-F",
     "https://www.nycourts.gov/courthelp/",
     "https://www.thehousingcouncil.org"
   ],
