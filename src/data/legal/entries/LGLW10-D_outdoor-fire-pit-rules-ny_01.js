@@ -37,14 +37,17 @@ export const OUTDOOR_FIRE_PIT_RULES_NY = {
 
   legalOptions: {
     en: [
-      "Under 6 NYCRR Part 215, recreational fires under 3 feet in diameter burning clean wood are allowed statewide.",
-      "Rochester: Fire pit rules are enforced by the Rochester Fire Department. Fires must be in a contained pit, 25 feet from structures. Call 311 for questions.",
-      "Greece: Fire pit distance and rules through Code Enforcement at (585) 723-2396.",
-      "Irondequoit: Fire Department non-emergency at (585) 336-6000.",
-      "Brighton: Fire Department or Building Department at (585) 784-5220.",
-      "For any other town, the fire department or building department can explain the local fire pit rules.",
+      "Statewide: under 6 NYCRR Part 215, recreational fires under 3 feet in diameter burning clean wood are allowed. Only clean, dry wood and charcoal — no trash, leaves, treated lumber, or cardboard.",
+      "Rochester: contained fire pit, 25 feet from any structure. Enforced by Rochester Fire Department. Call 311.",
+      "Brighton: recreational fire 25 feet from any structure or combustible material. Portable outdoor fireplace (manufactured unit) 15 feet. Bonfire 50 feet. Max size 3 feet diameter, 2 feet height. Adult supervision required at all times. (Source: Town of Brighton Recreational Fires & Open Burning Guidelines, verified 2026-04-17.)",
+      "Gates: open burning is prohibited unless in a completely enclosed incinerator approved by the Fire and Building Departments. Traditional fire pits are effectively not allowed without approval. (Source: ecode360 Town of Gates, verified 2026-04-17.)",
+      "Greece: contact Code Enforcement at (585) 723-2396 for fire pit distance and permit rules.",
+      "Irondequoit: contact Fire Department non-emergency at (585) 336-6000.",
+      "Henrietta: contact Building Department at (585) 359-7060.",
+      "For any other town, call the fire department or building department for the specific distance and size rules.",
       "If a neighbor's fire pit smoke is a persistent problem, an air quality complaint can be filed with DEC Region 8 at (585) 226-5380.",
-      "A permanent built-in fire pit (stone, brick, or concrete) may require a building permit — check with the local building department."
+      "A permanent built-in fire pit (stone, brick, or concrete) may require a building permit — check with the local building department.",
+      "These rules were verified as of April 2026. Town codes change — contact the local fire or building department to confirm current rules."
     ]
   },
 

@@ -38,14 +38,18 @@ export const ABOVE_GROUND_POOL_RULES_NY = {
 
   legalOptions: {
     en: [
-      "The local building department handles pool permits. Rochester Bureau of Buildings at (585) 428-6520.",
-      "Greece Building Department at (585) 723-2396.",
-      "Irondequoit Building Department at (585) 336-6060.",
-      "Brighton Building Department at (585) 784-5220.",
-      "Penfield Building Department at (585) 340-8640.",
+      "Statewide: any pool over 24 inches deep requires a barrier at least 48 inches high with a self-closing, self-latching gate (NYS Residential Code Appendix G).",
+      "Greece: permit required for pools over 24 inches deep. Pool must be at least 10 feet from water's edge to any structure. Barrier required if pool wall is under 48 inches. Building Department at (585) 723-2443. (Verified 2026-04-17.)",
+      "Webster: pool must be at least 15 feet from any property line. Must also meet zoning setbacks per Chapter 350. Building Department at (585) 872-7035. (Verified 2026-04-17.)",
+      "Gates: fence must be rigid construction with lockable gate. Above-ground pool deck fence: minimum 30 inches, maximum 4 feet on outside edge of deck. Building Department at (585) 247-6100. (Verified 2026-04-17.)",
+      "Rochester: Bureau of Buildings at (585) 428-6520.",
+      "Irondequoit: Building Department at (585) 336-6060.",
+      "Brighton: Building Department at (585) 784-5220.",
+      "Penfield: Building Department at (585) 340-8640.",
       "For other towns, call the town hall and ask for the building department.",
       "If a child was injured or drowned in an unsecured pool, a personal injury attorney can advise — Monroe County Bar Association referral at (585) 546-2130.",
-      "The Consumer Product Safety Commission has pool safety resources at cpsc.gov/safety-education/safety-guides/pools-and-spas."
+      "The Consumer Product Safety Commission has pool safety resources at cpsc.gov/safety-education/safety-guides/pools-and-spas.",
+      "These rules were verified as of April 2026. Town codes change — contact the local building department to confirm current rules."
     ]
   },
 

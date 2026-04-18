@@ -37,14 +37,16 @@ export const LEAF_BLOWER_NOISE_RULES_NY = {
 
   legalOptions: {
     en: [
-      "For Rochester, call 311 for noise complaints.",
-      "Greece Code Enforcement at (585) 723-2396.",
-      "Irondequoit Code Enforcement at (585) 336-6060.",
-      "Brighton Code Enforcement at (585) 784-5220.",
-      "Penfield Code Enforcement at (585) 340-8640.",
+      "Rochester: noise complaints through 311. No specific equipment hour restriction — enforcement is based on unreasonable noise for the time of day.",
+      "Henrietta: power equipment and construction noise allowed only between 7:00 AM and 9:00 PM (Code § 168-2). Violations enforced by Code Enforcement. (Verified 2026-04-17.)",
+      "Greece: Code Enforcement at (585) 723-2396 for noise rules and complaints.",
+      "Irondequoit: Code Enforcement at (585) 336-6060. Noise ordinance Chapter 160.",
+      "Brighton: Code Enforcement at (585) 784-5220.",
+      "Penfield: Code Enforcement at (585) 340-8640.",
       "For any other town, call the town hall and ask for code enforcement.",
       "If the noise is extreme or ongoing and code enforcement is not helping, a resident can pursue a private nuisance claim in court.",
-      "A polite conversation with the neighbor is often the fastest solution — many people do not realize how loud leaf blowers are or that the timing bothers someone."
+      "A polite conversation with the neighbor is often the fastest solution — many people do not realize how loud leaf blowers are or that the timing bothers someone.",
+      "These rules were verified as of April 2026. Town codes change — contact the local code enforcement office to confirm current hours."
     ]
   },
 
