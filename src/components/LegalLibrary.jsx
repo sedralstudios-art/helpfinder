@@ -451,6 +451,9 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
           <p style={{ fontSize: 14, color: C.stone, lineHeight: 1.7, margin: 0, fontStyle: "italic" }}>
             <GlossaryText text={pickText(entry.example, legalLang)} maxHighlights={2} />
           </p>
+          <p style={{ fontSize: 12, color: C.stone, opacity: 0.65, lineHeight: 1.5, margin: "10px 0 0 0", fontStyle: "italic" }}>
+            Examples on this page are illustrations. The names, numbers, and outcomes are made up to show how the law works in a typical situation. They are not a prediction of what will happen in a real case.
+          </p>
         </section>
       )}
 

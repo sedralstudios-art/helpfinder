@@ -263,6 +263,7 @@ const SHARED_CSS = `
       .ssr-content .counsel { padding: 0; list-style: none; }
       .ssr-content .counsel li { background: #fff; border: 1px solid #e8e4dc; border-radius: 10px; padding: 10px 14px; list-style: none; margin-bottom: 10px; }
       .ssr-content .counsel .focus { font-size: 12px; color: #767676; }
+      .ssr-content .example-caption { font-size: 12px; color: #767676; line-height: 1.5; margin-top: 10px; }
       .ssr-content .sources li { font-size: 11px; color: #767676; }
       .ssr-content .sources a { color: #767676; word-break: break-all; }
       .ssr-content .entry-list { list-style: none; padding: 0; display: grid; gap: 10px; margin: 0; }
@@ -333,7 +334,7 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
   const optionsHTML = options.length
     ? '<h2>Legal options</h2><ul>' + options.map((i) => '<li>' + autoLinkGlossary(i) + '</li>').join('') + '</ul>'
     : '';
-  const exampleHTML = example ? '<h2>Example</h2><p><em>' + autoLinkGlossary(example) + '</em></p>' : '';
+  const exampleHTML = example ? '<h2>Example</h2><p><em>' + autoLinkGlossary(example) + '</em></p><p class="example-caption"><em>Examples on this page are illustrations. The names, numbers, and outcomes are made up to show how the law works in a typical situation. They are not a prediction of what will happen in a real case.</em></p>' : '';
   const counselHTML = counsel.length
     ? '<h2>Get free legal help</h2><ul class="counsel">' +
       counsel
