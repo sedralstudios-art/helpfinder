@@ -103,6 +103,8 @@ export const SNAP_RECERTIFICATION_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/7/2020",
+    "https://www.law.cornell.edu/cfr/text/7/part-273",
     "https://otda.ny.gov/programs/snap/",
     "https://mybenefits.ny.gov"
   ],

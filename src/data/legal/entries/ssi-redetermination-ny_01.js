@@ -104,6 +104,7 @@ export const SSI_REDETERMINATION_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/1382",
     "https://www.ssa.gov/ssi/",
     "https://www.ssa.gov/pubs/EN-05-11011.pdf"
   ],

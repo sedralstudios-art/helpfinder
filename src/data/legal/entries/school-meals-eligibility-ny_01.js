@@ -103,6 +103,8 @@ export const SCHOOL_MEALS_ELIGIBILITY_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/1758",
+    "https://www.law.cornell.edu/uscode/text/42/1773",
     "https://www.fns.usda.gov/nslp",
     "https://www.fns.usda.gov/meals4kids"
   ],

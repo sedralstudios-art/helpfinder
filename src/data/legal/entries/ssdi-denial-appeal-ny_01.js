@@ -101,6 +101,8 @@ export const SSDI_DENIAL_APPEAL_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/423",
+    "https://www.law.cornell.edu/uscode/text/42/405",
     "https://www.ssa.gov/benefits/disability/appeal.html"
   ],
 

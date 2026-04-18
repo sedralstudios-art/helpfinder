@@ -92,6 +92,7 @@ export const SOCIAL_SECURITY_SURVIVORS_BENEFITS_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/402",
     "https://www.ssa.gov/benefits/survivors/",
     "https://www.ssa.gov/pubs/EN-05-10084.pdf"
   ],
