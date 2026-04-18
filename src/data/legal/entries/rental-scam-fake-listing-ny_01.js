@@ -90,6 +90,8 @@ export const RENTAL_SCAM_FAKE_LISTING_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/GBS/349",
+    "https://www.nysenate.gov/legislation/laws/PEN/190.60",
     "https://ag.ny.gov/consumer-frauds-bureau",
     "https://www.ftc.gov/news-events/topics/scams"
   ],

@@ -89,6 +89,7 @@ export const RENTERS_INSURANCE_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/ISC/3420",
     "https://www.dfs.ny.gov/consumers/auto_insurance",
     "https://www.floodsmart.gov"
   ],

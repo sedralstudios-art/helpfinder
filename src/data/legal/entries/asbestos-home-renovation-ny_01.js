@@ -104,6 +104,8 @@ export const ASBESTOS_HOME_RENOVATION_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/LAB/A30",
+    "https://www.law.cornell.edu/cfr/text/40/part-61/subpart-M",
     "https://dol.ny.gov/asbestos",
     "https://www.health.ny.gov/environmental/indoors/asbestos/"
   ],

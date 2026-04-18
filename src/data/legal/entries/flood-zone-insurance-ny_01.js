@@ -91,6 +91,8 @@ export const FLOOD_ZONE_INSURANCE_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/42/4001",
+    "https://www.law.cornell.edu/uscode/text/42/4012a",
     "https://msc.fema.gov",
     "https://www.fema.gov/flood-insurance"
   ],

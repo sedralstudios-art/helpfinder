@@ -90,6 +90,7 @@ export const TITLE_INSURANCE_WHAT_IT_COVERS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/ISC/A64",
     "https://www.dfs.ny.gov",
     "https://www.alta.org/consumer-info"
   ],
