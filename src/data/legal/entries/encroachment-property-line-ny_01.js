@@ -3,6 +3,7 @@ export const ENCROACHMENT_PROPERTY_LINE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Encroachment — When a Neighbor's Fence, Shed, or Driveway Crosses the Property Line" },

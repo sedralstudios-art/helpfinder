@@ -3,6 +3,7 @@ export const VET_MALPRACTICE_PET_INJURY_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Veterinary Malpractice — When Your Pet Is Injured by a Vet" },

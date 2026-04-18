@@ -3,6 +3,7 @@ export const TITLE_INSURANCE_WHAT_IT_COVERS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Title Insurance — What It Covers, Whether It Is Required, and When to File a Claim" },

@@ -3,6 +3,7 @@ export const DIGITAL_ASSETS_AFTER_DEATH_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Digital Accounts After Death — How to Access a Loved One's Email, Phone, and Social Media" },

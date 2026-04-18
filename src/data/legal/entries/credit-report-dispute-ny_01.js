@@ -3,6 +3,7 @@ export const CREDIT_REPORT_DISPUTE_NY = {
   category: "consumer",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Disputing Errors on Your Credit Report" },

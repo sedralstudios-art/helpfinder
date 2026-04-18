@@ -3,6 +3,7 @@ export const JUNIOR_LICENSE_GDL_RESTRICTIONS_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Junior Driver License and Graduated License Rules — What Teen Drivers in New York Can and Cannot Do" },

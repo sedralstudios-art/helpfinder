@@ -3,6 +3,7 @@ export const VETERANS_BENEFITS_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Veterans Benefits — What You've Earned and How to Claim It in Monroe County" },

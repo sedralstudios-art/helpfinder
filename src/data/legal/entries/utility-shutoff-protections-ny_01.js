@@ -3,6 +3,7 @@ export const UTILITY_SHUTOFF_PROTECTIONS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Utility Shutoff Protections — Heat, Electric, and Gas in New York" },

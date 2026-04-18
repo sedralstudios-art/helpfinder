@@ -3,6 +3,7 @@ export const PROPERTY_TAX_SALE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Property Tax Lien and Tax Sale — Losing a Home for Unpaid Taxes in New York" },

@@ -3,6 +3,7 @@ export const REPRESENTATIVE_PAYEE_RIGHTS_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Representative Payee — When Someone Else Manages SSI or Social Security Money" },

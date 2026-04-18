@@ -3,6 +3,7 @@ export const USED_CAR_BUYER_RIGHTS_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Used Car Buyer Rights — What Dealers Must Disclose and What Protections Exist" },

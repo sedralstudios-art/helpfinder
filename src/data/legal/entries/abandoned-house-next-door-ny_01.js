@@ -3,6 +3,7 @@ export const ABANDONED_HOUSE_NEXT_DOOR_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Abandoned House Next Door — What Neighbors Can Do" },

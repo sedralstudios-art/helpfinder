@@ -3,6 +3,7 @@ export const DEBT_ZOMBIE_TIME_BARRED_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Zombie Debt — When a Collector Tries to Collect a Debt That Is Too Old to Sue On" },

@@ -3,6 +3,7 @@ export const APARTMENT_MOLD_DISCLOSURE_SALE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Mold, Lead, and Radon Disclosure When Selling a Home — What the Seller Must Tell the Buyer" },

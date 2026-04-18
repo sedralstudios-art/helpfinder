@@ -3,6 +3,7 @@ export const MOLD_TENANT_RIGHTS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Mold in a Rental — Tenant Rights and Landlord Obligations in New York" },

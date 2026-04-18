@@ -3,6 +3,7 @@ export const NDA_NON_DISCLOSURE_AGREEMENT_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Non-Disclosure Agreements (NDAs) — What Workers Need to Know Before Signing" },

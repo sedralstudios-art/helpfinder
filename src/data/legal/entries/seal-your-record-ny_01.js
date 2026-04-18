@@ -3,6 +3,7 @@ export const SEAL_YOUR_RECORD_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "How to Seal a Criminal Record in New York — Step by Step" },

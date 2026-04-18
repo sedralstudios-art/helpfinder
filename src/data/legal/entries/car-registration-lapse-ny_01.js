@@ -3,6 +3,7 @@ export const CAR_REGISTRATION_LAPSE_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Expired Car Registration — What Happens and How to Fix It" },

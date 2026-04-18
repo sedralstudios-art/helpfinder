@@ -3,6 +3,7 @@ export const SEPTIC_INSPECTION_HOME_SALE_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Septic Inspection When Selling a Home — Monroe County Requirements" },

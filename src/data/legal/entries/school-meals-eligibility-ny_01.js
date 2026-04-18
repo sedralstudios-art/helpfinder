@@ -3,6 +3,7 @@ export const SCHOOL_MEALS_ELIGIBILITY_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Free and Reduced School Meals — Who Qualifies and How to Apply" },

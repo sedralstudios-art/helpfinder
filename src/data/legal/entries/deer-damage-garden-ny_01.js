@@ -3,6 +3,7 @@ export const DEER_DAMAGE_GARDEN_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Deer Damaging Your Property — What Homeowners Can Do in Monroe County" },

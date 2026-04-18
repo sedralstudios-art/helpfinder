@@ -3,6 +3,7 @@ export const CAR_REPOSSESSION_PERSONAL_PROPERTY_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Car Repossession — Rights to Personal Property Left Inside and What the Lender Cannot Do" },

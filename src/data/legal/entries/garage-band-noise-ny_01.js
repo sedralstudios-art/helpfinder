@@ -3,6 +3,7 @@ export const GARAGE_BAND_NOISE_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Neighbor's Band Practice or Loud Music — Noise Laws and What You Can Do" },

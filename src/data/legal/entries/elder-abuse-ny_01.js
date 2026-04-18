@@ -3,6 +3,7 @@ export const ELDER_ABUSE_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Elder Abuse — Recognizing It and Getting Help in New York" },

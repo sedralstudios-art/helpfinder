@@ -3,6 +3,7 @@ export const EMPLOYER_REFERENCES_DEFAMATION_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Employer References — What a Former Boss Can and Cannot Say About a Worker" },

@@ -3,6 +3,7 @@ export const TIP_THEFT_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Tip Theft — Your Rights When an Employer Takes Your Tips in New York" },

@@ -3,6 +3,7 @@ export const WHEN_SOMEONE_DIES_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "When Someone Dies — What Needs to Happen and Who Can Help in New York" },

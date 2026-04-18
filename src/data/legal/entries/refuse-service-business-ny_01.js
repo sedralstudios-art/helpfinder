@@ -3,6 +3,7 @@ export const REFUSE_SERVICE_BUSINESS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Can a Business Refuse to Serve You — When It Is Legal and When It Is Discrimination" },

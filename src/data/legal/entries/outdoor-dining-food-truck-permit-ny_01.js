@@ -3,6 +3,7 @@ export const OUTDOOR_DINING_FOOD_TRUCK_PERMIT_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Food Truck and Outdoor Dining Permits — How to Start or Complain in Monroe County" },

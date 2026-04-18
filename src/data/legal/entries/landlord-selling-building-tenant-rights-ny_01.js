@@ -3,6 +3,7 @@ export const LANDLORD_SELLING_BUILDING_TENANT_RIGHTS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Landlord Selling the Building — What Happens to the Lease and the Tenant" },

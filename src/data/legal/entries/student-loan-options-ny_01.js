@@ -3,6 +3,7 @@ export const STUDENT_LOAN_OPTIONS_NY = {
   category: "consumer",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Student Loan Debt — Repayment Options, Forgiveness, and Default in New York" },

@@ -3,6 +3,7 @@ export const LANDLORD_WONT_GIVE_RECEIPT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Landlord Will Not Give a Rent Receipt — What the Law Requires" },

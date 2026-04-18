@@ -3,6 +3,7 @@ export const PET_LICENSING_DOG_LICENSE_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Dog Licensing in New York — Why It Matters and How It Works" },

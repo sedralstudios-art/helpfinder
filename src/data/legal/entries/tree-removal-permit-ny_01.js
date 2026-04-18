@@ -3,6 +3,7 @@ export const TREE_REMOVAL_PERMIT_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Cutting Down a Tree on Your Property — When You Need a Permit" },

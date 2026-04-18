@@ -7,6 +7,7 @@ export const entry = {
   category: "trades",
   tier: "village",
   jurisdiction: "us-ny-monroe-brockport-village",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: {

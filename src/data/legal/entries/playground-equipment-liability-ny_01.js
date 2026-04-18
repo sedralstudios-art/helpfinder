@@ -3,6 +3,7 @@ export const PLAYGROUND_EQUIPMENT_LIABILITY_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Backyard Playground and Swing Set — Liability, Rules, and Neighbor Safety" },

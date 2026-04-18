@@ -3,6 +3,7 @@ export const CHILD_SUPPORT_MODIFICATION_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Changing a Child Support Order in New York" },

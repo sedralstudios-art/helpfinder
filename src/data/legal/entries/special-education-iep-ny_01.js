@@ -3,6 +3,7 @@ export const SPECIAL_EDUCATION_IEP_NY = {
   category: "family",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Special Education and IEP Rights in New York" },

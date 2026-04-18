@@ -3,6 +3,7 @@ export const FIRED_FOR_CAUSE_UNEMPLOYMENT_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Fired for Cause or Quit — Can You Still Get Unemployment in New York?" },

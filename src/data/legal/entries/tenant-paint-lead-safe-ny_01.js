@@ -3,6 +3,7 @@ export const TENANT_PAINT_LEAD_SAFE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Lead-Safe Renovations — Rules for Working on Homes Built Before 1978" },

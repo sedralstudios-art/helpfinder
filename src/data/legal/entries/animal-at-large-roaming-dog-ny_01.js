@@ -3,6 +3,7 @@ export const ANIMAL_AT_LARGE_ROAMING_DOG_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Roaming Dogs and Animals at Large — What to Do and Who to Call in Monroe County" },

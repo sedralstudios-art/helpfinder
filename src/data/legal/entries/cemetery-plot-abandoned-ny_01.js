@@ -3,6 +3,7 @@ export const CEMETERY_PLOT_ABANDONED_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Cemetery Plot Problems — Abandoned Plots, Upkeep, and Transfer Rights" },

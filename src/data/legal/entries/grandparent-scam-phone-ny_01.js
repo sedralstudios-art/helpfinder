@@ -3,6 +3,7 @@ export const GRANDPARENT_SCAM_PHONE_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "The Grandparent Scam — How It Works and What to Do" },

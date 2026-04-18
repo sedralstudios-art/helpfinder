@@ -3,6 +3,7 @@ export const WHISTLEBLOWER_PROTECTIONS_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Whistleblower Protections in New York — Reporting Illegal Activity at Work" },

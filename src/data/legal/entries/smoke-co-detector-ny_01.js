@@ -3,6 +3,7 @@ export const SMOKE_CO_DETECTOR_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Smoke and Carbon Monoxide Detector Requirements for Rentals in New York" },

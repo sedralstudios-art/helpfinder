@@ -3,6 +3,7 @@ export const LICENSE_SUSPENSION_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Driver's License Suspension — Your Rights in New York" },

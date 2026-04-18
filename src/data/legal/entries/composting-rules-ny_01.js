@@ -3,6 +3,7 @@ export const COMPOSTING_RULES_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Backyard Composting Rules in Monroe County — What Is Allowed" },

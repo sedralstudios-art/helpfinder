@@ -3,6 +3,7 @@ export const CHILD_SUPPORT_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Child Support — How New York Figures Out What a Parent Pays" },

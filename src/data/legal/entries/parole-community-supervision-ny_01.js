@@ -3,6 +3,7 @@ export const PAROLE_COMMUNITY_SUPERVISION_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Parole and Community Supervision in New York" },

@@ -3,6 +3,7 @@ export const DRIVEWAY_EASEMENT_ACCESS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Landlocked Property and Access Easements — Getting to a Home When There Is No Road" },

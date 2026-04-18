@@ -3,6 +3,7 @@ export const SNOW_ICE_SIDEWALK_LIABILITY_NY = {
   category: "housing",
   tier: "local",
   jurisdiction: "us-ny",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Snow and Ice Removal — Who Is Responsible for Sidewalks in Rochester and Monroe County" },

@@ -3,6 +3,7 @@ export const SCHOOL_BUS_STOP_ARM_VIOLATION_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Passing a Stopped School Bus — Penalties, Cameras, and How to Fight the Ticket" },

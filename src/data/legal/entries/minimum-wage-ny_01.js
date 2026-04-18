@@ -3,6 +3,7 @@ export const MINIMUM_WAGE_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Minimum Wage — What New York Law Requires Your Employer to Pay" },

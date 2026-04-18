@@ -3,6 +3,7 @@ export const WAGE_GARNISHMENT_DEFENSE_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Wage Garnishment Defense — Protecting Your Paycheck in New York" },

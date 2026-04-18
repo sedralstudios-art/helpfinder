@@ -3,6 +3,7 @@ export const AFTER_A_FIRE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "After a House or Apartment Fire — What to Do and Who Can Help in Monroe County" },

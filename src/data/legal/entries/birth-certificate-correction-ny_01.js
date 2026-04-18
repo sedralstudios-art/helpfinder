@@ -3,6 +3,7 @@ export const BIRTH_CERTIFICATE_CORRECTION_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Correcting or Amending a Birth Certificate in New York" },

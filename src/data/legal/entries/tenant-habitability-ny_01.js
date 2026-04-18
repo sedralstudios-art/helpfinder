@@ -3,6 +3,7 @@ export const TENANT_HABITABILITY_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Warranty of Habitability — Your Right to a Safe Home" },

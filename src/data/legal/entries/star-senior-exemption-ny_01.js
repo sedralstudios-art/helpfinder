@@ -3,6 +3,7 @@ export const STAR_SENIOR_EXEMPTION_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Lowering Your Property Tax — STAR, Enhanced STAR, and the Senior Exemption" },

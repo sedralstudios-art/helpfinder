@@ -3,6 +3,7 @@ export const UNEMPLOYMENT_GIG_WORKERS_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Unemployment Benefits for Gig Workers and Freelancers" },

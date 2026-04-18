@@ -3,6 +3,7 @@ export const PARKING_OVERNIGHT_STREET_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Overnight Street Parking Rules in Monroe County — Where You Can and Cannot Park" },

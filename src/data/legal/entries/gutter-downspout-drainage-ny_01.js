@@ -3,6 +3,7 @@ export const GUTTER_DOWNSPOUT_DRAINAGE_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Gutter Drainage and Downspouts — When a Neighbor's Water Floods Your Yard" },

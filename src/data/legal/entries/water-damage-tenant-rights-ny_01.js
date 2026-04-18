@@ -3,6 +3,7 @@ export const WATER_DAMAGE_TENANT_RIGHTS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Water Damage in a Rental — Who Pays and What Tenants Can Do" },

@@ -3,6 +3,7 @@ export const SWIMMING_POOL_LIABILITY_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Swimming Pool Accidents — Fencing Laws, Liability, and What Homeowners Must Know" },

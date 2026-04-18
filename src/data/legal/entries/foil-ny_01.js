@@ -3,6 +3,7 @@ export const FOIL_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "FOIL — How to Get Government Records in New York" },

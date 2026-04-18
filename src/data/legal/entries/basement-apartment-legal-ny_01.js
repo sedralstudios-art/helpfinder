@@ -3,6 +3,7 @@ export const BASEMENT_APARTMENT_LEGAL_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Basement Apartments — When They Are Legal and When They Are Not" },

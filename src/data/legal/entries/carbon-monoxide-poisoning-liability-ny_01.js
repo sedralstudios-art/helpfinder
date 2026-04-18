@@ -3,6 +3,7 @@ export const CARBON_MONOXIDE_POISONING_LIABILITY_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Carbon Monoxide Poisoning in a Rental — Who Is Responsible" },

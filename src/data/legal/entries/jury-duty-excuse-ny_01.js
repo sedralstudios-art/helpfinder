@@ -3,6 +3,7 @@ export const JURY_DUTY_EXCUSE_NY = {
   category: "government",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Jury Duty — How to Get Excused or Postpone in New York" },

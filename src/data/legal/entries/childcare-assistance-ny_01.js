@@ -3,6 +3,7 @@ export const CHILDCARE_ASSISTANCE_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Child Care Assistance — Help Paying for Day Care" },

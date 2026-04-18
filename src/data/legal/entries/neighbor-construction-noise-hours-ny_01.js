@@ -3,6 +3,7 @@ export const NEIGHBOR_CONSTRUCTION_NOISE_HOURS_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Construction Noise From a Neighbor — What Hours Are Allowed" },

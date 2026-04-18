@@ -3,6 +3,7 @@ export const WAGE_THEFT_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Wage Theft — When Your Boss Doesn't Pay What You're Owed" },

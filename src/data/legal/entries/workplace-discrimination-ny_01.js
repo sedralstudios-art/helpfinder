@@ -3,6 +3,7 @@ export const WORKPLACE_DISCRIMINATION_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Workplace Discrimination and Harassment in New York" },

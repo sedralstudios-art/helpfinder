@@ -3,6 +3,7 @@ export const UNEMPLOYMENT_APPEAL_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Appealing an Unemployment Insurance Denial in New York" },

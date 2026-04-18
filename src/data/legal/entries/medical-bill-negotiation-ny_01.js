@@ -3,6 +3,7 @@ export const MEDICAL_BILL_NEGOTIATION_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Medical Bills You Cannot Pay — Negotiation, Financial Assistance, and Your Rights" },

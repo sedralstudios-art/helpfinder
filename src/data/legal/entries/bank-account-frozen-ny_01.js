@@ -3,6 +3,7 @@ export const BANK_ACCOUNT_FROZEN_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Bank Account Frozen — Why It Happened and How to Unfreeze It" },

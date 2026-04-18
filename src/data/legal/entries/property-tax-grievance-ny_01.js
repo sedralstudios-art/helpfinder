@@ -3,6 +3,7 @@ export const PROPERTY_TAX_GRIEVANCE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Property Tax Grievance — How to Challenge Your Assessment in New York" },

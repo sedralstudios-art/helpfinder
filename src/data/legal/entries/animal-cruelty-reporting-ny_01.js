@@ -3,6 +3,7 @@ export const ANIMAL_CRUELTY_REPORTING_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Animal Cruelty — How to Report It and What the Law Says" },

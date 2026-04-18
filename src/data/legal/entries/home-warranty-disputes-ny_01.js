@@ -3,6 +3,7 @@ export const HOME_WARRANTY_DISPUTES_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Home Warranty Disputes — When the Company Won't Cover the Repair" },

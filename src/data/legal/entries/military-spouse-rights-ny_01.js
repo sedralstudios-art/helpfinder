@@ -3,6 +3,7 @@ export const MILITARY_SPOUSE_RIGHTS_NY = {
   category: "family",
   tier: "federal",
   jurisdiction: "us-fed",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Military Spouse Rights — Protections During Deployment and Divorce" },

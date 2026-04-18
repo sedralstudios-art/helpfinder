@@ -3,6 +3,7 @@ export const MEDICAL_RECORDS_ACCESS_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Getting Your Medical Records in New York" },

@@ -3,6 +3,7 @@ export const BACKYARD_CHICKEN_LAWS_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Backyard Chickens in Monroe County — Which Towns Allow Them" },

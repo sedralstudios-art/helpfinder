@@ -3,6 +3,7 @@ export const MOVE_OVER_LAW_EMERGENCY_VEHICLES_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "New York's Move Over Law — When a Driver Must Slow Down and Change Lanes" },

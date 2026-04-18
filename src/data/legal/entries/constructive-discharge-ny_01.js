@@ -3,6 +3,7 @@ export const CONSTRUCTIVE_DISCHARGE_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Constructive Discharge — When Quitting Is Really Being Fired" },

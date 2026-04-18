@@ -3,6 +3,7 @@ export const HOMELESS_STUDENT_RIGHTS_NY = {
   category: "family",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Homeless Student Rights — McKinney-Vento and School Enrollment in New York" },

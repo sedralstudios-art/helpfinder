@@ -8,6 +8,7 @@ export const entry = {
   category: "trades",
   tier: "city",
   jurisdiction: "us-ny-monroe-rochester-city",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: {

@@ -3,6 +3,7 @@ export const TENANT_RIGHT_TO_ORGANIZE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Tenant Right to Organize — Forming a Tenants' Association in New York" },

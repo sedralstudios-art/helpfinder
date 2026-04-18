@@ -3,6 +3,7 @@ export const SOLAR_PANEL_RULES_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Solar Panels on Your Home — Permits, HOA Rules, and Net Metering" },

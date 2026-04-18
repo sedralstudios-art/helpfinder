@@ -3,6 +3,7 @@ export const NURSING_HOME_MEDICAID_ASSET_PROTECTION_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Medicaid and Nursing Homes — What Happens to the House and Savings" },

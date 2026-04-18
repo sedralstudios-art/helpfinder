@@ -3,6 +3,7 @@ export const GARAGE_SALE_ESTATE_SALE_TAX_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Do You Owe Taxes on Garage Sale and Estate Sale Money" },

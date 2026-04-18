@@ -3,6 +3,7 @@ export const GET_RAP_SHEET_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "How to Get Your Criminal Record (RAP Sheet) in New York" },

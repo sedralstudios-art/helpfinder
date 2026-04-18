@@ -3,6 +3,7 @@ export const POWER_OF_ATTORNEY_ABUSE_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Power of Attorney Abuse — When Someone Misuses Authority Over Your Finances" },

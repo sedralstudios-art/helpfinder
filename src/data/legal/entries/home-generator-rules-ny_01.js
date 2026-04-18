@@ -3,6 +3,7 @@ export const HOME_GENERATOR_RULES_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Home Generator Rules — Permits, Placement, and Safety Requirements" },

@@ -3,6 +3,7 @@ export const FIREWORKS_LAWS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Fireworks Laws in New York — What Is Legal and What Is Not" },

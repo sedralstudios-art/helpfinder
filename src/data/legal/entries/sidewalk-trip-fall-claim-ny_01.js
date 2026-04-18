@@ -3,6 +3,7 @@ export const SIDEWALK_TRIP_FALL_CLAIM_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny-mon",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Tripped on a Broken Sidewalk — Who Is Liable and How to File a Claim" },

@@ -3,6 +3,7 @@ export const WATER_MAIN_BREAK_RESPONSIBILITY_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Water Main Break or Water Line Leak — Who Pays for the Repair" },

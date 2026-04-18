@@ -3,6 +3,7 @@ export const SOCIAL_MEDIA_FIRED_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Fired for Social Media Posts — What New York Law Protects and What It Does Not" },

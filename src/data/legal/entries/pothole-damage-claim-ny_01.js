@@ -3,6 +3,7 @@ export const POTHOLE_DAMAGE_CLAIM_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Pothole Damage to Your Car — Can You Get the City or County to Pay" },

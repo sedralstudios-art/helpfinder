@@ -3,6 +3,7 @@ export const SNOW_REMOVAL_ORDINANCE_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Snow Removal Rules — Deadlines and Fines by Monroe County Town" },

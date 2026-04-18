@@ -3,6 +3,7 @@ export const TRUCKER_CDL_VIOLATIONS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "CDL Violations — What Truck Drivers Need to Know" },

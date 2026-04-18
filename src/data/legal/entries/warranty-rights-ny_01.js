@@ -3,6 +3,7 @@ export const WARRANTY_RIGHTS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Product Warranty and Refund Rights in New York" },

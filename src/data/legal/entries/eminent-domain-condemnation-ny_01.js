@@ -3,6 +3,7 @@ export const EMINENT_DOMAIN_CONDEMNATION_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Eminent Domain — When the Government Takes Your Property in New York" },

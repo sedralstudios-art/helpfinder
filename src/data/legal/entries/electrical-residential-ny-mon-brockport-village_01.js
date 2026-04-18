@@ -5,6 +5,7 @@ export const entry = {
   category: "trades",
   tier: "village",
   jurisdiction: "us-ny-monroe-brockport-village",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Electrical work in the Village of Brockport: what the village requires" },

@@ -3,6 +3,7 @@ export const EQUAL_PAY_WAGE_GAP_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Equal Pay — The Right to the Same Pay for the Same Work in New York" },

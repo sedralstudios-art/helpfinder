@@ -3,6 +3,7 @@ export const DECK_PATIO_PERMIT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Deck and Patio Permits — When a Permit Is Needed and What Happens Without One" },

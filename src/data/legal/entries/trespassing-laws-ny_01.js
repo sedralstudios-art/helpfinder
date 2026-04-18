@@ -3,6 +3,7 @@ export const TRESPASSING_LAWS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Trespassing Laws in New York — What Counts, What Doesn't, and What the Penalties Are" },

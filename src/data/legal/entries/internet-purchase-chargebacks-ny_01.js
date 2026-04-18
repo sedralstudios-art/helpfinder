@@ -3,6 +3,7 @@ export const INTERNET_PURCHASE_CHARGEBACKS_NY = {
   category: "consumer",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Online Purchase Disputes — Chargebacks, Refunds, and What to Do When a Seller Will Not Cooperate" },

@@ -3,6 +3,7 @@ export const FOOD_ALLERGY_RESTAURANT_LIABILITY_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Food Allergies at Restaurants — What the Law Requires and Who Is Liable" },

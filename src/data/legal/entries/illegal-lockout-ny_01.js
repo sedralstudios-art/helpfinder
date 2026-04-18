@@ -3,6 +3,7 @@ export const ILLEGAL_LOCKOUT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Illegal Lockouts — What to Do If Your Landlord Changes the Locks" },

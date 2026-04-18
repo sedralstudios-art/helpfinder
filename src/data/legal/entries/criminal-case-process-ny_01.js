@@ -3,6 +3,7 @@ export const CRIMINAL_CASE_PROCESS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "How a Criminal Case Works in New York — From Arrest to Verdict" },

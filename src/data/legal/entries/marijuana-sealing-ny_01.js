@@ -3,6 +3,7 @@ export const MARIJUANA_SEALING_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Old Marijuana Cases — What New York Law Does Automatically" },

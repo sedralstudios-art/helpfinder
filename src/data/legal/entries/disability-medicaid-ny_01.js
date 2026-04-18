@@ -3,6 +3,7 @@ export const DISABILITY_MEDICAID_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Disability Medicaid — Health Coverage for People with Disabilities" },

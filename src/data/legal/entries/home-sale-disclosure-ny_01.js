@@ -3,6 +3,7 @@ export const HOME_SALE_DISCLOSURE_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Selling a Home — What the Seller Must Disclose in New York" },

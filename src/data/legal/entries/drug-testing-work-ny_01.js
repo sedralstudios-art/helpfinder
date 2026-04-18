@@ -3,6 +3,7 @@ export const DRUG_TESTING_WORK_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Drug Testing at Work — What Employers Can and Cannot Do in New York" },

@@ -3,6 +3,7 @@ export const WEATHERIZATION_ASSISTANCE_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny-mon",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Free Weatherization — Insulation, Windows, and Energy Upgrades at No Cost" },

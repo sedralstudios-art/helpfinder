@@ -3,6 +3,7 @@ export const EXPUNGEMENT_VS_SEALING_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Expungement vs. Sealing — What New York Actually Offers for Criminal Records" },

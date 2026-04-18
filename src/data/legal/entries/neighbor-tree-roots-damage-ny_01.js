@@ -3,6 +3,7 @@ export const NEIGHBOR_TREE_ROOTS_DAMAGE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Neighbor's Tree Roots Damaging Property — Sewer Lines, Foundation, and Sidewalks" },

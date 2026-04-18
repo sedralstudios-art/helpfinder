@@ -3,6 +3,7 @@ export const CONTRACTOR_HOME_IMPROVEMENT_DEPOSIT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Contractor Deposits — How Much Is Too Much and What the Law Requires" },

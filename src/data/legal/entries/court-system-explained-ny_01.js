@@ -3,6 +3,7 @@ export const COURT_SYSTEM_EXPLAINED_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Which Court Is My Case In? Understanding New York's Court System" },

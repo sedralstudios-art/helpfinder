@@ -3,6 +3,7 @@ export const PEDESTRIAN_HIT_BY_CAR_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Hit by a Car as a Pedestrian — What New York Law Says About Your Rights" },

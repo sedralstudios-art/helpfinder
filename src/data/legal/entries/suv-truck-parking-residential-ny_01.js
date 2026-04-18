@@ -3,6 +3,7 @@ export const SUV_TRUCK_PARKING_RESIDENTIAL_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Parking a Work Truck or Commercial Vehicle at Home — Rules in Monroe County" },

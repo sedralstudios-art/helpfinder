@@ -3,6 +3,7 @@ export const NEIGHBOR_HARASSMENT_RESTRAINING_ORDER_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Neighbor Harassment — When It Crosses the Line and What Legal Options Exist" },

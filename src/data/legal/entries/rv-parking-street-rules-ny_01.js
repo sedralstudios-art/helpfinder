@@ -3,6 +3,7 @@ export const RV_PARKING_STREET_RULES_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "RV, Boat, and Trailer Parking Rules — What Monroe County Towns Allow" },

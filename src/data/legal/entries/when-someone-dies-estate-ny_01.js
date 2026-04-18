@@ -3,6 +3,7 @@ export const WHEN_SOMEONE_DIES_ESTATE_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "When Someone Dies Without a Will — Intestate Succession in New York" },

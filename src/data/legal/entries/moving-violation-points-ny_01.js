@@ -3,6 +3,7 @@ export const MOVING_VIOLATION_POINTS_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Points on Your License — How the NY DMV Point System Works" },

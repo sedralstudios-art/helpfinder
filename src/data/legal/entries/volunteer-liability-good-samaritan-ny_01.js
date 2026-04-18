@@ -3,6 +3,7 @@ export const VOLUNTEER_LIABILITY_GOOD_SAMARITAN_NY = {
   category: "government",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Volunteer Liability — Legal Protection for People Who Volunteer" },

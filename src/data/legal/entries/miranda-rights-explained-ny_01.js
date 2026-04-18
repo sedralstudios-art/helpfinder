@@ -3,6 +3,7 @@ export const MIRANDA_RIGHTS_EXPLAINED_NY = {
   category: "criminal",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Miranda Rights — What the Police Must Say and What Happens If They Do Not" },

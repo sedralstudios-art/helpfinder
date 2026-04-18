@@ -3,6 +3,7 @@ export const LEAF_BLOWER_NOISE_RULES_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Leaf Blower Noise — What Hours Are Allowed and How to File a Complaint" },

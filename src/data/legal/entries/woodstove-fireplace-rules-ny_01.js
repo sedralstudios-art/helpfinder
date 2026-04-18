@@ -3,6 +3,7 @@ export const WOODSTOVE_FIREPLACE_RULES_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Wood Stoves and Fireplaces — Installation Rules and Chimney Safety" },

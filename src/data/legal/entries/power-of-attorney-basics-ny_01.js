@@ -3,6 +3,7 @@ export const POWER_OF_ATTORNEY_BASICS_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Power of Attorney in New York — What It Is and How to Set One Up" },

@@ -3,6 +3,7 @@ export const TRAFFIC_TICKET_OPTIONS_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Got a Traffic Ticket — Your Options in New York (Outside NYC)" },

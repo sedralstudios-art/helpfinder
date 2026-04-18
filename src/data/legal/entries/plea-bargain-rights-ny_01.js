@@ -3,6 +3,7 @@ export const PLEA_BARGAIN_RIGHTS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Plea Bargains — What a Defendant Needs to Know Before Accepting a Deal" },

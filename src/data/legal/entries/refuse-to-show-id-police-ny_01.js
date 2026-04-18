@@ -3,6 +3,7 @@ export const REFUSE_TO_SHOW_ID_POLICE_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Do You Have to Show ID to the Police — Stop and Identify Laws in New York" },

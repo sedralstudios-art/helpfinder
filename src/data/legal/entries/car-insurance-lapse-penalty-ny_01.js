@@ -3,6 +3,7 @@ export const CAR_INSURANCE_LAPSE_PENALTY_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Car Insurance Lapse — What Happens When Coverage Drops Even for One Day" },

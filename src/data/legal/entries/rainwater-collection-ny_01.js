@@ -3,6 +3,7 @@ export const RAINWATER_COLLECTION_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Collecting Rainwater in New York — Is It Legal and What Are the Rules" },

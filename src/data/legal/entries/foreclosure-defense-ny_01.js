@@ -3,6 +3,7 @@ export const FORECLOSURE_DEFENSE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Foreclosure Defense — Your Rights When You Fall Behind on a Mortgage in New York" },

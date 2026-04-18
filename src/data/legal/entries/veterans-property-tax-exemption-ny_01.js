@@ -3,6 +3,7 @@ export const VETERANS_PROPERTY_TAX_EXEMPTION_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Veterans Property Tax Exemptions — How to Reduce Your Tax Bill" },

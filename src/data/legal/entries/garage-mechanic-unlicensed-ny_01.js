@@ -3,6 +3,7 @@ export const GARAGE_MECHANIC_UNLICENSED_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Backyard Mechanic Did Bad Work — Can You Sue If They Are Not Licensed" },

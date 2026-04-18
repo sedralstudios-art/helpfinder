@@ -3,6 +3,7 @@ export const HOMESTEAD_EXEMPTION_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Homestead Exemption — Protecting Your Home From Creditors" },

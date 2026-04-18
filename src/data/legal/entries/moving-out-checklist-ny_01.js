@@ -3,6 +3,7 @@ export const MOVING_OUT_CHECKLIST_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Moving Out of an Apartment — Checklist to Protect Your Security Deposit" },

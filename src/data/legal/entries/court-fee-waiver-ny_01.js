@@ -3,6 +3,7 @@ export const COURT_FEE_WAIVER_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Court Fee Waivers — How to File a Case When You Cannot Afford the Filing Fee" },

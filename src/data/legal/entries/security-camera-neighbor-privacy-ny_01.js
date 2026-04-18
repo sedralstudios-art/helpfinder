@@ -3,6 +3,7 @@ export const SECURITY_CAMERA_NEIGHBOR_PRIVACY_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Security Cameras and Neighbor Privacy — What the Law Allows" },

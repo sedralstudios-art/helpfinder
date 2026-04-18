@@ -9,6 +9,7 @@ export const DEBT_COLLECTION_RIGHTS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Debt Collectors — What They Can and Cannot Do" },

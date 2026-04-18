@@ -3,6 +3,7 @@ export const SHED_PERMIT_RULES_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Building a Shed — Permit Rules and Setbacks in Monroe County" },

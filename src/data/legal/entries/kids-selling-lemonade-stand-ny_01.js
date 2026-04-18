@@ -3,6 +3,7 @@ export const KIDS_SELLING_LEMONADE_STAND_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Lemonade Stands and Kids Selling Things — What the Law Actually Says" },

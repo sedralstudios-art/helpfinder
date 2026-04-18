@@ -3,6 +3,7 @@ export const ZONING_VARIANCE_PERMIT_NY = {
   category: "housing",
   tier: "local",
   jurisdiction: "us-ny",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Zoning Variances and Building Permits — What Homeowners Need to Know in Monroe County" },

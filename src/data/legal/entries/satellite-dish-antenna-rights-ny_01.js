@@ -3,6 +3,7 @@ export const SATELLITE_DISH_ANTENNA_RIGHTS_NY = {
   category: "housing",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Satellite Dish and Antenna Rights — What Landlords and HOAs Cannot Block" },

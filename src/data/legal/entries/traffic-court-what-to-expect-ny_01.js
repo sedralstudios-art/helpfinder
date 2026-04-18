@@ -3,6 +3,7 @@ export const TRAFFIC_COURT_WHAT_TO_EXPECT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Going to Traffic Court — What to Expect and How It Works" },

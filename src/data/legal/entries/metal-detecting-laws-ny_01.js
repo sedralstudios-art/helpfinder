@@ -3,6 +3,7 @@ export const METAL_DETECTING_LAWS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Metal Detecting in New York — Where You Can Search and Who Owns What You Find" },

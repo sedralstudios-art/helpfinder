@@ -3,6 +3,7 @@ export const MENTAL_HEALTH_CRISIS_RIGHTS_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Mental Health Crisis — Rights During an Emergency Hold or Evaluation" },

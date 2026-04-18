@@ -3,6 +3,7 @@ export const EPIC_PRESCRIPTION_SENIORS_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "EPIC — Free and Low-Cost Prescription Drug Help for Seniors in New York" },

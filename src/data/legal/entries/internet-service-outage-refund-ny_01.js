@@ -3,6 +3,7 @@ export const INTERNET_SERVICE_OUTAGE_REFUND_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Internet and Cable Outages — When the Provider Owes a Refund or Credit" },

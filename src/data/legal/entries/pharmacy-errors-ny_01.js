@@ -3,6 +3,7 @@ export const PHARMACY_ERRORS_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Pharmacy Errors — What to Do If You Got the Wrong Medication" },

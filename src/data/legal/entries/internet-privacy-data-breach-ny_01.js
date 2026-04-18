@@ -3,6 +3,7 @@ export const INTERNET_PRIVACY_DATA_BREACH_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Data Breaches and Internet Privacy — What Companies Must Do When Your Data Is Stolen" },

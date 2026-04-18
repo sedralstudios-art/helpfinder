@@ -3,6 +3,7 @@ export const CABLE_INTERNET_BILLING_NY = {
   category: "consumer",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Cable and Internet Billing Disputes — What Companies Must Disclose and How to Fight Charges" },

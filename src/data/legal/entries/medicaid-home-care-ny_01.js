@@ -3,6 +3,7 @@ export const MEDICAID_HOME_CARE_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Medicaid Home Care — Staying Home Instead of a Nursing Home in New York" },

@@ -3,6 +3,7 @@ export const LOST_STOLEN_WALLET_WHAT_TO_DO_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Lost or Stolen Wallet — What to Do First and How to Protect Against Fraud" },

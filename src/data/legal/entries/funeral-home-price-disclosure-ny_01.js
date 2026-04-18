@@ -3,6 +3,7 @@ export const FUNERAL_HOME_PRICE_DISCLOSURE_NY = {
   category: "consumer",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Funeral Home Prices — The Right to See a Price List Before Paying" },

@@ -7,6 +7,7 @@ export const entry = {
   category: "trades",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Residential HVAC work in New York: what state law requires" },

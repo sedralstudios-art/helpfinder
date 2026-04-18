@@ -3,6 +3,7 @@ export const TEMP_WORKER_RIGHTS_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Temp Worker Rights — What Staffing Agencies and Employers Owe Temporary Workers" },

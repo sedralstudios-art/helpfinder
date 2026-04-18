@@ -3,6 +3,7 @@ export const NEIGHBOR_SMOKING_SECONDHAND_APARTMENT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Secondhand Smoke from a Neighbor's Apartment — What Tenants and Landlords Can Do" },

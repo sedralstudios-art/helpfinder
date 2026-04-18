@@ -3,6 +3,7 @@ export const BACKGROUND_CHECK_RIGHTS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Background Check Rights — What Employers Can and Cannot Ask in New York" },

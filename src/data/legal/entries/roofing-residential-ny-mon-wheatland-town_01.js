@@ -10,6 +10,7 @@ export const entry = {
   category: "trades",
   tier: "town",
   jurisdiction: "us-ny-monroe-wheatland-town",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: {

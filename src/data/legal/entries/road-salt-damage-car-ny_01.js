@@ -3,6 +3,7 @@ export const ROAD_SALT_DAMAGE_CAR_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Road Salt Damage to Your Car — Rust, Undercarriage, and What You Can Do" },

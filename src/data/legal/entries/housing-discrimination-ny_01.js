@@ -3,6 +3,7 @@ export const HOUSING_DISCRIMINATION_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Housing Discrimination — Illegal Reasons a Landlord Can Reject You in New York" },

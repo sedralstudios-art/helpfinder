@@ -3,6 +3,7 @@ export const PSYCHIATRIC_ADVANCE_DIRECTIVE_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Psychiatric Advance Directives — Planning Ahead for Mental Health Crisis" },

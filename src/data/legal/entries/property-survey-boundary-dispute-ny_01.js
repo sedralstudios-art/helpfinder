@@ -3,6 +3,7 @@ export const PROPERTY_SURVEY_BOUNDARY_DISPUTE_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Property Line Disputes — When to Get a Survey and What Happens Next" },

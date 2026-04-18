@@ -3,6 +3,7 @@ export const HEALTH_INSURANCE_DENIAL_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Health Insurance Denied a Claim or Service — How to Appeal in New York" },

@@ -3,6 +3,7 @@ export const POLITICAL_SIGNS_YARD_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Political Signs in the Yard — What Towns Can and Cannot Restrict" },

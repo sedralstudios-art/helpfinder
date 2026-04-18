@@ -3,6 +3,7 @@ export const WATER_BILL_DISPUTE_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Water Bill Too High — How to Dispute It in Monroe County" },

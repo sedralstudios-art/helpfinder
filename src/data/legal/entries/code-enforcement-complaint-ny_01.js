@@ -3,6 +3,7 @@ export const CODE_ENFORCEMENT_COMPLAINT_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Code Enforcement Complaints — How to Report Housing and Property Problems in Monroe County" },

@@ -3,6 +3,7 @@ export const COSIGNER_RIGHTS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Cosigning a Loan — What Happens If the Borrower Stops Paying" },

@@ -3,6 +3,7 @@ export const STEPPARENT_RIGHTS_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Stepparent Rights — Legal Status, Custody, and Adoption in New York" },

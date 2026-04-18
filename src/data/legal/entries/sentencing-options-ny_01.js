@@ -3,6 +3,7 @@ export const SENTENCING_OPTIONS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Sentencing in New York — What a Judge Can Order After a Conviction" },

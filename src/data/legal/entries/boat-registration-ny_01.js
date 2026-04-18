@@ -3,6 +3,7 @@ export const BOAT_REGISTRATION_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Boat Registration in New York — What You Need Before Hitting the Water" },

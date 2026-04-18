@@ -3,6 +3,7 @@ export const LANDLORD_SHOWING_APARTMENT_NOTICE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Landlord Showing the Apartment — How Much Notice Is Required" },

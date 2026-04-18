@@ -3,6 +3,7 @@ export const SENIOR_FRAUD_PREVENTION_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Protecting Seniors from Fraud — Common Scams and What to Do" },

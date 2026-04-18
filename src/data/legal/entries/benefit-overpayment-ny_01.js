@@ -3,6 +3,7 @@ export const BENEFIT_OVERPAYMENT_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Benefits Overpayment — What to Do If the Agency Says You Owe Money Back" },

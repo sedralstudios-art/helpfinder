@@ -3,6 +3,7 @@ export const DRIVING_WITHOUT_INSURANCE_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Driving Without Insurance in New York — Penalties and What to Do" },

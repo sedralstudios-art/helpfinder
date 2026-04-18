@@ -3,6 +3,7 @@ export const GYM_MEMBERSHIP_CANCELLATION_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Gym Membership Cancellation — Your Rights Under New York's Health Club Law" },

@@ -3,6 +3,7 @@ export const ESA_VS_SERVICE_ANIMAL_NY = {
   category: "housing",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Emotional Support Animals vs. Service Animals — What Landlords Can and Cannot Do" },

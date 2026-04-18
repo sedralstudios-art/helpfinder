@@ -3,6 +3,7 @@ export const DOMESTIC_VIOLENCE_PET_PROTECTION_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Pets and Domestic Violence — Court Orders That Protect Animals and Survivors" },

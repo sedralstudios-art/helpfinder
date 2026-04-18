@@ -3,6 +3,7 @@ export const SOVEREIGN_CITIZEN_MYTHS_NY = {
   category: "criminal",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Sovereign Citizen Claims — Why They Do Not Work in Court" },

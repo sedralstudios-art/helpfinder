@@ -3,6 +3,7 @@ export const STREET_LIGHT_OUT_REPORT_NY = {
   category: "government",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Street Light Out — How to Report It in Monroe County" },

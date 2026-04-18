@@ -3,6 +3,7 @@ export const PARATRANSIT_ADA_TRANSPORTATION_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Paratransit and ADA Transportation Rights in Monroe County" },

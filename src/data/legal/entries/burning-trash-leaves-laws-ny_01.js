@@ -3,6 +3,7 @@ export const BURNING_TRASH_LEAVES_LAWS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Burning Trash, Leaves, or Brush — What Is Legal in New York" },

@@ -3,6 +3,7 @@ export const SUBLETTING_AIRBNB_TENANT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Subletting and Short-Term Rentals — What Tenants Can and Cannot Do in New York" },

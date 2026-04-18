@@ -3,6 +3,7 @@ export const DOG_BITE_LIABILITY_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Dog Bite Liability — What Happens When a Dog Injures Someone in New York" },

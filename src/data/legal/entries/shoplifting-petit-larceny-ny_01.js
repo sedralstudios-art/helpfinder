@@ -3,6 +3,7 @@ export const SHOPLIFTING_PETIT_LARCENY_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Shoplifting and Petit Larceny Charges in New York — What to Expect" },

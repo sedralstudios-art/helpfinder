@@ -3,6 +3,7 @@ export const HEARING_AID_HELP_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Hearing Aids — Free and Low-Cost Programs in New York" },

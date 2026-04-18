@@ -3,6 +3,7 @@ export const DRONE_LAWS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Drone Laws in New York — Where You Can Fly and What You Need" },

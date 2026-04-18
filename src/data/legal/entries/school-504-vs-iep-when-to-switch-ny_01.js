@@ -3,6 +3,7 @@ export const SCHOOL_504_VS_IEP_WHEN_TO_SWITCH_NY = {
   category: "education",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "When a 504 Plan Is Not Enough — How to Request an IEP Evaluation" },

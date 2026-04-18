@@ -3,6 +3,7 @@ export const TOW_TRUCK_SCAM_ACCIDENT_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Tow Truck Scams After an Accident — Predatory Towing and Overcharging" },

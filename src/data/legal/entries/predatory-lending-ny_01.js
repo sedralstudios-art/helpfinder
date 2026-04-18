@@ -3,6 +3,7 @@ export const PREDATORY_LENDING_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Predatory Lending — How to Recognize It and What Protections Exist in New York" },

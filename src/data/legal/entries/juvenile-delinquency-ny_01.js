@@ -3,6 +3,7 @@ export const JUVENILE_DELINQUENCY_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Juvenile Delinquency — When a Child Is Charged With a Crime in New York" },

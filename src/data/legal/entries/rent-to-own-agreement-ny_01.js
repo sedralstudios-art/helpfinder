@@ -3,6 +3,7 @@ export const RENT_TO_OWN_AGREEMENT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Rent-to-Own Agreements — How They Work and What Can Go Wrong" },

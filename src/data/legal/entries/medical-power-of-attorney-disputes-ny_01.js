@@ -3,6 +3,7 @@ export const MEDICAL_POWER_OF_ATTORNEY_DISPUTES_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Health Care Proxy Disputes — What Happens When Family Members Disagree About Medical Decisions" },

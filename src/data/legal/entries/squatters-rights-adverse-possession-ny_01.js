@@ -3,6 +3,7 @@ export const SQUATTERS_RIGHTS_ADVERSE_POSSESSION_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Squatter's Rights and Adverse Possession — How It Actually Works in New York" },

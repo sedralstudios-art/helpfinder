@@ -3,6 +3,7 @@ export const RENTERS_INSURANCE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Renters Insurance — What It Covers and Whether Your Landlord Can Require It" },

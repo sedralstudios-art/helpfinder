@@ -3,6 +3,7 @@ export const ADOPTION_SUBSIDY_FOSTER_CARE_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Adoption Subsidy — Financial Help for Families Who Adopt from Foster Care" },

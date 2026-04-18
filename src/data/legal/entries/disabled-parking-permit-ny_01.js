@@ -3,6 +3,7 @@ export const DISABLED_PARKING_PERMIT_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Disabled Parking Permits — How to Get One in New York" },

@@ -3,6 +3,7 @@ export const ABLE_ACCOUNT_DISABILITY_SAVINGS_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "ABLE Accounts — Saving Money Without Losing SSI or Medicaid" },

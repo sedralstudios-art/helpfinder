@@ -3,6 +3,7 @@ export const UTILITY_SCAM_IMPERSONATION_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny-mon",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Utility Scams — Fake Shutoff Threats, Impersonators, and How to Verify" },

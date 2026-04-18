@@ -3,6 +3,7 @@ export const HOME_WARRANTY_VS_HOME_INSURANCE_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Home Warranty vs. Home Insurance — What Each Covers and Common Complaints" },

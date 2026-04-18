@@ -3,6 +3,7 @@ export const EMERGENCY_SHELTER_WARMING_CENTER_NY = {
   category: "benefits",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Emergency Shelter and Warming Centers — Where to Go When There Is No Place to Stay" },

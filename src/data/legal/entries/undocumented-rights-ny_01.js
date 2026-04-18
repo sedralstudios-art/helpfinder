@@ -3,6 +3,7 @@ export const UNDOCUMENTED_RIGHTS_NY = {
   category: "family",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Rights of Undocumented Immigrants in New York — What the Law Protects Regardless of Status" },

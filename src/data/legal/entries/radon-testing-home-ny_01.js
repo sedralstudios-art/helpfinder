@@ -3,6 +3,7 @@ export const RADON_TESTING_HOME_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Radon in Your Home — Testing, Health Risks, and What Landlords Must Do" },

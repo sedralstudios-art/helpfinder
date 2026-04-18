@@ -3,6 +3,7 @@ export const MEDICAID_TRANSPORTATION_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Medicaid Transportation — Free Rides to Medical Appointments in New York" },

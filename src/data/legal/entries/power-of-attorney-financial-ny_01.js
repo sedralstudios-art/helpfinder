@@ -3,6 +3,7 @@ export const POWER_OF_ATTORNEY_FINANCIAL_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Financial Power of Attorney — What It Does, How to Set It Up, and How to Prevent Abuse" },

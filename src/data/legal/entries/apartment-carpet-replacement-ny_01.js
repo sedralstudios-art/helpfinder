@@ -3,6 +3,7 @@ export const APARTMENT_CARPET_REPLACEMENT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Worn-Out Carpet in a Rental — Can the Landlord Charge You for Replacing It" },

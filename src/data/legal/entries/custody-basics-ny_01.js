@@ -3,6 +3,7 @@ export const CUSTODY_BASICS_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Child Custody — How Courts Decide Who the Child Lives With" },

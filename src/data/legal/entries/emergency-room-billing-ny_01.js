@@ -3,6 +3,7 @@ export const EMERGENCY_ROOM_BILLING_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Emergency Room Bills — What You Can Do About Surprise Charges" },

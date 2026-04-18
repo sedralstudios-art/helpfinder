@@ -3,6 +3,7 @@ export const LEASE_ASSIGNMENT_SUBLEASE_DIFFERENCE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Lease Assignment vs. Sublease — How to Transfer a Lease to Someone Else in New York" },

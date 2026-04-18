@@ -3,6 +3,7 @@ export const SMALL_ESTATE_AFFIDAVIT_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Small Estate Affidavit — A Simpler Way to Settle an Estate Under $50,000" },

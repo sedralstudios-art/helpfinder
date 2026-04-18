@@ -3,6 +3,7 @@ export const SEX_OFFENDER_REGISTRY_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Sex Offender Registry — How It Works, Levels, and What Registrants Must Do" },

@@ -3,6 +3,7 @@ export const VETERANS_HOUSING_ASSISTANCE_NY = {
   category: "benefits",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Veterans Housing Assistance — VA Home Loans, Emergency Housing, and Local Programs" },

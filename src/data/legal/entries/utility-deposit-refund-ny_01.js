@@ -3,6 +3,7 @@ export const UTILITY_DEPOSIT_REFUND_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Utility Deposits — When They Are Required, How Much, and Getting the Money Back" },

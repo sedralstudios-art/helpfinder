@@ -3,6 +3,7 @@ export const CO_OP_CONDO_RIGHTS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Co-op vs. Condo — What Owners and Buyers Need to Know" },

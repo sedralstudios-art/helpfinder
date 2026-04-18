@@ -3,6 +3,7 @@ export const WATER_HEATER_RULES_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Water Heater Replacement — Permits, Codes, and What Landlords Must Provide" },

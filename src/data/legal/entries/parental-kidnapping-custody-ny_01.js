@@ -3,6 +3,7 @@ export const PARENTAL_KIDNAPPING_CUSTODY_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Parental Kidnapping — When One Parent Takes the Child and Won't Return Them" },

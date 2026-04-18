@@ -3,6 +3,7 @@ export const INHERITED_PROPERTY_TAXES_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Inherited a House With Back Taxes — What to Do" },

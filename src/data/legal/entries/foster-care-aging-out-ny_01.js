@@ -3,6 +3,7 @@ export const FOSTER_CARE_AGING_OUT_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Aging Out of Foster Care — Rights and Resources for Youth Turning 18-21 in New York" },

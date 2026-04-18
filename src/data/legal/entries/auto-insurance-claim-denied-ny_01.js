@@ -3,6 +3,7 @@ export const AUTO_INSURANCE_CLAIM_DENIED_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Auto Insurance Claim Denied — What to Do Next" },

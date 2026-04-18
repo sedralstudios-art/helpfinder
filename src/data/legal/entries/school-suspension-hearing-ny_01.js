@@ -3,6 +3,7 @@ export const SCHOOL_SUSPENSION_HEARING_NY = {
   category: "education",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "School Suspension Hearings — What Parents and Students Need to Know" },

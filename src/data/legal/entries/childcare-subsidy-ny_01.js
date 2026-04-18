@@ -3,6 +3,7 @@ export const CHILDCARE_SUBSIDY_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Child Care Subsidy — Help Paying for Day Care in New York" },

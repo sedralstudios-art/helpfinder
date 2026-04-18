@@ -3,6 +3,7 @@ export const TIP_POOLING_LAWS_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Tip Pooling — Who Can Share Tips and What an Employer Cannot Do" },

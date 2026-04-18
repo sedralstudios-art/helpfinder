@@ -3,6 +3,7 @@ export const CHILD_LABOR_LAWS_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Child Labor Laws in New York — Working Age, Hours, and Required Permits" },

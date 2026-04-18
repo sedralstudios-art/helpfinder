@@ -3,6 +3,7 @@ export const DIY_WILL_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Writing a Will in New York — What the Law Requires for It to Be Valid" },

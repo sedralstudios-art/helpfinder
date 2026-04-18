@@ -3,6 +3,7 @@ export const SERVICE_ANIMAL_PUBLIC_ACCESS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Service Animals in Public Places — What Businesses Must Allow" },

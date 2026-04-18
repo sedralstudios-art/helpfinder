@@ -3,6 +3,7 @@ export const ABOVE_GROUND_POOL_RULES_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Above-Ground Pool Rules — Permits, Fencing, and Liability in Monroe County" },

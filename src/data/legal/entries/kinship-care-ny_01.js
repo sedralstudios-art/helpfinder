@@ -3,6 +3,7 @@ export const KINSHIP_CARE_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Kinship Care — When a Relative Raises a Child in New York" },

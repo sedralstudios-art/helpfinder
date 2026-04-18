@@ -3,6 +3,7 @@ export const CAREGIVER_RIGHTS_FAMILY_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Family Caregivers — Legal Rights and Programs That Can Help" },

@@ -3,6 +3,7 @@ export const CITIZENS_ARREST_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Citizen's Arrest — What Private Citizens Can and Cannot Do in New York" },

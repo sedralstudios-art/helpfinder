@@ -3,6 +3,7 @@ export const FREE_CELL_PHONE_LIFELINE_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Free Cell Phone and Internet — Lifeline and ACP Programs" },

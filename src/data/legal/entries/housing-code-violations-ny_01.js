@@ -3,6 +3,7 @@ export const HOUSING_CODE_VIOLATIONS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Housing Code Violations — How to Report and What Happens Next" },

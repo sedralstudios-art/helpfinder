@@ -3,6 +3,7 @@ export const EXTENDED_WARRANTY_SCAM_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Extended Warranty Scams — Robocalls, Deceptive Contracts, and How to Cancel" },

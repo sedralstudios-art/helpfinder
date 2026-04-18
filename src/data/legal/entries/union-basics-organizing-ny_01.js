@@ -3,6 +3,7 @@ export const UNION_BASICS_ORGANIZING_NY = {
   category: "employment",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Unions — The Right to Organize and What an Employer Cannot Do" },

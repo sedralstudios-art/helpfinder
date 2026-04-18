@@ -3,6 +3,7 @@ export const GENETIC_DISCRIMINATION_GINA_NY = {
   category: "employment",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Genetic Discrimination — An Employer or Insurer Cannot Use DNA Test Results Against a Person" },

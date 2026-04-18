@@ -3,6 +3,7 @@ export const SUSPENDED_LICENSE_HARDSHIP_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Driving With a Suspended License — Hardship and Restricted Licenses" },

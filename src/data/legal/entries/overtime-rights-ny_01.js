@@ -3,6 +3,7 @@ export const OVERTIME_RIGHTS_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Overtime Pay Rights in New York" },

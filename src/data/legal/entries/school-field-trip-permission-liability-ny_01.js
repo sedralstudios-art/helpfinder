@@ -3,6 +3,7 @@ export const SCHOOL_FIELD_TRIP_PERMISSION_LIABILITY_NY = {
   category: "education",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "School Field Trips — Permission Slips, Liability Waivers, and What Happens If a Child Is Hurt" },

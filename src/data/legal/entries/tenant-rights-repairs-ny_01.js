@@ -3,6 +3,7 @@ export const TENANT_RIGHTS_REPAIRS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Tenant Rights — Repairs, Habitability, and Withholding Rent" },

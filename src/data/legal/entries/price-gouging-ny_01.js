@@ -3,6 +3,7 @@ export const PRICE_GOUGING_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Price Gouging — What Sellers Cannot Do During an Emergency in New York" },

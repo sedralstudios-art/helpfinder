@@ -3,6 +3,7 @@ export const SEVERANCE_AGREEMENTS_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Severance Agreements — What to Know Before Signing When You Lose a Job" },

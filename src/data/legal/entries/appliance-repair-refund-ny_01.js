@@ -3,6 +3,7 @@ export const APPLIANCE_REPAIR_REFUND_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Appliance Repair Scams — What to Do When the Repair Did Not Work" },

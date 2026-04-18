@@ -3,6 +3,7 @@ export const MEDICAL_DEBT_CREDIT_REPORT_NY = {
   category: "health",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Medical Debt on Credit Reports — New Rules That Protect Patients" },

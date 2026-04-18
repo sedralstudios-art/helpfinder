@@ -3,6 +3,7 @@ export const RACCOON_SKUNK_WILDLIFE_REMOVAL_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Raccoons, Skunks, and Wildlife in Your Home — Removal Rules in New York" },

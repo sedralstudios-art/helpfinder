@@ -3,6 +3,7 @@ export const BIKE_ACCIDENT_DOORING_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Bicycle Dooring Accidents — When a Car Door Opens Into a Cyclist" },

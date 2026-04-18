@@ -3,6 +3,7 @@ export const CRIMINAL_APPEAL_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Appealing a Criminal Conviction in New York" },

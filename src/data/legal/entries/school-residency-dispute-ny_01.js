@@ -3,6 +3,7 @@ export const SCHOOL_RESIDENCY_DISPUTE_NY = {
   category: "education",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "School Residency Disputes — When a District Says a Child Cannot Attend" },

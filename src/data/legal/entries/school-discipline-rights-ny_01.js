@@ -3,6 +3,7 @@ export const SCHOOL_DISCIPLINE_RIGHTS_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "School Discipline and Suspension Rights in New York" },

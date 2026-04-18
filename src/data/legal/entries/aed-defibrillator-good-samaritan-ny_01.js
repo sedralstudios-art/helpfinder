@@ -3,6 +3,7 @@ export const AED_DEFIBRILLATOR_GOOD_SAMARITAN_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Using an AED to Save a Life — Good Samaritan Protection in New York" },

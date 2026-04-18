@@ -3,6 +3,7 @@ export const CHECK_FRAUD_STOLEN_CHECK_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Check Fraud and Stolen Checks — What to Do When a Check Is Altered or Forged" },

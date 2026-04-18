@@ -3,6 +3,7 @@ export const RENTERS_RIGHTS_CHECKLIST_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Renter's Rights Checklist — Everything a Tenant in New York Should Know" },

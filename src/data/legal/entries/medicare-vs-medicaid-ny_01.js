@@ -3,6 +3,7 @@ export const MEDICARE_VS_MEDICAID_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Medicare vs. Medicaid — What Each One Covers and Who Qualifies" },

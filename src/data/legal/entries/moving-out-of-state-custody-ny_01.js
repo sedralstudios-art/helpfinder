@@ -3,6 +3,7 @@ export const MOVING_OUT_OF_STATE_CUSTODY_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Moving Out of State with a Child — Relocation and Custody in New York" },

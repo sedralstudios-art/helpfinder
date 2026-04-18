@@ -3,6 +3,7 @@ export const FOSTER_CARE_BILL_OF_RIGHTS_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Foster Care Bill of Rights — What Children and Youth in Foster Care Are Entitled To" },

@@ -9,6 +9,7 @@ export const entry = {
   category: "trades",
   tier: "village",
   jurisdiction: "us-ny-monroe-spencerport-village",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: {

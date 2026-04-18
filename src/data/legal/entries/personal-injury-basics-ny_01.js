@@ -3,6 +3,7 @@ export const PERSONAL_INJURY_BASICS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Personal Injury Basics — Slip and Fall, Car Accidents, and Negligence in New York" },

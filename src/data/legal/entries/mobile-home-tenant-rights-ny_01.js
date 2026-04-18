@@ -3,6 +3,7 @@ export const MOBILE_HOME_TENANT_RIGHTS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Mobile Home and Manufactured Housing Tenant Rights in New York" },

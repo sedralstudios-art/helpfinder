@@ -3,6 +3,7 @@ export const GED_HSE_PROGRAMS_NY = {
   category: "education",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "GED and High School Equivalency — Free Programs in Monroe County" },

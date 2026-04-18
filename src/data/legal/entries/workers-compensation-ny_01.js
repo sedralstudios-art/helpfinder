@@ -3,6 +3,7 @@ export const WORKERS_COMPENSATION_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Workers' Compensation — Your Rights If You Get Hurt at Work" },

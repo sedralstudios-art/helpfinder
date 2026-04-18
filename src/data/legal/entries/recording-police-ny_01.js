@@ -3,6 +3,7 @@ export const RECORDING_POLICE_NY = {
   category: "criminal",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Recording the Police — Your Right to Film Officers in Public" },

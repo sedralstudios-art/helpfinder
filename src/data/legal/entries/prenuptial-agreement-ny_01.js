@@ -3,6 +3,7 @@ export const PRENUPTIAL_AGREEMENT_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Prenuptial Agreements — What They Cover and When They Can Be Thrown Out" },

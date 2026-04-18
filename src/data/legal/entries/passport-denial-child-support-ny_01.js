@@ -3,6 +3,7 @@ export const PASSPORT_DENIAL_CHILD_SUPPORT_NY = {
   category: "family",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Passport Denied for Child Support — What Happens and How to Fix It" },

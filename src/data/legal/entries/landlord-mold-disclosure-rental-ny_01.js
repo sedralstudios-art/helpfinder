@@ -3,6 +3,7 @@ export const LANDLORD_MOLD_DISCLOSURE_RENTAL_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Mold Disclosure in Rentals — What a Landlord Must Tell a Tenant Before Signing a Lease" },

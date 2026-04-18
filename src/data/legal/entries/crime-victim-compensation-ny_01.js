@@ -3,6 +3,7 @@ export const CRIME_VICTIM_COMPENSATION_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Crime Victim Compensation — Financial Help After a Crime" },

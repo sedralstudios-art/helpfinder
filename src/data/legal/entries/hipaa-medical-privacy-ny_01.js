@@ -3,6 +3,7 @@ export const HIPAA_MEDICAL_PRIVACY_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "HIPAA and Medical Privacy — What Your Doctor Can and Cannot Share" },

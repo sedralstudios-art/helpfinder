@@ -3,6 +3,7 @@ export const SCHOOL_TRANSPORTATION_BUS_RIGHTS_NY = {
   category: "education",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "School Bus Transportation — Who Qualifies and What to Do If Your Child Is Denied" },

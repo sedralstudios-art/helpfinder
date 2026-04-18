@@ -3,6 +3,7 @@ export const CAR_TOWED_REPOSSESSED_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Your Car Was Towed or Repossessed — What to Do in New York" },

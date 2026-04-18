@@ -3,6 +3,7 @@ export const WELL_WATER_TESTING_NEW_HOME_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Well Water Testing When Buying a Home — What to Test For and Who Pays" },

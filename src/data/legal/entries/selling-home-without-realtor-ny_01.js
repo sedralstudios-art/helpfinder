@@ -3,6 +3,7 @@ export const SELLING_HOME_WITHOUT_REALTOR_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Selling a Home Without a Realtor (FSBO) — What New York Law Requires" },

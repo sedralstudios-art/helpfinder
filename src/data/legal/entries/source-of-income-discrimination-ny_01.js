@@ -3,6 +3,7 @@ export const SOURCE_OF_INCOME_DISCRIMINATION_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Source of Income Discrimination — Landlords Cannot Refuse Section 8 or Other Vouchers in New York" },

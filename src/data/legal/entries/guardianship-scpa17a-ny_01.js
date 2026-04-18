@@ -3,6 +3,7 @@ export const GUARDIANSHIP_SCPA17A_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Guardianship for Adults With Intellectual Disabilities (SCPA 17-A)" },

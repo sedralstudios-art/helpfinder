@@ -3,6 +3,7 @@ export const ORGAN_DONATION_RIGHTS_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Organ Donation in New York — What the Law Says About Your Choice" },

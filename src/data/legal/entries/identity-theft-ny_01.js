@@ -3,6 +3,7 @@ export const IDENTITY_THEFT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Identity Theft — What to Do If Someone Uses Your Information" },

@@ -3,6 +3,7 @@ export const AUTO_DEALER_JUNK_FEES_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Auto Dealer Add-On Fees — What a Car Dealer Cannot Charge" },

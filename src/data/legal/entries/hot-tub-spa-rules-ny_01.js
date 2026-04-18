@@ -3,6 +3,7 @@ export const HOT_TUB_SPA_RULES_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Hot Tub and Spa Rules — Permits, Fencing, and Liability in Monroe County" },

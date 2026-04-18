@@ -3,6 +3,7 @@ export const NURSING_HOME_COMPLAINT_NEGLECT_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny-mon",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Nursing Home Complaints — How to Report Neglect, Abuse, or Poor Conditions" },

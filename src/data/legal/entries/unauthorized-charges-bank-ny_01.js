@@ -3,6 +3,7 @@ export const UNAUTHORIZED_CHARGES_BANK_NY = {
   category: "consumer",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Unauthorized Bank and Credit Card Charges — How to Dispute and Get Your Money Back" },

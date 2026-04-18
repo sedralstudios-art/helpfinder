@@ -3,6 +3,7 @@ export const WILLS_VS_NO_WILL_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "What Happens When Someone Dies Without a Will in New York" },

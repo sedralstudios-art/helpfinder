@@ -3,6 +3,7 @@ export const SUBSCRIPTION_CANCELLATION_RIGHTS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Subscription Cancellation — Rights When a Company Makes It Hard to Cancel" },

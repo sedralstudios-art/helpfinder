@@ -3,6 +3,7 @@ export const ABANDONED_BANK_ACCOUNT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Abandoned Bank Accounts and Unclaimed Property — How to Get Money Back from the State" },

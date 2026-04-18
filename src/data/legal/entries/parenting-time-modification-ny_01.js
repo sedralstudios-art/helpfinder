@@ -3,6 +3,7 @@ export const PARENTING_TIME_MODIFICATION_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Changing a Custody or Visitation Order — How to Modify Parenting Time" },

@@ -3,6 +3,7 @@ export const CHILD_LEFT_IN_CAR_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Child Left in a Car — What the Law Says and What Bystanders Can Do" },

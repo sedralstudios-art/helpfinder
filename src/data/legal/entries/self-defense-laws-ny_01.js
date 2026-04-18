@@ -3,6 +3,7 @@ export const SELF_DEFENSE_LAWS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Self-Defense Laws in New York — When Force Is Legally Justified" },

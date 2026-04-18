@@ -3,6 +3,7 @@ export const MISSED_COURT_WARRANT_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Missed a Court Date — What Happens and How to Clear a Warrant in New York" },

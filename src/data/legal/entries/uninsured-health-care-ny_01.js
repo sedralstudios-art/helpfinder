@@ -3,6 +3,7 @@ export const UNINSURED_HEALTH_CARE_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Health Care Without Insurance — Options in Monroe County" },

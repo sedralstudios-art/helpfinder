@@ -3,6 +3,7 @@ export const VISITATION_RIGHTS_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Visitation Rights — When a Parent Is Denied Time with Their Child" },

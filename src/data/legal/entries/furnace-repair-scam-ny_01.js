@@ -3,6 +3,7 @@ export const FURNACE_REPAIR_SCAM_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Furnace Repair Scams — What to Watch For When the Heat Goes Out" },

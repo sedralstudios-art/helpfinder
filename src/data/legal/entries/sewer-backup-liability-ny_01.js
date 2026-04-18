@@ -3,6 +3,7 @@ export const SEWER_BACKUP_LIABILITY_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Sewer Backup in Your Home — Who Is Responsible and What to Do" },

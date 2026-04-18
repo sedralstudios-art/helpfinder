@@ -3,6 +3,7 @@ export const WORKPLACE_SAFETY_NY = {
   category: "employment",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Workplace Safety Rights — OSHA and New York PESH" },

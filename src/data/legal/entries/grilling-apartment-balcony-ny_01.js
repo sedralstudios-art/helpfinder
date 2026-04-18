@@ -3,6 +3,7 @@ export const GRILLING_APARTMENT_BALCONY_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Grilling on an Apartment Balcony — What Is Allowed and What Is Not" },

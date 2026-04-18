@@ -3,6 +3,7 @@ export const NOTARIZATION_BASICS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Notarization — Where to Get Documents Notarized for Free or Low Cost" },

@@ -3,6 +3,7 @@ export const NAME_CHANGE_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "How to Legally Change Your Name in New York" },

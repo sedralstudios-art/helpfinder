@@ -3,6 +3,7 @@ export const PAWN_SHOP_RIGHTS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Pawn Shop Rights — What a Pawn Broker Must Tell a Customer and How to Get Items Back" },

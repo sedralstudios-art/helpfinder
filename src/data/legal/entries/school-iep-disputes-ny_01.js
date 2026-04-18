@@ -3,6 +3,7 @@ export const SCHOOL_IEP_DISPUTES_NY = {
   category: "education",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "IEP Disputes — What to Do When the School District Disagrees" },

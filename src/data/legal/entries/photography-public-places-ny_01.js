@@ -3,6 +3,7 @@ export const PHOTOGRAPHY_PUBLIC_PLACES_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Taking Photos in Public — What Is Legal and When Someone Can Tell You to Stop" },

@@ -3,6 +3,7 @@ export const DWI_FIRST_OFFENSE_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "DWI First Offense — What Happens After a Drunk Driving Arrest in New York" },

@@ -3,6 +3,7 @@ export const ADA_PUBLIC_TRANSIT_NY = {
   category: "government",
   tier: "federal",
   jurisdiction: "us-fed",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Disability Rights on Public Transit — Buses, Lifts, and Paratransit" },

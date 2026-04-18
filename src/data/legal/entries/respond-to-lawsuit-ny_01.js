@@ -3,6 +3,7 @@ export const RESPOND_TO_LAWSUIT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "You Got Sued — How to Respond to a Civil Lawsuit in New York" },

@@ -3,6 +3,7 @@ export const MENTAL_HEALTH_PATIENT_RIGHTS_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Mental Health Patient Rights in New York — What You Are Entitled To" },

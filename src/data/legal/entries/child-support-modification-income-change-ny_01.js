@@ -3,6 +3,7 @@ export const CHILD_SUPPORT_MODIFICATION_INCOME_CHANGE_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Lowering Child Support After a Job Loss or Income Drop — How to File for a Modification" },

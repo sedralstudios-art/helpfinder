@@ -3,6 +3,7 @@ export const WHAT_HAPPENS_AT_ARRAIGNMENT_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "What Happens at an Arraignment — The First Court Appearance After Arrest" },

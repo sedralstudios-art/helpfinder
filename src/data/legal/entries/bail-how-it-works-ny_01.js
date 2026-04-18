@@ -3,6 +3,7 @@ export const BAIL_HOW_IT_WORKS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "How Bail Works in New York — Paying, Bonds, and Getting Your Money Back" },

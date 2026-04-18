@@ -3,6 +3,7 @@ export const CEMETERY_BURIAL_PLOT_RIGHTS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Burial Plot Rights — What Happens When a Cemetery Raises Prices or Limits Access" },

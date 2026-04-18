@@ -3,6 +3,7 @@ export const OUTDOOR_FIRE_PIT_RULES_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Fire Pit Rules — What Monroe County Towns Allow in the Backyard" },

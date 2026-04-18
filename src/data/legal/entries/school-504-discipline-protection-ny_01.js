@@ -3,6 +3,7 @@ export const SCHOOL_504_DISCIPLINE_PROTECTION_NY = {
   category: "education",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "School Discipline and Disability — When a Student with an IEP or 504 Plan Cannot Be Suspended" },

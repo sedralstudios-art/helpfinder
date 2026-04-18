@@ -3,6 +3,7 @@ export const POWER_OUTAGE_RIGHTS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Power Outages — Your Rights When the Electricity Goes Out" },

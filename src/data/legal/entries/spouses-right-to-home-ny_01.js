@@ -3,6 +3,7 @@ export const SPOUSES_RIGHT_TO_HOME_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Spouse's Right to Stay in the Home During Divorce or Separation" },

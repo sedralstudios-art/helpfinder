@@ -3,6 +3,7 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Benefits Denied or Cut? How to Appeal Through a Fair Hearing" },

@@ -3,6 +3,7 @@ export const DEBT_COLLECTION_HARASSMENT_NY = {
   category: "consumer",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Debt Collector Harassment — What They Cannot Do and How to Stop Them" },

@@ -3,6 +3,7 @@ export const CHILD_SUPPORT_ENFORCEMENT_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Child Support Not Being Paid — How to Enforce a Court Order" },

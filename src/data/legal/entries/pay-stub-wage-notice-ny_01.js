@@ -3,6 +3,7 @@ export const PAY_STUB_WAGE_NOTICE_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Pay Stub and Wage Notice Rights — What Your Employer Must Tell You in New York" },

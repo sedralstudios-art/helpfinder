@@ -3,6 +3,7 @@ export const FLOOD_ZONE_INSURANCE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Flood Zones and Flood Insurance — What Homeowners Need to Know" },

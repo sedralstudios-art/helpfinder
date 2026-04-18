@@ -3,6 +3,7 @@ export const DOOR_TO_DOOR_SALES_CANCEL_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Door-to-Door Sales — The 3-Day Cancellation Rule and How to Use It" },

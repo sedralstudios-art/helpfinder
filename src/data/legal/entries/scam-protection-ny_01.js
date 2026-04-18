@@ -3,6 +3,7 @@ export const SCAM_PROTECTION_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Scams and Fraud — How to Recognize, Report, and Recover in New York" },

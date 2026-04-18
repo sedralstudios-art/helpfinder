@@ -3,6 +3,7 @@ export const HEALTH_CARE_PROXY_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Health Care Proxy in New York — Choosing Someone to Make Medical Decisions for You" },

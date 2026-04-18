@@ -3,6 +3,7 @@ export const HEAT_NOT_WORKING_TENANT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "No Heat in Your Apartment — What Landlords Must Provide and What Tenants Can Do" },

@@ -3,6 +3,7 @@ export const JURY_NULLIFICATION_NY = {
   category: "criminal",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Jury Nullification — What It Is, Whether It Is Legal, and Why Courts Do Not Talk About It" },

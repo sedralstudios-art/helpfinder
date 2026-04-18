@@ -3,6 +3,7 @@ export const VETERANS_COURT_FINES_FEES_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Court Fines and Fees — What Happens When a Person Cannot Afford to Pay" },

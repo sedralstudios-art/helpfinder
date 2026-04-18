@@ -3,6 +3,7 @@ export const HOA_DISPUTES_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "HOA and Condo Association Disputes — What Homeowners Can Do" },

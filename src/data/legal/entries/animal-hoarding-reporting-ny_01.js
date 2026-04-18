@@ -3,6 +3,7 @@ export const ANIMAL_HOARDING_REPORTING_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny-mon",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Animal Hoarding — How to Report It and What Happens Next" },

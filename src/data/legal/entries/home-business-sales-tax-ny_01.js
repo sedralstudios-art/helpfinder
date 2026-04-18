@@ -3,6 +3,7 @@ export const HOME_BUSINESS_SALES_TAX_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Selling Online From Home — When You Need to Collect Sales Tax in New York" },

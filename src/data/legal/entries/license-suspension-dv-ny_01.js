@@ -3,6 +3,7 @@ export const LICENSE_SUSPENSION_DV_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "License Suspended for Unpaid Fines, Child Support, or Failure to Appear" },

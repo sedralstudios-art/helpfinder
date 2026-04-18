@@ -3,6 +3,7 @@ export const PRIVATE_ROAD_MAINTENANCE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Private Roads — Who Pays for Plowing, Paving, and Repairs" },

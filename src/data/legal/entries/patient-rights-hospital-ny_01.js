@@ -3,6 +3,7 @@ export const PATIENT_RIGHTS_HOSPITAL_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Hospital Patient Rights in New York — What Every Patient Is Entitled To" },

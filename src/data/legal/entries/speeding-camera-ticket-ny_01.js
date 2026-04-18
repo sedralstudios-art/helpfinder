@@ -3,6 +3,7 @@ export const SPEEDING_CAMERA_TICKET_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Speed Camera and Red Light Camera Tickets — How They Work" },

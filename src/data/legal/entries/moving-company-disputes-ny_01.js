@@ -3,6 +3,7 @@ export const MOVING_COMPANY_DISPUTES_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Moving Company Problems — Damaged Items, Hostage Loads, and Scams" },

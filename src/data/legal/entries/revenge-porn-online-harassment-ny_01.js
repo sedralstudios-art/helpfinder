@@ -3,6 +3,7 @@ export const REVENGE_PORN_ONLINE_HARASSMENT_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Revenge Porn, Cyberstalking, and Online Harassment — Your Legal Options in New York" },

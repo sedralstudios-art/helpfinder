@@ -3,6 +3,7 @@ export const LOCKED_OUT_OF_HOUSE_LOCKSMITH_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Locked Out of Your House — Locksmith Scams and What to Watch For" },

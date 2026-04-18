@@ -3,6 +3,7 @@ export const UBER_LYFT_ACCIDENT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Uber or Lyft Accident — Who Pays for Injuries and Damage" },

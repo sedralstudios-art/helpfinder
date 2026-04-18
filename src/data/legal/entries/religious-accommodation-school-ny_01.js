@@ -3,6 +3,7 @@ export const RELIGIOUS_ACCOMMODATION_SCHOOL_NY = {
   category: "education",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Religious Accommodations at School — Absences, Holidays, Dress Code, and Dietary Needs" },

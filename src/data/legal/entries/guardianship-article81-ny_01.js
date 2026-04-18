@@ -3,6 +3,7 @@ export const GUARDIANSHIP_ARTICLE81_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Guardianship (Article 81) — When Someone Cannot Make Decisions for Themselves" },

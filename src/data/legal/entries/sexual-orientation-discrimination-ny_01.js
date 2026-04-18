@@ -3,6 +3,7 @@ export const SEXUAL_ORIENTATION_DISCRIMINATION_NY = {
   category: "employment",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "LGBTQ+ Workplace Discrimination — Protections in New York" },

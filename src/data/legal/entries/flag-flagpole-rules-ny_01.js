@@ -3,6 +3,7 @@ export const FLAG_FLAGPOLE_RULES_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Flags and Flagpoles — What HOAs and Towns Can and Cannot Restrict" },

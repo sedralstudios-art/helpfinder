@@ -3,6 +3,7 @@ export const PUBLIC_ACCOMMODATIONS_ADA_NY = {
   category: "consumer",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "ADA Public Accommodations — Businesses Must Be Accessible to People with Disabilities" },

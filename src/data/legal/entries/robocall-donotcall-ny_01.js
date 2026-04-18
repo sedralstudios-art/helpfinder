@@ -3,6 +3,7 @@ export const ROBOCALL_DONOTCALL_NY = {
   category: "consumer",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Robocalls, Spam Calls, and the Do Not Call Registry" },

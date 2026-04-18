@@ -3,6 +3,7 @@ export const NURSING_HOME_DISCHARGE_RIGHTS_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Nursing Home Discharge — When a Facility Wants to Send You Home" },

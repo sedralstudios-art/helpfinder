@@ -3,6 +3,7 @@ export const NARCAN_ACCESS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Narcan — Who Can Carry It, Who Can Use It, Where to Get It Free" },

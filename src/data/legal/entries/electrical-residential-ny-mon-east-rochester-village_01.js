@@ -5,6 +5,7 @@ export const entry = {
   category: "trades",
   tier: "village",
   jurisdiction: "us-ny-monroe-east-rochester-village",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Electrical work in East Rochester: what the village requires" },

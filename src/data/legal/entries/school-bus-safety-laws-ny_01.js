@@ -3,6 +3,7 @@ export const SCHOOL_BUS_SAFETY_LAWS_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "School Bus Safety Laws — Passing a Stopped Bus and Other Rules in New York" },

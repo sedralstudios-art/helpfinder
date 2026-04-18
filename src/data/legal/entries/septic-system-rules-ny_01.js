@@ -3,6 +3,7 @@ export const SEPTIC_SYSTEM_RULES_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Septic Systems in Monroe County — Rules, Inspections, and What to Do When It Fails" },

@@ -3,6 +3,7 @@ export const IGNITION_INTERLOCK_DWI_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Ignition Interlock Device — DWI Rules, Costs, and How Long It Lasts" },

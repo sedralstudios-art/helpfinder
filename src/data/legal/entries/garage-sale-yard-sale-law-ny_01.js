@@ -3,6 +3,7 @@ export const GARAGE_SALE_YARD_SALE_LAW_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Garage Sales and Yard Sales — Rules and Permits in Monroe County" },

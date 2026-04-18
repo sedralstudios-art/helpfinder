@@ -3,6 +3,7 @@ export const BASKETBALL_HOOP_STREET_DRIVEWAY_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Basketball Hoop in the Driveway or Street — What Monroe County Towns Allow" },

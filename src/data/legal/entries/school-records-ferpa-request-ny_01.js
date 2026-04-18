@@ -3,6 +3,7 @@ export const SCHOOL_RECORDS_FERPA_REQUEST_NY = {
   category: "education",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Student Records — How a Parent Can Request School Files Under FERPA" },

@@ -3,6 +3,7 @@ export const HOME_BUSINESS_ZONING_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Running a Business From Home — Zoning Rules in Monroe County" },

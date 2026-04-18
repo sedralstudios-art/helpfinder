@@ -3,6 +3,7 @@ export const LEAD_PAINT_TENANT_RIGHTS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Lead Paint in Rental Housing — Tenant Rights and Landlord Obligations in New York" },

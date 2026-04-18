@@ -3,6 +3,7 @@ export const SUMP_PUMP_DISCHARGE_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Sump Pump Discharge Rules — Where the Water Can and Cannot Go" },

@@ -3,6 +3,7 @@ export const PATERNITY_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Establishing Paternity in New York — Acknowledgment, DNA Testing, and Family Court" },

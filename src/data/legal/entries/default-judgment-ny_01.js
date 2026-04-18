@@ -3,6 +3,7 @@ export const DEFAULT_JUDGMENT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Default Judgments — What Happens If You Ignore a Debt Lawsuit" },

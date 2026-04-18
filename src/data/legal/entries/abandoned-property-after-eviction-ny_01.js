@@ -3,6 +3,7 @@ export const ABANDONED_PROPERTY_AFTER_EVICTION_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Belongings Left Behind After an Eviction — What Happens to Your Property" },

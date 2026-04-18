@@ -3,6 +3,7 @@ export const APARTMENT_PEST_ROACH_MOUSE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Roaches, Mice, and Pests in a Rental — Who Pays for the Exterminator" },

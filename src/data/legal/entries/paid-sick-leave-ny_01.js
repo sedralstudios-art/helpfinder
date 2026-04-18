@@ -3,6 +3,7 @@ export const PAID_SICK_LEAVE_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Paid Sick Leave in New York — Every Worker Has It" },

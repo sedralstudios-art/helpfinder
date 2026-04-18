@@ -3,6 +3,7 @@ export const COOPERATING_WITNESS_RIGHTS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Cooperating with Prosecutors — What to Know Before Agreeing to Be a Witness" },

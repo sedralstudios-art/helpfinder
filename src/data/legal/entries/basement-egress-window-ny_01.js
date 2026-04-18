@@ -3,6 +3,7 @@ export const BASEMENT_EGRESS_WINDOW_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Egress Windows — When Your Basement Bedroom Needs One and What It Costs" },

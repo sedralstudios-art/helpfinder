@@ -3,6 +3,7 @@ export const INDEPENDENT_CONTRACTOR_MISCLASS_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Misclassified as an Independent Contractor — Your Rights in New York" },

@@ -3,6 +3,7 @@ export const POLICE_COMPLAINT_NY = {
   category: "government",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Filing a Complaint Against a Police Officer in New York" },

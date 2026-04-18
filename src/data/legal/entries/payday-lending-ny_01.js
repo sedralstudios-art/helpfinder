@@ -3,6 +3,7 @@ export const PAYDAY_LENDING_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Payday Loans and Predatory Lending — What Is Illegal in New York" },

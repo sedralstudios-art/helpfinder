@@ -3,6 +3,7 @@ export const FALSE_CPS_REPORT_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "False CPS Reports — What to Do If Someone Filed a Fake Report Against You" },

@@ -3,6 +3,7 @@ export const COYOTE_WILD_TURKEY_URBAN_WILDLIFE_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Coyotes, Wild Turkeys, and Urban Wildlife — What to Do in Monroe County" },

@@ -3,6 +3,7 @@ export const SHARED_WELL_WATER_RIGHTS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Shared Wells and Private Water — Rights When Your Water Comes From a Well" },

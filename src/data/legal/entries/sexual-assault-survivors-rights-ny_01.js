@@ -3,6 +3,7 @@ export const SEXUAL_ASSAULT_SURVIVORS_RIGHTS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Sexual Assault Survivors — Rights and Resources in New York" },

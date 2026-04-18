@@ -3,6 +3,7 @@ export const TENANT_SECURITY_CAMERA_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Security Cameras in Apartments — What Tenants and Landlords Can and Cannot Do" },

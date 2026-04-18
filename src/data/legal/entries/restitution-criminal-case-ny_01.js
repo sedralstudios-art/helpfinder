@@ -3,6 +3,7 @@ export const RESTITUTION_CRIMINAL_CASE_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Restitution — When a Court Orders a Defendant to Pay the Victim" },

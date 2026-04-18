@@ -3,6 +3,7 @@ export const VOTING_RIGHTS_AFTER_CONVICTION_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Voting Rights After a Criminal Conviction in New York" },

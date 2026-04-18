@@ -3,6 +3,7 @@ export const PET_CUSTODY_SEPARATION_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Pet Custody in Divorce and Separation — How New York Courts Decide" },

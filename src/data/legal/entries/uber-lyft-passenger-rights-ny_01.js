@@ -3,6 +3,7 @@ export const UBER_LYFT_PASSENGER_RIGHTS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Rideshare Passenger Rights — What Happens When Something Goes Wrong" },

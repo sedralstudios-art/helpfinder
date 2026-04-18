@@ -3,6 +3,7 @@ export const HEALTH_INSURANCE_MARKETPLACE_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "NY State of Health — How to Get Health Insurance If You Do Not Have It" },

@@ -3,6 +3,7 @@ export const REVERSE_MORTGAGE_SENIORS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Reverse Mortgage — How It Works, Risks, and Protections for Seniors" },

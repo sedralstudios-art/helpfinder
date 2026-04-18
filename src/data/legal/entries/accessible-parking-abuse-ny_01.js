@@ -3,6 +3,7 @@ export const ACCESSIBLE_PARKING_ABUSE_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Accessible Parking Abuse — Reporting Misuse and Protecting Parking Spaces" },

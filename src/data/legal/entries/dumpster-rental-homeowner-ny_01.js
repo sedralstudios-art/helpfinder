@@ -3,6 +3,7 @@ export const DUMPSTER_RENTAL_HOMEOWNER_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Renting a Dumpster for Home Projects — Permits, Placement, and Prohibited Items" },

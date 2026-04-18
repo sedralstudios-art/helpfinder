@@ -3,6 +3,7 @@ export const TENANT_LEASE_BREAK_EARLY_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Breaking a Lease Early — When a Tenant Can Leave Before the Lease Ends" },

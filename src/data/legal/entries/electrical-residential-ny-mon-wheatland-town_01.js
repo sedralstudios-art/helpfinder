@@ -5,6 +5,7 @@ export const entry = {
   category: "trades",
   tier: "town",
   jurisdiction: "us-ny-monroe-wheatland-town",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Electrical work in the Town of Wheatland: what the town requires" },

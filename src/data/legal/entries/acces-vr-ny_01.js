@@ -3,6 +3,7 @@ export const ACCES_VR_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "ACCES-VR — Free Job Training and Support for People with Disabilities" },

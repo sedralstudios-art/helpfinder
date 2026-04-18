@@ -3,6 +3,7 @@ export const HIT_AND_RUN_LEAVING_SCENE_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Hit and Run / Leaving the Scene of an Accident — What the Law Requires in New York" },

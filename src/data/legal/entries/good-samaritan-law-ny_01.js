@@ -3,6 +3,7 @@ export const GOOD_SAMARITAN_LAW_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "If Someone Is Overdosing — What the Law Protects You From" },

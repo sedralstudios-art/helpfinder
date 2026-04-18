@@ -3,6 +3,7 @@ export const PREGNANCY_DISCRIMINATION_NY = {
   category: "employment",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Pregnancy Discrimination at Work — What Employers Cannot Do in New York" },

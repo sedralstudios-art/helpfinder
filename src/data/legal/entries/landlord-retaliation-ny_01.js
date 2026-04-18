@@ -3,6 +3,7 @@ export const LANDLORD_RETALIATION_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Landlord Retaliation — What the Law Protects You From After Complaining" },

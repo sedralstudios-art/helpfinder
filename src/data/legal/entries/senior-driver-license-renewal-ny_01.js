@@ -3,6 +3,7 @@ export const SENIOR_DRIVER_LICENSE_RENEWAL_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Senior Driver's License — Renewal Rules, Vision Tests, and Reporting an Unsafe Driver" },

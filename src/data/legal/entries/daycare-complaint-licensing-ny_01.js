@@ -3,6 +3,7 @@ export const DAYCARE_COMPLAINT_LICENSING_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny-mon",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Daycare Complaints — How to Report Unsafe Conditions and Verify a License" },

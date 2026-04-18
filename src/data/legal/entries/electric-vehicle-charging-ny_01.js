@@ -3,6 +3,7 @@ export const ELECTRIC_VEHICLE_CHARGING_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Electric Vehicle Charging at Home — Permits, Costs, and Tenant Rights" },

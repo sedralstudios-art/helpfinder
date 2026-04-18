@@ -3,6 +3,7 @@ export const HOME_TITLE_THEFT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Home Title Theft — How It Happens and How to Protect a Property" },

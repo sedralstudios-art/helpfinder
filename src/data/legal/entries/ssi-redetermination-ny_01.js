@@ -3,6 +3,7 @@ export const SSI_REDETERMINATION_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "SSI Redetermination — What Happens When Social Security Reviews Benefits" },

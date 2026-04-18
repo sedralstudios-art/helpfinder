@@ -3,6 +3,7 @@ export const PROBATION_VIOLATION_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Probation Violation — What Happens and What a Person Can Do" },

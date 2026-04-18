@@ -3,6 +3,7 @@ export const REPO_CAR_RIGHTS_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Car Repossession Rights — What the Lender Can and Cannot Do in New York" },

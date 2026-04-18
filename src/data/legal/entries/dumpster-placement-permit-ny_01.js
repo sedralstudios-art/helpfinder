@@ -3,6 +3,7 @@ export const DUMPSTER_PLACEMENT_PERMIT_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Dumpster and Construction Debris Rules — Permits and Placement in Monroe County" },

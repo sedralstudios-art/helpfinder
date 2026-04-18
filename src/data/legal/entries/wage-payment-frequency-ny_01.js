@@ -3,6 +3,7 @@ export const WAGE_PAYMENT_FREQUENCY_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "How Often Must You Be Paid — Wage Payment Frequency Rules in New York" },

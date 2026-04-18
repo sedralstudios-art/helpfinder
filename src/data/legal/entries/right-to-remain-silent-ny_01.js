@@ -3,6 +3,7 @@ export const RIGHT_TO_REMAIN_SILENT_NY = {
   category: "criminal",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "The Right to Remain Silent — What It Means, When It Applies, and How to Use It" },

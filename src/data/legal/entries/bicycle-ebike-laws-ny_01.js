@@ -3,6 +3,7 @@ export const BICYCLE_EBIKE_LAWS_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Bicycle and E-Bike Laws in New York — Rules of the Road, Helmet Laws, and E-Bike Classes" },

@@ -3,6 +3,7 @@ export const VA_DISABILITY_APPEAL_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "VA Disability Appeal — What to Do When a Claim Is Denied or Rated Too Low" },

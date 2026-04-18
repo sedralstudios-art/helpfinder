@@ -3,6 +3,7 @@ export const SSDI_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "SSDI — Disability Checks Based on Your Work History" },

@@ -3,6 +3,7 @@ export const PORCH_PIRACY_PACKAGE_THEFT_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Package Theft (Porch Piracy) — What to Do When a Delivery Is Stolen" },

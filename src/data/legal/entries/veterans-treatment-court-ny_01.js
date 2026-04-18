@@ -3,6 +3,7 @@ export const VETERANS_TREATMENT_COURT_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny-mon",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Veterans Treatment Court — An Alternative to Regular Criminal Court" },

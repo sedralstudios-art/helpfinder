@@ -3,6 +3,7 @@ export const BURIAL_CREMATION_RIGHTS_LOW_INCOME_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Funeral and Burial Costs — Help for Families Who Cannot Afford It" },

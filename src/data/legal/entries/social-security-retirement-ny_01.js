@@ -3,6 +3,7 @@ export const SOCIAL_SECURITY_RETIREMENT_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Social Security Retirement — Monthly Benefits When You Stop Working" },

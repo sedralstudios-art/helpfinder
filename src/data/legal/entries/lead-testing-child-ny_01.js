@@ -3,6 +3,7 @@ export const LEAD_TESTING_CHILD_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Lead Poisoning in Children — Testing, Treatment, and Who Is Responsible" },

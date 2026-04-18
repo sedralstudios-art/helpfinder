@@ -3,6 +3,7 @@ export const JUDGMENT_PROOF_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Judgment Proof — When a Creditor Wins a Judgment But Cannot Collect" },

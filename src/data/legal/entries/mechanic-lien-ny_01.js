@@ -3,6 +3,7 @@ export const MECHANIC_LIEN_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Mechanic's Liens — When a Contractor or Supplier Puts a Lien on Your Home" },

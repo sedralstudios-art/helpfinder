@@ -3,6 +3,7 @@ export const DEBT_STATUTE_OF_LIMITATIONS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Statute of Limitations on Debt — When a Creditor Can No Longer Sue in New York" },

@@ -3,6 +3,7 @@ export const RIGHT_TO_REPAIR_CAR_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Right to Repair Your Own Car — What Dealers Cannot Block" },

@@ -3,6 +3,7 @@ export const CAR_ACCIDENT_NO_FAULT_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Car Accident — No-Fault Insurance and What to Do Next in New York" },

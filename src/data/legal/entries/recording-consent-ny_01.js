@@ -3,6 +3,7 @@ export const RECORDING_CONSENT_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Recording Phone Calls and Conversations — One-Party Consent in New York" },

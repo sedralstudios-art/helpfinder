@@ -3,6 +3,7 @@ export const VOTER_RIGHTS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Voter Rights in New York — Registration, Voting After Incarceration, and Protections" },

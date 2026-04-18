@@ -3,6 +3,7 @@ export const APPLIANCE_LEFT_BY_LANDLORD_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Broken Appliance in a Rental — When the Landlord Must Replace the Stove, Fridge, or Washer" },

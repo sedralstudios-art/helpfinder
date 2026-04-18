@@ -3,6 +3,7 @@ export const SIDEWALK_REPAIR_WHO_PAYS_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Broken Sidewalk — Who Pays to Fix It in Monroe County" },

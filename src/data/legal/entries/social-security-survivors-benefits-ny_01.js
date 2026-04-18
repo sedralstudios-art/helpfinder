@@ -3,6 +3,7 @@ export const SOCIAL_SECURITY_SURVIVORS_BENEFITS_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-fed",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Social Security Survivors Benefits — Money for Families After a Death" },

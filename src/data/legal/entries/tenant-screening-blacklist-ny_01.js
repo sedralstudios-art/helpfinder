@@ -3,6 +3,7 @@ export const TENANT_SCREENING_BLACKLIST_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Tenant Screening and Blacklists — What Landlords Can and Cannot Use Against You in New York" },

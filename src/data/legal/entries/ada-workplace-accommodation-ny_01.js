@@ -3,6 +3,7 @@ export const ADA_WORKPLACE_ACCOMMODATION_NY = {
   category: "employment",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Disability Accommodation at Work — ADA and New York Human Rights Law" },

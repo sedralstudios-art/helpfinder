@@ -3,6 +3,7 @@ export const DEBT_COLLECTOR_CALLING_WORK_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Debt Collectors Calling Your Job — What the Law Allows and Does Not" },

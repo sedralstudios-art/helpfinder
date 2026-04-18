@@ -3,6 +3,7 @@ export const CONTEMPT_OF_COURT_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Contempt of Court — What It Means and What Can Happen" },

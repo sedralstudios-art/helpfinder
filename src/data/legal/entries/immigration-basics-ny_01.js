@@ -3,6 +3,7 @@ export const IMMIGRATION_BASICS_NY = {
   category: "family",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Immigration — Where to Get Help in Monroe County" },

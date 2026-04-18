@@ -3,6 +3,7 @@ export const DISABILITY_HOUSING_ACCOMMODATION_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Reasonable Accommodation for Disability in Rental Housing" },

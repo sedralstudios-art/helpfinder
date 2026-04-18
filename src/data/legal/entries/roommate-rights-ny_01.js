@@ -3,6 +3,7 @@ export const ROOMMATE_RIGHTS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Roommate Rights in New York — What Happens When One Person Is on the Lease" },

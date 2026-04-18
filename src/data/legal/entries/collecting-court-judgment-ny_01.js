@@ -3,6 +3,7 @@ export const COLLECTING_COURT_JUDGMENT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Collecting a Court Judgment — What to Do When You Win But Don't Get Paid" },

@@ -3,6 +3,7 @@ export const GENDER_MARKER_CHANGE_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Gender Marker Change in New York — Birth Certificate, Driver's License, and Other Documents" },

@@ -3,6 +3,7 @@ export const PHOTO_RED_LIGHT_TICKET_POINTS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Red Light Camera vs. Officer Ticket — Why the Difference Matters" },

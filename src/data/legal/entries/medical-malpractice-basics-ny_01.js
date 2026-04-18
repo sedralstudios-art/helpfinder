@@ -3,6 +3,7 @@ export const MEDICAL_MALPRACTICE_BASICS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Medical Malpractice in New York — When a Doctor's Mistake Causes Harm" },

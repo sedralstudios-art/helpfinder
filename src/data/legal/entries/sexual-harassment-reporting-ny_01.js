@@ -3,6 +3,7 @@ export const SEXUAL_HARASSMENT_REPORTING_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Sexual Harassment at Work — What Counts, How to Report, and What Protections Exist" },

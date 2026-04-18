@@ -3,6 +3,7 @@ export const TIMESHARE_CANCELLATION_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Timeshare Cancellation — How to Get Out of a Timeshare Contract" },

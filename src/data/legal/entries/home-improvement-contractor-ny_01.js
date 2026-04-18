@@ -3,6 +3,7 @@ export const HOME_IMPROVEMENT_CONTRACTOR_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Home Improvement Contractor Problems — Protecting Yourself in New York" },

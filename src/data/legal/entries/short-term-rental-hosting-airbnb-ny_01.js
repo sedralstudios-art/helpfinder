@@ -3,6 +3,7 @@ export const SHORT_TERM_RENTAL_HOSTING_AIRBNB_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Renting Out a Room or Home on Short-Term Rental Platforms — Rules in Monroe County" },

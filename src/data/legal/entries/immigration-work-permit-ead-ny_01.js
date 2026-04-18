@@ -3,6 +3,7 @@ export const IMMIGRATION_WORK_PERMIT_EAD_NY = {
   category: "employment",
   tier: "federal",
   jurisdiction: "us-fed",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Work Permits (EAD) — Who Can Get One and How" },

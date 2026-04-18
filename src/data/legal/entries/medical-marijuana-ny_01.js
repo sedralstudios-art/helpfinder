@@ -3,6 +3,7 @@ export const MEDICAL_MARIJUANA_NY = {
   category: "health",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Medical Marijuana in New York — How to Get a Card and What It Covers" },

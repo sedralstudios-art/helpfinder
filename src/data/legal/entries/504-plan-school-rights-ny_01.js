@@ -3,6 +3,7 @@ export const FIVE04_PLAN_SCHOOL_RIGHTS_NY = {
   category: "education",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "504 Plan at School — Accommodations for Students with Disabilities Who Do Not Need Special Education" },

@@ -3,6 +3,7 @@ export const UNINSURED_MOTORIST_ACCIDENT_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Hit by an Uninsured or Hit-and-Run Driver — What to Do in New York" },

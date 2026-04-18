@@ -3,6 +3,7 @@ export const SCHOOL_LOCKDOWN_DRILL_RIGHTS_NY = {
   category: "education",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "School Lockdown Drills — What the Law Requires and What Parents Can Do" },

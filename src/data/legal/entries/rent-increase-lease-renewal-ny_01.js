@@ -3,6 +3,7 @@ export const RENT_INCREASE_LEASE_RENEWAL_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Rent Increases and Lease Renewal in New York (Outside NYC)" },

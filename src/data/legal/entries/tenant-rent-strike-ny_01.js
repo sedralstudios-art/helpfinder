@@ -3,6 +3,7 @@ export const TENANT_RENT_STRIKE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Rent Withholding — When Tenants Can Legally Hold Back Rent" },

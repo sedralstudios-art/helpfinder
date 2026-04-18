@@ -3,6 +3,7 @@ export const SNAP_RIGHTS_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "SNAP (Food Stamps) — Your Rights in New York" },

@@ -3,6 +3,7 @@ export const INVISIBLE_FENCE_DOG_ESCAPE_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Invisible Fences and Dog Containment — Legal Requirements and Liability" },

@@ -3,6 +3,7 @@ export const RIGHT_TO_A_LAWYER_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Your Right to a Free Lawyer in a Criminal Case in New York" },

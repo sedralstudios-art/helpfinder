@@ -3,6 +3,7 @@ export const MENTAL_HEALTH_DAY_WORK_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Taking a Mental Health Day — What New York Law Covers" },

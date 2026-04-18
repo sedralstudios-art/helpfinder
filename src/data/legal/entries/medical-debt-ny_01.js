@@ -9,6 +9,7 @@ export const MEDICAL_DEBT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Medical Bills — Hospital Help Programs and New York Protections" },

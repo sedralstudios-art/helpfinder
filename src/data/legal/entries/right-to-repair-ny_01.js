@@ -3,6 +3,7 @@ export const RIGHT_TO_REPAIR_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Right to Repair — New York's Digital Fair Repair Act" },

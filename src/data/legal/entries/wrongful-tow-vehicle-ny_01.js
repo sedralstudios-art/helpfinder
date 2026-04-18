@@ -3,6 +3,7 @@ export const WRONGFUL_TOW_VEHICLE_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Wrongful Towing — How to Get a Vehicle Back and Recover the Cost" },

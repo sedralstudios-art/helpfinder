@@ -3,6 +3,7 @@ export const WAGE_GARNISHMENT_EXEMPTIONS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Wage Garnishment Exemptions — How Much of Your Paycheck Is Protected in New York" },

@@ -3,6 +3,7 @@ export const HOTEL_GUEST_RIGHTS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Hotel Guest Rights — Refunds, Overbooking, Bedbug Claims, and When a Hotel Can Remove a Guest" },

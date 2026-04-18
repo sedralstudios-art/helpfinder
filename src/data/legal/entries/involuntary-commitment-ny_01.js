@@ -3,6 +3,7 @@ export const INVOLUNTARY_COMMITMENT_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Involuntary Psychiatric Commitment in New York — How It Works and What Rights the Patient Has" },

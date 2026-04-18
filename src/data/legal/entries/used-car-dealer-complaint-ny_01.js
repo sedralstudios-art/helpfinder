@@ -3,6 +3,7 @@ export const USED_CAR_DEALER_COMPLAINT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Used Car Dealer Problems — Lemon Law, Warranties, and How to File a Complaint" },

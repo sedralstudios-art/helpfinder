@@ -3,6 +3,7 @@ export const GUN_SAFE_STORAGE_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Gun Safe Storage Laws — What New York Requires" },

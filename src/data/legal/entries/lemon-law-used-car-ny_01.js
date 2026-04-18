@@ -3,6 +3,7 @@ export const LEMON_LAW_USED_CAR_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Lemon Law — Protections for New and Used Car Buyers in New York" },

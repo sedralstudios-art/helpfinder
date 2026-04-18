@@ -3,6 +3,7 @@ export const FENCE_HEIGHT_RULES_NY = {
   category: "housing",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Fence Rules in Monroe County — Height Limits, Permits, and Neighbor Disputes" },

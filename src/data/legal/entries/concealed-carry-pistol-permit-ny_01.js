@@ -3,6 +3,7 @@ export const CONCEALED_CARRY_PISTOL_PERMIT_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Pistol Permits in New York — How to Apply and What the Law Requires" },

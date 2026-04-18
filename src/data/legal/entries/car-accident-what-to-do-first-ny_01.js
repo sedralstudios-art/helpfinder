@@ -3,6 +3,7 @@ export const CAR_ACCIDENT_WHAT_TO_DO_FIRST_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Car Accident — What to Do at the Scene and in the Days After" },

@@ -3,6 +3,7 @@ export const SUBPOENA_WHAT_TO_DO_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Subpoena — What It Means, What to Do, and What Happens If Ignored" },

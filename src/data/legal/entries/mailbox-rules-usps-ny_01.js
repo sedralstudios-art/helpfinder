@@ -3,6 +3,7 @@ export const MAILBOX_RULES_USPS_NY = {
   category: "consumer",
   tier: "federal",
   jurisdiction: "us-fed",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Mailbox Rules — What You Can and Cannot Do With Your Own Mailbox" },

@@ -3,6 +3,7 @@ export const MOVING_VIOLATION_VS_NONMOVING_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Moving vs. Non-Moving Violations — Why It Matters for Your License and Insurance" },

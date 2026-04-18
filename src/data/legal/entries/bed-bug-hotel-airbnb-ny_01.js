@@ -3,6 +3,7 @@ export const BED_BUG_HOTEL_AIRBNB_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Bed Bugs at a Hotel or Airbnb — What Guests Can Do" },

@@ -3,6 +3,7 @@ export const APARTMENT_FIRE_ESCAPE_SAFETY_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Fire Escapes and Apartment Fire Safety — What Landlords Must Provide" },

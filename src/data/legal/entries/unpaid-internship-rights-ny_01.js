@@ -3,6 +3,7 @@ export const UNPAID_INTERNSHIP_RIGHTS_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Unpaid Internships — When an Employer Must Pay an Intern" },

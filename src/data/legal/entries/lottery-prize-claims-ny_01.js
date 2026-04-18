@@ -3,6 +3,7 @@ export const LOTTERY_PRIZE_CLAIMS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Lottery Prize Claims — How to Collect Winnings and What to Know in New York" },

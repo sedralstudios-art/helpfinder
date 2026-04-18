@@ -3,6 +3,7 @@ export const KEEPING_A_FOUND_PET_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Found a Stray Dog or Cat — Can You Keep It" },

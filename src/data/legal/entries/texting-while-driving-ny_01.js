@@ -3,6 +3,7 @@ export const TEXTING_WHILE_DRIVING_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Texting While Driving — Penalties and What Counts as a Violation" },

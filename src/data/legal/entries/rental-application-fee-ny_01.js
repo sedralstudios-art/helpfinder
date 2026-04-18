@@ -3,6 +3,7 @@ export const RENTAL_APPLICATION_FEE_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Rental Application Fees — What Landlords Can and Cannot Charge" },

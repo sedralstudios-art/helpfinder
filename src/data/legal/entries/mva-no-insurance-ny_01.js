@@ -3,6 +3,7 @@ export const MVA_NO_INSURANCE_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Car Accident Without Insurance — What Happens Next" },

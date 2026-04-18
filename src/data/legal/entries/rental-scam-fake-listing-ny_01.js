@@ -3,6 +3,7 @@ export const RENTAL_SCAM_FAKE_LISTING_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Rental Scams — How to Spot a Fake Listing and What to Do If Scammed" },

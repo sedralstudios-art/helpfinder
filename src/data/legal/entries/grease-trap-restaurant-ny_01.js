@@ -3,6 +3,7 @@ export const GREASE_TRAP_RESTAURANT_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Grease Traps and FOG Laws — What Restaurants and Food Businesses Must Follow" },

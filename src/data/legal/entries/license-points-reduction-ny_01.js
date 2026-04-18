@@ -3,6 +3,7 @@ export const LICENSE_POINTS_REDUCTION_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Reducing Points on Your License — The PIRP Defensive Driving Course" },

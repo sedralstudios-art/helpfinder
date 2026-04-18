@@ -3,6 +3,7 @@ export const PLAN_504_VS_IEP_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "504 Plan vs. IEP — Which One Your Child Needs and How They Are Different" },

@@ -3,6 +3,7 @@ export const STUDENT_LOAN_FORGIVENESS_PSLF_NY = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us-fed",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Student Loan Forgiveness — PSLF and Other Options" },

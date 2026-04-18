@@ -3,6 +3,7 @@ export const PROBLEM_SOLVING_COURTS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Problem-Solving Courts — Drug Court, Mental Health Court, and Veterans Court in Monroe County" },

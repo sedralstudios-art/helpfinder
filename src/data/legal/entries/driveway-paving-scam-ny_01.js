@@ -3,6 +3,7 @@ export const DRIVEWAY_PAVING_SCAM_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Driveway Paving Scams — The Door-to-Door Pitch and How to Protect Yourself" },

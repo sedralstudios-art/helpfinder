@@ -5,6 +5,7 @@ export const entry = {
   category: "trades",
   tier: "town",
   jurisdiction: "us-ny-monroe-hamlin-town",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "HVAC work in the Town of Hamlin: what the town requires" },

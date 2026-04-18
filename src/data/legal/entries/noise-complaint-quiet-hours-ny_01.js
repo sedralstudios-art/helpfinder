@@ -3,6 +3,7 @@ export const NOISE_COMPLAINT_QUIET_HOURS_NY = {
   category: "housing",
   tier: "local",
   jurisdiction: "us-ny",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Noise Complaints and Quiet Hours — What Renters and Homeowners Can Do in Rochester" },

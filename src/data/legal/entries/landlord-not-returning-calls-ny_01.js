@@ -3,6 +3,7 @@ export const LANDLORD_NOT_RETURNING_CALLS_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Landlord Not Responding — What to Do When They Ignore You" },

@@ -3,6 +3,7 @@ export const VEHICLE_REGISTRATION_INSPECTION_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Vehicle Registration, Inspection, and Insurance Requirements in New York" },

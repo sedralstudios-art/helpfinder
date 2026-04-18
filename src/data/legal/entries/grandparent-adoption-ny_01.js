@@ -3,6 +3,7 @@ export const GRANDPARENT_ADOPTION_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Grandparent Adoption — When Grandparents Want to Legally Adopt" },

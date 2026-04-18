@@ -3,6 +3,7 @@ export const TRUST_VS_WILL_ESTATE_PLANNING_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Trust vs. Will — Which One a Person Needs and Why It Matters" },

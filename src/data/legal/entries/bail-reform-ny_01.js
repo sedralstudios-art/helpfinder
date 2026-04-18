@@ -3,6 +3,7 @@ export const BAIL_REFORM_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Bail Reform in New York — Who Gets Released and Who Does Not" },

@@ -3,6 +3,7 @@ export const LANDLORD_ENTRY_PRIVACY_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Landlord Entering Your Apartment — Privacy Rights and Notice Requirements in New York" },

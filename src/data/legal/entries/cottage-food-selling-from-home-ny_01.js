@@ -3,6 +3,7 @@ export const COTTAGE_FOOD_SELLING_FROM_HOME_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Selling Food from Home — New York Cottage Food Laws" },

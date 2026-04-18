@@ -3,6 +3,7 @@ export const TENANT_PAINT_APARTMENT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Can a Tenant Paint the Apartment — Rules, Security Deposit, and What to Know" },

@@ -3,6 +3,7 @@ export const ASBESTOS_TENANT_RIGHTS_NY = {
   category: "housing",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Asbestos in Rental Housing — What Tenants Need to Know" },

@@ -3,6 +3,7 @@ export const CERTIFICATE_RELIEF_DISABILITIES_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Certificate of Relief from Disabilities — Removing Barriers from a Criminal Record in New York" },

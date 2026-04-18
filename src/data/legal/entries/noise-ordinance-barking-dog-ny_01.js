@@ -3,6 +3,7 @@ export const NOISE_ORDINANCE_BARKING_DOG_NY = {
   category: "housing",
   tier: "local",
   jurisdiction: "us-ny",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Barking Dogs — What the Law Says and How to Handle a Neighbor's Noisy Dog" },

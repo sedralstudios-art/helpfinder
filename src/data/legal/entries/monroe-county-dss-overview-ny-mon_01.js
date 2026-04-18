@@ -3,6 +3,7 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
   category: "benefits",
   tier: "county",
   jurisdiction: "us-ny-monroe",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Monroe County Department of Human Services — Where to Apply for Benefits" },

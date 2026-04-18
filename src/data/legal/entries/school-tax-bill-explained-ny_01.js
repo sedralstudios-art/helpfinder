@@ -3,6 +3,7 @@ export const SCHOOL_TAX_BILL_EXPLAINED_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "School Tax Bill — Why It Is So High and How to Lower It" },

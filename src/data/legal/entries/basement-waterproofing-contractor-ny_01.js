@@ -3,6 +3,7 @@ export const BASEMENT_WATERPROOFING_CONTRACTOR_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Basement Waterproofing Scams — What to Watch For and Your Rights" },

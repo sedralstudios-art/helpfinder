@@ -3,6 +3,7 @@ export const DIVORCE_SEPARATION_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Divorce and Separation in New York" },

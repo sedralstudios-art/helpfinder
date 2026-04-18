@@ -7,6 +7,7 @@ export const entry = {
   category: "trades",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: {

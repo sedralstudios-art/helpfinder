@@ -3,6 +3,7 @@ export const HARASSMENT_CYBERSTALKING_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Harassment and Cyberstalking Laws in New York — What Counts and What to Do" },

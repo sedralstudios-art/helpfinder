@@ -3,6 +3,7 @@ export const PUBLIC_RECORDS_REQUEST_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Public Records Requests — How to Get Government Documents Through FOIL" },

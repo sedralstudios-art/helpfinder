@@ -3,6 +3,7 @@ export const ILLEGAL_EVICTION_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Illegal Eviction — Your Landlord Cannot Remove You Without a Court Order" },

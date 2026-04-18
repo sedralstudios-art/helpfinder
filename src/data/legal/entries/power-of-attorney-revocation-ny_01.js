@@ -3,6 +3,7 @@ export const POWER_OF_ATTORNEY_REVOCATION_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Revoking a Power of Attorney — How to Take Back the Authority You Gave" },

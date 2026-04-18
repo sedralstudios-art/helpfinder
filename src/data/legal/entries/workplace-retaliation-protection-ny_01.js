@@ -3,6 +3,7 @@ export const WORKPLACE_RETALIATION_PROTECTION_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Workplace Retaliation — What an Employer Cannot Do After a Worker Complains" },

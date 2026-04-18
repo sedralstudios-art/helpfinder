@@ -5,6 +5,7 @@ export const entry = {
   category: "trades",
   tier: "village",
   jurisdiction: "us-ny-monroe-honeoye-falls-village",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "HVAC work in the Village of Honeoye Falls: what the village requires" },

@@ -3,6 +3,7 @@ export const APARTMENT_RENT_RECEIPT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Rent Receipts — A Landlord Must Provide One and What to Do If They Refuse" },

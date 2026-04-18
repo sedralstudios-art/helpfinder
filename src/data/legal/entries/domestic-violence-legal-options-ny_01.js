@@ -3,6 +3,7 @@ export const DOMESTIC_VIOLENCE_LEGAL_OPTIONS_NY = {
   category: "family",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Domestic Violence — Legal Options and Safety Resources in New York" },

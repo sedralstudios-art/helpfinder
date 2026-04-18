@@ -3,6 +3,7 @@ export const MEDICAID_SPEND_DOWN_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Medicaid Spend-Down — How to Qualify When Your Income Is Too High" },

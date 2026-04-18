@@ -3,6 +3,7 @@ export const FIRST_TIME_HOMEBUYER_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "First-Time Home Buyer Programs in New York — Down Payment Help and Tax Credits" },

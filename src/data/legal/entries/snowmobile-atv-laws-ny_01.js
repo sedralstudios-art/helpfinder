@@ -3,6 +3,7 @@ export const SNOWMOBILE_ATV_LAWS_NY = {
   category: "consumer",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Snowmobile and ATV Laws — Registration, Where You Can Ride, and Helmet Rules" },

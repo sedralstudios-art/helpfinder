@@ -3,6 +3,7 @@ export const RIGHTS_WHEN_ARRESTED_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Your Rights When Arrested — What the Police Must Tell You and What You Can Do" },

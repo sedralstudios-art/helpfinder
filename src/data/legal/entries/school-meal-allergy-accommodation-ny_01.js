@@ -3,6 +3,7 @@ export const SCHOOL_MEAL_ALLERGY_ACCOMMODATION_NY = {
   category: "education",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "School Meal Allergies — What Schools Must Do to Accommodate a Child with Food Allergies" },

@@ -3,6 +3,7 @@ export const LIFELINE_PHONE_PROGRAM_FED = {
   category: "benefits",
   tier: "federal",
   jurisdiction: "us",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Lifeline — Discounted Phone and Internet Service" },

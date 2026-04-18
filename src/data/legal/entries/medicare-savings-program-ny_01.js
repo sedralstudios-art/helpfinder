@@ -3,6 +3,7 @@ export const MEDICARE_SAVINGS_PROGRAM_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Medicare Savings Programs — Help Paying Medicare Costs" },

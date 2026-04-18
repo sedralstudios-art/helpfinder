@@ -3,6 +3,7 @@ export const SECURITY_DEPOSIT_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Security Deposits — Your Rights When You Move In and Move Out" },

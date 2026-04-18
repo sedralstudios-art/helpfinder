@@ -3,6 +3,7 @@ export const PROBATION_BASICS_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Probation in New York — What It Means, What the Rules Are, and What Happens If You Violate" },

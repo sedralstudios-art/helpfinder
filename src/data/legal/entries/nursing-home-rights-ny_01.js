@@ -3,6 +3,7 @@ export const NURSING_HOME_RIGHTS_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Nursing Home and Long-Term Care Rights in New York" },

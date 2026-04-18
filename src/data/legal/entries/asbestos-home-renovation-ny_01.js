@@ -3,6 +3,7 @@ export const ASBESTOS_HOME_RENOVATION_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Asbestos in Your Home — What to Know Before Renovating" },

@@ -3,6 +3,7 @@ export const DOMESTIC_WORKER_RIGHTS_NY = {
   category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Domestic Worker Rights in New York — Nannies, Housekeepers, and Home Attendants" },

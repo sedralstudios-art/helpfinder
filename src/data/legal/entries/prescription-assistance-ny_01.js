@@ -3,6 +3,7 @@ export const PRESCRIPTION_ASSISTANCE_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Help Paying for Prescriptions in New York" },

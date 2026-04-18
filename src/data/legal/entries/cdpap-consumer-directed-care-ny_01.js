@@ -3,6 +3,7 @@ export const CDPAP_CONSUMER_DIRECTED_CARE_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "CDPAP — Hiring a Family Member or Friend as a Paid Caregiver Through Medicaid" },

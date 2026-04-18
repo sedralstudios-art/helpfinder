@@ -3,6 +3,7 @@ export const DISMISSED_CASE_SEALING_NY = {
   category: "criminal",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "My Case Was Dismissed — Why Is It Still On My Record?" },

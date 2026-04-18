@@ -3,6 +3,7 @@ export const AGE_DISCRIMINATION_WORK_NY = {
   category: "employment",
   tier: "federal",
   jurisdiction: "us-ny",
+  authorityType: "federal-statute",
   status: "active",
 
   title: { en: "Age Discrimination at Work — Protections for Workers 40 and Older in New York" },

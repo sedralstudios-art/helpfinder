@@ -3,6 +3,7 @@ export const UNEMPLOYMENT_OVERPAYMENT_NY = {
   category: "benefits",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Unemployment Overpayment — What to Do If the DOL Says You Were Overpaid" },

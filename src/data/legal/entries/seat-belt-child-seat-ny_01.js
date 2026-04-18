@@ -3,6 +3,7 @@ export const SEAT_BELT_CHILD_SEAT_NY = {
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Seat Belt and Child Car Seat Laws in New York" },

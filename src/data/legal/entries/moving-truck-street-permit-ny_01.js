@@ -3,6 +3,7 @@ export const MOVING_TRUCK_STREET_PERMIT_NY = {
   category: "consumer",
   tier: "county",
   jurisdiction: "us-ny-mon",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Moving Truck on the Street — Do You Need a Permit to Park It" },

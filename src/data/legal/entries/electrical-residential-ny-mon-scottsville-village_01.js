@@ -5,6 +5,7 @@ export const entry = {
   category: "trades",
   tier: "village",
   jurisdiction: "us-ny-monroe-scottsville-village",
+  authorityType: "local-ordinance",
   status: "active",
 
   title: { en: "Electrical work in the Village of Scottsville: what the village requires" },

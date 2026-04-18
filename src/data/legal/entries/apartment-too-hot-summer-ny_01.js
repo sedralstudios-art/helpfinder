@@ -3,6 +3,7 @@ export const APARTMENT_TOO_HOT_SUMMER_NY = {
   category: "housing",
   tier: "state",
   jurisdiction: "us-ny",
+  authorityType: "state-statute",
   status: "active",
 
   title: { en: "Apartment Too Hot in Summer — Does the Landlord Have to Provide AC" },
