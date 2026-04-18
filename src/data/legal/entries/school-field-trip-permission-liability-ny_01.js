@@ -45,7 +45,7 @@ export const SCHOOL_FIELD_TRIP_PERMISSION_LIABILITY_NY = {
   },
 
   example: {
-    en: "A 4th-grade student in Greece broke her arm when she fell from a climbing structure at a field trip destination. There were 28 students and only 2 adults supervising — the school had asked for parent volunteers but none were available. The parent filed a Notice of Claim with the Greece Central School District within 60 days. The claim alleged negligent supervision — the ratio of adults to students was inadequate for the activity. The district's insurance carrier settled the claim for $12,000, covering the medical bills and a modest amount for pain and suffering."
+    en: "A 4th-grade student in Greece was injured on a field trip after falling from a climbing structure. The trip had 28 students and only 2 supervising adults. Before signing the permission slip, the parent had signed a liability waiver. After the injury, the parent learned that under New York law the waiver did not override the school's duty to supervise — a parent cannot waive a child's right to sue for injuries caused by negligence. Because the 90-day Notice of Claim deadline controls, the parent filed a Notice of Claim with the Greece Central School District right away, preserving the child's ability to bring a claim."
   },
 
   counsel: [
