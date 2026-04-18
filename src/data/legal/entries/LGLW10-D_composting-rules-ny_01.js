@@ -37,7 +37,7 @@ export const COMPOSTING_RULES_NY = {
 
   legalOptions: {
     en: [
-      "Rochester: Composting is allowed. Nuisance complaints are handled by code enforcement at (585) 428-6520 or 311.",
+      "Rochester: Backyard composting of leaves is authorized by the Department. Lawn cuttings can be composted or placed in city containers. The ROC City Compost Program accepts food waste at drop-off locations. Free compost, woodchips, and chipstone are available to city residents through the Materials Give Back Program. Nuisance complaints are handled by code enforcement. Call 311. (Verified 2026-04-17.)",
       "Monroe County recycling and composting information is available at (585) 753-7600 or monroecounty.gov/ecopark.",
       "Free compost bins are offered periodically through Monroe County — check the ecopark website for availability.",
       "Yard waste drop-off locations in Monroe County are listed at monroecounty.gov. Leaves, grass, and brush are accepted for free.",

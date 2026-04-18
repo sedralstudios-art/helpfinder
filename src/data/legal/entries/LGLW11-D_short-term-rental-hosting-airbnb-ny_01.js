@@ -38,7 +38,11 @@ export const SHORT_TERM_RENTAL_HOSTING_AIRBNB_NY = {
   legalOptions: {
     en: [
       "Rochester Bureau of Buildings at (585) 428-6520 handles short-term rental registration and code compliance.",
-      "For towns outside Rochester, contact the local building or zoning department for short-term rental rules.",
+      "Greece: A short-term rental permit is required from Technical Services/Building Department. An annual interior inspection is required. The certificate of compliance is valid for 3 years. Building Department at (585) 723-2443. (Verified 2026-04-17.)",
+      "Irondequoit: Contact the Building Department at (585) 336-6060 for short-term rental rules.",
+      "Penfield: Contact the Building Department at (585) 340-8636 for short-term rental rules.",
+      "Brighton: Contact the Building Department at (585) 784-5220 for short-term rental rules.",
+      "For other towns, contact the local building or zoning department for short-term rental rules.",
       "NYS Department of Taxation and Finance at (518) 485-2889 handles sales tax registration for hosts who must collect tax directly.",
       "If a neighbor's short-term rental is causing problems (noise, parking, trash), file a complaint with the local code enforcement office.",
       "A host should consult their homeowner's insurance company about short-term rental coverage.",

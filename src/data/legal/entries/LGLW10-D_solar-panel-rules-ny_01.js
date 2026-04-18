@@ -38,7 +38,9 @@ export const SOLAR_PANEL_RULES_NY = {
   legalOptions: {
     en: [
       "Under RPL Section 235-ee, an HOA that unreasonably blocks solar can be challenged. The homeowner can send a written request citing the statute.",
-      "Building permits for solar in Rochester are handled at (585) 428-6520. Suburban towns handle their own permits through the building department.",
+      "Rochester: Solar structures must meet district setbacks. Setback from residential zones and public rights-of-way must be no less than 50 feet. A permit is required. Contact Zoning at (585) 428-6520. (Verified 2026-04-17.)",
+      "Greece: A permit from the Building Inspector is required. Tier 2 systems in residential zones are allowed on properties over 1 acre, rear yard only. Tier 3 systems require 100 ft from the zoning boundary and 25 ft from the internal property line. Building Department at (585) 723-2443. (Verified 2026-04-17.)",
+      "Penfield: Contact the Building Department at (585) 340-8636 for solar permit and setback requirements.",
       "The federal Investment Tax Credit (ITC) covers 30% of installation costs. The NYS solar tax credit covers 25% up to $5,000. Both reduce the cost significantly.",
       "Net metering applications are filed through RG&E or National Grid. The installer typically handles this as part of the project.",
       "The NY-Sun program (nyserda.ny.gov/ny-sun) provides additional incentives and a list of approved installers.",

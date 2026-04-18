@@ -41,7 +41,7 @@ export const DUMPSTER_PLACEMENT_PERMIT_NY = {
       "Greece: Code enforcement at (585) 723-2396.",
       "Irondequoit: Building Department at (585) 467-8840.",
       "Brighton: Building Department at (585) 784-5220.",
-      "For any other town, the town clerk or building department can explain the local dumpster rules.",
+      "For any other town, contact the local highway or building department for duration limits and dumpster rules.",
       "Hazardous waste disposal is handled by the Monroe County ecopark at monroecounty.gov/ecopark. Electronics, paint, chemicals, and batteries go there, not in a dumpster.",
       "Most dumpster rental companies can advise on permit requirements when the dumpster is ordered.",
       "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
