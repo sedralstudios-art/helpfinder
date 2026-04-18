@@ -70,12 +70,59 @@ function deriveKey(entry) {
   return `${topic}::${authorityType || 'unlabeled'}::${scope}`;
 }
 
+// Lightweight JS-sanity check: flags English-language strings that contain an
+// unescaped double quote inside them. This is the class of bug that broke
+// pay-on-death and emotional-support-animal — rollup/vite fails cryptically,
+// Vercel build fails. Catching here saves the deploy.
+function findEmbeddedQuotes(filename) {
+  const src = fs.readFileSync(path.join(ENTRIES_DIR, filename), 'utf8');
+  const hits = [];
+  // Match `en: "..."` value strings. Look for a bare " inside the string body
+  // (i.e., not immediately preceded by a backslash). Multiline-dotall so we
+  // catch long paragraphs.
+  const re = /en:\s*"((?:[^"\\]|\\.)*?)"(?=\s*[,}])/gs;
+  let m;
+  while ((m = re.exec(src))) {
+    // Inside the captured group, a literal " would have ended the string, so
+    // if we got here the whole string is balanced. The earlier failures are
+    // from rollup choking BEFORE this regex succeeds. We detect them via a
+    // fallback: scan for the pattern `": "xxxx"` where an extra " sits mid-string.
+  }
+  // Simpler heuristic: within any JS line beginning with `en: "`, count bare
+  // double quotes. Odd count means embedded quote that breaks parsing.
+  const lines = src.split(/\r?\n/);
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (!/^\s*en:\s*"/.test(line)) continue;
+    // Count unescaped double quotes; balanced en-string has exactly 2
+    // (opening and closing) on a single-line value.
+    let count = 0;
+    for (let j = 0; j < line.length; j++) {
+      if (line[j] === '"' && line[j - 1] !== '\\') count++;
+    }
+    // All en strings in this codebase are single-line — the opening and
+    // closing quote are on the same line. Any count other than 2 means
+    // either an embedded unescaped quote (count=3 or 5) or an embedded pair
+    // (count=4, 6, etc.) — both break rollup with a cryptic message.
+    if (count !== 2) {
+      hits.push(`${filename}:${i + 1} — ${count} unescaped double quotes on en: line (should be 2); likely embedded quote breaking vite build`);
+    }
+  }
+  return hits;
+}
+
 function main() {
   const files = fs.readdirSync(ENTRIES_DIR).filter(f => f.endsWith('.js'));
   const entries = files.map(parseEntry);
 
   const errors = [];
   const byKey = new Map();
+
+  // Sanity check for embedded double quotes — the class of bug that makes
+  // rollup fail with cryptic errors.
+  for (const f of files) {
+    for (const hit of findEmbeddedQuotes(f)) errors.push(hit);
+  }
 
   for (const entry of entries) {
     if (!entry.id) {
