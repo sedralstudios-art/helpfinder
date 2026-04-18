@@ -91,6 +91,7 @@ export const PLAYGROUND_EQUIPMENT_LIABILITY_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/GMU/50-E",
     "https://www.cpsc.gov/Safety-Education/Safety-Guides/Sports-Fitness-and-Recreation/Playground-Safety",
     "https://www.law.cornell.edu/wex/attractive_nuisance_doctrine"
   ],

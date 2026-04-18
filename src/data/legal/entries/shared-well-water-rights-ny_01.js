@@ -93,6 +93,8 @@ export const SHARED_WELL_WATER_RIGHTS_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/regulations/new-york/title-10/chapter-II/subchapter-C/article-1/part-5/subpart-5-1/appendix-5-B",
+    "https://www.nysenate.gov/legislation/laws/PBH/A11",
     "https://www.health.ny.gov/environmental/water/drinking/regulations/",
     "https://www.monroecounty.gov/health"
   ],

@@ -88,6 +88,8 @@ export const GET_RAP_SHEET_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/CPL/160.59",
+    "https://www.nysenate.gov/legislation/laws/CPL/160.55",
     "https://criminaljustice.ny.gov/ojis/recordreview.htm"
   ],
 

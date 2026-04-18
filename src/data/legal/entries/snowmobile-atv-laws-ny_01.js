@@ -90,6 +90,8 @@ export const SNOWMOBILE_ATV_LAWS_NY = {
   ],
 
   sources: [
+    "https://www.nysenate.gov/legislation/laws/PEN/140.05",
+    "https://www.nysenate.gov/legislation/laws/VAT/A48-C",
     "https://parks.ny.gov/recreation/snowmobiles/",
     "https://dmv.ny.gov/registration/register-snowmobile"
   ],

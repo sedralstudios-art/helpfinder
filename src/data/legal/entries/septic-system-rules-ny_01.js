@@ -96,6 +96,8 @@ export const SEPTIC_SYSTEM_RULES_NY = {
   ],
 
   sources: [
+    "https://www.law.cornell.edu/regulations/new-york/title-10/chapter-II/subchapter-C/article-1/part-75/appendix-75-A",
+    "https://www.nysenate.gov/legislation/laws/PBH/1370",
     "https://www.monroecounty.gov/health",
     "https://www.health.ny.gov/environmental/water/drinking/regulations/"
   ],
