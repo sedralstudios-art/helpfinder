@@ -1,6 +1,6 @@
 export const UNEMPLOYMENT_GIG_WORKERS_NY = {
   id: "unemployment-gig-workers-ny",
-  category: "work",
+  category: "employment",
   tier: "state",
   jurisdiction: "us-ny",
   status: "active",

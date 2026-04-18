@@ -1,6 +1,6 @@
 export const IMMIGRATION_WORK_PERMIT_EAD_NY = {
   id: "immigration-work-permit-ead-ny",
-  category: "work",
+  category: "employment",
   tier: "federal",
   jurisdiction: "us-fed",
   status: "active",
