@@ -5,6 +5,7 @@ export const RECORDING_POLICE_NY = {
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Recording the Police — Your Right to Film Officers in Public" },
 

@@ -5,6 +5,7 @@ export const POWER_OF_ATTORNEY_ABUSE_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Power of Attorney Abuse — When Someone Misuses Authority Over Your Finances" },
 

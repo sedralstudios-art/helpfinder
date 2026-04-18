@@ -5,6 +5,7 @@ export const HARASSMENT_CYBERSTALKING_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Harassment and Cyberstalking Laws in New York — What Counts and What to Do" },
 

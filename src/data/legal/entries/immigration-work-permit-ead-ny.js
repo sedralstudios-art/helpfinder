@@ -5,6 +5,7 @@ export const IMMIGRATION_WORK_PERMIT_EAD_NY = {
   jurisdiction: "us-fed",
   authorityType: "federal-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Work Permits (EAD) — Who Can Get One and How" },
 

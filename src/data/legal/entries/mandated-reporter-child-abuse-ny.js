@@ -5,6 +5,7 @@ export const MANDATED_REPORTER_CHILD_ABUSE_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Mandated Reporters of Child Abuse — Who Must Report and How to Do It Right" },
 

@@ -5,6 +5,7 @@ export const KENDRAS_LAW_ASSISTED_OUTPATIENT_TREATMENT_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Kendra's Law — Court-Ordered Assisted Outpatient Treatment in New York" },
 

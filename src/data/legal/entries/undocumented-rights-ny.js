@@ -5,6 +5,7 @@ export const UNDOCUMENTED_RIGHTS_NY = {
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Rights of Undocumented Immigrants in New York — What the Law Protects Regardless of Status" },
 

@@ -23,9 +23,13 @@ for (const [p, mod] of Object.entries(translationModules)) {
 }
 
 // Load entries
+// Entries with `draft: true` are held offline: filtered out of the published
+// set so they do not render in the UI, prerender HTML, sitemap, search, or
+// related-entry resolution. Used for sensitive content awaiting attorney review.
 const rawEntries = Object.values(entryModules)
   .map((mod) => Object.values(mod)[0])
-  .filter(Boolean);
+  .filter(Boolean)
+  .filter((e) => !e.draft);
 
 // Merge translations into each entry in place
 for (const entry of rawEntries) {

@@ -5,6 +5,7 @@ export const REFUSE_TO_SHOW_ID_POLICE_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Do You Have to Show ID to the Police — Stop and Identify Laws in New York" },
 

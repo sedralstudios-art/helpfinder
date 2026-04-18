@@ -5,6 +5,7 @@ export const IMMIGRATION_BASICS_NY = {
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Immigration — Where to Get Help in Monroe County" },
 

@@ -5,6 +5,7 @@ export const CPS_INVESTIGATION_PROCESS_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "CPS Investigation — What to Expect and What Rights a Parent Has" },
 

@@ -5,6 +5,7 @@ export const POLICE_COMPLAINT_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Filing a Complaint Against a Police Officer in New York" },
 

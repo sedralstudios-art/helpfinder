@@ -5,6 +5,7 @@ export const PSYCHIATRIC_ADVANCE_DIRECTIVE_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Psychiatric Advance Directives — Planning Ahead for Mental Health Crisis" },
 

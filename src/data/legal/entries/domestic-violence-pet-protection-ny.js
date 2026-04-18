@@ -5,6 +5,7 @@ export const DOMESTIC_VIOLENCE_PET_PROTECTION_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Pets and Domestic Violence — Court Orders That Protect Animals and Survivors" },
 

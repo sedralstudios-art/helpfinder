@@ -5,6 +5,7 @@ export const LICENSE_SUSPENSION_DV_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "License Suspended for Unpaid Fines, Child Support, or Failure to Appear" },
 

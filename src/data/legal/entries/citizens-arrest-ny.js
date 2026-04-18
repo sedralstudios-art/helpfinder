@@ -5,6 +5,7 @@ export const CITIZENS_ARREST_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Citizen's Arrest — What Private Citizens Can and Cannot Do in New York" },
 

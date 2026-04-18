@@ -5,6 +5,7 @@ export const FIREARM_SURRENDER_ORDER_PROTECTION_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Firearm Surrender Under an Order of Protection — New York Safety Rules" },
 

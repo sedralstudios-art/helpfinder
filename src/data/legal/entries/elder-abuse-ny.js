@@ -5,6 +5,7 @@ export const ELDER_ABUSE_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Elder Abuse — Recognizing It and Getting Help in New York" },
 

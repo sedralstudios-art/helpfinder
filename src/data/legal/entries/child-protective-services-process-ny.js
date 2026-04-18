@@ -5,6 +5,7 @@ export const CHILD_PROTECTIVE_SERVICES_PROCESS_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Child Protective Services — What Happens After a Report, Parents' Rights, and Family Court" },
 

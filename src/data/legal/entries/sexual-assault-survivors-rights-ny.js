@@ -5,6 +5,7 @@ export const SEXUAL_ASSAULT_SURVIVORS_RIGHTS_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Sexual Assault Survivors — Rights and Resources in New York" },
 

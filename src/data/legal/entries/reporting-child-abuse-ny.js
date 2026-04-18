@@ -5,6 +5,7 @@ export const REPORTING_CHILD_ABUSE_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Reporting Child Abuse or Neglect in New York" },
 

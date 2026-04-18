@@ -5,6 +5,7 @@ export const DOMESTIC_VIOLENCE_LEGAL_OPTIONS_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Domestic Violence — Legal Options and Safety Resources in New York" },
 

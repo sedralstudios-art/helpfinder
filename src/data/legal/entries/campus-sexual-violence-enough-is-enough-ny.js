@@ -5,6 +5,7 @@ export const CAMPUS_SEXUAL_VIOLENCE_ENOUGH_IS_ENOUGH_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Campus Sexual Violence Response — NY Enough is Enough Law and Student Bill of Rights" },
 

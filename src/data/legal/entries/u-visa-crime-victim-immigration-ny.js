@@ -5,6 +5,7 @@ export const U_VISA_CRIME_VICTIM_IMMIGRATION_NY = {
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
   status: "active",
+  draft: true,
 
   title: { en: "U Visa for Crime Victims — Immigration Protection for Undocumented Victims Who Help Law Enforcement" },
 

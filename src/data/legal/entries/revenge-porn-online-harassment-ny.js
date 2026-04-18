@@ -5,6 +5,7 @@ export const REVENGE_PORN_ONLINE_HARASSMENT_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Revenge Porn, Cyberstalking, and Online Harassment — Your Legal Options in New York" },
 

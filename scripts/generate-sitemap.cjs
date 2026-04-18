@@ -88,7 +88,7 @@ async function loadEntries() {
     const abs = path.join(ENTRIES_DIR, f);
     const mod = await import(pathToFileURL(abs).href);
     const val = Object.values(mod)[0];
-    if (val && val.id) entries.push(val);
+    if (val && val.id && !val.draft) entries.push(val);
   }
   return entries;
 }

@@ -5,6 +5,7 @@ export const RIGHTS_DURING_POLICE_ENCOUNTER_NY = {
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Your Rights During a Police Encounter — Traffic Stops, Street Stops, and Home Visits" },
 

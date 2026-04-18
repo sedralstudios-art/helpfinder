@@ -5,6 +5,7 @@ export const CRIME_VICTIM_COMPENSATION_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Crime Victim Compensation — Financial Help After a Crime" },
 

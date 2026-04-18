@@ -5,6 +5,7 @@ export const ADULT_PROTECTIVE_SERVICES_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Adult Protective Services — Reporting and Responding to Abuse or Neglect of an Adult" },
 

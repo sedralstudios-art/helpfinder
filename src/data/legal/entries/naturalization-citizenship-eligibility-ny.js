@@ -5,6 +5,7 @@ export const NATURALIZATION_CITIZENSHIP_ELIGIBILITY_NY = {
   jurisdiction: "us-ny",
   authorityType: "federal-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Becoming a U.S. Citizen — Naturalization Eligibility and the Process" },
 

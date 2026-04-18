@@ -5,6 +5,7 @@ export const NEIGHBOR_HARASSMENT_RESTRAINING_ORDER_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Neighbor Harassment — When It Crosses the Line and What Legal Options Exist" },
 

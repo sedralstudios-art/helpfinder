@@ -5,6 +5,7 @@ export const ORDER_OF_PROTECTION_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "Orders of Protection — How to Get a Court Order to Keep Someone Away" },
 

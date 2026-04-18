@@ -5,6 +5,7 @@ export const CHILD_VICTIMS_ACT_STATUTE_OF_LIMITATIONS_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "New York Child Victims Act — Extended Statute of Limitations for Childhood Sexual Abuse Civil Claims" },
 

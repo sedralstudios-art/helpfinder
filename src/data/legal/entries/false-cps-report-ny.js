@@ -5,6 +5,7 @@ export const FALSE_CPS_REPORT_NY = {
   jurisdiction: "us-ny",
   authorityType: "state-statute",
   status: "active",
+  draft: true,
 
   title: { en: "False CPS Reports — What to Do If Someone Filed a Fake Report Against You" },
 
