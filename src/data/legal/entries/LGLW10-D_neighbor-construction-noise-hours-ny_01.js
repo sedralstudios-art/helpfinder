@@ -51,6 +51,10 @@ export const NEIGHBOR_CONSTRUCTION_NOISE_HOURS_NY = {
       "Greece: construction noise prohibited 10:00 PM to 7:00 AM. Code Enforcement at (585) 723-2396. (Verified 2026-04-17.)",
       "Penfield: quiet hours 11:00 PM to 7:00 AM. Code Enforcement at (585) 340-8640. (Verified 2026-04-17.)",
       "Chili: noise prohibited 10:00 PM to 7:00 AM. (Verified 2026-04-17.)",
+      "Clarkson: power equipment in residential zones prohibited 10:00 PM to 7:00 AM (exception for snow removal). (Verified 2026-04-17.)",
+      "Hamlin: noise prohibited especially between 9:00 PM and 7:00 AM. (Verified 2026-04-17.)",
+      "Hilton: noise prohibited especially between 9:00 PM and 7:00 AM. (Verified 2026-04-17.)",
+      "Ogden: noise over 96 dB prohibited. (Verified 2026-04-17.)",
       "If the project has a building permit, the local building department can add conditions about hours if the noise is creating a problem.",
       "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]
