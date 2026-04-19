@@ -8,7 +8,7 @@ export const PAROLE_BASICS_NY = {
   primaryStatute: "NY EXC 259",
   status: "active",
 
-  title: { en: "Parole in New York — How It Works, What the Conditions Are, and What to Do If You Are Violated" },
+  title: { en: "Parole in New York — How It Works, Standard Conditions, and What to Do After a Violation" },
 
   summary: {
     en: "Parole is supervised release from state prison before the full sentence is served. The person must follow conditions set by the Parole Board — reporting to a parole officer, maintaining employment, avoiding arrests, and sometimes wearing a GPS monitor or completing programs. Violating a condition can lead to a hearing and possible return to prison. Parole is different from probation — parole comes after prison time, probation comes instead of prison time."

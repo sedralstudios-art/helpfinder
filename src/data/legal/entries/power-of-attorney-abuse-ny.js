@@ -8,7 +8,7 @@ export const POWER_OF_ATTORNEY_ABUSE_NY = {
   status: "active",
   draft: true,
 
-  title: { en: "Power of Attorney Abuse — When Someone Misuses Authority Over Your Finances" },
+  title: { en: "Power of Attorney Abuse — When an Agent Misuses Authority Over Finances" },
 
   summary: {
     en: "A Power of Attorney (POA) is meant to help — it gives someone authority to handle finances or make decisions on behalf of another person. But when the agent misuses that authority — stealing money, making unauthorized transactions, or neglecting the person's needs — it is a serious abuse. New York law provides both civil and criminal remedies."

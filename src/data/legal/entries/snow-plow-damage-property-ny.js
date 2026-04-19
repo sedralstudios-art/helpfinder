@@ -7,7 +7,7 @@ export const SNOW_PLOW_DAMAGE_PROPERTY_NY = {
   primaryStatute: "NY GMU 50-E",
   status: "active",
 
-  title: { en: "Snow Plow Damaged Your Mailbox, Lawn, or Driveway — How to File a Claim" },
+  title: { en: "Snow Plow Damaged a Mailbox, Lawn, or Driveway — How to File a Claim" },
 
   summary: {
     en: "Every winter, city and town plows damage mailboxes, lawns, curbs, and driveways across Monroe County. If a municipal plow caused the damage, the homeowner can file a claim with the responsible government. The process is different for each municipality and there are deadlines."

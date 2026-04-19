@@ -7,7 +7,7 @@ export const TENANT_SCREENING_BLACKLIST_NY = {
   primaryStatute: "NY CVP 213-B",
   status: "active",
 
-  title: { en: "Tenant Screening and Blacklists — What Landlords Can and Cannot Use Against You in New York" },
+  title: { en: "Tenant Screening and Blacklists — What Landlords Can and Cannot Use in New York" },
 
   summary: {
     en: "Many tenants are denied housing because their name appears in a tenant screening report — often based on a past eviction case that was dismissed, an old debt, or even a case filed against a different person with a similar name. New York passed landmark tenant screening reforms in 2019 that limit what landlords can consider and give tenants the right to see and dispute the report."

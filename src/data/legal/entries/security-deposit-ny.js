@@ -7,7 +7,7 @@ export const SECURITY_DEPOSIT_NY = {
   primaryStatute: "NY GOB 7-108",
   status: "active",
 
-  title: { en: "Security Deposits — Your Rights When You Move In and Move Out" },
+  title: { en: "Security Deposits — Tenant Rights at Move-In and Move-Out" },
 
   summary: {
     en: "New York law limits security deposits to one month's rent and requires your landlord to return it within 14 days after you move out. If the landlord keeps any of it, they must give you a written list explaining every deduction. If they don't, they lose the right to keep any of it."

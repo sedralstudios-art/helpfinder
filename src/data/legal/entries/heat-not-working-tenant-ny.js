@@ -7,7 +7,7 @@ export const HEAT_NOT_WORKING_TENANT_NY = {
   primaryStatute: "NY MDW 79",
   status: "active",
 
-  title: { en: "No Heat in Your Apartment — What Landlords Must Provide and What Tenants Can Do" },
+  title: { en: "No Heat in an Apartment — What Landlords Must Provide and What Tenants Can Do" },
 
   summary: {
     en: "New York law requires landlords to provide heat during the heating season — October 1 through May 31. When the outside temperature drops below 55 degrees during the day, the inside temperature must be at least 68 degrees. At night, the inside must be at least 62 degrees. A landlord who fails to provide heat is breaking the law."

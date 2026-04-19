@@ -7,7 +7,7 @@ export const PAY_STUB_WAGE_NOTICE_NY = {
   primaryStatute: "NY LAB 195",
   status: "active",
 
-  title: { en: "Pay Stub and Wage Notice Rights — What Your Employer Must Tell You in New York" },
+  title: { en: "Pay Stub and Wage Notice Rights — What an Employer Must Disclose in New York" },
 
   summary: {
     en: "New York law requires employers to give workers a detailed pay stub with every paycheck AND a written wage notice at the time of hire that spells out the pay rate, pay schedule, and other terms. Many employers skip these requirements. Workers who do not receive them have the right to penalties — even if the wages themselves were paid correctly."

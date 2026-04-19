@@ -7,7 +7,7 @@ export const SURPRISE_MEDICAL_BILLING_NY = {
   primaryStatute: "NY FIS 603",
   status: "active",
 
-  title: { en: "Surprise Medical Bills — The No Surprises Act and Your Rights" },
+  title: { en: "Surprise Medical Bills — The No Surprises Act and Patient Rights" },
 
   summary: {
     en: "A surprise medical bill is a bill from an out-of-network provider that the patient did not choose — like an ER doctor, anesthesiologist, or lab that happened to be out of network at an in-network hospital. The federal No Surprises Act (2022) and New York's earlier surprise bill law protect patients from being charged more than their in-network cost-sharing in these situations."

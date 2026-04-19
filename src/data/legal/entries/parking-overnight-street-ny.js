@@ -6,7 +6,7 @@ export const PARKING_OVERNIGHT_STREET_NY = {
   authorityType: "local-ordinance",
   status: "active",
 
-  title: { en: "Overnight Street Parking Rules in Monroe County — Where You Can and Cannot Park" },
+  title: { en: "Overnight Street Parking Rules in Monroe County — Where Parking Is Permitted" },
 
   summary: {
     en: "Most Monroe County towns have overnight parking bans on public streets. In Rochester, no vehicle may be parked on any city street for more than 12 hours. Breaking the rules can result in a ticket or a tow. The rules and hours are different in every municipality — contact the local police non-emergency line for the exact ban hours."

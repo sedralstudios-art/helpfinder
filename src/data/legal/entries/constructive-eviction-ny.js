@@ -7,7 +7,7 @@ export const CONSTRUCTIVE_EVICTION_NY = {
   primaryStatute: "NY RPP 227-A",
   status: "active",
 
-  title: { en: "Constructive Eviction — When a Landlord Makes Life So Bad You Have to Leave" },
+  title: { en: "Constructive Eviction — When a Landlord Makes Life Unbearable Enough to Force a Move" },
 
   summary: {
     en: "Constructive eviction happens when a landlord's actions (or failure to act) make an apartment so uninhabitable that the tenant has no reasonable choice but to leave. No heat in winter, persistent flooding, toxic mold the landlord refuses to fix, shutting off utilities, or sustained harassment can all qualify. If a tenant leaves because of constructive eviction, the landlord may owe damages and the tenant may not owe remaining rent on the lease."

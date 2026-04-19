@@ -7,7 +7,7 @@ export const SCHOOL_TRANSPORTATION_BUS_RIGHTS_NY = {
   primaryStatute: "NY EDN 3635",
   status: "active",
 
-  title: { en: "School Bus Transportation — Who Qualifies and What to Do If Your Child Is Denied" },
+  title: { en: "School Bus Transportation — Who Qualifies and What to Do After a Denial" },
 
   summary: {
     en: "New York law requires school districts to provide free transportation to students who live beyond a certain distance from school. The distance limits vary by grade level. If a child is denied bus service, the parent can appeal to the school board and then to the state."

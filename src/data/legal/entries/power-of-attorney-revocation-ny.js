@@ -7,7 +7,7 @@ export const POWER_OF_ATTORNEY_REVOCATION_NY = {
   primaryStatute: "NY GOB 5-1511",
   status: "active",
 
-  title: { en: "Revoking a Power of Attorney — How to Take Back the Authority You Gave" },
+  title: { en: "Revoking a Power of Attorney — How to Revoke the Authority Granted" },
 
   summary: {
     en: "A power of attorney can be taken back (revoked) at any time, as long as the person who signed it still has the mental ability to make decisions. The process requires written notice to the person who was given the authority and to anyone who has been relying on it, like a bank."

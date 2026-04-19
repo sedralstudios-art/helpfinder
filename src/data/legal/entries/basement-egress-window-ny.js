@@ -6,7 +6,7 @@ export const BASEMENT_EGRESS_WINDOW_NY = {
   authorityType: "state-statute",
   status: "active",
 
-  title: { en: "Egress Windows — When Your Basement Bedroom Needs One and What It Costs" },
+  title: { en: "Egress Windows — When a Basement Bedroom Needs One and What It Costs" },
 
   summary: {
     en: "If a basement is used as a bedroom or living space, New York building code requires an egress window — a window large enough for a person to escape through in a fire. Many finished basements do not have one. Adding an egress window is required before the space can legally be called a bedroom."

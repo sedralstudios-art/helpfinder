@@ -7,7 +7,7 @@ export const PROBATION_BASICS_NY = {
   primaryStatute: "NY PEN 65.00",
   status: "active",
 
-  title: { en: "Probation in New York — What It Means, What the Rules Are, and What Happens If You Violate" },
+  title: { en: "Probation in New York — What It Means, Standard Rules, and What Happens After a Violation" },
 
   summary: {
     en: "Probation is a sentence served in the community instead of jail or prison. The person must follow conditions set by the court — like reporting to a probation officer, staying employed, avoiding arrests, and sometimes completing programs or community service. Violating a condition can lead to a hearing and possible jail time. Understanding how probation works — and what counts as a violation — is important because the consequences of a violation can be more severe than the original sentence."

@@ -7,7 +7,7 @@ export const COLLECTING_COURT_JUDGMENT_NY = {
   primaryStatute: "NY CVP A52",
   status: "active",
 
-  title: { en: "Collecting a Court Judgment — What to Do When You Win But Don't Get Paid" },
+  title: { en: "Collecting a Court Judgment — What to Do After Winning But Not Getting Paid" },
 
   summary: {
     en: "Winning a court case does not mean the money automatically shows up. If the person who owes the money does not pay voluntarily, the winner has to take extra steps to collect. New York law provides tools like bank freezes and wage deductions, but using them takes time and paperwork."

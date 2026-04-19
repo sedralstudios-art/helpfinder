@@ -7,7 +7,7 @@ export const SSDI_NY = {
   primaryStatute: "42 USC 423",
   status: "active",
 
-  title: { en: "SSDI — Disability Checks Based on Your Work History" },
+  title: { en: "SSDI — Disability Benefits Based on Work History" },
 
   summary: {
     en: "SSDI stands for Social Security Disability Insurance. It pays monthly checks to people who can't work because of a disability. It's based on your past work and the Social Security taxes you already paid. There is no income or savings limit to qualify."

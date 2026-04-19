@@ -7,7 +7,7 @@ export const INDEPENDENT_CONTRACTOR_MISCLASS_NY = {
   primaryStatute: "NY LAB A6",
   status: "active",
 
-  title: { en: "Misclassified as an Independent Contractor — Your Rights in New York" },
+  title: { en: "Misclassified as an Independent Contractor — Worker Rights in New York" },
 
   summary: {
     en: "Some employers call workers 'independent contractors' to avoid paying minimum wage, overtime, unemployment insurance, workers' compensation, and payroll taxes. If the employer controls how, when, and where you work, you may actually be an employee — regardless of what the paperwork says. Misclassification is illegal in New York and can be reported."

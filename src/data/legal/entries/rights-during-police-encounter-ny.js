@@ -8,7 +8,7 @@ export const RIGHTS_DURING_POLICE_ENCOUNTER_NY = {
   status: "active",
   draft: true,
 
-  title: { en: "Your Rights During a Police Encounter — Traffic Stops, Street Stops, and Home Visits" },
+  title: { en: "Rights During a Police Encounter — Traffic Stops, Street Stops, and Home Visits" },
 
   summary: {
     en: "Encounters with police happen in many ways — traffic stops, street stops, knocks on the door, and investigations. Knowing what the police can and cannot do, and what a person is and is not required to do, prevents small encounters from becoming big problems. The right to remain silent and the right to refuse consent to a search are among the most important — and least understood — constitutional protections."

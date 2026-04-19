@@ -7,7 +7,7 @@ export const FISHING_HUNTING_LICENSE_NY = {
   primaryStatute: "NY ENV A11",
   status: "active",
 
-  title: { en: "Fishing and Hunting Licenses — What You Need in New York" },
+  title: { en: "Fishing and Hunting Licenses — What Is Required in New York" },
 
   summary: {
     en: "Fishing and hunting in New York require a license from the Department of Environmental Conservation (DEC). Licenses can be purchased online, at sporting goods stores, or at town clerk offices. Fishing without a license on the wrong day, or hunting without proper tags, can result in fines."

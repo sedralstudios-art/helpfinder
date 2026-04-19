@@ -7,7 +7,7 @@ export const WORKERS_COMPENSATION_NY = {
   primaryStatute: "NY WKC",
   status: "active",
 
-  title: { en: "Workers' Compensation — Your Rights If You Get Hurt at Work" },
+  title: { en: "Workers' Compensation — Rights After a Workplace Injury" },
 
   summary: {
     en: "If you get hurt on the job in New York, workers' comp pays for your medical care and a portion of your lost pay. It's a no-fault system — you don't have to prove anyone was at fault. Your boss cannot fire you or punish you for filing a claim."

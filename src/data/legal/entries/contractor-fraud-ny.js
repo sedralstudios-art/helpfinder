@@ -7,7 +7,7 @@ export const CONTRACTOR_FRAUD_NY = {
   primaryStatute: "NY PEN 190.60",
   status: "active",
 
-  title: { en: "Contractor Fraud — What to Do When a Contractor Takes Your Money and Disappears" },
+  title: { en: "Contractor Fraud — What to Do After a Contractor Takes Payment and Disappears" },
 
   summary: {
     en: "Contractor fraud is one of the most common consumer complaints in New York. A contractor takes a deposit, starts little or no work, and stops returning calls. Or the work is done so poorly it needs to be redone. New York's Home Improvement Fraud statute makes it a crime to take more than $250 for home improvement work and fail to perform. The homeowner can file a criminal complaint, a civil lawsuit, and a complaint with the AG — and may recover the money plus damages."

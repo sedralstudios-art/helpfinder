@@ -7,7 +7,7 @@ export const ILLEGAL_LOCKOUT_NY = {
   primaryStatute: "NY RPA 768",
   status: "active",
 
-  title: { en: "Illegal Lockouts — What to Do If Your Landlord Changes the Locks" },
+  title: { en: "Illegal Lockouts — What to Do When a Landlord Changes the Locks" },
 
   summary: {
     en: "In New York, a landlord cannot lock you out, change the locks, shut off utilities, remove your belongings, or do anything else to force you out without a court order. This is called an illegal eviction or self-help eviction, and it is a crime. If it happens, you can call the police and take the landlord to court."

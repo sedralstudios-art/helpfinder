@@ -6,7 +6,7 @@ export const GUTTER_DOWNSPOUT_DRAINAGE_NY = {
   authorityType: "local-ordinance",
   status: "active",
 
-  title: { en: "Gutter Drainage and Downspouts — When a Neighbor's Water Floods Your Yard" },
+  title: { en: "Gutter Drainage and Downspouts — When a Neighbor's Water Floods a Yard" },
 
   summary: {
     en: "When a neighbor's downspouts, sump pump, or grading sends water onto another person's property, the affected homeowner has options. New York common law says a property owner cannot change the natural flow of water in a way that damages a neighbor's property. Local code enforcement can also address drainage problems."

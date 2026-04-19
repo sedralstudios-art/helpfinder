@@ -7,7 +7,7 @@ export const NURSING_HOME_DISCHARGE_RIGHTS_NY = {
   primaryStatute: "42 CFR 483.15",
   status: "active",
 
-  title: { en: "Nursing Home Discharge — When a Facility Wants to Send You Home" },
+  title: { en: "Nursing Home Discharge — When a Facility Wants to Send a Resident Home" },
 
   summary: {
     en: "A nursing home cannot just kick a resident out. Federal and state law require advance notice, a valid reason, and give the resident the right to appeal. If the discharge is unsafe or the resident has nowhere to go, the facility may be required to keep them."

@@ -7,7 +7,7 @@ export const STAR_SENIOR_EXEMPTION_NY = {
   primaryStatute: "NY RPT 425",
   status: "active",
 
-  title: { en: "Lowering Your Property Tax — STAR, Enhanced STAR, and the Senior Exemption" },
+  title: { en: "Lowering a Property Tax Bill — STAR, Enhanced STAR, and the Senior Exemption" },
 
   summary: {
     en: "New York has three main programs that reduce school and property taxes for homeowners: Basic STAR (for most owner-occupied homes), Enhanced STAR (for homeowners 65 and older with income below the state cap), and the Senior Citizens Property Tax Exemption under RPTL § 467 (an additional discount on top of Enhanced STAR, with a lower income ceiling set by each town). Many seniors qualify for all three layers but only claim one — missing out on hundreds or thousands of dollars a year."

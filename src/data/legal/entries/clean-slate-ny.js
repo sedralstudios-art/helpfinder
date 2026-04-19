@@ -7,7 +7,7 @@ export const CLEAN_SLATE_NY = {
   primaryStatute: "NY CPL 160.57",
   status: "active",
 
-  title: { en: "Clean Slate Act — Automatic Sealing of Your Criminal Record" },
+  title: { en: "Clean Slate Act — Automatic Sealing of Criminal Records" },
 
   summary: {
     en: "New York's Clean Slate Act seals most criminal convictions automatically after a waiting period. Misdemeanors seal after 3 years. Felonies seal after 8 years. Once sealed, the conviction is hidden from most job, housing, and school background checks. You don't have to apply. It happens by itself if you qualify."

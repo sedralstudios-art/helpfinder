@@ -7,7 +7,7 @@ export const HEALTH_INSURANCE_MARKETPLACE_NY = {
   primaryStatute: "42 USC 18031",
   status: "active",
 
-  title: { en: "NY State of Health — How to Get Health Insurance If You Do Not Have It" },
+  title: { en: "NY State of Health — How to Get Health Insurance" },
 
   summary: {
     en: "NY State of Health is New York's health insurance marketplace. It is where people without employer insurance can shop for coverage, find out if they qualify for Medicaid, or get help paying for a private plan. Open enrollment happens once a year, but certain life changes allow sign-up at any time."

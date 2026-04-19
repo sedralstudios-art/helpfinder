@@ -7,7 +7,7 @@ export const SNOWMOBILE_ATV_LAWS_NY = {
   primaryStatute: "NY PEN 140.05",
   status: "active",
 
-  title: { en: "Snowmobile and ATV Laws — Registration, Where You Can Ride, and Helmet Rules" },
+  title: { en: "Snowmobile and ATV Laws — Registration, Permitted Areas, and Helmet Rules" },
 
   summary: {
     en: "Snowmobiles and ATVs in New York must be registered with the DMV. Riding on public roads is mostly illegal. Helmets are required for all riders. Riders under 16 have additional restrictions. Riding on someone else's property without permission is trespassing."

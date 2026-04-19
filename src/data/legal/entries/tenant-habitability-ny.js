@@ -7,7 +7,7 @@ export const TENANT_HABITABILITY_NY = {
   primaryStatute: "NY RPP 235-B",
   status: "active",
 
-  title: { en: "Warranty of Habitability — Your Right to a Safe Home" },
+  title: { en: "Warranty of Habitability — The Tenant's Right to a Safe Home" },
 
   summary: {
     en: "Every tenant in New York has a legal right to a home that is safe, clean, and fit to live in. This right is built into every lease — written or spoken — and your landlord cannot make you give it up."

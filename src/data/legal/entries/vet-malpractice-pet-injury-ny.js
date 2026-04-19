@@ -7,7 +7,7 @@ export const VET_MALPRACTICE_PET_INJURY_NY = {
   primaryStatute: "NY CVP 214",
   status: "active",
 
-  title: { en: "Veterinary Malpractice — When Your Pet Is Injured by a Vet" },
+  title: { en: "Veterinary Malpractice — When a Pet Is Injured by a Vet" },
 
   summary: {
     en: "If a vet's mistake injured or killed a pet, the owner may be able to recover money in New York. Pets are legally treated as property, so the amount is usually limited to the value of the animal plus vet bills. Some courts have also awarded money for loss of companionship in limited cases."

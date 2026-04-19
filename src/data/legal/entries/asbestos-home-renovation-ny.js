@@ -7,7 +7,7 @@ export const ASBESTOS_HOME_RENOVATION_NY = {
   primaryStatute: "NY LAB A30",
   status: "active",
 
-  title: { en: "Asbestos in Your Home — What to Know Before Renovating" },
+  title: { en: "Asbestos in the Home — What to Know Before Renovating" },
 
   summary: {
     en: "Many homes built before 1980 contain asbestos in floor tiles, insulation, siding, pipe wrap, and ceiling texture. Asbestos is not dangerous if it is in good condition and left alone. But disturbing it during a renovation releases fibers that cause serious lung disease and cancer. New York law requires proper handling."

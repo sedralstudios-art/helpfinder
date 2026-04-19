@@ -7,7 +7,7 @@ export const FOSTER_PARENT_RIGHTS_NY = {
   primaryStatute: "NY SOS 392",
   status: "active",
 
-  title: { en: "Foster Parent Rights — What You Can and Cannot Do as a Foster Parent" },
+  title: { en: "Foster Parent Rights — What Foster Parents Can and Cannot Do" },
 
   summary: {
     en: "Foster parents provide daily care but do not have the same legal authority as biological or adoptive parents. New York law gives foster parents the right to be heard in court, the right to information about the child, and the right to be considered for adoption if the child becomes available."

@@ -7,7 +7,7 @@ export const MEDICAL_BILL_NEGOTIATION_NY = {
   primaryStatute: "NY PBH 2807-K",
   status: "active",
 
-  title: { en: "Medical Bills You Cannot Pay — Negotiation, Financial Assistance, and Your Rights" },
+  title: { en: "Medical Bills Too High to Pay — Negotiation, Financial Assistance, and Patient Rights" },
 
   summary: {
     en: "Medical bills are the leading cause of financial distress in the US. Many people do not know that hospitals and medical providers are often willing to reduce bills, set up interest-free payment plans, or forgive the balance entirely through financial assistance (charity care) programs. New York nonprofit hospitals are required by law to have financial assistance policies."

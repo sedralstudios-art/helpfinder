@@ -7,7 +7,7 @@ export const LOCKED_OUT_OF_HOUSE_LOCKSMITH_NY = {
   primaryStatute: "NY GBS 70-G",
   status: "active",
 
-  title: { en: "Locked Out of Your House — Locksmith Scams and What to Watch For" },
+  title: { en: "Locked Out of a Home — Locksmith Scams and Warning Signs" },
 
   summary: {
     en: "Getting locked out of the house is stressful, and locksmith scams make it worse. Fake locksmiths quote $35 on the phone and charge $300 at the door. New York requires locksmiths to be licensed. Knowing how to spot a scam and what a fair price looks like can save money and frustration."

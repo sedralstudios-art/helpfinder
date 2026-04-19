@@ -7,7 +7,7 @@ export const POTHOLE_DAMAGE_CLAIM_NY = {
   primaryStatute: "NY GMU 50-E",
   status: "active",
 
-  title: { en: "Pothole Damage to Your Car — Can You Get the City or County to Pay" },
+  title: { en: "Pothole Damage to a Car — When the City or County May Pay" },
 
   summary: {
     en: "If a pothole damaged a car's tire, rim, or suspension, the driver may be able to file a claim against the city, town, or county that is responsible for the road. The key is whether the government knew about the pothole and had time to fix it. There is a strict 90-day deadline to file a notice of claim."

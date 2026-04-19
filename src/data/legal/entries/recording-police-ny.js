@@ -8,7 +8,7 @@ export const RECORDING_POLICE_NY = {
   status: "active",
   draft: true,
 
-  title: { en: "Recording the Police — Your Right to Film Officers in Public" },
+  title: { en: "Recording the Police — The Right to Film Officers in Public" },
 
   summary: {
     en: "The right to record police officers performing their duties in public is protected by the First Amendment. Officers cannot order a person to stop filming, cannot seize a phone or camera without a warrant, and cannot arrest a person solely for recording. This right has been affirmed by federal courts. New York is a one-party consent state for audio, which means recording a conversation you are witnessing in public is legal. Knowing this right — and staying calm when exercising it — matters."

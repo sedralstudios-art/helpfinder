@@ -7,7 +7,7 @@ export const TIP_THEFT_NY = {
   primaryStatute: "NY LAB 196-D",
   status: "active",
 
-  title: { en: "Tip Theft — Your Rights When an Employer Takes Your Tips in New York" },
+  title: { en: "Tip Theft — Worker Rights When an Employer Takes Tips in New York" },
 
   summary: {
     en: "In New York, tips belong to the worker. An employer, manager, or owner cannot take any part of an employee's tips. Tip pooling (sharing among service workers) is allowed under certain conditions, but management can never participate. Tip theft is wage theft under New York law and carries the same penalties — including liquidated damages and attorney fees."

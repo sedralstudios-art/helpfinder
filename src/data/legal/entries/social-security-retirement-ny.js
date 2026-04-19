@@ -7,7 +7,7 @@ export const SOCIAL_SECURITY_RETIREMENT_NY = {
   primaryStatute: "42 USC 402",
   status: "active",
 
-  title: { en: "Social Security Retirement — Monthly Benefits When You Stop Working" },
+  title: { en: "Social Security Retirement — Monthly Benefits After Stopping Work" },
 
   summary: {
     en: "Social Security retirement benefits provide monthly income to people who have worked and paid Social Security taxes. You can start receiving benefits as early as age 62, but waiting until full retirement age or later increases your monthly payment. Your benefit amount is based on your earnings history."

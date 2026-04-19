@@ -7,7 +7,7 @@ export const VETERANS_BENEFITS_NY = {
   primaryStatute: "38 USC",
   status: "active",
 
-  title: { en: "Veterans Benefits — What You've Earned and How to Claim It in Monroe County" },
+  title: { en: "Veterans Benefits — What Has Been Earned and How to Claim It in Monroe County" },
 
   summary: {
     en: "Veterans and their families are entitled to a wide range of federal and state benefits — health care through the VA, disability compensation, education (GI Bill), home loans, employment preference, and property tax exemptions. Many veterans do not claim benefits they have earned. The Monroe County Veterans Service Agency provides free help with every step of the claims process."

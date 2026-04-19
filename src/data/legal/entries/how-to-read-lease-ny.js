@@ -7,7 +7,7 @@ export const HOW_TO_READ_LEASE_NY = {
   primaryStatute: "NY RPP 235-B",
   status: "active",
 
-  title: { en: "How to Read a Lease — What to Look For Before You Sign" },
+  title: { en: "How to Read a Lease — What to Check Before Signing" },
 
   summary: {
     en: "A lease is a legal contract. Once signed, the tenant is bound by its terms for the full lease period. Many tenants sign without reading it. Knowing what to look for — and what clauses are illegal in New York even if they are in the lease — can prevent problems later."

@@ -7,7 +7,7 @@ export const CAR_TOWED_REPOSSESSED_NY = {
   primaryStatute: "NY VAT 182",
   status: "active",
 
-  title: { en: "Your Car Was Towed or Repossessed — What to Do in New York" },
+  title: { en: "After a Car Is Towed or Repossessed — What to Do in New York" },
 
   summary: {
     en: "If your car was towed by the city or a private company, or repossessed by a lender, you have rights. New York law limits towing fees, requires notice before sale, and gives you the right to get your belongings out of the car. For repossession, the lender must follow specific rules and you may have the right to get the car back."

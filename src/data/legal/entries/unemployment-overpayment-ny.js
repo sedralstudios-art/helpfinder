@@ -7,7 +7,7 @@ export const UNEMPLOYMENT_OVERPAYMENT_NY = {
   primaryStatute: "NY LAB 597",
   status: "active",
 
-  title: { en: "Unemployment Overpayment — What to Do If the DOL Says You Were Overpaid" },
+  title: { en: "Unemployment Overpayment — What to Do When DOL Claims an Overpayment" },
 
   summary: {
     en: "If the NY Department of Labor determines that a person received unemployment benefits they were not entitled to — because of a mistake, a misunderstanding, or unreported earnings — they will demand the money back. This is called an overpayment. The DOL can offset future benefits, intercept tax refunds, and send the debt to collections. But the claimant has the right to appeal the overpayment determination and, in some cases, request a waiver if repayment would cause financial hardship."

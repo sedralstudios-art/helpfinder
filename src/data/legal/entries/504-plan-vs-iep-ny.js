@@ -7,7 +7,7 @@ export const PLAN_504_VS_IEP_NY = {
   primaryStatute: "29 USC 794",
   status: "active",
 
-  title: { en: "504 Plan vs. IEP — Which One Your Child Needs and How They Are Different" },
+  title: { en: "504 Plan vs. IEP — Which One a Child Needs and How They Differ" },
 
   summary: {
     en: "A 504 plan and an IEP are both legal documents that require a school to support a child with a disability — but they are different laws, different processes, and different levels of protection. An IEP is under IDEA and provides specialized instruction. A 504 plan is under Section 504 of the Rehabilitation Act and provides accommodations in the regular classroom. Many parents do not know which one applies to their child, and some schools push 504 plans when an IEP evaluation is actually warranted."

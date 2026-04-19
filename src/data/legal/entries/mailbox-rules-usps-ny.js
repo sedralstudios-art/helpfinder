@@ -7,7 +7,7 @@ export const MAILBOX_RULES_USPS_NY = {
   primaryStatute: "18 USC 1708",
   status: "active",
 
-  title: { en: "Mailbox Rules — What You Can and Cannot Do With Your Own Mailbox" },
+  title: { en: "Mailbox Rules — What Homeowners Can and Cannot Do With a Residential Mailbox" },
 
   summary: {
     en: "A residential mailbox is regulated by the U.S. Postal Service — even though the homeowner bought and installed it. Only USPS mail carriers can put mail in the box. Tampering with someone else's mailbox is a federal crime. There are also rules about where the mailbox must be placed and what type is allowed."

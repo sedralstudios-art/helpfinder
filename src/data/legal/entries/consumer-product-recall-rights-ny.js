@@ -7,7 +7,7 @@ export const CONSUMER_PRODUCT_RECALL_RIGHTS_NY = {
   primaryStatute: "15 USC 2064",
   status: "active",
 
-  title: { en: "Consumer Product Recalls — How to Find Out About Them and What a Manufacturer Owes You" },
+  title: { en: "Consumer Product Recalls — How to Find Recall Notices and What a Manufacturer Owes" },
 
   summary: {
     en: "When a product is recalled for a safety defect, the manufacturer must offer a free repair, free replacement, or full refund. Vehicles, car seats, cribs, small appliances, food, and drugs all have recall systems. Registering products at purchase and checking recall databases before use are the best ways to get notified quickly. Free help is available when a manufacturer delays or denies a remedy."

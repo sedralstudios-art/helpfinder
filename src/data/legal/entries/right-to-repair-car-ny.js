@@ -7,7 +7,7 @@ export const RIGHT_TO_REPAIR_CAR_NY = {
   primaryStatute: "15 USC 2302",
   status: "active",
 
-  title: { en: "Right to Repair Your Own Car — What Dealers Cannot Block" },
+  title: { en: "Right to Repair an Owned Car — What Dealers Cannot Block" },
 
   summary: {
     en: "New York passed a Digital Fair Repair Act in 2023 that requires manufacturers to make repair manuals, diagnostic tools, and parts available to independent repair shops and vehicle owners. A car dealer cannot void the warranty just because the owner had the car serviced somewhere else or did their own oil change."

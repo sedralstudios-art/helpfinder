@@ -7,7 +7,7 @@ export const IDENTITY_THEFT_NY = {
   primaryStatute: "NY PEN 190.78",
   status: "active",
 
-  title: { en: "Identity Theft — What to Do If Someone Uses Your Information" },
+  title: { en: "Identity Theft — What to Do When Personal Information Is Stolen" },
 
   summary: {
     en: "If someone opens accounts, takes out loans, files taxes, or commits crimes using your personal information, that is identity theft. New York has strong identity theft protections. You have the right to a police report, a credit freeze, and free legal help to clean up the damage."

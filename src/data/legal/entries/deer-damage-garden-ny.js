@@ -6,7 +6,7 @@ export const DEER_DAMAGE_GARDEN_NY = {
   authorityType: "local-ordinance",
   status: "active",
 
-  title: { en: "Deer Damaging Your Property — What Homeowners Can Do in Monroe County" },
+  title: { en: "Deer Damaging Private Property — What Homeowners Can Do in Monroe County" },
 
   summary: {
     en: "Deer damage to gardens, landscaping, and vehicles is a major issue in many Monroe County suburbs. Homeowners cannot shoot deer in most residential areas. The DEC manages the deer population through hunting seasons and special permits. Some towns have specific deer management programs."

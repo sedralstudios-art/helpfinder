@@ -7,7 +7,7 @@ export const UNPAID_FINAL_PAYCHECK_NY = {
   primaryStatute: "NY LAB 191",
   status: "active",
 
-  title: { en: "Employer Won't Pay Your Last Paycheck — What to Do in New York" },
+  title: { en: "Employer Refuses to Pay a Final Paycheck — What to Do in New York" },
 
   summary: {
     en: "When a job ends — whether the worker quit, was fired, or was laid off — the employer must pay the final wages by the next regular payday. Many employers delay, short, or refuse the last check entirely. Under New York law, failing to pay final wages on time is wage theft. The worker can recover the full amount owed plus an equal amount in liquidated damages plus attorney fees."

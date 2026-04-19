@@ -7,7 +7,7 @@ export const REENTRY_RIGHTS_NY = {
   primaryStatute: "NY COR A23-A",
   status: "active",
 
-  title: { en: "Reentry After Incarceration — Your Rights and Resources in Monroe County" },
+  title: { en: "Reentry After Incarceration — Rights and Resources in Monroe County" },
 
   summary: {
     en: "Coming home from jail or prison is one of the hardest transitions a person faces. Housing, jobs, ID, benefits, and family reconnection all have barriers. Monroe County has specific resources for people in reentry, and New York law provides rights that many returning citizens do not know about — including voting rights restored immediately after release, the right to apply for benefits, and protections against employment discrimination."

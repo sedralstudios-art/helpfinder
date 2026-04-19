@@ -7,7 +7,7 @@ export const WAGE_THEFT_NY = {
   primaryStatute: "NY LAB A6",
   status: "active",
 
-  title: { en: "Wage Theft — When Your Boss Doesn't Pay What You're Owed" },
+  title: { en: "Wage Theft — When an Employer Fails to Pay What Is Owed" },
 
   summary: {
     en: "Wage theft is when your boss doesn't pay you what you earned. That includes not paying for all your hours, not paying overtime, taking your tips, and taking money out of your check without permission. It also covers paychecks that bounce and bosses who call you a \"1099 contractor\" to avoid paying you the right way. New York has strong laws — you can get the missing money back, plus up to 100% extra."

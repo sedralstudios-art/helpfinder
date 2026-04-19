@@ -6,7 +6,7 @@ export const TREE_REMOVAL_PERMIT_NY = {
   authorityType: "local-ordinance",
   status: "active",
 
-  title: { en: "Cutting Down a Tree on Your Property — When You Need a Permit" },
+  title: { en: "Cutting Down a Tree on Private Property — When a Permit Is Required" },
 
   summary: {
     en: "In some Monroe County towns, a homeowner needs a permit before cutting down a tree on their own property, especially if it is large, near the street, or in a historic district. Rochester has a tree ordinance that protects street trees and significant trees. Cutting a protected tree without a permit can result in fines."

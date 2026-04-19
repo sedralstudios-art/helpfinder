@@ -6,7 +6,7 @@ export const NON_COMPETE_AGREEMENTS_NY = {
   authorityType: "common-law",
   status: "active",
 
-  title: { en: "Non-Compete Agreements in New York — What Your Employer Can and Cannot Restrict" },
+  title: { en: "Non-Compete Agreements in New York — What an Employer Can and Cannot Restrict" },
 
   summary: {
     en: "A non-compete agreement is a clause in an employment contract that tries to prevent the worker from taking a job with a competitor after leaving. New York courts enforce non-competes only when they are reasonable in scope, duration, and geography. Many non-competes signed by low-wage or non-professional workers are unenforceable. A proposed state ban on most non-competes has been introduced but as of this writing has not been enacted — the law is evolving."

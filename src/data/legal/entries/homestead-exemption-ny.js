@@ -7,7 +7,7 @@ export const HOMESTEAD_EXEMPTION_NY = {
   primaryStatute: "NY CVP 5206",
   status: "active",
 
-  title: { en: "Homestead Exemption — Protecting Your Home From Creditors" },
+  title: { en: "Homestead Exemption — Protecting a Home From Creditors" },
 
   summary: {
     en: "New York's homestead exemption protects a portion of a homeowner's equity from being taken by most creditors. If someone wins a lawsuit against a homeowner and tries to force the sale of the house, the homestead exemption can block or limit the forced sale."

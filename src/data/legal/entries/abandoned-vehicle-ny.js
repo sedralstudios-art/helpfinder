@@ -7,7 +7,7 @@ export const ABANDONED_VEHICLE_NY = {
   primaryStatute: "NY VAT 1224",
   status: "active",
 
-  title: { en: "Abandoned Vehicles — What to Do If a Car Is Left on Your Property or the Street" },
+  title: { en: "Abandoned Vehicles — What to Do When a Car Is Left on Private Property or the Street" },
 
   summary: {
     en: "An abandoned vehicle on private property or a public street can be reported for removal. In New York, a vehicle is considered abandoned if it has been left unattended on public property for more than 96 hours, or on private property without the owner's consent. The process for removal depends on whether the vehicle is on public or private property and whether the owner can be identified. Vehicle owners who abandon a car can face fines."

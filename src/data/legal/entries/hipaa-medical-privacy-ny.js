@@ -7,7 +7,7 @@ export const HIPAA_MEDICAL_PRIVACY_NY = {
   primaryStatute: "45 CFR PART 164",
   status: "active",
 
-  title: { en: "HIPAA and Medical Privacy — What Your Doctor Can and Cannot Share" },
+  title: { en: "HIPAA and Medical Privacy — What a Doctor Can and Cannot Share" },
 
   summary: {
     en: "HIPAA (the Health Insurance Portability and Accountability Act) is the federal law that protects the privacy of medical records. It limits who can see health information, requires authorization before most disclosures, and gives patients the right to access and correct their own records. Many people hear the word HIPAA but do not understand what it actually covers — and what it does not. HIPAA applies to health care providers, insurers, and their business associates. It does not apply to employers, schools, or random people."

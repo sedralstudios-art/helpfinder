@@ -7,7 +7,7 @@ export const RENTERS_INSURANCE_NY = {
   primaryStatute: "NY ISC 3420",
   status: "active",
 
-  title: { en: "Renters Insurance — What It Covers and Whether Your Landlord Can Require It" },
+  title: { en: "Renters Insurance — What It Covers and Whether a Landlord Can Require It" },
 
   summary: {
     en: "Renters insurance protects a tenant's personal belongings — furniture, electronics, clothes, appliances — if they are damaged or stolen. It also provides liability coverage if someone is injured in the apartment. The landlord's insurance does not cover the tenant's belongings. In New York, landlords can require tenants to carry renters insurance as a condition of the lease. Many tenants skip it because they think they have nothing worth insuring — but replacing everything after a fire or break-in is expensive."

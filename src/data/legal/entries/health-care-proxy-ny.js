@@ -7,7 +7,7 @@ export const HEALTH_CARE_PROXY_NY = {
   primaryStatute: "NY PBH 2981",
   status: "active",
 
-  title: { en: "Health Care Proxy in New York — Choosing Someone to Make Medical Decisions for You" },
+  title: { en: "Health Care Proxy in New York — Choosing Someone to Make Medical Decisions" },
 
   summary: {
     en: "A health care proxy is a legal document that names someone to make medical decisions if the person cannot speak for themselves — for example, during surgery, after an accident, or during a serious illness. In New York, any competent adult can create one. It does not require a lawyer, a notary, or a fee — just two witnesses. Without a health care proxy, medical decisions may be delayed or made by someone the patient would not have chosen."

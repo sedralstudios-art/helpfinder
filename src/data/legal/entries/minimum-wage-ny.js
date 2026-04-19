@@ -7,7 +7,7 @@ export const MINIMUM_WAGE_NY = {
   primaryStatute: "NY LAB 652",
   status: "active",
 
-  title: { en: "Minimum Wage — What New York Law Requires Your Employer to Pay" },
+  title: { en: "Minimum Wage — What New York Law Requires an Employer to Pay" },
 
   summary: {
     en: "New York law sets a minimum hourly wage that every employer must pay. The rate depends on where you work. As of January 1, 2026, the minimum wage is $16.00 per hour for most of upstate New York and $17.00 per hour in New York City and the downstate suburbs. Starting in 2027, the rate will adjust annually based on inflation."

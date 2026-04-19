@@ -7,7 +7,7 @@ export const SCHOOL_RESIDENCY_ENROLLMENT_NY = {
   primaryStatute: "NY EDN 3202",
   status: "active",
 
-  title: { en: "School Enrollment — What Happens When You Cannot Prove Your Address" },
+  title: { en: "School Enrollment — What Happens Without Proof of Address" },
 
   summary: {
     en: "Every child in New York has the right to attend public school, even if the family does not have traditional proof of address. Schools cannot refuse to enroll a child because the family is homeless, living doubled up, or lacks a utility bill. The law requires schools to enroll first and ask questions later."

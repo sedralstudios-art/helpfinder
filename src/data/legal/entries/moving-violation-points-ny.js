@@ -7,7 +7,7 @@ export const MOVING_VIOLATION_POINTS_NY = {
   primaryStatute: "NY VAT 510",
   status: "active",
 
-  title: { en: "Points on Your License — How the NY DMV Point System Works" },
+  title: { en: "Points on a License — How the NY DMV Point System Works" },
 
   summary: {
     en: "New York assigns points to moving violations. If a driver accumulates 11 or more points in 18 months, the DMV suspends the license. Common violations and their points: speeding 1-10 mph over (3 points), speeding 11-20 mph over (4 points), speeding 21-30 mph over (6 points), running a red light (3 points), failure to yield (3 points), passing a stopped school bus (5 points), reckless driving (5 points), and texting while driving (5 points). A defensive driving course can reduce up to 4 points."

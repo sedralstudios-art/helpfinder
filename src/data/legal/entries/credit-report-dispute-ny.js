@@ -7,7 +7,7 @@ export const CREDIT_REPORT_DISPUTE_NY = {
   primaryStatute: "15 USC 1681",
   status: "active",
 
-  title: { en: "Disputing Errors on Your Credit Report" },
+  title: { en: "Disputing Errors on a Credit Report" },
 
   summary: {
     en: "Errors on credit reports are common — wrong accounts, debts that have been paid, accounts that belong to someone else, and collections for amounts that are wrong. Under the Fair Credit Reporting Act, credit bureaus must investigate disputes within 30 days and remove or correct inaccurate information. Checking your report and disputing errors is free."

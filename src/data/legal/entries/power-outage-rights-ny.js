@@ -7,7 +7,7 @@ export const POWER_OUTAGE_RIGHTS_NY = {
   primaryStatute: "NY PBS 32",
   status: "active",
 
-  title: { en: "Power Outages — Your Rights When the Electricity Goes Out" },
+  title: { en: "Power Outages — Customer Rights When the Electricity Goes Out" },
 
   summary: {
     en: "When a power outage lasts more than a few hours, customers have rights. New York's Public Service Commission requires utilities to restore power within specific timeframes, provide credits for extended outages, and keep customers informed. If food spoils or a medical device loses power, there may be ways to recover costs."

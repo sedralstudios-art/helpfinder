@@ -7,7 +7,7 @@ export const PHOTOGRAPHY_PUBLIC_PLACES_NY = {
   primaryStatute: "NY PEN 250.45",
   status: "active",
 
-  title: { en: "Taking Photos in Public — What Is Legal and When Someone Can Tell You to Stop" },
+  title: { en: "Taking Photos in Public — What Is Legal and When the Law Requires Stopping" },
 
   summary: {
     en: "In New York, taking photos or video in public places is legal. Sidewalks, parks, streets, and public buildings are generally fair game. But photographing people in private places where they expect privacy — through a window, in a restroom, in a changing room — is a crime. Businesses can ask photographers to stop on their private property."

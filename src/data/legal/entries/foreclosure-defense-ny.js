@@ -7,7 +7,7 @@ export const FORECLOSURE_DEFENSE_NY = {
   primaryStatute: "NY RPA 1304",
   status: "active",
 
-  title: { en: "Foreclosure Defense — Your Rights When You Fall Behind on a Mortgage in New York" },
+  title: { en: "Foreclosure Defense — Homeowner Rights After Falling Behind on a Mortgage in New York" },
 
   summary: {
     en: "If you fall behind on mortgage payments, the lender may start foreclosure proceedings to take your home. New York has strong protections for homeowners, including mandatory settlement conferences, a 90-day pre-foreclosure notice, and the right to cure. The process is slow — often 1 to 3 years — which gives time to negotiate, modify the loan, or find other options. Free legal help is available."

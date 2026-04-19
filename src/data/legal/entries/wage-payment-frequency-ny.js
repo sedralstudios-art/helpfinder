@@ -7,7 +7,7 @@ export const WAGE_PAYMENT_FREQUENCY_NY = {
   primaryStatute: "NY LAB 191",
   status: "active",
 
-  title: { en: "How Often Must You Be Paid — Wage Payment Frequency Rules in New York" },
+  title: { en: "How Often Workers Must Be Paid — Wage Payment Frequency Rules in New York" },
 
   summary: {
     en: "New York law requires most workers to be paid at least every two weeks — and manual workers must be paid weekly. The employer cannot hold wages longer than the law allows, cannot delay payment because of a 'pay period policy,' and must pay on a set regular payday. If the employer pays late or skips a payday, that is a wage violation and the worker can file a complaint with the Department of Labor."

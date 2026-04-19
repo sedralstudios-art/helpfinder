@@ -7,7 +7,7 @@ export const ABANDONED_PROPERTY_AFTER_EVICTION_NY = {
   primaryStatute: "NY RPA 749",
   status: "active",
 
-  title: { en: "Belongings Left Behind After an Eviction — What Happens to Your Property" },
+  title: { en: "Belongings Left Behind After an Eviction — What Happens to a Tenant's Property" },
 
   summary: {
     en: "When a tenant is evicted in New York, the marshal or sheriff executes the warrant of eviction and the tenant must leave. But what happens to the belongings left behind? New York law does not have a specific statute governing abandoned property after eviction — the rules come from case law and local practice. In general, the landlord must store the property for a reasonable time and give the tenant an opportunity to retrieve it. Throwing belongings on the curb immediately is risky for the landlord and harmful for the tenant."

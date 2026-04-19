@@ -6,7 +6,7 @@ export const GARAGE_BAND_NOISE_NY = {
   authorityType: "local-ordinance",
   status: "active",
 
-  title: { en: "Neighbor's Band Practice or Loud Music — Noise Laws and What You Can Do" },
+  title: { en: "Neighbor's Band Practice or Loud Music — Noise Laws and Available Remedies" },
 
   summary: {
     en: "A neighbor practicing drums, guitar, or running a home studio can create noise problems. Local noise ordinances set limits on when and how loud. Most towns have quiet hours, and some have daytime decibel limits. A pattern of complaints can lead to fines and even a nuisance order."

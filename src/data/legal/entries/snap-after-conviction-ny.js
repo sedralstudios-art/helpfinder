@@ -7,7 +7,7 @@ export const SNAP_AFTER_CONVICTION_NY = {
   primaryStatute: "21 USC 862A",
   status: "active",
 
-  title: { en: "SNAP After a Conviction — You Can Still Get Food Benefits in New York" },
+  title: { en: "SNAP After a Conviction — Eligibility for Food Benefits in New York" },
 
   summary: {
     en: "New York has fully opted out of the federal ban on SNAP benefits for people with drug felony convictions. A criminal record does not disqualify you from SNAP, Medicaid, or Temporary Assistance in New York. If you meet the income and eligibility requirements, you can receive benefits regardless of your criminal history."

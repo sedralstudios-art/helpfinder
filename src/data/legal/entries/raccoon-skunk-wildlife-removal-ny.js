@@ -6,7 +6,7 @@ export const RACCOON_SKUNK_WILDLIFE_REMOVAL_NY = {
   authorityType: "state-statute",
   status: "active",
 
-  title: { en: "Raccoons, Skunks, and Wildlife in Your Home — Removal Rules in New York" },
+  title: { en: "Raccoons, Skunks, and Wildlife in the Home — Removal Rules in New York" },
 
   summary: {
     en: "When a raccoon, skunk, bat, or other wild animal gets into a house or attic, the homeowner needs to know the rules before removing it. New York law protects most wildlife. Some animals cannot be trapped and relocated without a permit. Rabies-risk animals like raccoons, skunks, and bats have special rules."

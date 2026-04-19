@@ -7,7 +7,7 @@ export const GARAGE_SALE_ESTATE_SALE_TAX_NY = {
   primaryStatute: "NY TAX 1115",
   status: "active",
 
-  title: { en: "Do You Owe Taxes on Garage Sale and Estate Sale Money" },
+  title: { en: "Taxes on Garage Sale and Estate Sale Money in New York" },
 
   summary: {
     en: "Most garage sale and estate sale income is not taxable because the items are sold for less than the seller originally paid. But if an item sells for more than what was paid — like a collectible or antique — the profit is taxable. Sales tax rules also apply in certain situations."

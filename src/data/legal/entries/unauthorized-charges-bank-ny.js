@@ -7,7 +7,7 @@ export const UNAUTHORIZED_CHARGES_BANK_NY = {
   primaryStatute: "15 USC 1666",
   status: "active",
 
-  title: { en: "Unauthorized Bank and Credit Card Charges — How to Dispute and Get Your Money Back" },
+  title: { en: "Unauthorized Bank and Credit Card Charges — How to Dispute and Recover Funds" },
 
   summary: {
     en: "If someone uses a credit card, debit card, or bank account without authorization — whether through theft, fraud, or a billing error — federal law limits the cardholder's liability and requires the bank to investigate. For credit cards, the maximum liability is $50 (and most issuers waive it entirely). For debit cards, the liability depends on how quickly the fraud is reported. The bank must investigate and provisionally credit the account within 10 business days."

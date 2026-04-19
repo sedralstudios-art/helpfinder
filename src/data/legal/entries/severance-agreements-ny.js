@@ -7,7 +7,7 @@ export const SEVERANCE_AGREEMENTS_NY = {
   primaryStatute: "29 USC 626",
   status: "active",
 
-  title: { en: "Severance Agreements — What to Know Before Signing When You Lose a Job" },
+  title: { en: "Severance Agreements — What to Know Before Signing After Losing a Job" },
 
   summary: {
     en: "When a worker is laid off or fired, the employer sometimes offers a severance package — money in exchange for signing a release of legal claims. There is no legal requirement for employers to offer severance, but when they do, the worker has the right to review the agreement, negotiate the terms, and consult a lawyer before signing. Signing too quickly can mean giving up valuable rights without knowing it."

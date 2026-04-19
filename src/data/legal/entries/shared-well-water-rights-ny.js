@@ -7,7 +7,7 @@ export const SHARED_WELL_WATER_RIGHTS_NY = {
   primaryStatute: "10 NYCRR PART 5 SUBPART 5-1",
   status: "active",
 
-  title: { en: "Shared Wells and Private Water — Rights When Your Water Comes From a Well" },
+  title: { en: "Shared Wells and Private Water — Rights for Households on Well Water" },
 
   summary: {
     en: "Many homes in rural parts of Monroe County get water from a private well instead of the public water system. When two or more properties share a well, disputes about maintenance costs, water quality, and access are common. New York law provides some protections but many shared well situations depend on the agreement between the neighbors."

@@ -6,7 +6,7 @@ export const TREE_DAMAGE_NEIGHBOR_LIABILITY_NY = {
   authorityType: "common-law",
   status: "active",
 
-  title: { en: "Neighbor's Tree Damaged Your Property — Who Pays" },
+  title: { en: "Neighbor's Tree Damaged Private Property — Who Pays" },
 
   summary: {
     en: "If a neighbor's tree falls on a house, car, or fence, who pays depends on whether the tree was healthy or already dead and dangerous. A healthy tree that falls in a storm is usually not the neighbor's fault. A dead or rotting tree the neighbor knew about is a different story."

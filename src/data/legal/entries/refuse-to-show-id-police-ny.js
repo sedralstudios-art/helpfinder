@@ -8,7 +8,7 @@ export const REFUSE_TO_SHOW_ID_POLICE_NY = {
   status: "active",
   draft: true,
 
-  title: { en: "Do You Have to Show ID to the Police — Stop and Identify Laws in New York" },
+  title: { en: "Showing ID to Police — Stop and Identify Laws in New York" },
 
   summary: {
     en: "New York is not a stop-and-identify state. A person walking down the street is not required to carry ID or show it to a police officer who asks. But the rules change when driving (license is required) or when the officer has a specific legal basis to detain. Knowing the difference protects people from escalating a stop unnecessarily."

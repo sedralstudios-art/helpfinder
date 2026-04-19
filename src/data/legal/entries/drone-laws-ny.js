@@ -7,7 +7,7 @@ export const DRONE_LAWS_NY = {
   primaryStatute: "49 USC 44809",
   status: "active",
 
-  title: { en: "Drone Laws in New York — Where You Can Fly and What You Need" },
+  title: { en: "Drone Laws in New York — Where Drones Can Fly and What Operators Need" },
 
   summary: {
     en: "Flying a drone in New York is legal but regulated. Drones over 0.55 pounds must be registered with the FAA. Flying over people, near airports, or above 400 feet is prohibited without special permission. Local parks and some municipalities have additional restrictions."

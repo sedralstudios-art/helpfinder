@@ -7,7 +7,7 @@ export const APARTMENT_CARPET_REPLACEMENT_NY = {
   primaryStatute: "NY GOB 7-108",
   status: "active",
 
-  title: { en: "Worn-Out Carpet in a Rental — Can the Landlord Charge You for Replacing It" },
+  title: { en: "Worn-Out Carpet in a Rental — When a Landlord May Charge a Tenant for Replacement" },
 
   summary: {
     en: "Carpet wears out over time. A landlord cannot charge a tenant for carpet that is worn from normal use. Carpet has a useful life of about 5 to 10 years. If the carpet was old when the tenant moved in and is worn when they move out, that is normal wear and tear — not damage. But stains, burns, pet damage, and large tears are different."

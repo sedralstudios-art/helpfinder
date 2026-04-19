@@ -7,7 +7,7 @@ export const MECHANIC_LIEN_NY = {
   primaryStatute: "NY LIE 3",
   status: "active",
 
-  title: { en: "Mechanic's Liens — When a Contractor or Supplier Puts a Lien on Your Home" },
+  title: { en: "Mechanic's Liens — When a Contractor or Supplier Places a Lien on a Home" },
 
   summary: {
     en: "If a contractor, subcontractor, or material supplier is not paid for work on a property, they can file a mechanic's lien against the property. The lien attaches to the real estate — not the homeowner personally — and can block the sale or refinancing of the home until resolved. Homeowners sometimes discover a lien they did not know about, filed by a subcontractor the general contractor did not pay. Understanding how liens work — and how to discharge them — protects the homeowner."

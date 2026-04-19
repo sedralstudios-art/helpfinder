@@ -7,7 +7,7 @@ export const RETURN_REFUND_POLICY_NY = {
   primaryStatute: "NY GBS 218-A",
   status: "active",
 
-  title: { en: "Return and Refund Policies — What Stores Must Tell You in New York" },
+  title: { en: "Return and Refund Policies — What Stores Must Disclose in New York" },
 
   summary: {
     en: "New York law does not require stores to accept returns — but it does require them to post their return policy clearly. If a store has no posted policy, the law assumes the customer has 30 days to return merchandise for a full refund. Many stores say 'all sales final' but do not post it — which means the customer actually has 30 days."

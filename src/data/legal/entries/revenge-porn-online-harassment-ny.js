@@ -8,7 +8,7 @@ export const REVENGE_PORN_ONLINE_HARASSMENT_NY = {
   status: "active",
   draft: true,
 
-  title: { en: "Revenge Porn, Cyberstalking, and Online Harassment — Your Legal Options in New York" },
+  title: { en: "Revenge Porn, Cyberstalking, and Online Harassment — Legal Options in New York" },
 
   summary: {
     en: "Sharing intimate images without consent ('revenge porn') is a crime in New York. Cyberstalking and online harassment are also criminal offenses. Victims have both criminal and civil options — including orders of protection, criminal charges, and civil lawsuits for damages. The images can also be removed from platforms through takedown requests. These crimes disproportionately affect young people and domestic violence survivors."

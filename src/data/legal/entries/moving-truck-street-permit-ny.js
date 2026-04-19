@@ -6,7 +6,7 @@ export const MOVING_TRUCK_STREET_PERMIT_NY = {
   authorityType: "local-ordinance",
   status: "active",
 
-  title: { en: "Moving Truck on the Street — Do You Need a Permit to Park It" },
+  title: { en: "Moving Truck on the Street — When a Permit Is Required" },
 
   summary: {
     en: "Parking a moving truck or pod on the street during a move may require a temporary street permit in some Monroe County municipalities. Rochester requires one if the truck blocks traffic or a lane. Most suburbs do not require a permit for a short-term move but have overnight parking bans that apply to large vehicles."

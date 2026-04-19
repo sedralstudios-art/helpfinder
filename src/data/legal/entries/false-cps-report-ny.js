@@ -8,7 +8,7 @@ export const FALSE_CPS_REPORT_NY = {
   status: "active",
   draft: true,
 
-  title: { en: "False CPS Reports — What to Do If Someone Filed a Fake Report Against You" },
+  title: { en: "False CPS Reports — What to Do After a Fake Report Is Filed" },
 
   summary: {
     en: "If someone filed a false Child Protective Services (CPS) report to harass or retaliate against a parent, the parent has rights. CPS must still investigate every report, but a finding of unfounded means the case is closed. Knowingly making a false report is a crime in New York."

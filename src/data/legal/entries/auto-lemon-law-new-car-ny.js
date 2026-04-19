@@ -7,7 +7,7 @@ export const AUTO_LEMON_LAW_NEW_CAR_NY = {
   primaryStatute: "NY GBS 198-A",
   status: "active",
 
-  title: { en: "New Car Lemon Law — When the Dealer Cannot Fix Your New Vehicle" },
+  title: { en: "New Car Lemon Law — When a Dealer Cannot Fix a New Vehicle" },
 
   summary: {
     en: "New York's New Car Lemon Law (GBL § 198-a) protects buyers of new cars, trucks, and vans that turn out to have serious defects the dealer cannot fix. If the same problem cannot be repaired after a reasonable number of attempts — or if the car has been out of service for 30 or more cumulative days during the warranty period — the manufacturer must replace the vehicle or refund the purchase price. The AG's office provides free arbitration to resolve disputes."

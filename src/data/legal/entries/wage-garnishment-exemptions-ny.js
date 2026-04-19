@@ -7,7 +7,7 @@ export const WAGE_GARNISHMENT_EXEMPTIONS_NY = {
   primaryStatute: "NY CVP 5231",
   status: "active",
 
-  title: { en: "Wage Garnishment Exemptions — How Much of Your Paycheck Is Protected in New York" },
+  title: { en: "Wage Garnishment Exemptions — How Much of a Paycheck Is Protected in New York" },
 
   summary: {
     en: "When a creditor gets a judgment and tries to garnish wages, New York law protects a significant portion of the paycheck. The creditor can only take the lesser of 10% of gross earnings or 25% of disposable earnings — and nothing if the worker earns less than 30 times the minimum wage per week. Social Security, SSI, public assistance, unemployment, and veterans benefits are completely exempt from garnishment. Many workers do not claim these exemptions because they do not know they exist."

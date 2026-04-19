@@ -7,7 +7,7 @@ export const MOVING_VIOLATION_VS_NONMOVING_NY = {
   primaryStatute: "NY VAT 155",
   status: "active",
 
-  title: { en: "Moving vs. Non-Moving Violations — Why It Matters for Your License and Insurance" },
+  title: { en: "Moving vs. Non-Moving Violations — Why It Matters for License Points and Insurance" },
 
   summary: {
     en: "Traffic tickets in New York fall into two categories: moving violations (like speeding) and non-moving violations (like an expired inspection). Moving violations add points to a driver's license and can raise insurance rates. Non-moving violations do not. Knowing the difference helps when deciding whether to fight a ticket."

@@ -7,7 +7,7 @@ export const NAME_CHANGE_NY = {
   primaryStatute: "NY CVR 60",
   status: "active",
 
-  title: { en: "How to Legally Change Your Name in New York" },
+  title: { en: "How to Legally Change a Name in New York" },
 
   summary: {
     en: "In New York, any person can petition the court for a legal name change under Civil Rights Law § 60. The process involves filing a petition, publishing a notice in a newspaper (unless the court waives it), and appearing before a judge. The court grants the change unless there is a reason to deny it, such as fraud. Special rules apply for minors and for people with certain criminal histories."

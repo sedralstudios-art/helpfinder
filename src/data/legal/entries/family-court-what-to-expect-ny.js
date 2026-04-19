@@ -7,7 +7,7 @@ export const FAMILY_COURT_WHAT_TO_EXPECT_NY = {
   primaryStatute: "NY FCT A1",
   status: "active",
 
-  title: { en: "Going to Family Court — What to Expect at Your First Appearance" },
+  title: { en: "Going to Family Court — What to Expect at a First Appearance" },
 
   summary: {
     en: "Family Court handles custody, child support, orders of protection, visitation, paternity, guardianship, and child welfare cases. It is different from criminal court and different from Supreme Court (where divorces happen). Knowing how Family Court works before walking in makes a stressful situation more manageable."

@@ -7,7 +7,7 @@ export const MOVING_OUT_CHECKLIST_NY = {
   primaryStatute: "NY GOB 7-108",
   status: "active",
 
-  title: { en: "Moving Out of an Apartment — Checklist to Protect Your Security Deposit" },
+  title: { en: "Moving Out of an Apartment — Checklist to Protect the Security Deposit" },
 
   summary: {
     en: "Most security deposit disputes happen because the tenant did not document the apartment's condition at moveout. New York law requires the landlord to return the deposit within 14 days with an itemized list of deductions. A tenant who takes photos, does a walkthrough, and sends a forwarding address has the strongest position."

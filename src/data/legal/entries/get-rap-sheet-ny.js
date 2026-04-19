@@ -7,7 +7,7 @@ export const GET_RAP_SHEET_NY = {
   primaryStatute: "NY CPL 160.59",
   status: "active",
 
-  title: { en: "How to Get Your Criminal Record (RAP Sheet) in New York" },
+  title: { en: "How to Get a Criminal Record (RAP Sheet) in New York" },
 
   summary: {
     en: "A RAP sheet (Record of Arrest and Prosecution) is the official record of a person's criminal history in New York. Getting a copy helps with sealing applications, employment disputes, and understanding what background checks will show. The process is done by mail through the Division of Criminal Justice Services (DCJS) and requires fingerprinting."

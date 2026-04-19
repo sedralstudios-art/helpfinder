@@ -7,7 +7,7 @@ export const SEWER_BACKUP_LIABILITY_NY = {
   primaryStatute: "NY GMU 50-E",
   status: "active",
 
-  title: { en: "Sewer Backup in Your Home — Who Is Responsible and What to Do" },
+  title: { en: "Sewer Backup in a Home — Who Is Responsible and What to Do" },
 
   summary: {
     en: "When sewage backs up into a home through the drains, the cleanup is expensive and the health risk is real. Whether the city, the landlord, or the homeowner is responsible depends on where the blockage is. Homeowner's insurance often does not cover sewer backups unless the policy has a special add-on."

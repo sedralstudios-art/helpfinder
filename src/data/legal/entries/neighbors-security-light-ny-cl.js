@@ -6,7 +6,7 @@ export const NEIGHBORS_SECURITY_LIGHT_NY = {
   authorityType: "common-law",
   status: "active",
 
-  title: { en: "Neighbor's Bright Security Light Shining Into Your House — What You Can Do" },
+  title: { en: "Neighbor's Bright Security Light Shining Into a Home — Available Remedies" },
 
   summary: {
     en: "When a neighbor's floodlight, motion sensor light, or security light shines directly into a bedroom or living space, it can be a nuisance. New York does not have a statewide light pollution law, but local codes in some towns address it. The first step is talking to the neighbor. If that fails, code enforcement or small claims court are options."

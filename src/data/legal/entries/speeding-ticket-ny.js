@@ -7,7 +7,7 @@ export const SPEEDING_TICKET_NY = {
   primaryStatute: "NY VAT 1180",
   status: "active",
 
-  title: { en: "Speeding Tickets — Points, Fines, and What You Can Do" },
+  title: { en: "Speeding Tickets — Points, Fines, and Response Options" },
 
   summary: {
     en: "A New York speeding ticket is more than a fine. It adds points to your license. It tacks on extra fees. It can raise your insurance for years. Too many points can get your license suspended. You have the right to plead not guilty and fight the ticket."

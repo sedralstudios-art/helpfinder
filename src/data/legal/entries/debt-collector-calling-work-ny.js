@@ -7,7 +7,7 @@ export const DEBT_COLLECTOR_CALLING_WORK_NY = {
   primaryStatute: "15 USC 1692C",
   status: "active",
 
-  title: { en: "Debt Collectors Calling Your Job — What the Law Allows and Does Not" },
+  title: { en: "Debt Collectors Calling a Workplace — What the Law Allows and Does Not" },
 
   summary: {
     en: "Debt collectors are limited in when and how they can contact people. Under federal and New York law, a collector cannot keep calling a workplace if the person tells them to stop. There are other rules about what collectors can and cannot say."

@@ -7,7 +7,7 @@ export const ROAD_SALT_DAMAGE_CAR_NY = {
   primaryStatute: "NY GBS 198-B",
   status: "active",
 
-  title: { en: "Road Salt Damage to Your Car — Rust, Undercarriage, and What You Can Do" },
+  title: { en: "Road Salt Damage to a Car — Rust, Undercarriage, and Available Remedies" },
 
   summary: {
     en: "Rochester roads get heavy salt treatment every winter. Road salt causes rust on cars — especially the undercarriage, brake lines, and wheel wells. A car with severe rust may fail inspection. The city and county are not liable for salt damage, but there are ways to protect a vehicle and address rust issues."

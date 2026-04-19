@@ -7,7 +7,7 @@ export const HOUSING_DISCRIMINATION_NY = {
   primaryStatute: "NY EXC 296",
   status: "active",
 
-  title: { en: "Housing Discrimination — Illegal Reasons a Landlord Can Reject You in New York" },
+  title: { en: "Housing Discrimination — Illegal Reasons a Landlord Can Reject an Applicant in New York" },
 
   summary: {
     en: "In New York, landlords cannot refuse to rent to someone based on race, color, national origin, religion, sex, familial status (having children), disability, age, marital status, sexual orientation, gender identity, military status, source of income (including Section 8 vouchers), or domestic violence victim status. Source-of-income discrimination — refusing to accept vouchers — is one of the most common violations in Monroe County."

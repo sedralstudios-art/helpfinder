@@ -7,7 +7,7 @@ export const FIRED_FOR_CAUSE_UNEMPLOYMENT_NY = {
   primaryStatute: "NY LAB 593",
   status: "active",
 
-  title: { en: "Fired for Cause or Quit — Can You Still Get Unemployment in New York?" },
+  title: { en: "Fired for Cause or Quit — Unemployment Eligibility in New York" },
 
   summary: {
     en: "Many people assume they cannot get unemployment benefits if they were fired or if they quit. That is not always true. In New York, being fired does not automatically disqualify someone — only 'misconduct connected with work' does, and the employer has to prove it. Quitting can also qualify if there was 'good cause' — like unsafe conditions, harassment, or a major change in job terms."

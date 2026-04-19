@@ -7,7 +7,7 @@ export const MENTAL_HEALTH_PATIENT_RIGHTS_NY = {
   primaryStatute: "NY MHY A33T1",
   status: "active",
 
-  title: { en: "Mental Health Patient Rights in New York — What You Are Entitled To" },
+  title: { en: "Mental Health Patient Rights in New York" },
 
   summary: {
     en: "People receiving mental health treatment in New York have specific legal rights — whether in a hospital, outpatient clinic, or community program. These include the right to refuse medication in most situations, the right to a treatment plan, the right to confidentiality, the right to communicate with the outside world, and the right to be treated with dignity. Many people do not know these rights exist."

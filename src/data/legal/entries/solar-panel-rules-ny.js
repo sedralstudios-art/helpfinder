@@ -7,7 +7,7 @@ export const SOLAR_PANEL_RULES_NY = {
   primaryStatute: "NY RPP 235-EE",
   status: "active",
 
-  title: { en: "Solar Panels on Your Home — Permits, HOA Rules, and Net Metering" },
+  title: { en: "Solar Panels on a Home — Permits, HOA Rules, and Net Metering" },
 
   summary: {
     en: "New York encourages solar energy and has laws that protect homeowners who want to install panels. An HOA or town cannot outright ban solar panels in most cases. Net metering lets the homeowner sell excess electricity back to the grid. A building permit is required for installation."

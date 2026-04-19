@@ -7,7 +7,7 @@ export const GOOD_SAMARITAN_LAW_NY = {
   primaryStatute: "NY PEN 220.78",
   status: "active",
 
-  title: { en: "If Someone Is Overdosing — What the Law Protects You From" },
+  title: { en: "If Someone Is Overdosing — Good Samaritan Legal Protections" },
 
   summary: {
     en: "In New York, if you call 911 because someone is overdosing on drugs or alcohol — or if you are the one overdosing — the law protects you from most drug-possession charges. This is called the Good Samaritan Law. It was written to encourage people to call for help without fear of arrest. It does not cover selling or dealing."

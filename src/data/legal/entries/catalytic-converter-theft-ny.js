@@ -7,7 +7,7 @@ export const CATALYTIC_CONVERTER_THEFT_NY = {
   primaryStatute: "NY PEN 165.54",
   status: "active",
 
-  title: { en: "Catalytic Converter Theft — What to Do If Yours Is Stolen" },
+  title: { en: "Catalytic Converter Theft — What to Do After a Theft" },
 
   summary: {
     en: "Catalytic converter theft is a growing problem in New York. A new state law requires scrap dealers to keep records of every converter they buy. If your converter is stolen, you can file a police report and may be able to claim the loss through your insurance."

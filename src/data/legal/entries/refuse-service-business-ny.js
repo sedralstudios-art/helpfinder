@@ -7,7 +7,7 @@ export const REFUSE_SERVICE_BUSINESS_NY = {
   primaryStatute: "NY EXC 296",
   status: "active",
 
-  title: { en: "Can a Business Refuse to Serve You — When It Is Legal and When It Is Discrimination" },
+  title: { en: "When a Business Refuses to Serve a Customer — Legal Refusal vs. Discrimination" },
 
   summary: {
     en: "A business can refuse service for legitimate reasons — no shirt, no shoes, disruptive behavior, inability to pay. But a business cannot refuse service based on race, religion, gender, sexual orientation, disability, or other protected characteristics. New York's Human Rights Law provides some of the strongest anti-discrimination protections in the country."

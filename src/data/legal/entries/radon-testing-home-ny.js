@@ -6,7 +6,7 @@ export const RADON_TESTING_HOME_NY = {
   authorityType: "state-regulation",
   status: "active",
 
-  title: { en: "Radon in Your Home — Testing, Health Risks, and What Landlords Must Do" },
+  title: { en: "Radon in the Home — Testing, Health Risks, and What Landlords Must Do" },
 
   summary: {
     en: "Radon is a naturally occurring radioactive gas that seeps into homes from the ground. It is the second leading cause of lung cancer in the U.S. Monroe County is in a high-radon zone. Testing is the only way to know if a home has dangerous levels. Radon test kits are available for free or low cost."

@@ -7,7 +7,7 @@ export const HOME_BUSINESS_SALES_TAX_NY = {
   primaryStatute: "NY TAX A28",
   status: "active",
 
-  title: { en: "Selling Online From Home — When You Need to Collect Sales Tax in New York" },
+  title: { en: "Selling Online From Home — When a Seller Must Collect Sales Tax in New York" },
 
   summary: {
     en: "If someone regularly sells products online (Etsy, eBay, Facebook Marketplace, their own website), they may need to register for a Certificate of Authority and collect New York sales tax. Casual sellers do not — but the line between casual and business is not always clear."

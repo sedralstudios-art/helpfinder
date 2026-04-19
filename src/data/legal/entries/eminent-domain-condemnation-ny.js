@@ -7,7 +7,7 @@ export const EMINENT_DOMAIN_CONDEMNATION_NY = {
   primaryStatute: "NY EDP",
   status: "active",
 
-  title: { en: "Eminent Domain — When the Government Takes Your Property in New York" },
+  title: { en: "Eminent Domain — When the Government Takes Private Property in New York" },
 
   summary: {
     en: "The government — federal, state, or local — has the power to take private property for public use, but it must pay 'just compensation' (fair market value). This power is called eminent domain. In New York, the process is governed by the Eminent Domain Procedure Law (EDPL). The property owner has the right to a public hearing, the right to challenge the taking, and the right to negotiate the price. Many property owners accept the first offer without knowing they can fight for more."

@@ -7,7 +7,7 @@ export const SNAP_RIGHTS_NY = {
   primaryStatute: "NY SOS 95",
   status: "active",
 
-  title: { en: "SNAP (Food Stamps) — Your Rights in New York" },
+  title: { en: "SNAP (Food Stamps) — Recipient Rights in New York" },
 
   summary: {
     en: "SNAP puts money on an EBT card each month to help pay for groceries. New York makes it easier to qualify than most states. Most households don't have to pass a savings test."

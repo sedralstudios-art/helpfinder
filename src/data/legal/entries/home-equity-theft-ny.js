@@ -7,7 +7,7 @@ export const HOME_EQUITY_THEFT_NY = {
   primaryStatute: "NY RPT A11",
   status: "active",
 
-  title: { en: "Home Equity Theft — What Happens When the County Sells Your House for Back Taxes" },
+  title: { en: "Home Equity Theft — What Happens When a County Sells a Home for Back Taxes" },
 
   summary: {
     en: "When a homeowner falls behind on property taxes, the county can eventually auction the home. Until recently in New York, the county kept all the sale proceeds — even if the house sold for far more than the taxes owed. A 2023 U.S. Supreme Court ruling changed this. Homeowners now have the right to the surplus — the money above what was owed."

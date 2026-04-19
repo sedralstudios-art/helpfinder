@@ -7,7 +7,7 @@ export const PEDESTRIAN_HIT_BY_CAR_NY = {
   primaryStatute: "NY ISC 5102",
   status: "active",
 
-  title: { en: "Hit by a Car as a Pedestrian — What New York Law Says About Your Rights" },
+  title: { en: "Hit by a Car as a Pedestrian — Pedestrian Rights Under New York Law" },
 
   summary: {
     en: "When a pedestrian is hit by a car in New York, the driver's no-fault insurance pays for the pedestrian's medical bills and lost wages — regardless of who was at fault. If the injuries are serious, the pedestrian can also sue the driver for pain and suffering. Even a pedestrian who was jaywalking has rights."

@@ -7,7 +7,7 @@ export const TENANT_LOCK_CHANGE_NY = {
   primaryStatute: "NY RPP 227-D",
   status: "active",
 
-  title: { en: "Can a Tenant Change the Locks? Your Right to Security in New York" },
+  title: { en: "Tenant Lock Changes — Security Rights in New York" },
 
   summary: {
     en: "A tenant's right to change the locks depends on the lease and the situation. In New York, tenants generally have the right to install additional security devices (like a chain lock or deadbolt) at their own expense, and the landlord cannot charge a fee for this. For domestic violence survivors, New York law provides the explicit right to change locks with proper notice to the landlord."

@@ -7,7 +7,7 @@ export const KEEPING_A_FOUND_PET_NY = {
   primaryStatute: "NY AGM 117",
   status: "active",
 
-  title: { en: "Found a Stray Dog or Cat — Can You Keep It" },
+  title: { en: "Found a Stray Dog or Cat — Who Can Keep It" },
 
   summary: {
     en: "If someone finds a stray dog or cat in New York, there are rules about what happens next. A found dog must be reported. The original owner has a certain amount of time to claim the animal. After that, the finder or a shelter may be able to adopt it."

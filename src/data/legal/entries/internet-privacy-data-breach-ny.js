@@ -7,7 +7,7 @@ export const INTERNET_PRIVACY_DATA_BREACH_NY = {
   primaryStatute: "NY GBS 899-AA",
   status: "active",
 
-  title: { en: "Data Breaches and Internet Privacy — What Companies Must Do When Your Data Is Stolen" },
+  title: { en: "Data Breaches and Internet Privacy — What Companies Must Do When Consumer Data Is Stolen" },
 
   summary: {
     en: "When a company that has your personal information — Social Security number, credit card, bank account, login credentials, biometric data — suffers a data breach, New York law requires them to notify you. The notification must come promptly and must explain what happened, what information was exposed, and what the company is doing about it. Many companies try to minimize breaches or delay notification — knowing your rights helps you protect yourself faster."

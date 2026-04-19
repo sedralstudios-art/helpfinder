@@ -7,7 +7,7 @@ export const MEDICAL_RECORDS_ACCESS_NY = {
   primaryStatute: "NY PBH 18",
   status: "active",
 
-  title: { en: "Getting Your Medical Records in New York" },
+  title: { en: "Getting Medical Records in New York" },
 
   summary: {
     en: "Every patient has the right to get a copy of their own medical records. Doctors, hospitals, and other providers must give them to you within a reasonable time. New York law limits what they can charge for copies. If a provider refuses, there are ways to enforce the right."

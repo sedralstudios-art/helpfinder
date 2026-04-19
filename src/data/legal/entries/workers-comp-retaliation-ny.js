@@ -7,7 +7,7 @@ export const WORKERS_COMP_RETALIATION_NY = {
   primaryStatute: "NY WKC 120",
   status: "active",
 
-  title: { en: "Workers' Comp Retaliation — What to Do If Your Employer Fires or Punishes You for Filing a Claim" },
+  title: { en: "Workers' Comp Retaliation — What to Do When an Employer Fires or Punishes a Worker for Filing" },
 
   summary: {
     en: "It is illegal for an employer to fire, demote, threaten, or punish a worker for filing a workers' compensation claim or for testifying in another worker's claim. New York Workers' Compensation Law § 120 makes retaliation a misdemeanor. If an employer retaliates, the worker can file a complaint with the Workers' Compensation Board, and the employer can face criminal charges, fines, and a court order to reinstate the worker with back pay."

@@ -7,7 +7,7 @@ export const CHILD_CUSTODY_RELOCATION_NY = {
   primaryStatute: "NY DOM 240",
   status: "active",
 
-  title: { en: "Custody and Relocation — Moving Away With Your Child" },
+  title: { en: "Custody and Relocation — Moving Away With a Child" },
 
   summary: {
     en: "If you share custody and want to move a significant distance with your child, you may need court permission. New York courts use a best-interests test to decide whether to allow the move. Moving without permission can result in a change of custody."

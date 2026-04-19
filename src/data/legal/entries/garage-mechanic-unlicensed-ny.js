@@ -7,7 +7,7 @@ export const GARAGE_MECHANIC_UNLICENSED_NY = {
   primaryStatute: "NY VAT 398-D",
   status: "active",
 
-  title: { en: "Backyard Mechanic Did Bad Work — Can You Sue If They Are Not Licensed" },
+  title: { en: "Backyard Mechanic Did Bad Work — Suing an Unlicensed Mechanic" },
 
   summary: {
     en: "Many people hire a friend, neighbor, or someone from social media to fix their car because it is cheaper than a shop. If the work is bad, the customer has fewer protections than with a registered repair shop. But the person who did the work can still be sued for the damage they caused — licensed or not."

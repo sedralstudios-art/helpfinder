@@ -7,7 +7,7 @@ export const VETERANS_PROPERTY_TAX_EXEMPTION_NY = {
   primaryStatute: "NY RPT 458-A",
   status: "active",
 
-  title: { en: "Veterans Property Tax Exemptions — How to Reduce Your Tax Bill" },
+  title: { en: "Veterans Property Tax Exemptions — How to Reduce a Property Tax Bill" },
 
   summary: {
     en: "New York offers three levels of property tax exemption for veterans who own their home. The exemptions can reduce the assessed value of the property by 10% to 50% depending on when and where the veteran served. The Gold Star parent exemption also applies. These must be applied for — they are not automatic."

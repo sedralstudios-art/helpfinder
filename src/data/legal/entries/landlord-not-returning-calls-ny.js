@@ -7,7 +7,7 @@ export const LANDLORD_NOT_RETURNING_CALLS_NY = {
   primaryStatute: "NY RPP 235-B",
   status: "active",
 
-  title: { en: "Landlord Not Responding — What to Do When They Ignore You" },
+  title: { en: "Landlord Not Responding — What to Do When a Landlord Ignores a Tenant" },
 
   summary: {
     en: "When a landlord ignores calls, texts, and emails about a repair or a problem, the tenant is not stuck. New York law gives tenants specific tools — written notice, code enforcement complaints, rent withholding, and repair-and-deduct. The key is documenting every attempt to contact the landlord."

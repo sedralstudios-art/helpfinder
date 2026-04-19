@@ -7,7 +7,7 @@ export const LANDLORD_RETALIATION_NY = {
   primaryStatute: "NY RPP 223-B",
   status: "active",
 
-  title: { en: "Landlord Retaliation — What the Law Protects You From After Complaining" },
+  title: { en: "Landlord Retaliation — What the Law Protects a Tenant From After Complaining" },
 
   summary: {
     en: "If a tenant complains about conditions, reports a code violation, or joins a tenant organization, the landlord cannot retaliate by raising rent, reducing services, filing an eviction, or harassing the tenant. New York's anti-retaliation law (Real Property Law § 223-b) creates a presumption of retaliation if the landlord takes adverse action within 6 months of a protected complaint. The burden shifts to the landlord to prove the action was not retaliatory."

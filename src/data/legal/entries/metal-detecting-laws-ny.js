@@ -7,7 +7,7 @@ export const METAL_DETECTING_LAWS_NY = {
   primaryStatute: "NY PEP 252",
   status: "active",
 
-  title: { en: "Metal Detecting in New York — Where You Can Search and Who Owns What You Find" },
+  title: { en: "Metal Detecting in New York — Where Searches Are Legal and Who Owns Found Property" },
 
   summary: {
     en: "Metal detecting is legal on private property with the owner's permission. On public land, the rules depend on who owns it. Most state parks prohibit metal detecting. County and town parks vary. On beaches and playgrounds, it is usually allowed. Anything found on someone else's property generally belongs to the property owner."

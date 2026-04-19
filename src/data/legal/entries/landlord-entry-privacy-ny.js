@@ -7,7 +7,7 @@ export const LANDLORD_ENTRY_PRIVACY_NY = {
   primaryStatute: "NY RPP 235-B",
   status: "active",
 
-  title: { en: "Landlord Entering Your Apartment — Privacy Rights and Notice Requirements in New York" },
+  title: { en: "Landlord Entering an Apartment — Privacy Rights and Notice Requirements in New York" },
 
   summary: {
     en: "A landlord does not have unlimited access to a tenant's apartment. In New York, a landlord generally must provide reasonable notice and have a legitimate reason before entering. Emergencies are an exception. Repeated unauthorized entry can constitute harassment, and the tenant has legal options to stop it."

@@ -7,7 +7,7 @@ export const BAIL_HOW_IT_WORKS_NY = {
   primaryStatute: "NY CPL A510",
   status: "active",
 
-  title: { en: "How Bail Works in New York — Paying, Bonds, and Getting Your Money Back" },
+  title: { en: "How Bail Works in New York — Payment, Bonds, and Getting the Money Back" },
 
   summary: {
     en: "If a judge sets bail, it means the person can go home while the case is open — but only after paying or posting the amount set. New York's 2020 bail reform eliminated cash bail for most misdemeanors and non-violent felonies, but bail is still set in many serious cases. Understanding how to pay, what a bail bond is, and when the money comes back prevents families from making costly mistakes under pressure."

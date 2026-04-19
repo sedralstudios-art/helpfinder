@@ -7,7 +7,7 @@ export const BENEFIT_OVERPAYMENT_NY = {
   primaryStatute: "7 CFR 273.18",
   status: "active",
 
-  title: { en: "Benefits Overpayment — What to Do If the Agency Says You Owe Money Back" },
+  title: { en: "Benefits Overpayment — What to Do When an Agency Says Money Is Owed" },
 
   summary: {
     en: "If the Department of Social Services says you received more benefits than you were entitled to, they may try to collect the difference. This can happen even if the overpayment was the agency's mistake. You have the right to appeal, to request a hardship reduction, and to negotiate a repayment plan."

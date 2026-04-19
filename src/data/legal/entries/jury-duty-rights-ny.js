@@ -7,7 +7,7 @@ export const JURY_DUTY_RIGHTS_NY = {
   primaryStatute: "NY JUD 519",
   status: "active",
 
-  title: { en: "Jury Duty — Your Rights and Your Employer's Obligations in New York" },
+  title: { en: "Jury Duty — Juror Rights and Employer Obligations in New York" },
 
   summary: {
     en: "If you are called for jury duty in New York, your employer must let you go. Firing, threatening, or penalizing an employee for jury service is a criminal offense. Employers with 10 or more employees must pay the first three days. Understanding these protections prevents employers from pressuring workers to skip jury duty."

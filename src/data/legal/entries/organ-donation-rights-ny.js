@@ -7,7 +7,7 @@ export const ORGAN_DONATION_RIGHTS_NY = {
   primaryStatute: "NY PBH A43-A",
   status: "active",
 
-  title: { en: "Organ Donation in New York — What the Law Says About Your Choice" },
+  title: { en: "Organ Donation in New York — What the Law Says About Donor Choice" },
 
   summary: {
     en: "New York law allows any adult to register as an organ donor. The decision belongs to the individual, not the family. However, in practice, hospitals often consult the family. Registering through the NYS Donate Life Registry makes the decision clear and legally binding."

@@ -7,7 +7,7 @@ export const BASEMENT_WATERPROOFING_CONTRACTOR_NY = {
   primaryStatute: "NY GBS A36-A",
   status: "active",
 
-  title: { en: "Basement Waterproofing Scams — What to Watch For and Your Rights" },
+  title: { en: "Basement Waterproofing Scams — Warning Signs and Homeowner Rights" },
 
   summary: {
     en: "Basement waterproofing is one of the most common home improvement scams. High-pressure sales, misleading lifetime warranties, and overpriced systems are widespread. New York's Home Improvement Contractor Law requires registration and gives homeowners the right to cancel within three days."

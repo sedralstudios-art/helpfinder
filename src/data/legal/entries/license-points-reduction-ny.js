@@ -7,7 +7,7 @@ export const LICENSE_POINTS_REDUCTION_NY = {
   primaryStatute: "NY ISC 2336",
   status: "active",
 
-  title: { en: "Reducing Points on Your License — The PIRP Defensive Driving Course" },
+  title: { en: "Reducing Points on a License — The PIRP Defensive Driving Course" },
 
   summary: {
     en: "New York's Point and Insurance Reduction Program (PIRP) is a DMV-approved course that removes up to four points from a driver's license and can reduce auto insurance premiums by 10% for three years. The course is available online or in person and takes about six hours."

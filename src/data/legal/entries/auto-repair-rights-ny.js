@@ -7,7 +7,7 @@ export const AUTO_REPAIR_RIGHTS_NY = {
   primaryStatute: "NY VAT 398-E",
   status: "active",
 
-  title: { en: "Auto Repair Rights — What Mechanics Must Tell You in New York" },
+  title: { en: "Auto Repair Rights — What Mechanics Must Disclose in New York" },
 
   summary: {
     en: "New York law gives car owners specific protections when getting repairs done. The shop must provide a written estimate before starting work, cannot exceed the estimate without permission, must return replaced parts if requested, and must give a written invoice when the work is done. If a shop overcharges, does unauthorized work, or refuses to release a car, the owner has options."

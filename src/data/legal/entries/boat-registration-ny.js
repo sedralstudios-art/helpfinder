@@ -7,7 +7,7 @@ export const BOAT_REGISTRATION_NY = {
   primaryStatute: "NY NAV 49-A",
   status: "active",
 
-  title: { en: "Boat Registration in New York — What You Need Before Hitting the Water" },
+  title: { en: "Boat Registration in New York — What Is Required Before Hitting the Water" },
 
   summary: {
     en: "Every motorized boat in New York must be registered with the DMV. Non-motorized boats (kayaks, canoes, paddleboards) do not need registration but do need a launch permit in some locations. Life jackets are required for every person on board. Operating a boat while intoxicated carries the same penalties as a DWI."

@@ -7,7 +7,7 @@ export const GYM_MEMBERSHIP_CANCELLATION_NY = {
   primaryStatute: "NY GBS 621",
   status: "active",
 
-  title: { en: "Gym Membership Cancellation — Your Rights Under New York's Health Club Law" },
+  title: { en: "Gym Membership Cancellation — Rights Under New York's Health Club Law" },
 
   summary: {
     en: "New York has specific laws protecting gym and health club members. Every gym membership contract must include a 3-day cancellation right after signing. Members can cancel at any time if they move more than 25 miles away, become disabled, or if the gym fails to provide contracted services. The gym cannot lock members into contracts longer than 36 months and must stop billing after proper cancellation. Many gyms make cancellation intentionally difficult — the law is on the member's side."

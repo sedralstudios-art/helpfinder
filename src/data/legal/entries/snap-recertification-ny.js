@@ -7,7 +7,7 @@ export const SNAP_RECERTIFICATION_NY = {
   primaryStatute: "7 USC 2020",
   status: "active",
 
-  title: { en: "SNAP Recertification — How to Keep Your Food Stamps" },
+  title: { en: "SNAP Recertification — How to Keep Food Stamps" },
 
   summary: {
     en: "SNAP benefits (food stamps) do not last forever. The case must be recertified every 6 or 12 months depending on the household. If the paperwork is not completed on time, benefits stop — even if the person still qualifies. The process involves submitting a form and sometimes attending an interview."
