@@ -167,6 +167,47 @@ silently across 52 files. `RELATED_ID_ALLOWLIST` in the validator carries a
 narrow exception for refs pending attorney or author action — keep the
 allow-list short and comment each entry.
 
+### Content-quality checks (build-gated, added 2026-04-19)
+The validator enforces a minimum-quality floor on every non-bankruptcy entry:
+
+**Enum validation:**
+- `category` must be one of: consumer, housing, family, benefits, criminal, employment, vehicle, education, government, trades, health, healthcare (health and healthcare both accepted pending normalization)
+- `tier` must be one of: state, federal, county, town, village, city, local
+- `status` must be one of: active, draft, deprecated
+- `volatility` must be one of: low, medium, moderate, high (medium and moderate both accepted pending normalization)
+- `jurisdiction` must match the pattern `us-ny | us-fed | us-ny-mon | us-ny-monroe-{municipality}-(town|village|city)`
+
+**Format:**
+- `lastVerified` must be `YYYY-MM-DD` format, not more than 7 days in the future
+- Source URLs must start with `https://`
+- Tags must be unique within the entry
+
+**Field counts:**
+- `tags` ≥ 5 items
+- `sources` ≥ 1 URL
+- `counsel` ≥ 1 entry
+- `whoQualifies` ≥ 2 items
+- `yourRights` ≥ 2 items
+- `legalOptions` ≥ 1 item
+
+**Length bounds:**
+- `title.en` between 20 and 250 characters
+- `summary.en` between 80 and 1500 characters
+- `whatItMeans.en` ≥ 400 characters
+
+**Advisory nudges (WARN, not blocking):**
+- sources < 2
+- relatedIds < 2
+- whatItMeans < 800
+
+The 7 Germain-reviewed bankruptcy files are fully exempt from all content
+checks (voice, enum, length, metadata) per Prof. Germain's liability-reducing
+phrasing. See `BANKRUPTCY_FILES` set in the validator.
+
+Thresholds were calibrated against the current corpus via
+`scripts/audit-corpus-for-validator.cjs`. Tightening them over time is the
+way to ratchet quality up without breaking historical entries.
+
 ### Bankruptcy files are off-limits for bulk scripts
 The 7 `bankruptcy-*-ny.js` entries were written/approved by Prof. Gregory
 Germain. Any bulk migration or rewrite script (voice passes, relatedIds fixes,

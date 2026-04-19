@@ -2,7 +2,7 @@ export const LIFELINE_PHONE_PROGRAM_FED = {
   id: "lifeline-phone-program-fed",
   category: "benefits",
   tier: "federal",
-  jurisdiction: "us",
+  jurisdiction: "us-fed",
   authorityType: "federal-statute",
   primaryStatute: "47 USC 254",
   status: "active",

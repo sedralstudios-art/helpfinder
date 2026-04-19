@@ -107,7 +107,7 @@ export const PLAN_504_VS_IEP_NY = {
   sources: [
     "https://www.law.cornell.edu/uscode/text/29/794",
     "https://www.law.cornell.edu/uscode/text/20/1400",
-    "http://www.p12.nysed.gov/specialed/"
+    "https://www.p12.nysed.gov/specialed/"
   ],
 
   lastVerified: "2026-04-16",

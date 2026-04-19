@@ -94,7 +94,7 @@ export const TRUANCY_COMPULSORY_EDUCATION_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/EDN/3212",
-    "http://www.p12.nysed.gov/sss/pps/attendance/"
+    "https://www.p12.nysed.gov/sss/pps/attendance/"
   ],
 
   lastVerified: "2026-04-16",

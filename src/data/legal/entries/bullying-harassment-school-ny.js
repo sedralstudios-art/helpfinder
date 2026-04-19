@@ -62,7 +62,7 @@ export const BULLYING_HARASSMENT_SCHOOL_NY = {
       access: "Phone",
       outcome: "District oversight, investigation, compliance orders",
       phone: "(518) 474-3852",
-      url: "http://www.p12.nysed.gov/dignityact/",
+      url: "https://www.p12.nysed.gov/dignityact/",
       verified: true,
       bilingual: false,
       languages: []
@@ -95,7 +95,7 @@ export const BULLYING_HARASSMENT_SCHOOL_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/EDN/10",
-    "http://www.p12.nysed.gov/dignityact/"
+    "https://www.p12.nysed.gov/dignityact/"
   ],
 
   lastVerified: "2026-04-16",

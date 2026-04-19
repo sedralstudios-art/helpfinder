@@ -38,11 +38,61 @@ function parseEntry(filename) {
   const id = (src.match(/id:\s*"([^"]+)"/) || [])[1];
   const authorityType = (src.match(/authorityType:\s*"([^"]+)"/) || [])[1] || null;
   const primaryStatute = (src.match(/primaryStatute:\s*"([^"]+)"/) || [])[1] || null;
-  const title = (src.match(/title:\s*\{\s*en:\s*"([^"]+)"/) || [])[1] || '';
-  const summary = (src.match(/summary:\s*\{\s*en:\s*"([^"]+)"/) || [])[1] || '';
+  // Title and summary use the escape-aware helper to correctly measure length
+  // on entries that legitimately use `\"` inside the en string.
+  const title = getEnFromField(src, 'title') || '';
+  const summary = getEnFromField(src, 'summary') || '';
+  const whatItMeans = getEnFromField(src, 'whatItMeans');
+  const category = (src.match(/\n\s+category:\s*"([^"]*)"/) || [])[1] || null;
+  const tier = (src.match(/\n\s+tier:\s*"([^"]*)"/) || [])[1] || null;
+  const status = (src.match(/\n\s+status:\s*"([^"]*)"/) || [])[1] || null;
+  const volatility = (src.match(/\n\s+volatility:\s*"([^"]*)"/) || [])[1] || null;
+  const jurisdiction = (src.match(/\n\s+jurisdiction:\s*"([^"]*)"/) || [])[1] || null;
+  const lastVerified = (src.match(/\n\s+lastVerified:\s*"([^"]*)"/) || [])[1] || null;
   const tags = parseTags(src);
   const relatedIds = parseRelatedIds(src);
-  return { filename, id, authorityType, primaryStatute, title, summary, tags, relatedIds };
+  const sources = parseQuotedArray(src, 'sources');
+  const whoQualifiesCount = countEnArrayItems(src, 'whoQualifies');
+  const yourRightsCount = countEnArrayItems(src, 'yourRights');
+  const legalOptionsCount = countEnArrayItems(src, 'legalOptions');
+  const counselCount = countCounselEntries(src);
+  return {
+    filename, id, authorityType, primaryStatute, title, summary, whatItMeans,
+    category, tier, status, volatility, jurisdiction, lastVerified,
+    tags, relatedIds, sources,
+    whoQualifiesCount, yourRightsCount, legalOptionsCount, counselCount,
+  };
+}
+
+// Helper: extract `field: { en: "..." }` string from the entry body, anchored
+// to line-start so it doesn't match a substring (e.g., 'summary' inside
+// 'otherSummary'). All entry fields are on their own line at 2-space indent.
+// String pattern handles backslash-escaped quotes (e.g., `\"at-will\"`).
+function getEnFromField(src, field) {
+  const re = new RegExp('\\n\\s+' + field + ':\\s*\\{\\s*en:\\s*"((?:[^"\\\\]|\\\\.)*)"');
+  const m = src.match(re);
+  return m ? m[1] : null;
+}
+function countEnArrayItems(src, field) {
+  const re = new RegExp('\\n\\s+' + field + ':\\s*\\{\\s*en:\\s*\\[([\\s\\S]*?)\\]');
+  const m = src.match(re);
+  if (!m) return null;
+  return (m[1].match(/"(?:[^"\\]|\\.)*"/g) || []).length;
+}
+function countCounselEntries(src) {
+  // Counsel can be formatted either expanded (opening [ on its own line, closing
+  // ] on its own line with trailing comma) or compact (`[{ ... }],` inline).
+  // Both patterns need to match.
+  let m = src.match(/\n\s+counsel:\s*\[([\s\S]*?)\n\s+\],/);
+  if (!m) m = src.match(/\n\s+counsel:\s*\[([\s\S]*?)\](?=\s*,|\s*\n)/);
+  if (!m) return null;
+  return (m[1].match(/type:\s*"/g) || []).length;
+}
+function parseQuotedArray(src, field) {
+  const re = new RegExp('\\n\\s+' + field + ':\\s*\\[([\\s\\S]*?)\\]');
+  const m = src.match(re);
+  if (!m) return null;
+  return [...m[1].matchAll(/"((?:[^"\\]|\\.)*)"/g)].map(x => x[1]);
 }
 
 function parseRelatedIds(src) {
@@ -79,9 +129,10 @@ const RELATED_ID_ALLOWLIST = new Set([
 ]);
 
 // Files exempt from the voice check — Prof. Germain approved the bankruptcy
-// entries' current wording; any voice rewrite there requires attorney review.
-// See project_bankruptcy_entries_verified.md.
-const VOICE_CHECK_SKIP_FILES = new Set([
+// entries' current wording; the voice, length, metadata, and liability-reducing
+// phrasing were all specified by the professor. Nothing about these files is
+// safe to modify without attorney review. See project_bankruptcy_entries_verified.md.
+const BANKRUPTCY_FILES = new Set([
   'bankruptcy-automatic-stay-ny.js',
   'bankruptcy-chapter13-ny.js',
   'bankruptcy-chapter7-ny.js',
@@ -90,6 +141,46 @@ const VOICE_CHECK_SKIP_FILES = new Set([
   'bankruptcy-means-test-ny.js',
   'bankruptcy-reaffirmation-ny.js',
 ]);
+// Backward-compat alias for the voice check.
+const VOICE_CHECK_SKIP_FILES = BANKRUPTCY_FILES;
+
+// Valid enum values. Added 2026-04-19 alongside the content-quality ceiling.
+// 'health' (28) and 'healthcare' (11) both appear in the corpus; accept both
+// until a cleanup pass normalizes. Same for 'medium' vs 'moderate' volatility.
+const VALID_CATEGORIES = new Set([
+  'consumer', 'housing', 'family', 'benefits', 'criminal', 'employment',
+  'vehicle', 'education', 'government', 'trades',
+  'health', 'healthcare', // both until normalized
+]);
+const VALID_TIERS = new Set(['state', 'federal', 'county', 'town', 'village', 'city', 'local']);
+const VALID_STATUSES = new Set(['active', 'draft', 'deprecated']);
+const VALID_VOLATILITIES = new Set(['low', 'medium', 'moderate', 'high']); // medium+moderate both
+// Jurisdictions follow a pattern rather than a fixed set:
+//   us-ny              — state-level NY
+//   us-fed             — federal
+//   us-ny-mon          — Monroe County
+//   us-ny-monroe-{municipality}-(town|village|city)  — local municipality
+const VALID_JURISDICTION_RE =
+  /^(us-ny|us-fed|us-ny-mon|us-ny-monroe-[a-z-]+-(town|village|city))$/;
+
+// Minimum field-count and length thresholds. Set conservatively so the current
+// corpus passes. Tightening these over time is the way to ratchet quality up.
+const MIN_TAGS = 5;
+const MIN_SOURCES = 1;
+const MIN_COUNSEL = 1;
+const MIN_WHO_QUALIFIES = 2;
+const MIN_YOUR_RIGHTS = 2;
+const MIN_LEGAL_OPTIONS = 1;
+const MIN_TITLE_LEN = 20;
+const MAX_TITLE_LEN = 250;
+const MIN_SUMMARY_LEN = 80;
+const MAX_SUMMARY_LEN = 1500;
+const MIN_WHATITMEANS_LEN = 400;
+
+// Advisory (non-blocking) nudge thresholds.
+const WARN_SOURCES_BELOW = 2;
+const WARN_RELATED_BELOW = 2;
+const WARN_WHATITMEANS_BELOW = 800;
 
 function parseTags(src) {
   // Extract the tags: [ ... ] array. Tags are quoted strings separated by commas.
@@ -248,6 +339,104 @@ function main() {
     }
   }
 
+  // Content-quality checks (the "ceiling and walls" layer). Added 2026-04-19.
+  // Each check fails the build if a new entry trips it. Thresholds calibrated
+  // against the current corpus (see scripts/audit-corpus-for-validator.cjs).
+  // The 7 Germain-reviewed bankruptcy files are fully exempt — the professor
+  // specified the wording, length, metadata, and liability-reducing phrasing
+  // and nothing there is safe to automate.
+  const contentWarnings = [];
+  for (const e of entries) {
+    if (BANKRUPTCY_FILES.has(e.filename)) continue;
+    // Enum validation
+    if (e.category && !VALID_CATEGORIES.has(e.category)) {
+      errors.push(`${e.filename}: invalid category "${e.category}"`);
+    }
+    if (e.tier && !VALID_TIERS.has(e.tier)) {
+      errors.push(`${e.filename}: invalid tier "${e.tier}"`);
+    }
+    if (e.status && !VALID_STATUSES.has(e.status)) {
+      errors.push(`${e.filename}: invalid status "${e.status}"`);
+    }
+    if (e.volatility && !VALID_VOLATILITIES.has(e.volatility)) {
+      errors.push(`${e.filename}: invalid volatility "${e.volatility}"`);
+    }
+    if (e.jurisdiction && !VALID_JURISDICTION_RE.test(e.jurisdiction)) {
+      errors.push(`${e.filename}: invalid jurisdiction "${e.jurisdiction}" — must match us-ny | us-fed | us-ny-mon | us-ny-monroe-{municipality}-(town|village|city)`);
+    }
+
+    // Last-verified format
+    if (!e.lastVerified) {
+      errors.push(`${e.filename}: missing lastVerified`);
+    } else if (!/^\d{4}-\d{2}-\d{2}$/.test(e.lastVerified)) {
+      errors.push(`${e.filename}: lastVerified "${e.lastVerified}" is not YYYY-MM-DD`);
+    } else {
+      const d = new Date(e.lastVerified);
+      const diffDays = (d - Date.now()) / (1000 * 60 * 60 * 24);
+      if (diffDays > 7) {
+        errors.push(`${e.filename}: lastVerified "${e.lastVerified}" is more than 7 days in the future`);
+      }
+    }
+
+    // Field counts
+    if (e.tags.length < MIN_TAGS) {
+      errors.push(`${e.filename}: tags count ${e.tags.length} below minimum ${MIN_TAGS}`);
+    }
+    if (new Set(e.tags).size !== e.tags.length) {
+      errors.push(`${e.filename}: tags array contains duplicates`);
+    }
+    if (!e.sources || e.sources.length < MIN_SOURCES) {
+      errors.push(`${e.filename}: sources count ${e.sources ? e.sources.length : 0} below minimum ${MIN_SOURCES}`);
+    }
+    if (e.sources) {
+      for (const url of e.sources) {
+        if (url && !url.startsWith('https://')) {
+          errors.push(`${e.filename}: source URL must use https: "${url}"`);
+        }
+      }
+    }
+    if (e.counselCount === null || e.counselCount < MIN_COUNSEL) {
+      errors.push(`${e.filename}: counsel entries ${e.counselCount ?? 0} below minimum ${MIN_COUNSEL}`);
+    }
+    if (e.whoQualifiesCount === null || e.whoQualifiesCount < MIN_WHO_QUALIFIES) {
+      errors.push(`${e.filename}: whoQualifies items ${e.whoQualifiesCount ?? 0} below minimum ${MIN_WHO_QUALIFIES}`);
+    }
+    if (e.yourRightsCount === null || e.yourRightsCount < MIN_YOUR_RIGHTS) {
+      errors.push(`${e.filename}: yourRights items ${e.yourRightsCount ?? 0} below minimum ${MIN_YOUR_RIGHTS}`);
+    }
+    if (e.legalOptionsCount === null || e.legalOptionsCount < MIN_LEGAL_OPTIONS) {
+      errors.push(`${e.filename}: legalOptions items ${e.legalOptionsCount ?? 0} below minimum ${MIN_LEGAL_OPTIONS}`);
+    }
+
+    // Length sanity
+    if (e.title.length < MIN_TITLE_LEN || e.title.length > MAX_TITLE_LEN) {
+      errors.push(`${e.filename}: title length ${e.title.length} outside [${MIN_TITLE_LEN}, ${MAX_TITLE_LEN}]`);
+    }
+    if (!e.summary) {
+      errors.push(`${e.filename}: missing summary.en`);
+    } else if (e.summary.length < MIN_SUMMARY_LEN || e.summary.length > MAX_SUMMARY_LEN) {
+      errors.push(`${e.filename}: summary length ${e.summary.length} outside [${MIN_SUMMARY_LEN}, ${MAX_SUMMARY_LEN}]`);
+    }
+    if (!e.whatItMeans) {
+      errors.push(`${e.filename}: missing whatItMeans.en`);
+    } else if (e.whatItMeans.length < MIN_WHATITMEANS_LEN) {
+      errors.push(`${e.filename}: whatItMeans length ${e.whatItMeans.length} below minimum ${MIN_WHATITMEANS_LEN}`);
+    }
+
+    // Advisory nudges (WARN — do not fail the build)
+    if (e.sources && e.sources.length < WARN_SOURCES_BELOW) {
+      contentWarnings.push(`${e.filename}: sources count ${e.sources.length} < ${WARN_SOURCES_BELOW} (nudge toward richer sourcing)`);
+    }
+    if (e.relatedIds.length < WARN_RELATED_BELOW) {
+      contentWarnings.push(`${e.filename}: relatedIds count ${e.relatedIds.length} < ${WARN_RELATED_BELOW} (nudge toward cross-linking)`);
+    }
+    if (e.whatItMeans && e.whatItMeans.length < WARN_WHATITMEANS_BELOW) {
+      contentWarnings.push(`${e.filename}: whatItMeans length ${e.whatItMeans.length} < ${WARN_WHATITMEANS_BELOW} (nudge toward substantive content)`);
+    }
+  }
+  // Stash content warnings for later printing (see bottom of main).
+  global.__contentWarnings = contentWarnings;
+
   for (const entry of entries) {
     if (!entry.id) {
       errors.push(`${entry.filename}: missing id field`);
@@ -319,6 +508,14 @@ function main() {
     console.log('  (if two entries legitimately share a governing statute, narrow each primaryStatute to a specific sub-section, or set primaryStatute: null)');
   }
   printNearDuplicates(entries);
+
+  const cw = global.__contentWarnings || [];
+  if (cw.length) {
+    console.log('');
+    console.log(`WARN: ${cw.length} content-quality nudge(s) (not blocking, review):`);
+    for (const w of cw.slice(0, 60)) console.log(`  ${w}`);
+    if (cw.length > 60) console.log(`  ... and ${cw.length - 60} more`);
+  }
 
   console.log('OK');
 }

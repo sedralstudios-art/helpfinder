@@ -2,7 +2,7 @@ export const SNOW_EMERGENCY_ALTERNATE_PARKING_ROC = {
   id: "snow-emergency-alternate-parking-roc",
   category: "vehicle",
   tier: "city",
-  jurisdiction: "us-ny-mon-rochester",
+  jurisdiction: "us-ny-monroe-rochester-city",
   authorityType: "local-ordinance",
   status: "active",
 

@@ -2,7 +2,7 @@ export const MONROE_COUNTY_DSS_OVERVIEW_NY_MON = {
   id: "monroe-county-dss-overview-ny-mon-program",
   category: "benefits",
   tier: "county",
-  jurisdiction: "us-ny-monroe",
+  jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
   status: "active",
 
