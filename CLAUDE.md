@@ -146,6 +146,35 @@ Before writing any new entry:
 for future one-shot rollouts: put them in `scripts/`, name them by intent,
 include a brief header comment explaining the scope.
 
+### Structural voice — third-person (build-gated)
+`title.en` and the first sentence of `summary.en` must not contain `you`,
+`your`, `yours`, or contractions (`you're`, `you've`, `you'll`, `you'd`).
+Write in third-person: "A tenant has the right to..." not "You have the right
+to...". The validator fails the build if second-person voice appears in these
+structural anchors. Body fields (`yourRights`, `whatItMeans`, `example`,
+`legalOptions`) are NOT build-checked — legacy drift there is accepted pending
+contributor cleanup, but new entries should be third-person throughout.
+
+The 7 Germain-approved bankruptcy entries are exempt from this check — see
+`VOICE_CHECK_SKIP_FILES` in the validator. Any voice change to bankruptcy
+content requires attorney review.
+
+### relatedIds must point to existing entries (build-gated)
+Every id in a `relatedIds` array must match an existing entry filename (minus
+the `.js`). The validator fails the build if a relatedId references a
+nonexistent entry. Introduced 2026-04-19 after 57 broken refs accumulated
+silently across 52 files. `RELATED_ID_ALLOWLIST` in the validator carries a
+narrow exception for refs pending attorney or author action — keep the
+allow-list short and comment each entry.
+
+### Bankruptcy files are off-limits for bulk scripts
+The 7 `bankruptcy-*-ny.js` entries were written/approved by Prof. Gregory
+Germain. Any bulk migration or rewrite script (voice passes, relatedIds fixes,
+statute retrofits, etc.) MUST include a skip-list for these files. Existing
+examples: `scripts/fix-broken-relatedids.cjs`, `scripts/rewrite-titles-third-person.cjs`,
+`scripts/rewrite-summaries-third-person.cjs`. A broken ref or voice issue in a
+bankruptcy file is flagged for attorney review, not auto-fixed.
+
 ### No hardcoded counts
 Never put a hardcoded count of legal entries, programs, or categories in any
 user-facing string. The site grows daily. Use dynamic .length instead.
@@ -237,4 +266,7 @@ ground truth. Verify claims against the actual code before acting on them.
 - Single branch: main
 - Remote: https://github.com/sedralstudios-art/roc-help-finder.git
 - One-line double-quoted commit messages. No ! characters (Git Bash on Windows breaks).
+- Escape `$` in commit messages by using single quotes or `\$`. Bash silently
+  expands unescaped `$varname` inside double quotes; batch 32's commit lost
+  `$20k` and `$1M` to empty-variable expansion before this rule was added.
 - Never git push without explicit greenlight from the user.

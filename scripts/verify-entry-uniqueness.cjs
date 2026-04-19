@@ -39,9 +39,57 @@ function parseEntry(filename) {
   const authorityType = (src.match(/authorityType:\s*"([^"]+)"/) || [])[1] || null;
   const primaryStatute = (src.match(/primaryStatute:\s*"([^"]+)"/) || [])[1] || null;
   const title = (src.match(/title:\s*\{\s*en:\s*"([^"]+)"/) || [])[1] || '';
+  const summary = (src.match(/summary:\s*\{\s*en:\s*"([^"]+)"/) || [])[1] || '';
   const tags = parseTags(src);
-  return { filename, id, authorityType, primaryStatute, title, tags };
+  const relatedIds = parseRelatedIds(src);
+  return { filename, id, authorityType, primaryStatute, title, summary, tags, relatedIds };
 }
+
+function parseRelatedIds(src) {
+  const m = src.match(/relatedIds:\s*\[([\s\S]*?)\]/);
+  if (!m) return [];
+  const ids = [];
+  const re = /"([^"\\]*(?:\\.[^"\\]*)*)"/g;
+  let t;
+  while ((t = re.exec(m[1]))) ids.push(t[1]);
+  return ids;
+}
+
+function firstSentence(s) {
+  if (!s) return '';
+  const parts = s.split(/(?<=[.!?])\s+/);
+  return parts[0] || s;
+}
+
+// Second-person voice patterns that must not appear in titles or summary
+// first sentences. Structural voice anchors are build-enforced third-person
+// per CLAUDE.md; body content (yourRights, whatItMeans, example, etc.)
+// is NOT checked here — legacy drift there is accepted pending contributor
+// cleanup.
+const SECOND_PERSON_RE = /\b(you|your|yours|you're|you've|you'll|you'd)\b/i;
+
+// Allow-list: relatedIds that reference targets that don't exist in the
+// corpus YET (pending author or attorney action). Each entry here is a
+// temporary bypass with a comment explaining WHY. Remove when resolved.
+const RELATED_ID_ALLOWLIST = new Set([
+  // bankruptcy-automatic-stay-ny references debt-collectors-ny which doesn't
+  // exist. The bankruptcy entries are Germain-approved content; fixing this
+  // requires explicit attorney review per project_bankruptcy_entries_verified.
+  'debt-collectors-ny',
+]);
+
+// Files exempt from the voice check — Prof. Germain approved the bankruptcy
+// entries' current wording; any voice rewrite there requires attorney review.
+// See project_bankruptcy_entries_verified.md.
+const VOICE_CHECK_SKIP_FILES = new Set([
+  'bankruptcy-automatic-stay-ny.js',
+  'bankruptcy-chapter13-ny.js',
+  'bankruptcy-chapter7-ny.js',
+  'bankruptcy-discharge-ny.js',
+  'bankruptcy-exemptions-ny.js',
+  'bankruptcy-means-test-ny.js',
+  'bankruptcy-reaffirmation-ny.js',
+]);
 
 function parseTags(src) {
   // Extract the tags: [ ... ] array. Tags are quoted strings separated by commas.
@@ -164,10 +212,40 @@ function main() {
   const byKey = new Map();
   const byStatute = new Map();
 
+  // Existing-ID set for broken-relatedIds check.
+  const existingIds = new Set(entries.filter(e => e.id).map(e => e.id));
+
   // Sanity check for embedded double quotes — the class of bug that makes
   // rollup fail with cryptic errors.
   for (const f of files) {
     for (const hit of findEmbeddedQuotes(f)) errors.push(hit);
+  }
+
+  // Structural voice check: title.en and summary.en first sentence must not
+  // contain second-person pronouns. Body content is intentionally not checked.
+  // Introduced 2026-04-19 after two corpus-wide rewrites (pass 1 titles,
+  // pass 2 summaries). See project_session_2026_04_18_batches_15_28.md.
+  // Germain-approved bankruptcy entries are exempt — see VOICE_CHECK_SKIP_FILES.
+  for (const e of entries) {
+    if (VOICE_CHECK_SKIP_FILES.has(e.filename)) continue;
+    if (SECOND_PERSON_RE.test(e.title)) {
+      errors.push(`${e.filename}: title uses second-person voice ("${e.title}") — rewrite in third-person`);
+    }
+    const firstSent = firstSentence(e.summary);
+    if (SECOND_PERSON_RE.test(firstSent)) {
+      errors.push(`${e.filename}: summary first sentence uses second-person voice ("${firstSent}") — rewrite in third-person`);
+    }
+  }
+
+  // Broken-relatedIds check: every relatedId must point to an entry that
+  // exists on disk or appear in RELATED_ID_ALLOWLIST. Introduced 2026-04-19
+  // after 57 broken refs accumulated silently across 52 files.
+  for (const e of entries) {
+    for (const rid of e.relatedIds) {
+      if (!existingIds.has(rid) && !RELATED_ID_ALLOWLIST.has(rid)) {
+        errors.push(`${e.filename}: relatedIds points to nonexistent entry "${rid}"`);
+      }
+    }
   }
 
   for (const entry of entries) {
