@@ -28,12 +28,14 @@ export const WHEN_SOMEONE_DIES_ESTATE_NY = {
 
   yourRights: {
     en: [
-      "The right of the surviving spouse to inherit under the statutory order — even if the relationship was strained.",
+      "The right of a surviving spouse to inherit under the statutory order — even if the relationship was strained.",
       "The right of children to inherit equally if there is no surviving spouse.",
       "The right to petition Surrogate's Court for letters of administration.",
+      "The right of every heir to an accounting from the administrator — a full list of estate property, debts paid, and distributions.",
+      "The right to petition the court to remove an administrator who is not handling the estate properly.",
       "The right to use the simplified small estate procedure for estates under $50,000 in personal property.",
       "The right to contest the administration if there is a dispute about who should serve as administrator.",
-      "Creditors have 7 months from the appointment of the administrator to file claims against the estate."
+      "A creditor has 7 months from appointment of the administrator to file claims against the estate."
     ]
   },
 
@@ -82,9 +84,12 @@ export const WHEN_SOMEONE_DIES_ESTATE_NY = {
 
   relatedIds: [
     "when-someone-dies-ny",
-    "power-of-attorney-ny",
+    "small-estate-affidavit-ny",
+    "diy-will-ny",
+    "power-of-attorney-basics-ny",
     "health-care-proxy-ny",
-    "funeral-burial-rights-ny"
+    "funeral-burial-rights-ny",
+    "surviving-spouse-elective-share-ny"
   ],
 
   relatedHelpResources: [],
@@ -109,7 +114,7 @@ export const WHEN_SOMEONE_DIES_ESTATE_NY = {
     "https://www.nycourts.gov/courthelp/WhenSomeoneDies/"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-18",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

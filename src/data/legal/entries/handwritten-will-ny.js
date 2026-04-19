@@ -89,7 +89,6 @@ export const HANDWRITTEN_WILL_NY = {
 
   relatedIds: [
     "diy-will-ny",
-    "wills-vs-no-will-ny",
     "when-someone-dies-estate-ny",
     "surviving-spouse-elective-share-ny"
   ],

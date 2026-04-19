@@ -69,7 +69,7 @@ export const GIFT_CARD_RIGHTS_NY = {
 
   relatedIds: [
     "return-refund-policy-ny",
-    "consumer-fraud-ny",
+    "deceptive-business-practices-ny",
     "scam-protection-ny"
   ],
 

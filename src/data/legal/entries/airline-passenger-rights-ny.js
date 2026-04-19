@@ -69,7 +69,7 @@ export const AIRLINE_PASSENGER_RIGHTS_NY = {
   ],
 
   relatedIds: [
-    "credit-card-chargeback-dispute-ny",
+    "internet-purchase-chargebacks-ny",
     "consumer-arbitration-clause-ny-cl",
     "ada-title-iii-public-accommodations-ny",
     "internet-purchase-chargebacks-ny"

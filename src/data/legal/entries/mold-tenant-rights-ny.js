@@ -70,7 +70,7 @@ export const MOLD_TENANT_RIGHTS_NY = {
     "tenant-habitability-ny",
     "housing-code-violations-ny",
     "lead-paint-tenant-rights-ny",
-    "landlord-retaliation"
+    "landlord-retaliation-ny"
   ],
 
   relatedHelpResources: [],

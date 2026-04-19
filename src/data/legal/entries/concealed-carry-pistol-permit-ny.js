@@ -70,7 +70,7 @@ export const CONCEALED_CARRY_PISTOL_PERMIT_NY = {
   relatedIds: [
     "rights-during-police-encounter-ny",
     "background-check-rights-ny",
-    "criminal-record-sealing-ny"
+    "seal-your-record-ny"
   ],
 
   relatedHelpResources: [],

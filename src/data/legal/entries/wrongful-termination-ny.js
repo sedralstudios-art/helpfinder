@@ -97,7 +97,7 @@ export const WRONGFUL_TERMINATION_NY = {
   relatedIds: [
     "minimum-wage-ny",
     "wage-theft-ny",
-    "disability-work-accommodation-ny"
+    "ada-workplace-accommodation-ny"
   ],
 
   relatedHelpResources: [],

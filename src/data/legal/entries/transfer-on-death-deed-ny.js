@@ -70,7 +70,6 @@ export const TRANSFER_ON_DEATH_DEED_NY = {
 
   relatedIds: [
     "trust-vs-will-estate-planning-ny",
-    "wills-vs-no-will-ny",
     "when-someone-dies-estate-ny",
     "inherited-property-taxes-ny",
     "medicaid-estate-recovery-ny"

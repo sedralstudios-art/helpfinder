@@ -67,7 +67,7 @@ export const PARKING_TICKET_NY = {
 
   relatedIds: [
     "traffic-ticket-options-ny",
-    "license-suspension-unpaid-ny",
+    "license-suspension-dv-ny",
     "car-towed-repossessed-ny"
   ],
 

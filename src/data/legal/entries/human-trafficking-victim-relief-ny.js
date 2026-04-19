@@ -89,7 +89,7 @@ export const HUMAN_TRAFFICKING_VICTIM_RELIEF_NY = {
   ],
 
   relatedIds: [
-    "u-visa-crime-victims-ny",
+    "u-visa-crime-victim-immigration-ny",
     "domestic-violence-legal-options-ny",
     "dismissed-case-sealing-ny",
     "sexual-assault-survivors-rights-ny"

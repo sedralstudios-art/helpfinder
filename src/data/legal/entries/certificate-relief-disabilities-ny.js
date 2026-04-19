@@ -68,7 +68,7 @@ export const CERTIFICATE_RELIEF_DISABILITIES_NY = {
   ],
 
   relatedIds: [
-    "criminal-record-sealing-ny",
+    "seal-your-record-ny",
     "clean-slate-ny",
     "fair-chance-act-ban-the-box-ny",
     "reentry-rights-ny",

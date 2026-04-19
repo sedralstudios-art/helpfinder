@@ -69,7 +69,7 @@ export const MISSED_COURT_WARRANT_NY = {
     "criminal-case-process-ny",
     "bail-how-it-works-ny",
     "right-to-a-lawyer-ny",
-    "license-suspension-unpaid-ny",
+    "license-suspension-dv-ny",
     "traffic-ticket-options-ny"
   ],
 

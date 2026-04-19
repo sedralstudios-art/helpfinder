@@ -72,7 +72,7 @@ export const TITLE_INSURANCE_WHAT_IT_COVERS_NY = {
     "home-title-theft-ny",
     "home-sale-disclosure-ny",
     "first-time-homebuyer-ny",
-    "contractor-lien-mechanic-lien-ny",
+    "mechanic-lien-ny",
     "property-survey-boundary-dispute-ny"
   ],
 

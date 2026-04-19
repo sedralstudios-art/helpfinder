@@ -72,7 +72,7 @@ export const TELEMARKETER_DONOTCALL_NY = {
     "robocall-donotcall-ny",
     "scam-protection-ny",
     "identity-theft-ny",
-    "consumer-fraud-ny"
+    "deceptive-business-practices-ny"
   ],
 
   relatedHelpResources: [],

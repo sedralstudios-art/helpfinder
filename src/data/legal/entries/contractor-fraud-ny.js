@@ -71,7 +71,7 @@ export const CONTRACTOR_FRAUD_NY = {
   relatedIds: [
     "home-improvement-contractor-ny",
     "small-claims-procedure-ny",
-    "consumer-fraud-ny",
+    "deceptive-business-practices-ny",
     "warranty-rights-ny"
   ],
 

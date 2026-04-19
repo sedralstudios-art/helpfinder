@@ -84,7 +84,7 @@ export const DOMESTIC_WORKER_RIGHTS_NY = {
   relatedIds: [
     "wage-theft-ny",
     "overtime-rights-ny",
-    "independent-contractor-misclassification-ny",
+    "independent-contractor-misclass-ny",
     "workers-compensation-ny",
     "workplace-discrimination-ny"
   ],

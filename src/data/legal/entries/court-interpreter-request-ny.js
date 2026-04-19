@@ -71,7 +71,7 @@ export const COURT_INTERPRETER_REQUEST_NY = {
 
   relatedIds: [
     "family-court-what-to-expect-ny",
-    "traffic-court-what-to-expect-ny",
+    "traffic-court-what-to-expect-ny-program",
     "small-claims-procedure-ny",
     "court-system-explained-ny-program",
     "ada-title-iii-public-accommodations-ny"

@@ -69,7 +69,7 @@ export const TRAFFIC_TICKET_OPTIONS_NY = {
   relatedIds: [
     "speeding-ticket-ny",
     "license-suspension-ny",
-    "license-suspension-unpaid-ny",
+    "license-suspension-dv-ny",
     "dwi-first-offense-ny"
   ],
 

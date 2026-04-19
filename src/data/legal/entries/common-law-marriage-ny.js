@@ -70,7 +70,7 @@ export const COMMON_LAW_MARRIAGE_NY = {
 
   relatedIds: [
     "marriage-license-ny",
-    "wills-vs-no-will-ny",
+    "when-someone-dies-estate-ny",
     "trust-vs-will-estate-planning-ny",
     "health-care-proxy-ny",
     "power-of-attorney-basics-ny",

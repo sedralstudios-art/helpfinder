@@ -71,7 +71,7 @@ export const PREGNANT_WORKER_ACCOMMODATIONS_NY = {
   relatedIds: [
     "pregnancy-discrimination-ny",
     "nursing-mothers-workplace-ny",
-    "ny-paid-family-leave-ny",
+    "ny-paid-family-leave",
     "family-medical-leave-ny",
     "ada-workplace-accommodation-ny",
     "wrongful-termination-ny"

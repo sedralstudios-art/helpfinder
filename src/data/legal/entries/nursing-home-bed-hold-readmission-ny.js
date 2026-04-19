@@ -88,7 +88,7 @@ export const NURSING_HOME_BED_HOLD_READMISSION_NY = {
     "hospital-discharge-rights-ny",
     "nursing-home-medicaid-asset-protection-ny",
     "adult-protective-services-ny",
-    "living-will-molst-ny"
+    "living-will-advance-directive-ny"
   ],
 
   relatedHelpResources: [],

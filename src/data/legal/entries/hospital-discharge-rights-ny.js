@@ -99,10 +99,10 @@ export const HOSPITAL_DISCHARGE_RIGHTS_NY = {
 
   relatedIds: [
     "nursing-home-discharge-rights-ny",
-    "living-will-molst-ny",
+    "living-will-advance-directive-ny",
     "caregiver-rights-family-ny",
-    "medicare-late-enrollment-ny",
-    "adult-protective-services-ny-program"
+    "medicare-late-enrollment-penalty-ny",
+    "adult-protective-services-ny"
   ],
 
   relatedHelpResources: [],

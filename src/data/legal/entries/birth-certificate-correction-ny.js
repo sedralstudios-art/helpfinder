@@ -71,7 +71,7 @@ export const BIRTH_CERTIFICATE_CORRECTION_NY = {
     "name-change-ny",
     "gender-marker-change-ny",
     "getting-id-documents-ny-program",
-    "paternity-rights-ny"
+    "paternity-ny"
   ],
 
   relatedHelpResources: [],

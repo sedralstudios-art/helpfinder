@@ -81,9 +81,9 @@ export const PROBATION_BASICS_NY = {
 
   relatedIds: [
     "parole-basics-ny",
-    "criminal-record-sealing-ny",
+    "seal-your-record-ny",
     "reentry-rights-ny",
-    "public-defender-rights-ny"
+    "right-to-a-lawyer-ny"
   ],
 
   relatedHelpResources: [],

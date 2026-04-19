@@ -69,7 +69,7 @@ export const WRONGFUL_CONVICTION_COMPENSATION_NY = {
 
   relatedIds: [
     "criminal-appeal-ny",
-    "criminal-record-sealing-ny",
+    "seal-your-record-ny",
     "reentry-rights-ny",
     "right-to-a-lawyer-ny"
   ],

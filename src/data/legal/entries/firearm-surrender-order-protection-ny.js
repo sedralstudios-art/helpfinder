@@ -87,7 +87,7 @@ export const FIREARM_SURRENDER_ORDER_PROTECTION_NY = {
     "order-of-protection-ny",
     "change-locks-tenant-ny",
     "family-court-what-to-expect-ny",
-    "mental-hygiene-commitment-ny",
+    "involuntary-commitment-ny",
     "u-visa-crime-victim-immigration-ny"
   ],
 

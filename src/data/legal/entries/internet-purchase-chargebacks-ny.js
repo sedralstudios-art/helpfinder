@@ -70,7 +70,7 @@ export const INTERNET_PURCHASE_CHARGEBACKS_NY = {
   relatedIds: [
     "unauthorized-charges-bank-ny",
     "scam-protection-ny",
-    "consumer-fraud-ny",
+    "deceptive-business-practices-ny",
     "return-refund-policy-ny",
     "identity-theft-ny"
   ],

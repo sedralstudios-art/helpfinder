@@ -83,7 +83,6 @@ export const TRUST_VS_WILL_ESTATE_PLANNING_NY = {
   ],
 
   relatedIds: [
-    "wills-vs-no-will-ny",
     "when-someone-dies-estate-ny",
     "power-of-attorney-basics-ny",
     "health-care-proxy-ny",

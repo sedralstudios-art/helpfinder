@@ -87,7 +87,7 @@ export const SCHOOL_SUSPENSION_HEARING_NY = {
     "special-education-iep-ny",
     "504-plan-vs-iep-ny",
     "school-iep-disputes-ny",
-    "school-bullying-cyberbullying-ny"
+    "bullying-harassment-school-ny"
   ],
 
   relatedHelpResources: [],

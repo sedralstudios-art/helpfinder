@@ -83,7 +83,7 @@ export const FAIR_CHANCE_ACT_BAN_THE_BOX_NY = {
 
   relatedIds: [
     "background-check-rights-ny",
-    "criminal-record-sealing-ny",
+    "seal-your-record-ny",
     "clean-slate-ny",
     "reentry-rights-ny",
     "workplace-discrimination-ny"

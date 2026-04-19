@@ -86,7 +86,6 @@ export const SAFE_DEPOSIT_BOX_AFTER_DEATH_NY = {
 
   relatedIds: [
     "when-someone-dies-estate-ny",
-    "wills-vs-no-will-ny",
     "small-estate-affidavit-ny",
     "handwritten-will-ny",
     "diy-will-ny"

@@ -71,7 +71,7 @@ export const SHOPLIFTING_PETIT_LARCENY_NY = {
   relatedIds: [
     "common-misdemeanor-charges-ny",
     "criminal-case-process-ny",
-    "criminal-record-sealing-ny",
+    "seal-your-record-ny",
     "right-to-a-lawyer-ny"
   ],
 

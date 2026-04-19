@@ -70,7 +70,7 @@ export const CABLE_INTERNET_BILLING_NY = {
   relatedIds: [
     "utility-shutoff-protections-ny",
     "return-refund-policy-ny",
-    "consumer-fraud-ny",
+    "deceptive-business-practices-ny",
     "free-internet-computer-access-ny-program"
   ],
 

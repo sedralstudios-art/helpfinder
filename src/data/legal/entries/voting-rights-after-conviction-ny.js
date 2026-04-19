@@ -83,7 +83,7 @@ export const VOTING_RIGHTS_AFTER_CONVICTION_NY = {
 
   relatedIds: [
     "voter-rights-ny",
-    "criminal-record-sealing-ny",
+    "seal-your-record-ny",
     "reentry-rights-ny",
     "parole-basics-ny",
     "probation-basics-ny"

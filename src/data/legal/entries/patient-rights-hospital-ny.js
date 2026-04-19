@@ -71,7 +71,7 @@ export const PATIENT_RIGHTS_HOSPITAL_NY = {
   relatedIds: [
     "mental-health-patient-rights-ny",
     "health-care-proxy-ny",
-    "medical-billing-disputes-ny",
+    "medical-bill-negotiation-ny",
     "health-insurance-denial-ny"
   ],
 

@@ -70,7 +70,7 @@ export const NY_ESTATE_TAX_THRESHOLD_NY = {
 
   relatedIds: [
     "when-someone-dies-ny",
-    "wills-vs-no-will-ny",
+    "when-someone-dies-estate-ny",
     "trust-vs-will-estate-planning-ny",
     "pay-on-death-bank-account-ny",
     "transfer-on-death-deed-ny",

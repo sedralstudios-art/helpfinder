@@ -71,7 +71,7 @@ export const HIPAA_MEDICAL_PRIVACY_NY = {
     "patient-rights-hospital-ny",
     "mental-health-patient-rights-ny",
     "health-insurance-denial-ny",
-    "medical-billing-disputes-ny"
+    "medical-bill-negotiation-ny"
   ],
 
   relatedHelpResources: [],

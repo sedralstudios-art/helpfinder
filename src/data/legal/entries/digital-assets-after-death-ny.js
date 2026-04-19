@@ -71,7 +71,6 @@ export const DIGITAL_ASSETS_AFTER_DEATH_NY = {
   relatedIds: [
     "when-someone-dies-ny",
     "when-someone-dies-estate-ny",
-    "wills-vs-no-will-ny",
     "small-estate-affidavit-ny",
     "internet-privacy-data-breach-ny"
   ],

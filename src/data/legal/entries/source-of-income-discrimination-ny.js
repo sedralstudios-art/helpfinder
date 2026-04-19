@@ -82,7 +82,7 @@ export const SOURCE_OF_INCOME_DISCRIMINATION_NY = {
 
   relatedIds: [
     "housing-discrimination-ny",
-    "section-8-basics-ny",
+    "section-8-housing-voucher-ny",
     "eviction-process-ny",
     "disability-housing-accommodation-ny"
   ],

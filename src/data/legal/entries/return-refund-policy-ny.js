@@ -69,7 +69,7 @@ export const RETURN_REFUND_POLICY_NY = {
   relatedIds: [
     "warranty-rights-ny",
     "small-claims-procedure-ny",
-    "consumer-fraud-ny",
+    "deceptive-business-practices-ny",
     "scam-protection-ny"
   ],
 

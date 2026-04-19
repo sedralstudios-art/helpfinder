@@ -71,7 +71,7 @@ export const RIGHT_TO_REPAIR_NY = {
     "warranty-rights-ny",
     "lemon-law-used-car-ny",
     "auto-lemon-law-new-car-ny",
-    "consumer-fraud-ny"
+    "deceptive-business-practices-ny"
   ],
 
   relatedHelpResources: [],

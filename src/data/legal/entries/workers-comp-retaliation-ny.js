@@ -71,7 +71,7 @@ export const WORKERS_COMP_RETALIATION_NY = {
     "workers-compensation-ny",
     "wrongful-termination-ny",
     "workplace-discrimination-ny",
-    "fmla-rights-ny"
+    "family-medical-leave-ny"
   ],
 
   relatedHelpResources: [],

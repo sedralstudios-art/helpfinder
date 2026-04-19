@@ -73,7 +73,7 @@ export const PAY_ON_DEATH_BANK_ACCOUNT_NY = {
     "transfer-on-death-deed-ny",
     "when-someone-dies-ny",
     "small-estate-affidavit-ny",
-    "wills-vs-no-will-ny",
+    "when-someone-dies-estate-ny",
     "trust-vs-will-estate-planning-ny"
   ],
 

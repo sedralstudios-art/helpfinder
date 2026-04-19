@@ -69,7 +69,7 @@ export const JUNIOR_LICENSE_GDL_RESTRICTIONS_NY = {
   ],
 
   relatedIds: [
-    "distracted-driving-cell-phone-ny",
+    "texting-while-driving-ny",
     "moving-violation-points-ny",
     "license-suspension-ny",
     "dwi-first-offense-ny",

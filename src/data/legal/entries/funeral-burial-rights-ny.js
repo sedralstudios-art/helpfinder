@@ -84,7 +84,7 @@ export const FUNERAL_BURIAL_RIGHTS_NY = {
   relatedIds: [
     "when-someone-dies-ny",
     "when-someone-dies-estate-ny",
-    "consumer-fraud-ny",
+    "deceptive-business-practices-ny",
     "health-care-proxy-ny"
   ],
 

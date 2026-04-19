@@ -72,8 +72,7 @@ export const MOVE_OVER_LAW_EMERGENCY_VEHICLES_NY = {
     "speeding-ticket-ny",
     "moving-violation-points-ny",
     "traffic-ticket-options-ny",
-    "defensive-driving-course-pirp-ny",
-    "distracted-driving-cell-phone-ny"
+    "texting-while-driving-ny"
   ],
 
   relatedHelpResources: [],

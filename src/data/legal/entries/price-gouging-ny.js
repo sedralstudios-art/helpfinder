@@ -68,7 +68,7 @@ export const PRICE_GOUGING_NY = {
   ],
 
   relatedIds: [
-    "consumer-fraud-ny",
+    "deceptive-business-practices-ny",
     "scam-protection-ny",
     "utility-shutoff-protections-ny",
     "after-a-fire-ny"

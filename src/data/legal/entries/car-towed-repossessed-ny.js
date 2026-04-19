@@ -70,7 +70,7 @@ export const CAR_TOWED_REPOSSESSED_NY = {
   relatedIds: [
     "debt-collection-rights-ny",
     "respond-to-lawsuit-ny",
-    "license-suspension-unpaid-ny"
+    "license-suspension-dv-ny"
   ],
 
   relatedHelpResources: [],

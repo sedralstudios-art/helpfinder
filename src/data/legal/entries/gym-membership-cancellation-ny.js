@@ -69,7 +69,7 @@ export const GYM_MEMBERSHIP_CANCELLATION_NY = {
 
   relatedIds: [
     "return-refund-policy-ny",
-    "consumer-fraud-ny",
+    "deceptive-business-practices-ny",
     "small-claims-procedure-ny",
     "debt-collection-rights-ny"
   ],

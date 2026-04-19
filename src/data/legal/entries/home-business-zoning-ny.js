@@ -74,7 +74,6 @@ export const HOME_BUSINESS_ZONING_NY = {
   relatedIds: [
     "zoning-variance-permit-ny",
     "home-daycare-license-ny",
-    "roc-garbage-plate-food-permit-ny",
     "garage-conversion-adu-ny",
     "neighbor-disputes-ny-cl"
   ],

@@ -70,7 +70,7 @@ export const CELL_PHONE_CONTRACT_RIGHTS_NY = {
 
   relatedIds: [
     "cable-internet-billing-ny",
-    "consumer-fraud-ny",
+    "deceptive-business-practices-ny",
     "free-cell-phone-lifeline-ny",
     "return-refund-policy-ny"
   ],

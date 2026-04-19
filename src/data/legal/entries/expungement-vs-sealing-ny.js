@@ -68,7 +68,7 @@ export const EXPUNGEMENT_VS_SEALING_NY = {
   ],
 
   relatedIds: [
-    "criminal-record-sealing-ny",
+    "seal-your-record-ny",
     "clean-slate-ny",
     "seal-your-record-ny",
     "certificate-relief-disabilities-ny",

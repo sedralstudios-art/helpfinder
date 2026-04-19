@@ -88,7 +88,6 @@ export const SURVIVING_SPOUSE_ELECTIVE_SHARE_NY = {
 
   relatedIds: [
     "when-someone-dies-estate-ny",
-    "wills-vs-no-will-ny",
     "small-estate-affidavit-ny",
     "trust-vs-will-estate-planning-ny"
   ],

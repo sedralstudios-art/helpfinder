@@ -85,7 +85,7 @@ export const DEBT_COLLECTION_HARASSMENT_NY = {
 
   relatedIds: [
     "debt-collection-rights-ny",
-    "statute-of-limitations-debt",
+    "debt-statute-of-limitations-ny",
     "respond-to-lawsuit-ny",
     "default-judgment-ny",
     "wage-garnishment-defense-ny",

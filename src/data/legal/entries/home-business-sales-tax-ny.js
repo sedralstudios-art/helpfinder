@@ -70,7 +70,6 @@ export const HOME_BUSINESS_SALES_TAX_NY = {
 
   relatedIds: [
     "garage-sale-estate-sale-tax-ny",
-    "roc-garbage-plate-food-permit-ny",
     "home-business-zoning-ny",
     "free-tax-filing-ny"
   ],

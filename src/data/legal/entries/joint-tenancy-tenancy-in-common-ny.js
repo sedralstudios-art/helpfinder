@@ -92,7 +92,6 @@ export const JOINT_TENANCY_TENANCY_IN_COMMON_NY = {
     "beneficiary-designation-trumps-will-ny",
     "pay-on-death-bank-account-ny",
     "when-someone-dies-estate-ny",
-    "wills-vs-no-will-ny",
     "transfer-on-death-deed-ny",
     "squatters-rights-adverse-possession-ny",
     "selling-home-without-realtor-ny"

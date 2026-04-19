@@ -91,7 +91,7 @@ export const MANDATED_REPORTER_CHILD_ABUSE_NY = {
     "child-protective-services-process-ny",
     "bullying-harassment-school-ny",
     "adult-protective-services-ny",
-    "dasa-bullying-reporting-ny",
+    "bullying-harassment-school-ny",
     "whistleblower-protections-ny"
   ],
 

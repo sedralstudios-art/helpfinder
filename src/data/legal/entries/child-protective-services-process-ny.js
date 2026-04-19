@@ -87,7 +87,7 @@ export const CHILD_PROTECTIVE_SERVICES_PROCESS_NY = {
     "family-court-what-to-expect-ny",
     "foster-care-aging-out-ny",
     "bullying-harassment-school-ny",
-    "dasa-bullying-reporting-ny",
+    "bullying-harassment-school-ny",
     "order-of-protection-ny",
     "adult-protective-services-ny"
   ],

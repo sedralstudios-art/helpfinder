@@ -73,7 +73,7 @@ export const BULLYING_HARASSMENT_SCHOOL_NY = {
     "school-discipline-rights-ny",
     "special-education-iep-ny",
     "504-plan-vs-iep-ny",
-    "cyberstalking-harassment-ny"
+    "harassment-cyberstalking-ny"
   ],
 
   relatedHelpResources: [],

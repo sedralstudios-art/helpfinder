@@ -84,7 +84,7 @@ export const PSYCHIATRIC_ADVANCE_DIRECTIVE_NY = {
     "mental-health-patient-rights-ny",
     "health-care-proxy-ny",
     "involuntary-commitment-ny",
-    "power-of-attorney-ny"
+    "power-of-attorney-basics-ny"
   ],
 
   relatedHelpResources: [],

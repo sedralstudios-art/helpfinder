@@ -1,5 +1,5 @@
 export const LICENSE_SUSPENSION_DV_NY = {
-  id: "license-suspension-unpaid-ny",
+  id: "license-suspension-dv-ny",
   category: "vehicle",
   tier: "state",
   jurisdiction: "us-ny",

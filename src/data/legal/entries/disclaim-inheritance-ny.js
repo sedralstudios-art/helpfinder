@@ -87,7 +87,6 @@ export const DISCLAIM_INHERITANCE_NY = {
 
   relatedIds: [
     "when-someone-dies-estate-ny",
-    "wills-vs-no-will-ny",
     "medicaid-estate-recovery-ny",
     "special-needs-trust-ny",
     "small-estate-affidavit-ny"

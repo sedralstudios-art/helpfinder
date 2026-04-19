@@ -87,8 +87,7 @@ export const RIGHT_OF_DISPOSITION_REMAINS_NY = {
   relatedIds: [
     "living-will-advance-directive-ny",
     "funeral-prepayment-trust-ny",
-    "when-someone-dies-estate-ny",
-    "wills-vs-no-will-ny"
+    "when-someone-dies-estate-ny"
   ],
 
   relatedHelpResources: [],

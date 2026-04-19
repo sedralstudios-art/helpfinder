@@ -67,7 +67,7 @@ export const VEHICLE_REGISTRATION_INSPECTION_NY = {
 
   relatedIds: [
     "license-suspension-ny",
-    "license-suspension-unpaid-ny",
+    "license-suspension-dv-ny",
     "traffic-ticket-options-ny",
     "dwi-first-offense-ny"
   ],
