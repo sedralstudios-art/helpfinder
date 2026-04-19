@@ -10,7 +10,7 @@ export const MISSED_COURT_WARRANT_NY = {
   title: { en: "Missed a Court Date — What Happens and How to Clear a Warrant in New York" },
 
   summary: {
-    en: "Missing a court date in New York usually results in a bench warrant for your arrest. But it does not have to spiral — a warrant can often be cleared by going back to court voluntarily, sometimes with a lawyer going first. The sooner the warrant is addressed, the better the outcome. Ignoring it makes everything worse."
+    en: "Missing a court date in New York usually results in a bench warrant for arrest. But it does not have to spiral — a warrant can often be cleared by going back to court voluntarily, sometimes with a lawyer going first. The sooner the warrant is addressed, the better the outcome. Ignoring it makes everything worse."
   },
 
   whoQualifies: {

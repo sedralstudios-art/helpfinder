@@ -10,7 +10,7 @@ export const SNAP_EXPEDITED_NY = {
   title: { en: "Expedited SNAP — Emergency Food Benefits Within 7 Days" },
 
   summary: {
-    en: "If you have very little or no income and need food right away, you may qualify for expedited SNAP benefits. The law requires that these benefits be issued within 7 days of your application."
+    en: "A person with very little or no income who needs food right away may qualify for expedited SNAP benefits. The law requires that these benefits be issued within 7 days of your application."
   },
 
   whoQualifies: {

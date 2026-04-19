@@ -10,7 +10,7 @@ export const BENEFITS_DENIAL_APPEAL_NY = {
   title: { en: "Benefits Denied or Cut? How to Appeal Through a Fair Hearing" },
 
   summary: {
-    en: "If your benefits were denied, cut, or stopped, you can appeal. The appeal is called a fair hearing. A judge listens to your side. In many cases, your benefits can keep coming while you wait for the decision."
+    en: "When benefits are denied, cut, or stopped, the affected person can appeal. The appeal is called a fair hearing. A judge listens to your side. In many cases, your benefits can keep coming while you wait for the decision."
   },
 
   whoQualifies: {

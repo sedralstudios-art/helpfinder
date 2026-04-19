@@ -11,7 +11,7 @@ export const ORDER_OF_PROTECTION_NY = {
   title: { en: "Orders of Protection — How to Get a Court Order to Keep Someone Away" },
 
   summary: {
-    en: "An order of protection is a court order that requires a person to stay away from you, stop contacting you, or stop hurting you. In New York, you can get a temporary order of protection the same day you go to Family Court. There is no filing fee, and if you cannot afford an attorney, one will be appointed for you."
+    en: "An order of protection is a court order that requires the named person to stay away from, stop contacting, or stop harming the protected party. In New York, you can get a temporary order of protection the same day you go to Family Court. There is no filing fee, and if you cannot afford an attorney, one will be appointed for you."
   },
 
   whoQualifies: {

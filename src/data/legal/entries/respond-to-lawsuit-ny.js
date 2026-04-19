@@ -10,7 +10,7 @@ export const RESPOND_TO_LAWSUIT_NY = {
   title: { en: "After Being Sued — How to Respond to a Civil Lawsuit in New York" },
 
   summary: {
-    en: "If you receive a summons and complaint, you have been sued. You have a limited time to respond — usually 20 to 30 days. If you do not respond, the other side wins automatically (default judgment). Responding preserves your rights even if you think you owe the money. Free legal help is available."
+    en: "Receiving a summons and complaint means a lawsuit has been filed. You have a limited time to respond — usually 20 to 30 days. If you do not respond, the other side wins automatically (default judgment). Responding preserves your rights even if you think you owe the money. Free legal help is available."
   },
 
   whoQualifies: {

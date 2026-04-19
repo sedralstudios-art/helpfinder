@@ -10,7 +10,7 @@ export const CAR_ACCIDENT_NO_FAULT_NY = {
   title: { en: "Car Accident — No-Fault Insurance and What to Do Next in New York" },
 
   summary: {
-    en: "New York is a no-fault insurance state — after a car accident, your own insurance pays for medical bills and lost wages regardless of who caused the crash. A separate claim for pain and suffering against the other driver is only available if the injury meets a 'serious injury' threshold. Understanding the no-fault system prevents costly mistakes in the days after an accident."
+    en: "New York is a no-fault insurance state — after a car accident, the driver's own insurance pays for medical bills and lost wages regardless of who caused the crash. A separate claim for pain and suffering against the other driver is only available if the injury meets a 'serious injury' threshold. Understanding the no-fault system prevents costly mistakes in the days after an accident."
   },
 
   whoQualifies: {

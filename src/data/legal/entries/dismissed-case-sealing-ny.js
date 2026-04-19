@@ -10,7 +10,7 @@ export const DISMISSED_CASE_SEALING_NY = {
   title: { en: "My Case Was Dismissed — Why Is It Still On My Record?" },
 
   summary: {
-    en: "In New York, if your criminal case was dismissed or ended in your favor, the record is supposed to be sealed automatically. No application needed. But sealing doesn't always happen on time, and background-check companies sometimes still show the old arrest. You have a right to get it fixed."
+    en: "In New York, when a criminal case is dismissed or ends in the defendant's favor, the record is supposed to be sealed automatically. No application needed. But sealing doesn't always happen on time, and background-check companies sometimes still show the old arrest. You have a right to get it fixed."
   },
 
   whoQualifies: {

@@ -11,7 +11,7 @@ export const LICENSE_SUSPENSION_DV_NY = {
   title: { en: "License Suspended for Unpaid Fines, Child Support, or Failure to Appear" },
 
   summary: {
-    en: "In New York, your driver's license can be suspended for reasons that have nothing to do with driving — unpaid child support, failure to answer a traffic ticket, unpaid Driver Responsibility Assessment, or even unpaid taxes. Losing a license can mean losing a job. There are options to get the license back or get a restricted license to drive to work."
+    en: "In New York, a driver's license can be suspended for reasons that have nothing to do with driving — unpaid child support, failure to answer a traffic ticket, unpaid Driver Responsibility Assessment, or unpaid taxes. Losing a license can mean losing a job. There are options to get the license back or get a restricted license to drive to work."
   },
 
   whoQualifies: {

@@ -10,7 +10,7 @@ export const BENEFIT_OVERPAYMENT_NY = {
   title: { en: "Benefits Overpayment — What to Do When an Agency Says Money Is Owed" },
 
   summary: {
-    en: "If the Department of Social Services says you received more benefits than you were entitled to, they may try to collect the difference. This can happen even if the overpayment was the agency's mistake. You have the right to appeal, to request a hardship reduction, and to negotiate a repayment plan."
+    en: "If the Department of Social Services says a recipient received more benefits than entitled, the agency may try to collect the difference. This can happen even if the overpayment was the agency's mistake. You have the right to appeal, to request a hardship reduction, and to negotiate a repayment plan."
   },
 
   whoQualifies: {

@@ -10,7 +10,7 @@ export const DEFAULT_JUDGMENT_NY = {
   title: { en: "Default Judgments — What Happens When a Debt Lawsuit Is Ignored" },
 
   summary: {
-    en: "If a creditor sues you for a debt and you do not respond, the court can enter a default judgment against you — meaning the creditor wins automatically without proving their case. Most debt collection judgments in New York are defaults. But a default judgment can sometimes be overturned if you were never properly served or have a valid defense."
+    en: "When a creditor sues for a debt and the defendant does not respond, the court can enter a default judgment — meaning the creditor wins automatically without proving the case. Most debt collection judgments in New York are defaults. But a default judgment can sometimes be overturned if you were never properly served or have a valid defense."
   },
 
   whoQualifies: {

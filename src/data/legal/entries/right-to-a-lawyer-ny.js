@@ -10,7 +10,7 @@ export const RIGHT_TO_A_LAWYER_NY = {
   title: { en: "The Right to a Free Lawyer in a Criminal Case in New York" },
 
   summary: {
-    en: "If you are charged with a crime and cannot afford a lawyer, the court must provide one for free. This right comes from the Sixth Amendment to the U.S. Constitution and is implemented in New York through County Law Article 18-B. In Monroe County, the main providers are the Monroe County Public Defender and the Assigned Counsel Program (18-B panel). The right applies at every critical stage of the case."
+    en: "A person charged with a crime who cannot afford a lawyer has the right to a court-provided attorney at no cost. This right comes from the Sixth Amendment to the U.S. Constitution and is implemented in New York through County Law Article 18-B. In Monroe County, the main providers are the Monroe County Public Defender and the Assigned Counsel Program (18-B panel). The right applies at every critical stage of the case."
   },
 
   whoQualifies: {

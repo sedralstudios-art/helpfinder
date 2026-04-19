@@ -10,7 +10,7 @@ export const ILLEGAL_EVICTION_NY = {
   title: { en: "Illegal Eviction — A Landlord Cannot Remove a Tenant Without a Court Order" },
 
   summary: {
-    en: "In New York, it is a crime for a landlord to force you out of your home without a court order. Changing the locks, shutting off your heat or water, throwing out your stuff, or threatening you are all against the law. If this happens to you, you have strong rights — including the right to move back in, and the right to money damages up to 3 times your losses."
+    en: "In New York, it is a crime for a landlord to force a tenant out of a home without a court order. Changing the locks, shutting off your heat or water, throwing out your stuff, or threatening you are all against the law. If this happens to you, you have strong rights — including the right to move back in, and the right to money damages up to 3 times your losses."
   },
 
   whoQualifies: {

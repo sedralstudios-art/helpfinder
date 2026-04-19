@@ -10,7 +10,7 @@ export const EMERGENCY_CASH_ASSISTANCE_NY = {
   title: { en: "Emergency Cash Help — One-Time Money for Rent, Utilities, and Crises" },
 
   summary: {
-    en: "If you are about to be evicted, lose your heat, or become homeless, you may get a one-time emergency grant. You don't have to be on welfare to apply."
+    en: "A person about to be evicted, lose heat, or become homeless may qualify for a one-time emergency grant. You don't have to be on welfare to apply."
   },
 
   whoQualifies: {

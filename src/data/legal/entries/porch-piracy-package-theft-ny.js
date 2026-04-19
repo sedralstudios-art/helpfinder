@@ -10,7 +10,7 @@ export const PORCH_PIRACY_PACKAGE_THEFT_NY = {
   title: { en: "Package Theft (Porch Piracy) — What to Do When a Delivery Is Stolen" },
 
   summary: {
-    en: "If a package was stolen from your porch or doorstep, it is a crime in New York. A new state law made stealing delivered packages a specific offense. Victims can file a police report and may be able to get a refund or replacement from the seller or delivery company."
+    en: "Theft of a package from a porch or doorstep is a crime in New York. A new state law made stealing delivered packages a specific offense. Victims can file a police report and may be able to get a refund or replacement from the seller or delivery company."
   },
 
   whoQualifies: {

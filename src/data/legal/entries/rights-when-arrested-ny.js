@@ -10,7 +10,7 @@ export const RIGHTS_WHEN_ARRESTED_NY = {
   title: { en: "Rights When Arrested — What the Police Must Say and What a Person Can Do" },
 
   summary: {
-    en: "If you are arrested in New York, you have rights that the police must respect. You have the right to remain silent, the right to an attorney, and the right to be brought before a judge without unnecessary delay. You do not have to answer questions about what happened, and anything you say can be used against you."
+    en: "A person arrested in New York has rights that the police must respect. You have the right to remain silent, the right to an attorney, and the right to be brought before a judge without unnecessary delay. You do not have to answer questions about what happened, and anything you say can be used against you."
   },
 
   whoQualifies: {

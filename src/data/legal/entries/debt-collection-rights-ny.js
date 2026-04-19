@@ -16,7 +16,7 @@ export const DEBT_COLLECTION_RIGHTS_NY = {
   title: { en: "Debt Collectors — What They Can and Cannot Do" },
 
   summary: {
-    en: "If a debt collector is calling you, there are rules they have to follow. They cannot lie. They cannot threaten you. They cannot call at all hours. In New York, most old consumer debts are too old to sue over after 3 years. And since 2023, medical debt cannot show up on your credit report in New York."
+    en: "When a debt collector contacts a consumer, there are rules the collector must follow. They cannot lie. They cannot threaten you. They cannot call at all hours. In New York, most old consumer debts are too old to sue over after 3 years. And since 2023, medical debt cannot show up on your credit report in New York."
   },
 
   whoQualifies: {

@@ -10,7 +10,7 @@ export const UNEMPLOYMENT_APPEAL_NY = {
   title: { en: "Appealing an Unemployment Insurance Denial in New York" },
 
   summary: {
-    en: "If your unemployment insurance claim is denied, you have the right to appeal. In New York, you must file the appeal within 30 days of the determination. The appeal goes to an Administrative Law Judge who holds a hearing — usually by phone. You can represent yourself or bring a lawyer. Many initial denials are overturned on appeal."
+    en: "A claimant whose unemployment insurance claim is denied has the right to appeal. In New York, you must file the appeal within 30 days of the determination. The appeal goes to an Administrative Law Judge who holds a hearing — usually by phone. You can represent yourself or bring a lawyer. Many initial denials are overturned on appeal."
   },
 
   whoQualifies: {

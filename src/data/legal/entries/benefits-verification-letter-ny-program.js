@@ -9,7 +9,7 @@ export const BENEFITS_VERIFICATION_LETTER_NY = {
   title: { en: "Benefits Verification Letter — How to Prove Benefit Receipt" },
 
   summary: {
-    en: "Many programs require proof that you receive SNAP, Medicaid, Temporary Assistance, or Social Security benefits. You can get this proof online, by phone, or in person. The process depends on which benefit you need to verify."
+    en: "Many programs require proof of SNAP, Medicaid, Temporary Assistance, or Social Security benefit receipt. You can get this proof online, by phone, or in person. The process depends on which benefit you need to verify."
   },
 
   whoQualifies: {

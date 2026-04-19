@@ -10,7 +10,7 @@ export const PHARMACY_ERRORS_NY = {
   title: { en: "Pharmacy Errors — What to Do After Receiving the Wrong Medication" },
 
   summary: {
-    en: "If a pharmacy gave you the wrong medication, the wrong dosage, or failed to warn you about a dangerous interaction, you may have a legal claim. You can also report the error to the state licensing board. Quick action can prevent harm and preserve your rights."
+    en: "When a pharmacy dispenses the wrong medication, the wrong dosage, or fails to warn about a dangerous interaction, the patient may have a legal claim. You can also report the error to the state licensing board. Quick action can prevent harm and preserve your rights."
   },
 
   whoQualifies: {

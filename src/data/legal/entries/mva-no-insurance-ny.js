@@ -10,7 +10,7 @@ export const MVA_NO_INSURANCE_NY = {
   title: { en: "Car Accident Without Insurance — What Happens Next" },
 
   summary: {
-    en: "If you are in a car accident and do not have insurance, you face serious legal and financial consequences in New York. Your license and registration can be suspended, and you can be personally liable for all damages. There are still steps you can take to protect yourself."
+    en: "An uninsured driver involved in a car accident faces serious legal and financial consequences in New York. Your license and registration can be suspended, and you can be personally liable for all damages. There are still steps you can take to protect yourself."
   },
 
   whoQualifies: {

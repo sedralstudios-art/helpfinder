@@ -10,7 +10,7 @@ export const PROPERTY_TAX_GRIEVANCE_NY = {
   title: { en: "Property Tax Grievance — How to Challenge an Assessment in New York" },
 
   summary: {
-    en: "If you think your home's assessed value is too high, you can file a grievance. You have to do it on Grievance Day — the 4th Tuesday of May in most New York towns. You don't need a lawyer. A successful grievance can save you hundreds or thousands of dollars in property taxes each year."
+    en: "A homeowner who believes the home's assessed value is too high can file a grievance. You have to do it on Grievance Day — the 4th Tuesday of May in most New York towns. You don't need a lawyer. A successful grievance can save you hundreds or thousands of dollars in property taxes each year."
   },
 
   whoQualifies: {

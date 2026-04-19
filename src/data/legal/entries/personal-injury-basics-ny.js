@@ -10,7 +10,7 @@ export const PERSONAL_INJURY_BASICS_NY = {
   title: { en: "Personal Injury Basics — Slip and Fall, Car Accidents, and Negligence in New York" },
 
   summary: {
-    en: "If you are injured because of someone else's negligence — a slip on an icy sidewalk, a car accident, a dangerous condition in a store — you may have a personal injury claim. New York has a 3-year statute of limitations for most personal injury cases. Many personal injury lawyers work on contingency, meaning no fee unless they win."
+    en: "An injury caused by someone else's negligence — a slip on an icy sidewalk, a car accident, a dangerous condition in a store — may give rise to a personal injury claim. New York has a 3-year statute of limitations for most personal injury cases. Many personal injury lawyers work on contingency, meaning no fee unless they win."
   },
 
   whoQualifies: {

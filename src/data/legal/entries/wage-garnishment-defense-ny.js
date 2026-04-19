@@ -10,7 +10,7 @@ export const WAGE_GARNISHMENT_DEFENSE_NY = {
   title: { en: "Wage Garnishment Defense — Protecting a Paycheck in New York" },
 
   summary: {
-    en: "If a creditor has a judgment against you, they can take money directly from your paycheck through an income execution (wage garnishment). New York law limits how much can be taken and protects certain types of income entirely. If too much is being taken or protected income is being garnished, the court can stop or reduce it."
+    en: "When a creditor has a judgment against a debtor, the creditor can take money directly from the debtor's paycheck through an income execution (wage garnishment). New York law limits how much can be taken and protects certain types of income entirely. If too much is being taken or protected income is being garnished, the court can stop or reduce it."
   },
 
   whoQualifies: {

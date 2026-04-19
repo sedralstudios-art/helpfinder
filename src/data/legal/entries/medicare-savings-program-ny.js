@@ -10,7 +10,7 @@ export const MEDICARE_SAVINGS_PROGRAM_NY = {
   title: { en: "Medicare Savings Programs — Help Paying Medicare Costs" },
 
   summary: {
-    en: "If you have Medicare and limited income, New York's Medicare Savings Programs can pay your monthly Medicare premium and your doctor bills. New York has some of the easiest rules in the country. There is no savings test. Signing up also gets you Extra Help with prescription costs."
+    en: "For Medicare beneficiaries with limited income, New York's Medicare Savings Programs can pay the monthly Medicare premium and doctor bills. New York has some of the easiest rules in the country. There is no savings test. Signing up also gets you Extra Help with prescription costs."
   },
 
   whoQualifies: {

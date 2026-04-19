@@ -10,7 +10,7 @@ export const MEDICAID_SPEND_DOWN_NY = {
   title: { en: "Medicaid Spend-Down — How to Qualify When Income Is Too High" },
 
   summary: {
-    en: "If your income is a little above the Medicaid limit, you can still get Medicaid through a program called spend-down. It works kind of like a deductible. Once your medical bills add up to your extra income, Medicaid pays for the rest of the month."
+    en: "When income is slightly above the Medicaid limit, eligibility may still be available through a program called spend-down. It works kind of like a deductible. Once your medical bills add up to your extra income, Medicaid pays for the rest of the month."
   },
 
   whoQualifies: {

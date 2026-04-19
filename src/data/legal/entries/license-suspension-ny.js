@@ -10,7 +10,7 @@ export const LICENSE_SUSPENSION_NY = {
   title: { en: "Driver's License Suspension — Rights in New York" },
 
   summary: {
-    en: "New York can suspend or revoke your driver's license for a long list of reasons — unpaid traffic tickets, unpaid child support, DWI, too many points, and more. In most cases you have a right to notice and a hearing before the suspension kicks in, and many suspensions can be cleared by paying what you owe or fixing the problem."
+    en: "New York can suspend or revoke a driver's license for a long list of reasons — unpaid traffic tickets, unpaid child support, DWI, too many points, and more. In most cases you have a right to notice and a hearing before the suspension kicks in, and many suspensions can be cleared by paying what you owe or fixing the problem."
   },
 
   whoQualifies: {

@@ -10,7 +10,7 @@ export const HEALTH_INSURANCE_DENIAL_NY = {
   title: { en: "Health Insurance Denied a Claim or Service — How to Appeal in New York" },
 
   summary: {
-    en: "If your health insurance denies a claim, refuses to cover a treatment, or says a service is not medically necessary, you have the right to appeal. New York law requires insurance companies to have an internal appeal process, and if that fails, an independent external review. Many denials are overturned on appeal — especially when the treating doctor supports the request."
+    en: "When a health insurer denies a claim, refuses to cover a treatment, or says a service is not medically necessary, the insured has the right to appeal. New York law requires insurance companies to have an internal appeal process, and if that fails, an independent external review. Many denials are overturned on appeal — especially when the treating doctor supports the request."
   },
 
   whoQualifies: {

@@ -10,7 +10,7 @@ export const CHILD_SUPPORT_MODIFICATION_NY = {
   title: { en: "Changing a Child Support Order in New York" },
 
   summary: {
-    en: "If your income, job, or family situation has changed significantly since the last child support order, you can ask the court to modify it. In New York, either parent can petition for a modification if there has been a substantial change in circumstances, or if three years have passed since the order was last set, or if either parent's income has changed by 15% or more."
+    en: "When a parent's income, job, or family situation has changed significantly since the last child support order, the parent can ask the court to modify it. In New York, either parent can petition for a modification if there has been a substantial change in circumstances, or if three years have passed since the order was last set, or if either parent's income has changed by 15% or more."
   },
 
   whoQualifies: {

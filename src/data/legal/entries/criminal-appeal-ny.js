@@ -10,7 +10,7 @@ export const CRIMINAL_APPEAL_NY = {
   title: { en: "Appealing a Criminal Conviction in New York" },
 
   summary: {
-    en: "If you are convicted of a crime, you generally have the right to appeal. An appeal asks a higher court to review the trial court's decision for legal errors. In New York, the deadline to file a Notice of Appeal is 30 days after sentencing. Free appellate counsel is available for people who cannot afford a private lawyer."
+    en: "A person convicted of a crime generally has the right to appeal. An appeal asks a higher court to review the trial court's decision for legal errors. In New York, the deadline to file a Notice of Appeal is 30 days after sentencing. Free appellate counsel is available for people who cannot afford a private lawyer."
   },
 
   whoQualifies: {

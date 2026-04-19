@@ -10,7 +10,7 @@ export const GUARDIANSHIP_SCPA17A_NY = {
   title: { en: "Guardianship for Adults With Intellectual Disabilities (SCPA 17-A)" },
 
   summary: {
-    en: "If your adult child has an intellectual or developmental disability and cannot manage their own affairs, you may be able to become their legal guardian through Surrogate's Court under SCPA 17-A. This gives you the authority to make personal and property decisions on their behalf."
+    en: "When an adult child has an intellectual or developmental disability and cannot manage their own affairs, a parent may petition Surrogate's Court for legal guardianship under SCPA 17-A. This gives you the authority to make personal and property decisions on their behalf."
   },
 
   whoQualifies: {

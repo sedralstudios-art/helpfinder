@@ -10,7 +10,7 @@ export const MEDICAID_TRANSPORTATION_NY = {
   title: { en: "Medicaid Transportation — Free Rides to Medical Appointments in New York" },
 
   summary: {
-    en: "If you are on Medicaid and need to get to a doctor, hospital, pharmacy, lab, therapy, or any other Medicaid-covered service, Medicaid will pay for your transportation. This includes taxi, car service, public transit, wheelchair van, and in some cases mileage reimbursement for a private car. Most people on Medicaid do not know this benefit exists."
+    en: "A Medicaid recipient who needs to reach a doctor, hospital, pharmacy, lab, therapy, or other Medicaid-covered service has transportation paid by Medicaid. This includes taxi, car service, public transit, wheelchair van, and in some cases mileage reimbursement for a private car. Most people on Medicaid do not know this benefit exists."
   },
 
   whoQualifies: {

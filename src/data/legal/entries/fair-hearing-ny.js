@@ -10,7 +10,7 @@ export const FAIR_HEARING_NY = {
   title: { en: "Fair Hearings — What to Expect and How to Get Ready" },
 
   summary: {
-    en: "A fair hearing is your chance to tell a judge why you think a decision about your benefits was wrong. You don't need a lawyer. The hearing is less formal than a regular court case. Most hearings happen by phone. What matters most is getting ready and having proof."
+    en: "A fair hearing is a benefits recipient's chance to tell a judge why a decision about benefits was wrong. You don't need a lawyer. The hearing is less formal than a regular court case. Most hearings happen by phone. What matters most is getting ready and having proof."
   },
 
   whoQualifies: {

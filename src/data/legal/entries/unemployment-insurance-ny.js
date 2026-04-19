@@ -10,7 +10,7 @@ export const UNEMPLOYMENT_INSURANCE_NY = {
   title: { en: "Unemployment Insurance — Weekly Benefits After Job Loss" },
 
   summary: {
-    en: "If you lost your job through no fault of your own, you may qualify for weekly unemployment insurance payments while you look for new work. New York recently increased the maximum weekly benefit. Benefits last up to 26 weeks."
+    en: "A worker who lost a job through no fault of their own may qualify for weekly unemployment insurance payments while seeking new work. New York recently increased the maximum weekly benefit. Benefits last up to 26 weeks."
   },
 
   whoQualifies: {

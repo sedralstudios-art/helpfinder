@@ -10,7 +10,7 @@ export const EMERGENCY_ROOM_BILLING_NY = {
   title: { en: "Emergency Room Bills — What Patients Can Do About Surprise Charges" },
 
   summary: {
-    en: "If you went to the emergency room and received a bill you cannot pay, you have options. New York law limits surprise billing, requires hospitals to offer financial assistance, and prohibits most balance billing for emergency services."
+    en: "A patient who received an emergency room bill that is unaffordable has options. New York law limits surprise billing, requires hospitals to offer financial assistance, and prohibits most balance billing for emergency services."
   },
 
   whoQualifies: {

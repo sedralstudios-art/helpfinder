@@ -9,7 +9,7 @@ export const SCHOOL_IEP_DISPUTES_NY = {
   title: { en: "IEP Disputes — What to Do When the School District Disagrees" },
 
   summary: {
-    en: "If you disagree with your child's Individualized Education Program or the school district refuses to provide services your child needs, you have the right to challenge the decision. Federal and state law give parents specific protections including mediation, impartial hearings, and the right to an independent evaluation."
+    en: "When a parent disagrees with a child's Individualized Education Program or the school district refuses to provide services the child needs, the parent has the right to challenge the decision. Federal and state law give parents specific protections including mediation, impartial hearings, and the right to an independent evaluation."
   },
 
   whoQualifies: {

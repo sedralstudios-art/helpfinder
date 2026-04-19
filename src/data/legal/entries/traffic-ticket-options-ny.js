@@ -10,7 +10,7 @@ export const TRAFFIC_TICKET_OPTIONS_NY = {
   title: { en: "Traffic Tickets — Response Options in New York (Outside NYC)" },
 
   summary: {
-    en: "When you receive a traffic ticket in New York outside of NYC, it goes to a local town, village, or city court — not the DMV's Traffic Violations Bureau. This matters because outside NYC, plea bargaining is available. Many tickets can be negotiated down to a lower offense with fewer points. Ignoring the ticket leads to a license suspension and a possible warrant."
+    en: "A traffic ticket issued in New York outside of NYC goes to a local town, village, or city court — not the DMV's Traffic Violations Bureau. This matters because outside NYC, plea bargaining is available. Many tickets can be negotiated down to a lower offense with fewer points. Ignoring the ticket leads to a license suspension and a possible warrant."
   },
 
   whoQualifies: {

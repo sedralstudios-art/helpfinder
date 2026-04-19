@@ -10,7 +10,7 @@ export const EVICTION_PROCESS_NY = {
   title: { en: "Eviction — What a Landlord Must Do Before a Tenant Can Be Removed" },
 
   summary: {
-    en: "In New York, your landlord cannot just kick you out. Only a judge can order an eviction. Only a sheriff or marshal can make you leave. If your landlord changes the locks, shuts off your heat, or throws out your stuff without going to court, that is illegal."
+    en: "In New York, a landlord cannot simply remove a tenant. Only a judge can order an eviction. Only a sheriff or marshal can make you leave. If your landlord changes the locks, shuts off your heat, or throws out your stuff without going to court, that is illegal."
   },
 
   whoQualifies: {
