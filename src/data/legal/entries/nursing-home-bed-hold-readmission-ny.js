@@ -1,8 +1,8 @@
 export const NURSING_HOME_BED_HOLD_READMISSION_NY = {
   id: "nursing-home-bed-hold-readmission-ny",
   category: "health",
-  tier: "state",
-  jurisdiction: "us-ny",
+  tier: "federal",
+  jurisdiction: "us-fed",
   authorityType: "federal-regulation",
   primaryStatute: "42 CFR PART 483",
   status: "active",

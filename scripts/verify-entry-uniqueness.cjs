@@ -54,13 +54,14 @@ function parseEntry(filename) {
   const sources = parseQuotedArray(src, 'sources');
   const whoQualifiesCount = countEnArrayItems(src, 'whoQualifies');
   const yourRightsCount = countEnArrayItems(src, 'yourRights');
+  const yourRightsItems = parseEnArrayStrings(src, 'yourRights') || [];
   const legalOptionsCount = countEnArrayItems(src, 'legalOptions');
   const counselCount = countCounselEntries(src);
   return {
     filename, id, authorityType, primaryStatute, title, summary, whatItMeans,
     category, tier, status, volatility, jurisdiction, lastVerified,
     tags, relatedIds, sources,
-    whoQualifiesCount, yourRightsCount, legalOptionsCount, counselCount,
+    whoQualifiesCount, yourRightsCount, yourRightsItems, legalOptionsCount, counselCount,
   };
 }
 
@@ -90,6 +91,14 @@ function countCounselEntries(src) {
 }
 function parseQuotedArray(src, field) {
   const re = new RegExp('\\n\\s+' + field + ':\\s*\\[([\\s\\S]*?)\\]');
+  const m = src.match(re);
+  if (!m) return null;
+  return [...m[1].matchAll(/"((?:[^"\\]|\\.)*)"/g)].map(x => x[1]);
+}
+// Extract the string items inside a `{ en: [ "...", "...", ] }` block, such
+// as `yourRights: { en: [ ... ] }`. Escape-aware.
+function parseEnArrayStrings(src, field) {
+  const re = new RegExp('\\n\\s+' + field + ':\\s*\\{\\s*en:\\s*\\[([\\s\\S]*?)\\]');
   const m = src.match(re);
   if (!m) return null;
   return [...m[1].matchAll(/"((?:[^"\\]|\\.)*)"/g)].map(x => x[1]);
@@ -181,6 +190,61 @@ const MIN_WHATITMEANS_LEN = 400;
 const WARN_SOURCES_BELOW = 2;
 const WARN_RELATED_BELOW = 2;
 const WARN_WHATITMEANS_BELOW = 800;
+
+// Tier consistency with authorityType. Each authorityType constrains which
+// tiers are valid. federal statutes/regulations must have federal tier;
+// local ordinances must have a local tier (county/town/village/city/local);
+// state/common-law entries typically use state tier; agency-program is
+// permissive since programs exist at many levels.
+const AUTHORITY_TIER_VALID = {
+  'state-statute': new Set(['state']),
+  'state-regulation': new Set(['state']),
+  'federal-statute': new Set(['federal']),
+  'federal-regulation': new Set(['federal']),
+  'local-ordinance': new Set(['county', 'town', 'village', 'city', 'local']),
+  'common-law': new Set(['state']),
+  'agency-program': new Set(['state', 'federal', 'county', 'town', 'village', 'city', 'local']),
+};
+
+// Third-person subject patterns acceptable as the opening of a yourRights
+// item. Anything starting with "You", "Your", or contraction forms is
+// flagged as a voice drift.
+const YOUR_RIGHTS_FIRST_WORD_OK = new Set([
+  'A', 'An', 'The', 'Any', 'Every', 'No', 'Each', 'Both', 'Either', 'Neither',
+  'Some', 'All', 'Parents', 'Children', 'Students', 'Employees', 'Workers',
+  'Employers', 'Tenants', 'Landlords', 'Owners', 'Consumers', 'Patients',
+  'Spouses', 'Heirs', 'Beneficiaries', 'Creditors', 'Debtors', 'Victims',
+  'Defendants', 'Plaintiffs', 'Applicants', 'Recipients', 'Non-citizens',
+  'Taxpayers', 'Homeowners', 'Veterans', 'Seniors', 'Minors', 'Adults',
+  'Guardians', 'Trustees', 'Executors', 'Members', 'Residents', 'Drivers',
+  'Persons', 'Couples', 'Families', 'Borrowers', 'Juveniles', 'Buyers',
+  'Sellers', 'Visitors', 'Attendees', 'Union-represented',
+]);
+
+// Extract candidate section-number strings from a primary statute citation
+// so we can check whether whatItMeans mentions the statute. Returns all
+// reasonable variants to check. Examples:
+//   "NY EPT 13-3.2"   -> ["13-3.2"]
+//   "42 USC 1395DD"   -> ["1395dd"]
+//   "NY CVP 6501"     -> ["6501"]
+//   "NY CPL A510"     -> ["a510", "510"]           (strip the Article 'A')
+//   "NY GBS A44-A"    -> ["a44-a", "44-a"]         (ditto)
+//   "NY ABP"          -> []                        (no section number; skip)
+//   "NY CPL"          -> []                        (no section number; skip)
+function statuteSectionKeys(primaryStatute) {
+  if (!primaryStatute) return [];
+  const parts = primaryStatute.trim().split(/\s+/);
+  const last = (parts[parts.length - 1] || '').toLowerCase();
+  // Skip if the last token is all letters (code-only citation like "NY ABP").
+  if (!/\d/.test(last)) return [];
+  const variants = new Set([last]);
+  // Strip leading "a" if it's an article marker (e.g., "a510" -> "510",
+  // "a44-a" -> "44-a"). This catches text that says "Section 510" or "Article 44-A".
+  if (/^a\d/.test(last)) {
+    variants.add(last.slice(1));
+  }
+  return [...variants];
+}
 
 function parseTags(src) {
   // Extract the tags: [ ... ] array. Tags are quoted strings separated by commas.
@@ -432,6 +496,43 @@ function main() {
     }
     if (e.whatItMeans && e.whatItMeans.length < WARN_WHATITMEANS_BELOW) {
       contentWarnings.push(`${e.filename}: whatItMeans length ${e.whatItMeans.length} < ${WARN_WHATITMEANS_BELOW} (nudge toward substantive content)`);
+    }
+
+    // Ceiling extension 1 — authorityType must match tier. Added 2026-04-19.
+    // Prevents mismatched labels like a local-ordinance entry labeled tier "state".
+    if (e.authorityType && e.tier) {
+      const allowed = AUTHORITY_TIER_VALID[e.authorityType];
+      if (allowed && !allowed.has(e.tier)) {
+        errors.push(`${e.filename}: authorityType "${e.authorityType}" is inconsistent with tier "${e.tier}" — expected one of: ${[...allowed].join(', ')}`);
+      }
+    }
+
+    // Ceiling extension 2 — primaryStatute section number should appear at
+    // least once in whatItMeans text. WARN only; some entries legitimately
+    // describe the statute in prose without the exact section number. Skips
+    // citations without section numbers (e.g., "NY ABP" alone).
+    const sectionKeys = statuteSectionKeys(e.primaryStatute);
+    if (sectionKeys.length && e.whatItMeans) {
+      const body = e.whatItMeans.toLowerCase();
+      const hit = sectionKeys.some(k => body.includes(k));
+      if (!hit) {
+        contentWarnings.push(`${e.filename}: primaryStatute "${e.primaryStatute}" not referenced in whatItMeans (nudge to cite statute in body)`);
+      }
+    }
+
+    // Ceiling extension 3 — yourRights items should open with a third-person
+    // subject pattern (A/An/The/Any/etc.), not second person (You/Your).
+    // WARN only; some legacy items use "A person who..." etc. which is fine;
+    // items starting with "You" are flagged.
+    if (e.yourRightsItems) {
+      for (const item of e.yourRightsItems) {
+        // Get first word. Strip leading punctuation/quotes.
+        const firstWord = (item.trim().match(/^([A-Za-z][A-Za-z-']*)/) || [])[1];
+        if (!firstWord) continue;
+        if (/^(you|your|yours)$/i.test(firstWord)) {
+          contentWarnings.push(`${e.filename}: yourRights item starts with "${firstWord}" — rewrite in third-person ("${item.slice(0, 80)}...")`);
+        }
+      }
     }
   }
   // Stash content warnings for later printing (see bottom of main).

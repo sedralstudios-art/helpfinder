@@ -1,7 +1,7 @@
 export const SOCIAL_MEDIA_EVIDENCE_NY = {
   id: "social-media-evidence-ny-cl",
   category: "criminal",
-  tier: "federal",
+  tier: "state",
   jurisdiction: "us-ny",
   authorityType: "common-law",
   status: "active",

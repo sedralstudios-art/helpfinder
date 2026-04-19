@@ -1,8 +1,8 @@
 export const GARAGE_SALE_YARD_SALE_LAW_NY = {
   id: "garage-sale-yard-sale-law-ny",
   category: "consumer",
-  tier: "state",
-  jurisdiction: "us-ny",
+  tier: "county",
+  jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
   status: "active",
 

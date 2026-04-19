@@ -1,8 +1,8 @@
 export const GARAGE_CONVERSION_ADU_NY = {
   id: "garage-conversion-adu-ny",
   category: "housing",
-  tier: "state",
-  jurisdiction: "us-ny",
+  tier: "county",
+  jurisdiction: "us-ny-mon",
   authorityType: "local-ordinance",
   status: "active",
 

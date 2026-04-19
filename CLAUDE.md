@@ -195,10 +195,18 @@ The validator enforces a minimum-quality floor on every non-bankruptcy entry:
 - `summary.en` between 80 and 1500 characters
 - `whatItMeans.en` ≥ 400 characters
 
+**Authority-tier consistency (build-gated):**
+- `state-statute` / `state-regulation` / `common-law` → tier must be `state`
+- `federal-statute` / `federal-regulation` → tier must be `federal`
+- `local-ordinance` → tier must be `county`, `town`, `village`, `city`, or `local`
+- `agency-program` → any tier permitted (programs exist at all levels)
+
 **Advisory nudges (WARN, not blocking):**
 - sources < 2
 - relatedIds < 2
 - whatItMeans < 800
+- `primaryStatute` section number not referenced in whatItMeans (nudge to cite statute in the body text)
+- yourRights item opens with `you/your/yours` (rewrite in third-person)
 
 The 7 Germain-reviewed bankruptcy files are fully exempt from all content
 checks (voice, enum, length, metadata) per Prof. Germain's liability-reducing
