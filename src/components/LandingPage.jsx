@@ -590,6 +590,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
         .hf-d3 { animation-delay: 0.25s; } .hf-d4 { animation-delay: 0.35s; }
         .hf-d5 { animation-delay: 0.45s; } .hf-d6 { animation-delay: 0.55s; }
         @keyframes hfFadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+        @media (max-width: 640px) { .hf-help-words { display: none; } }
       `}</style>
 
       {/* ═══ HEADER ═══ */}
@@ -652,8 +653,8 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
       {page === PAGES.HOME && (
         <main style={{ padding: "0 20px 40px" }}>
 
-          {/* HELP IN EVERY LANGUAGE */}
-          <div className="hf-fade-in hf-d1" style={{
+          {/* HELP IN EVERY LANGUAGE — hidden on mobile (<=640px) to preserve first-screen real estate */}
+          <div className="hf-fade-in hf-d1 hf-help-words" style={{
             textAlign: "center", paddingTop: 36, marginBottom: 4,
           }}>
             <div style={{
