@@ -303,6 +303,27 @@ function langsForEntry(entry) {
   return langs;
 }
 
+// noindex untranslated fallbacks. English is always indexable. A non-English
+// page is indexable only if the entry has a real translation in that language
+// (entry pages) or the language has at least one translation anywhere
+// (category/library pages, per SITEMAP_LANGS). Fallback pages stay crawlable
+// so the language-switcher still works for users, but Google stops indexing
+// them as duplicates of the canonical English page.
+function robotsMetaForEntry(entry, lang) {
+  if (lang === 'en') return '<meta name="robots" content="index, follow" />';
+  return langsForEntry(entry).includes(lang)
+    ? '<meta name="robots" content="index, follow" />'
+    : '<meta name="robots" content="noindex, follow" />';
+}
+
+function robotsMetaForSiteLang(lang) {
+  if (lang === 'en') return '<meta name="robots" content="index, follow" />';
+  const siteLangs = globalThis.SITEMAP_LANGS || [];
+  return siteLangs.some((l) => l.code === lang)
+    ? '<meta name="robots" content="index, follow" />'
+    : '<meta name="robots" content="noindex, follow" />';
+}
+
 function jsonLDSafe(obj) {
   return JSON.stringify(obj, null, 2).replace(/<\//g, '<\\/');
 }
@@ -505,7 +526,7 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
     <title>${esc(pageTitle)}</title>
     <meta name="description" content="${esc(metaDesc)}" />
     <meta name="keywords" content="${esc(tags.join(', '))}" />
-    <meta name="robots" content="index, follow" />
+    ${robotsMetaForEntry(entry, lang)}
     <link rel="canonical" href="${esc(canonical)}" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="${esc(title)}" />
@@ -595,7 +616,7 @@ function generateCategoryHTML(cat, entriesInCat, langMeta, bundleTags) {
     <title>${esc(pageTitle)}</title>
     <meta name="description" content="${esc(metaDesc)}" />
     <meta name="keywords" content="${esc(meta.seoKeywords)}" />
-    <meta name="robots" content="index, follow" />
+    ${robotsMetaForSiteLang(lang)}
     <link rel="canonical" href="${esc(canonical)}" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="${esc(pageTitle)}" />
@@ -679,7 +700,7 @@ function generateLibraryHTML(entries, entriesByCategory, langMeta, bundleTags) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${esc(pageTitle)}</title>
     <meta name="description" content="${esc(metaDesc)}" />
-    <meta name="robots" content="index, follow" />
+    ${robotsMetaForSiteLang(lang)}
     <link rel="canonical" href="${esc(canonical)}" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="${esc(pageTitle)}" />
