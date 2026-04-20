@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "node scripts/verify-entry-uniqueness.cjs && vite build && node scripts/prerender-legal.cjs && node scripts/prerender-glossary.cjs && node scripts/prerender-help.cjs && node scripts/prerender-landing.cjs && node scripts/generate-sitemap.cjs",
     "verify": "node scripts/verify-entry-uniqueness.cjs",
+    "preflight": "node scripts/preflight-batch.cjs",
     "preview": "vite preview"
   },
   "dependencies": {

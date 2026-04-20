@@ -259,6 +259,14 @@ encode the worst of that drift so it cannot recur silently. See
 `feedback_lawyer_voice_upl_risk.md` in the Claude memory folder for the
 fuller analysis.
 
+**Hard rule: run `npm run preflight` before starting any batch of new
+entries.** The preflight script prints all six rule blocks (UPL FAIL
+patterns, length cap, voice, reading level, topic selection, process) so
+the calibration is re-read at the start of every batch. The build-gated
+FAILs catch the worst drift but cannot detect everything; the preflight
+re-read covers the rest. Then run `npm run verify` after every single
+entry, not after the batch.
+
 ### Bankruptcy files are off-limits for bulk scripts
 The 7 `bankruptcy-*-ny.js` entries were written/approved by Prof. Gregory
 Germain. Any bulk migration or rewrite script (voice passes, relatedIds fixes,
