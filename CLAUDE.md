@@ -220,6 +220,45 @@ Thresholds were calibrated against the current corpus via
 `scripts/audit-corpus-for-validator.cjs`. Tightening them over time is the
 way to ratchet quality up without breaking historical entries.
 
+### Plain-English explainer voice — UPL guardrails (build-gated, added 2026-04-19)
+
+HelpFinder is run by a non-attorney. Entries that read like an attorney
+giving advice expose the operator to unauthorized practice of law concerns.
+The validator FAILS the build on attorney-advice patterns.
+
+**FAIL patterns (any appearance in `whatItMeans` or `summary` — UPL red flags):**
+- `Strategic considerations` (e.g., "Strategic considerations for plaintiffs:")
+- `Bottom line:` (typically introduces a paragraph of advice)
+- `Engage [type] counsel/attorney/lawyer` recommendations
+  (e.g., "Engage commercial litigation counsel")
+
+**FAIL — length cap:**
+- `whatItMeans` word count above 1800. Forces tight plain-English writing
+  and blocks the 5000+ word treatise drift.
+
+**Required voice (not yet auto-enforced; contributor discipline):**
+- Third-person throughout (not just title and summary). Subject is "a tenant",
+  "a homeowner", "the harmed party" — not "you".
+- Non-directive. No imperatives like "Save the contract," "Get a lawyer,"
+  "Move fast," "Take photos," "Document the conversation." Restate as
+  third-person observations: "A copy of the contract supports the case."
+  "Photos help document the case." "Free legal help is available through
+  Legal Aid Society of Rochester for those who qualify by income."
+- ~6th-grade reading level. Short sentences. Common words. Define legal
+  terms inline ("a constructive trust — when a court treats property as
+  held for someone else's benefit").
+- No "Strategic considerations," "Best practice," or "Bottom line"
+  sections. The reader gets the explainer plus referrals; the reader
+  decides what to do.
+- Avoid civil-procedure deep cuts (motion to dismiss, summary judgment,
+  jurisdiction analysis) — those serve lawyers, not the HelpFinder audience.
+
+Background: on 2026-04-19, batches 46-57 (62 entries) were deleted at
+commit `099b87b` for drifting into lawyer treatise voice. The FAIL patterns
+encode the worst of that drift so it cannot recur silently. See
+`feedback_lawyer_voice_upl_risk.md` in the Claude memory folder for the
+fuller analysis.
+
 ### Bankruptcy files are off-limits for bulk scripts
 The 7 `bankruptcy-*-ny.js` entries were written/approved by Prof. Gregory
 Germain. Any bulk migration or rewrite script (voice passes, relatedIds fixes,

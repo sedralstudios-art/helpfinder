@@ -195,6 +195,25 @@ const WARN_WHATITMEANS_BELOW = 800;
 // be more confident the pair is a real rewrite collision.
 const WARN_TITLE_JACCARD_ONLY = 0.75;
 
+// UPL (unauthorized practice of law) red-flag patterns. Strong markers of
+// attorney-advice voice that have no legitimate use in plain-English explainer
+// content for a non-attorney-run site. Added 2026-04-19 after batches 46-57
+// were deleted for drifting into lawyer treatise voice. See
+// feedback_lawyer_voice_upl_risk.md. Each pattern was verified to produce
+// zero hits in the surviving 984-entry corpus before being made FAIL.
+const UPL_FAIL_PATTERNS = [
+  { name: 'Strategic considerations section', re: /\bStrategic considerations\b/i },
+  { name: 'Bottom line: advice header', re: /\bBottom line:/i },
+  { name: 'Engage [type] counsel/attorney/lawyer recommendation',
+    re: /\bEngage\s+(?:\w+[\s-]+){0,6}(?:attorneys?|counsel|lawyers?)\b/i },
+];
+
+// Cap on whatItMeans word count. The deleted batches 46-57 had whatItMeans
+// of 5000-7000 words written in treatise voice. Maximum in the surviving
+// corpus is 1079 words. 1800 gives ~70% headroom over current max while
+// blocking the 5000+ word treatise drift. Tighten over time as quality rises.
+const MAX_WHATITMEANS_WORDS = 1800;
+
 // Preferred source domains — .gov, .edu, plus a short list of trusted NY
 // nonprofit legal-aid and bar-association domains whose material is generally
 // accurate and stable. A source URL outside this set triggers a WARN nudge to
@@ -538,6 +557,30 @@ function main() {
       errors.push(`${e.filename}: missing whatItMeans.en`);
     } else if (e.whatItMeans.length < MIN_WHATITMEANS_LEN) {
       errors.push(`${e.filename}: whatItMeans length ${e.whatItMeans.length} below minimum ${MIN_WHATITMEANS_LEN}`);
+    }
+
+    // UPL red-flag check. Added 2026-04-19. See feedback_lawyer_voice_upl_risk.md.
+    // Strong attorney-advice patterns that have no place in a non-attorney-run
+    // explainer site. Each pattern was verified to have zero hits in the surviving
+    // corpus before being made FAIL. Checks both whatItMeans and summary.
+    if (e.whatItMeans) {
+      for (const pat of UPL_FAIL_PATTERNS) {
+        if (pat.re.test(e.whatItMeans)) {
+          errors.push(`${e.filename}: whatItMeans contains UPL red-flag (${pat.name}) — rewrite as plain-English explainer per feedback_lawyer_voice_upl_risk.md`);
+        }
+      }
+      // Word-count cap. Forces tight writing; blocks the 5000-word treatise drift.
+      const words = e.whatItMeans.split(/\s+/).filter(Boolean).length;
+      if (words > MAX_WHATITMEANS_WORDS) {
+        errors.push(`${e.filename}: whatItMeans word count ${words} exceeds maximum ${MAX_WHATITMEANS_WORDS} — tighten to plain-English explainer length`);
+      }
+    }
+    if (e.summary) {
+      for (const pat of UPL_FAIL_PATTERNS) {
+        if (pat.re.test(e.summary)) {
+          errors.push(`${e.filename}: summary contains UPL red-flag (${pat.name}) — rewrite as plain-English explainer`);
+        }
+      }
     }
 
     // Advisory nudges (WARN — do not fail the build)
