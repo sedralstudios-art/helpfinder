@@ -176,6 +176,51 @@ const VALID_JURISDICTION_RE =
 // corpus passes. Tightening these over time is the way to ratchet quality up.
 const MIN_TAGS = 5;
 const MIN_SOURCES = 1;
+// Trust-requiring authority types need at least 2 sources (statute plus an
+// explanatory or enforcement reference). Local ordinances legitimately cite
+// only the town code; agency programs cite the program page. Added 2026-04-20
+// per maintainer direction to harden trust for statute-backed entries. The
+// LEGACY_SOURCES_LT2_EXEMPTIONS set below grandfathers the 29 pre-rule
+// entries pending a future second-source sweep; new entries must comply.
+const MIN_SOURCES_TRUST = 2;
+const TRUST_AUTHORITY_TYPES = new Set([
+  'state-statute',
+  'federal-statute',
+  'state-regulation',
+  'federal-regulation',
+  'common-law',
+]);
+const LEGACY_SOURCES_LT2_EXEMPTIONS = new Set([
+  'apartment-carpet-replacement-ny.js',
+  'boundary-line-agreement-rpl-345-ny.js',
+  'electric-fence-rules-ny.js',
+  'fireworks-laws-ny.js',
+  'gift-card-rights-ny.js',
+  'grandparent-visitation-ny.js',
+  'gym-membership-cancellation-ny.js',
+  'hit-and-run-leaving-scene-ny.js',
+  'ice-dam-roof-damage-ny-cl.js',
+  'landlord-enter-emergency-ny-cl.js',
+  'landlord-retaliation-ban-ny.js',
+  'landlord-showing-apartment-notice-ny-cl.js',
+  'landlord-wont-give-receipt-ny.js',
+  'life-insurance-policy-lapse-protection-ny.js',
+  'missed-court-warrant-ny.js',
+  'mobile-home-tenant-rights-ny.js',
+  'neighbors-security-light-ny-cl.js',
+  'pet-deposit-pet-rent-ny.js',
+  'price-gouging-ny.js',
+  'private-road-maintenance-ny.js',
+  'return-refund-policy-ny.js',
+  'right-to-repair-ny.js',
+  'roommate-rights-ny.js',
+  'school-bus-safety-laws-ny.js',
+  'self-defense-laws-ny.js',
+  'tenant-right-to-organize-ny.js',
+  'trampoline-liability-ny-cl.js',
+  'tree-damage-neighbor-liability-ny-cl.js',
+  'wage-payment-frequency-ny.js',
+]);
 const MIN_COUNSEL = 1;
 const MIN_WHO_QUALIFIES = 2;
 const MIN_YOUR_RIGHTS = 2;
@@ -523,6 +568,12 @@ function main() {
     }
     if (!e.sources || e.sources.length < MIN_SOURCES) {
       errors.push(`${e.filename}: sources count ${e.sources ? e.sources.length : 0} below minimum ${MIN_SOURCES}`);
+    } else if (
+      TRUST_AUTHORITY_TYPES.has(e.authorityType) &&
+      e.sources.length < MIN_SOURCES_TRUST &&
+      !LEGACY_SOURCES_LT2_EXEMPTIONS.has(e.filename)
+    ) {
+      errors.push(`${e.filename}: sources count ${e.sources.length} below trust minimum ${MIN_SOURCES_TRUST} for authorityType "${e.authorityType}" (statute-backed entries need a second source — consumer guide, court self-help page, regulator, or explanatory reference)`);
     }
     if (e.sources) {
       for (const url of e.sources) {

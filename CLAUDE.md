@@ -202,8 +202,18 @@ The validator enforces a minimum-quality floor on every non-bankruptcy entry:
 - `local-ordinance` → tier must be `county`, `town`, `village`, `city`, or `local`
 - `agency-program` → any tier permitted (programs exist at all levels)
 
+**Trust-source FAIL (build-gated, added 2026-04-20):**
+- `sources.length < 2` is a build FAIL when `authorityType` is `state-statute`,
+  `federal-statute`, `state-regulation`, `federal-regulation`, or `common-law`.
+  Statute-backed entries need a second source (consumer guide, court self-help
+  page, regulator, or explanatory reference) so a reader can verify the rule
+  without having to parse raw statutory text alone. `local-ordinance` and
+  `agency-program` entries are exempt — the town code or program page is
+  itself the source. The `LEGACY_SOURCES_LT2_EXEMPTIONS` set in the validator
+  grandfathers 29 pre-rule entries pending a future second-source sweep.
+
 **Advisory nudges (WARN, not blocking):**
-- sources < 2
+- sources < 2 (only applies to authority types outside the trust-FAIL rule above)
 - relatedIds < 2
 - whatItMeans < 800
 - `primaryStatute` section number not referenced in whatItMeans (nudge to cite statute in the body text)

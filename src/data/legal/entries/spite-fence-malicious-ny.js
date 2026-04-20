@@ -103,7 +103,8 @@ export const SPITE_FENCE_MALICIOUS_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/RPP/843"
+    "https://www.nysenate.gov/legislation/laws/RPP/843",
+    "https://www.nycourts.gov/courthelp/homes/index.shtml"
   ],
 
   lastVerified: "2026-04-20",
