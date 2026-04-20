@@ -222,7 +222,30 @@ function pickArr(field, lang) {
   return field[lang] || field.en || [];
 }
 
-function LanguagePicker({ legalLang, setLegalLang, compact }) {
+// Languages where at least one legal entry has a real translation. Computed
+// from the merged entry data so the list grows automatically as new per-entry
+// translations are added. Used as the category/library fallback.
+const SITE_TRANSLATED_LANGS = (() => {
+  const codes = new Set(["en"]);
+  for (const e of LEGAL_ENTRIES) {
+    if (e && e.title) for (const k of Object.keys(e.title)) codes.add(k);
+  }
+  return LEGAL_LANGS.filter((l) => codes.has(l.code));
+})();
+
+// For an entry page, the picker should only offer languages where THIS entry
+// has a real translation. English is always included.
+function availableLangsForEntry(entry) {
+  const codes = new Set(["en"]);
+  if (entry && entry.title) for (const k of Object.keys(entry.title)) codes.add(k);
+  return LEGAL_LANGS.filter((l) => codes.has(l.code));
+}
+
+function LanguagePicker({ legalLang, setLegalLang, compact, availableLangs }) {
+  const langs = Array.isArray(availableLangs) && availableLangs.length ? availableLangs : SITE_TRANSLATED_LANGS;
+  // Don't render the picker at all when only English is available — a
+  // one-option dropdown is visual noise.
+  if (langs.length <= 1) return null;
   return (
     <div style={{
       marginBottom: compact ? 20 : 28,
@@ -243,7 +266,7 @@ function LanguagePicker({ legalLang, setLegalLang, compact }) {
           background: C.white, fontFamily: "inherit", color: C.bark, cursor: "pointer",
         }}
       >
-        {LEGAL_LANGS.map((l) => (
+        {langs.map((l) => (
           <option key={l.code} value={l.code}>{l.label}</option>
         ))}
       </select>
@@ -518,7 +541,7 @@ export function LegalLibraryEntry({ entryId, legalLang, setLegalLang, onBack, on
     <main dir={isRTL ? "rtl" : "ltr"} style={{ padding: "0 20px 40px", maxWidth: 900, margin: "0 auto" }}>
       <button onClick={onBack} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, color: C.stone, padding: "16px 0", fontFamily: "inherit" }}>← Back to {catMeta.label}</button>
 
-      <LanguagePicker legalLang={legalLang} setLegalLang={setLegalLang} compact />
+      <LanguagePicker legalLang={legalLang} setLegalLang={setLegalLang} compact availableLangs={availableLangsForEntry(entry)} />
 
       <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10, flexWrap: "wrap" }}>
         <span style={{ fontSize: 10, fontWeight: 700, color: C.forest, background: C.sage, padding: "3px 8px", borderRadius: 6, textTransform: "uppercase", letterSpacing: 0.5 }}>{entry.tier}</span>

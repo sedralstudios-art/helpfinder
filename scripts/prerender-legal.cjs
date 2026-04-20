@@ -810,20 +810,31 @@ async function main() {
 
   let fileCount = 0;
 
-  // 1. Entry pages
-  for (const langMeta of LEGAL_LANGS) {
-    for (const entry of entries) {
+  // 1. Entry pages — only prerender for languages where this entry has a real
+  // translation (English always included). Stops creating ~17k fallback HTML
+  // files that were serving English body content under non-English locale
+  // paths. Users who navigate to an untranslated language variant via the
+  // switcher now hit 404, which is more honest than an indexed duplicate.
+  const entryLangsByCode = {};
+  for (const langMeta of LEGAL_LANGS) entryLangsByCode[langMeta.code] = langMeta;
+  for (const entry of entries) {
+    for (const code of langsForEntry(entry)) {
+      const langMeta = entryLangsByCode[code];
+      if (!langMeta) continue;
       const html = generateEntryHTML(entry, langMeta, bundleTags);
-      const outDir = path.join(DIST, urlPathForEntry(langMeta.code, entry.id).replace(/^\//, ''));
+      const outDir = path.join(DIST, urlPathForEntry(code, entry.id).replace(/^\//, ''));
       fs.mkdirSync(outDir, { recursive: true });
       fs.writeFileSync(path.join(outDir, 'index.html'), html);
       fileCount++;
     }
   }
-  console.log('✓ Wrote ' + (entries.length * LEGAL_LANGS.length) + ' entry pages');
+  console.log('✓ Wrote entry pages (only languages with real translations)');
 
-  // 2. Category list pages
-  for (const langMeta of LEGAL_LANGS) {
+  // 2. Category list pages — only for languages in SITEMAP_LANGS (en plus any
+  // language with ≥1 translated entry anywhere). Prevents /vi/know-your-rights/
+  // topic/housing from existing as English-body content under a Vietnamese
+  // locale path.
+  for (const langMeta of globalThis.SITEMAP_LANGS) {
     for (const cat of activeCategories) {
       const html = generateCategoryHTML(cat, entriesByCategory[cat], langMeta, bundleTags);
       const outDir = path.join(DIST, urlPathForCategory(langMeta.code, cat).replace(/^\//, ''));
@@ -832,17 +843,17 @@ async function main() {
       fileCount++;
     }
   }
-  console.log('✓ Wrote ' + (activeCategories.length * LEGAL_LANGS.length) + ' category pages');
+  console.log('✓ Wrote ' + (activeCategories.length * globalThis.SITEMAP_LANGS.length) + ' category pages');
 
-  // 3. Library index pages (7-tile overview)
-  for (const langMeta of LEGAL_LANGS) {
+  // 3. Library index pages (7-tile overview) — only for SITEMAP_LANGS.
+  for (const langMeta of globalThis.SITEMAP_LANGS) {
     const html = generateLibraryHTML(entries, entriesByCategory, langMeta, bundleTags);
     const outDir = path.join(DIST, urlPathForLibrary(langMeta.code).replace(/^\//, ''));
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(path.join(outDir, 'index.html'), html);
     fileCount++;
   }
-  console.log('✓ Wrote ' + LEGAL_LANGS.length + ' library index pages');
+  console.log('✓ Wrote ' + globalThis.SITEMAP_LANGS.length + ' library index pages');
 
   console.log('');
   console.log('Total: ' + fileCount + ' pre-rendered HTML files');
