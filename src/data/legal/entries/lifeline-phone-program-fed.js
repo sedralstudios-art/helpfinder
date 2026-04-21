@@ -7,62 +7,75 @@ export const LIFELINE_PHONE_PROGRAM_FED = {
   primaryStatute: "47 USC 254",
   status: "active",
 
-  title: { en: "Lifeline — Discounted Phone and Internet Service" },
+  title: { en: "Lifeline — Federal Monthly Discount on Phone or Internet Service for Eligible Households" },
 
   summary: {
-    en: "The Lifeline program provides a monthly discount on phone or internet service for people with low income. If you receive SNAP, Medicaid, SSI, or live in public housing, you automatically qualify. Many providers offer plans that are completely free after the Lifeline discount. Only one Lifeline benefit is allowed per household."
+    en: "Lifeline is a federal program that lowers the monthly cost of phone or internet service for eligible households. The authority is 47 USC § 254 (the Telecommunications Act universal-service provision). The program is administered by the Universal Service Administrative Company (USAC) with FCC oversight. The standard benefit is up to $9.25 per month; the Enhanced Tribal benefit is up to $34.25 per month. Eligibility runs on income (135% of federal poverty line) or on participation in SNAP, Medicaid, SSI, Federal Public Housing Assistance, or Veterans Pension. One benefit per household."
   },
 
   whoQualifies: {
     en: [
-      "People with household income at or below 135% of the Federal Poverty Guidelines.",
-      "People who participate in SNAP, Medicaid, SSI, Federal Public Housing Assistance, or Veterans Pension and Survivors Benefit programs.",
-      "Survivors of domestic violence or human trafficking may qualify for emergency Lifeline support for up to six months under the Safe Connections Act.",
-      "Only one Lifeline benefit is allowed per household. A household is everyone living at the same address who shares income and expenses.",
-      "Lifeline is available in every state, territory, and on Tribal lands."
+      "A household with income at or below 135% of the federal poverty guideline for the household size.",
+      "A household with a member who participates in SNAP, Medicaid, SSI, Federal Public Housing Assistance, or the Veterans Pension and Survivors Benefit programs — automatic qualification, no separate income proof.",
+      "A household living on federally recognized Tribal lands — eligible for the Enhanced Tribal benefit up to $34.25 per month.",
+      "A survivor of domestic violence or human trafficking — eligible for emergency Lifeline support for up to six months under the Safe Connections Act.",
+      "One Lifeline benefit per household — everyone living at the same address who shares income and expenses counts as one household."
     ]
   },
 
   whatItMeans: {
-    en: "Lifeline is a federal program run by the FCC that provides up to $9.25 per month off the cost of phone or internet service. The discount can be applied to a wireless phone plan, a home phone plan, or an internet plan. Many providers offer plans where the Lifeline discount covers the full cost of service, meaning you pay nothing each month. You choose which participating provider and plan you want. If you qualify through a program like SNAP or Medicaid, you do not need to prove your income separately — just show proof of enrollment. If you qualify by income, you may need to show a tax return or recent pay stubs. Once approved, you must recertify your eligibility every year or your benefit will end. If your plan has no monthly charge, you must use the service at least once every 30 days to keep it active. The Affordable Connectivity Program, which provided a larger internet discount, ended in 2024. Lifeline is a separate, ongoing program that continues to operate."
+    en: "Lifeline is a federal program created under the Telecommunications Act at 47 USC § 254, which requires universal-service support to keep telephone and broadband service available to low-income households. The Universal Service Administrative Company (USAC) administers the program under FCC oversight. The standard benefit pays up to $9.25 per month off the cost of a phone plan, an internet plan, or a bundled phone-and-internet plan. The Enhanced Tribal benefit pays up to $34.25 per month for households on qualifying Tribal lands. Many participating providers offer plans at or below the benefit amount, so the Lifeline discount often covers the full monthly bill — the household pays nothing out of pocket. Eligibility has two pathways. Income-based eligibility requires household income at or below 135% of the federal poverty guideline. Program-based eligibility requires participation in one of the qualifying programs — SNAP, Medicaid, SSI, Federal Public Housing Assistance (Section 8 or public housing), or Veterans Pension and Survivors Benefit. Program-based eligibility typically does not need separate income proof — the USAC National Verifier checks the applicable program database and often approves in minutes. Income-based eligibility requires documentation — a tax return, three consecutive pay stubs, or a benefits letter. The National Verifier runs the eligibility check for most states. Applicants go to lifelinesupport.org, create an account, and submit the application with supporting documents if needed. After approval, the applicant has 90 days to choose a participating provider and sign up for service. Each state has a list of participating providers; the National Verifier shows the available options by ZIP code. Oregon and Texas operate their own state portals rather than using the National Verifier. The Safe Connections Act adds protections for survivors of domestic violence and human trafficking — emergency Lifeline support is available for up to six months with additional privacy safeguards during the application process. Survivors can also separate a shared phone line from an abuser's account without penalty. Recertification is required every year. USAC often recertifies automatically through database matching. When automatic recertification fails, the subscriber receives a notice and must respond within the stated window to keep the benefit. A Lifeline subscriber on a plan with no monthly charge must use the service at least once every 30 days (a call, text, or data session) to keep the account active. Lifeline does not affect SNAP, Medicaid, or other public-benefit eligibility. The earlier Affordable Connectivity Program, which provided a larger broadband discount, ended in 2024 — Lifeline is a separate, ongoing program. Applications and recertifications are always free. No legitimate provider or government agency charges a fee to apply for Lifeline. Fraud or aggressive marketing that charges for application help can be reported to the FCC Lifeline Fraud Tip Line."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for Lifeline online, by mail, or through a participating provider.",
-      "You have the right to choose your own provider and plan from any participating Lifeline provider in your area.",
-      "You have the right to switch providers at any time.",
-      "You have the right to apply free of charge. No legitimate provider or agency will charge you a fee to apply for Lifeline.",
-      "If you are a survivor of domestic violence or human trafficking, you have the right to emergency Lifeline support for up to six months under the Safe Connections Act. Your privacy is protected.",
-      "You have the right to receive the Lifeline discount even if you also receive other public benefits. Lifeline does not affect your SNAP, Medicaid, or other benefits."
+      "A NY household has the right under 47 USC § 254 and FCC rules to apply for Lifeline online, by mail, or through a participating provider.",
+      "An eligible household has the right to choose any participating Lifeline provider in the area and to switch providers at any time.",
+      "A household has the right to the standard $9.25 monthly benefit, or the Enhanced Tribal benefit of $34.25 on qualifying Tribal lands.",
+      "A survivor of domestic violence or human trafficking has the right under the Safe Connections Act to emergency Lifeline support for up to six months plus privacy safeguards during the application process.",
+      "A household has the right to continue to receive Lifeline even when also receiving other public benefits — Lifeline does not reduce SNAP, Medicaid, or any other means-tested benefit.",
+      "A household has the right to apply for free — no legitimate agency or provider charges a fee to apply for Lifeline.",
+      "A household has the right to annual recertification and to receive written notice before any benefit termination."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under 47 U.S.C. § 254 and FCC rules, Lifeline applications are accepted online through the National Verifier at lifelinesupport.org.",
-      "Applications may also be submitted by mail or through a participating phone or internet provider.",
-      "For help or to request a paper application by mail, the Lifeline Support Center is available at 1-800-234-9473 or LifelineSupport@usac.org.",
-      "If you qualify through SNAP, Medicaid, SSI, or Federal Public Housing Assistance, the National Verifier can often verify your eligibility automatically through database matching. Manual review takes 7 to 10 business days.",
-      "After approval, you have 90 days to choose a participating provider and sign up for service.",
-      "Eligibility must be recertified every year. In some cases, recertification is automatic. If it is not automatic, you will receive a notice and must respond to keep your benefit.",
-      "Additional information about qualifying through New York State programs is available from participating providers or at lifelinesupport.org.",
-      "The FCC Lifeline Fraud Tip Line is available at 1-855-455-8477 to report Lifeline fraud or unauthorized enrollment."
+      "Lifeline National Verifier at lifelinesupport.org — online application, eligibility check, provider selection for most states.",
+      "Lifeline Support Center at (800) 234-9473 or LifelineSupport@usac.org — paper applications, help line, status checks.",
+      "FCC Lifeline consumer information at fcc.gov/lifeline-consumers — program details and consumer protection guidance.",
+      "FCC Lifeline Fraud Tip Line at (855) 455-8477 — to report application-fee scams or unauthorized enrollment.",
+      "A participating Lifeline provider in Monroe County — listings available through the National Verifier by ZIP code.",
+      "Legal Aid Society of Rochester at (585) 232-4090 — represents low-income residents in Lifeline denial or enrollment disputes.",
+      "LawNY at (585) 325-2520 — consumer and benefits representation across 14-county Western NY service area."
     ]
   },
 
   example: {
-    en: "Rita lives alone in Steuben County and receives SNAP. She did not have a phone and was missing calls from her doctor and her caseworker. She applied for Lifeline online at lifelinesupport.org. The system verified her SNAP enrollment automatically and she was approved within minutes. She chose a wireless provider that offered a free plan with talk, text, and data. She received a phone in the mail within a week. She now has a working phone at no monthly cost."
+    en: "Rita lives alone in Monroe County and receives SNAP benefits. She had no phone and was missing calls from her doctor and caseworker. She went to lifelinesupport.org and applied for Lifeline. The National Verifier checked the SNAP database and approved her within minutes — no separate income documentation required. The system showed five participating wireless providers in her ZIP code with $0-a-month plans. Rita chose one and completed enrollment. A phone arrived in the mail within a week. She now has a working phone at no monthly cost. Under the auto-recertification rule, USAC will recheck her SNAP status each year; if it changes, she will receive notice before any benefit termination."
   },
 
   counsel: [
     {
-      type: "free",
+      type: "government",
+      name: "USAC Lifeline Support Center",
+      focus: "Lifeline applications, eligibility questions, provider referrals",
+      qualifier: "Any U.S. household seeking Lifeline",
+      access: "Phone, online, mail",
+      outcome: "Application processing and enrollment support",
+      phone: "(800) 234-9473",
+      url: "https://www.lifelinesupport.org",
+      verified: true,
+      bilingual: true,
+      languages: ["es"]
+    },
+    {
+      type: "nonprofit",
       name: "Legal Aid Society of Rochester",
-      focus: "Public benefits, consumer issues, fair hearings",
-      qualifier: "Low income residents of Monroe and surrounding counties",
-      access: "Phone intake, walk-in, or referral",
-      outcome: "Direct representation and advice on benefits cases",
+      focus: "Lifeline denial disputes and provider complaint representation",
+      qualifier: "Low-income Monroe County resident",
+      access: "Phone intake",
+      outcome: "Free representation and advice",
       phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
@@ -70,12 +83,12 @@ export const LIFELINE_PHONE_PROGRAM_FED = {
       languages: ["es"]
     },
     {
-      type: "free",
-      name: "Legal Assistance of Western New York (LawNY)",
-      focus: "Consumer issues, public benefits, housing",
-      qualifier: "Low income residents in 14 Western NY counties including Monroe",
-      access: "Phone intake at (585) 325-2520",
-      outcome: "Direct representation",
+      type: "nonprofit",
+      name: "LawNY — Legal Assistance of Western New York",
+      focus: "Consumer and benefits representation including Lifeline disputes",
+      qualifier: "Low-income resident in 14 Western NY counties including Monroe",
+      access: "Phone intake",
+      outcome: "Free representation",
       phone: "(585) 325-2520",
       url: "https://www.lawny.org",
       verified: true,
@@ -94,28 +107,26 @@ export const LIFELINE_PHONE_PROGRAM_FED = {
   relatedHelpResources: [],
 
   tags: [
-    "free phone",
-    "Lifeline phone",
-    "phone discount",
-    "cheap phone service",
-    "free cell phone",
-    "government phone",
-    "internet discount",
-    "can't afford phone",
-    "low income phone",
-    "Obama phone",
-    "phone for SNAP",
-    "free internet"
+    "Lifeline program",
+    "47 USC 254",
+    "USAC National Verifier",
+    "\$9.25 phone discount",
+    "Enhanced Tribal benefit",
+    "Safe Connections Act",
+    "SNAP Lifeline automatic qualify",
+    "Medicaid Lifeline",
+    "low-income phone",
+    "Lifeline annual recertification"
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/47/254",
     "https://www.fcc.gov/lifeline-consumers",
     "https://www.lifelinesupport.org",
-    "https://www.usac.org/lifeline/",
-    "https://www.law.cornell.edu/uscode/text/47/254"
+    "https://www.usac.org/lifeline/"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-21",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
