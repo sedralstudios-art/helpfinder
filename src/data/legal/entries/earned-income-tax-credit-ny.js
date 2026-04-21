@@ -7,95 +7,92 @@ export const EARNED_INCOME_TAX_CREDIT_NY = {
   primaryStatute: "26 USC 32",
   status: "active",
 
-  title: { en: "Earned Income Tax Credit — Money Back for Working Families" },
+  title: { en: "NY Earned Income Tax Credit — Federal EITC (26 USC 32) and the NY State Add-On Equal to 30 Percent" },
 
   summary: {
-    en: "The Earned Income Tax Credit is a refundable tax credit for people who work and earn low to moderate income. You can get money back even if you do not owe any taxes. New York State adds an additional credit worth 30% of the federal amount. You must file a tax return to receive it."
+    en: "The federal Earned Income Tax Credit at 26 USC § 32 is a refundable credit for workers with low and moderate earned income. NY Tax Law § 606(d) adds a state credit generally equal to 30 percent of the allowable federal EITC, reduced by any household credit. Full-year NY residents receive the state credit fully refundable. Both credits are claimed on the tax return — federal EITC on Form 1040 Schedule EIC, and the NY state EITC on Form IT-215. Free tax preparation through IRS VITA and TCE sites helps eligible filers claim these credits at no cost."
   },
 
   whoQualifies: {
     en: [
-      "Workers with earned income from wages, salary, tips, or self-employment.",
-      "Families with qualifying children who lived with them for more than half the year.",
-      "Workers without children who are between ages 25 and 64 may qualify for a smaller credit.",
-      "Income must be below the federal EITC income limits for your filing status and number of qualifying children.",
-      "Investment income must be below the annual limit set by the IRS.",
-      "You must have a valid Social Security number.",
-      "You cannot be claimed as a dependent on someone else's tax return.",
-      "The credit is available whether you work full-time, part-time, or are self-employed."
+      "A worker with earned income from wages, salary, tips, or self-employment and a valid Social Security number for the worker, spouse, and qualifying children by the return due date (with extensions) under NY Tax Law § 606(d) and 26 USC § 32.",
+      "A worker with a qualifying child who meets the relationship, age, residency, and joint-return tests under 26 USC § 32(c) — the child typically must have lived with the worker more than half the tax year.",
+      "A worker without a qualifying child, age 25 to 64, whose earned income and adjusted gross income fall below the IRS-published thresholds for that filing status.",
+      "A NY full-year resident who claimed the federal EITC and did not claim the NY Noncustodial Parent EITC — eligible for the NY state credit at 30 percent of the federal amount.",
+      "A NY noncustodial parent current on child support who may instead claim the NY Noncustodial Parent EITC under a separate NY Tax Law provision."
     ]
   },
 
   whatItMeans: {
-    en: "The Earned Income Tax Credit is one of the largest cash benefits available to working families. It is a refundable credit, which means you receive the full amount even if you owe no income tax. The federal credit amount depends on your income, filing status, and number of qualifying children. Families with more children receive a larger credit. New York State provides an additional credit equal to 30% of the federal credit amount. These credits are claimed when you file your federal and state tax returns. You do not need to apply separately. If you qualify for the federal EITC, you automatically qualify for the New York State credit. New York also offers a Non-Custodial Parent Earned Income Credit for non-custodial parents who are current on child support payments. The Empire State Child Credit may provide additional money for families with young children. Credit amounts and income limits change each year. Current figures are published by the IRS and the NYS Department of Taxation and Finance."
+    en: "The Earned Income Tax Credit is one of the largest federal income-support programs for working households. The federal EITC is authorized by 26 USC § 32 and administered by the IRS. It is refundable — any credit amount exceeding federal tax liability is paid as a refund. Eligibility depends on earned income, adjusted gross income, investment income, filing status, and the number of qualifying children. Dollar amounts adjust each year and are published by the IRS in Publication 596 and the annual EITC income-limit tables. The credit phases in for low earners, reaches a maximum, then phases out for higher incomes. New York provides a state-level add-on in NY Tax Law § 606(d), generally equal to 30 percent of the federal EITC amount, reduced by any NY household credit. The NY state credit is fully refundable for full-year NY residents, nonrefundable for nonresidents, and partially refundable for part-year residents — as stated on the NY Department of Taxation and Finance EITC page. Filing requirements include a federal Form 1040 with Schedule EIC for those with qualifying children, and NY Form IT-215 filed with the NY return. Workers must have a valid SSN for themselves, any spouse on the return, and each qualifying child by the due date including extensions. Self-employed workers must maintain business records to substantiate earned income for the credit — the NY Department of Taxation and Finance specifically warns self-employed filers to preserve those records. NY also offers a Noncustodial Parent Earned Income Credit, an alternative to the regular NY EITC available to noncustodial parents who are current on child support orders — the filer chooses one or the other. A filer who missed claiming the EITC in a prior eligible year may amend with federal Form 1040-X and NY Form IT-201-X within three years of the original due date under 26 USC § 6511 and the corresponding NY Tax Law. Receipt of the EITC does not count as income for SNAP, Medicaid, SSI, or TANF eligibility during the month of receipt or the following month — a federal protection that allows recipients to use the refund for housing, car repairs, debt, or savings without losing means-tested benefits. The IRS publishes an EITC Assistant tool at irs.gov/eitc that walks through eligibility. Free tax preparation for EITC-eligible filers is available through IRS Volunteer Income Tax Assistance (VITA) sites and Tax Counseling for the Elderly (TCE) — the locator at irs.treasury.gov/freetaxprep shows Monroe County sites each filing season. The NY Department of Taxation and Finance offers Free File for direct state e-filing. Legal Aid, LawNY, and Empire Justice Center's Low-Income Taxpayer Clinic represent NY filers in IRS EITC disputes, identity-theft holds, and audits that delay refunds."
   },
 
   yourRights: {
     en: [
-      "You have the right to claim the EITC by filing a federal and New York State tax return, even if your income is too low to owe taxes.",
-      "You have the right to claim the credit for up to three prior tax years if you were eligible but did not file.",
-      "You have the right to free tax preparation help if your income is below certain thresholds, through IRS Volunteer Income Tax Assistance (VITA) sites and other free programs.",
-      "You have the right to file your New York State return for free through the NYS Department of Taxation and Finance Free File program.",
-      "You have the right to receive both the federal and state EITC. Receiving the EITC does not reduce your SNAP, Medicaid, or other public benefits."
+      "A NY worker has the right under 26 USC § 32 and NY Tax Law § 606(d) to claim the federal EITC and the NY state add-on by filing an annual tax return.",
+      "A NY full-year resident has the right to a fully refundable NY EITC at approximately 30 percent of the allowable federal credit, reduced by any household credit.",
+      "A NY filer has the right to amend returns for up to three prior years to claim missed EITC under 26 USC § 6511 and the corresponding NY tax law.",
+      "A NY filer has the right to free tax preparation assistance through IRS VITA and TCE sites during filing season.",
+      "A NY noncustodial parent current on child support has the right to choose either the regular NY EITC or the NY Noncustodial Parent EITC.",
+      "A NY EITC recipient has the right under federal means-tested-benefit protections to have the refund disregarded from SNAP, Medicaid, SSI, and TANF eligibility in the month of receipt and the following month."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under 26 U.S.C. § 32 (federal) and NY Tax Law § 606(d) (state), the EITC is claimed by filing federal Form 1040 and New York State Form IT-215.",
-      "The IRS provides an online EITC eligibility tool and income limit tables at irs.gov/eitc.",
-      "The NYS Department of Taxation and Finance provides state credit information at tax.ny.gov/pit/credits/earned_income_credit.htm.",
-      "Free tax preparation is available through IRS VITA (Volunteer Income Tax Assistance) and TCE (Tax Counseling for the Elderly) sites. To find a free tax prep site, the IRS locator is available at irs.treasury.gov/freetaxprep.",
-      "The NYS Department of Taxation and Finance offers free e-filing through its Free File program at tax.ny.gov.",
-      "Non-custodial parents who are current on child support may be eligible for the New York State Non-Custodial Parent Earned Income Credit. Information is available at tax.ny.gov.",
-      "The Empire State Child Credit may provide additional refundable credits for families with qualifying children. For tax year 2025, the credit is up to $1,000 per qualifying child under age 4.",
-      "Free legal help with tax-related benefits issues is available through Empire Justice Center's Low-Income Taxpayer Clinic at (585) 900-1024."
+      "IRS EITC resource and eligibility tool at irs.gov/eitc — annual income tables, Publication 596, and EITC Assistant.",
+      "NY Department of Taxation and Finance EITC page at tax.ny.gov/pit/credits/earned_income_credit.htm — state credit instructions and Form IT-215.",
+      "IRS VITA and TCE locator at irs.treasury.gov/freetaxprep — free in-person tax preparation during filing season, Monroe County sites updated annually.",
+      "Creating Assets, Savings and Hope (CASH) Rochester at (585) 328-4180 — Monroe County free tax preparation coalition with multiple VITA locations.",
+      "Empire Justice Center Low-Income Taxpayer Clinic at (585) 900-1024 — represents NY filers in EITC disputes, IRS notices, and audits.",
+      "IRS Taxpayer Advocate Service at (877) 777-4778 — independent IRS help for delayed refunds and unresolved issues.",
+      "NY Department of Taxation and Finance Refund Status at tax.ny.gov/pit/where_is_my_refund.htm — tracks NY refund processing."
     ]
   },
 
   example: {
-    en: "David works as a warehouse associate in Monroe County and earns about $28,000 a year. He has two children. He filed his federal and state tax returns through a free VITA site at a local library. His federal EITC was several thousand dollars. His New York State credit added another 30% on top of that. He also received the Empire State Child Credit. The combined refund helped him pay for car repairs and catch up on bills. He did not have to pay anything for the tax preparation."
+    en: "David is a Monroe County warehouse worker earning $28,000 per year with two qualifying children. He filed his federal return with Schedule EIC and his NY return with Form IT-215 at a free CASH Rochester VITA site. His federal EITC under 26 USC § 32 was calculated from the current IRS tables. His NY EITC under NY Tax Law § 606(d) equaled approximately 30 percent of the federal amount, fully refundable because he is a full-year NY resident. He also qualified for the Empire State Child Credit. The combined refund arrived as direct deposit within about three weeks of e-filing. Under federal means-tested-benefit protections, the refund did not reduce his existing SNAP allotment."
   },
 
   counsel: [
     {
-      type: "free",
+      type: "nonprofit",
       name: "Empire Justice Center — Low-Income Taxpayer Clinic",
-      focus: "Tax credits, EITC, IRS disputes, low-income taxpayer issues",
-      qualifier: "Low income residents statewide (all NYS counties except NYC)",
-      access: "Phone intake at (585) 900-1024",
-      outcome: "Tax preparation assistance, IRS dispute resolution, advocacy",
+      focus: "EITC disputes, IRS audits, identity-theft holds, amended-return advocacy",
+      qualifier: "Low-income NY filers",
+      access: "Phone intake",
+      outcome: "Free tax representation before IRS and NY Tax",
       phone: "(585) 900-1024",
-      url: "https://www.empirejustice.org",
+      url: "https://empirejustice.org",
       verified: true,
       bilingual: false,
       languages: []
     },
     {
-      type: "free",
-      name: "Legal Aid Society of Rochester",
-      focus: "Public benefits, tax credits, fair hearings",
-      qualifier: "Low income residents of Monroe and surrounding counties",
-      access: "Phone intake, walk-in, or referral",
-      outcome: "Direct representation and advice on benefits cases",
-      phone: "(585) 232-4090",
-      url: "https://www.lasroc.org",
+      type: "nonprofit",
+      name: "CASH Rochester (Creating Assets, Savings and Hope)",
+      focus: "Free VITA tax preparation across Monroe County",
+      qualifier: "Monroe County households earning under VITA income threshold",
+      access: "Phone, appointment during filing season",
+      outcome: "Free tax preparation and e-filing; EITC eligibility screening",
+      phone: "(585) 328-4180",
+      url: "https://www.cashrochester.org",
       verified: true,
       bilingual: true,
       languages: ["es"]
     },
     {
-      type: "free",
-      name: "Legal Assistance of Western New York (LawNY)",
-      focus: "Public benefits, consumer issues",
-      qualifier: "Low income residents in 14 Western NY counties including Monroe",
-      access: "Phone intake at (585) 325-2520",
-      outcome: "Direct representation",
-      phone: "(585) 325-2520",
-      url: "https://www.lawny.org",
+      type: "government",
+      name: "IRS Taxpayer Advocate Service",
+      focus: "Independent IRS help for delayed EITC refunds and unresolved issues",
+      qualifier: "Any U.S. taxpayer",
+      access: "Phone, local office",
+      outcome: "IRS case advocacy and resolution",
+      phone: "(877) 777-4778",
+      url: "https://www.taxpayeradvocate.irs.gov",
       verified: true,
-      bilingual: false,
-      languages: []
+      bilingual: true,
+      languages: ["es"]
     }
   ],
 
@@ -109,27 +106,25 @@ export const EARNED_INCOME_TAX_CREDIT_NY = {
   relatedHelpResources: [],
 
   tags: [
-    "tax refund",
-    "EITC",
-    "earned income credit",
-    "tax credit for working",
-    "money back taxes",
-    "free tax filing",
-    "low income tax credit",
-    "child tax credit",
-    "working family credit",
-    "tax help",
+    "NY EITC",
+    "26 USC 32",
+    "NY Tax Law 606(d)",
+    "Form IT-215",
+    "Noncustodial Parent EITC NY",
+    "Empire State Child Credit",
     "VITA free tax prep",
-    "refundable tax credit"
+    "30 percent state EITC add-on",
+    "refundable tax credit",
+    "SNAP EITC disregard"
   ],
 
   sources: [
+    "https://www.law.cornell.edu/uscode/text/26/32",
     "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc",
-    "https://www.tax.ny.gov/pit/credits/earned_income_credit.htm",
-    "https://www.law.cornell.edu/uscode/text/26/32"
+    "https://www.tax.ny.gov/pit/credits/earned_income_credit.htm"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-21",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
