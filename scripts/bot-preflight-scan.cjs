@@ -83,6 +83,60 @@ const DIRECTIVE_PATTERNS = [
 const SECOND_PERSON_RE = /\b(you|your|yours|you'?re|you'?ve|you'?ll|you'?d)\b/gi;
 const EMBEDDED_QUOTE_RE = /"[^"]*"[^"]*"/; // naive but good enough for en: single-line scan
 
+// ── Readability rules (added 2026-04-21) ────────────────────────────────────
+// These catch lawyer-register drift that preflight-score-0 was missing. Score
+// 0 should mean user-readable, not just validator-passing.
+
+// Literal "(...)" citation placeholder — hard FAIL. Shipping "(...)" in a
+// statute cite means the author didn't verify the subdivision number.
+const CITATION_PLACEHOLDER_RE = /\(\.\.\.\)/;
+
+// Lawyer-register markers — the worst offenders that a 6th-grade reader
+// would not parse. Each occurrence adds score; capped to prevent one bad
+// entry from dominating the queue.
+const LAWYER_REGISTER_PATTERNS = [
+  { name: 'Lawyer register: codified at', re: /\bcodified at\b/gi },
+  { name: 'Lawyer register: by operation of law', re: /\bby operation of law\b/gi },
+  { name: 'Lawyer register: pursuant to', re: /\bpursuant to\b/gi },
+  { name: 'Lawyer register: thereof', re: /\bthereof\b/gi },
+  { name: 'Lawyer register: hereinafter', re: /\bhereinafter\b/gi },
+  { name: 'Lawyer register: the foregoing', re: /\bthe foregoing\b/gi },
+  { name: 'Lawyer register: natural person', re: /\bnatural person\b/gi },
+  { name: 'Lawyer register: in lieu of', re: /\bin lieu of\b/gi },
+  { name: 'Lawyer register: notwithstanding', re: /\bnotwithstanding\b/gi },
+  { name: 'Lawyer register: enumerated', re: /\benumerated\b/gi },
+  { name: 'Lawyer register: authorized by', re: /\bauthorized by the\b/gi },
+];
+
+// Risky acronyms — must appear alongside an expansion (in parens, em-dash,
+// or "(the X)") somewhere in the body. If the acronym is used without the
+// expansion, the reader is left guessing. Common acronyms like SNAP, SSI,
+// Medicaid, DMV, IRS are widely understood and not checked.
+const RISKY_ACRONYMS = [
+  { a: 'CSSA', expand: /Child Support Standards Act/i },
+  { a: 'Title IV-D', expand: /federal child support|Social Security Act|child-support\s+services/i },
+  { a: 'NICS', expand: /National Instant Criminal Background Check/i },
+  { a: 'MBI-WPD', expand: /Medicaid Buy-In for Working People with Disabilities/i },
+  { a: 'CCFA', expand: /Consumer Credit Fairness Act/i },
+  { a: 'IDP', expand: /Impaired Driver Program/i },
+  { a: 'DCJS', expand: /Division of Criminal Justice Services/i },
+  { a: 'CCAP', expand: /Child Care Assistance Program/i },
+  { a: 'ABD', expand: /Aged, Blind/i },
+  { a: 'VITA', expand: /Volunteer Income Tax Assistance/i },
+  { a: 'TCE', expand: /Tax Counseling for the Elderly/i },
+  { a: 'DWAI', expand: /Driving While Ability Impaired|ability[- ]impaired/i },
+  { a: 'IPV', expand: /intentional program violation/i },
+];
+
+// Statute-citation detector for density scoring. Matches §X, X USC Y,
+// X CFR Y, X NYCRR Y, and NY code abbreviations like CPL 160.57.
+const NY_CODE_RE = /\b(CPL|CPLR|DOM|FCT|VAT|VTL|GBS|GBL|GOB|CVP|SOS|SSL|PBH|RPP|RPL|LAB|RPA|RPT|EPT|EDN|EXC|INS|JUD|BSC|CVR|CRC|PML|SCA|SCP|VIL|WKC|TAX|PEN|CRS|MHY|NAV|PSL|PBO|PBA|PAR|PPH|DCD|OFP|ACA|NPC|ARS|MIL)\s+§?\s*\d+/g;
+const CITATION_RE = /§\s*\d+[\w.\-]*|\b(\d+)\s+(USC|CFR|NYCRR)\s+[\w.\-]+/g;
+
+// Title suffix that reads as lawyer titling rather than user-friendly.
+// "Under CPL 160.57" at the end of a title tells the user nothing useful.
+const TITLE_LAWYER_SUFFIX_RE = /\s+Under\s+(?:NY\s+)?(CPL|CPLR|DOM|FCT|VAT|VTL|GBS|GBL|GOB|CVP|SOS|SSL|PBH|RPP|LAB|\d+\s+USC|\d+\s+CFR|\d+\s+NYCRR)\s+\S+\s*$/i;
+
 // ── Helpers ─────────────────────────────────────────────────────────────────
 function wordCount(s) {
   if (!s) return 0;
@@ -95,6 +149,35 @@ function avgSentenceLength(text) {
   if (!sentences.length) return 0;
   const totalWords = sentences.reduce((s, x) => s + wordCount(x), 0);
   return totalWords / sentences.length;
+}
+
+function citationDensity(text) {
+  if (!text) return { ratio: 0, perSentence: 0, total: 0, sentences: 0 };
+  const sentences = text.split(/[\.\?\!]+\s+/).filter((s) => s.trim().length > 3);
+  if (!sentences.length) return { ratio: 0, perSentence: 0, total: 0, sentences: 0 };
+  const cites = (text.match(CITATION_RE) || []).length + (text.match(NY_CODE_RE) || []).length;
+  return { ratio: cites / sentences.length, total: cites, sentences: sentences.length };
+}
+
+function citationOpenerRatio(text) {
+  if (!text) return 0;
+  const sentences = text.split(/[\.\?\!]+\s+/).filter((s) => s.trim().length > 3);
+  if (!sentences.length) return 0;
+  const openerRe = /^\s*(§|\d+\s+(USC|CFR|NYCRR)|\b(CPL|CPLR|DOM|FCT|VAT|VTL|GBS|GBL|GOB|CVP|SOS|SSL|PBH|RPP|LAB)\s+§?\s*\d+)/i;
+  const withCiteOpener = sentences.filter((s) => openerRe.test(s.slice(0, 60))).length;
+  return withCiteOpener / sentences.length;
+}
+
+function findUndefinedAcronyms(text) {
+  if (!text) return [];
+  const missing = [];
+  for (const { a, expand } of RISKY_ACRONYMS) {
+    // Escape hyphens and dots in the acronym for regex
+    const aEsc = a.replace(/[-.]/g, '\\$&');
+    const used = new RegExp(`\\b${aEsc}\\b`).test(text);
+    if (used && !expand.test(text)) missing.push(a);
+  }
+  return missing;
 }
 
 function scanEntry(file, entry, raw) {
@@ -203,6 +286,79 @@ function scanEntry(file, entry, raw) {
       score += 10;
       break;
     }
+  }
+
+  // ── Readability rules ─────────────────────────────────────────────────────
+  // Gather body text for readability scoring
+  const bodyParts = [wim, sum];
+  if (Array.isArray((entry.yourRights && entry.yourRights.en) || null))
+    bodyParts.push(entry.yourRights.en.join(' '));
+  if (Array.isArray((entry.whoQualifies && entry.whoQualifies.en) || null))
+    bodyParts.push(entry.whoQualifies.en.join(' '));
+  if (Array.isArray((entry.legalOptions && entry.legalOptions.en) || null))
+    bodyParts.push(entry.legalOptions.en.join(' '));
+  if (entry.example && entry.example.en) bodyParts.push(entry.example.en);
+  const fullBody = bodyParts.join(' ');
+
+  // Hard FAIL — literal (...) placeholder means the author never resolved the
+  // subdivision number. Shipping that is an error.
+  if (CITATION_PLACEHOLDER_RE.test(fullBody)) {
+    const count = (fullBody.match(/\(\.\.\.\)/g) || []).length;
+    issues.push({ severity: 'fail', rule: 'citation placeholder (...)', detail: count });
+    score += 10;
+  }
+
+  // Lawyer-register markers — 3 points each, capped at 10
+  const lawyerHits = [];
+  for (const p of LAWYER_REGISTER_PATTERNS) {
+    const count = (fullBody.match(p.re) || []).length;
+    if (count > 0) lawyerHits.push({ rule: p.name, count });
+  }
+  if (lawyerHits.length > 0) {
+    const totalLawyerHits = lawyerHits.reduce((s, x) => s + x.count, 0);
+    issues.push({ severity: 'warn', rule: 'lawyer register markers', detail: lawyerHits });
+    score += Math.min(totalLawyerHits * 3, 10);
+  }
+
+  // Citation density in whatItMeans — too many statute cites per sentence
+  // means the reader can't parse the prose. Target is < 0.8 citations per
+  // sentence on average for a user-readable explainer.
+  const cd = citationDensity(wim);
+  if (cd.ratio > 1.2) {
+    issues.push({ severity: 'warn', rule: 'citation density > 1.2 per sentence', detail: cd.ratio.toFixed(2) });
+    score += 5;
+  } else if (cd.ratio > 0.8) {
+    issues.push({ severity: 'warn', rule: 'citation density > 0.8 per sentence', detail: cd.ratio.toFixed(2) });
+    score += 2;
+  }
+
+  // Citation-opener density — sentences starting with a statute cite read
+  // like a legal memo. Target < 25% of sentences opening with a cite.
+  const coRatio = citationOpenerRatio(wim);
+  if (coRatio > 0.35) {
+    issues.push({ severity: 'warn', rule: 'citation-opener sentences > 35%', detail: (coRatio * 100).toFixed(0) + '%' });
+    score += 3;
+  }
+
+  // Undefined acronyms — flagged list must be expanded somewhere in the body
+  const undef = findUndefinedAcronyms(fullBody);
+  if (undef.length > 0) {
+    issues.push({ severity: 'warn', rule: 'acronyms used without expansion', detail: undef });
+    score += Math.min(undef.length, 5);
+  }
+
+  // Tighter avg-sentence-length threshold for readability (existing rule
+  // already catches > 35; this catches 28-35 as a lower-severity nudge).
+  if (avgSent > 28 && avgSent <= 35) {
+    issues.push({ severity: 'warn', rule: 'long sentences (avg 28-35 words)', detail: Math.round(avgSent) });
+    score += 1;
+  }
+
+  // Title lawyer-suffix — "Under CPL 160.57" etc. at the end of the title
+  const title = (entry.title && entry.title.en) || '';
+  if (TITLE_LAWYER_SUFFIX_RE.test(title)) {
+    issues.push({ severity: 'warn', rule: 'title ends with statute-cite suffix' });
+    score += 2;
   }
 
   return { file, id: entry.id, category: entry.category, authorityType: entry.authorityType, lastVerified: entry.lastVerified, wimWords, srcCount, score, issues };
