@@ -116,6 +116,116 @@ function fetchHtml(url) {
   });
 }
 
+// ── Cornell / FindLaw mirror URL rewriter ───────────────────────────────────
+// When a nysenate.gov URL gets a CDN 403 even through Playwright, FindLaw's
+// NY consolidated laws mirror usually still works (no aggressive bot defense).
+// Map NY code abbreviation -> FindLaw path slug.
+const NY_CODE_TO_FINDLAW_SLUG = {
+  ABC: 'alcoholic-beverage-control-law',
+  ACA: 'abandoned-property-law',
+  AGM: 'agriculture-and-markets-law',
+  ARS: 'arts-and-cultural-affairs-law',
+  BNK: 'banking-law',
+  BSC: 'business-corporation-law',
+  BVO: 'benevolent-orders-law',
+  CAL: 'canal-law',
+  CCA: 'civil-court-act',
+  CNT: 'county-law',
+  COM: 'commerce-law',
+  CPA: 'civil-practice-act',
+  CPL: 'criminal-procedure-law',
+  CPLR: 'civil-practice-laws-and-rules',
+  CRC: 'civil-rights-law',
+  CRS: 'correction-law',
+  CSL: 'civil-service-law',
+  CVP: 'civil-practice-laws-and-rules',
+  CVR: 'civil-rights-law',
+  DCD: 'debtor-and-creditor-law',
+  DOM: 'domestic-relations-law',
+  EDN: 'education-law',
+  ELD: 'elder-law',
+  ELN: 'election-law',
+  EMP: 'employers-liability-law',
+  ENV: 'environmental-conservation-law',
+  EPT: 'estates-powers-and-trusts-law',
+  EXC: 'executive-law',
+  FCT: 'family-court-act',
+  GBS: 'general-business-law',
+  GCT: 'general-city-law',
+  GMU: 'general-municipal-law',
+  GOB: 'general-obligations-law',
+  HAY: 'highway-law',
+  IND: 'indian-law',
+  INS: 'insurance-law',
+  JCT: 'joint-legislative-committee',
+  JUD: 'judiciary-law',
+  LAB: 'labor-law',
+  LEG: 'legislative-law',
+  LFN: 'local-finance-law',
+  LIE: 'lien-law',
+  LLC: 'limited-liability-company-law',
+  LTL: 'limited-liability-company-law',
+  MHY: 'mental-hygiene-law',
+  MIL: 'military-law',
+  MRE: 'multiple-residence-law',
+  MUN: 'multiple-dwelling-law',
+  NAV: 'navigation-law',
+  NPC: 'not-for-profit-corporation-law',
+  PAR: 'parks-recreation-and-historic-preservation-law',
+  PBA: 'public-authorities-law',
+  PBB: 'public-buildings-law',
+  PBH: 'public-health-law',
+  PBO: 'public-officers-law',
+  PEF: 'partnership-law',
+  PEL: 'penal-law',
+  PEN: 'penal-law',
+  PEP: 'personal-property-law',
+  PML: 'pari-mutuel-revenue-law',
+  POA: 'public-authorities-law',
+  PPH: 'public-housing-law',
+  PRL: 'partnership-law',
+  PSL: 'public-service-law',
+  PUB: 'public-lands-law',
+  PVH: 'private-housing-finance-law',
+  RAI: 'railroad-law',
+  RCO: 'rural-electric-cooperative-law',
+  REL: 'religious-corporations-law',
+  RPA: 'real-property-actions-and-proceedings-law',
+  RPL: 'real-property-law',
+  RPP: 'real-property-law',
+  RPT: 'real-property-tax-law',
+  RSS: 'retirement-and-social-security-law',
+  SCA: 'surrogates-court-procedure-act',
+  SCP: 'surrogates-court-procedure-act',
+  SLS: 'state-law',
+  SOS: 'social-services-law',
+  STL: 'state-law',
+  STT: 'state-technology-law',
+  TAX: 'tax-law',
+  TOW: 'town-law',
+  TRA: 'transportation-law',
+  UCA: 'uniform-city-court-act',
+  UCC: 'uniform-commercial-code',
+  UDC: 'uniform-district-court-act',
+  UJC: 'uniform-justice-court-act',
+  VAT: 'vehicle-and-traffic-law',
+  VIL: 'village-law',
+  VTL: 'vehicle-and-traffic-law',
+  WKC: 'workers-compensation-law',
+};
+
+function findlawUrlFromNysenate(nysenateUrl) {
+  if (!nysenateUrl) return null;
+  const m = nysenateUrl.match(/nysenate\.gov\/legislation\/laws\/([A-Z]+)\/([A-Z0-9.\-]+)/i);
+  if (!m) return null;
+  const code = m[1].toUpperCase();
+  const section = m[2].toLowerCase();
+  const slug = NY_CODE_TO_FINDLAW_SLUG[code];
+  if (!slug) return null;
+  // FindLaw path pattern: codes.findlaw.com/ny/{law-slug}/{code-lower}-sect-{section-lower}/
+  return `https://codes.findlaw.com/ny/${slug}/${code.toLowerCase()}-sect-${section}/`;
+}
+
 // ── Playwright fallback ─────────────────────────────────────────────────────
 // Lazy-loaded so runs without --playwright don't spin up a browser or even
 // require the module.
@@ -300,6 +410,7 @@ async function main() {
   let done = 0;
   let pwPrimaryRescued = 0;
   let pwSecondaryRescued = 0;
+  let findlawPrimaryRescued = 0;
   for (let i = 0; i < N; i++) {
     const q = queueWithSources[i];
     process.stdout.write(`\r[${i + 1}/${N}] ${q.file}`.padEnd(90));
@@ -328,6 +439,7 @@ async function main() {
       if (needFetch) {
         let r = await fetchHtml(q.primaryUrl);
         let method = 'https';
+        let finalUrl = q.primaryUrl;
         if (r.status !== 200 && USE_PLAYWRIGHT) {
           const pw = await fetchHtmlPlaywright(q.primaryUrl);
           if (pw.status === 200) {
@@ -336,9 +448,31 @@ async function main() {
             pwPrimaryRescued++;
           }
         }
+        // FindLaw NY mirror — third tier when nysenate is fully blocked
+        if (r.status !== 200) {
+          const mirror = findlawUrlFromNysenate(q.primaryUrl);
+          if (mirror) {
+            const mr = await fetchHtml(mirror);
+            if (mr.status === 200) {
+              r = mr;
+              method = 'findlaw-mirror';
+              finalUrl = mirror;
+              findlawPrimaryRescued++;
+            } else if (USE_PLAYWRIGHT) {
+              const mpw = await fetchHtmlPlaywright(mirror);
+              if (mpw.status === 200) {
+                r = mpw;
+                method = 'findlaw-mirror-pw';
+                finalUrl = mirror;
+                findlawPrimaryRescued++;
+              }
+            }
+          }
+        }
         entry.primaryFetchStatus = r.status;
         entry.primaryError = r.error || null;
         entry.primaryFetchMethod = method;
+        entry.primaryFetchedUrl = finalUrl;
         if (r.status === 200) {
           const text = extractStatuteBody(r.body);
           entry.primaryText = text;
@@ -399,9 +533,13 @@ async function main() {
   console.log('  Primary OK fetches   :', primaryOk);
   console.log('  Secondary OK         :', secondaryOk);
   if (USE_PLAYWRIGHT) {
-    console.log('  Rescued this run     : primary', pwPrimaryRescued, '/ secondary', pwSecondaryRescued);
+    console.log('  Rescued this run     : pw-primary', pwPrimaryRescued, '/ pw-secondary', pwSecondaryRescued, '/ findlaw', findlawPrimaryRescued);
+  } else {
+    console.log('  Rescued this run     : findlaw', findlawPrimaryRescued);
   }
   console.log('  Playwright-sourced   : primary', pwPrimaryTotal, '/ secondary', pwSecondaryTotal);
+  const findlawTotal = all.filter((e) => (e.primaryFetchMethod === 'findlaw-mirror' || e.primaryFetchMethod === 'findlaw-mirror-pw') && e.primaryFetchStatus === 200).length;
+  console.log('  FindLaw-mirrored     : primary', findlawTotal);
 }
 
 main()
