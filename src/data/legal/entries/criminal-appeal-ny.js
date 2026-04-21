@@ -7,61 +7,92 @@ export const CRIMINAL_APPEAL_NY = {
   primaryStatute: "NY CPL A450",
   status: "active",
 
-  title: { en: "Appealing a Criminal Conviction in New York" },
+  title: { en: "NY Criminal Appeal — Notice of Appeal, 30-Day Deadline, and Path Through the Appellate Division" },
 
   summary: {
-    en: "A person convicted of a crime generally has the right to appeal. An appeal asks a higher court to review the trial court's decision for legal errors. In New York, the deadline to file a Notice of Appeal is 30 days after sentencing. Free appellate counsel is available for people who cannot afford a private lawyer."
+    en: "In New York, a defendant convicted of a crime may appeal under CPL Article 450. A notice of appeal under CPL § 460.10(1)(a) must be filed with the clerk of the trial court within 30 days after imposition of sentence. Most appeals go first to the intermediate appellate court — the Appellate Division of the NY Supreme Court (Fourth Department for Monroe County) — and then by permission to the NY Court of Appeals under CPL § 450.90. An appeal reviews the record for legal error, not a retrial. Assigned counsel is available for indigent appellants."
   },
 
   whoQualifies: {
     en: [
-      "Anyone convicted after a trial or, in some cases, after a guilty plea.",
-      "The appeal must be filed within 30 days of sentencing — this is a hard deadline.",
-      "If you waived your right to appeal as part of a plea agreement, the scope of the appeal may be limited but certain issues (like an illegal sentence) can still be raised."
+      "A NY defendant convicted of a crime after trial or plea, with a right to appeal from the judgment under CPL § 450.10.",
+      "A defendant challenging a sentence under CPL § 450.30.",
+      "A defendant seeking permission to appeal from a ruling that is not appealable as of right under CPL § 450.15.",
+      "The People (prosecution), appealing in limited circumstances under CPL § 450.20, § 450.40, § 450.50, and § 450.55.",
+      "Any party to an intermediate-appellate-court order seeking permission to appeal to the NY Court of Appeals under CPL § 450.90."
     ]
   },
 
   whatItMeans: {
-    en: "An appeal is not a new trial. A higher court (the Appellate Division) reviews the written record from the trial court — transcripts, motions, evidence — and decides whether the trial judge made a legal error serious enough to change the outcome. Common grounds for appeal include: the judge admitted evidence that should have been excluded, the jury instructions were wrong, the sentence was illegal or excessively harsh, or the defense lawyer was so ineffective that the defendant did not get a fair trial. The appellate court can affirm the conviction (uphold it), reverse it (throw it out), modify the sentence, or order a new trial. The process takes months to years. Filing the Notice of Appeal within 30 days is critical — missing the deadline usually means the right is lost. After the notice is filed, the appellate court assigns a lawyer if you cannot afford one. The lawyer reviews the record, identifies issues, and writes a brief arguing why the conviction or sentence should be overturned."
+    en: "A NY criminal appeal is a review of the written record from the trial court by a higher court — not a new trial. CPL Article 450 lists what may be appealed and to which court. A convicted defendant has a right of appeal under CPL § 450.10 from a judgment of conviction, a sentence, or certain orders entered after the judgment. Sentence challenges proceed under CPL § 450.30. Some rulings are not appealable as of right and require permission (leave) from the appellate court under CPL § 450.15. The People may appeal in narrower circumstances — for example, from a trial order of dismissal under CPL § 450.40 or an order suppressing evidence under CPL § 450.50. The procedure for taking an appeal is governed by CPL § 460.10. A notice of appeal must be filed in duplicate with the clerk of the criminal court in which the sentence was imposed, within 30 days after the imposition of sentence or within 30 days after service of a copy of the order being appealed. The notice must state the court to which the appeal is being taken. The defendant-appellant must also serve a copy of the notice on the District Attorney of the county within the same 30 days. Filing and service complete the taking of the appeal. Missing the 30-day deadline generally forfeits the right of appeal — extensions under CPL § 460.30 require a motion and proof of specific grounds (ineffective assistance of trial counsel on the question of filing, improper conduct by a public servant, or similar). For felony convictions in Monroe County, the intermediate appellate court is the Appellate Division, Fourth Department, which sits in Rochester. For misdemeanor convictions from Rochester City Court or a town or village justice court, the intermediate appellate court is typically the Monroe County Court acting in an appellate capacity. An appeal from the intermediate appellate court to the NY Court of Appeals proceeds under CPL § 450.90 and requires a certificate granting leave from a judge of the Court of Appeals or from the intermediate court. The review itself focuses on legal error preserved on the record. Common grounds include improperly admitted evidence, incorrect jury instructions, an illegal or unlawfully harsh sentence, insufficient trial evidence, and ineffective assistance of trial counsel. The appellate court may affirm the judgment, reverse it, modify it, or order a new trial. An appeal is distinct from a CPL Article 440 post-judgment motion — a 440.10 motion challenges the judgment based on evidence outside the record (such as newly discovered evidence or ineffective-assistance facts not apparent from the transcript). A 440.20 motion challenges the sentence on specific grounds. These are filed in the sentencing court and can run parallel to or after a direct appeal. Indigent defendants have the right to assigned appellate counsel and to a state-paid trial transcript. In Rochester, assigned appellate counsel comes from the Appellate Division Fourth Department's 18-B panel. Because the 30-day notice-of-appeal window is absolute, trial counsel typically files the notice even when appellate counsel has not yet been assigned — preserving the right while the case is transferred. The process from notice-of-appeal filing to appellate decision typically takes a year or more."
   },
 
   yourRights: {
     en: [
-      "You have the right to appeal a conviction after trial.",
-      "You have the right to file a Notice of Appeal within 30 days of sentencing.",
-      "You have the right to a free appellate lawyer if you cannot afford one.",
-      "You have the right to a copy of the trial transcripts (paid by the state if you cannot afford them).",
-      "If you lose at the Appellate Division, you can seek leave to appeal to the Court of Appeals (New York's highest court)."
+      "A NY defendant has the right under CPL § 450.10 to appeal a judgment of conviction to the intermediate appellate court.",
+      "A NY defendant has the right under CPL § 460.10(1)(a) to file a notice of appeal within 30 days after imposition of sentence.",
+      "An indigent defendant has the right to assigned appellate counsel at no cost under NY County Law Article 18-B and the constitutional right to counsel on a first appeal of right.",
+      "An indigent defendant has the right to a state-paid copy of the trial transcript needed to prepare the appeal.",
+      "A party to an intermediate appellate court decision has the right to seek leave to appeal to the NY Court of Appeals under CPL § 450.90.",
+      "A defendant has the right in limited circumstances to seek an extension of the 30-day window under CPL § 460.30 based on specific statutory grounds."
     ]
   },
 
   legalOptions: {
     en: [
-      "The Notice of Appeal must be filed with the clerk of the trial court within 30 days of sentencing. The clerk can provide the form. A copy must be served on the District Attorney.",
-      "If you cannot afford a lawyer, the Appellate Division Fourth Department (which covers Monroe County) will assign one from its appellate panel.",
-      "The Monroe County Public Defender at (585) 753-4210 can help with the initial Notice of Appeal filing even if appellate counsel will be assigned separately.",
-      "Under CPL § 460.10, the notice must state the court being appealed to and be filed within the 30-day window. Late filings are almost never accepted.",
-      "While the appeal is pending, you may be able to request release on bail (CPL § 460.50), though this is granted less often than at the trial level."
+      "Monroe County Public Defender Appellate Bureau at (585) 753-4210 — assists with notice of appeal filing and connects to assigned appellate counsel.",
+      "Assigned Counsel Program Fourth Department 18-B panel — assigns qualified appellate attorneys to indigent criminal appellants; applications go through the Monroe County Public Defender.",
+      "Appellate Division, Fourth Department at 50 East Avenue, Rochester, phone (585) 530-3100 — handles Monroe County felony appeals.",
+      "Rochester City Court Clerk at (585) 428-6990 — accepts notice of appeal for Rochester City Court convictions.",
+      "Monroe County Court Clerk at 99 Exchange Boulevard, Rochester, (585) 428-5477 — handles felony trial record and notice of appeal filings.",
+      "Legal Aid Society of Rochester at (585) 232-4090 — limited role on criminal appeals but may assist on collateral issues.",
+      "Empire State Justice Center at (585) 454-4060 — policy and systemic advocacy on appellate rights."
     ]
   },
 
   example: {
-    en: "After a trial, Jaylen is convicted of a felony and sentenced to prison. His trial lawyer tells him he has 30 days to file a Notice of Appeal. Jaylen files the notice at the county clerk's office the following week. The Appellate Division assigns him an appellate attorney, who reviews the trial record and finds that the judge gave an incorrect instruction to the jury on a key element of the charge. The appellate attorney writes a brief arguing this was reversible error. The Appellate Division agrees and orders a new trial."
+    en: "Jaylen was convicted of a Class D felony after trial in Monroe County Court and sentenced to prison. His trial attorney filed a notice of appeal with the Monroe County Court clerk in duplicate within 10 days of sentencing and served a copy on the Monroe County District Attorney the same day — well within the 30-day deadline under CPL § 460.10(1)(a). Because Jaylen could not afford private counsel, the Appellate Division Fourth Department assigned him an 18-B appellate attorney, who ordered the trial transcripts. The attorney identified an error in the jury charge on the mental-state element and filed a brief. The Appellate Division reversed the conviction under CPL § 450.10 and ordered a new trial."
   },
 
   counsel: [
     {
-      type: "free",
-      name: "Monroe County Public Defender (initial filing)",
-      focus: "Filing Notice of Appeal, connecting to appellate counsel",
-      qualifier: "Defendants who cannot afford a private attorney",
-      access: "Phone or in person",
-      outcome: "Initial filing assistance and referral to appellate panel",
+      type: "government",
+      name: "Monroe County Public Defender — Appellate Bureau",
+      focus: "Notice of appeal filing, indigent assigned counsel referral, 18-B coordination",
+      qualifier: "Monroe County defendant unable to afford private counsel",
+      access: "Phone, in person at 10 North Fitzhugh Street, Rochester",
+      outcome: "Free notice-of-appeal preparation and appellate counsel assignment",
       phone: "(585) 753-4210",
-      url: "https://www.monroecounty.gov/defender",
+      url: "https://www.monroecounty.gov/publicdefender",
+      verified: true,
+      bilingual: true,
+      languages: ["es"]
+    },
+    {
+      type: "government",
+      name: "Appellate Division Fourth Department",
+      focus: "Intermediate appellate court for Monroe County felony appeals",
+      qualifier: "Any party appealing a Monroe County felony conviction",
+      access: "Clerk at 50 East Avenue, Rochester",
+      outcome: "Appellate decision affirming, reversing, modifying, or remanding",
+      phone: "(585) 530-3100",
+      url: "https://ad4.nycourts.gov",
       verified: true,
       bilingual: false,
       languages: []
+    },
+    {
+      type: "nonprofit",
+      name: "Legal Aid Society of Rochester",
+      focus: "Collateral criminal-justice issues during a pending appeal; limited direct appellate role",
+      qualifier: "Low-income Monroe County resident",
+      access: "Phone intake",
+      outcome: "Free legal assistance on related issues",
+      phone: "(585) 232-4090",
+      url: "https://www.lasroc.org",
+      verified: true,
+      bilingual: true,
+      languages: ["es"]
     }
   ],
 
@@ -74,16 +105,16 @@ export const CRIMINAL_APPEAL_NY = {
   relatedHelpResources: [],
 
   tags: [
-    "criminal appeal",
-    "appeal conviction",
-    "notice of appeal",
-    "30 day deadline",
-    "appellate division",
-    "court of appeals",
-    "reversible error",
-    "new trial",
-    "appellate lawyer",
-    "free appeal attorney"
+    "NY criminal appeal",
+    "CPL 460.10 30 days",
+    "CPL Article 450",
+    "notice of appeal NY",
+    "Appellate Division Fourth Department",
+    "NY Court of Appeals leave",
+    "assigned appellate counsel 18-B",
+    "CPL 440 motion distinction",
+    "reversible error NY",
+    "Monroe County appellate bureau"
   ],
 
   sources: [
@@ -91,7 +122,7 @@ export const CRIMINAL_APPEAL_NY = {
     "https://www.nysenate.gov/legislation/laws/CPL/460.10"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-21",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
