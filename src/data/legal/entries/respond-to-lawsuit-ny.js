@@ -7,61 +7,94 @@ export const RESPOND_TO_LAWSUIT_NY = {
   primaryStatute: "NY CVP A3",
   status: "active",
 
-  title: { en: "After Being Sued — How to Respond to a Civil Lawsuit in New York" },
+  title: { en: "NY After Being Sued — Responding to a Civil Lawsuit Within the 20- or 30-Day Answer Window" },
 
   summary: {
-    en: "Receiving a summons and complaint means a lawsuit has been filed. You have a limited time to respond — usually 20 to 30 days. If you do not respond, the other side wins automatically (default judgment). Responding preserves your rights even if you think you owe the money. Free legal help is available."
+    en: "A NY civil lawsuit begins when a plaintiff files a summons and complaint and has it served on the defendant. Under CPLR § 3012, the defendant has 20 days to answer after personal service inside the state, or 30 days after service by mail or other non-personal method. Filing an answer raises defenses and stops a default judgment under CPLR § 3215. Common defenses include statute of limitations (three years for consumer credit debt under CPLR § 214-i), payment, wrong defendant, lack of jurisdiction, and improper service. Free legal help is available through Legal Aid and LawNY."
   },
 
   whoQualifies: {
     en: [
-      "Anyone who has received a summons and complaint in a civil case (debt collection, contract dispute, personal injury, landlord-tenant).",
-      "Anyone who has been served with court papers by a process server, by mail, or by posting on the door.",
-      "Anyone who suspects they may have been sued but did not receive papers."
+      "A NY resident served with a summons and complaint in a civil case — debt collection, contract dispute, landlord-tenant, personal injury, family, or any other civil matter.",
+      "A NY resident served in person by a process server — a 20-day answer deadline applies under CPLR § 3012(a).",
+      "A NY resident served by mail, substituted service, posting, or other non-personal method — a 30-day answer deadline applies under CPLR § 3012(c).",
+      "A NY resident who suspects a lawsuit has been filed but has not received papers — may have been victim of sewer service, where the server falsely claims service happened.",
+      "A NY defendant considering a motion to dismiss instead of an answer — CPLR § 3211 allows dismissal motions on several grounds."
     ]
   },
 
   whatItMeans: {
-    en: "A civil lawsuit starts when the plaintiff (the person suing) files a summons and complaint with the court and serves it on the defendant (you). The complaint explains what they are claiming and how much money they want. The summons tells you how long you have to respond. In New York, if you were served in person, you generally have 20 days to respond. If served by other methods (mail, posting), you may have 30 days. Your response is called an 'answer.' In the answer, you admit or deny each claim and raise any defenses (like the statute of limitations, wrong amount, wrong person, or payment already made). If you do not file an answer in time, the plaintiff can ask for a default judgment — the court rules in their favor without hearing your side. Filing an answer is the single most important thing you can do. Even if you owe the money, answering gives you the chance to negotiate, verify the amount, and raise defenses."
+    en: "A civil lawsuit in NY starts when the plaintiff (the person suing) files a summons and complaint with the court and has it served on the defendant. The summons tells the defendant what court, what case number, and how long to respond. The complaint states what the plaintiff is claiming — the facts, the legal theory, and the amount of money or other relief requested. Answer deadlines are set by CPLR § 3012. Personal delivery inside NY State gives a 20-day answer window. Service by mail, substituted service (leaving papers at a place of residence or business with a competent person and then mailing), service by publication, or service on an out-of-state defendant gives a 30-day window. The clock runs from completion of service, which for mail-plus-delivery service means from the date the defendant is deemed served under the rule — generally the date papers are actually mailed for service-by-mail. The answer is the defendant's written response. It must respond to each numbered paragraph of the complaint — admitting, denying, or stating lack of knowledge. It must also raise any affirmative defenses, which are separate legal arguments for why the plaintiff should lose even if the facts are true. Common affirmative defenses include: statute of limitations (under CPLR § 214-i, three years for consumer credit debt; six years for most other contract claims); payment or release; lack of personal jurisdiction (often based on improper service); lack of subject-matter jurisdiction; forum non conveniens; and failure to state a claim. For consumer credit cases, the Consumer Credit Fairness Act adds protections — the plaintiff must file additional affidavits proving the debt chain (assignment from original creditor), an itemized account statement, and confirmation the case was filed within the three-year statute of limitations under CPLR § 214-i. The alternative to an answer is a motion to dismiss under CPLR § 3211. A motion to dismiss raises specific legal defects — lack of jurisdiction, improper service, failure to state a claim, statute of limitations, res judicata — without answering the factual allegations. Filing a timely motion to dismiss extends the answer deadline. What happens if the defendant does nothing: the plaintiff can ask the court for a default judgment under CPLR § 3215. A default judgment means the plaintiff wins automatically without proof at trial. Enforcement tools including wage garnishment, bank account restraint, and property liens follow quickly. Vacating a default judgment is possible but harder than answering in the first place — CPLR § 5015 (excusable default within one year; lack of jurisdiction anytime) and CPLR § 317 (no personal service, up to five years) each provide pathways covered in the separate default-judgment entry. Practical response to being served: identify the court and deadline on the summons, count carefully from the service date, and file the answer with the court clerk before the deadline. Legal Aid Society of Rochester, LawNY, JustCause, and Empire Justice Center represent low-income Monroe County defendants. Many civil-legal-services intake lines prioritize cases with imminent answer deadlines."
   },
 
   yourRights: {
     en: [
-      "You have the right to receive the lawsuit papers before anything can happen in court.",
-      "You have the right to file an answer and raise defenses.",
-      "You have the right to a lawyer. Free legal aid is available for low-income defendants.",
-      "You have the right to demand proof of the debt and its history.",
-      "Under the Consumer Credit Fairness Act, plaintiffs seeking a default judgment must prove the debt chain with sworn affidavits."
+      "A NY defendant has the right under CPLR § 3012 to 20 days (after personal service in-state) or 30 days (after service by mail or other non-personal method) to file an answer.",
+      "A NY defendant has the right to file an answer denying the allegations and raising affirmative defenses — statute of limitations, payment, wrong defendant, lack of jurisdiction, improper service.",
+      "A NY defendant has the right under CPLR § 3211 to file a motion to dismiss instead of (or before) an answer — extending the answer deadline.",
+      "A NY consumer-credit defendant has the right to require the plaintiff to file Consumer Credit Fairness Act affidavits proving the debt chain, itemized account, and CPLR § 214-i three-year timeliness.",
+      "A NY defendant has the right to a court-issued stamped copy of the filed answer for the defendant's records.",
+      "A NY defendant has the right to retain a lawyer at any point; Legal Aid, LawNY, and JustCause provide free representation to low-income defendants.",
+      "A NY defendant has the right under CPLR § 5015 or § 317 to move to vacate a default judgment if one was entered — though answering in time is much simpler."
     ]
   },
 
   legalOptions: {
     en: [
-      "Reading the summons carefully is critical. Note the deadline. Count the days from the date you were served.",
-      "Free legal help is available through Legal Aid Society of Rochester at (585) 232-4090. They can help draft an answer.",
-      "If you cannot get a lawyer in time, you can file a simple answer yourself: deny the claims, state any defenses you have, and file it with the court clerk before the deadline. The clerk can tell you where to file.",
-      "Common defenses: statute of limitations expired (3 years for consumer credit debt under CPLR § 214-i), wrong person, wrong amount, debt already paid, improper service.",
-      "After filing an answer, the case moves to discovery and possible settlement. Most civil cases settle before trial."
+      "Read the summons carefully. Note the court name, the case index number, the plaintiff's name, and the answer deadline. Count days from the date of service.",
+      "Legal Aid Society of Rochester at (585) 232-4090 — low-income Monroe County defendants; time-sensitive cases prioritized for same-week answer drafting.",
+      "LawNY at (585) 325-2520 — civil-lawsuit defense across 14-county Western NY service area.",
+      "JustCause at (585) 232-3051 — volunteer-attorney program for Monroe County defendants.",
+      "NY Court Help at nycourts.gov/courthelp/whensuedformoney — plain-language answer forms and step-by-step instructions.",
+      "A pro se answer can be filed by the defendant without a lawyer — simple form denying the allegations and listing affirmative defenses, filed with the court clerk before the deadline.",
+      "Common defenses to research: CPLR § 214-i three-year SOL for consumer credit; CPLR § 213 six-year SOL for most contracts; improper service under CPLR § 308; lack of personal jurisdiction under CPLR § 302.",
+      "If the deadline has already passed and a default judgment has been entered, see the default-judgment-ny entry for CPLR § 5015 and § 317 vacatur pathways."
     ]
   },
 
   example: {
-    en: "A process server hands Jamie papers at her apartment in Rochester — a debt collector is suing for $2,800 on an old credit card. Jamie calls Legal Aid the next morning. A paralegal helps her draft an answer denying the debt amount and raising the statute of limitations as a defense — the last payment was 4 years ago, past the 3-year limit. Jamie files the answer at the court clerk's office on day 18 of 20. The debt collector, faced with a limitations defense, agrees to dismiss the case."
+    en: "A process server handed Jamie a summons and complaint at her Rochester apartment — a debt collector sued for $2,800 on an old credit-card account. Jamie called Legal Aid Society of Rochester the next morning. A paralegal drafted a pro se answer denying the specific allegations and raising three affirmative defenses: statute of limitations under CPLR § 214-i (the last payment was four years ago, past the three-year window), improper itemization under the Consumer Credit Fairness Act, and improper assignment of the debt. Jamie filed the answer at the court clerk's office on day 18 of the 20-day window. Faced with the limitations defense, the debt collector agreed to dismiss the case with prejudice rather than litigate."
   },
 
   counsel: [
     {
-      type: "free",
+      type: "nonprofit",
       name: "Legal Aid Society of Rochester",
-      focus: "Debt defense, civil litigation, consumer rights",
-      qualifier: "Low-income residents of Monroe and surrounding counties",
+      focus: "Civil-lawsuit defense, answer drafting, debt defense",
+      qualifier: "Low-income Monroe County resident",
       access: "Phone intake — time-sensitive cases prioritized",
-      outcome: "Help drafting answers, direct representation",
+      outcome: "Free representation or pro se answer preparation",
       phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,
       languages: ["es"]
+    },
+    {
+      type: "nonprofit",
+      name: "LawNY — Legal Assistance of Western New York",
+      focus: "Civil-lawsuit defense, debt and landlord-tenant answers",
+      qualifier: "Low-income resident in 14 Western NY counties including Monroe",
+      access: "Phone intake",
+      outcome: "Free representation",
+      phone: "(585) 325-2520",
+      url: "https://www.lawny.org",
+      verified: true,
+      bilingual: false,
+      languages: []
+    },
+    {
+      type: "nonprofit",
+      name: "JustCause",
+      focus: "Volunteer-attorney civil-defense matching",
+      qualifier: "Low-income Monroe County resident",
+      access: "Phone intake",
+      outcome: "Volunteer-attorney representation",
+      phone: "(585) 232-3051",
+      url: "https://www.justcauseny.org",
+      verified: true,
+      bilingual: false,
+      languages: []
     }
   ],
 
@@ -75,17 +108,16 @@ export const RESPOND_TO_LAWSUIT_NY = {
   relatedHelpResources: [],
 
   tags: [
-    "sued",
-    "got sued",
-    "summons and complaint",
-    "how to respond",
-    "answer a lawsuit",
-    "civil lawsuit",
-    "debt lawsuit",
-    "20 days",
-    "30 days",
-    "default judgment prevention",
-    "file an answer"
+    "NY civil lawsuit defense",
+    "CPLR 3012 answer deadlines",
+    "20-day answer personal service",
+    "30-day answer mail service",
+    "CPLR 3211 motion to dismiss",
+    "CPLR 214-i three-year SOL",
+    "Consumer Credit Fairness Act affidavits",
+    "pro se answer NY",
+    "affirmative defenses",
+    "default judgment prevention"
   ],
 
   sources: [
@@ -93,7 +125,7 @@ export const RESPOND_TO_LAWSUIT_NY = {
     "https://www.nycourts.gov/CourtHelp/WhenSuedForMoney/"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-21",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
