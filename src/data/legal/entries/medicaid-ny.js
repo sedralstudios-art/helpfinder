@@ -7,59 +7,56 @@ export const MEDICAID_NY = {
   primaryStatute: "NY SOS 366",
   status: "active",
 
-  title: { en: "Medicaid — Free Health Insurance in New York" },
+  title: { en: "NY Medicaid — Who Qualifies, What's Covered, and How to Apply Through Two Eligibility Tracks" },
 
   summary: {
-    en: "Medicaid is a free or low-cost health insurance program for people with low income. New York expanded Medicaid so that most adults under 65 can qualify based on income alone, with no savings or asset test."
+    en: "New York Medicaid is a free or low-cost health insurance program under federal Title XIX at 42 USC § 1396 and NY Social Services Law § 366. Coverage includes doctor visits, hospital care, prescriptions, mental health care, lab work, and medical transportation. NY runs Medicaid on two tracks. MAGI (Modified Adjusted Gross Income) covers most adults under 65, children, and pregnant people with income-only tests — no asset test. Non-MAGI covers adults 65 or older, the blind, and the disabled with both income and asset tests. Once approved, coverage lasts 12 months."
   },
 
   whoQualifies: {
     en: [
-      "Adults aged 19 to 64 with household income at or below 138% of the Federal Poverty Level.",
-      "Pregnant women with household income at or below 223% of the Federal Poverty Level.",
-      "Infants under age 1 with household income at or below 223% of the Federal Poverty Level.",
-      "Children ages 1 through 18 with household income at or below 154% of the Federal Poverty Level.",
-      "Adults aged 65 and older who meet both income and asset limits.",
-      "People with disabilities who meet both income and asset limits.",
-      "People already receiving SSI are generally automatically eligible.",
-      "Most adults under 65 do not need to pass an asset or savings test."
+      "A NY adult age 19-64 with household income at or below 138% of the federal poverty level — covered through the MAGI track with no asset test.",
+      "A pregnant person with household income at or below 223% of the federal poverty level; an infant under age 1 at that same threshold.",
+      "A child age 1-18 with household income at or below 154% of the federal poverty level.",
+      "An adult 65 or older, or a person who is blind or disabled — covered through the Non-MAGI track with both income and asset tests (separate entry: disability-medicaid-ny).",
+      "An SSI recipient — categorically eligible for Medicaid without a separate application.",
+      "Any NY resident with an emergency medical condition — eligible for Emergency Medicaid regardless of immigration status."
     ]
   },
 
   whatItMeans: {
-    en: "Medicaid pays for a wide range of health care services. This includes doctor visits, hospital stays, emergency room visits, and prescription drugs. It also covers mental health treatment, substance use treatment, lab tests, X-rays, and medical transportation. For children, Medicaid also covers dental care, vision, hearing, and developmental screenings. Dental coverage for adults is limited but available for certain services. New York uses two sets of rules to determine eligibility. For most people under 65, the state uses MAGI rules. MAGI stands for Modified Adjusted Gross Income. Under MAGI, only income matters — there is no test for savings, property, or other assets. For people aged 65 and older and people with certain disabilities, New York uses Non-MAGI rules. Under Non-MAGI, both income and assets are counted. Once approved, Medicaid coverage continues for 12 months even if income changes during that period. Income limits and asset thresholds are updated each year. Current figures are published on the NY State of Health website and by the NYS Department of Health."
+    en: "NY Medicaid is a federal-state partnership created by Title XIX of the Social Security Act at 42 USC § 1396. The federal government funds most of the cost; NY contributes a state share and administers the program through Social Services Law § 366 and 366-a. NY Medicaid covers a wide range of services: primary-care visits, specialist care, hospital inpatient and outpatient services, emergency room care, prescriptions, mental health treatment, substance use treatment, lab work, X-rays, medical transportation (including ambulance and non-emergency transport to appointments), home care for eligible individuals, nursing-home care, and family-planning services. Children receive full dental, vision, hearing, and developmental screenings through the EPSDT (Early Periodic Screening Diagnostic and Treatment) benefit. Adult dental is more limited but includes cleanings, extractions, fillings, and medically necessary procedures. NY uses two parallel eligibility tracks. The MAGI track applies to most adults under 65, children, and pregnant people. MAGI stands for Modified Adjusted Gross Income — an income-only test with no look at savings, home equity, vehicles, or other assets. MAGI-pathway applications go through NY State of Health, the state-run health-insurance marketplace at nystateofhealth.ny.gov. The Non-MAGI track applies to adults 65 or older, the blind, the disabled, and related categories. Non-MAGI applies both income and asset tests, with extensive exclusions (primary home, one car, retirement accounts in payout status, household belongings). Non-MAGI applications go to the local social services district — Monroe County DHS for Monroe County residents. The separate disability-medicaid-ny entry covers the Non-MAGI pathway in detail, including the Medicaid Buy-In for Working People with Disabilities, spend-down, and pooled trust options. Once approved, coverage is continuous for 12 months even if household income rises during that period — NY's continuous-eligibility rule matches the federal requirement. Decision timeframes are 45 days for routine applications and up to 90 days when a disability determination is required. Under SSL § 366-a, applicants with immediate need for personal-care services are entitled to expedited determinations within 7 days. Applications can be denied for exceeding income/asset limits, missing documentation, failing to return verifications, or not meeting categorical criteria. Denials, reductions, and closures can be appealed through the NY fair hearing process under SSL § 22 within 60 days. Aid continuing keeps benefits intact during the appeal when the hearing is requested before the effective date. Beyond Medicaid, NY offers two programs for households with income just above Medicaid limits: Child Health Plus covers children in households up to 400% of the federal poverty level (sliding-scale premium), and the Essential Plan covers adults through NY State of Health with free or very low-cost coverage. Legal Aid Society of Rochester, LawNY, and Empire Justice Center represent low-income Monroe County residents in applications, denials, and fair hearings."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for Medicaid at any time. There is no limited enrollment period.",
-      "You have the right to receive a decision within 45 days of submitting a complete application, or 90 days if the application involves a disability determination.",
-      "You have the right to 12 months of continuous coverage once approved, even if your income changes temporarily.",
-      "You have the right to choose your own health care provider from any provider that accepts Medicaid.",
-      "You have the right to a fair hearing if your application is denied, your benefits are reduced, or your coverage is ended.",
-      "You have 60 days from the date of an bad decision notice to request a fair hearing.",
-      "You have the right to continue receiving benefits during a fair hearing if you request the hearing before the effective date of the change.",
-      "You have the right to receive application help and materials in your preferred language.",
-      "You have the right to emergency Medicaid coverage for emergency medical conditions regardless of immigration status."
+      "A NY resident has the right to apply for Medicaid at any time — there is no open-enrollment period.",
+      "A NY applicant has the right to a decision within 45 days of a complete application (or 90 days when a disability determination is required).",
+      "A NY applicant with an immediate need for personal-care services has the right under SOS § 366-a to an expedited determination within 7 days.",
+      "A NY Medicaid recipient has the right to 12 months of continuous coverage once approved, even if income rises temporarily.",
+      "A NY Medicaid recipient has the right to choose any provider that accepts Medicaid and to receive covered services at no cost or with minimal co-payments.",
+      "A NY applicant or recipient has the right under SSL § 22 to appeal a denial, reduction, or closure through a fair hearing within 60 days.",
+      "A NY resident in a medical emergency has the right to Emergency Medicaid regardless of immigration status under federal EMTALA and Title XIX rules.",
+      "A NY applicant has the right to application help and written materials in a preferred language."
     ]
   },
 
   legalOptions: {
     en: [
-      "Under NY Social Services Law § 366, Medicaid applications are accepted at every county Department of Social Services office across New York State.",
-      "Online applications are available through NY State of Health at nystateofhealth.ny.gov.",
-      "The NY State of Health helpline is available at 1-855-355-5777.",
-      "General Medicaid information is available through the NYS Department of Health at 1-800-541-2831.",
-      "Fair hearings may be requested by calling 1-800-342-3334, online, or by writing to the Fair Hearing Section at NYS OTDA, P.O. Box 1930, Albany, NY 12201.",
-      "Under NY Social Services Law § 366-a, applicants with an immediate need for personal care services are entitled to an expedited eligibility determination within 7 days.",
-      "Children who earn too much for Medicaid may qualify for Child Health Plus, which covers children in households with income up to 400% of the Federal Poverty Level.",
-      "Adults who earn slightly too much for Medicaid may qualify for the Essential Plan through NY State of Health, which offers free or low-cost coverage.",
-      "Free legal help with Medicaid applications, denials, and fair hearings is available through LawNY at (585) 325-2520 and Empire Justice Center at (585) 454-4060."
+      "NY State of Health at nystateofhealth.ny.gov or (855) 355-5777 — MAGI-track Medicaid applications for most adults under 65, children, and pregnant people.",
+      "Monroe County Department of Human Services at (585) 753-6960 or 111 Westfall Road, Rochester — Non-MAGI Medicaid applications for adults 65 or older, the blind, and the disabled.",
+      "NY Medicaid Helpline at (800) 541-2831 — statewide Medicaid information.",
+      "NY Fair Hearing line at (800) 342-3334 or otda.ny.gov/hearings/request — denials, reductions, and closures.",
+      "Child Health Plus — covers children in households up to 400% of federal poverty level with sliding-scale premium, through NY State of Health.",
+      "Essential Plan — low- or no-cost coverage for adults with income just above Medicaid limits, through NY State of Health.",
+      "Legal Aid Society of Rochester at (585) 232-4090 — low-income Monroe County applications, denials, and fair hearings.",
+      "LawNY at (585) 325-2520 — benefits representation across 14-county Western NY service area.",
+      "Empire Justice Center at (585) 454-4060 — complex Medicaid cases and impact advocacy."
     ]
   },
 
   example: {
-    en: "Darnell is 34 and works part-time at a warehouse in Monroe County. He earns about $1,200 a month and has no other income. He applied for Medicaid online through NY State of Health. Because his income is below the limit for a single adult, he was approved within three weeks. His Medicaid card arrived by mail. He now sees a doctor for a condition he had been putting off for two years. His prescriptions, lab work, and appointments are fully covered."
+    en: "Darnell is 34 and works part-time at a Monroe County warehouse. He earns about $1,200 per month and has no other income. He applied online through NY State of Health — the MAGI pathway for adults under 65. Because his income is below the 138% FPL threshold for a single adult, he was approved about three weeks later. A NY Medicaid ID card arrived by mail. He now sees a primary-care doctor for a condition he had been putting off for two years. Prescriptions, lab work, specialist referrals, and appointments are fully covered. Under the 12-month continuous-eligibility rule, his coverage stays active for a full year even if his hours increase."
   },
 
   counsel: [
@@ -137,7 +134,7 @@ export const MEDICAID_NY = {
     "https://www.law.cornell.edu/uscode/text/42/1396"
   ],
 
-  lastVerified: "2026-04-13",
+  lastVerified: "2026-04-21",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
