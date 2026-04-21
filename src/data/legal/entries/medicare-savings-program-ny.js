@@ -7,52 +7,53 @@ export const MEDICARE_SAVINGS_PROGRAM_NY = {
   primaryStatute: "42 USC 1396A",
   status: "active",
 
-  title: { en: "Medicare Savings Programs — Help Paying Medicare Costs" },
+  title: { en: "NY Medicare Savings Programs — QMB and QI Help Paying Medicare Premiums and Cost-Sharing" },
 
   summary: {
-    en: "For Medicare beneficiaries with limited income, New York's Medicare Savings Programs can pay the monthly Medicare premium and doctor bills. New York has some of the easiest rules in the country. There is no savings test. Signing up also gets you Extra Help with prescription costs."
+    en: "Medicare Savings Programs, or MSPs, are state Medicaid programs that pay some or all Medicare costs for low-income Medicare beneficiaries. Federal authority is 42 USC § 1396a(a)(10)(E). NY runs two tiers — QMB (Qualified Medicare Beneficiary) covers premiums plus all deductibles, copays, and coinsurance; QI (Qualifying Individual) covers only the Part B premium. NY has no asset test for either program — income is the only measure. Enrollment in QMB or QI automatically enrolls the beneficiary in the federal Extra Help prescription program."
   },
 
   whoQualifies: {
     en: [
-      "People with Medicare whose monthly income is at or below 138% of the Federal Poverty Level qualify for the biggest program — QMB (Qualified Medicare Beneficiary).",
-      "People with Medicare whose income is between 138% and 186% of the Federal Poverty Level may qualify for a smaller program — QI (Qualifying Individual).",
-      "There is no savings or property test for either program in New York. Your bank accounts and your home don't count against you.",
-      "If you already get Medicaid, SNAP, or Temporary Assistance, you may be automatically enrolled.",
-      "In 2023, New York grew the QMB program. It now covers people who used to only qualify for the smaller SLMB program."
+      "A Medicare beneficiary in NY with household income at or below 138% of the federal poverty level — QMB eligibility.",
+      "A Medicare beneficiary with household income between 138% and 186% of federal poverty level — QI eligibility.",
+      "A NY resident regardless of savings, home equity, vehicles, or other assets — NY removed the MSP asset test in 2023.",
+      "A Medicaid, SNAP, or Temporary Assistance recipient — often automatically enrolled in QMB without a separate application.",
+      "A Medicare beneficiary with income up to 150% of federal poverty level — eligible for the federal Extra Help prescription program even when MSP income is exceeded."
     ]
   },
 
   whatItMeans: {
-    en: "New York has two Medicare Savings Programs.\n\n1) QMB (Qualified Medicare Beneficiary) is the bigger program. QMB pays:\n- Your Medicare Part A monthly fee (premium) if you owe one.\n- Your Part B premium.\n- All Medicare deductibles, copays, and coinsurance.\n\nIf you have QMB, doctors can't bill you for Medicare costs. If you get a bill, the bill is wrong. You do not have to pay it.\n\n2) QI (Qualifying Individual) is smaller. QI pays just your Part B premium. The Part B premium is $202.90 a month in 2026. That's over $2,400 a year saved.\n\nBoth programs automatically sign you up for Extra Help. Extra Help is a federal program that pays most of your prescription drug costs. With Extra Help, your medicine copays go down to a few dollars, and you may pay $0 for your Part D plan.\n\n**You can also get Extra Help on its own, even if MSP says no.** Starting in 2024, Extra Help covers anyone on Medicare with income up to 150% of the Federal Poverty Level — a higher income ceiling than QI. That means a person with Medicare whose income is too high for MSP might still qualify for full Extra Help on prescriptions. Extra Help is applied for through Social Security (not New York DSS) at ssa.gov/medicare/prescriptionhelp or by calling 1-800-772-1213.\n\nNew York ended the old SLMB program in 2023 — QMB now covers those people.\n\nIncome limits are based on the Federal Poverty Level and change every year. Current limits are at health.ny.gov."
+    en: "Medicare Savings Programs are state Medicaid programs that pay some or all of the Medicare out-of-pocket costs for low-income beneficiaries. The federal authority is 42 USC § 1396a(a)(10)(E), which requires state Medicaid programs to pay specified Medicare costs for QMBs and to offer limited premium-only help to QIs. NY implements MSP through the Department of Health and the local social services districts. NY runs two MSP tiers after the 2023 expansion consolidated the old SLMB middle tier into QMB. QMB (Qualified Medicare Beneficiary) is the full-coverage tier. A QMB enrollee has the following Medicare costs paid by Medicaid: Medicare Part A premium (for beneficiaries who owe one — most do not), Medicare Part B premium, and all Medicare deductibles, copays, and coinsurance. A QMB enrollee should never be billed by a Medicare provider for any Medicare-covered service beyond what Medicaid has paid. Federal law bars balance billing of QMB beneficiaries. If a provider bills a QMB patient anyway, the bill is improper and can be challenged through 1-800-MEDICARE or the Medicare Beneficiary Ombudsman. QI (Qualifying Individual) is the premium-only tier. A QI enrollee has the Medicare Part B premium paid. QI does not pay deductibles, copays, or coinsurance. The 2026 Medicare Part B premium is about $202.90 per month, so QI saves the enrollee over $2,400 per year. NY removed the MSP asset test in 2023. No look at bank accounts, home equity, vehicles, or other property is allowed. Eligibility turns on income alone, with certain deductions applied per federal SSI rules. Extra Help (Low-Income Subsidy, or LIS) is a separate federal program that pays most Part D prescription drug costs. Enrollment in QMB or QI automatically enrolls the beneficiary in Extra Help. With Extra Help, Part D copays drop to a few dollars per prescription and the Part D monthly premium is often $0. A key change since 2024: Extra Help income limits rose to 150% of federal poverty level, higher than the QI MSP ceiling of 186%. Wait — the opposite is true: QI goes up to 186% so QI enrollees always qualify for Extra Help, but beneficiaries above 186% (too high for QI) might still qualify for Extra Help alone if their income is below 150%. Extra Help is applied for through the Social Security Administration at ssa.gov/medicare/prescriptionhelp or by phone at (800) 772-1213. MSP applications go through the local social services district. Monroe County residents apply at Monroe County DHS. NY State of Health also accepts MSP applications for some applicants. Processing takes 45 days in routine cases. A denial or incorrect determination can be appealed through the NY fair hearing process under SSL § 22 within 60 days. Practical note on improper QMB billing: showing the provider's office staff the Medicare card and the Medicaid or MSP notice usually resolves an improper bill. Persistent billing violations can be reported to the NY Attorney General's Medicaid Fraud Control Unit."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for a Medicare Savings Program any time. There is no special sign-up window.",
-      "You have the right to a decision based on income only. New York does not count savings or property for QMB or QI.",
-      "You have the right to be signed up automatically for Extra Help for prescription drugs when you get QMB or QI.",
-      "If you have QMB and a Medicare provider sends you a bill for copays or deductibles, the bill is wrong. You do not have to pay it.",
-      "You have the right to appeal (fair hearing) if you are denied.",
-      "You have the right to apply even if your income looks slightly high. Some income doesn't count in the math."
+      "A NY Medicare beneficiary has the right under 42 USC § 1396a(a)(10)(E) and NY law to apply for a Medicare Savings Program at any time, with no enrollment window.",
+      "A NY MSP applicant has the right to a determination based on income alone — NY removed the MSP asset test in 2023.",
+      "A QMB enrollee has the right under federal law not to be billed by any Medicare provider for Medicare-covered services beyond what Medicaid paid.",
+      "A QMB or QI enrollee has the right to automatic enrollment in Extra Help for Part D prescription drugs.",
+      "A Medicare beneficiary with income too high for MSP but below 150% of federal poverty level has the right to apply for Extra Help directly through Social Security.",
+      "A NY MSP applicant has the right under SSL § 22 to appeal a denial through a fair hearing within 60 days.",
+      "A NY MSP applicant has the right to retroactive benefits covering the application month and, in some cases, earlier months with qualifying expenses."
     ]
   },
 
   legalOptions: {
     en: [
-      "Every county DSS takes Medicare Savings Program applications. You can also apply through NY State of Health at nystateofhealth.ny.gov (42 U.S.C. § 1396a(a)(10)(E); NY Social Services Law).",
-      "Current income limits: health.ny.gov/health_care/medicaid/program/update/savingsprogram/.",
-      "Medicaid Helpline: 1-800-541-2831.",
-      "NY State of Health helpline: 1-855-355-5777.",
-      "Medicare Rights Center — free counseling and application help: 1-800-333-4114.",
-      "HIICAP (Health Insurance Information, Counseling and Assistance Program) — free Medicare counseling. Contact info at aging.ny.gov.",
-      "If a doctor or hospital bills you for Medicare costs while you are on QMB, show them your Medicaid card or QMB notice along with your Medicare card. They can check your QMB status.",
-      "Free legal help: Empire Justice Center (585-454-4060) and LawNY (585-325-2520)."
+      "Monroe County Department of Human Services at (585) 753-6960 — MSP applications for Monroe County Medicare beneficiaries.",
+      "NY State of Health at nystateofhealth.ny.gov or (855) 355-5777 — MSP applications pathway for some applicants.",
+      "NY Medicaid Helpline at (800) 541-2831 — current MSP income limits and general information.",
+      "Medicare Rights Center at (800) 333-4114 — free statewide Medicare counseling and MSP application help.",
+      "NY HIICAP (Health Insurance Information, Counseling and Assistance Program) — free Medicare counseling through Offices for the Aging; directory at aging.ny.gov.",
+      "Social Security Administration at (800) 772-1213 or ssa.gov/medicare/prescriptionhelp — Extra Help prescription-subsidy application.",
+      "Medicare Beneficiary Ombudsman through (800) MEDICARE — improper QMB billing complaints.",
+      "Empire Justice Center at (585) 454-4060 and LawNY at (585) 325-2520 — free MSP application and appeal representation for low-income Monroe County residents."
     ]
   },
 
   example: {
-    en: "Gloria is 71. She lives alone on Social Security of about $1,500 a month. She has Medicare. But the Part B premium, copays, and prescription costs were hard to cover on her fixed income. She applied for QMB at her county DSS office. Because New York doesn't look at savings and her income was below the QMB limit, she was approved. Now her Part B premium is paid for her. She owes nothing for doctor visits. She was also signed up for Extra Help automatically, which cut her prescription costs to a few dollars per medicine."
+    en: "Gloria is a 71-year-old Monroe County resident living alone on Social Security retirement of about $1,500 per month. She has Medicare Parts A and B. The Part B premium, copays, and prescription costs strained her fixed income. She applied for QMB at Monroe County DHS. Because NY applies no asset test (removed in 2023) and her income was below the QMB threshold, she was approved. Medicaid now pays her Part B premium directly to CMS. Her doctor visits and hospital copays are covered under QMB at no out-of-pocket cost. QMB enrollment automatically enrolled her in Extra Help, reducing her Part D prescription copays to a few dollars each. If a provider bills her for a Medicare copay, she shows the office her Medicaid and Medicare cards to resolve the improper bill."
   },
 
   counsel: [
@@ -128,7 +129,7 @@ export const MEDICARE_SAVINGS_PROGRAM_NY = {
     "https://www.law.cornell.edu/uscode/text/42/1396a"
   ],
 
-  lastVerified: "2026-04-13",
+  lastVerified: "2026-04-21",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
