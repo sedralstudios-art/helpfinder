@@ -7,52 +7,54 @@ export const SECTION_8_HOUSING_VOUCHER_NY = {
   primaryStatute: "42 USC 1437F",
   status: "active",
 
-  title: { en: "Section 8 — Housing Vouchers to Help Pay Rent" },
+  title: { en: "NY Section 8 Housing Voucher — Application Path, Voucher Rules, and Source-of-Income Protection" },
 
   summary: {
-    en: "Section 8 helps low-income families, seniors, and people with disabilities afford rent. If you qualify, the government pays part of your rent straight to your landlord. Waiting lists are usually long, but getting on a list is the first step."
+    en: "Section 8 (Housing Choice Voucher program) is the federal rental-assistance program authorized by 42 USC § 1437f. A voucher pays part of the rent directly to the landlord so the household pays about 30 percent of adjusted income. NY Homes and Community Renewal (HCR) and local housing authorities administer it locally; Rochester Housing Authority is the main provider in Monroe County. NY Human Rights Law protects voucher holders from source-of-income discrimination — NY landlords cannot refuse to rent to someone because they hold a voucher."
   },
 
   whoQualifies: {
     en: [
-      "Families, single people, seniors, and people with disabilities who earn half or less of what an average family in their county earns (at or below 50% of the Area Median Income).",
-      "Federal rules say at least 75% of new vouchers go to people who earn 30% or less of the county average. This is called extremely low income.",
-      "You must be a U.S. citizen or have a qualifying immigration status.",
-      "Income limits depend on your county and household size. HUD updates them each year.",
-      "You can apply to more than one waiting list at the same time."
+      "A household with income at or below 50 percent of Area Median Income (AMI) — eligible for Section 8 under 42 USC § 1437f(o).",
+      "A household with income at or below 30 percent of AMI (extremely low income) — federal rule reserves at least 75 percent of new vouchers for this group.",
+      "A U.S. citizen, U.S. non-citizen national, or qualified non-citizen — mixed-status households may qualify with a prorated subsidy.",
+      "A voucher applicant from the NY Section 8 waiting list at NY Homes and Community Renewal or a local housing authority (Rochester Housing Authority for Monroe County).",
+      "A veteran, a person with a disability, or a person fleeing homelessness or domestic violence — eligible for specialized voucher categories (VASH, Mainstream, Emergency Housing Voucher) with separate application pathways."
     ]
   },
 
   whatItMeans: {
-    en: "Section 8 is a federal rental help program. It's paid for by the U.S. Department of Housing and Urban Development (HUD). In New York, NYS Homes and Community Renewal (HCR) runs the program along with local housing authorities.\n\nIf you get a voucher, you pay about 30% of your income toward rent. The voucher covers the rest, up to a set amount.\n\nThe voucher stays with YOU, not the apartment. If you move to a new home that meets program rules, your voucher moves with you.\n\nWaiting lists are often very long. Some lists stay closed for years. When a list opens, it may only be open for a short time. Getting on an open list doesn't mean you'll get a voucher — it puts you in line.\n\nSome special voucher types exist for veterans, people with disabilities, and people who are homeless or fleeing unsafe situations."
+    en: "The federal Housing Choice Voucher program (commonly called Section 8) is authorized by 42 USC § 1437f of the U.S. Housing Act of 1937. The program is funded by the U.S. Department of Housing and Urban Development (HUD) and administered locally by public housing authorities (PHAs). In NY, statewide administration is through NY Homes and Community Renewal (HCR), and local housing authorities operate their own programs — Rochester Housing Authority, Monroe County Housing Authority, and other county agencies. How the voucher works. A participating household pays about 30 percent of adjusted monthly income toward rent and utilities. The voucher covers the rest of the rent, up to the Payment Standard set by the PHA for the bedroom size and area. If the household chooses an apartment with rent above the Payment Standard, the household pays the additional amount (capped so the initial total tenant share cannot exceed 40 percent of adjusted income). The voucher stays with the household — not with the apartment — so a tenant can move with the voucher, subject to program rules (portability). Waiting lists. Most NY Section 8 waiting lists are very long and often closed for years at a time. A list that opens typically accepts applications only for a short window. Getting on an open list does not guarantee a voucher — it places the applicant in line. Applicants can apply to multiple PHA lists at the same time to increase chances. The HCR MyHousing portal at hcr.ny.gov/hcv is the central point for statewide lists. Unit selection. Once a household receives a voucher, it has a set time (typically 60 to 120 days) to find an approved unit. The unit must pass a Housing Quality Standards (HQS) inspection. The rent must be reasonable compared to similar private-market units. The landlord must be willing to sign the HAP (Housing Assistance Payments) contract with the PHA. Source-of-income discrimination. NY Human Rights Law (Executive Law § 296(5)) prohibits landlords from refusing to rent, refusing to extend, or charging different rent based on source of income, including Section 8 voucher status. A landlord who advertises 'no vouchers,' refuses to return calls after hearing the tenant has a voucher, or imposes higher rent or income qualifications because of the voucher violates NY law. Complaints go to the NY Division of Human Rights. Terminations and appeals. A PHA can terminate a voucher for serious lease violations, non-compliance with family obligations (reporting income changes, annual recertification, criminal activity by a household member), or fraud. A voucher holder facing termination has the right to a PHA informal hearing before termination takes effect. If the PHA upholds termination, a further appeal may proceed through Article 78 in state Supreme Court. Special voucher programs. VASH vouchers for homeless veterans (applied through the VA with HUD), Mainstream vouchers for people with disabilities, Emergency Housing Vouchers for households fleeing homelessness or domestic violence, and Project-Based Vouchers tied to specific buildings — each has its own application pathway and priorities. LawNY, Legal Aid Society of Rochester, and Empire Justice Center represent low-income Monroe County Section 8 applicants and voucher holders in terminations, reasonable-accommodation requests, and source-of-income discrimination cases."
   },
 
   yourRights: {
     en: [
-      "You have the right to apply for Section 8 when a waiting list is open. Applications are free. Nobody can charge you to apply.",
-      "You have the right to use your voucher at any rental that meets program rules — even in a different county than where you applied.",
-      "You have the right to not be turned down by a landlord just because you have a voucher. That's called source-of-income discrimination, and it's against the law in New York.",
-      "You have the right to a hearing if your voucher is taken away or if you are denied.",
-      "You have the right to ask for changes (called reasonable accommodations) if you or someone in your household has a disability.",
-      "You have the right to move to a new home with your voucher if you follow the program's transfer rules."
+      "A NY household has the right under 42 USC § 1437f to apply for a Housing Choice Voucher when a waiting list is open, without any application fee.",
+      "A voucher holder has the right to use the voucher at any approved rental unit and to take the voucher when moving (portability) subject to program rules.",
+      "A voucher holder has the right under NY Executive Law § 296(5) to be free from source-of-income discrimination — NY landlords cannot refuse vouchers.",
+      "A voucher holder facing termination has the right to a PHA informal hearing before termination takes effect.",
+      "A voucher holder has the right to request reasonable accommodations under the Fair Housing Act and NY Human Rights Law for disability-related needs.",
+      "A voucher holder has the right to an Article 78 state-court challenge if the PHA upholds termination.",
+      "A veteran, a person with a disability, or a person fleeing DV or homelessness has the right to be considered for specialized voucher programs (VASH, Mainstream, Emergency Housing Voucher)."
     ]
   },
 
   legalOptions: {
     en: [
-      "Section 8 in New York is run by NYS Homes and Community Renewal (HCR) and by local housing authorities (42 U.S.C. § 1437f).",
-      "You can see open waiting lists and apply online at hcr.ny.gov/hcv (MyHousing Portal).",
-      "You can also turn in paper applications to the local Section 8 office. List of local offices at the HCR site.",
-      "HUD publishes yearly income limits by county at huduser.gov/portal/datasets/il.html.",
-      "If a landlord refuses your voucher, file a complaint with the NYS Division of Human Rights at dhr.ny.gov or call 1-888-392-3644.",
-      "If your voucher is taken away, ask for a hearing through the local housing authority.",
-      "Special voucher programs — like VASH (for veterans), Mainstream (for people with disabilities), and Emergency Housing Vouchers — have their own application steps. Check with your local housing authority or HCR.",
-      "Free legal help: LawNY (585-325-2520) and Legal Aid Society of Rochester (585-232-4090)."
+      "NY HCR MyHousing portal at hcr.ny.gov/hcv — statewide Section 8 waiting-list applications and status.",
+      "Rochester Housing Authority at (585) 232-2260 or rochesterhousing.org — Monroe County primary Section 8 provider.",
+      "Monroe County Housing Authority at (585) 753-7440 — covers Monroe County outside Rochester city limits.",
+      "HUD Housing Choice Voucher information at hud.gov/topics/housing_choice_voucher_program_section_8 — program overview, income limits, and PHA directory.",
+      "NY Division of Human Rights at (888) 392-3644 or dhr.ny.gov — source-of-income discrimination complaints under Executive Law § 296(5).",
+      "VASH, Mainstream, and Emergency Housing Voucher applications — separate pathways through VA, disability advocacy programs, or homeless-service coordinators.",
+      "LawNY at (585) 325-2520 — Section 8 termination and discrimination representation across 14-county Western NY.",
+      "Legal Aid Society of Rochester at (585) 232-4090 — low-income Monroe County voucher disputes.",
+      "Empire Justice Center at (585) 454-4060 — complex Section 8 cases, reasonable accommodation requests, impact advocacy."
     ]
   },
 
   example: {
-    en: "Denise is a single mother earning about $1,800 a month. She applied to the Section 8 waiting list online when it opened. After about 2 years, she got a voucher. She found a 2-bedroom apartment that passed inspection. Now she pays about 30% of her income for rent, and the voucher covers the rest. Her landlord was nervous about taking the voucher at first. Denise told him that source-of-income discrimination is against the law in New York. The landlord accepted it."
+    en: "Denise is a single mother in Monroe County with two children, earning about $1,800 per month — well below the 50% AMI threshold for her household size. She applied to the Rochester Housing Authority Section 8 waiting list through hcr.ny.gov/hcv when it opened. About two years later she received a voucher. She found a two-bedroom apartment that passed the Housing Quality Standards inspection. Under the program, Denise pays about 30 percent of her adjusted income toward rent; the voucher covers the remainder up to the Payment Standard. The landlord initially hesitated about Section 8. Denise cited NY Executive Law § 296(5) — source-of-income discrimination is prohibited. The landlord signed the HAP contract with the PHA and accepted the voucher."
   },
 
   counsel: [
@@ -128,7 +130,7 @@ export const SECTION_8_HOUSING_VOUCHER_NY = {
     "https://www.law.cornell.edu/uscode/text/42/1437f"
   ],
 
-  lastVerified: "2026-04-13",
+  lastVerified: "2026-04-21",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
