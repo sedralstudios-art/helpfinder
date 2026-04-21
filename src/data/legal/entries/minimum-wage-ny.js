@@ -7,33 +7,35 @@ export const MINIMUM_WAGE_NY = {
   primaryStatute: "NY LAB 652",
   status: "active",
 
-  title: { en: "Minimum Wage — What New York Law Requires an Employer to Pay" },
+  title: { en: "NY Minimum Wage — Hourly Pay Floor, Tipped-Worker Cash Wage, and Wage Theft Remedies" },
 
   summary: {
-    en: "New York law sets a minimum hourly wage that every employer must pay. The rate depends on where you work. As of January 1, 2026, the minimum wage is $16.00 per hour for most of upstate New York and $17.00 per hour in New York City and the downstate suburbs. Starting in 2027, the rate will adjust annually based on inflation."
+    en: "NY Labor Law § 652 sets the minimum hourly wage that every employer must pay. The rate depends on the work location. As of 2026, the minimum wage is $17.00 per hour in New York City, Nassau, Suffolk, and Westchester, and $16.00 per hour for the rest of the state including Monroe County and Rochester. Starting in 2027 the rate adjusts each year by the regional Consumer Price Index. Labor Law § 663 lets an underpaid worker recover back wages, liquidated damages up to 100% of the underpayment, and attorney fees. The Labor Law § 195 Wage Theft Prevention Act requires written wage notices and pay stubs."
   },
 
   whoQualifies: {
     en: [
-      "Nearly every worker in New York State is covered, including full-time, part-time, and temporary employees.",
-      "Tipped workers are covered but may be paid a lower cash wage if the employer meets tip credit requirements. The cash wage for tipped food service workers in upstate New York is $10.70 per hour as of 2026, with a $5.30 tip credit that must bring total pay to at least the full minimum wage.",
-      "Certain narrow exemptions exist for workers at religious, educational, or charitable organizations with disabilities participating in approved rehabilitation programs.",
-      "Independent contractors are not covered by minimum wage law. However, many workers classified as independent contractors are actually employees under New York law and may be entitled to minimum wage."
+      "A NY worker in any industry — full-time, part-time, temporary, seasonal — is covered by the minimum wage under Labor Law § 652.",
+      "A tipped food-service worker in Rest of State (including Rochester) with a cash wage of $10.70 per hour in 2026 — the employer may take a tip credit of up to $5.30 as long as actual tips bring the total to at least the full minimum wage.",
+      "A tipped service-industry worker (hotel, car wash, nail salon) with separate cash-wage and tip-credit figures — see the NY DOL wage-order pages.",
+      "A worker classified by an employer as an independent contractor who is actually an employee under NY law — misclassification does not eliminate minimum-wage coverage.",
+      "A worker who participates in approved rehabilitation programs at religious, educational, or charitable organizations — narrow exemptions apply, but most workers remain covered."
     ]
   },
 
   whatItMeans: {
-    en: "Under NY Labor Law § 652, your employer must pay you at least the minimum wage for every hour you work. For 2026, the rate is $16.00 per hour for counties outside NYC, Nassau, Suffolk, and Westchester — this includes Rochester and all of upstate New York. The downstate rate is $17.00 per hour. Starting January 1, 2027, the minimum wage will be adjusted annually based on the regional consumer price index. The current rates are always posted at dol.ny.gov."
+    en: "NY Labor Law § 652 sets the statewide minimum wage. The statute has two geographic tiers. The higher tier covers New York City, Nassau County, Suffolk County, and Westchester County — the 2026 rate is $17.00 per hour. The lower tier covers the Rest of State, including Monroe County and Rochester — the 2026 rate is $16.00 per hour. The 2023 minimum-wage amendments set scheduled increases through 2026, then adjust the rate each year starting in 2027 based on the regional Consumer Price Index. The current wage orders are published by the NY Department of Labor at dol.ny.gov/minimum-wage. Tipped workers are covered but have special rules. An employer can take a tip credit against the minimum wage only when the worker's actual tips plus the lower cash wage bring the total to at least the full minimum wage. For food-service workers in Rest of State, the 2026 cash wage is $10.70 per hour with a $5.30 tip credit (adding to the $16.00 full minimum). If tips are short in any given workweek, the employer must make up the difference. Different tip-credit rules apply for service employees in hotels, car washes, and nail salons. Covered work time includes more than just hours on the clock. Labor Law § 652 and related wage orders require payment for training required by the employer, mandatory meetings, travel between work sites during the workday, and time spent donning and doffing required gear on the premises. The Wage Theft Prevention Act at Labor Law § 195 requires written notice at hire stating the pay rate, overtime rate, pay schedule, and employer contact information. The notice must be signed by the employee. Pay stubs must be provided with every paycheck showing hours worked, rate of pay, gross pay, deductions, and net pay. Violations of the wage-notice or pay-stub rules carry separate statutory penalties on top of any underpayment. Remedies for underpayment are in Labor Law § 663. An underpaid worker can file a wage-theft complaint with the NY Department of Labor at (888) 469-7365 or online at dol.ny.gov. The DOL investigates, issues orders, and can collect unpaid wages without requiring the worker to go to court. An underpaid worker may also bring a civil action in NY Supreme Court to recover unpaid wages plus liquidated damages of up to 100% of the underpayment plus reasonable attorney fees. Labor Law § 662 adds criminal penalties for willful violations. Retaliation — firing, cutting hours, demoting, or otherwise punishing a worker for complaining about wages — is a separate Labor Law violation carrying its own remedies. Federal wage coverage runs in parallel. The federal Fair Labor Standards Act (FLSA) at 29 USC § 206 sets a lower federal minimum, currently $7.25 per hour. When state and federal wage laws differ, the worker is entitled to the higher of the two — so NY's state minimum wage governs for NY workers. Monroe County workers typically get assistance from the NY DOL Division of Labor Standards regional office in Rochester."
   },
 
   yourRights: {
     en: [
-      "You have the right to be paid at least the minimum wage for every hour worked, including time spent in required training, meetings, and travel between work sites (Labor Law § 652).",
-      "You have the right to receive a written wage notice at the time of hire stating your pay rate, pay schedule, and employer information. This is required by the Wage Theft Prevention Act (Labor Law § 195).",
-      "You have the right to receive pay stubs with every payment showing hours worked, rate of pay, deductions, and other required information (Labor Law § 195).",
-      "You have the right to file a complaint with the New York State Department of Labor if you are being paid less than the minimum wage, without fear of retaliation.",
-      "Under Labor Law § 663, an employee who is paid less than the minimum wage can sue to recover the unpaid wages plus liquidated damages of up to 100% of the underpayment. Courts decide what applies in each case.",
-      "Your employer cannot retaliate against you for making a wage complaint. Retaliation is a separate violation of New York Labor Law."
+      "A NY worker has the right under Labor Law § 652 to be paid at least the minimum wage for every hour worked, including required training, meetings, and travel between work sites.",
+      "A NY worker has the right under Labor Law § 195 to a written wage notice at hire and a detailed pay stub with every paycheck.",
+      "A NY tipped worker has the right to the full minimum wage in any workweek — the employer must make up any shortfall when tips plus cash wage fall short.",
+      "A NY worker has the right under Labor Law § 663 to recover unpaid wages, liquidated damages up to 100% of the underpayment, and attorney fees in a civil action.",
+      "A NY worker has the right to the higher of the state minimum wage or the federal FLSA minimum — state and federal law run in parallel, and the worker gets the better protection.",
+      "A NY worker has the right to file a wage complaint with the NY Department of Labor without employer retaliation; retaliation is a separate Labor Law violation.",
+      "A NY worker classified as an independent contractor has the right to challenge the classification when the actual work relationship shows employee status."
     ]
   },
 
@@ -48,7 +50,7 @@ export const MINIMUM_WAGE_NY = {
   },
 
   example: {
-    en: "Andre works at a restaurant in Monroe County. His employer pays him $9.00 per hour and tells him tips make up the difference. Andre learns that the minimum cash wage for tipped food service workers in upstate New York is $10.70 per hour as of 2026 — higher than what he is receiving. He contacts the Department of Labor at 1-888-469-7365. An investigator reviews his pay records and confirms the underpayment. The DOL orders his employer to pay Andre the wages owed plus liquidated damages."
+    en: "Andre works at a Monroe County restaurant. The employer pays him $9.00 per hour and says tips make up the difference. Andre checks the NY DOL minimum-wage page. The 2026 cash wage for tipped food-service workers in Rest of State is $10.70 per hour, with tips bringing total pay to at least the $16.00 full minimum. Andre has been paid $1.70 per hour less than the required cash wage, plus some weeks tips did not reach the $16.00 full minimum. Andre files a wage-theft complaint with the NY Department of Labor at (888) 469-7365. The DOL investigator reviews pay records and the daily tip log. The DOL orders the employer to pay the back wages plus liquidated damages up to 100% under Labor Law § 663. The employer cannot retaliate — Andre's hours remain intact under the Labor Law's anti-retaliation provisions."
   },
 
   counsel: [
@@ -124,7 +126,7 @@ export const MINIMUM_WAGE_NY = {
     "https://www.nysenate.gov/legislation/laws/LAB/195"
   ],
 
-  lastVerified: "2026-04-04",
+  lastVerified: "2026-04-21",
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,
