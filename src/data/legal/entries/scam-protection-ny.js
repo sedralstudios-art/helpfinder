@@ -7,47 +7,52 @@ export const SCAM_PROTECTION_NY = {
   primaryStatute: "NY GBS 349",
   status: "active",
 
-  title: { en: "Scams and Fraud — How to Recognize, Report, and Recover in New York" },
+  title: { en: "Scams and Fraud in New York — How to Recognize, Report, and Recover" },
 
   summary: {
-    en: "Scams targeting low-income residents, seniors, and immigrants are common in Monroe County. New York has consumer protection laws that make deceptive practices illegal. If you have been scammed, you can report it to the NY Attorney General, the FTC, and local law enforcement. In some cases, money can be recovered."
+    en: "Scams targeting low-income residents, seniors, and immigrants show up constantly in Monroe County. New York General Business Law 349 bans deceptive business practices and lets consumers sue for damages. Reporting matters even when recovery is uncertain — the NYS Attorney General, the FTC, and local law enforcement use reports to build cases and shut down repeat offenders. A person scammed out of gift cards, wire transfers, or cryptocurrency has limited recovery options, but several state and federal resources can still help."
   },
 
   whoQualifies: {
     en: [
-      "Anyone who has been the target of a scam — phone, text, email, door-to-door, or online.",
-      "Anyone who has lost money to a fraudulent business, fake charity, romance scam, tech support scam, or government impersonator.",
-      "Seniors, immigrants, and non-English speakers are disproportionately targeted and may have additional protections."
+      "A person who was the target of a scam — by phone, text, email, door-to-door, or online.",
+      "A person who lost money to a fraudulent business, fake charity, romance scam, tech-support scam, or government impersonator.",
+      "A senior, immigrant, or non-English speaker targeted by a scam — these groups face the highest risk and have additional protections.",
+      "A family member trying to protect a relative from ongoing exploitation.",
+      "A small business hit by a scam (invoice fraud, impersonation fraud, or phishing)."
     ]
   },
 
   whatItMeans: {
-    en: "A scam is any deceptive practice designed to take your money or personal information. Common scams in Monroe County include: calls claiming to be from the IRS or Social Security demanding immediate payment, fake utility shutoff threats, immigration-related fraud (notarios charging for services they cannot legally provide), romance scams targeting seniors online, fake lottery or prize notifications, and phishing emails impersonating banks or government agencies. Under New York General Business Law § 349, deceptive business practices are illegal and consumers can sue for damages. The NY Attorney General's office investigates consumer fraud complaints statewide. The FTC collects fraud reports nationally and uses them to build enforcement cases. Reporting helps even if recovery is not immediate — it helps agencies track patterns and shut down repeat offenders."
+    en: "A scam is any deceptive practice aimed at taking money, personal information, or access to accounts. The legal framework covers both the criminal side (grand larceny, identity theft, wire fraud) and the civil side (GBL 349 and related consumer protection laws).\n\nCommon scam patterns in Monroe County:\n- Government impersonation. A caller claims to be from the IRS, Social Security, immigration, or local police and demands immediate payment, usually in gift cards, wire transfer, or cryptocurrency. No government agency collects debts in gift cards.\n- Fake utility shutoff. A caller claims the electric, gas, or water utility is about to shut off service and demands immediate payment. Real utilities send multiple written notices and use HEFPA procedures (see the utility-shutoff-protections-ny entry).\n- Notario fraud. Unlicensed immigration 'services' charging for work only an attorney or accredited representative can legally perform. Penal Law 190.83 makes this a crime in New York; see the immigration-basics-ny entry.\n- Romance scam. A relationship that forms online and leads to requests for money, usually for a crisis the other person describes in detail and cannot verify.\n- Tech support scam. A pop-up or call claiming the computer is infected and demanding payment for 'repair' that never happens.\n- Lottery or prize notifications. A message says the person has won a prize but has to pay fees to collect it. Real lotteries do not require fees to collect winnings.\n- Phishing. Emails or texts impersonating banks, shipping companies (UPS, FedEx), or government agencies asking the person to click a link and enter credentials.\n- Employment scam. A job offer that requires the applicant to deposit a check and wire money back, cash a check for 'expenses,' or pay upfront fees.\n- Rental scam. Listings for apartments that do not exist or that the 'landlord' does not own, typically asking for deposits before the tenant sees the unit.\n\nGBL 349 — deceptive practices. General Business Law 349 is the core civil statute. It bans 'deceptive acts or practices in the conduct of any business.' A consumer can sue for actual damages (what was lost), statutory damages up to $50, and treble damages when the violation was willful. Attorney's fees are also available. GBL 350 covers false advertising on parallel terms.\n\nGBL 349-c. When the victim is 65 or older, GBL 349-c adds an extra civil penalty of up to $10,000 per violation when the conduct targeted the elder because of age.\n\nCriminal side. Larceny by trick, identity theft (Penal Law Article 190), and grand larceny all apply depending on the scam. Federal wire fraud (18 USC 1343) covers most interstate phone and online scams.\n\nRecovery when the money is gone. Money sent by gift card, wire transfer, peer-to-peer app (Zelle, Venmo, Cash App), or cryptocurrency is very hard to recover. A bank transfer can sometimes be reversed within a short window; credit card charges can usually be disputed under the Fair Credit Billing Act within 60 days. Reporting within the first 24 hours gives the best chance.\n\nReporting. The NYS Attorney General's Consumer Frauds Bureau at (800) 771-7755 takes statewide complaints. The FTC at reportfraud.ftc.gov is the federal clearinghouse. Identity theft specifically uses identitytheft.gov, which produces an official affidavit used for disputes. Local police take reports for wire fraud and larceny; bank and credit card fraud also goes to the bank.\n\nAdult Protective Services. When an elder is being financially exploited, Monroe County Adult Protective Services at (585) 753-6532 investigates and can intervene. APS works alongside the AG and local police.\n\nPrevention. A few habits cut scam risk sharply: hanging up on unsolicited calls; verifying any unusual request through a known phone number (not the one in the message); freezing credit with all three bureaus; using multifactor authentication on financial accounts; treating urgency as a red flag. The federal Consumer Financial Protection Bureau at consumerfinance.gov posts current scam warnings."
   },
 
   yourRights: {
     en: [
-      "Under GBL § 349, consumers are protected from deceptive acts and practices.",
-      "Victims of deceptive practices can sue for actual damages and, in some cases, treble (triple) damages.",
-      "The NY Attorney General can investigate and take enforcement action against scammers.",
-      "Seniors who are victims of financial exploitation can receive assistance from Adult Protective Services.",
-      "Notario fraud (unlicensed immigration services) is a crime under GBL § 460-c."
+      "A consumer has the right to sue under GBL 349 for deceptive practices; remedies include actual damages and, in willful cases, treble damages plus attorney's fees.",
+      "A consumer 65 or older has additional civil penalties available under GBL 349-c.",
+      "The NYS Attorney General's Consumer Frauds Bureau can investigate and take enforcement action.",
+      "An elder at risk of financial exploitation has the right to receive assistance from Adult Protective Services.",
+      "Notario fraud is a crime under Penal Law 190.83; victims can report to the police and the AG.",
+      "A credit card charge to a scammer can usually be disputed within 60 days under the federal Fair Credit Billing Act.",
+      "An identity theft victim has the right to an FTC affidavit from identitytheft.gov, which unlocks stronger dispute rights under the FCRA."
     ]
   },
 
   legalOptions: {
     en: [
-      "Scams can be reported to the NY Attorney General's Consumer Helpline at (800) 771-7755 or online at ag.ny.gov/consumer-frauds-bureau/file-complaint.",
-      "The FTC accepts reports at reportfraud.ftc.gov. Each report helps build enforcement cases.",
-      "For identity theft resulting from a scam, the recovery process begins at identitytheft.gov.",
-      "For elder financial exploitation, Adult Protective Services in Monroe County can be reached at (585) 753-6532.",
-      "Free legal advice on consumer fraud is available through Legal Aid Society of Rochester at (585) 232-4090.",
-      "If money was sent by wire transfer, gift card, or cryptocurrency, recovery is difficult but reporting is still important to help stop the scammer."
+      "A scam can be reported to the NYS Attorney General Consumer Helpline at (800) 771-7755 or at ag.ny.gov/consumer-frauds-bureau/file-complaint.",
+      "The FTC takes reports at reportfraud.ftc.gov.",
+      "For identity theft, the recovery process starts at identitytheft.gov.",
+      "For elder financial exploitation, Monroe County Adult Protective Services at (585) 753-6532 can intervene.",
+      "Free advice on consumer fraud is available through Legal Aid Society of Rochester at (585) 232-4090.",
+      "For bank or credit card fraud, contacting the bank or card issuer immediately is the path to reversal or chargeback under the Fair Credit Billing Act.",
+      "When money was sent by gift card, wire transfer, peer-to-peer app, or cryptocurrency, recovery is difficult but reporting is still important for pattern enforcement."
     ]
   },
 
   example: {
-    en: "An elderly Rochester resident receives a phone call from someone claiming to be from Social Security, saying her benefits will be cut off unless she pays a fine with gift cards. She buys the gift cards and reads the numbers to the caller. Her granddaughter realizes it was a scam and helps her file a report with the FTC at reportfraud.ftc.gov and with the NY AG at (800) 771-7755. Adult Protective Services follows up to make sure there is no ongoing exploitation."
+    en: "An elderly Rochester resident receives a phone call from someone claiming to be from Social Security, saying her benefits will be cut off unless she pays a fine with gift cards. She buys the cards and reads the numbers over the phone. Her granddaughter realizes it was a scam. Together they file a report with the FTC at reportfraud.ftc.gov and with the NYS AG at (800) 771-7755. Monroe County Adult Protective Services follows up to check for ongoing exploitation and helps set up a credit freeze."
   },
 
   counsel: [
@@ -68,7 +73,7 @@ export const SCAM_PROTECTION_NY = {
       type: "free",
       name: "Monroe County Adult Protective Services",
       focus: "Elder financial exploitation, vulnerable adult protection",
-      qualifier: "Adults 18+ who are at risk of exploitation",
+      qualifier: "Adults 18+ at risk of exploitation",
       access: "Phone",
       outcome: "Investigation, intervention, and case management",
       phone: "(585) 753-6532",
@@ -106,10 +111,11 @@ export const SCAM_PROTECTION_NY = {
   sources: [
     "https://ag.ny.gov/consumer-frauds-bureau",
     "https://www.nysenate.gov/legislation/laws/GBS/349",
-    "https://reportfraud.ftc.gov"
+    "https://reportfraud.ftc.gov",
+    "https://www.identitytheft.gov"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-23",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
