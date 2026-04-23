@@ -7,51 +7,53 @@ export const REPLEVIN_PERSONAL_PROPERTY_RECOVERY_NY = {
   primaryStatute: "NY CVP 7101",
   status: "active",
 
-  title: { en: "Replevin — How to Get Back Personal Property Someone Else Is Holding" },
+  title: { en: "Replevin in New York — How to Recover Personal Property Someone Else Is Holding" },
 
   summary: {
-    en: "Replevin is a civil action to recover possession of specific personal property — furniture, tools, a pet, documents, jewelry, a car — that someone else is wrongfully keeping. New York CPLR Article 71 provides the procedure. Replevin is different from a money lawsuit — the relief sought is the item itself, sometimes before final judgment. Small claims court handles many informal replevin cases up to $5,000 in value."
+    en: "Replevin is a civil action to recover possession of specific personal property — furniture, tools, a pet, documents, jewelry, a vehicle — that another person is wrongfully holding. New York CPLR Article 71 (sections 7101 through 7112) provides the procedure. Replevin is different from a money lawsuit; the relief is the item itself, sometimes before final judgment through a pre-judgment seizure order. Small claims court handles many informal replevin cases for items up to $5,000 in value. A written demand by certified mail is a good first step before filing."
   },
 
   whoQualifies: {
     en: [
-      "Any person whose personal property is being wrongfully withheld by another.",
+      "A person whose personal property is being wrongfully held by another.",
       "A person separated from a partner whose belongings are still at the shared residence.",
-      "A tenant whose former landlord is holding property after an eviction.",
-      "A person whose pet is being kept by a family member or friend who now refuses to return it.",
-      "A consumer whose item was sent to a repair shop that will not return it despite payment."
+      "A former tenant whose landlord kept property after the tenant moved out or was evicted.",
+      "A person whose pet is being kept by a family member or friend who refuses to return it.",
+      "A consumer whose item was sent to a repair shop that will not return it despite full payment.",
+      "A bailee, lessee, or pledgee who has a superior right to possession even without full ownership."
     ]
   },
 
   whatItMeans: {
-    en: "Replevin is an ancient legal action — derived from common law, codified in New York under Civil Practice Law and Rules Article 71 (CPLR Sections 7101-7112). The goal is to recover specific identifiable personal property. The plaintiff must show: a superior right to possession, the defendant's wrongful possession or detention, a description of the property sufficient to identify it, and the property's approximate value. Replevin is available for tangible items — not money and not intangibles. Ownership is not always required — a person with a superior right to possession (even as a bailee, tenant, or lessee) can bring replevin. Pre-judgment seizure: if the plaintiff shows probable cause and posts a bond (usually twice the value of the property), the court can order the sheriff to seize the property and hold it pending resolution. The defendant can post a counter-bond to retain possession during litigation. The final judgment orders the property returned or, if no longer available, an alternative money judgment for the value. For small items under $5,000, the small claims court in town, village, or city courts is usually faster and cheaper than Supreme Court replevin. A small claims judge can order return of property and award damages. Special contexts: a landlord holding a former tenant's belongings — see the abandoned-property-after-eviction entry. A mechanic holding a vehicle after paid repairs — the mechanic's lien law limits when this is proper. A separated spouse retaining jointly held items — divorce court or matrimonial action may be the better forum. Always try written demand first before filing. A certified letter demanding return, with a deadline, creates a record the court uses, and sometimes produces the property without a lawsuit."
+    en: "Replevin is an old common-law action, codified in New York by Civil Practice Law and Rules Article 71 (CPLR 7101 through 7112). The goal is to get back specific, identifiable personal property.\n\nWhat the plaintiff has to show. A superior right to possession, the defendant's wrongful possession or detention, a description of the property good enough to identify it, and the property's approximate value. Ownership is not always required — a person with a superior right to possession (a bailee, a tenant, a lessee, a person who paid for a repair) can bring replevin even without holding full title.\n\nWhat replevin covers. Tangible items — furniture, clothing, tools, electronics, vehicles, pets, documents, jewelry, artwork. Money is not replevin (the remedy for money is a regular lawsuit). Intangibles (debts, ideas) are not replevin either.\n\nPre-judgment seizure (CPLR 7102). When the plaintiff shows probable cause and posts a bond (usually twice the value of the property), a court can issue an order directing the sheriff to seize the property and hold it while the case is pending. The defendant can post a counter-bond to retain possession during the litigation. Pre-judgment seizure is most useful when there is a real risk the defendant will hide or damage the property.\n\nFinal judgment. At the end of the case, the court orders the property returned or, when return is impossible (destroyed, sold, lost), an alternative money judgment for the property's value plus damages.\n\nSmall claims is often the right venue. For items worth $5,000 or less, small claims court is usually faster and cheaper than Supreme Court replevin. Monroe County town and village courts handle these up to $5,000. Rochester City Court handles them up to $10,000. A small claims judge can order return of property or award money damages. Filing fees are modest ($20 to $25).\n\nSupreme Court for bigger cases. Items worth more than $5,000 or $10,000 (depending on which court), complex title disputes, or pre-judgment seizure applications usually belong in Supreme Court. An attorney consultation is worth it for these cases. Monroe County Bar Association referral: (585) 546-2130.\n\nSpecial contexts.\n- Former landlord holding a tenant's property after move-out or eviction. Property left behind at move-out has its own set of rules — see the abandoned-property-after-eviction-ny entry. Replevin can still reach items the landlord held over the tenant's written objection.\n- Mechanic or repair shop holding a vehicle after payment. When a mechanic takes full payment and still refuses to return the vehicle, the refusal is wrongful detention. A mechanic's lien under Lien Law Article 9 gives the shop a security interest in the vehicle for unpaid work, but a fully paid invoice cancels the lien. See the mechanic-lien-ny entry.\n- Separated spouse holding jointly owned items. Divorce court is usually the better forum; equitable distribution sorts out joint property. A pending matrimonial action stays or limits a parallel replevin case.\n- Pet custody. A replevin action can recover a pet treated as personal property under New York law. Family Court is not the forum for pet disputes unless the pet is part of a custody or order of protection matter.\n- Property held after an order of protection. When a prior Family Court order requires return of property, the order itself is enforceable; a fresh replevin suit is often unnecessary.\n\nWritten demand first. A written demand by certified mail, describing the property and setting a deadline for return, is a strong first step. A court treats the demand as evidence of wrongful retention when the defendant does not respond. Many cases resolve at the demand stage without a lawsuit.\n\nDamages. Beyond return of the property (or its value), a successful replevin plaintiff can recover damages for the loss of use of the property during the wrongful retention period. When the defendant's conduct was intentional or malicious, punitive damages are possible."
   },
 
   yourRights: {
     en: [
       "A person with a superior right to possession has the right to bring a replevin action under CPLR Article 71.",
       "A plaintiff has the right to request pre-judgment seizure with probable cause and a bond.",
-      "The defendant has the right to counter-bond to keep possession during litigation.",
-      "For items worth $5,000 or less, the plaintiff can proceed in small claims court instead of Supreme Court.",
+      "A defendant has the right to counter-bond to keep possession during litigation.",
+      "For items worth $5,000 or less, a plaintiff can proceed in small claims court instead of Supreme Court.",
       "A written demand for return before litigation is strong evidence of wrongful retention.",
-      "If the property cannot be returned, the plaintiff can recover the property's value as a money judgment."
+      "When the property cannot be returned, the plaintiff has the right to recover its value as a money judgment plus damages for loss of use.",
+      "Punitive damages are available when the defendant's conduct was intentional or malicious."
     ]
   },
 
   legalOptions: {
     en: [
-      "Send a written demand by certified mail describing the property and requesting return by a specific date. Keep a copy.",
-      "For items under $5,000 in value, file in small claims court. Monroe County and most town courts handle these.",
-      "Small claims filing in Rochester City Court: $20 fee for claims under $1,000, $25 for claims $1,001-$5,000. Location and forms at nycourts.gov/courts/7jd.",
-      "For pre-judgment seizure (urgent cases), Supreme Court jurisdiction is usually needed — consult an attorney. Monroe County Bar Association referral at (585) 546-2130.",
-      "Free legal help with replevin-related consumer and housing matters is available through Legal Aid Society of Rochester at (585) 232-4090.",
-      "For items held by a former landlord, see the abandoned-property-after-eviction-ny entry before filing.",
-      "For items held after a domestic dispute involving an order of protection, Family Court has authority to order return — consult the prior order."
+      "A written demand by certified mail describing the property and setting a deadline for return resolves many cases without a lawsuit.",
+      "For items under $5,000 in value, small claims court in the town, village, or city courts handles informal replevin-style cases.",
+      "Small claims filing in Rochester City Court: $20 for claims under $1,000, $25 for $1,001 to $5,000. Forms and location at nycourts.gov/courts/7jd.",
+      "For pre-judgment seizure, Supreme Court is usually needed; consult an attorney. Monroe County Bar Association referral: (585) 546-2130.",
+      "Free help with replevin-related consumer and housing matters is available through Legal Aid Society of Rochester at (585) 232-4090.",
+      "For items held by a former landlord, the abandoned-property-after-eviction-ny entry covers the specific rules.",
+      "For items held after a domestic dispute with an order of protection, Family Court can enforce the return order."
     ]
   },
 
   example: {
-    en: "A Rochester woman left her toolbox at a friend's house while helping with a renovation. They fell out later and the friend refused to return the tools, worth about $900. She sent a certified letter describing the toolbox and listing the major tools, demanding return within 10 days. The friend still refused. She filed in small claims court for $900, bringing photos of the tools and the letter. The friend did not appear for the hearing. The judge awarded her $900 plus court costs. She collected the judgment through an income execution on the friend's wages a few months later."
+    en: "A Rochester woman left her toolbox at a friend's house while helping with a renovation. The friends fell out later and the other party refused to return the tools, worth about $900. She sent a certified letter describing the toolbox and listing the major tools, demanding return within 10 days. The friend still refused. She filed in small claims court for $900, bringing photos of the tools and the demand letter. The friend did not appear at the hearing. The judge awarded her $900 plus court costs. She collected the judgment through an income execution on the friend's wages a few months later."
   },
 
   counsel: [
@@ -99,7 +101,7 @@ export const REPLEVIN_PERSONAL_PROPERTY_RECOVERY_NY = {
     "https://www.nysenate.gov/legislation/laws/CVP/7109"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-23",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
