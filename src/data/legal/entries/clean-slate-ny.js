@@ -122,7 +122,6 @@ export const CLEAN_SLATE_NY = {
   sources: [
     "https://www.nysenate.gov/legislation/laws/CPL/160.57",
     "https://www.nycourts.gov/FORMS/criminal-record-sealing.shtml",
-    "https://www.cleanslateny.org/faq",
     "https://www.lawny.org/node/571/new-york-state-clean-slate-act"
   ],
 

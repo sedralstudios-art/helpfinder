@@ -267,7 +267,7 @@ const MAX_WHATITMEANS_WORDS = 1800;
 // corpus — but prefer finding the underlying statute, regulation, or agency
 // page over adding yet another third-party domain.
 const TRUSTED_SOURCE_DOMAIN_SUFFIXES = [
-  '.gov', '.edu', '.us',
+  '.gov', '.edu', '.us', '.mil',
 ];
 const TRUSTED_SOURCE_DOMAINS_EXACT = new Set([
   // NY legal-aid, bar associations, and public-interest organizations
@@ -275,20 +275,79 @@ const TRUSTED_SOURCE_DOMAINS_EXACT = new Set([
   'lawhelpny.org', 'lawhelp.org',
   'lasroc.org', 'empirejustice.org', 'justcauseroc.org',
   'legalaidnyc.org', 'legalaidsocietyofrochester.org',
+  'lawny.org',              // Legal Assistance of Western New York
+  'justcauseny.org',        // JustCause (formerly VLSP) — Rochester legal aid
+  'lac.org',                // Legal Action Center
+  'reentry.net',            // Bronx Defenders Reentry Net
+  'righttocounselnyc.org',  // Right to Counsel NYC Coalition
+  'innocenceproject.org',   // The Innocence Project
+  'cdsadr.org',             // Center for Dispute Settlement (Rochester)
   'nycbar.org', 'nysba.org', 'mcba.org',
   'fasny.com', // Firemen's Association of NY — statutory advocacy
   'eff.org',   // Electronic Frontier Foundation — privacy/tech rights
   // State-run programs operated on .org domains
   'nysaves.org',    // NY 529 College Savings Program (state-operated)
   'mynyable.org',   // NY ABLE Program (state-operated)
+  'sonyma.org',     // State of New York Mortgage Agency — state authority
+  'nysarctrustservices.org', // NYSARC Trust Services — special needs trusts
+  // NY public authorities and regulated utilities (statutorily created)
+  'mcwa.com',       // Monroe County Water Authority — statutory public authority
+  'mvaic.com',      // Motor Vehicle Accident Indemnification Corp — NY statutory insurer
+  'myrts.com',      // Regional Transit Service (RGRTA) — public transit authority
+  'rge.com',        // Rochester Gas and Electric — PSC-regulated monopoly utility
+  'nysif.com',      // NY State Insurance Fund — public workers' comp insurer
+  'wadsworth.org',  // Wadsworth Center — NY State Dept of Health laboratory
+  'monroecountyswcd.org', // Monroe County Soil & Water Conservation District
   // Federally-mandated NY agencies and federal agency partners
   'disabilityrightsny.org', // NY Protection & Advocacy agency (federally mandated)
   'askjan.org',             // Job Accommodation Network (federal DOL ODEP-funded)
+  'usac.org',               // Universal Service Administrative Co. — FCC Lifeline admin
+  'lifelinesupport.org',    // Federal Lifeline program eligibility
+  'checklifeline.org',      // Federal Lifeline program check
+  '988lifeline.org',        // 988 Suicide & Crisis Lifeline (SAMHSA)
+  '211lifeline.org',        // NY 211 (state-operated referral)
+  // Monroe County town and village official websites
+  'henrietta.org', 'townofwheatland.org', 'brockportny.org',
+  'churchville.net', 'hamlinny.org', 'townofriga.com',
+  'townofrush.com', 'scottsvilleny.org', 'clarksonny.org',
+  'hiltonny.org', 'perinton.org', 'townofchili.org',
+  'fairportny.org', 'penfield.org', 'townofsweden.org',
+  // Federally-mandated consumer resources and national nonprofits
+  'usps.com',               // U.S. Postal Service — independent federal agency
+  'annualcreditreport.com', // FCRA-mandated free credit report site
+  'redcross.org',           // American Red Cross — federal charter
+  'thehotline.org',         // National Domestic Violence Hotline (HHS-funded)
+  'aspca.org',              // ASPCA — national animal welfare
+  'cybercivilrights.org',   // Cyber Civil Rights Initiative
+  'crohnscolitisfoundation.org', // Crohn's & Colitis Foundation
+  // Standards bodies and insurance/real estate reference sources
+  'nfpa.org',               // National Fire Protection Association — model codes
+  'iii.org',                // Insurance Information Institute
+  'alta.org',               // American Land Title Association
+  'ul.com',                 // UL Solutions — safety certification
+  'nysapls.org',            // NY State Assoc of Professional Land Surveyors
   // Municipal code publishing platforms (the actual hosting service for town codes)
   'ecode360.com',           // General Code — hosts most NY town code text
   'codes.iccsafe.org',      // International Code Council — model building/fire codes
   // HUD-certified housing counselors in the Rochester region
   'thehousingcouncil.org', 'pathstone.org',
+  // Rochester-area social-service nonprofits (cited across multiple entries)
+  'cfcrochester.org',       // Catholic Family Center Rochester
+  'lifespan-roch.org',      // Lifespan of Greater Rochester — elder services
+  'pcsforpeople.org',       // PCs for People — low-income tech access
+  'needymeds.org',          // NeedyMeds — prescription assistance
+  'communityhealthadvocates.org', // NY Community Health Advocates (state-contracted)
+  'nyhaf.org',              // NY Health Access Foundation
+  'nysmokefree.com',        // NY State Smokers' Quitline (state-contracted)
+  'molst.org',              // MOLST — NY Medical Orders for Life-Sustaining Treatment
+  'nyeia.com',              // NY Early Intervention Agency
+  'lollypop.org',           // Lollypop Farm — Humane Society of Greater Rochester
+  'vspeyesofhope.com',      // VSP Eyes of Hope — vision care for low-income
+  'roccitylibrary.org',     // Rochester Public Library
+  'rcfp.org',               // Reporters Committee for Freedom of the Press
+  'ala.org',                // American Library Association
+  'roclandbank.org',        // Rochester Land Bank — abandoned property remediation
+  'charitiesnys.com',       // NY AG Charities Bureau (state-operated, .com domain)
 ]);
 
 function sourceDomainTrusted(url) {

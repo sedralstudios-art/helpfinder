@@ -93,7 +93,7 @@ export const BED_BUG_HOTEL_AIRBNB_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/GBS/349",
-    "https://www.airbnb.com/help/article/248"
+    "https://www.cdc.gov/parasites/bedbugs/"
   ],
 
   lastVerified: "2026-04-17",
