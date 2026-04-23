@@ -7,48 +7,51 @@ export const SQUATTERS_RIGHTS_ADVERSE_POSSESSION_NY = {
   primaryStatute: "NY RPA 501",
   status: "active",
 
-  title: { en: "Squatter's Rights and Adverse Possession — How It Actually Works in New York" },
+  title: { en: "Squatter's Rights and Adverse Possession in New York — How RPAPL 501 Actually Works" },
 
   summary: {
-    en: "Adverse possession — sometimes called squatter's rights — is a legal doctrine that allows a person to claim ownership of land they have openly occupied and maintained for 10 continuous years without the owner's permission. It is real law, but it is extremely difficult to prove and almost never succeeds in urban settings like Rochester. A squatter in a building they do not own is not gaining ownership rights — they are trespassing. Understanding the difference prevents both false hope and unnecessary fear."
+    en: "Adverse possession — sometimes called squatter's rights — is a real legal doctrine that lets a person claim ownership of land they have openly occupied and maintained for 10 continuous years without the owner's permission. The main statutes are Real Property Actions and Proceedings Law 501 through 551. In practice, adverse possession claims almost always involve land boundaries — a fence that shifted, a garden maintained on a neighbor's lot, a driveway that straddles a property line. Someone occupying a building without permission is a trespasser, not an adverse possessor. The 2008 amendments tightened the rule further by requiring a reasonable belief of ownership."
   },
 
   whoQualifies: {
     en: [
-      "Property owners who are concerned about someone occupying their land or building without permission.",
-      "People who have maintained and openly used a piece of land (not a building) for 10+ years and want to understand their legal position.",
-      "People who have been told they have 'squatter's rights' to a property and want to know if that is true.",
-      "Adverse possession claims are almost always about land (a strip of yard, a garden, a driveway) — not about buildings or apartments."
+      "A property owner worried about someone occupying land or a building without permission.",
+      "A person who has maintained and openly used a piece of land for 10 or more years and wants to understand their legal position.",
+      "A person told they have 'squatter's rights' to a building or apartment who wants to know whether that is accurate.",
+      "A homeowner who discovered a boundary encroachment (a fence, shed, driveway, or garden) crossing onto their land.",
+      "A neighbor who has been maintaining a strip of land that may actually belong to someone else."
     ]
   },
 
   whatItMeans: {
-    en: "Under Real Property Actions and Proceedings Law (RPAPL) § 501-551, a person can claim title to land through adverse possession if they prove all of the following for at least 10 continuous years: the possession was hostile (without the owner's permission), actual (the person physically used and maintained the land), open and notorious (visible to anyone — not hidden), exclusive (not shared with the owner), and continuous (uninterrupted for 10 years). Since 2008, New York law also requires that the possession be under a 'claim of right' — meaning the person reasonably believed they had a right to the property. This makes adverse possession claims even harder to prove. In practice, successful adverse possession claims in New York are rare and almost always involve land boundaries — a fence built 2 feet onto a neighbor's property for 15 years, a garden maintained on an adjoining lot for decades. They almost never involve someone moving into an occupied or unoccupied building. A person occupying a building without permission is a trespasser, not an adverse possessor. The property owner can evict them through a holdover proceeding. Squatters in buildings do not gain rights just by being there — no matter how long."
+    en: "Adverse possession is governed by RPAPL 501 and the related sections (521, 522, 543). The core idea is old: someone who treats a piece of land as their own, openly and without permission, for long enough can acquire legal title to it. New York has tightened the rule over time — the modern version is hard to satisfy, especially in urban and suburban settings.\n\nThe 10-year rule. A claimant has to prove possession for at least 10 continuous years. The clock resets any time the true owner acts to interrupt it (filing an eviction, writing a cease-and-desist, recording a notice, building a new fence on the actual line, or bringing a legal action).\n\nFive common-law elements. Traditional adverse possession requires five things for the entire 10-year period:\n- Hostile: without the owner's permission. Permission defeats the claim.\n- Actual: the claimant physically used the land.\n- Open and notorious: the use was visible to anyone, not hidden. The true owner could have noticed.\n- Exclusive: the claimant did not share use with the owner or the public.\n- Continuous: uninterrupted for the full 10 years.\n\nThe 2008 'claim of right' amendment. RPAPL 501 was amended in 2008 to require that the claimant's possession be 'under a claim of right' — meaning a reasonable basis for believing the property belongs to the claimant. Before 2008, a claimant who knew the land belonged to someone else could still succeed. Under the new rule, a person who knowingly encroaches on a neighbor's land cannot prevail. This narrowed the doctrine significantly and has turned back many boundary-dispute claims.\n\nWhat the 2008 amendment did not change. The doctrine still reaches cases where the claimant reasonably believed the land was theirs — a mistaken fence line, a garden that a long-ago owner put on what turned out to be the neighbor's side, a driveway that was laid out based on an old survey that was slightly off.\n\nWhat adverse possession is not. Adverse possession does not apply to:\n- Land owned by the state, a municipality, or the federal government. Public land cannot be adversely possessed.\n- An apartment or room rented from an owner. A tenant in possession under a lease is not adverse. A holdover tenant after the lease ends is a tenant, not an adverse possessor, and is evicted through a holdover proceeding.\n- Someone occupying a house or commercial building without the owner's permission. That person is a trespasser, subject to eviction as an unauthorized occupant and, in criminal cases, to trespass charges under Penal Law 140.\n- A short-term stay or intermittent use. Casual or seasonal use does not satisfy 'continuous' and 'actual' possession.\n\nRemedies for the true owner. The owner who discovers an encroachment early has many options: send a written notice, mow or fence the owner's side of the true line, file a trespass action, or sue for an injunction. Acting within the first few years interrupts any adverse possession clock. Ignoring the encroachment for a decade can create a real risk.\n\nFor the occupant with a possible claim. Someone who has been maintaining a strip of land for a long time should consult a real estate attorney before the true owner acts. A quiet-title action in Supreme Court is the formal way to perfect an adverse possession claim. The claimant files a lawsuit, attaches a survey, and asks the court to declare them the owner of the disputed strip.\n\nPermissive use. Use with the owner's express or implied permission is not hostile. Even a handshake arrangement ('you can garden that strip') defeats adverse possession. Getting permission in writing protects both sides and settles the question.\n\nCostume 'squatter's rights' schemes. A handful of scams in recent years have claimed to sell people 'squatter's rights' paperwork or teach how to take over vacant homes. None of that grants ownership. Moving into a house the claimant does not own is trespass and, in most cases, criminal."
   },
 
   yourRights: {
     en: [
-      "Property owners can evict unauthorized occupants through a holdover proceeding — squatters do not have tenant rights.",
-      "Adverse possession requires 10 years of continuous, open, hostile, exclusive possession with a claim of right.",
-      "Since 2008, adverse possession is harder to prove in New York — a reasonable belief of ownership is required.",
-      "Maintaining a neighbor's land (mowing, gardening) for 10+ years may create an adverse possession claim to that strip of land.",
-      "Calling the police about trespassers and filing eviction proceedings promptly prevents adverse possession claims from building.",
-      "Adverse possession of government-owned land is not possible in New York."
+      "A property owner has the right to evict unauthorized occupants through a holdover or licensee proceeding; squatters do not gain tenant rights just by being in a building.",
+      "A property owner has the right to interrupt any potential adverse possession clock by taking prompt action — notice, fence, or legal filing.",
+      "A neighbor who openly maintained a strip of land for 10 continuous years with a reasonable belief of ownership may have an adverse possession claim under RPAPL 501 (as amended 2008).",
+      "Since 2008, an adverse possession claim requires a reasonable belief of ownership, not just long use.",
+      "Adverse possession of government-owned land is not allowed in New York.",
+      "A property owner has the right to commission a licensed survey to establish boundary lines definitively.",
+      "Both sides have the right to bring a quiet-title action in Supreme Court to settle a disputed boundary."
     ]
   },
 
   legalOptions: {
     en: [
-      "If someone is occupying your property without permission, the legal remedy is a holdover eviction proceeding — not self-help (changing locks, removing belongings). Contact Legal Aid Society of Rochester at (585) 232-4090.",
-      "If you believe you have an adverse possession claim (10+ years of open, continuous use of land), consult a real estate attorney — the claim must be filed in Supreme Court.",
-      "Property owners who discover encroachments (a neighbor's fence, garden, or structure on their land) should address it early — waiting 10 years creates a potential adverse possession claim.",
-      "A property survey by a licensed surveyor is the definitive way to establish boundary lines.",
-      "For properties with unauthorized occupants, filing a police report for trespassing and starting eviction proceedings creates a record that interrupts any potential adverse possession clock."
+      "When someone is occupying a building without permission, the remedy is a holdover or licensee eviction proceeding — not self-help like changing locks or removing belongings.",
+      "Legal Aid Society of Rochester at (585) 232-4090 handles unauthorized-occupant evictions for low-income owners.",
+      "A person with a possible adverse possession claim (10+ years of open, continuous use of land) should consult a real estate attorney; a quiet-title action is filed in Supreme Court.",
+      "A property owner who discovers an encroachment should act early; waiting 10 years creates a real adverse possession risk.",
+      "A licensed land surveyor provides the definitive record of boundary lines for any dispute.",
+      "For unauthorized occupants in a building, filing a police report for trespass and starting eviction proceedings creates the record that interrupts any potential adverse possession clock."
     ]
   },
 
   example: {
-    en: "A homeowner in Rochester discovers that his neighbor has been maintaining a vegetable garden 4 feet onto his property for 12 years. The neighbor built a small fence and has been gardening openly the entire time. The neighbor may have an adverse possession claim to that 4-foot strip — the use was open, continuous, exclusive, hostile (without permission), and lasted more than 10 years. The homeowner should consult a real estate attorney. If the homeowner had noticed and objected 8 years ago, the adverse possession clock would have been interrupted."
+    en: "A homeowner in Rochester discovers that his neighbor has been maintaining a vegetable garden 4 feet onto his property for 12 years. The neighbor built a small fence and gardened openly the whole time. Under the old rules the neighbor likely had a claim. Under the 2008 'claim of right' amendment, the neighbor has to show a reasonable belief the strip was theirs — a mistaken fence line or a family history of using the strip would support the claim; a deliberate encroachment would not. The homeowner consults a real estate attorney. If the homeowner had noticed and objected eight years earlier, the adverse possession clock would have been interrupted."
   },
 
   counsel: [
@@ -93,10 +96,11 @@ export const SQUATTERS_RIGHTS_ADVERSE_POSSESSION_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/RPA/501",
-    "https://www.nysenate.gov/legislation/laws/RPA/543"
+    "https://www.nysenate.gov/legislation/laws/RPA/543",
+    "https://www.nysenate.gov/legislation/laws/RPA/521"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-23",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
