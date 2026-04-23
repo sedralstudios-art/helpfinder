@@ -7,53 +7,54 @@ export const RETURN_REFUND_POLICY_NY = {
   primaryStatute: "NY GBS 218-A",
   status: "active",
 
-  title: { en: "Return and Refund Policies — What Stores Must Disclose in New York" },
+  title: { en: "Store Return and Refund Policies in New York — Disclosure Rules Under GBL 218-a" },
 
   summary: {
-    en: "New York law does not require stores to accept returns — but it does require them to post their return policy clearly. If a store has no posted policy, the law assumes the customer has 30 days to return merchandise for a full refund. Many stores say 'all sales final' but do not post it — which means the customer actually has 30 days."
+    en: "New York does not require stores to accept returns. It does require stores to post their return policy clearly. When a store posts no policy, the statute kicks in with a default: the customer has 20 days to return merchandise in original condition for a full refund. Many stores try to enforce 'all sales final' without posting it — that doesn't work under GBL 218-a. Defective merchandise is separate: a store cannot refuse a return of defective goods under the implied warranty of merchantability (UCC 2-314) regardless of the posted policy."
   },
 
   whoQualifies: {
     en: [
-      "Any consumer who purchased goods from a retail store in New York and wants to return them.",
-      "Any consumer who was told 'no returns' but did not see a posted policy at the time of purchase.",
-      "Online purchases are generally governed by the seller's stated policy, not the NY posting requirement."
+      "A consumer who bought goods from a retail store in New York and wants to return them.",
+      "A consumer who was told 'no returns' but saw no posted policy at the time of purchase.",
+      "A consumer who received a defective product.",
+      "A small business trying to make its return policy compliant with New York disclosure rules."
     ]
   },
 
   whatItMeans: {
-    en: "Under General Business Law § 218-a, every retail store in New York must conspicuously post its refund and return policy. The policy must be displayed at the point of sale (cash register area) or on the receipt. If the store does not post a return policy, the law provides a default: the customer has 30 days from the date of purchase to return the merchandise in its original condition for a full cash refund, exchange, or store credit — at the customer's choice. If the store posts a policy (e.g., '14-day returns only,' 'exchange only,' 'store credit only,' or 'all sales final'), that policy is enforceable — as long as it was conspicuously posted. A policy printed only on the receipt is not sufficient if the customer does not receive the receipt until after the purchase is complete. Defective merchandise: if the product is defective, the customer generally has the right to a remedy (repair, replacement, or refund) under the implied warranty of merchantability (UCC § 2-314) — regardless of the store's return policy. A store cannot sell a defective product and then refuse to take it back by pointing to an 'all sales final' sign."
+    en: "General Business Law 218-a is the core statute. It does not force a retailer to accept returns, but it requires the retailer to tell customers, in advance, what the return policy actually is. When the retailer does not post a policy, a statutory default kicks in.\n\nThe disclosure rule. A retail store has to conspicuously post its refund and return policy at the point of sale. 'Conspicuously' means the sign is visible to a customer deciding to buy. A policy printed only on the receipt does not count, because the customer sees the receipt after the purchase is done. An in-store sign at the register, a prominent sign at the entrance, or a sign on the product itself typically does the job.\n\nThe default when no policy is posted. When the retailer has not posted a policy, GBL 218-a gives the customer 20 days from the date of purchase to return the merchandise in original condition. The refund has to be in cash (or the form of the original payment) unless the customer chooses an exchange or store credit.\n\nEnforceable policies. When the store does post a policy, that policy controls. Common enforceable forms: '14-day returns for a full refund,' 'exchange only,' 'store credit only,' 'final sale — no returns,' 'store credit after 30 days.' The key is that the policy was visible at the time of purchase.\n\nReceipt requirements. A posted policy can require a receipt for a refund. A policy that requires a receipt has to say so clearly. A store that normally takes returns without receipts cannot suddenly demand one to defeat a specific return.\n\nExempt categories. Some categories are exempt from 218-a or carry their own rules: food, perishable goods, custom-made items, sale items marked 'final sale' at the point of sale, health-sensitive items (undergarments, swimwear), and items from a going-out-of-business sale.\n\nOnline orders. GBL 218-a's posting rule is about brick-and-mortar retail. Online sellers are governed by the policy they show on the product page or at checkout. The FTC Mail Order Rule (16 CFR 435) adds federal timing requirements for mail and online sellers. Many online sellers voluntarily offer 30- or 90-day return windows to compete.\n\nDefective merchandise. A store cannot sell a defective product and then refuse to take it back by pointing to 'all sales final.' The UCC's implied warranty of merchantability (UCC 2-314) applies to every retail sale by a merchant in goods of that kind. A defective item entitles the buyer to a remedy — repair, replacement, or refund. The implied warranty can only be disclaimed with conspicuous 'as is' language; a 'final sale' label alone does not disclaim it.\n\nGift cards. Gift cards are handled separately under GBL 5-702 — see the gift-card-rights-ny entry. The return policy on merchandise is a different body of law.\n\nRemedies for violations. A store that refuses a proper return can be reported to the NYS Attorney General's Consumer Frauds Bureau. A consumer with a specific dollar amount at stake can file in small claims court. Both routes are inexpensive and don't require an attorney."
   },
 
   yourRights: {
     en: [
-      "If the store does not post a return policy, the customer has 30 days for a full refund.",
-      "The policy must be posted conspicuously — not hidden or only on the receipt.",
-      "If the store posts a policy, that policy applies — but only if it was visible at the time of purchase.",
-      "Defective merchandise can be returned regardless of the store's policy.",
-      "The customer can choose: cash refund, exchange, or store credit (if no posted policy).",
-      "Online purchases follow the seller's stated policy."
+      "A consumer has the right to a clearly posted return policy at the point of sale (GBL 218-a).",
+      "When the store posts no policy, the consumer has 20 days to return the merchandise in original condition for a full refund.",
+      "A policy on the receipt alone does not satisfy the posting requirement.",
+      "When a policy is posted, that policy controls as long as it was visible at the time of purchase.",
+      "A defective product can be returned regardless of the posted policy under the UCC implied warranty of merchantability.",
+      "A consumer has the right to file a complaint with the NYS Attorney General when a store refuses a proper return."
     ]
   },
 
   legalOptions: {
     en: [
-      "If a store refuses a return and had no posted policy, the customer can cite GBL § 218-a and request the 30-day default refund.",
-      "If the store still refuses, a complaint can be filed with the NY Attorney General's Consumer Bureau at (800) 771-7755.",
-      "For defective products, the customer can also file a complaint with the BBB or pursue a claim in small claims court.",
-      "Small claims court handles disputes up to $5,000 (town/village) or $10,000 (city court) — filing is simple and inexpensive.",
-      "Free legal advice on consumer disputes is available through Legal Aid Society of Rochester at (585) 232-4090."
+      "When a store refuses a return and had no posted policy, citing GBL 218-a and asking for the 20-day default refund usually resolves it.",
+      "When the store still refuses, a complaint can be filed with the NYS Attorney General's Consumer Frauds Bureau at (800) 771-7755.",
+      "For defective products, a complaint can also go to the Better Business Bureau or to small claims court under UCC 2-314.",
+      "Small claims court handles disputes up to $5,000 in town or village court and up to $10,000 in city court. Filing is inexpensive and no attorney is required.",
+      "Free advice on consumer disputes is available through Legal Aid Society of Rochester at (585) 232-4090."
     ]
   },
 
   example: {
-    en: "A woman buys a jacket at a Rochester clothing store. She brings it back 10 days later, unworn with the tags on. The cashier says 'all sales final.' The woman looks around the store and at the register — there is no posted return policy. Under GBL § 218-a, because no policy was posted, she has 30 days for a full refund. She cites the law. If the store still refuses, she can file a complaint with the AG."
+    en: "A woman buys a jacket at a Rochester clothing store. She brings it back 10 days later, unworn with the tags on. The cashier says 'all sales final.' The woman looks around the store and at the register — there is no posted return policy. Under GBL 218-a, with no policy posted, she is entitled to a full refund within 20 days of purchase. She cites the law. When the store still refuses, she files a complaint with the NYS Attorney General."
   },
 
   counsel: [
     {
       type: "free",
-      name: "NY Attorney General — Consumer Bureau",
+      name: "NY Attorney General — Consumer Frauds Bureau",
       focus: "Return policy violations, consumer complaints",
       qualifier: "Any consumer in New York",
       access: "Phone or online",
@@ -79,7 +80,7 @@ export const RETURN_REFUND_POLICY_NY = {
     "return policy",
     "refund policy",
     "all sales final",
-    "30 day return",
+    "20 day return",
     "GBL 218-a",
     "no posted policy",
     "store refund",
@@ -91,10 +92,12 @@ export const RETURN_REFUND_POLICY_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/GBS/218-A"
+    "https://www.nysenate.gov/legislation/laws/GBS/218-A",
+    "https://ag.ny.gov/consumer-frauds-bureau",
+    "https://www.law.cornell.edu/ucc/2/2-314"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-22",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
