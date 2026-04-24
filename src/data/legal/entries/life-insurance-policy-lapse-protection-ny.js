@@ -92,10 +92,11 @@ export const LIFE_INSURANCE_POLICY_LAPSE_PROTECTION_NY = {
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/ISC/3211"
+    "https://www.nysenate.gov/legislation/laws/ISC/3211",
+    "https://www.dfs.ny.gov/consumers/help_for_seniors/life_insurance"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-23",
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
