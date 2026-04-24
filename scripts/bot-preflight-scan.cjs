@@ -41,6 +41,11 @@ const args = process.argv.slice(2).reduce((acc, a) => {
 }, {});
 const TOP = parseInt(args.top, 10) || 0;
 const MIN_SCORE = parseInt(args['min-score'], 10) || 0;
+// --fail-at=N makes this script exit 1 when any non-bankruptcy entry has a
+// preflight score >= N. Used by `npm run verify` and `npm run build` to hard-
+// gate entries that drift into lawyer-register, thin body, etc. Entries with
+// score below the threshold continue to report as WARN only.
+const FAIL_AT = Number.isFinite(parseInt(args['fail-at'], 10)) ? parseInt(args['fail-at'], 10) : null;
 
 // ── Hard exclusions ─────────────────────────────────────────────────────────
 const BANKRUPTCY_FILES = new Set([
@@ -410,6 +415,22 @@ async function main() {
   console.log('-----  ------  ---------  --------------------------------------------');
   for (const r of queue.slice(0, 50)) {
     console.log(String(r.score).padStart(5) + '  ' + String(r.issues.length).padStart(6) + '  ' + String(r.category || '-').padEnd(10) + '  ' + r.file);
+  }
+
+  // Hard-fail gate: exit 1 if any entry meets/exceeds --fail-at threshold.
+  if (FAIL_AT !== null) {
+    const offenders = queue.filter((r) => r.score >= FAIL_AT);
+    if (offenders.length > 0) {
+      console.log('');
+      console.log('FAIL: ' + offenders.length + ' entr' + (offenders.length === 1 ? 'y' : 'ies') +
+        ' scored >= ' + FAIL_AT + ' on the preflight scanner.');
+      console.log('Fix the issues above (lawyer-register scrubs, body expansion, third-person voice, statute citation in body) before shipping.');
+      console.log('See CLAUDE.md "Plain-English explainer voice" section for the full rule set.');
+      process.exit(1);
+    } else {
+      console.log('');
+      console.log('OK: no entries score >= ' + FAIL_AT + ' (preflight gate clean).');
+    }
   }
 }
 

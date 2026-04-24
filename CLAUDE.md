@@ -14,8 +14,8 @@ Three user-facing products:
 ## Commands
 
 - `npm run dev` — Vite dev server
-- `npm run build` — verify entry uniqueness + Vite build + prerender legal/glossary/help/landing pages + generate sitemap. Fails fast if any entry is missing `authorityType` or collides on composite key.
-- `npm run verify` — run the entry-uniqueness validator standalone (no build).
+- `npm run build` — verify entry uniqueness + preflight gate + Vite build + prerender legal/glossary/help/landing pages + generate sitemap. Fails fast if any entry is missing `authorityType`, collides on composite key, or scores >= 5 on the preflight scanner.
+- `npm run verify` — run the entry-uniqueness validator + preflight gate (no build). Hard-fails on score >= 5.
 - `npm run preview` — serve production build locally
 - `node scripts/scaffold-entry.cjs --id {id} --category {cat} --authorityType {type} [--primaryStatute "NY XXX 123"]` — create a new entry template file with every required field at the right shape. Author fills in the TODO blocks, then runs `npm run verify`.
 
@@ -276,6 +276,17 @@ the calibration is re-read at the start of every batch. The build-gated
 FAILs catch the worst drift but cannot detect everything; the preflight
 re-read covers the rest. Then run `npm run verify` after every single
 entry, not after the batch.
+
+**Preflight scanner gate (build-gated, added 2026-04-23):**
+`npm run verify` and `npm run build` now invoke `scripts/bot-preflight-scan.cjs
+--fail-at=5` after the structural validator. Any non-bankruptcy entry that
+scores >= 5 hard-fails the build. The scanner scores drift patterns
+(lawyer-register words, thin body < 300 words, directive imperatives,
+second-person body drift, long sentences, citation density, undefined
+acronyms, title suffixes). Threshold starts at 5 (loose) to give room for
+judgment-call WARNs and will ratchet toward 1 as authoring stabilizes. This
+gate locks in the 122-entry retrofit effort so drift cannot silently creep
+back in through new authoring.
 
 ### Bankruptcy files are off-limits for bulk scripts
 The 7 `bankruptcy-*-ny.js` entries were written/approved by Prof. Gregory
