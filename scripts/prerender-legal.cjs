@@ -508,6 +508,20 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
       '</a>'
     : '';
 
+  // Parse optional entry.reviewedBy string into a Person schema.
+  // Format convention: "Prof. Name, Affiliation — Date" or "Prof. Name — Date".
+  const reviewerPerson = (() => {
+    const rb = entry.reviewedBy;
+    if (!rb || typeof rb !== 'string') return null;
+    const [nameAffiliation] = rb.split(/\s*[—–]\s*/);
+    const parts = nameAffiliation.split(/,\s*/);
+    const person = { '@type': 'Person', name: parts[0].trim() };
+    if (parts[1]) {
+      person.affiliation = { '@type': 'Organization', name: parts[1].trim() };
+    }
+    return person;
+  })();
+
   const jsonLD = jsonLDSafe({
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -518,6 +532,7 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
     dateModified: entry.lastVerified || entry.lastAudited || '2026-04-04',
     author: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
     publisher: { '@type': 'Organization', name: 'HelpFinder', url: SITE_URL },
+    ...(reviewerPerson ? { editor: reviewerPerson, reviewedBy: reviewerPerson } : {}),
     mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
     keywords: tags.join(', '),
     about: { '@type': 'Thing', name: (CATEGORY_META[entry.category] && CATEGORY_META[entry.category].label) || entry.category || 'Legal rights' },
