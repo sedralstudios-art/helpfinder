@@ -20,6 +20,44 @@ const TERM_REGEX = TERM_KEYS.length > 0
   ? new RegExp("\\b(" + TERM_KEYS.map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") + ")\\b", "gi")
   : null;
 
+// Phone-number pattern. Conservative — requires fixed-length digit groups
+// separated by standard punctuation. Won't match statute citations like
+// "235-B" or "NY LAB 191". Duplicated in scripts/prerender-legal.cjs for SSR.
+const PHONE_REGEX = /(?:\+?1[\s.\-])?\(?\d{3}\)?[\s.\-]\d{3}[\s.\-]\d{4}/g;
+
+function linkifyPhones(text, keyPrefix) {
+  if (typeof text !== "string" || !text) return text;
+  const parts = [];
+  let lastIdx = 0;
+  let m;
+  PHONE_REGEX.lastIndex = 0;
+  while ((m = PHONE_REGEX.exec(text)) !== null) {
+    if (m.index > lastIdx) parts.push(text.slice(lastIdx, m.index));
+    const digits = m[0].replace(/[^\d+]/g, "");
+    parts.push(
+      React.createElement(
+        "a",
+        {
+          key: keyPrefix + "-p" + m.index,
+          href: "tel:" + digits,
+          style: {
+            color: "inherit",
+            textDecoration: "underline",
+            textDecorationStyle: "dotted",
+            textDecorationColor: "#2e7d32",
+            textUnderlineOffset: 2,
+          },
+        },
+        m[0],
+      ),
+    );
+    lastIdx = m.index + m[0].length;
+  }
+  if (lastIdx === 0) return text;
+  if (lastIdx < text.length) parts.push(text.slice(lastIdx));
+  return parts;
+}
+
 function pickText(field) {
   if (!field) return "";
   if (typeof field === "string") return field;
@@ -102,7 +140,7 @@ export default function GlossaryText({ text, maxHighlights }) {
   return (
     <span>
       {segments.map((seg, i) => {
-        if (seg.type === "text") return <span key={i}>{seg.value}</span>;
+        if (seg.type === "text") return <span key={i}>{linkifyPhones(seg.value, "s" + i)}</span>;
 
         const isExpanded = expandedTermId === seg.termId;
         const term = GLOSSARY_TERMS_BY_ID[seg.termId];

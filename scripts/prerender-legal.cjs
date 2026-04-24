@@ -394,18 +394,37 @@ const SHARED_CSS = `
 `;
 
 // ── Entry page ──
+// Phone pattern: (XXX) XXX-XXXX, XXX-XXX-XXXX, 1-XXX-XXX-XXXX. Conservative —
+// requires at least one separator and fixed-length digit groups to avoid
+// matching statute citations like "235-B" or "NY LAB 191".
+const PHONE_REGEX_SSR = /(?:\+?1[\s.\-])?\(?\d{3}\)?[\s.\-]\d{3}[\s.\-]\d{4}/g;
+
 function autoLinkGlossary(text) {
   const regex = globalThis.GLOSSARY_REGEX;
   const map = globalThis.GLOSSARY_ALIAS_MAP || {};
-  if (!regex || !text) return esc(text);
-  const escaped = esc(text);
-  const seen = new Set();
-  return escaped.replace(regex, (match) => {
-    const id = map[match.toLowerCase()];
-    if (!id || seen.has(id)) return match;
-    seen.add(id);
-    return '<a href="/glossary/' + id + '" style="color:#5e35b1;text-decoration:underline dotted #5e35b1;text-underline-offset:2px;">' + match + '</a>';
+  if (!text) return esc(text);
+  let escaped = esc(text);
+
+  // Glossary-term linking (runs first so phone linkification cannot interfere)
+  if (regex) {
+    const seen = new Set();
+    escaped = escaped.replace(regex, (match) => {
+      const id = map[match.toLowerCase()];
+      if (!id || seen.has(id)) return match;
+      seen.add(id);
+      return '<a href="/glossary/' + id + '" style="color:#5e35b1;text-decoration:underline dotted #5e35b1;text-underline-offset:2px;">' + match + '</a>';
+    });
+  }
+
+  // Phone-number linkification — safe to run after glossary because phone
+  // patterns cannot match inside glossary anchor hrefs (/glossary/ids have no
+  // phone-shaped digit groups) or the word-based glossary term display text.
+  escaped = escaped.replace(PHONE_REGEX_SSR, (match) => {
+    const digits = match.replace(/[^\d+]/g, '');
+    return '<a href="tel:' + digits + '" style="color:inherit;text-decoration:underline dotted #2e7d32;text-underline-offset:2px;">' + match + '</a>';
   });
+
+  return escaped;
 }
 
 function generateEntryHTML(entry, langMeta, bundleTags) {
@@ -468,7 +487,7 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
     : '';
 
   const whoQualHTML = whoQual.length
-    ? '<h2>Who qualifies</h2><ul>' + whoQual.map((i) => '<li>' + esc(i) + '</li>').join('') + '</ul>'
+    ? '<h2>Who qualifies</h2><ul>' + whoQual.map((i) => '<li>' + autoLinkGlossary(i) + '</li>').join('') + '</ul>'
     : '';
   const whatItMeansHTML = whatItMeans ? '<h2>What it means</h2><p>' + autoLinkGlossary(whatItMeans) + '</p>' : '';
   const rightsHTML = rights.length
