@@ -191,6 +191,13 @@ function buildHeadCommon(title, metaDesc, canonical, jsonBlocks, bundleTags) {
     '    <meta property="og:description" content="' + esc(metaDesc) + '" />\n' +
     '    <meta property="og:url" content="' + esc(canonical) + '" />\n' +
     '    <meta property="og:site_name" content="HelpFinder" />\n' +
+    '    <meta property="og:image" content="' + esc(SITE_URL) + '/og-image.png" />\n' +
+    '    <meta property="og:image:width" content="1200" />\n' +
+    '    <meta property="og:image:height" content="630" />\n' +
+    '    <meta name="twitter:card" content="summary_large_image" />\n' +
+    '    <meta name="twitter:title" content="' + esc(title) + '" />\n' +
+    '    <meta name="twitter:description" content="' + esc(metaDesc) + '" />\n' +
+    '    <meta name="twitter:image" content="' + esc(SITE_URL) + '/og-image.png" />\n' +
     jsonBlocks.map((b) => '    <script type="application/ld+json">\n' + jsonLDSafe(b) + '\n    </script>').join('\n') + '\n' +
     '    ' + bundleTags.links + '\n' +
     '    ' + bundleTags.scripts + '\n' +

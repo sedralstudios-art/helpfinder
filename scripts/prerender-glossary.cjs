@@ -154,6 +154,13 @@ function generateTermHTML(term, bundleTags) {
     <meta property="og:description" content="${esc(metaDesc)}" />
     <meta property="og:url" content="${esc(canonical)}" />
     <meta property="og:site_name" content="HelpFinder" />
+    <meta property="og:image" content="${esc(SITE_URL)}/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${esc(pageTitle)}" />
+    <meta name="twitter:description" content="${esc(metaDesc)}" />
+    <meta name="twitter:image" content="${esc(SITE_URL)}/og-image.png" />
     <script type="application/ld+json">
 ${jsonLD}
     </script>
@@ -215,6 +222,14 @@ function generateCategoryHTML(cat, termsInCat, bundleTags) {
     <meta property="og:title" content="${esc(pageTitle)}" />
     <meta property="og:description" content="${esc(metaDesc)}" />
     <meta property="og:url" content="${esc(canonical)}" />
+    <meta property="og:site_name" content="HelpFinder" />
+    <meta property="og:image" content="${esc(SITE_URL)}/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${esc(pageTitle)}" />
+    <meta name="twitter:description" content="${esc(metaDesc)}" />
+    <meta name="twitter:image" content="${esc(SITE_URL)}/og-image.png" />
     ${bundleTags.links}
     ${bundleTags.scripts}
     <style>${SHARED_CSS}</style>
@@ -267,6 +282,14 @@ function generateIndexHTML(allTerms, termsByCategory, bundleTags) {
     <meta property="og:title" content="${esc(pageTitle)}" />
     <meta property="og:description" content="${esc(metaDesc)}" />
     <meta property="og:url" content="${esc(canonical)}" />
+    <meta property="og:site_name" content="HelpFinder" />
+    <meta property="og:image" content="${esc(SITE_URL)}/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${esc(pageTitle)}" />
+    <meta name="twitter:description" content="${esc(metaDesc)}" />
+    <meta name="twitter:image" content="${esc(SITE_URL)}/og-image.png" />
     ${bundleTags.links}
     ${bundleTags.scripts}
     <style>${SHARED_CSS}</style>

@@ -598,9 +598,14 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
     <meta property="og:url" content="${esc(canonical)}" />
     <meta property="og:site_name" content="HelpFinder" />
     <meta property="og:locale" content="${esc(langMeta.htmlLang.replace('-', '_'))}" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="${esc(SITE_URL)}/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HelpFinder — Rochester, NY community resource and legal rights directory" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${esc(title)}" />
     <meta name="twitter:description" content="${esc(metaDesc)}" />
+    <meta name="twitter:image" content="${esc(SITE_URL)}/og-image.png" />
 ${buildHreflang(urlPathForEntry, entry.id, langsForEntry(entry))}
     <script type="application/ld+json">
 ${jsonLD}
