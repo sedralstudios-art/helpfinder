@@ -521,7 +521,37 @@ function generateEntryHTML(entry, langMeta, bundleTags) {
     mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
     keywords: tags.join(', '),
     about: { '@type': 'Thing', name: (CATEGORY_META[entry.category] && CATEGORY_META[entry.category].label) || entry.category || 'Legal rights' },
+    isAccessibleForFree: true,
+    isFamilyFriendly: true,
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.lead'],
+    },
   });
+
+  // HowTo JSON-LD for entries with a procedural legalOptions list (>= 3 items).
+  // Google restricted HowTo rich results to DIY content in 2023, but the schema
+  // is still valid structured-data signal for Bing, Perplexity, and LLM search.
+  const legalOptsForHowTo = Array.isArray(entry.legalOptions && entry.legalOptions[lang])
+    ? entry.legalOptions[lang]
+    : Array.isArray(entry.legalOptions && entry.legalOptions.en)
+      ? entry.legalOptions.en
+      : null;
+  const howToJsonLD = (legalOptsForHowTo && legalOptsForHowTo.length >= 3)
+    ? jsonLDSafe({
+        '@context': 'https://schema.org',
+        '@type': 'HowTo',
+        name: title,
+        description: summary,
+        inLanguage: langMeta.htmlLang,
+        step: legalOptsForHowTo.map((item, i) => ({
+          '@type': 'HowToStep',
+          position: i + 1,
+          name: String(item).split(/[.:;]/)[0].slice(0, 110).trim(),
+          text: String(item),
+        })),
+      })
+    : null;
 
   // BreadcrumbList: Home → Know Your Rights → [Category] → [Entry]
   const categoryLabel = (CATEGORY_META[entry.category] && CATEGORY_META[entry.category].label) || entry.category || 'Legal';
@@ -562,6 +592,7 @@ ${jsonLD}
     <script type="application/ld+json">
 ${breadcrumbJsonLD}
     </script>
+    ${howToJsonLD ? `<script type="application/ld+json">\n${howToJsonLD}\n    </script>` : ''}
     ${bundleTags.links}
     ${bundleTags.scripts}
     <style>${SHARED_CSS}</style>
