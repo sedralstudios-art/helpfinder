@@ -16,7 +16,7 @@ export const TEMPORARY_ASSISTANCE = {
   },
 
   plainEnglish: {
-    en: "Cash help from the state for people who do not have enough to cover basic needs like rent, utilities, and food. There are two kinds. Family Assistance is for households with a minor child and comes with a 60-month lifetime limit from the federal government. Safety Net Assistance is for adults without minor children and some other groups — it is funded by the state and does not have the same federal lifetime limit. You apply at your county's Department of Social Services. Most people who get TA also get SNAP and Medicaid — one application covers them all."
+    en: "Cash help from the state for people who do not have enough to cover basic needs like rent, utilities, and food. There are two kinds. Family Assistance is for households with a minor child and comes with a 60-month lifetime limit from the federal government. Safety Net Assistance is for adults without minor children and some other groups — it is funded by the state and does not have the same federal lifetime limit. Applications go through the county's Department of Social Services. Most TA recipients also get SNAP and Medicaid — one application covers them all."
   },
 
   whatToAsk: {

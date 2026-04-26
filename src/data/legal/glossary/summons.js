@@ -16,7 +16,7 @@ export const SUMMONS = {
   },
 
   plainEnglish: {
-    en: "A court paper telling you to come to court on a certain date for arraignment. A judge sends it after a case has been filed, usually when the judge thinks the person will show up on their own and does not need to be arrested. A summons is not the same as a desk appearance ticket. The police hand out DATs. The court issues summonses. If you get a summons and do not come to court on the date, the judge can issue a warrant for your arrest."
+    en: "A court paper telling the defendant to come to court on a certain date for arraignment. A judge sends it after a case has been filed, usually when the judge thinks the person will show up on their own and does not need to be arrested. A summons is not the same as a desk appearance ticket. The police hand out DATs. The court issues summonses. A defendant who gets a summons and does not come to court on the date can have a warrant issued for arrest."
   },
 
   whatToAsk: {

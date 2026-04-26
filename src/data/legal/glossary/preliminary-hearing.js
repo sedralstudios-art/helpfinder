@@ -17,7 +17,7 @@ export const PRELIMINARY_HEARING = {
   },
 
   plainEnglish: {
-    en: "A hearing where the prosecutor has to show a judge there is reasonable cause to believe a felony was committed. It happens in the lower court, before a grand jury gets involved. Your lawyer can cross-examine the prosecutor's witnesses. You have the right to be there and to testify, though most defendants do not. Only first-hand, non-hearsay evidence counts at a preliminary hearing, with some narrow exceptions. If the judge finds reasonable cause, the case moves up to superior court. If not, the felony is dismissed. Most felony cases skip the preliminary hearing because the prosecutor goes to a grand jury first."
+    en: "A hearing where the prosecutor has to show a judge there is reasonable cause to believe a felony was committed. It happens in the lower court, before a grand jury gets involved. The defense lawyer can cross-examine the prosecutor's witnesses. The defendant has the right to be there and to testify, though most defendants do not. Only first-hand, non-hearsay evidence counts at a preliminary hearing, with some narrow exceptions. If the judge finds reasonable cause, the case moves up to superior court. If not, the felony is dismissed. Most felony cases skip the preliminary hearing because the prosecutor goes to a grand jury first."
   },
 
   whatToAsk: {

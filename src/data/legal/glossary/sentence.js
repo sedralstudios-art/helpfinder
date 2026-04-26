@@ -14,7 +14,7 @@ export const SENTENCE = {
   },
 
   plainEnglish: {
-    en: "What the judge orders after you plead guilty or are found guilty at trial. A sentence in New York can be any of: no punishment at all (unconditional discharge), a conditional discharge with rules, a fine, restitution, probation, jail (up to 1 year, local jail), or prison (more than 1 year, state prison). Most sentences also include a mandatory surcharge. Some convictions come with extra things — like a license suspension for a DWI, or a no-contact order for a violent case. The sentence is the end of the case unless you file an appeal."
+    en: "What the judge orders after the defendant pleads guilty or is found guilty at trial. A sentence in New York can be any of: no punishment at all (unconditional discharge), a conditional discharge with rules, a fine, restitution, probation, jail (up to 1 year, local jail), or prison (more than 1 year, state prison). Most sentences also include a mandatory surcharge. Some convictions come with extra things — like a license suspension for a DWI, or a no-contact order for a violent case. The sentence is the end of the case unless an appeal is filed."
   },
 
   whatToAsk: {

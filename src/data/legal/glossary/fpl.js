@@ -10,7 +10,7 @@ export const FPL = {
   },
 
   plainEnglish: {
-    en: "A dollar amount set by the federal government each year that represents the minimum income a household needs. Programs use it to set eligibility. For example, Medicaid in New York covers people up to 138% of FPL — meaning if you earn up to 1.38 times the poverty level, you qualify. For a single person in 2026, 100% FPL is about $15,060 per year. For a family of four, about $31,200. When a program says '200% FPL,' multiply those numbers by 2. The FPL goes up a little each year. Almost every public benefits program — SNAP, Medicaid, HEAP, WIC, childcare subsidy, school lunch — uses some version of the FPL to decide who gets in."
+    en: "A dollar amount set by the federal government each year that represents the minimum income a household needs. Programs use it to set eligibility. For example, Medicaid in New York covers people up to 138% of FPL — meaning a household earning up to 1.38 times the poverty level qualifies. The dollar value of 100% FPL is set per household size and adjusted yearly; current values are at aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines. When a program says '200% FPL,' multiply the FPL number by 2. Almost every public benefits program — SNAP, Medicaid, HEAP, WIC, childcare subsidy, school lunch — uses some version of the FPL to decide who gets in."
   },
 
   whatToAsk: {

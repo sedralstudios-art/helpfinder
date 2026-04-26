@@ -16,7 +16,7 @@ export const DISCOVERY = {
   },
 
   plainEnglish: {
-    en: "The evidence the prosecutor has to share with your side. In New York since 2020, the prosecutor must turn over 21 kinds of things — police reports, witness names and contact info, 911 calls, videos, deals made with witnesses, and more — on a strict timeline. Your lawyer uses this to figure out how strong the case is and to decide whether to take a plea or go to trial. If the prosecutor misses the deadline or hides something, your lawyer can ask the judge to fix it or throw the case out."
+    en: "The evidence the prosecutor has to share with the defense. In New York since 2020, the prosecutor must turn over 21 kinds of things — police reports, witness names and contact info, 911 calls, videos, deals made with witnesses, and more — on a strict timeline. The defense lawyer uses this to figure out how strong the case is and to decide whether to take a plea or go to trial. If the prosecutor misses the deadline or hides something, the defense can ask the judge to fix it or throw the case out."
   },
 
   whatToAsk: {

@@ -10,7 +10,7 @@ export const BUILDING_PERMIT = {
   },
 
   plainEnglish: {
-    en: "A building permit is permission from the local government to do construction work on a property. The permit makes sure the work follows the building code and zoning rules — things like how far from the property line you can build, how tall a structure can be, and whether the electrical and plumbing work is safe. You apply at the local building department and pay a fee. An inspector checks the work during and after construction. Building without a permit can result in fines, a stop-work order, and being forced to tear down what was built. When selling a house, unpermitted work can cause problems with the buyer's inspection and insurance."
+    en: "A building permit is permission from the local government to do construction work on a property. The permit makes sure the work follows the building code and zoning rules — things like setbacks from the property line, height limits, and safe electrical and plumbing work. The owner applies at the local building department and pays a fee. An inspector checks the work during and after construction. Building without a permit can result in fines, a stop-work order, and being forced to tear down what was built. When selling a house, unpermitted work can cause problems with the buyer's inspection and insurance."
   },
 
   whatToAsk: {

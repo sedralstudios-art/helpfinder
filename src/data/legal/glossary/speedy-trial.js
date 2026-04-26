@@ -16,7 +16,7 @@ export const SPEEDY_TRIAL = {
   },
 
   plainEnglish: {
-    en: "A rule that gives the prosecutor only so much time to be ready for trial after your case is filed. The time depends on the charge: about 6 months for a felony, 90 days for a Class A misdemeanor, 60 days for a Class B misdemeanor. Some time does not count, like when your own lawyer asks for more time. If the prosecutor goes past the limit, your lawyer can file a motion to dismiss the case on speedy-trial grounds. This is one of the strongest ways to get a case thrown out."
+    en: "A rule that gives the prosecutor only so much time to be ready for trial after a case is filed. The time depends on the charge: about 6 months for a felony, 90 days for a Class A misdemeanor, 60 days for a Class B misdemeanor. Some time does not count, like when the defense asks for more time. If the prosecutor goes past the limit, the defense can file a motion to dismiss the case on speedy-trial grounds. This is one of the strongest ways to get a case thrown out."
   },
 
   whatToAsk: {

@@ -16,7 +16,7 @@ export const SEALED_RECORD = {
   },
 
   plainEnglish: {
-    en: "When a case is sealed, most people — including future employers and landlords — cannot see that it ever happened. Police and some government agencies can still see it for a few reasons (like a new case or a gun license). New York seals the record on its own when a case ends in your favor: dismissed, found not guilty, ACD finished clean, or charges dropped. You do not have to ask. For other cases, like finished convictions, you may need to apply — the rules depend on the charge and how long it has been."
+    en: "When a case is sealed, most people — including future employers and landlords — cannot see that it ever happened. Police and some government agencies can still see it for a few reasons (like a new case or a gun license). New York seals the record automatically when a case ends in the defendant's favor: dismissed, found not guilty, ACD finished clean, or charges dropped. No application is needed. For other cases, like finished convictions, an application may be required — the rules depend on the charge and how long it has been."
   },
 
   whatToAsk: {

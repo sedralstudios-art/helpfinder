@@ -14,7 +14,7 @@ export const INDICTMENT = {
   },
 
   plainEnglish: {
-    en: "The official paper from a grand jury that says you are charged with a felony. Once you are indicted, the case moves to superior court (also called county court). You get arraigned again — this time on the indictment — and the next stages (hearings, motions, trial) happen there. An indictment is not a finding of guilt. It only means the case is going forward."
+    en: "The official paper from a grand jury that says the defendant is charged with a felony. After indictment, the case moves to superior court (also called county court). The defendant is arraigned again — this time on the indictment — and the next stages (hearings, motions, trial) happen there. An indictment is not a finding of guilt. It only means the case is going forward."
   },
 
   whatToAsk: {

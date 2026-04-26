@@ -16,7 +16,7 @@ export const SMALL_CLAIMS = {
   },
 
   plainEnglish: {
-    en: "A part of the local court that handles smaller money disputes — up to $10,000 inside New York City, up to $5,000 everywhere else in New York. Filing fees are low (around $15 to $20). The process is simpler than regular court — less paperwork, no formal rules of evidence, usually one short hearing. Lawyers are not required, and most people do not bring one. You can file it yourself at the clerk's window of the city court, town court, or village justice court where the other party lives or works. If you win, you get a judgment — collecting on it is a separate step."
+    en: "A part of the local court that handles smaller money disputes, with dollar caps set by statute (NYCCCA, UCCA, and UJCA § 1801) — current caps for NYC and outside-NYC are at nycourts.gov. Filing fees are modest. The process is simpler than regular court — less paperwork, no formal rules of evidence, usually one short hearing. Lawyers are not required, and most people do not bring one. The plaintiff files at the clerk's window of the city court, town court, or village justice court where the other party lives or works. A win produces a judgment — collecting on it is a separate step."
   },
 
   whatToAsk: {

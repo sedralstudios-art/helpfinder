@@ -13,7 +13,7 @@ export const VIOLATION = {
   },
 
   plainEnglish: {
-    en: "A violation is not a crime in New York. It is still an offense you can be charged with, but the most jail time possible is 15 days. A violation does not give you a criminal record the way a misdemeanor or felony does. Many people take a violation as a deal to end a case that started as a misdemeanor."
+    en: "A violation is not a crime in New York. It is still an offense the defendant can be charged with, but the most jail time possible is 15 days. A violation does not produce a criminal record the way a misdemeanor or felony does. Many defendants take a violation as a deal to end a case that started as a misdemeanor."
   },
 
   whatToAsk: {

@@ -10,7 +10,7 @@ export const EMERGENCY_ROOM_RIGHTS = {
   },
 
   plainEnglish: {
-    en: "Under a federal law called EMTALA (Emergency Medical Treatment and Labor Act), every hospital with an emergency department must screen and stabilize anyone who comes in with an emergency condition — regardless of whether they can pay, whether they have insurance, and regardless of immigration status. The hospital cannot ask about payment or insurance before providing the screening. If you are in labor, they must deliver the baby. After stabilization, billing is a separate issue — you may qualify for Medicaid, charity care, or a payment plan. The hospital cannot refuse to treat you because of a past unpaid bill."
+    en: "Under a federal law called EMTALA (Emergency Medical Treatment and Labor Act), every hospital with an emergency department must screen and stabilize anyone who comes in with an emergency condition — regardless of whether they can pay, whether they have insurance, and regardless of immigration status. The hospital cannot ask about payment or insurance before providing the screening. A patient in labor must be delivered. After stabilization, billing is a separate issue — the patient may qualify for Medicaid, charity care, or a payment plan. The hospital cannot refuse to treat a patient because of a past unpaid bill."
   },
 
   whatToAsk: {

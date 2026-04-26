@@ -16,7 +16,7 @@ export const MEDICAID = {
   },
 
   plainEnglish: {
-    en: "Free or very low-cost health insurance for low-income New Yorkers. It pays for doctor visits, hospital stays, prescriptions, dental, vision, mental health, and long-term care. The income limit for most adults under 65 is 138% of the federal poverty level — about $1,836 per month for one person in 2026. For seniors, people with disabilities, and long-term care, the rules are different and may include an asset test or a spend-down. Apply online at nystateofhealth.ny.gov for most people, or through your county's DSS if you are 65 or older, have a disability, or need long-term care."
+    en: "Free or very low-cost health insurance for low-income New Yorkers. It pays for doctor visits, hospital stays, prescriptions, dental, vision, mental health, and long-term care. The income limit for most adults under 65 is 138% of the federal poverty level. The current dollar amount is at nystateofhealth.ny.gov. For seniors, people with disabilities, and long-term care, the rules are different and may include an asset test or a spend-down. Most applicants apply online at nystateofhealth.ny.gov; the county DSS handles applications for adults 65 and older, people with disabilities, and long-term care."
   },
 
   whatToAsk: {

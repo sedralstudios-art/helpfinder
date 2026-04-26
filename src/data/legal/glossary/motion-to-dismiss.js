@@ -16,7 +16,7 @@ export const MOTION_TO_DISMISS = {
   },
 
   plainEnglish: {
-    en: "A written request to the judge asking to end the case. The lawyer gives reasons, like: the paperwork has a mistake, too much time has passed, you were already tried for this, or the evidence is too weak. The prosecutor gets to answer. The judge then decides. If it is granted, the case is over. If it is denied, the case keeps going — you can still fight it at trial or settle it with a plea."
+    en: "A written request to the judge asking to end the case. The defense lawyer gives reasons — the paperwork has a mistake, too much time has passed, the defendant was already tried for this, or the evidence is too weak. The prosecutor gets to answer. The judge then decides. If granted, the case is over. If denied, the case keeps going — the defendant can still fight it at trial or settle it with a plea."
   },
 
   whatToAsk: {
