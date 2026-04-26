@@ -83,7 +83,7 @@ const S = {
     siteName: 'HelpFinder',
     homeTitle: 'HelpFinder — Ayuda Gratuita, En Todas Partes',
     homeH1: 'Ayuda gratuita en Rochester y el condado de Monroe, Nueva York',
-    homeLede: 'Comida. Vivienda. Salud. Empleo. Apoyo en crisis. Derechos legales. Cientos de programas gratuitos en 8 idiomas. Sin cuentas. Sin datos personales. Solo respuestas.',
+    homeLede: 'Comida. Vivienda. Salud. Empleo. Apoyo en crisis. Derechos legales. Cientos de programas gratuitos. Sin cuentas. Sin datos personales. Solo respuestas.',
     door1Btn: 'Buscar ayuda',
     door1Sub: 'O llame al 211 — gratis, 24/7, cualquier idioma',
     door2Title: 'Conozca Sus Derechos',
@@ -113,7 +113,7 @@ const S = {
     siteName: 'HelpFinder',
     homeTitle: 'HelpFinder — सबैका लागि निःशुल्क सहयोग',
     homeH1: 'रोचेस्टर र मनरो काउन्टी, न्यूयोर्कमा निःशुल्क सहायता',
-    homeLede: 'खाना। बसोबास। स्वास्थ्य। रोजगार। संकट सहयोग। कानूनी अधिकार। ८ भाषामा सयौं निःशुल्क कार्यक्रमहरू। कुनै खाता छैन। कुनै डाटा छैन।',
+    homeLede: 'खाना। बसोबास। स्वास्थ्य। रोजगार। संकट सहयोग। कानूनी अधिकार। सयौं निःशुल्क कार्यक्रमहरू। कुनै खाता छैन। कुनै डाटा छैन।',
     door1Btn: 'सहायता खोज्नुहोस्',
     door1Sub: 'वा 211 मा कल गर्नुहोस् — निःशुल्क, 24/7',
     door2Title: 'आफ्ना अधिकार जान्नुहोस्',
@@ -143,7 +143,7 @@ const S = {
     siteName: 'HelpFinder',
     homeTitle: 'HelpFinder — مساعدة مجانية، في كل مكان',
     homeH1: 'مساعدة مجانية في روتشستر ومقاطعة مونرو، نيويورك',
-    homeLede: 'طعام. سكن. صحة. وظائف. دعم في الأزمات. حقوق قانونية. مئات البرامج المجانية بـ 8 لغات. بدون حسابات. بدون بيانات شخصية.',
+    homeLede: 'طعام. سكن. صحة. وظائف. دعم في الأزمات. حقوق قانونية. مئات البرامج المجانية. بدون حسابات. بدون بيانات شخصية.',
     door1Btn: 'ابحث عن مساعدة',
     door1Sub: 'أو اتصل بـ 211 — مجاني، 24/7، أي لغة',
     door2Title: 'اعرف حقوقك',
@@ -173,7 +173,7 @@ const S = {
     siteName: 'HelpFinder',
     homeTitle: 'HelpFinder — Msaada wa Bure, Kila Mahali',
     homeH1: 'Msaada wa bure katika Rochester na Monroe County, New York',
-    homeLede: 'Chakula. Makazi. Afya. Kazi. Msaada wa dharura. Haki za kisheria. Mamia ya programu za bure katika lugha 8. Hakuna akaunti. Hakuna data.',
+    homeLede: 'Chakula. Makazi. Afya. Kazi. Msaada wa dharura. Haki za kisheria. Mamia ya programu za bure. Hakuna akaunti. Hakuna data.',
     door1Btn: 'Tafuta msaada',
     door1Sub: 'Au piga 211 — bure, 24/7, lugha yoyote',
     door2Title: 'Fahamu Haki Zako',
@@ -203,7 +203,7 @@ const S = {
     siteName: 'HelpFinder',
     homeTitle: 'HelpFinder — လူတိုင်းအတွက် အခမဲ့အကူအညီ',
     homeH1: 'နယူးယောက်၊ Rochester နှင့် Monroe County အတွက် အခမဲ့အကူအညီ',
-    homeLede: 'အစားအစာ။ အိမ်ရာ။ ကျန်းမာရေး။ အလုပ်။ အရေးပေါ်အကူအညီ။ ဥပဒေရေးအခွင့်အရေး။ ဘာသာစကား ၈ ခုဖြင့် အခမဲ့အစီအစဉ်ရာပေါင်းများစွာ။',
+    homeLede: 'အစားအစာ။ အိမ်ရာ။ ကျန်းမာရေး။ အလုပ်။ အရေးပေါ်အကူအညီ။ ဥပဒေရေးအခွင့်အရေး။ အခမဲ့အစီအစဉ်ရာပေါင်းများစွာ။',
     door1Btn: 'အကူအညီရှာပါ',
     door1Sub: 'သို့မဟုတ် 211 ကို ခေါ်ပါ — အခမဲ့, 24/7',
     door2Title: 'သင့်အခွင့်အရေးကို သိပါ',
@@ -233,7 +233,7 @@ const S = {
     siteName: 'HelpFinder',
     homeTitle: 'HelpFinder — Caawimaad Bilaash Ah, Meel Walba',
     homeH1: 'Caawimo bilaash ah Rochester iyo Monroe County, New York',
-    homeLede: 'Cunto. Guryo. Caafimaad. Shaqooyin. Taageero xaalad deg-deg ah. Xuquuqda sharciga. Boqollaal barnaamijyo bilaash ah 8 luuqadood.',
+    homeLede: 'Cunto. Guryo. Caafimaad. Shaqooyin. Taageero xaalad deg-deg ah. Xuquuqda sharciga. Boqollaal barnaamijyo bilaash ah.',
     door1Btn: 'Raadi caawimaad',
     door1Sub: 'Ama wac 211 — bilaash, 24/7, luqad kasta',
     door2Title: 'Ogow Xuquuqdaada',
@@ -263,7 +263,7 @@ const S = {
     siteName: 'HelpFinder',
     homeTitle: 'HelpFinder — 免费帮助，无处不在',
     homeH1: '罗切斯特和门罗县免费帮助（纽约州）',
-    homeLede: '食物。住房。医疗。工作。危机支持。法律权利。8种语言的数百个免费项目。无账户。不收集个人数据。',
+    homeLede: '食物。住房。医疗。工作。危机支持。法律权利。数百个免费项目。无账户。不收集个人数据。',
     door1Btn: '寻找帮助',
     door1Sub: '或拨打 211 — 免费，24/7，任何语言',
     door2Title: '了解您的权利',
@@ -369,15 +369,12 @@ function navHtml(lang, s) {
   ].join('');
 }
 
-function langSwitcherHtml(currentLang, pageKey) {
-  const links = LANGS
-    .filter((l) => l.code !== currentLang)
-    .map((l) => {
-      const url = urlForPage(l.code, pageKey);
-      return '<a href="' + url + '" lang="' + l.htmlLang + '" hreflang="' + l.htmlLang + '">' + xmlEsc(l.label) + '</a>';
-    })
-    .join(' · ');
-  return '<p style="font-size:13px;color:#767676;margin:24px 0;">' + links + '</p>';
+function langSwitcherHtml(/* currentLang, pageKey */) {
+  // Removed 2026-04-26 per maintainer policy: translations outside English
+  // are gated on native-speaker review and not yet shipped, so the visible
+  // language link row implies coverage we don't have. hreflang <link> tags
+  // in <head> still tell crawlers about the per-language URLs.
+  return '';
 }
 
 function bodyContentFor(lang, pageKey) {
