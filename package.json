@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/verify-entry-uniqueness.cjs && node scripts/bot-preflight-scan.cjs --fail-at=4 && node scripts/bot-preflight-scan-glossary.cjs --fail-at=1 && vite build && node scripts/prerender-legal.cjs && node scripts/prerender-glossary.cjs && node scripts/prerender-help.cjs && node scripts/prerender-landing.cjs && node scripts/generate-sitemap.cjs",
-    "verify": "node scripts/verify-entry-uniqueness.cjs && node scripts/bot-preflight-scan.cjs --fail-at=4 && node scripts/bot-preflight-scan-glossary.cjs --fail-at=1",
+    "build": "node scripts/verify-entry-uniqueness.cjs && node scripts/bot-preflight-scan.cjs --fail-at=4 && node scripts/bot-preflight-scan-glossary.cjs --fail-at=1 && node scripts/verify-program-walkthroughs.cjs && vite build && node scripts/prerender-legal.cjs && node scripts/prerender-glossary.cjs && node scripts/prerender-help.cjs && node scripts/prerender-landing.cjs && node scripts/generate-sitemap.cjs",
+    "verify": "node scripts/verify-entry-uniqueness.cjs && node scripts/bot-preflight-scan.cjs --fail-at=4 && node scripts/bot-preflight-scan-glossary.cjs --fail-at=1 && node scripts/verify-program-walkthroughs.cjs",
     "preflight": "node scripts/preflight-batch.cjs",
     "preview": "vite preview"
   },
