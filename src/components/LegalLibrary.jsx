@@ -378,6 +378,25 @@ export function LegalLibraryBrowse({ legalLang, setLegalLang, categoryFilter, on
   const entries = filteredEntries;
   const hiddenCount = allEntries.length - filteredEntries.length;
 
+  // Library organization (added 2026-04-26):
+  //   1. Walkthroughs (id ends with "-walkthrough-ny") pin to the top with
+  //      an amber accent — they're the "do this with me" content vs the
+  //      "here's how it works" reference content. Top placement reflects
+  //      user value.
+  //   2. Town-specific entries (jurisdiction matches us-ny-monroe-*-(town|
+  //      village|city)) collapse into a "Local rules by town" section so
+  //      they don't drown the state/federal guides.
+  //   3. Everything else groups by tier: federal → state → county → other.
+  const isWalkthrough = (e) => /-walkthrough-ny$/.test(e.id);
+  const isTownSpecific = (e) => e.jurisdiction && /^us-ny-monroe-[^-]+-(town|village|city)$/.test(e.jurisdiction);
+  const tierWeight = (e) => ({ federal: 0, state: 1, county: 2, town: 3, village: 3, city: 3, local: 3 }[e.tier] ?? 4);
+
+  const walkthroughEntries = entries.filter(isWalkthrough);
+  const nonWalkthroughs = entries.filter((e) => !isWalkthrough(e));
+  const mainEntries = nonWalkthroughs.filter((e) => !isTownSpecific(e)).sort((a, b) => tierWeight(a) - tierWeight(b));
+  const townEntries = nonWalkthroughs.filter(isTownSpecific);
+  const [showTownEntries, setShowTownEntries] = React.useState(false);
+
   return (
     <main dir={isRTL ? "rtl" : "ltr"} style={{ padding: "0 20px 40px", maxWidth: 920, margin: "0 auto" }}>
       <button onClick={onBack} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 14, color: C.stone, padding: "16px 0", fontFamily: "inherit" }}>← All topics</button>
@@ -406,9 +425,47 @@ export function LegalLibraryBrowse({ legalLang, setLegalLang, categoryFilter, on
 
       <LanguagePicker legalLang={legalLang} setLegalLang={setLegalLang} />
 
-      {/* Entry list */}
+      {/* Walkthroughs — pinned at top with amber accent (form prep guides) */}
+      {walkthroughEntries.length > 0 && (
+        <div style={{ marginBottom: 24 }}>
+          <h2 style={{ fontSize: 14, fontWeight: 700, color: "#a07626", marginBottom: 10, textTransform: "uppercase", letterSpacing: 0.8 }}>
+            📝 Form prep guides
+          </h2>
+          <div style={{ display: "grid", gap: 12 }}>
+            {walkthroughEntries.map((entry) => (
+              <button
+                key={entry.id}
+                onClick={() => onOpenEntry(entry.id)}
+                style={{
+                  textAlign: isRTL ? "right" : "left",
+                  background: C.amberLight,
+                  border: "1px solid " + C.amber,
+                  borderRadius: 12,
+                  padding: "14px 18px",
+                  cursor: "pointer",
+                  fontFamily: "inherit",
+                  boxShadow: "0 1px 2px rgba(0,0,0,0.02)",
+                  width: "100%",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+                  <span style={{ fontSize: 10, fontWeight: 700, color: "#a07626", background: "#fff7e6", padding: "3px 8px", borderRadius: 6, textTransform: "uppercase", letterSpacing: 0.5 }}>walkthrough</span>
+                </div>
+                <div style={{ fontSize: 16, fontWeight: 600, color: C.bark, marginBottom: 4, lineHeight: 1.3 }}>
+                  {pickText(entry.title, legalLang)}
+                </div>
+                <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.55 }}>
+                  {pickText(entry.summary, legalLang)}
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Main entry list — federal/state/county sorted by tier */}
       <div style={{ display: "grid", gap: 12 }}>
-        {entries.map((entry) => (
+        {mainEntries.map((entry) => (
           <button
             key={entry.id}
             onClick={() => onOpenEntry(entry.id)}
@@ -439,6 +496,59 @@ export function LegalLibraryBrowse({ legalLang, setLegalLang, categoryFilter, on
           </button>
         ))}
       </div>
+
+      {/* Town-specific entries — collapsible section */}
+      {townEntries.length > 0 && (
+        <div style={{ marginTop: 24 }}>
+          <button
+            onClick={() => setShowTownEntries(!showTownEntries)}
+            style={{
+              background: C.cream, border: "1px solid " + C.border,
+              borderRadius: 10, padding: "12px 16px", cursor: "pointer",
+              fontFamily: "inherit", fontSize: 14, fontWeight: 600, color: C.stone,
+              width: "100%", textAlign: isRTL ? "right" : "left",
+              display: "flex", alignItems: "center", justifyContent: "space-between",
+            }}
+          >
+            <span>🏘️ Local rules by town ({townEntries.length})</span>
+            <span style={{ fontSize: 12, color: C.dust }}>{showTownEntries ? "▲ hide" : "▼ show"}</span>
+          </button>
+          {showTownEntries && (
+            <div style={{ display: "grid", gap: 12, marginTop: 12 }}>
+              {townEntries.map((entry) => (
+                <button
+                  key={entry.id}
+                  onClick={() => onOpenEntry(entry.id)}
+                  style={{
+                    textAlign: isRTL ? "right" : "left",
+                    background: C.white,
+                    border: "1px solid " + C.border,
+                    borderRadius: 12,
+                    padding: "14px 18px",
+                    cursor: "pointer",
+                    fontFamily: "inherit",
+                    boxShadow: "0 1px 2px rgba(0,0,0,0.02)",
+                    width: "100%",
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+                    <span style={{ fontSize: 10, fontWeight: 700, color: C.forest, background: C.sage, padding: "3px 8px", borderRadius: 6, textTransform: "uppercase", letterSpacing: 0.5 }}>{entry.tier}</span>
+                    {entry.jurisdiction && (
+                      <span style={{ fontSize: 10, color: C.dust, textTransform: "uppercase", letterSpacing: 0.5 }}>{entry.jurisdiction}</span>
+                    )}
+                  </div>
+                  <div style={{ fontSize: 16, fontWeight: 600, color: C.bark, marginBottom: 4, lineHeight: 1.3 }}>
+                    {pickText(entry.title, legalLang)}
+                  </div>
+                  <div style={{ fontSize: 13, color: C.stone, lineHeight: 1.55 }}>
+                    {pickText(entry.summary, legalLang)}
+                  </div>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
 
       <div style={{ marginTop: 28, padding: "14px 18px", background: C.amberLight, borderRadius: 12, border: "1px solid #f0dab0", fontSize: 13, color: C.stone, lineHeight: 1.6 }}>
         ⚠️ <strong>Not legal advice.</strong> These guides explain your general rights under New York and federal law. Laws change. For your specific situation, use the free legal aid resources listed in each guide.
