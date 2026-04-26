@@ -27,7 +27,7 @@ export const ELIGIBILITY_DETERMINATION = {
   legalEntryIds: ["benefits-denial-appeal-ny"],
 
   citation: "18 NYCRR Part 358 (notice and fair hearing); program-specific regulations",
-  sourceUrl: "",
+  sourceUrl: "https://otda.ny.gov/oah/",
   lastVerified: "2026-04-16",
   status: "active"
 };

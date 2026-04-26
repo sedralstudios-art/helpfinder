@@ -26,7 +26,7 @@ export const INTAKE = {
   legalEntryIds: [],
 
   citation: "Common program term — no single statute",
-  sourceUrl: "",
+  sourceUrl: "https://otda.ny.gov/programs/temporary-assistance/",
   lastVerified: "2026-04-16",
   status: "active"
 };

@@ -10,7 +10,7 @@ export const NUISANCE = {
   related: ["code-enforcement", "landlord-retaliation", "small-claims"],
   legalEntryIds: ["neighbor-disputes-ny-cl"],
   citation: "NY common law; local municipal ordinances",
-  sourceUrl: "",
+  sourceUrl: "https://www.law.cornell.edu/wex/nuisance",
   lastVerified: "2026-04-16",
   status: "active"
 };

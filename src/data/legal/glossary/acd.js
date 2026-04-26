@@ -26,7 +26,7 @@ export const ACD = {
     ]
   },
 
-  related: ["arraignment", "dismissal", "sealed-record", "misdemeanor"],
+  related: ["arraignment", "sealed-record", "misdemeanor"],
   legalEntryIds: ["dismissed-case-sealing-ny","marijuana-sealing-ny","clean-slate-ny"],
 
   citation: "NY CPL § 170.55",

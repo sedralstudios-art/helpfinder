@@ -27,7 +27,7 @@ export const PRIOR_AUTHORIZATION = {
   legalEntryIds: [],
 
   citation: "Common insurance term; NY Insurance Law § 4903 (utilization review)",
-  sourceUrl: "",
+  sourceUrl: "https://www.nysenate.gov/legislation/laws/ISC/4903",
   lastVerified: "2026-04-16",
   status: "active"
 };

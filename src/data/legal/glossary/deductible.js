@@ -26,7 +26,7 @@ export const DEDUCTIBLE = {
   legalEntryIds: [],
 
   citation: "Common insurance term",
-  sourceUrl: "",
+  sourceUrl: "https://www.healthcare.gov/glossary/deductible/",
   lastVerified: "2026-04-16",
   status: "active"
 };

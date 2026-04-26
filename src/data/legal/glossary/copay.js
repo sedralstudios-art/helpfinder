@@ -26,7 +26,7 @@ export const COPAY = {
   legalEntryIds: [],
 
   citation: "Common insurance term; Medicaid co-pay rules at 42 CFR § 447",
-  sourceUrl: "",
+  sourceUrl: "https://www.law.cornell.edu/cfr/text/42/part-447",
   lastVerified: "2026-04-16",
   status: "active"
 };

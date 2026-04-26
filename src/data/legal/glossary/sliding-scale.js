@@ -26,7 +26,7 @@ export const SLIDING_SCALE = {
   legalEntryIds: [],
 
   citation: "Common program term — no single statute",
-  sourceUrl: "",
+  sourceUrl: "https://www.health.ny.gov/community/adults/medicaid/",
   lastVerified: "2026-04-16",
   status: "active"
 };

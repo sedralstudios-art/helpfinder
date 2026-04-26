@@ -10,7 +10,7 @@ export const DEFERRED_PAYMENT_AGREEMENT = {
   related: ["mandatory-surcharge", "fine", "restitution", "recoupment"],
   legalEntryIds: ["utility-shutoff-protections-ny"],
   citation: "16 NYCRR Part 11 (utility DPAs); various court rules",
-  sourceUrl: "",
+  sourceUrl: "https://www.dps.ny.gov/Office_of_Consumer_Services.htm",
   lastVerified: "2026-04-16",
   status: "active"
 };

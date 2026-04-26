@@ -10,7 +10,7 @@ export const STRICT_LIABILITY = {
   related: ["comparative-negligence", "contingency-fee", "dangerous-dog"],
   legalEntryIds: ["dog-bite-liability-ny", "personal-injury-basics-ny"],
   citation: "NY AML § 121 (dogs); common law (products)",
-  sourceUrl: "",
+  sourceUrl: "https://www.nysenate.gov/legislation/laws/AGM/121",
   lastVerified: "2026-04-16",
   status: "active"
 };

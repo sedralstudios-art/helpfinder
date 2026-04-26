@@ -25,7 +25,7 @@ export const ROR = {
     ]
   },
 
-  related: ["bail", "arraignment", "bench-warrant", "supervised-release"],
+  related: ["bail", "arraignment", "bench-warrant"],
   legalEntryIds: ["rights-when-arrested-ny"],
 
   citation: "NY CPL § 510.40",

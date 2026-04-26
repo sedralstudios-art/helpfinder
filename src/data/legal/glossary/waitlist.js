@@ -27,7 +27,7 @@ export const WAITLIST = {
   legalEntryIds: [],
 
   citation: "Common program term — no single statute",
-  sourceUrl: "",
+  sourceUrl: "https://www.hud.gov/states/new_york",
   lastVerified: "2026-04-16",
   status: "active"
 };

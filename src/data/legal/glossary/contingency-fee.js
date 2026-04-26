@@ -10,7 +10,7 @@ export const CONTINGENCY_FEE = {
   related: ["pro-bono", "public-defender"],
   legalEntryIds: ["personal-injury-basics-ny"],
   citation: "NY Rules of Professional Conduct Rule 1.5(c)",
-  sourceUrl: "",
+  sourceUrl: "https://www.nycourts.gov/courthelp/GoingToCourt/feeAgreement.shtml",
   lastVerified: "2026-04-16",
   status: "active"
 };

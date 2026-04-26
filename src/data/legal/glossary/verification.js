@@ -26,7 +26,7 @@ export const VERIFICATION = {
   legalEntryIds: ["benefits-verification-letter-ny-program"],
 
   citation: "18 NYCRR Part 385 (TA verification); 7 CFR 273.2 (SNAP)",
-  sourceUrl: "",
+  sourceUrl: "https://www.law.cornell.edu/cfr/text/7/273.2",
   lastVerified: "2026-04-16",
   status: "active"
 };

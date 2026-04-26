@@ -23,7 +23,7 @@ export const ARTICLE_78 = {
   },
 
   related: ["appeal", "due-process-hearing", "fair-hearing"],
-  legalEntryIds: ["benefits-denial-appeal-ny", "foil-ny", "zoning-variance-permit-ny", "license-suspension-ny"],
+  legalEntryIds: ["benefits-denial-appeal-ny", "zoning-variance-permit-ny", "license-suspension-ny"],
 
   citation: "NY CPLR Article 78",
   sourceUrl: "https://www.nysenate.gov/legislation/laws/CVP/A78",

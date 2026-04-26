@@ -26,7 +26,7 @@ export const REFERRAL = {
   legalEntryIds: [],
 
   citation: "Common health care and social services term",
-  sourceUrl: "",
+  sourceUrl: "https://www.health.ny.gov/health_care/medicaid/redesign/managed_care/",
   lastVerified: "2026-04-16",
   status: "active"
 };
