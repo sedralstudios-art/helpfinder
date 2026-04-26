@@ -1,7 +1,7 @@
 {
   "name": "HelpFinder",
   "short_name": "HelpFinder",
-  "description": "Free help in Rochester, NY. Hundreds of programs, 8 languages.",
+  "description": "Free help in Rochester, NY. Hundreds of programs, translated.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#fafaf7",

@@ -209,7 +209,7 @@ function buildHeadCommon(title, metaDesc, canonical, jsonBlocks, bundleTags) {
 function generateIndexHTML(byCat, bundleTags) {
   const canonical = SITE_URL + urlPathForHelpIndex();
   const title = 'Find help now — Free programs in Rochester and Monroe County, NY | HelpFinder';
-  const metaDesc = 'Free community programs in Rochester and Monroe County, New York — food, housing, health, jobs, crisis support, legal help, and more. Hundreds of programs in 8 languages. No accounts, no tracking.';
+  const metaDesc = 'Free community programs in Rochester and Monroe County, New York — food, housing, health, jobs, crisis support, legal help, and more. Hundreds of programs, translated. No accounts, no tracking.';
 
   const catKeys = Object.keys(byCat)
     .filter((c) => CATEGORY_META[c])

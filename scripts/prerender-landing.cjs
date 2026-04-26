@@ -50,7 +50,7 @@ const S = {
     siteName: 'HelpFinder',
     homeTitle: 'HelpFinder — Free Help, Everywhere',
     homeH1: 'Free help in Rochester and Monroe County, New York',
-    homeLede: 'Food. Housing. Health. Jobs. Crisis support. Legal rights. Hundreds of free programs in 8 languages. No accounts. No personal data collected. Just help.',
+    homeLede: 'Food. Housing. Health. Jobs. Crisis support. Legal rights. Hundreds of free programs, translated. No accounts. No personal data collected. Just help.',
     door1Btn: 'Find help now',
     door1Sub: 'Or call 211 — free, 24/7, any language',
     door2Title: 'Know Your Rights',
@@ -503,7 +503,7 @@ function structuredDataFor(lang, pageKey) {
     alternateName: 'Sedral Studios',
     url: SITE_URL,
     logo: SITE_URL + '/apple-touch-icon.png',
-    description: 'Free community resource directory and legal rights guides for Rochester and Monroe County, New York. 8 languages. No accounts, no tracking.',
+    description: 'Free community resource directory and legal rights guides for Rochester and Monroe County, New York. Translated. No accounts, no tracking.',
     areaServed: {
       '@type': 'AdministrativeArea',
       name: 'Monroe County, New York',

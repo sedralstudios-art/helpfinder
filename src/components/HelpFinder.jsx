@@ -49,7 +49,7 @@ function trackClick(programId) {
 // ═══════════════════════════════════════════════════
 // HELPFINDER — Help Directory
 // Sedral Studios · Rochester NY · April 2026
-// 43 Categories · 294 Programs · 8 Languages
+// Multi-category · multi-program · multilingual
 // Updated: Branding aligned with landing page v2
 // ═══════════════════════════════════════════════════
 
@@ -94,9 +94,9 @@ const LANGS = [
   { code: "zh", label: "中文" },
 ];
 
-// ── LEGAL SECTION LANGUAGES (20 — federal LEP standard + refugee priority) ──
-// The main directory uses LANGS (8 languages, matching directory data scope).
-// The legal section uses LEGAL_LANGS (20 languages, matching legal content scope).
+// ── LEGAL SECTION LANGUAGES (federal LEP standard + refugee priority) ──
+// The main directory uses LANGS (matching directory data scope).
+// The legal section uses LEGAL_LANGS (matching legal content scope).
 // Two pickers, two scopes, both honest.
 const LEGAL_LANGS = [
   { code: "en", label: "English" },
