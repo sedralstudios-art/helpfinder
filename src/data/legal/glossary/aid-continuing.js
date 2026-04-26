@@ -16,7 +16,7 @@ export const AID_CONTINUING = {
   },
 
   plainEnglish: {
-    en: "A rule that keeps your benefits going at the same level while you wait for a fair hearing decision. It applies to SNAP, Temporary Assistance, Medicaid, and some other programs. To get aid continuing, you have to request the fair hearing before the date the change would take effect — that date is on the notice you got. If the notice was mailed late, you have 10 days from the postmark instead. Without this request, the change goes through even before the hearing. If you lose the hearing, you may have to pay back the benefits you received during the wait — so ask your legal aid about the trade-off."
+    en: "A rule that keeps a person's benefits going at the same level while they wait for a fair hearing decision. It applies to SNAP, Temporary Assistance, Medicaid, and some other programs. To get aid continuing, the recipient has to request the fair hearing before the date the change would take effect — that date is on the notice. If the notice was mailed late, the deadline becomes 10 days from the postmark. Without this request, the change goes through even before the hearing. A recipient who loses the hearing may have to pay back the benefits received during the wait — legal aid can explain the trade-off."
   },
 
   whatToAsk: {

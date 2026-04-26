@@ -10,7 +10,7 @@ export const MANAGED_CARE = {
   },
 
   plainEnglish: {
-    en: "A type of health insurance where a private company manages your care. In New York, most Medicaid recipients must choose a managed care plan (like Fidelis, Molina, UnitedHealthcare, Excellus). The plan coordinates your care: you get a primary care doctor (called a PCP), and you may need a referral from the PCP to see a specialist. The plan covers the same services as regular Medicaid — doctor visits, hospital, prescriptions, dental, vision, mental health — but you use the plan's network of providers. If you do not choose a plan, one is assigned to you. You can switch plans during open enrollment or within 90 days of enrollment."
+    en: "A type of health insurance where a private company manages a member's care. In New York, most Medicaid recipients must choose a managed care plan (like Fidelis, Molina, UnitedHealthcare, Excellus). The plan coordinates care: each member gets a primary care doctor (called a PCP), and may need a referral from the PCP to see a specialist. The plan covers the same services as regular Medicaid — doctor visits, hospital, prescriptions, dental, vision, mental health — but the member uses the plan's network of providers. A recipient who does not choose a plan is auto-assigned to one. Plans can be switched during open enrollment or within 90 days of enrollment."
   },
 
   whatToAsk: {

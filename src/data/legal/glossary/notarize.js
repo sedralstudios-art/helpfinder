@@ -10,7 +10,7 @@ export const NOTARIZE = {
   },
 
   plainEnglish: {
-    en: "Having a notary public — a person authorized by the state — watch you sign a document and then stamp it to confirm you are who you say you are. The notary checks your ID, watches you sign, and adds their stamp and signature. Notarization does not mean the notary read or approved the document. It only confirms identity. In New York, many banks, UPS stores, libraries, town clerks, and legal aid offices provide free or low-cost notary services. Some mobile notaries will come to you. A notary public in the United States is NOT the same as a 'notario publico' in Latin American countries — a US notary has no legal authority to give legal advice or prepare legal documents."
+    en: "Having a notary public — a person authorized by the state — watch the signer sign a document and then stamp it to confirm the signer's identity. The notary checks ID, watches the signing, and adds a stamp and signature. Notarization does not mean the notary read or approved the document. It only confirms identity. In New York, many banks, UPS stores, libraries, town clerks, and legal aid offices provide free or low-cost notary services. Some mobile notaries travel to the signer. A notary public in the United States is NOT the same as a 'notario publico' in Latin American countries — a US notary has no legal authority to give legal advice or prepare legal documents."
   },
 
   whatToAsk: {

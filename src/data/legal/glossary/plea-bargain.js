@@ -15,7 +15,7 @@ export const PLEA_BARGAIN = {
   },
 
   plainEnglish: {
-    en: "A deal between you (through your lawyer) and the prosecutor. You agree to plead guilty to a charge, and in exchange the prosecutor agrees to something — dropping other charges, reducing the charge to something smaller, or recommending a lighter sentence. The judge has the final say and can reject the deal. Before you accept, your lawyer will usually explain everything that will happen: the final charge, the sentence, the fine, the surcharge, and any effects on your record, job, license, or immigration status. Once the judge accepts your plea, it is very hard to take back."
+    en: "A deal between the defendant (through their lawyer) and the prosecutor. The defendant agrees to plead guilty to a charge, and in exchange the prosecutor agrees to something — dropping other charges, reducing the charge to something smaller, or recommending a lighter sentence. The judge has the final say and can reject the deal. Before the defendant accepts, the defense lawyer typically walks through everything that will happen: the final charge, the sentence, the fine, the surcharge, and any effects on the defendant's record, job, license, or immigration status. Once the judge accepts the plea, it is very hard to take back."
   },
 
   whatToAsk: {

@@ -10,7 +10,7 @@ export const COPAY = {
   },
 
   plainEnglish: {
-    en: "A fixed dollar amount you pay each time you see a doctor, fill a prescription, or use certain health services. Your insurance pays the rest. For Medicaid in New York, most services have no co-pay at all. For other insurance, co-pays are usually $5 to $50 depending on the type of visit. If you cannot afford a co-pay, some clinics waive it or use a sliding scale. Emergency rooms cannot turn you away for inability to pay."
+    en: "A fixed dollar amount the patient pays each time they see a doctor, fill a prescription, or use certain health services. Insurance pays the rest. For Medicaid in New York, most services have no co-pay at all. For other insurance, co-pay amounts depend on the type of visit and the plan; current co-pay schedules are at the insurer's member portal. Some clinics waive co-pays or use a sliding scale for patients who cannot pay. Emergency rooms cannot turn a patient away for inability to pay."
   },
 
   whatToAsk: {

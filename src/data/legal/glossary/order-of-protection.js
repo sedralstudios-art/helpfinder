@@ -16,7 +16,7 @@ export const ORDER_OF_PROTECTION = {
   },
 
   plainEnglish: {
-    en: "A court paper that tells one person to stay away from another person. It can say: no contact at all, no coming near home or work, no calls or messages, no touching, no having a gun. A judge can make a short-term one fast, on the same day, if it seems needed for safety. A longer-term one can last up to 8 years after a felony or 5 years after a Class A misdemeanor. Breaking the order is a separate crime, even if the other person said it was okay."
+    en: "A court paper that tells one person to stay away from another person. It can say: no contact at all, no coming near home or work, no calls or messages, no touching, no having a gun. A judge can issue a short-term order fast, on the same day, if it seems needed for safety. A longer-term order can last up to 8 years after a felony or 5 years after a Class A misdemeanor. Breaking the order is a separate crime, even when the protected person said it was okay."
   },
 
   whatToAsk: {

@@ -10,7 +10,7 @@ export const INTAKE = {
   },
 
   plainEnglish: {
-    en: "The first appointment or process you go through before a program can help you. During intake, a staff person asks about your situation — income, household, what you need, any urgent issues. They use this to determine what services you qualify for and to create a file. Some intakes are done by phone, some in person, some online. Intake does not mean you are accepted — it means you are being evaluated. After intake, the program decides what help they can offer and when."
+    en: "The first appointment or process a person goes through before a program can help them. During intake, a staff person asks about the applicant's situation — income, household, what is needed, any urgent issues. The staff person uses this to determine what services the applicant qualifies for and to create a file. Some intakes are done by phone, some in person, some online. Intake does not mean acceptance — it means evaluation. After intake, the program decides what help it can offer and when."
   },
 
   whatToAsk: {

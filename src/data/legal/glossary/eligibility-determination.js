@@ -10,7 +10,7 @@ export const ELIGIBILITY_DETERMINATION = {
   },
 
   plainEnglish: {
-    en: "The official decision by an agency about whether you qualify for a program. After you apply, the agency reviews your income, household size, and other factors and issues a determination — approved or denied. For SNAP, the decision must come within 30 days (7 days for expedited). For Medicaid, the timeline depends on the category. The determination comes as a written notice that explains the decision, the reasons, and your right to appeal if you disagree. If you are denied, you have the right to request a fair hearing."
+    en: "The official decision by an agency about whether an applicant qualifies for a program. After the application is filed, the agency reviews the applicant's income, household size, and other factors and issues a determination — approved or denied. For SNAP, the decision must come within 30 days (7 days for expedited). For Medicaid, the timeline depends on the category. The determination comes as a written notice that explains the decision, the reasons, and the applicant's right to appeal. A denied applicant has the right to request a fair hearing."
   },
 
   whatToAsk: {

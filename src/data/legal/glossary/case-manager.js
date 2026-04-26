@@ -10,7 +10,7 @@ export const CASE_MANAGER = {
   },
 
   plainEnglish: {
-    en: "A person at an agency whose job is to help you get the services you need. They keep track of your situation, help you fill out applications, make referrals to other programs, follow up on appointments, and advocate for you when things get stuck. You might have a case manager at DSS, a mental health clinic, a housing program, or a legal aid office. They are not your lawyer or your doctor — they are the person who helps connect all the pieces. If you are working with multiple programs at once, a case manager can help make sure nothing falls through the cracks."
+    en: "A person at an agency whose job is to help a client get the services they need. The case manager keeps track of the client's situation, helps fill out applications, makes referrals to other programs, follows up on appointments, and advocates for the client when things get stuck. A client might have a case manager at DSS, a mental health clinic, a housing program, or a legal aid office. The case manager is not the client's lawyer or doctor — they are the person who helps connect all the pieces. When a client is working with multiple programs at once, a case manager can help make sure nothing falls through the cracks."
   },
 
   whatToAsk: {

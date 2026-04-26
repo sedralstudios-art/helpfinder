@@ -10,7 +10,7 @@ export const CASE_NUMBER = {
   },
 
   plainEnglish: {
-    en: "A unique number assigned to your case by a court, agency, or program. Courts call it a docket number or index number. DSS calls it a case number. Every time you interact with the system — calling, mailing, appearing in court — you need this number. It is usually on the first paper you received. If you lost it, the clerk's office or agency can look it up by your name and date of birth. Write it down and keep it somewhere safe."
+    en: "A unique number assigned to a case by a court, agency, or program. Courts call it a docket number or index number. DSS calls it a case number. Every interaction with the system — calling, mailing, appearing in court — uses this number. It is usually on the first paper the person received. A lost case number can be looked up at the clerk's office or agency by name and date of birth."
   },
 
   whatToAsk: {
