@@ -7,6 +7,7 @@ import React, { useState, useMemo } from "react";
 
 import { LEGAL_ENTRIES } from "../data/legal";
 import { GLOSSARY_TERMS, GLOSSARY_ALIAS_MAP } from "../data/legal/glossary-index";
+import { PROGRAMS } from "../data/programs.js";
 
 const C = {
   forest: "#2e7d32", leaf: "#43a047", sage: "#e8f5e9",
@@ -16,15 +17,106 @@ const C = {
   violet: "#5e35b1", violetLight: "#ede7f6",
 };
 
+// Per-category chip palette — design system tokens (see design/preview/inputs.html)
+const CHIP_PAL = {
+  crisis: { bg: "#fde8e8", fg: "#9c2a2a" },
+  food:   { bg: "#e8f5e9", fg: "#2e7d32" },
+  house:  { bg: "#eaf1fb", fg: "#1f4d77" },
+  money:  { bg: "#fdf6ec", fg: "#a07626" },
+  health: { bg: "#fde8e8", fg: "#9c2a2a" },
+  mental: { bg: "#f3eaf6", fg: "#6b3a82" },
+  family: { bg: "#fff4e6", fg: "#a85a1a" },
+  work:   { bg: "#eaf1fb", fg: "#1f4d77" },
+  rights: { bg: "#fdf6ec", fg: "#a07626" },
+  trans:  { bg: "#e6f0ee", fg: "#2a6a5e" },
+  net:    { bg: "#eef0f5", fg: "#3a4a6b" },
+  cloth:  { bg: "#f5ecdf", fg: "#7a5a2e" },
+  lgbtq:  { bg: "linear-gradient(90deg,#fde8e8,#fdf6ec,#e8f5e9,#eaf1fb,#f3eaf6)", fg: "#3a3a3a" },
+  vet:    { bg: "#e8eee0", fg: "#4a5a2a" },
+  newcomer: { bg: "#e6efe8", fg: "#2e6a3a" },
+  disab:  { bg: "#ecf0f5", fg: "#2e4a6a" },
+  pet:    { bg: "#f4ede2", fg: "#6b4a26" },
+};
+
+// 7 fast-jump chips — the "tab bar" beneath the search input
+const FAST_CHIPS = [
+  { icon: "🆘", label: "Right now", pal: "crisis" },
+  { icon: "🍎", label: "Food, stay, bills", pal: "food" },
+  { icon: "❤️", label: "Doctor & meds", pal: "health" },
+  { icon: "💚", label: "Stress & recovery", pal: "mental" },
+  { icon: "👨‍👩‍👧", label: "Family", pal: "family" },
+  { icon: "💼", label: "Job", pal: "work" },
+  { icon: "⚖️", label: "Rights", pal: "rights" },
+];
+
+// 31-chip direct-link category grid — shown when no query is active
+const ALL_CHIPS = [
+  { icon: "🆘", label: "Right now", pal: "crisis" },
+  { icon: "🍎", label: "Food", pal: "food" },
+  { icon: "🏠", label: "Housing", pal: "house" },
+  { icon: "💵", label: "Money & bills", pal: "money" },
+  { icon: "🔥", label: "Heat & electric", pal: "money" },
+  { icon: "❤️", label: "Health", pal: "health" },
+  { icon: "🦷", label: "Dental", pal: "health" },
+  { icon: "💊", label: "Medicine", pal: "health" },
+  { icon: "💚", label: "Mental health", pal: "mental" },
+  { icon: "🔄", label: "Addiction", pal: "mental" },
+  { icon: "👶", label: "Childcare", pal: "family" },
+  { icon: "🌟", label: "Youth", pal: "family" },
+  { icon: "🧓", label: "Senior", pal: "family" },
+  { icon: "💼", label: "Job", pal: "work" },
+  { icon: "📚", label: "School & GED", pal: "work" },
+  { icon: "⚖️", label: "Legal help", pal: "rights" },
+  { icon: "🏚️", label: "Eviction defense", pal: "rights" },
+  { icon: "🌍", label: "Immigration", pal: "rights" },
+  { icon: "💳", label: "Debt & lawsuits", pal: "rights" },
+  { icon: "🚌", label: "Transport", pal: "trans" },
+  { icon: "📱", label: "Internet & phone", pal: "net" },
+  { icon: "👕", label: "Clothing", pal: "cloth" },
+  { icon: "🏳️‍🌈", label: "LGBTQ+", pal: "lgbtq" },
+  { icon: "🎖️", label: "Veteran", pal: "vet" },
+  { icon: "🌍", label: "New to U.S.", pal: "newcomer" },
+  { icon: "♿", label: "Disability", pal: "disab" },
+  { icon: "🛡️", label: "Someone is hurting me", pal: "crisis" },
+  { icon: "⚖️", label: "Custody protection", pal: "crisis" },
+  { icon: "🔑", label: "Reentry", pal: "rights" },
+  { icon: "📄", label: "ID & papers", pal: "rights" },
+  { icon: "🐾", label: "Pet help", pal: "pet" },
+];
+
+function Chip({ icon, label, pal, size = "md", onClick }) {
+  const p = CHIP_PAL[pal] || CHIP_PAL.rights;
+  const isSm = size === "sm";
+  return (
+    <button
+      onClick={onClick}
+      style={{
+        background: p.bg, color: p.fg,
+        padding: isSm ? "3px 8px" : "4px 10px",
+        borderRadius: 999,
+        fontSize: isSm ? 11 : 12,
+        fontWeight: 600,
+        border: "1px solid transparent",
+        cursor: "pointer",
+        display: "inline-flex", alignItems: "center", gap: isSm ? 4 : 5,
+        lineHeight: isSm ? 1.3 : 1.4,
+        fontFamily: "inherit",
+      }}
+      onMouseEnter={(e) => { e.currentTarget.style.outline = `1.5px solid ${p.fg}`; e.currentTarget.style.outlineOffset = "1px"; }}
+      onMouseLeave={(e) => { e.currentTarget.style.outline = "none"; }}
+    >
+      <span aria-hidden="true">{icon}</span>{label}
+    </button>
+  );
+}
+
 function pick(field) {
   if (!field) return "";
   if (typeof field === "string") return field;
   return field.en || "";
 }
 
-import { PROGRAMS } from "../data/programs.js";
-
-export default function UnifiedSearch({ onOpenEntry, onOpenGlossaryTerm, onBack }) {
+export default function UnifiedSearch({ onOpenEntry, onOpenGlossaryTerm, onBack, onJumpToHelp }) {
   const [query, setQuery] = useState("");
 
   const results = useMemo(() => {
@@ -57,7 +149,7 @@ export default function UnifiedSearch({ onOpenEntry, onOpenGlossaryTerm, onBack 
     }).slice(0, 10);
 
     return { programs: progResults, legal: legalResults, glossary: glossaryResults };
-  }, [query, programs]);
+  }, [query]);
 
   const total = results.programs.length + results.legal.length + results.glossary.length;
 
@@ -95,6 +187,27 @@ export default function UnifiedSearch({ onOpenEntry, onOpenGlossaryTerm, onBack 
           boxSizing: "border-box",
         }}
       />
+
+      {/* ── FAST-JUMP TAB BAR (always visible) ── */}
+      <div style={{ marginTop: 8, display: "flex", gap: 5, flexWrap: "wrap" }}>
+        {FAST_CHIPS.map((c, i) => (
+          <Chip key={i} icon={c.icon} label={c.label} pal={c.pal} size="sm"
+            onClick={() => onJumpToHelp && onJumpToHelp()} />
+        ))}
+      </div>
+      <div style={{ marginTop: 8, fontSize: 11, color: C.dust, lineHeight: 1.5 }}>
+        searches across <b style={{ color: C.stone }}>{PROGRAMS.length} programs</b> · <b style={{ color: C.stone }}>{LEGAL_ENTRIES.length} rights guides</b> · <b style={{ color: C.stone }}>{GLOSSARY_TERMS.length} glossary terms</b> — try a need, agency name, or legal term
+      </div>
+
+      {/* ── 31-CHIP DIRECT-LINK GRID (shown when no query) ── */}
+      {query.length < 2 && (
+        <div style={{ marginTop: 20, display: "flex", gap: 6, flexWrap: "wrap" }}>
+          {ALL_CHIPS.map((c, i) => (
+            <Chip key={i} icon={c.icon} label={c.label} pal={c.pal}
+              onClick={() => onJumpToHelp && onJumpToHelp()} />
+          ))}
+        </div>
+      )}
 
       {query.length >= 2 && total === 0 && (
         <div style={{ marginTop: 20, padding: 16, textAlign: "center", color: C.dust, fontSize: 14 }}>

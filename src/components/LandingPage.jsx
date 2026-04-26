@@ -1195,6 +1195,7 @@ export default function HelpFinderLanding({ onNavigateHelp, onLangChange, onCity
           onOpenEntry={openEntry}
           onOpenGlossaryTerm={openGlossaryTerm}
           onBack={() => nav(PAGES.HOME)}
+          onJumpToHelp={() => { if (onNavigateHelp) onNavigateHelp(); }}
         />
       )}
 
