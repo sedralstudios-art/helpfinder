@@ -41,7 +41,7 @@ export const CANCER_SCREENING_LEAVE_NY = {
   legalOptions: {
     en: [
       "NY Department of Labor Division of Labor Standards at (888) 469-7365 handles cancer screening leave denials.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income employees in retaliation cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income employees in retaliation cases.",
       "NY Cancer Services Program at (866) 442-2262 provides free or low-cost screening for underinsured.",
       "Monroe County Department of Public Health Cancer Prevention at (585) 753-5150 connects to local screening.",
       "For union employees, the union steward handles the CBA cancer screening provision.",

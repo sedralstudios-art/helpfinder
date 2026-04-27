@@ -45,7 +45,7 @@ export const MEDICARE_ADVANTAGE_NY = {
       "NY Medicare Rights Center at (800) 333-4114 assists with Advantage plan appeals.",
       "For Advantage plan appeals, each plan has an internal appeal process then CMS independent review.",
       "NY State Department of Financial Services at (800) 342-3736 handles network adequacy complaints.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income Medicare-related legal issues."
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income Medicare-related legal issues."
     ]
   },
 

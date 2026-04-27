@@ -41,7 +41,7 @@ export const BLOOD_BONE_MARROW_ORGAN_DONOR_LEAVE_NY = {
   legalOptions: {
     en: [
       "NY Department of Labor Division of Labor Standards at (888) 469-7365 accepts donor leave and retaliation complaints.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income employees in donor-leave retaliation cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income employees in donor-leave retaliation cases.",
       "Empire Justice Center at (585) 295-5702 handles major retaliation and discrimination cases.",
       "Red Cross Rochester at (585) 241-4400 handles blood donation scheduling.",
       "National Marrow Donor Program at (800) 627-7692 handles bone marrow registry and donor coordination.",

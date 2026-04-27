@@ -43,7 +43,7 @@ export const SCHOOL_VACCINE_MEDICAL_EXEMPTION_NY = {
       "NY Department of Health School Immunization Program at (518) 473-4437.",
       "Monroe County Department of Public Health at (585) 753-5150 for Vaccines for Children program and free vaccination.",
       "For exemption appeals, NY Commissioner of Education at (518) 474-3852 handles administrative appeals.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for families navigating exemption denial.",
+      "Legal Aid Society of Rochester at (585) 232-4090 for families navigating exemption denial.",
       "For homeschool option, NY Home Education Office at (518) 474-5920 and homeschool-requirements-ny.",
       "School district Health Services coordinator (each Monroe County district has one)."
     ]

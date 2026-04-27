@@ -42,7 +42,7 @@ export const DRAM_SHOP_ACT_BAR_LIABILITY_NY = {
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 refers to personal injury attorneys taking dram shop cases on contingency.",
       "NYS State Liquor Authority at (518) 474-3114 handles license revocation complaints against establishments that repeatedly over-serve.",
       "For criminal DWI prosecution of the driver, Monroe County District Attorney at (585) 753-4500.",
-      "Legal Aid Society of Rochester at (585) 295-5727 handles civil-side dram shop cases for low-income plaintiffs.",
+      "Legal Aid Society of Rochester at (585) 232-4090 handles civil-side dram shop cases for low-income plaintiffs.",
       "NY State Department of Financial Services at (800) 342-3736 for insurance issues when an establishment's liquor liability policy refuses to pay."
     ]
   },
@@ -85,7 +85,7 @@ export const DRAM_SHOP_ACT_BAR_LIABILITY_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

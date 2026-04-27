@@ -45,7 +45,7 @@ export const RESTAURANT_FOOD_INSPECTION_NY = {
       "NYS Department of Health Food Safety at (518) 402-7600 for statewide rules and data.",
       "NYS Attorney General Consumer Frauds Bureau at (800) 771-7755 for patterns of deceptive restaurant practices.",
       "For whistleblower cases, NY Department of Labor at (888) 469-7365.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income consumers in foodborne illness cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income consumers in foodborne illness cases.",
       "For small claims filings, Rochester City Court or the relevant town justice court."
     ]
   },

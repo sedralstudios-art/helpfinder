@@ -46,7 +46,7 @@ export const LONG_TERM_CARE_INSURANCE_NY = {
       "NY State Office for the Aging at (844) 697-6321 for LTCI Partnership program information.",
       "For Partnership policy verification, NY Partnership for Long Term Care at nyspltc.health.ny.gov.",
       "NY State Attorney General Health Care Bureau at (212) 416-8400 for insurer denial of benefits.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income LTCI disputes."
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income LTCI disputes."
     ]
   },
 

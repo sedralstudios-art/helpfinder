@@ -41,7 +41,7 @@ export const DANGEROUS_DOG_CLASSIFICATION_NY = {
       "Town and village justice courts (and City of Rochester City Court) handle dangerous dog complaints within their jurisdictions.",
       "Monroe County Animal Services at (585) 753-2550 handles lost, stray, and dangerous dog enforcement.",
       "Monroe County Sheriff at (585) 753-4178 handles after-hours animal emergencies.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income owners in dangerous dog proceedings.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income owners in dangerous dog proceedings.",
       "For private bite-injury claims, Monroe County Bar Association at (585) 546-2130 refers to personal-injury attorneys."
     ]
   },
@@ -71,7 +71,7 @@ export const DANGEROUS_DOG_CLASSIFICATION_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

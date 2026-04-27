@@ -41,7 +41,7 @@ export const TRANSFER_DECEASED_VEHICLE_TITLE_NY = {
       "Monroe County Surrogate's Court at (585) 371-3717 handles estate filings including Voluntary Administration.",
       "NYS DMV at (518) 486-9786 can answer questions about Form MV-349.1 and the transfer process.",
       "Monroe County DMV at (585) 753-7050 processes vehicle title transfers in person.",
-      "Legal Aid Society of Rochester at (585) 295-5727 and Volunteer Legal Services (now JustCause) at (585) 295-3100 help low-income families with small estate filings.",
+      "Legal Aid Society of Rochester at (585) 232-4090 and Volunteer Legal Services (now JustCause) at (585) 295-3100 help low-income families with small estate filings.",
       "For forms, dmv.ny.gov has Form MV-349 (Affidavit) and MV-349.1 (Spouse's Affidavit) available to download."
     ]
   },

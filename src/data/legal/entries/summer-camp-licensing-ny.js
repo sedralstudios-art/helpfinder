@@ -44,7 +44,7 @@ export const SUMMER_CAMP_LICENSING_NY = {
       "NYS Statewide Central Register of Child Abuse and Maltreatment at 1-800-342-3720 for suspected child abuse at camps.",
       "NYS Department of Health Children's Camp Program at (518) 402-7600 oversees state-level rules and complaints.",
       "For criminal matters, Monroe County Sheriff at (585) 753-4178 or local police.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents families in camp-related personal injury or negligence cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents families in camp-related personal injury or negligence cases.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for personal injury attorneys taking camp negligence cases."
     ]
   },

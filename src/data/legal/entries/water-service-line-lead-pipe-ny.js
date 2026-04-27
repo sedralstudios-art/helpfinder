@@ -43,7 +43,7 @@ export const WATER_SERVICE_LINE_LEAD_PIPE_NY = {
       "Monroe County Water Authority at (585) 442-2000 covers customers outside the city.",
       "Monroe County Department of Public Health at (585) 753-5150 offers free lead water test kits.",
       "NYS Department of Health Bureau of Water Supply Protection at (518) 402-7650 oversees state-level compliance.",
-      "For a tenant fight with a non-responsive landlord, Legal Aid Society of Rochester at (585) 295-5727.",
+      "For a tenant fight with a non-responsive landlord, Legal Aid Society of Rochester at (585) 232-4090.",
       "EPA Safe Drinking Water Hotline at (800) 426-4791 provides federal guidance."
     ]
   },

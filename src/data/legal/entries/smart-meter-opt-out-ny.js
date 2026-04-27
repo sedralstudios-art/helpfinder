@@ -45,7 +45,7 @@ export const SMART_METER_OPT_OUT_NY = {
       "NY Public Service Commission at (800) 342-3377 for tariff enforcement and complaints.",
       "NY Department of Public Service consumer advocate at (800) 342-3355 for consumer assistance.",
       "Stop Smart Meters NY and other advocacy groups for consumer resources.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income customers facing opt-out fee burden."
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income customers facing opt-out fee burden."
     ]
   },
 

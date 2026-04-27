@@ -40,7 +40,7 @@ export const SPITE_FENCE_MALICIOUS_NY = {
     en: [
       "Monroe County Supreme Court at (585) 371-3600 handles injunction cases including spite fence claims.",
       "Town code enforcement offices (Greece, Brighton, Irondequoit, Penfield, Pittsford, Henrietta, Chili, Rochester) enforce local fence height zoning limits and accept complaints.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income homeowners in neighbor disputes.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income homeowners in neighbor disputes.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 provides referrals to real-property attorneys.",
       "A property survey from a licensed surveyor (roughly 500 to 1,500 dollars) often helps establish the exact property line before filing."
     ]
@@ -71,7 +71,7 @@ export const SPITE_FENCE_MALICIOUS_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

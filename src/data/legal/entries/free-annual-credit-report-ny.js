@@ -44,7 +44,7 @@ export const FREE_ANNUAL_CREDIT_REPORT_NY = {
       "Consumer Financial Protection Bureau at (855) 411-2372 handles credit report complaints.",
       "NYS Attorney General Consumer Frauds Bureau at (800) 771-7755 handles credit bureau complaints in NY.",
       "Equifax dispute at (866) 349-5191. Experian dispute at (888) 397-3742. TransUnion dispute at (800) 916-8800.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income consumers in FCRA disputes."
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income consumers in FCRA disputes."
     ]
   },
 
@@ -86,7 +86,7 @@ export const FREE_ANNUAL_CREDIT_REPORT_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation for credit disputes",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

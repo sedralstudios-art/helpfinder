@@ -41,7 +41,7 @@ export const BEREAVEMENT_LEAVE_NY = {
   legalOptions: {
     en: [
       "NY Department of Labor Division of Labor Standards at (888) 469-7365 handles bereavement leave denial and retaliation complaints.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income employees in retaliation claims.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income employees in retaliation claims.",
       "Empire Justice Center at (585) 295-5702 handles complex employment discrimination and retaliation cases.",
       "For union employees, the union steward or business agent handles the CBA bereavement provision.",
       "Employer HR departments are the first contact to request leave.",
@@ -74,7 +74,7 @@ export const BEREAVEMENT_LEAVE_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

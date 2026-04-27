@@ -43,7 +43,7 @@ export const HOME_CARE_AIDE_WAGE_PARITY_NY = {
       "NY Department of Labor Division of Labor Standards at (888) 469-7365 handles wage complaints against home care agencies.",
       "NY Department of Health Home Care Licensing at (518) 408-1210 handles Medicaid provider compliance.",
       "1199 SEIU Home Care Division at (212) 582-1890 represents unionized aides and provides wage support.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income aides in wage cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income aides in wage cases.",
       "Empire Justice Center at (585) 295-5702 handles major wage parity and industry-wide cases.",
       "For CDPAP consumer issues, Monroe County Department of Human Services at (585) 753-6960 coordinates Medicaid home care."
     ]

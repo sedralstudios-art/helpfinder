@@ -44,7 +44,7 @@ export const SUMMER_EBT_SUN_BUCKS_NY = {
       "Monroe County Department of Human Services at (585) 753-6960 accepts local applications and answers county-level questions.",
       "For school-based eligibility questions, each Monroe County school district food service director.",
       "USDA Food and Nutrition Service at (703) 305-2062 handles federal program rules.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents families denied Summer EBT on appeal.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents families denied Summer EBT on appeal.",
       "For lost or stolen SUN Bucks card, 1-888-328-6399 (NY EBT customer service)."
     ]
   },

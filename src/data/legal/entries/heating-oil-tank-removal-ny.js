@@ -45,7 +45,7 @@ export const HEATING_OIL_TANK_REMOVAL_NY = {
       "For licensed oil tank contractors, a NY-registered Petroleum Bulk Storage contractor must handle removal; NYS DEC maintains a list.",
       "Homeowners insurance companies vary on pollution coverage — NYS Department of Financial Services at (800) 342-3736 can clarify policy language.",
       "For the NY Petroleum Bulk Storage Fund reimbursement, DEC Division of Environmental Remediation at (518) 402-9665.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income homeowners in contamination disputes."
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income homeowners in contamination disputes."
     ]
   },
 

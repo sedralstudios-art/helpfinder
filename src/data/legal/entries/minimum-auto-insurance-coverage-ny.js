@@ -42,7 +42,7 @@ export const MINIMUM_AUTO_INSURANCE_COVERAGE_NY = {
       "Motor Vehicle Accident Indemnification Corporation (MVAIC) at (646) 205-7800 covers injuries when the at-fault driver has no insurance.",
       "New York Automobile Insurance Plan at (212) 655-5840 assigns coverage for drivers denied by private insurers.",
       "NYS DMV at (518) 486-9786 handles registration suspensions for lapsed insurance.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income clients in auto insurance disputes after a crash."
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income clients in auto insurance disputes after a crash."
     ]
   },
 

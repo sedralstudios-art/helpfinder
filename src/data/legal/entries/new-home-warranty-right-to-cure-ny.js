@@ -41,7 +41,7 @@ export const NEW_HOME_WARRANTY_RIGHT_TO_CURE_NY = {
   legalOptions: {
     en: [
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for construction defect attorneys.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income homeowners in warranty cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income homeowners in warranty cases.",
       "NYS Attorney General Consumer Frauds Bureau at (800) 771-7755 handles builder complaints.",
       "Monroe County Supreme Court Clerk at (585) 371-3600 for cases over 50,000 dollars.",
       "For third-party warranty claims (2-10, American Home Shield), directly contact the warranty company.",

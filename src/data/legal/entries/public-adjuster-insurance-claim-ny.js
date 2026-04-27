@@ -43,7 +43,7 @@ export const PUBLIC_ADJUSTER_INSURANCE_CLAIM_NY = {
       "NY State Department of Financial Services at (800) 342-3736 for public adjuster licensing verification and complaints.",
       "National Association of Public Insurance Adjusters at (301) 758-8144 provides a directory of NAPIA-member adjusters.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for insurance attorneys when an adjuster is insufficient.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income policyholders in complex claims.",
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income policyholders in complex claims.",
       "NY DFS public adjuster license lookup at dfs.ny.gov/apps_and_licensing/license_search.",
       "For declared disaster claim fee cap enforcement, NY DFS Insurance Division Property Unit."
     ]

@@ -45,7 +45,7 @@ export const CONDO_COOP_OFFERING_PLAN_NY = {
       "For Offering Plan rescission claims, an experienced real estate litigator is typical.",
       "NYS DFS at (800) 342-3736 for condo/co-op insurance disputes.",
       "For review before purchase, buyer's attorney typical fee 1,500 to 4,000 dollars.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income buyers in disputed transactions."
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income buyers in disputed transactions."
     ]
   },
 

@@ -44,7 +44,7 @@ export const CONTRACEPTION_COVERAGE_CCCA_NY = {
       "NYS Attorney General Consumer Frauds Bureau at (800) 771-7755 handles insurance deception complaints.",
       "Planned Parenthood of Central and Western NY at (585) 546-2595 provides contraception access with or without insurance.",
       "Community Service Society of NY Health Helpline at 1-888-614-5400 offers free help understanding insurance coverage.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents clients in insurance denial cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents clients in insurance denial cases.",
       "For Medicaid issues, NY Health Connector at 1-855-355-5777."
     ]
   },

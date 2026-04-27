@@ -42,7 +42,7 @@ export const JUNK_VEHICLE_OWN_PROPERTY_NY = {
       "Town code enforcement offices accept complaints and issue notices. Greece (585) 225-2000. Brighton (585) 784-5250. Irondequoit (585) 467-8840. Rochester Neighborhood Service Center (585) 428-7690.",
       "Monroe County Sheriff at (585) 753-4178 handles abandoned vehicles on public roads but not private-property code matters.",
       "For a code violation ticket, town justice court (each town has its own) is the venue.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income homeowners in housing and code matters."
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income homeowners in housing and code matters."
     ]
   },
 
@@ -71,7 +71,7 @@ export const JUNK_VEHICLE_OWN_PROPERTY_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

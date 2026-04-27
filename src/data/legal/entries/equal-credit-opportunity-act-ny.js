@@ -45,7 +45,7 @@ export const EQUAL_CREDIT_OPPORTUNITY_ACT_NY = {
       "Consumer Financial Protection Bureau at (855) 411-2372 or consumerfinance.gov/complaint for ECOA complaints.",
       "NY Division of Human Rights Western Region at (585) 238-8250 for NY HRL 296-a complaints.",
       "Federal Trade Commission at (877) 382-4357 for finance company complaints.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income applicants in ECOA cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income applicants in ECOA cases.",
       "Empire Justice Center at (585) 295-5702 handles major lending discrimination cases.",
       "NY AG Civil Rights Bureau at (212) 416-8250 for pattern-and-practice lending discrimination."
     ]

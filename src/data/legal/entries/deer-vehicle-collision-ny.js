@@ -44,7 +44,7 @@ export const DEER_VEHICLE_COLLISION_NY = {
       "NYS Department of Motor Vehicles at (518) 486-9786 for MV-104 form filing.",
       "NYS DEC Environmental Conservation Officer 24-hour line at (844) 332-3267 for deer salvage permit.",
       "NY State Department of Financial Services at (800) 342-3736 for auto insurance claim disputes.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for injured drivers with complex insurance disputes.",
+      "Legal Aid Society of Rochester at (585) 232-4090 for injured drivers with complex insurance disputes.",
       "For severe injuries, Monroe County Bar Association Lawyer Referral at (585) 546-2130 for personal injury attorneys."
     ]
   },

@@ -46,7 +46,7 @@ export const CARD_ACT_CREDIT_CARD_FEES_NY = {
       "NY Department of Financial Services at (800) 342-3736 for NY-based issuer complaints.",
       "For disputed fees, cardholder should first call the issuer's customer service number on the back of the card.",
       "Consumer Credit Counseling Service of Rochester at (585) 546-3440 helps with credit card debt management.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for CARD Act disputes involving significant amounts."
+      "Legal Aid Society of Rochester at (585) 232-4090 for CARD Act disputes involving significant amounts."
     ]
   },
 

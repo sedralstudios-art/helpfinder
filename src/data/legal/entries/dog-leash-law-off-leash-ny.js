@@ -41,7 +41,7 @@ export const DOG_LEASH_LAW_OFF_LEASH_NY = {
       "Each town clerk issues dog licenses and maintains the local leash ordinance. Rochester City Clerk (585) 428-7421, Greece Town Clerk (585) 723-2302, Brighton Town Clerk (585) 784-5250, Irondequoit Town Clerk (585) 467-8840, Penfield Town Clerk (585) 340-8630.",
       "Monroe County Animal Services at (585) 753-2550 investigates dangerous dog incidents.",
       "For a leash violation ticket, town justice court or Rochester City Court is the venue.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income dog owners in dangerous dog proceedings.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income dog owners in dangerous dog proceedings.",
       "For dog park locations, Monroe County Parks at (585) 753-7275 maintains a list of off-leash sites."
     ]
   },

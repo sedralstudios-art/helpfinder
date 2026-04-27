@@ -45,7 +45,7 @@ export const CHILD_DEPENDENT_CARE_CREDIT_NY = {
       "IRS Child and Dependent Care Credit guidance at (800) 829-1040 or irs.gov/taxtopics/tc602.",
       "Monroe County Department of Human Services at (585) 753-6960 for Child Care Subsidy (CCAP) eligibility alongside the tax credit.",
       "AARP Foundation Tax-Aide for seniors and low-income adults — (800) 227-7669 for Rochester-area locations.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for tax-related legal issues."
+      "Legal Aid Society of Rochester at (585) 232-4090 for tax-related legal issues."
     ]
   },
 

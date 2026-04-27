@@ -41,7 +41,7 @@ export const TIPPED_MINIMUM_WAGE_NY = {
   legalOptions: {
     en: [
       "NY Department of Labor Division of Labor Standards at (888) 469-7365 handles tip credit and wage violation complaints.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income tipped workers.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income tipped workers.",
       "Empire Justice Center at (585) 295-5702 handles class actions and major wage-theft cases.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for paid employment counsel.",
       "For private claims, employment attorneys who handle wage theft often take cases on contingency or minimum-fee basis.",

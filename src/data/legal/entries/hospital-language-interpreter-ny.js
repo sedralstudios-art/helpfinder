@@ -44,7 +44,7 @@ export const HOSPITAL_LANGUAGE_INTERPRETER_NY = {
       "NYS Department of Health Office of Primary Care and Health Systems at (518) 402-0911 for PHL 2803 complaints.",
       "U.S. Department of Health and Human Services Office for Civil Rights at (800) 368-1019 for federal Title VI and Section 1557 complaints.",
       "Rochester area hospital patient advocates: Strong Memorial Patient Relations (585) 275-4871, Rochester General Patient Relations (585) 922-4141, Highland Patient Relations (585) 341-6502.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income patients in language access denials.",
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income patients in language access denials.",
       "Community-based interpreters: Refugees Helping Refugees, International Institute of Buffalo (serves upstate NY).",
       "NY State Language Line general assistance at (800) 806-1174."
     ]

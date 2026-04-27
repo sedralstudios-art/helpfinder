@@ -45,7 +45,7 @@ export const TENANT_RIGHTS_REPAIRS_NY = {
       "City of Rochester Neighborhood Service Center at (585) 428-7690 handles housing code complaints within city limits.",
       "Each Monroe County town has a code enforcement office: Greece (585) 225-2000, Brighton (585) 784-5250, Irondequoit (585) 467-8840, Penfield (585) 340-8600, Pittsford (585) 248-6215.",
       "Rochester City Court Housing Part at (585) 428-6990 handles Housing Part petitions and rent-abatement defenses.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income tenants in habitability and eviction cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income tenants in habitability and eviction cases.",
       "LawNY (Legal Assistance of Western NY) at (585) 295-5700 represents low-income tenants across 14 Western NY counties.",
       "NY Attorney General Tenant Helpline at (800) 771-7755 accepts complaints and publishes the Residential Tenants Rights Guide."
     ]
@@ -63,7 +63,7 @@ export const TENANT_RIGHTS_REPAIRS_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

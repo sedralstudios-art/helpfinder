@@ -46,7 +46,7 @@ export const KINDERGARTEN_ENROLLMENT_AGE_NY = {
       "For Universal Pre-K questions, each district's UPK coordinator.",
       "Monroe County Office of the Committee on Preschool Special Education (CPSE) coordinates preschool special ed.",
       "For homeless or displaced children, each district's McKinney-Vento liaison.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for enrollment disputes."
+      "Legal Aid Society of Rochester at (585) 232-4090 for enrollment disputes."
     ]
   },
 

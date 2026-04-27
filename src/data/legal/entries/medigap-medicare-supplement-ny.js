@@ -45,7 +45,7 @@ export const MEDIGAP_MEDICARE_SUPPLEMENT_NY = {
       "NY Medicare Rights Center at (800) 333-4114 provides statewide advocacy and counseling.",
       "Medicare.gov at (800) 633-4227 is the federal Medicare authority.",
       "For enrollment in a specific Medigap plan, each insurer has enrollment lines — AARP/UnitedHealthcare (800) 523-5800, Excellus BCBS (800) 499-1275, Mutual of Omaha (800) 228-7571, Humana (800) 833-6917.",
-      "Legal Aid Society of Rochester at (585) 295-5727 assists low-income Medicare beneficiaries with coverage disputes."
+      "Legal Aid Society of Rochester at (585) 232-4090 assists low-income Medicare beneficiaries with coverage disputes."
     ]
   },
 

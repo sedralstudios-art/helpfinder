@@ -40,7 +40,7 @@ export const CONSUMER_CREDIT_FAIRNESS_ACT_NY = {
 
   legalOptions: {
     en: [
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income debtors in credit-card-debt lawsuits.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income debtors in credit-card-debt lawsuits.",
       "Empire Justice Center at (585) 295-5702 handles major consumer debt defense cases.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for paid consumer defense attorneys.",
       "Consumer Financial Protection Bureau at (855) 411-2372 handles federal FDCPA complaints.",
@@ -61,7 +61,7 @@ export const CONSUMER_CREDIT_FAIRNESS_ACT_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation in debt collection lawsuit",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

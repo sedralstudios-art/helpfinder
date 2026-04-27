@@ -41,7 +41,7 @@ export const PTO_VACATION_AT_SEPARATION_NY = {
   legalOptions: {
     en: [
       "NY Department of Labor Division of Labor Standards at (888) 469-7365 for wage claim complaints.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income worker wage claims.",
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income worker wage claims.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for employment attorneys.",
       "For handbook or policy review, a NY-licensed employment attorney.",
       "Employee Rights Advocacy Institute of NY for worker-side resources.",
@@ -74,7 +74,7 @@ export const PTO_VACATION_AT_SEPARATION_NY = {
       qualifier: "Monroe County worker at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

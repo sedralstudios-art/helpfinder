@@ -43,7 +43,7 @@ export const PMI_CANCELLATION_HOMEOWNER_NY = {
       "Consumer Financial Protection Bureau at (855) 411-2372 handles federal HPA complaints against servicers.",
       "NY Department of Financial Services at (800) 342-3736 handles NY state-level PMI complaints.",
       "For private lawsuits, Monroe County Bar Association Lawyer Referral at (585) 546-2130 refers to consumer protection attorneys.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income homeowners in PMI disputes.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income homeowners in PMI disputes.",
       "For appraisal referrals, any NY-licensed residential appraiser in the Monroe County Multiple Listing Service.",
       "Federal Housing Administration at (800) 225-5342 for FHA loan-specific MIP questions."
     ]

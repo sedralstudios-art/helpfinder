@@ -44,7 +44,7 @@ export const RESTROOM_ACCESS_ACT_ALLYS_LAW_NY = {
       "Crohn's and Colitis Foundation NY Chapter at (800) 343-3637 for free Restroom Access Cards and advocacy.",
       "NY Division of Human Rights at (888) 392-3644 for discrimination-based complaints.",
       "U.S. Department of Justice ADA Information Line at (800) 514-0301 for Title III federal claims.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income plaintiffs in significant cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income plaintiffs in significant cases.",
       "For businesses seeking compliance training, local chamber of commerce or ADA consultants."
     ]
   },

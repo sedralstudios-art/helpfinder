@@ -45,7 +45,7 @@ export const MORTGAGE_PREFORECLOSURE_90_DAY_NOTICE_NY = {
       "NeighborWorks Rochester at (585) 325-4170 for free housing counseling.",
       "PathStone at (585) 340-3300 for bilingual housing counseling.",
       "Consumer Credit Counseling Service of Rochester at (585) 546-3440 for financial counseling.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for foreclosure defense representation.",
+      "Legal Aid Society of Rochester at (585) 232-4090 for foreclosure defense representation.",
       "Empire Justice Center at (585) 295-5702 for complex foreclosure cases.",
       "NY Homeowner Assistance Fund at 1-844-77-NYHAF for mortgage arrears grants."
     ]
@@ -89,7 +89,7 @@ export const MORTGAGE_PREFORECLOSURE_90_DAY_NOTICE_NY = {
       qualifier: "Monroe County homeowner at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation in foreclosure",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

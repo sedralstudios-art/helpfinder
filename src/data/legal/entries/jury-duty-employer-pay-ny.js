@@ -40,7 +40,7 @@ export const JURY_DUTY_EMPLOYER_PAY_NY = {
     en: [
       "Monroe County Commissioner of Jurors at (585) 371-3712 handles state court jury service.",
       "For retaliation after jury service, NYS Department of Labor at (888) 469-7365 accepts complaints.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income workers in retaliation cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income workers in retaliation cases.",
       "For federal jury service, U.S. District Court Western District of New York Rochester Division at (585) 613-4000.",
       "A full copy of the jury duty rules is at nycourts.gov/jury."
     ]
@@ -71,7 +71,7 @@ export const JURY_DUTY_EMPLOYER_PAY_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation for retaliation claims",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

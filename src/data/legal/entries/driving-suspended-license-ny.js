@@ -40,7 +40,7 @@ export const DRIVING_SUSPENDED_LICENSE_NY = {
     en: [
       "NYS DMV at (518) 486-9786 or dmv.ny.gov confirms current license status and reason for any suspension.",
       "Monroe County Public Defender at (585) 753-4210 represents indigent defendants in AUO and other criminal cases.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income defendants in traffic-related cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income defendants in traffic-related cases.",
       "Monroe County Traffic Violations Agency at (585) 753-4240 handles non-felony traffic charges in the city.",
       "Monroe County Bar Association at (585) 546-2130 refers to private traffic counsel for AUO cases.",
       "For clearing an underlying suspension caused by unpaid support, Monroe County Child Support Enforcement at (585) 753-6988."
@@ -72,7 +72,7 @@ export const DRIVING_SUSPENDED_LICENSE_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

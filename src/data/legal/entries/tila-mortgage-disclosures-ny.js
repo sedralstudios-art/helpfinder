@@ -43,7 +43,7 @@ export const TILA_MORTGAGE_DISCLOSURES_NY = {
       "Consumer Financial Protection Bureau at (855) 411-2372 handles TILA and RESPA complaints.",
       "NY Department of Financial Services at (800) 342-3736 handles NY-level mortgage complaints.",
       "Federal Trade Commission at (877) 382-4357 handles mortgage lender deception.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income borrowers in TILA violations.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income borrowers in TILA violations.",
       "For major violations, Monroe County Bar Association Lawyer Referral at (585) 546-2130.",
       "Free NeighborWorks housing counseling at (585) 325-4170 for pre-closing review."
     ]

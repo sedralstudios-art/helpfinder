@@ -44,7 +44,7 @@ export const MOPED_LIMITED_USE_MOTORCYCLE_NY = {
       "For motorcycle license testing, NYS Motorcycle Safety Program at (518) 474-2121 lists approved test sites.",
       "NYS Division of Consumer Protection at (800) 697-1220 handles complaints about moped dealers misrepresenting class.",
       "For traffic tickets, Monroe County Traffic Violations Agency or city/town court where the ticket was issued.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income riders in moped-related cases."
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income riders in moped-related cases."
     ]
   },
 

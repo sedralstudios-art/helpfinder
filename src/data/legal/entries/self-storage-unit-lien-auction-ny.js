@@ -41,7 +41,7 @@ export const SELF_STORAGE_UNIT_LIEN_AUCTION_NY = {
     en: [
       "For the exact statute, NY Lien Law Section 182 is available at nysenate.gov.",
       "NYS Attorney General Consumer Frauds Bureau at (800) 771-7755 accepts complaints about improper self-storage lien sales.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income renters in self-storage conversion cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income renters in self-storage conversion cases.",
       "Monroe County Supreme Court at (585) 371-3600 hears injunction petitions to stop an improper sale.",
       "NYS Division of Consumer Protection at (800) 697-1220 handles general self-storage consumer complaints."
     ]
@@ -72,7 +72,7 @@ export const SELF_STORAGE_UNIT_LIEN_AUCTION_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation, recovery of property value",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

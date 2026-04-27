@@ -44,7 +44,7 @@ export const CROWN_ACT_HAIR_DISCRIMINATION_NY = {
       "NY Division of Human Rights Western Region Office Rochester at (585) 238-8250 handles Monroe County intake.",
       "Monroe County Commission on Human Rights at (585) 753-1550 handles local complaints.",
       "Equal Employment Opportunity Commission at (800) 669-4000 handles federal Title VII parallel cases.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income complainants.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income complainants.",
       "Empire Justice Center at (585) 295-5702 handles major employment discrimination cases."
     ]
   },

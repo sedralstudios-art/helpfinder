@@ -43,7 +43,7 @@ export const MITCHELL_LAMA_AFFORDABLE_HOUSING_NY = {
       "NY Homes and Community Renewal at (518) 473-2526 administers upstate Mitchell-Lama.",
       "HCR Division of Housing and Community Renewal at (718) 739-6400 handles enforcement and complaints.",
       "Individual Mitchell-Lama developments have management offices with waiting list applications.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents Mitchell-Lama tenants in disputes.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents Mitchell-Lama tenants in disputes.",
       "Empire Justice Center at (585) 295-5702 for succession and major rights cases.",
       "HCR Mitchell-Lama directory at hcr.ny.gov lists developments by location."
     ]

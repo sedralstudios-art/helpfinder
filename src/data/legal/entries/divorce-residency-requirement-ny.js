@@ -40,7 +40,7 @@ export const DIVORCE_RESIDENCY_REQUIREMENT_NY = {
   legalOptions: {
     en: [
       "Monroe County Supreme Court Clerk at (585) 371-3600 handles divorce filings in the Hall of Justice.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income clients in uncontested and contested divorce.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income clients in uncontested and contested divorce.",
       "JustCause (formerly VLSP) at (585) 295-3100 offers divorce clinics for low-income clients.",
       "NY Court Help Self-Represented Resource at nycourts.gov/courthelp/family has free Form UD-1 and divorce packet.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for paid matrimonial attorneys.",
@@ -73,7 +73,7 @@ export const DIVORCE_RESIDENCY_REQUIREMENT_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

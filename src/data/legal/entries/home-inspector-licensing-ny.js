@@ -43,7 +43,7 @@ export const HOME_INSPECTOR_LICENSING_NY = {
       "NY Department of State Division of Licensing Services at (518) 474-4429 handles home inspector licensing and complaints.",
       "NY DOS eAccess online license lookup at dos.ny.gov.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for negligence lawsuit attorneys.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income buyers in inspector negligence cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income buyers in inspector negligence cases.",
       "Professional associations: ASHI (American Society of Home Inspectors) at (800) 743-2744, InterNACHI at (877) 346-2224.",
       "For home warranty claims (separate from inspection), American Home Shield at (800) 735-4663 or 2-10 Home Buyers Warranty."
     ]
@@ -74,7 +74,7 @@ export const HOME_INSPECTOR_LICENSING_NY = {
       qualifier: "Monroe County buyer at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

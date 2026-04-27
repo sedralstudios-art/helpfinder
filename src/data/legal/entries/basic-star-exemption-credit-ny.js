@@ -43,7 +43,7 @@ export const BASIC_STAR_EXEMPTION_CREDIT_NY = {
       "Monroe County town assessor offices: Greece (585) 225-2000, Brighton (585) 784-5215, Irondequoit (585) 467-8840, Penfield (585) 340-8600, Pittsford (585) 248-6230, Henrietta (585) 334-7700, Chili (585) 889-3550, Rochester (585) 428-7000.",
       "Monroe County Real Property Tax Services at (585) 753-1125 provides local STAR guidance.",
       "For appeals of STAR denial, NYS Tax Department STAR help at tax.ny.gov/star/appeal.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income homeowners in property tax disputes including STAR."
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income homeowners in property tax disputes including STAR."
     ]
   },
 

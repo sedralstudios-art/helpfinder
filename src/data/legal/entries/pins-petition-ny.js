@@ -46,7 +46,7 @@ export const PINS_PETITION_NY = {
       "Hillside Children's Center at (585) 654-4500 offers counseling and family services.",
       "Villa of Hope at (585) 865-1550 provides residential and community youth services.",
       "Center for Youth at (585) 271-7670 offers counseling, shelter, and advocacy.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents families in PINS proceedings.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents families in PINS proceedings.",
       "Monroe County Family Court at (585) 428-5410 for formal PINS filings.",
       "2-1-1 at (585) 442-0220 for general youth service navigation."
     ]
@@ -90,7 +90,7 @@ export const PINS_PETITION_NY = {
       qualifier: "Monroe County family at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

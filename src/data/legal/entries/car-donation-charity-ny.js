@@ -42,7 +42,7 @@ export const CAR_DONATION_CHARITY_NY = {
       "NYS DMV at (518) 486-9786 or dmv.ny.gov handles NY title transfer and plate surrender.",
       "Common Monroe County charities: Goodwill of the Finger Lakes (585) 546-9210, Habitat for Humanity Rochester (585) 546-1470, National Kidney Foundation Upstate NY (585) 697-0874.",
       "For tax filing help, NY State Tax Department at (518) 457-5181 or any CPA can assist.",
-      "Legal Aid Society of Rochester at (585) 295-5727 can help low-income donors navigate a complicated donation (deceased relative, lien, or estate issues)."
+      "Legal Aid Society of Rochester at (585) 232-4090 can help low-income donors navigate a complicated donation (deceased relative, lien, or estate issues)."
     ]
   },
 

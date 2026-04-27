@@ -43,7 +43,7 @@ export const PROPERTY_TAX_INSTALLMENT_PLAN_NY = {
       "City of Rochester Treasury at (585) 428-7030 handles city property tax installment plans.",
       "Each Monroe County town and village also collects school taxes and may have its own plan option — check with the specific town clerk.",
       "NYS Department of Taxation and Finance at (518) 457-2036 for state-level property tax questions.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents homeowners facing tax foreclosure.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents homeowners facing tax foreclosure.",
       "For bankruptcy, Monroe County Bankruptcy Court (Western District of New York) at (585) 613-4200, and bankruptcy attorneys through the Monroe County Bar Association at (585) 546-2130."
     ]
   },
@@ -86,7 +86,7 @@ export const PROPERTY_TAX_INSTALLMENT_PLAN_NY = {
       qualifier: "Monroe County homeowner at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

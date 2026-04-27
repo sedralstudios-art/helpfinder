@@ -43,7 +43,7 @@ export const RENTAL_MOVE_IN_COST_LIMITS_NY = {
     en: [
       "Rochester City Court Housing Part at (585) 428-6990 handles security deposit disputes up to 5K in small claims.",
       "Monroe County town justice courts handle deposit disputes in their respective municipalities.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income tenants in deposit cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income tenants in deposit cases.",
       "Empire Justice Center at (585) 295-5702 handles major tenant rights cases.",
       "NYS Attorney General Tenants' Rights Hotline at (800) 771-7755 accepts security deposit complaints.",
       "For security deposit bank account information verification, the tenant can demand the landlord disclose under GOL 7-103."
@@ -75,7 +75,7 @@ export const RENTAL_MOVE_IN_COST_LIMITS_NY = {
       qualifier: "Monroe County tenant at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

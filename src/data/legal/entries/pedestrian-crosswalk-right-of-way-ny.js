@@ -45,7 +45,7 @@ export const PEDESTRIAN_CROSSWALK_RIGHT_OF_WAY_NY = {
       "For crosswalk improvements, Rochester 311 at (585) 428-3311 or Monroe County DOT at (585) 753-7700.",
       "NYS Governor's Traffic Safety Committee at (518) 474-5111 for statewide pedestrian safety.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for pedestrian accident attorneys.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income injured pedestrians."
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income injured pedestrians."
     ]
   },
 

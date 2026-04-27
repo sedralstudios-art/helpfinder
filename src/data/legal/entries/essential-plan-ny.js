@@ -44,7 +44,7 @@ export const ESSENTIAL_PLAN_NY = {
       "Monroe County Department of Human Services at (585) 753-6960 assists with application.",
       "Navigator services (free in-person help) available at Hillside Children's Center and other Monroe County partners — contact NY State of Health for a Navigator appointment.",
       "Community Service Society of NY Health Helpline at 1-888-614-5400 provides free coverage counseling.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents applicants denied coverage.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents applicants denied coverage.",
       "For DACA status questions related to Essential Plan, immigration attorneys can be found through Monroe County Bar Association at (585) 546-2130."
     ]
   },

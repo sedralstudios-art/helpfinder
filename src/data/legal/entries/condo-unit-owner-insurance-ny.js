@@ -44,7 +44,7 @@ export const CONDO_UNIT_OWNER_INSURANCE_NY = {
       "NYS Attorney General Real Estate Financing Bureau at (212) 416-8122 oversees condo Offering Plan compliance.",
       "Any NY-licensed insurance broker can quote HO-6 coverage including ESL Insurance, Canandaigua National, State Farm, Allstate, Liberty Mutual, GEICO.",
       "For HOA disputes about insurance, the HOA's management company or elected Board of Managers handles internal procedures.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income unit owners in coverage disputes.",
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income unit owners in coverage disputes.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for real-estate attorneys."
     ]
   },

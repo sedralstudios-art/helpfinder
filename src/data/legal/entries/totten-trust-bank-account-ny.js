@@ -41,7 +41,7 @@ export const TOTTEN_TRUST_BANK_ACCOUNT_NY = {
       "Any local bank or credit union branch can set up a POD or Totten trust account at no charge. Common Monroe County options include ESL Federal Credit Union, M&T Bank, Canandaigua National Bank, and Five Star Bank.",
       "NYS Department of Financial Services at (800) 342-3736 answers questions about bank account rules.",
       "Monroe County Surrogate's Court at (585) 371-3717 is only needed if the estate has other assets outside POD designations.",
-      "Legal Aid Society of Rochester at (585) 295-5727 helps low-income families plan simple estate setups.",
+      "Legal Aid Society of Rochester at (585) 232-4090 helps low-income families plan simple estate setups.",
       "JustCause (formerly VLSP) at (585) 295-3100 offers free estate planning clinics."
     ]
   },

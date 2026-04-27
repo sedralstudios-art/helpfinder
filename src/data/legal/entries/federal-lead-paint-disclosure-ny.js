@@ -44,7 +44,7 @@ export const FEDERAL_LEAD_PAINT_DISCLOSURE_NY = {
       "NY State Department of Health Lead Program at (518) 402-7600 handles state-level lead compliance.",
       "Monroe County Department of Public Health Lead Program at (585) 753-5150 offers free home lead risk assessments.",
       "Rochester Lead Hazard Control Program at (585) 428-6150 administers local pre-1978 rental rules.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents tenants and buyers in lead disclosure cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents tenants and buyers in lead disclosure cases.",
       "For triple-damages lawsuits, Monroe County Bar Association Lawyer Referral at (585) 546-2130."
     ]
   },

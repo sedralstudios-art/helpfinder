@@ -42,7 +42,7 @@ export const FORCE_PLACED_HOMEOWNER_INSURANCE_NY = {
     en: [
       "NYS Department of Financial Services at (800) 342-3736 handles force-placed insurance complaints.",
       "Consumer Financial Protection Bureau at (855) 411-2372 handles federal RESPA complaints against servicers.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income homeowners in improper force-placement cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income homeowners in improper force-placement cases.",
       "NY Homeowner Assistance Fund at 1-844-77-NYHAF provides mortgage and insurance help.",
       "For restoring regular insurance, any NY-licensed insurance broker can help — local options include ESL Insurance, Allstate, State Farm, Liberty Mutual, GEICO.",
       "JustCause (formerly VLSP) at (585) 295-3100 offers free legal help on mortgage and insurance disputes for low-income homeowners."

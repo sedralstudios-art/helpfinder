@@ -45,7 +45,7 @@ export const MOLST_MEDICAL_ORDERS_NY = {
       "Hildebrandt Hospice at (585) 214-1000 offers community-based MOLST and hospice services.",
       "NY State Department of Health MOLST Program at molst.org provides the official form and clinician training.",
       "Compassion and Choices of NY at (800) 247-7421 helps patients and families understand MOLST.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents patients in disputes about MOLST interpretation."
+      "Legal Aid Society of Rochester at (585) 232-4090 represents patients in disputes about MOLST interpretation."
     ]
   },
 

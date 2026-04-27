@@ -44,7 +44,7 @@ export const HOSPITAL_FINANCIAL_ASSISTANCE_CHARITY_CARE_NY = {
       "Highland Hospital Patient Financial Counseling at (585) 341-8450 handles Highland patients.",
       "NYS Department of Health Bureau of Healthcare Financial Viability at (518) 402-0979 handles complaints.",
       "Community Service Society of NY Health Helpline at 1-888-614-5400 provides free counseling.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents patients in disputed financial assistance cases."
+      "Legal Aid Society of Rochester at (585) 232-4090 represents patients in disputed financial assistance cases."
     ]
   },
 

@@ -43,7 +43,7 @@ export const EMPIRE_STATE_CHILD_CREDIT_NY = {
       "For free tax help, VITA sites in Monroe County — search for VITA Rochester or call 211 at (585) 442-0220.",
       "IRS at (800) 829-1040 handles federal Child Tax Credit questions.",
       "Monroe County Department of Human Services at (585) 753-6960 can refer low-income families to tax help.",
-      "Legal Aid Society of Rochester at (585) 295-5727 handles tax-related legal issues for low-income filers.",
+      "Legal Aid Society of Rochester at (585) 232-4090 handles tax-related legal issues for low-income filers.",
       "NYS Tax Department online free-file at tax.ny.gov provides free filing options for income-eligible households."
     ]
   },

@@ -44,7 +44,7 @@ export const SEATBELT_LAW_NY = {
       "Town justice courts handle seatbelt tickets issued in each Monroe County municipality.",
       "NYS DMV at (518) 486-9786 for questions about medical exemption documentation.",
       "NYS Governor's Traffic Safety Committee at (518) 474-5111 for statewide enforcement questions.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income drivers in personal injury cases where seatbelt use affects damages.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income drivers in personal injury cases where seatbelt use affects damages.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for personal injury attorneys."
     ]
   },

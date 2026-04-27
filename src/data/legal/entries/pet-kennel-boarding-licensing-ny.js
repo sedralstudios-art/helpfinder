@@ -45,7 +45,7 @@ export const PET_KENNEL_BOARDING_LICENSING_NY = {
       "Lollypop Farm Humane Society at (585) 223-1330 for cruelty investigations.",
       "Monroe County Animal Services at (585) 753-2550 for local complaints.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for civil suits.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for low-income plaintiffs."
+      "Legal Aid Society of Rochester at (585) 232-4090 for low-income plaintiffs."
     ]
   },
 

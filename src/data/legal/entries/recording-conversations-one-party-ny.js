@@ -39,7 +39,7 @@ export const RECORDING_CONVERSATIONS_ONE_PARTY_NY = {
   legalOptions: {
     en: [
       "For the exact statute, NY Penal Law Sections 250.00 and 250.05 are available at nysenate.gov.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income people in cases where a recording is evidence.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income people in cases where a recording is evidence.",
       "Monroe County District Attorney at (585) 753-4500 handles eavesdropping prosecutions (a felony) when someone recorded a conversation without being part of it.",
       "NYS Attorney General at (800) 771-7755 handles violations involving businesses secretly recording consumers.",
       "For multistate situations, checking with a lawyer about the other state rule before recording is important because some states require all-party consent."
@@ -58,7 +58,7 @@ export const RECORDING_CONVERSATIONS_ONE_PARTY_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation, evidentiary guidance",
-      phone: "(585) 295-5727",
+      phone: "(585) 232-4090",
       url: "https://www.lasroc.org",
       verified: true,
       bilingual: true,

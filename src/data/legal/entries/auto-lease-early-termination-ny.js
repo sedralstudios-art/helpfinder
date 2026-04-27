@@ -44,7 +44,7 @@ export const AUTO_LEASE_EARLY_TERMINATION_NY = {
       "NYS Department of Financial Services at (800) 342-3736 handles auto lease and insurance complaints.",
       "NYS Division of Consumer Protection at (800) 697-1220 for general lease dispute complaints.",
       "For lease transfers, Swapalease.com and LeaseTrader.com are the main online platforms.",
-      "Legal Aid Society of Rochester at (585) 295-5727 represents low-income leaseholders in dispute cases.",
+      "Legal Aid Society of Rochester at (585) 232-4090 represents low-income leaseholders in dispute cases.",
       "For servicemember SCRA questions, Monroe County Bar Association Veteran Legal Assistance at (585) 546-2130."
     ]
   },

@@ -43,7 +43,7 @@ export const NY_HOMEOWNER_ASSISTANCE_FUND_NY = {
       "NeighborWorks Rochester at (585) 325-4170 provides free application assistance.",
       "PathStone (formerly Rural Opportunities) at (585) 340-3300 provides bilingual housing counseling.",
       "Consumer Credit Counseling Service of Rochester at (585) 546-3440 for financial counseling and application support.",
-      "Legal Aid Society of Rochester at (585) 295-5727 handles foreclosure defense legal cases in parallel with NY HAF.",
+      "Legal Aid Society of Rochester at (585) 232-4090 handles foreclosure defense legal cases in parallel with NY HAF.",
       "Empire Justice Center at (585) 295-5702 handles complex foreclosure and assistance cases."
     ]
   },

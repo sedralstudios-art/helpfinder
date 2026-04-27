@@ -45,7 +45,7 @@ export const MOTOR_VEHICLE_SERVICE_CONTRACT_NY = {
       "NYS DMV at (518) 486-9786 handles dealer license complaints.",
       "Federal Communications Commission at (888) 225-5322 handles robocall complaints.",
       "Better Business Bureau Upstate NY at (585) 325-6550 tracks complaint history on specific extended warranty companies.",
-      "Legal Aid Society of Rochester at (585) 295-5727 for service contract dispute representation."
+      "Legal Aid Society of Rochester at (585) 232-4090 for service contract dispute representation."
     ]
   },
 
