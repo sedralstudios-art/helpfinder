@@ -10,7 +10,7 @@ export const CONDO_CONVERSION_TENANT_BUYOUT_NY = {
   title: { en: "Cooperative and Condominium Conversion — Tenant Buyout Rights and Non-Eviction Plans in New York" },
 
   summary: {
-    en: "When a rental building is converted to a cooperative or condominium, New York General Business Law Section 352-eeee gives existing tenants specific rights: an insider price to buy their apartment, protection from eviction if they do not buy (under a non-eviction plan), and a vote on the plan. The conversion requires Attorney General review and approval. Most conversions in NYC and certain other areas must use the non-eviction path."
+    en: "When a rental building is converted to a cooperative or condominium, New York General Business Law Section 352-eeee (NYC) and Section 352-eee (certain cities, towns and villages in Nassau, Westchester, and Rockland that have opted in) give existing tenants specific rights: an insider price to buy their apartment, protection from eviction if they do not buy (under a non-eviction plan), and a vote on the plan. The conversion requires Attorney General review and approval. Outside those covered areas, tenants of a converting building rely primarily on Martin Act offering-plan rules under GBL 352-e and on their lease."
   },
 
   whoQualifies: {
@@ -25,7 +25,7 @@ export const CONDO_CONVERSION_TENANT_BUYOUT_NY = {
   },
 
   whatItMeans: {
-    en: "General Business Law Section 352-eeee governs cooperative and condominium conversions in New York City and certain other counties (Nassau, Westchester, Rockland). The Attorney General's Real Estate Finance Bureau reviews every offering plan. Types of conversion plans: (1) eviction plan — requires 51 percent of existing tenants to agree to purchase before acceptance; non-purchasing tenants can eventually be evicted at lease end. (2) Non-eviction plan — requires 15 percent of units to be purchased by bona fide tenants or purchasers who intend to occupy (not just paper signatures) before acceptance. Non-purchasing tenants retain their leases and rent regulation. Insider price: the sponsor must offer current tenants the right to buy their apartment at a discounted insider price — typically 10 to 40 percent below the public offering price. The tenant has a minimum exclusive purchase period (usually 90 days) before the unit can be offered to the public. Senior and disabled protections: GBS 352-eeee and local law require eviction plans to exempt senior citizens (over 62) and people with disabilities from eviction. In certain high-density areas, eviction plans are almost never used because of the practical difficulty of displacing protected tenants. Rent regulation: a tenant in a rent-regulated apartment who does not buy retains their rent-regulated status. The conversion to ownership does not remove regulation. A new owner of an apartment formerly rent-stabilized must continue to offer the tenant a regulated lease, with all its renewal rights, until the tenant voluntarily leaves. Offering plan disclosure: the sponsor must file an Offering Plan with the Attorney General with audited financials, building condition report, budget projections, sponsor history, legal description of units, and proposed governance. Once accepted by the AG, the plan is delivered to each tenant and any purchaser. Tenants have 15 days to review the Plan. Amendments to the plan require AG approval. Common pitfalls for buyers: the insider price may be low relative to public offering price, but the building's deferred maintenance, underfunded reserves, and sponsor retention of unsold units can create long-term financial risk. A tenant considering purchase should have an attorney review the offering plan, financials, and proprietary lease or condominium declaration. Tenants' association role: tenants commonly form an association, hire joint counsel, and negotiate with the sponsor for improvements to the plan (price reductions, repair commitments, sponsor reserve funds, protection for vulnerable tenants). The association can file objections to the AG during the review period. Non-purchasing tenant rights under a non-eviction plan: the tenant continues renting with all existing lease terms, including rent regulation if applicable. The sponsor cannot harass, reduce services, or use eviction as leverage. Fines and penalties apply under GBS 352-eeee(6). The tenant can sue for harassment and file complaints with the AG."
+    en: "General Business Law Section 352-eeee governs cooperative and condominium conversions in New York City. A parallel statute, GBL Section 352-eee, covers conversions in cities, towns, and villages located in Nassau, Westchester, and Rockland counties that have opted in by local resolution. Outside those jurisdictions (including Monroe County), the conversion-specific tenant-protection rules in 352-eeee/352-eee do not apply, but the Martin Act offering-plan disclosure rules under GBL 352-e still do. The Attorney General's Real Estate Finance Bureau reviews every offering plan. Types of conversion plans under 352-eeee/352-eee: (1) eviction plan — requires 51 percent of existing bona fide tenants in occupancy to enter purchase agreements before the plan can be declared effective; non-purchasing tenants can eventually be evicted at lease end. (2) Non-eviction plan — can be declared effective when at least 15 percent of dwelling units have been subscribed for by bona fide tenants in occupancy or by bona fide purchasers who intend to occupy. Non-purchasing tenants retain their leases and rent regulation. Insider price: the sponsor must offer current tenants the right to buy their apartment at a discounted insider price — typically 10 to 40 percent below the public offering price. The tenant has a minimum exclusive purchase period (usually 90 days) before the unit can be offered to the public. Senior and disabled protections: GBS 352-eeee and local law require eviction plans to exempt senior citizens (over 62) and people with disabilities from eviction. In certain high-density areas, eviction plans are almost never used because of the practical difficulty of displacing protected tenants. Rent regulation: a tenant in a rent-regulated apartment who does not buy retains their rent-regulated status. The conversion to ownership does not remove regulation. A new owner of an apartment formerly rent-stabilized must continue to offer the tenant a regulated lease, with all its renewal rights, until the tenant voluntarily leaves. Offering plan disclosure: the sponsor must file an Offering Plan with the Attorney General with audited financials, building condition report, budget projections, sponsor history, legal description of units, and proposed governance. Once accepted by the AG, the plan is delivered to each tenant and any purchaser. Tenants have 15 days to review the Plan. Amendments to the plan require AG approval. Common pitfalls for buyers: the insider price may be low relative to public offering price, but the building's deferred maintenance, underfunded reserves, and sponsor retention of unsold units can create long-term financial risk. A tenant considering purchase should have an attorney review the offering plan, financials, and proprietary lease or condominium declaration. Tenants' association role: tenants commonly form an association, hire joint counsel, and negotiate with the sponsor for improvements to the plan (price reductions, repair commitments, sponsor reserve funds, protection for vulnerable tenants). The association can file objections to the AG during the review period. Non-purchasing tenant rights under a non-eviction plan: the tenant continues renting with all existing lease terms, including rent regulation if applicable. The sponsor cannot harass, reduce services, or use eviction as leverage. Fines and penalties apply under GBS 352-eeee(6). The tenant can sue for harassment and file complaints with the AG."
   },
 
   yourRights: {
@@ -44,7 +44,7 @@ export const CONDO_CONVERSION_TENANT_BUYOUT_NY = {
   legalOptions: {
     en: [
       "NY Attorney General Real Estate Finance Bureau at (212) 416-8121.",
-      "Empire Justice Center at (585) 295-5800 — co-op/condo conversion impact cases.",
+      "Empire Justice Center at (585) 454-4060 — co-op/condo conversion impact cases.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income tenant conversion rights.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — real estate attorneys.",
       "Rochester City-Wide Tenant Union at (585) 270-0411 — organizing assistance.",
@@ -55,7 +55,7 @@ export const CONDO_CONVERSION_TENANT_BUYOUT_NY = {
   },
 
   example: {
-    en: "A tenant in a 90-unit building in downtown Rochester received a conversion offering plan proposing to turn the building into condominiums. The plan set the insider price for his rent-stabilized 2-bedroom at $185,000 and the public offering price at $265,000. The plan was a non-eviction plan. He joined the newly-formed tenants' association, which pooled resources to hire a real estate attorney. The attorney's review showed an underfunded reserve fund and deferred facade work. The association submitted objections to the AG and negotiated with the sponsor for a $400,000 reserve contribution and a price reduction. The tenant ultimately did not buy. The plan closed with only 18 percent of units purchased. He retained his rent-stabilized lease with the new unit owner at his prior rent."
+    en: "A tenant in a 90-unit building in a covered city (NYC under 352-eeee, or an opted-in jurisdiction in Nassau, Westchester, or Rockland under 352-eee) received a conversion offering plan proposing to turn the building into condominiums. The plan set the insider price for his rent-stabilized 2-bedroom at $185,000 and the public offering price at $265,000. The plan was a non-eviction plan. He joined the newly-formed tenants' association, which pooled resources to hire a real estate attorney. The attorney's review showed an underfunded reserve fund and deferred facade work. The association submitted objections to the AG and negotiated with the sponsor for a reserve contribution and a price reduction. The tenant ultimately did not buy. The plan closed with the required 15 percent of units purchased. He retained his rent-stabilized lease with the new unit owner at his prior rent."
   },
 
   counsel: [
@@ -64,9 +64,9 @@ export const CONDO_CONVERSION_TENANT_BUYOUT_NY = {
       name: "Empire Justice Center",
       focus: "Conversion impact on low-income and regulated tenants, systemic litigation",
       qualifier: "Low-income tenants in NY",
-      access: "Phone at (585) 295-5800",
+      access: "Phone at (585) 454-4060",
       outcome: "Representation, negotiation, attorney general objections",
-      phone: "(585) 295-5800",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,
@@ -115,7 +115,8 @@ export const CONDO_CONVERSION_TENANT_BUYOUT_NY = {
     "https://www.nysenate.gov/legislation/laws/GBS/352"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

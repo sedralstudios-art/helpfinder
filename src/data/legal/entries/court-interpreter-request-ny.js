@@ -40,8 +40,8 @@ export const COURT_INTERPRETER_REQUEST_NY = {
   legalOptions: {
     en: [
       "Notify the court clerk of the need for an interpreter at least two weeks before the proceeding when possible — give the specific language or indicate ASL.",
-      "Monroe County Courts Language Access: call the clerk of the court handling the case. Monroe County Family Court at (585) 428-5429, Monroe County Supreme Court at (585) 371-3800.",
-      "The NY Unified Court System's Office of Language Access: (646) 386-3800.",
+      "Monroe County Courts Language Access: call the clerk of the court handling the case. Monroe County Family Court at (585) 371-3544, Monroe County Supreme and County Court at (585) 371-3758.",
+      "The NY Unified Court System's Office of Language Access: (646) 386-5670.",
       "For federal court in the Western District of New York: the federal court clerk handles interpreter scheduling at (585) 613-4000.",
       "For immigration court (EOIR) interpreters, the immigration court schedules them — the party does not request separately.",
       "If a court did not provide a competent interpreter and the party was prejudiced, consult an appellate or civil rights attorney. Monroe County Bar Association referral at (585) 546-2130.",
@@ -59,9 +59,9 @@ export const COURT_INTERPRETER_REQUEST_NY = {
       name: "NY Unified Court System — Office of Language Access",
       focus: "Court interpreter scheduling, language access complaints, Title VI",
       qualifier: "Any party in NY court proceedings",
-      access: "Phone at (646) 386-3800",
+      access: "Phone at (646) 386-5670",
       outcome: "Interpreter scheduling, policy guidance, complaint processing",
-      phone: "(646) 386-3800",
+      phone: "(646) 386-5670",
       url: "https://www.nycourts.gov/courts/languageaccess",
       verified: true,
       bilingual: true,
@@ -98,7 +98,8 @@ export const COURT_INTERPRETER_REQUEST_NY = {
     "https://www.nycourts.gov/courts/languageaccess"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

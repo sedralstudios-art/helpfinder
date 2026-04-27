@@ -10,7 +10,7 @@ export const COURT_FEE_WAIVER_NY = {
   title: { en: "Court Fee Waivers — How to File a Case Without Affording the Filing Fee" },
 
   summary: {
-    en: "Every court in New York charges a filing fee to start a case — but people who cannot afford it can ask the court to waive the fee. This is called a Poor Person Application or a fee waiver. The court reviews the person's income and expenses and decides whether to waive some or all of the fees. Many people do not file cases they should file because they think they cannot afford the court fees — but the waiver exists for exactly this situation."
+    en: "Every court in New York charges a filing fee to start a case — but people who cannot afford it can ask the court to waive the fee. The application has historically been called a Poor Person Application, though a December 2024 amendment to CPLR 1101 dropped that term in favor of an applicant who lacks sufficient means. The court reviews the person's income and expenses and decides whether to waive some or all of the fees. Many people do not file cases they should file because they think they cannot afford the court fees — but the waiver exists for exactly this situation."
   },
 
   whoQualifies: {
@@ -23,7 +23,7 @@ export const COURT_FEE_WAIVER_NY = {
   },
 
   whatItMeans: {
-    en: "Under CPLR § 1101-1103, any person who cannot afford to pay court fees can apply for Poor Person status. The application (sometimes called an IFP — in forma pauperis petition) asks the court to waive: the filing fee (which varies by court and case type), the cost of serving papers, the cost of transcripts and copies, and in some cases, the cost of a court-appointed attorney. The person fills out a financial disclosure form listing income, assets, expenses, and debts. The court reviews it and either grants or denies the waiver. If granted, the person proceeds without paying fees. Receiving public benefits (SNAP, TANF, SSI, Medicaid) is strong evidence of eligibility — but it is not the only way to qualify. A person who is employed but has high expenses and no savings may also qualify. The fee waiver does not mean the person wins the case — it just removes the financial barrier to filing. Costs that the waiver covers vary by court and case type. Filing fees are set by the court — Family Court has no filing fee for most petitions, while Supreme Court matters like divorce carry the highest filing fees in the system. The current fee schedule for each court is published at nycourts.gov/courts. Service of process by a private process server is an out-of-pocket cost paid per defendant, and a fee waiver lets the sheriff serve the papers instead at no cost. Trial transcripts, needed for any appeal, can run into the thousands in a long case; a waiver covers these too. Court interpreters are provided free by the court system in any case where one is needed, separate from the fee waiver. Indigent appellate counsel is available in criminal cases and in some civil cases involving termination of parental rights or other constitutional issues. The waiver application is straightforward but the financial information must be complete and accurate; the court can deny or revoke the waiver if the information is incomplete or false."
+    en: "Under CPLR § 1101-1103, any person who lacks sufficient means to pay court fees can apply for a fee waiver (historically called Poor Person status; the term was retired in a December 2024 amendment). The application (sometimes called an IFP — in forma pauperis petition) asks the court to waive: the filing fee (which varies by court and case type), the cost of serving papers, the cost of transcripts and copies, and in some cases, the cost of a court-appointed attorney. The person fills out a financial disclosure form listing income, assets, expenses, and debts. The court reviews it and either grants or denies the waiver. If granted, the person proceeds without paying fees. Receiving public benefits (SNAP, TANF, SSI, Medicaid) is strong evidence of eligibility — but it is not the only way to qualify. A person who is employed but has high expenses and no savings may also qualify. The fee waiver does not mean the person wins the case — it just removes the financial barrier to filing. Costs that the waiver covers vary by court and case type. Filing fees are set by the court — Family Court has no filing fee for most petitions, while Supreme Court matters like divorce carry the highest filing fees in the system. The current fee schedule for each court is published at nycourts.gov/courts. Service of process by a private process server is an out-of-pocket cost paid per defendant, and a fee waiver lets the sheriff serve the papers instead at no cost. Trial transcripts, needed for any appeal, can run into the thousands in a long case; a waiver covers these too. Court interpreters are provided free by the court system in any case where one is needed, separate from the fee waiver. Indigent appellate counsel is available in criminal cases and in some civil cases involving termination of parental rights or other constitutional issues. The waiver application is straightforward but the financial information must be complete and accurate; the court can deny or revoke the waiver if the information is incomplete or false."
   },
 
   yourRights: {
@@ -48,7 +48,7 @@ export const COURT_FEE_WAIVER_NY = {
   },
 
   example: {
-    en: "A woman in Rochester wants to file for divorce but cannot afford the Supreme Court filing fee. She fills out a Poor Person Application listing her income (SSI only), her expenses, and the fact that she receives SNAP and Medicaid. The court grants the waiver. She files the divorce case without paying the filing fee, service fees, or transcript costs."
+    en: "A woman in Rochester wants to file for divorce but cannot afford the Supreme Court filing fee. She fills out a fee waiver application (the form courts still also call a Poor Person Application) listing her income (SSI only), her expenses, and the fact that she receives SNAP and Medicaid. The court grants the waiver. She files the divorce case without paying the filing fee, service fees, or transcript costs."
   },
 
   counsel: [
@@ -97,7 +97,8 @@ export const COURT_FEE_WAIVER_NY = {
     "https://www.nycourts.gov/courthelp/GoingToCourt/feeWaiver.shtml"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

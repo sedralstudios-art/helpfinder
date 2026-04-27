@@ -99,7 +99,8 @@ export const CAR_ACCIDENT_NO_FAULT_NY = {
     "https://dmv.ny.gov/forms/mv104.pdf"
   ],
 
-  lastVerified: "2026-04-22",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

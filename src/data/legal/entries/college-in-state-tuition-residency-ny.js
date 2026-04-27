@@ -49,7 +49,7 @@ export const COLLEGE_IN_STATE_TUITION_RESIDENCY_NY = {
       "Monroe Community College Registrar at (585) 292-2300.",
       "SUNY Brockport Admissions at (585) 395-2751.",
       "NYS Higher Education Services Corp (HESC) at (888) 697-4372 — TAP and state aid.",
-      "NYSYLC (NY State Youth Leadership Council) at (212) 635-3037 — DREAM Act student support.",
+      "NYSYLC (NY State Youth Leadership Council) at (646) 484-8537 — DREAM Act student support.",
       "NY State Department of Veterans' Services at (888) 838-7697 — military tuition.",
       "Legal Aid Society of Rochester at (585) 232-4090 — complex residency appeals.",
       "Empire Justice Center at (585) 295-5800 — Article 78 residency litigation."
@@ -57,7 +57,7 @@ export const COLLEGE_IN_STATE_TUITION_RESIDENCY_NY = {
   },
 
   example: {
-    en: "A student raised in Rochester since age 8 obtained a high school equivalency from Monroe Community College's adult education program. She was undocumented. She applied to SUNY Brockport. The initial tuition bill assessed the out-of-state rate of $18,000 per semester. With help from NYSYLC, she gathered her NY high school records showing 4 years at East High, her HSE certificate, proof of continuous NY residence, and a signed affidavit. She filed the NY DREAM Act residency application with the campus registrar. SUNY Brockport classified her as a NY resident for tuition purposes and also approved her for TAP. Her semester tuition dropped to the in-state rate of $3,535."
+    en: "A student raised in Rochester since age 8 obtained a high school equivalency from Monroe Community College's adult education program. She was undocumented. She applied to SUNY Brockport. The initial tuition bill assessed the out-of-state rate of $18,000 per semester. With help from NYSYLC, she gathered her NY high school records showing 4 years at East High, her HSE certificate, proof of continuous NY residence, and a signed affidavit. She filed the NY DREAM Act residency application with the campus registrar. SUNY Brockport classified her as a NY resident for tuition purposes and also approved her for TAP. Her semester tuition dropped to the in-state rate of about $4,376 (the 2024-2025 SUNY Brockport tuition was $8,752 a year)."
   },
 
   counsel: [
@@ -66,9 +66,9 @@ export const COLLEGE_IN_STATE_TUITION_RESIDENCY_NY = {
       name: "New York State Youth Leadership Council (NYSYLC)",
       focus: "NY DREAM Act tuition, residency, immigrant youth education",
       qualifier: "Undocumented and immigrant students in NY",
-      access: "Phone at (212) 635-3037",
+      access: "Phone at (646) 484-8537",
       outcome: "Application navigation, residency documentation, advocacy",
-      phone: "(212) 635-3037",
+      phone: "(646) 484-8537",
       url: "https://www.nysylc.org",
       verified: true,
       bilingual: true,
@@ -117,7 +117,8 @@ export const COLLEGE_IN_STATE_TUITION_RESIDENCY_NY = {
     "https://www.law.cornell.edu/uscode/text/20/1015d"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

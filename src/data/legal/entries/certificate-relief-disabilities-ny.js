@@ -41,7 +41,7 @@ export const CERTIFICATE_RELIEF_DISABILITIES_NY = {
     en: [
       "Applications for a CRD from the sentencing court are filed with the court clerk. In Monroe County, the Supreme Court or County Court that handled the case.",
       "Applications from DOCCS (for state prison sentences) are filed with DOCCS at doccs.ny.gov or by calling (518) 457-8126.",
-      "Free legal help with CRD and CGC applications is available through the Center for Community Alternatives at (585) 244-1135.",
+      "Free legal help with CRD and CGC applications is available through the Center for Community Alternatives at (585) 328-8230.",
       "Legal Aid Society of Rochester at (585) 232-4090 also assists with certificate applications.",
       "The application should include evidence of rehabilitation — employment history, community involvement, letters of support, and a statement from the applicant."
     ]
@@ -59,7 +59,7 @@ export const CERTIFICATE_RELIEF_DISABILITIES_NY = {
       qualifier: "People with criminal records in the Rochester area",
       access: "Phone or in person",
       outcome: "Legal assistance with certificate applications",
-      phone: "(585) 244-1135",
+      phone: "(585) 328-8230",
       url: "https://www.communityalternatives.org",
       verified: true,
       bilingual: false,
@@ -97,7 +97,8 @@ export const CERTIFICATE_RELIEF_DISABILITIES_NY = {
     "https://doccs.ny.gov/"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

@@ -42,7 +42,7 @@ export const CHARTER_SCHOOL_APPLICATION_NY = {
   legalOptions: {
     en: [
       "NY State Education Department Charter Schools Office at (518) 474-1762 monitors Regents-authorized charters.",
-      "SUNY Charter Schools Institute at (716) 882-2782 monitors SUNY-authorized charters.",
+      "SUNY Charter Schools Institute at (518) 445-4250 monitors SUNY-authorized charters.",
       "NY State Division of Human Rights at (888) 392-3644 receives education discrimination complaints.",
       "Empire Justice Center at (585) 295-5775 represents families in education access disputes.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income families in special education disputes at charter schools.",
@@ -125,7 +125,8 @@ export const CHARTER_SCHOOL_APPLICATION_NY = {
     "https://www.p12.nysed.gov/psc"
   ],
 
-  lastVerified: "2026-04-24",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

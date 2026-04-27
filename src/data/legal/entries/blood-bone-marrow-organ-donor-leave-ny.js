@@ -10,7 +10,7 @@ export const BLOOD_BONE_MARROW_ORGAN_DONOR_LEAVE_NY = {
   title: { en: "NY Blood, Bone Marrow, and Organ Donation Leave — Paid Time Off for Donors" },
 
   summary: {
-    en: "New York gives employees paid or unpaid leave for three kinds of medical donation. Labor Law 202-a covers blood donation (three hours unpaid per 12 months for employers of 20+). Labor Law 202-b covers bone marrow donation (up to 24 work hours paid for employers of 20+). Labor Law 202-c covers organ donation (up to 30 work days with a mix of paid sick leave and leave without pay). Retaliation is prohibited under all three."
+    en: "New York provides leave for three kinds of medical donation. Labor Law 202-j covers blood donation (three hours unpaid per 12 months for employers of 20+, or paid if the donation occurs at an employer-arranged on-site drive). Labor Law 202-a covers bone marrow donation by private-sector employees (up to 24 work hours, unpaid by default, employers of 20+). Labor Law 202-b covers state employees only (up to 7 days paid leave for bone marrow donation and up to 30 days paid leave for organ donation). Retaliation is prohibited under all three."
   },
 
   whoQualifies: {
@@ -24,16 +24,16 @@ export const BLOOD_BONE_MARROW_ORGAN_DONOR_LEAVE_NY = {
   },
 
   whatItMeans: {
-    en: "New York recognizes three distinct paid or unpaid leave rights for employees who donate blood, bone marrow, or organs. Each is a separate provision of the Labor Law with slightly different rules. Labor Law Section 202-a — Blood donation leave. Employers with 20 or more employees must provide 3 hours of unpaid leave per 12-month period for a blood donation. Alternatively, the employer can provide an on-site or alternative blood donation program at work. The 3-hour leave can be used in one or two increments. The employee gives reasonable notice and should bring back donation documentation. Labor Law Section 202-b — Bone marrow donation leave. Employers with 20 or more employees must grant up to 24 paid work hours per 12-month period for an employee to donate bone marrow. Most employers pay at the employee's regular hourly rate, though the exact wage treatment can come from a collective bargaining agreement. A note from the donation facility verifies the need for leave. Bone marrow donation typically requires 2 to 4 days of recovery from the aspiration procedure, covered within the 24-hour limit. Labor Law Section 202-c — Organ donation leave. Employers with 20 or more employees must grant up to 30 work days for organ donation. Leave is a mix: the first portion, up to 7 work days, is paid at regular salary if the employee has accrued sick leave. Any additional leave beyond the accrued sick leave balance up to the 30-day maximum is unpaid leave with job protection. Organ donation typically involves kidney donation (most common), partial liver donation, or lung lobe donation. Recovery ranges from 4 to 8 weeks depending on procedure. All three provisions prohibit retaliation — firing, demoting, harassing, or otherwise punishing an employee for taking donation leave is a violation of Labor Law 215 and gives rise to civil damages including reinstatement, back pay, and liquidated damages. An employer that violates these provisions can also be reported to the NY Department of Labor at (888) 469-7365 for investigation. The leave is in addition to regular Paid Sick Leave under Labor Law 196-b, Paid Family Leave under the NY PFL program, and any FMLA unpaid leave under the federal 29 USC 2612. Donor leave does not count against the other categories. For Monroe County residents, the Red Cross Rochester Blood Bank and the Upstate NY Transplant Services handle most blood and organ donations. The National Marrow Donor Program operates nationally and includes NY registries. An employee planning a donation should review the company handbook, provide notice as soon as reasonably possible (2 to 4 weeks advance for scheduled bone marrow or organ donation), and document the donation date with the medical facility. For urgent or unexpected donation calls (a bone marrow match on short notice), as little as 2 to 3 days notice is reasonable. An employer cannot refuse donation leave for business convenience or because the employee is in a busy season. Small employers under 20 employees are not covered by Labor Law 202-a, 202-b, or 202-c, but federal and state anti-discrimination rules and any contract or handbook provisions can still apply. Some Monroe County employers in unionized workplaces have collective bargaining agreements that expand donor leave beyond the state minimum."
+    en: "New York provides three distinct leave rights for employees who donate blood, bone marrow, or organs. Each comes from a separate section of the Labor Law with different rules. Labor Law Section 202-j — Blood donation leave. Employers with 20 or more employees who work an average of 20+ hours per week must either grant 3 hours of unpaid leave in any 12-month period for off-site blood donation, or allow employees to donate at least twice per year at an employer-arranged time and place (such as an on-site blood drive), without using accrued leave. Off-site donation leave is unpaid by default; on-site or employer-arranged donation must be paid. The employer may require 2 to 3 working days of advance notice. Labor Law Section 202-a — Bone marrow donation leave for private-sector employees. Employers with 20 or more employees (each working 20+ hours per week on average) must grant leaves of absence to an employee donating bone marrow. The combined length is determined by the donor's physician but may not exceed 24 work hours unless the employer agrees to more. The statute does not require the leave to be paid; many employers pay it as a matter of policy or under a collective bargaining agreement. Verification by a physician may be required. Labor Law Section 202-b — Organ and bone marrow donation leave for STATE OF NEW YORK employees only. State employees receive up to 7 days paid leave for bone marrow donation and up to 30 days paid leave to serve as an organ donor, with at least 14 days written notice. Section 202-b does not cover private-sector employees; private-sector organ donation leave is governed by an employer's policy, FMLA (federal 29 USC 2612), and any applicable collective bargaining agreement. Organ donation typically involves kidney donation (most common), partial liver donation, or lung lobe donation. Recovery ranges from 4 to 8 weeks depending on procedure. All three provisions prohibit retaliation — firing, demoting, harassing, or otherwise punishing an employee for taking donation leave can give rise to civil damages including reinstatement, back pay, and liquidated damages under Labor Law 215. Violations can be reported to the NY Department of Labor at (888) 469-7365 for investigation. Donor leave is in addition to regular Paid Sick Leave under Labor Law 196-b, Paid Family Leave under the NY PFL program, and any FMLA unpaid leave. For Monroe County residents, the American Red Cross Rochester Blood Donation Center and ConnectLife (formerly Upstate NY Transplant Services) handle most blood and organ donations in the region. The National Marrow Donor Program (Be The Match) operates nationally and includes NY registries. Small employers under 20 employees are not covered by Labor Law 202-a or 202-j, but federal and state anti-discrimination rules and any contract or handbook provisions can still apply. Some Monroe County employers in unionized workplaces have collective bargaining agreements that expand donor leave beyond the state minimum."
   },
 
   yourRights: {
     en: [
-      "A NY employee at a 20-plus-employee employer has the right to 3 hours unpaid blood donation leave per 12 months.",
-      "A NY employee at a 20-plus-employee employer has the right to 24 paid work hours for bone marrow donation per 12 months.",
-      "A NY employee at a 20-plus-employee employer has the right to 30 work days for organ donation (paid up to accrued sick leave, then unpaid) with job protection.",
+      "A NY employee at a 20-plus-employee employer has the right to 3 hours of blood donation leave per 12 months under Labor Law 202-j (unpaid for off-site donation, paid for employer-arranged on-site donation).",
+      "A NY employee at a 20-plus-employee employer has the right to up to 24 work hours for bone marrow donation under Labor Law 202-a (length set by the donor's physician).",
+      "A New York State employee has the right to up to 7 days paid bone marrow leave and up to 30 days paid organ donation leave under Labor Law 202-b.",
       "An employee has the right to reinstatement to the same or substantially equivalent position after donor leave.",
-      "An employee has the right to report retaliation to NY Department of Labor or sue for damages.",
+      "An employee has the right to report retaliation to the NY Department of Labor or sue for damages.",
       "An employee has the right to take donor leave in addition to Paid Sick Leave, PFL, or FMLA — these do not offset."
     ]
   },
@@ -42,15 +42,15 @@ export const BLOOD_BONE_MARROW_ORGAN_DONOR_LEAVE_NY = {
     en: [
       "NY Department of Labor Division of Labor Standards at (888) 469-7365 accepts donor leave and retaliation complaints.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income employees in donor-leave retaliation cases.",
-      "Empire Justice Center at (585) 295-5702 handles major retaliation and discrimination cases.",
-      "Red Cross Rochester at (585) 241-4400 handles blood donation scheduling.",
-      "National Marrow Donor Program at (800) 627-7692 handles bone marrow registry and donor coordination.",
-      "Upstate New York Transplant Services at (716) 853-6667 handles organ donation support."
+      "Empire Justice Center Rochester office at (585) 454-4060 handles major retaliation and discrimination cases.",
+      "American Red Cross at 1-800-RED-CROSS (1-800-733-2767) handles blood donation scheduling.",
+      "National Marrow Donor Program (Be The Match) at (800) 627-7692 handles bone marrow registry and donor coordination.",
+      "ConnectLife (formerly Upstate New York Transplant Services) at (716) 348-5400 handles organ donation support in Western and Central NY."
     ]
   },
 
   example: {
-    en: "Jordan worked for a 40-employee Rochester accounting firm. A bone marrow match request came through the National Marrow Donor Program. Jordan notified his supervisor, provided the donation scheduling letter, and took 24 paid work hours for the procedure and recovery under Labor Law 202-b. The firm paid his regular salary during the leave. When Jordan returned, his position and benefits were unchanged. The firm documented the leave type in its HR system as Bone Marrow Donor Leave separate from his sick and vacation balances."
+    en: "Jordan worked for a 40-employee Rochester accounting firm. A bone marrow match request came through the National Marrow Donor Program. Jordan notified his supervisor, provided the donation scheduling letter, and took 24 work hours for the procedure and recovery under Labor Law 202-a. The firm's policy was to pay regular salary during bone marrow donation leave even though the statute does not mandate pay for private-sector employers. When Jordan returned, his position and benefits were unchanged. The firm documented the leave type in its HR system as Bone Marrow Donor Leave separate from his sick and vacation balances."
   },
 
   counsel: [
@@ -74,7 +74,7 @@ export const BLOOD_BONE_MARROW_ORGAN_DONOR_LEAVE_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake",
       outcome: "Free legal representation",
-      phone: "(585) 295-5702",
+      phone: "(585) 454-4060",
       url: "https://empirejustice.org",
       verified: true,
       bilingual: true,
@@ -98,9 +98,9 @@ export const BLOOD_BONE_MARROW_ORGAN_DONOR_LEAVE_NY = {
     "organ donor leave NY",
     "LAB 202-a",
     "LAB 202-b",
-    "LAB 202-c",
-    "24 paid hours marrow",
-    "30 day organ donor",
+    "LAB 202-j",
+    "24 hours marrow",
+    "30 day organ donor state",
     "donor leave retaliation",
     "National Marrow Donor Program"
   ],
@@ -110,7 +110,8 @@ export const BLOOD_BONE_MARROW_ORGAN_DONOR_LEAVE_NY = {
     "https://dol.ny.gov/employee-rights/leave"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

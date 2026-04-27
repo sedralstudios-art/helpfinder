@@ -40,7 +40,7 @@ export const CONTEMPT_OF_COURT_NY = {
   legalOptions: {
     en: [
       "If a person is violating a court order (custody, support, order of protection), the other party can file a contempt motion in the court that issued the order.",
-      "Monroe County Family Court at (585) 371-3553 handles contempt in family law cases (custody, support, orders of protection).",
+      "Monroe County Family Court at (585) 371-3544 handles contempt in family law cases (custody, support, orders of protection).",
       "Monroe County Public Defender's Office at (585) 753-4210 represents people facing criminal contempt charges.",
       "Legal Aid Society of Rochester at (585) 232-4090 handles family court contempt cases.",
       "If a person is jailed for civil contempt, they can file a habeas corpus petition challenging the detention.",
@@ -58,9 +58,9 @@ export const CONTEMPT_OF_COURT_NY = {
       name: "Monroe County Family Court",
       focus: "Contempt motions, custody enforcement, support enforcement",
       qualifier: "Monroe County residents with family court orders",
-      access: "Phone at (585) 371-3553",
+      access: "Phone at (585) 371-3544",
       outcome: "Contempt hearings, order enforcement, compliance monitoring",
-      phone: "(585) 371-3553",
+      phone: "(585) 371-3544",
       url: "https://www.nycourts.gov/courts/7jd/monroe/family/",
       verified: true,
       bilingual: false,
@@ -96,7 +96,8 @@ export const CONTEMPT_OF_COURT_NY = {
     "https://www.nysenate.gov/legislation/laws/PEN/215.50"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

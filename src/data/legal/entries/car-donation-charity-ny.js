@@ -40,7 +40,7 @@ export const CAR_DONATION_CHARITY_NY = {
     en: [
       "IRS Tax Exempt Organization Search at irs.gov confirms a charity's 501(c)(3) status.",
       "NYS DMV at (518) 486-9786 or dmv.ny.gov handles NY title transfer and plate surrender.",
-      "Common Monroe County charities: Goodwill of the Finger Lakes (585) 546-9210, Habitat for Humanity Rochester (585) 546-1470, National Kidney Foundation Upstate NY (585) 697-0874.",
+      "Common Monroe County charities: Goodwill of the Finger Lakes (585) 232-1111, Greater Rochester Habitat for Humanity (585) 546-1470, National Kidney Foundation Upstate NY at (800) 488-2277 (kidney cars vehicle donation line) or (585) 598-3963 (Rochester office).",
       "For tax filing help, NY State Tax Department at (518) 457-5181 or any CPA can assist.",
       "Legal Aid Society of Rochester at (585) 232-4090 can help low-income donors navigate a complicated donation (deceased relative, lien, or estate issues)."
     ]
@@ -71,7 +71,7 @@ export const CAR_DONATION_CHARITY_NY = {
       qualifier: "Any Monroe County donor",
       access: "Phone, online donation form, free pickup",
       outcome: "Vehicle donation processing, IRS Form 1098-C",
-      phone: "(585) 546-9210",
+      phone: "(585) 232-1111",
       url: "https://www.goodwillfingerlakes.org",
       verified: true,
       bilingual: false,
@@ -107,7 +107,8 @@ export const CAR_DONATION_CHARITY_NY = {
     "https://www.law.cornell.edu/uscode/text/26/170"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

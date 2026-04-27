@@ -41,9 +41,8 @@ export const CHILD_HEALTH_PLUS_NY = {
   legalOptions: {
     en: [
       "NY State of Health at 1-855-355-5777 or nystateofhealth.ny.gov handles all applications, renewals, and plan changes.",
-      "Monroe County Department of Human Services at (585) 753-6960 assists with CHPlus applications alongside Medicaid.",
+      "Monroe County Department of Human Services at (585) 753-6998 assists with CHPlus applications alongside Medicaid.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents families in coverage denials and appeals.",
-      "Hillside Children's Center Navigator at (585) 654-4500 offers free application help for Rochester families.",
       "For emergency CHPlus issues (medical need while application pending), NY State of Health escalation line at 1-800-541-2831."
     ]
   },
@@ -73,7 +72,7 @@ export const CHILD_HEALTH_PLUS_NY = {
       qualifier: "Monroe County family",
       access: "Phone intake, walk-in at Westfall Road or 111 Westfall Rd facility",
       outcome: "Benefits enrollment, eligibility determination, renewal support",
-      phone: "(585) 753-6960",
+      phone: "(585) 753-6998",
       url: "https://www.monroecounty.gov/hs",
       verified: true,
       bilingual: true,
@@ -109,7 +108,8 @@ export const CHILD_HEALTH_PLUS_NY = {
     "https://nystateofhealth.ny.gov/child-health-plus"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

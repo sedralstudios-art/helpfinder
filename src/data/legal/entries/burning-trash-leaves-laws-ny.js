@@ -40,9 +40,9 @@ export const BURNING_TRASH_LEAVES_LAWS_NY = {
     en: [
       "Under 6 NYCRR Part 215, all open burning of household trash is banned statewide. Fines can reach $37,500 per day but residential cases are usually much lower.",
       "Leaf and brush burning in populated areas (towns over 20,000 or cities) is also banned under Part 215.",
-      "In rural towns where burning is allowed, the DEC issues seasonal burn bans — check before burning at dec.ny.gov or by calling DEC Region 8 at (585) 226-5380.",
+      "In rural towns where burning is allowed, the DEC issues seasonal burn bans — check before burning at dec.ny.gov or by calling DEC Region 8 at (585) 226-2466.",
       "If a neighbor is burning trash, the fire department can respond. In Rochester, call 911 for active fires or (585) 428-6720 for non-emergencies.",
-      "An air quality complaint about smoke from burning can be filed with the DEC Region 8 office at (585) 226-5380.",
+      "An air quality complaint about smoke from burning can be filed with the DEC Region 8 office at (585) 226-2466.",
       "Most Monroe County towns offer curbside pickup for leaves and brush during certain seasons — check with the town's DPW for the schedule."
     ]
   },
@@ -57,9 +57,9 @@ export const BURNING_TRASH_LEAVES_LAWS_NY = {
       name: "NYS DEC Region 8",
       focus: "Open burning regulations, burn bans, air quality complaints",
       qualifier: "Monroe County and surrounding area",
-      access: "Phone at (585) 226-5380",
+      access: "Phone at (585) 226-2466",
       outcome: "Enforcement, burn ban information, complaint investigation",
-      phone: "(585) 226-5380",
+      phone: "(585) 226-2466",
       url: "https://dec.ny.gov",
       verified: true,
       bilingual: false,
@@ -95,7 +95,8 @@ export const BURNING_TRASH_LEAVES_LAWS_NY = {
     "https://www.law.cornell.edu/regulations/new-york/6-NYCRR-215"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

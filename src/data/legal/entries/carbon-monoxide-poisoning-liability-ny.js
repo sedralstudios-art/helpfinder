@@ -97,6 +97,7 @@ export const CARBON_MONOXIDE_POISONING_LIABILITY_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: true,
   disclaimer: true,

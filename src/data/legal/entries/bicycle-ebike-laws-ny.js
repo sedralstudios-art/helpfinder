@@ -10,7 +10,7 @@ export const BICYCLE_EBIKE_LAWS_NY = {
   title: { en: "Bicycle and E-Bike Laws in New York — Rules of the Road, Helmet Laws, and E-Bike Classes" },
 
   summary: {
-    en: "Bicyclists and e-bike riders in New York have the same rights and responsibilities as drivers of motor vehicles — with some additional rules. Helmets are required for riders under 14 (and under 16 for e-bikes). E-bikes are legal statewide and classified into three classes based on speed and motor type. Riders can use bike lanes but are not required to — they have the right to use the full travel lane. Understanding these rules matters because police and drivers often get them wrong."
+    en: "Bicyclists and e-bike riders in New York have the same rights and responsibilities as drivers of motor vehicles — with some additional rules. Helmets are required for bicycle riders under 14 and for all Class 3 e-bike riders. E-bikes are classified into three classes; Class 1 and Class 2 are legal statewide, while Class 3 is restricted to New York City under state law. Riders must be at least 16 to operate any e-bike. Cyclists can use bike lanes but are not required to — they have the right to use the full travel lane. Understanding these rules matters because police and drivers often get them wrong."
   },
 
   whoQualifies: {
@@ -23,7 +23,7 @@ export const BICYCLE_EBIKE_LAWS_NY = {
   },
 
   whatItMeans: {
-    en: "Under Vehicle and Traffic Law § 1231, bicyclists have the same rights and duties as motor vehicle drivers. This means the right to use any road (except limited-access highways where bikes are prohibited), the right to the full travel lane when the lane is too narrow to share safely, and the duty to follow traffic signals and signs. Helmets are required for riders under 14 on bicycles and under 16 on e-bikes (VTL § 1238). Under the 2020 e-bike law, e-bikes are classified into three classes: Class 1 (pedal-assist only, up to 20 mph), Class 2 (throttle-assisted, up to 20 mph), and Class 3 (pedal-assist only, up to 25 mph). Class 3 e-bikes require riders to be 16 or older. Local municipalities can regulate where e-bikes are allowed — Rochester allows all three classes on city streets. E-bikes are treated as bicycles, not motor vehicles — no license, registration, or insurance is required. Bike lanes: cyclists may use them but are not required to — the law says cyclists should ride 'near the right-hand curb or edge of the roadway' but there are exceptions for turning, avoiding hazards, when the lane is too narrow, and when riding in a bike lane is unsafe. If a cyclist is hit by a car, New York's no-fault insurance system applies — the car's insurance covers the cyclist's medical bills regardless of fault (VTL § 5102). Right hook and left cross collisions are the most common ways drivers hit cyclists at intersections. A right hook happens when a driver passes a cyclist and then turns right across the cyclist's path; the driver is at fault under the duty to yield rules. A left cross happens when an oncoming driver turns left across the path of a cyclist proceeding straight; the driver is again at fault for failing to yield. Bike lights are required at night under VTL 1236 — a white front headlight visible at 500 feet and a red rear reflector or light visible at 300 feet. A bell or horn audible at 100 feet is also required. NY's three-foot rule for motorists passing a cyclist is in VTL 1146, and a violation that contributes to a crash is strong evidence of negligence. Sidewalk riding is regulated locally — Rochester prohibits adult sidewalk riding in business districts; suburban towns generally allow it on residential sidewalks with care."
+    en: "Under Vehicle and Traffic Law § 1231, bicyclists have the same rights and duties as motor vehicle drivers. This means the right to use any road (except limited-access highways where bikes are prohibited), the right to the full travel lane when the lane is too narrow to share safely, and the duty to follow traffic signals and signs. Helmets are required for bicycle riders under 14 (VTL § 1238) and for every operator of a Class 3 e-bike with electric assist regardless of age. Under the 2020 e-bike law, e-bikes are classified into three classes: Class 1 (pedal-assist only, up to 20 mph), Class 2 (throttle-assisted, up to 20 mph), and Class 3 (up to 25 mph, but only operable in cities with a population of one million or more — meaning New York City only). Class 3 operation in Rochester is not authorized under current state law; only Class 1 and Class 2 are legal statewide. Riders of all e-bike classes must be at least 16 years old. E-bikes are treated as bicycles, not motor vehicles — no license, registration, or insurance is required. Bike lanes: cyclists may use them but are not required to — the law says cyclists should ride 'near the right-hand curb or edge of the roadway' but there are exceptions for turning, avoiding hazards, when the lane is too narrow, and when riding in a bike lane is unsafe. If a cyclist is hit by a car, New York's no-fault insurance system applies — the car's insurance covers the cyclist's medical bills up to $50,000 regardless of fault (Insurance Law § 5102). Right hook and left cross collisions are the most common ways drivers hit cyclists at intersections. A right hook happens when a driver passes a cyclist and then turns right across the cyclist's path; the driver is at fault under the duty to yield rules. A left cross happens when an oncoming driver turns left across the path of a cyclist proceeding straight; the driver is again at fault for failing to yield. Bike lights are required at night under VTL 1236 — a white front headlight visible at 500 feet and a red rear reflector or light visible at 300 feet. A bell or horn audible at 100 feet is also required. NY does not codify a fixed three-foot passing distance — VTL 1122-a requires a motorist overtaking a bicycle to pass at a safe distance, and VTL 1146 imposes a general duty of due care; failing either when passing a cyclist is strong evidence of negligence in a crash. Sidewalk riding is regulated locally — Rochester prohibits adult sidewalk riding in business districts; suburban towns generally allow it on residential sidewalks with care."
   },
 
   yourRights: {
@@ -33,7 +33,7 @@ export const BICYCLE_EBIKE_LAWS_NY = {
       "E-bikes are legal — no license, registration, or insurance required.",
       "If hit by a car, the car's no-fault insurance covers the cyclist's medical bills regardless of fault.",
       "Cyclists are not required to use bike lanes — they may ride in the travel lane.",
-      "Helmets are required only for riders under 14 (bicycles) and under 16 (e-bikes)."
+      "Helmets are required for bicycle riders under 14 and for all operators of Class 3 e-bikes regardless of age."
     ]
   },
 
@@ -95,7 +95,8 @@ export const BICYCLE_EBIKE_LAWS_NY = {
     "https://www.nysenate.gov/legislation/laws/VAT/1238"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

@@ -32,16 +32,16 @@ export const CHILDCARE_SUBSIDY_NY = {
       "The subsidy must cover care during work hours, commute time, and reasonable sleep time for parents who work non-traditional hours.",
       "If the subsidy is denied or reduced, the family has the right to a fair hearing.",
       "TA recipients who need child care for work activities have the right to have it arranged by DSS.",
-      "The co-pay cannot exceed 10% of family income (federal requirement)."
+      "The co-pay cannot exceed 7% of family income under the 2024 CCDF Final Rule federal requirement."
     ]
   },
 
   legalOptions: {
     en: [
-      "Applications for child care subsidy in Monroe County are handled by DSS at (585) 753-6960 or online at mybenefits.ny.gov.",
+      "Applications for child care subsidy in Monroe County are handled by DHS Child Care Team 76 at (585) 753-6316 or online at mybenefits.ny.gov.",
       "The NYS Office of Children and Family Services (OCFS) maintains information on eligibility, income limits, and market rates at ocfs.ny.gov.",
       "If the subsidy is denied, the denial notice includes the reason and instructions for requesting a fair hearing at otda.ny.gov/hearings/request/ or by calling (800) 342-3334.",
-      "The Child Care Resource and Referral Network at (585) 546-7220 can help families find licensed providers and understand the subsidy process.",
+      "The Child Care Council Inc. (Monroe County's Resource and Referral agency) at (585) 654-4720 can help families find licensed providers and understand the subsidy process.",
       "Free legal help with child care subsidy denials is available through Legal Aid Society of Rochester at (585) 232-4090."
     ]
   },
@@ -58,7 +58,7 @@ export const CHILDCARE_SUBSIDY_NY = {
       qualifier: "Monroe County families",
       access: "Phone, in person, or online",
       outcome: "Application processing and subsidy issuance",
-      phone: "(585) 753-6960",
+      phone: "(585) 753-6316",
       url: "https://mybenefits.ny.gov",
       verified: true,
       bilingual: false,
@@ -71,7 +71,7 @@ export const CHILDCARE_SUBSIDY_NY = {
       qualifier: "Any family in Monroe County",
       access: "Phone",
       outcome: "Provider referrals and subsidy navigation",
-      phone: "(585) 546-7220",
+      phone: "(585) 654-4720",
       url: "https://www.childcarecouncil.com",
       verified: true,
       bilingual: false,
@@ -107,7 +107,8 @@ export const CHILDCARE_SUBSIDY_NY = {
     "https://mybenefits.ny.gov"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

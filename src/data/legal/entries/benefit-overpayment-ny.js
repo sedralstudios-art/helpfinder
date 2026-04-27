@@ -126,6 +126,7 @@ export const BENEFIT_OVERPAYMENT_NY = {
   ],
 
   lastVerified: "2026-04-21",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

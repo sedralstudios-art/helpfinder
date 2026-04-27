@@ -45,7 +45,7 @@ export const CONTRACTS_MUST_BE_IN_WRITING_NY = {
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — contract attorneys for enforcement and Statute of Frauds defense.",
       "Legal Aid Society of Rochester at (585) 232-4090 — defense for low-income parties in contract enforcement cases.",
       "Empire Justice Center at (585) 454-4060 — civil-rights and consumer contract advocacy.",
-      "Small Claims Court (NY UDCA 1801) — contract claims up to $10,000 in town, village, or city court.",
+      "Small claims court — contract claims up to $5,000 in Rochester City Court (UCCA 1801) or $3,000 in town and village justice courts (UJCA 1801); the NYC Civil Court limit is $10,000.",
       "NY Attorney General Bureau of Consumer Frauds at (800) 771-7755 — consumer contract complaints.",
       "Center for Dispute Settlement Rochester at (585) 546-5110 — mediation of contract disputes."
     ]
@@ -126,7 +126,8 @@ export const CONTRACTS_MUST_BE_IN_WRITING_NY = {
     "https://www.nysenate.gov/legislation/laws/UCC/2-201"
   ],
 
-  lastVerified: "2026-04-19",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

@@ -42,8 +42,8 @@ export const COMMERCIAL_EVICTION_PROCESS_NY = {
 
   legalOptions: {
     en: [
-      "Rochester City Court Commercial Part at (585) 428-6650 — commercial eviction filings within city limits.",
-      "Monroe County Supreme Court at (585) 371-3300 — Yellowstone injunctions and larger commercial matters.",
+      "Rochester City Court Commercial Part at (585) 371-3412 — commercial eviction filings within city limits.",
+      "Monroe County Supreme Court at (585) 371-3758 — Yellowstone injunctions and larger commercial matters.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — commercial lease attorneys.",
       "Small Business Legal Clinic at (585) 295-5840 — limited help for small business tenants.",
       "Rochester Regional Chamber of Commerce at (585) 256-4620 — business resource referrals.",
@@ -113,7 +113,8 @@ export const COMMERCIAL_EVICTION_PROCESS_NY = {
     "https://www.nysenate.gov/legislation/laws/RPA/853"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

@@ -41,8 +41,8 @@ export const CHILD_SUPPORT_MODIFICATION_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Family Court at 99 Exchange Boulevard, Rochester, (585) 428-2480 — accepts modification petitions with no filing fee.",
-      "Monroe County Support Collection Unit at (585) 753-6690 — processes the new support amount through wage-withholding and can assist with modification paperwork.",
+      "Monroe County Family Court at 99 Exchange Boulevard, Rochester, (585) 371-3544 — accepts modification petitions with no filing fee.",
+      "Monroe County Child Support Enforcement Unit at (585) 753-1441 — processes the new support amount through wage-withholding and can assist with modification paperwork.",
       "NY Division of Child Support Services at childsupport.ny.gov or (888) 208-4485 — files modification petitions on behalf of Title IV-D recipients.",
       "Legal Aid Society of Rochester at (585) 232-4090 — represents low-income Monroe County parents in modification cases.",
       "LawNY at (585) 325-2520 — family-law representation across 14-county Western NY service area.",
@@ -71,13 +71,13 @@ export const CHILD_SUPPORT_MODIFICATION_NY = {
     },
     {
       type: "government",
-      name: "Monroe County Support Collection Unit",
+      name: "Monroe County Child Support Enforcement Unit",
       focus: "Support-order enforcement and modification processing",
       qualifier: "Any parent with a Monroe County support order",
       access: "Phone",
       outcome: "Payment processing, modification paperwork assistance",
-      phone: "(585) 753-6690",
-      url: "https://www.monroecounty.gov/hs-scu",
+      phone: "(585) 753-1441",
+      url: "https://www.monroecounty.gov/law-cseu",
       verified: true,
       bilingual: true,
       languages: ["es"]
@@ -124,7 +124,8 @@ export const CHILD_SUPPORT_MODIFICATION_NY = {
     "https://childsupport.ny.gov"
   ],
 
-  lastVerified: "2026-04-21",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

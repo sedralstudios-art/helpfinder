@@ -24,7 +24,7 @@ export const BICYCLE_HELMET_UNDER_14_NY = {
   },
 
   whatItMeans: {
-    en: "New York Vehicle and Traffic Law Section 1238 requires a safety helmet meeting the U.S. Consumer Product Safety Commission or Snell Memorial Foundation standards on every person under age 14 riding a bicycle, skateboard, in-line skates, or scooter in a public area. The rule covers streets, sidewalks, bike paths, parks, and any place accessible to the public. The helmet must be properly fitted and fastened. A child passenger age 1 to 4 riding on a parent's bike in an approved child seat must also wear a helmet under VTL 1238(5). A child under age 1 is not allowed to ride on a bike at all — even in a seat. Adults age 14 and older are not required to wear a helmet in New York, though helmet use reduces head injury by about 85 percent per CDC studies. A few NY localities have adopted stricter rules — New York City requires helmets for all commercial cyclists regardless of age. Monroe County does not have a local helmet ordinance beyond the state rule. Penalties for a child under 14 without a helmet are up to 50 dollars under VTL 1238. Many Monroe County courts will waive the fine if the parent shows proof of helmet purchase within 30 days of the ticket. A second offense within a year is typically 100 dollars. The citation goes to the parent or guardian, not the child. A parent ticketed cannot have the ticket appear on the child's record — children under 14 do not have driving records in NY since they cannot drive. Free or low-cost helmets are widely available in Monroe County. The Monroe County Department of Public Health distributes free helmets through school nurse offices, pediatric clinics, and at community events. The Rochester Police Department has a bike safety program that gives away helmets at summer festivals. Walmart, Target, and most sporting goods stores sell CPSC-approved helmets for 15 to 30 dollars — the CPSC sticker on the inside of the helmet confirms compliance. A helmet that has been in a crash should be replaced even if it looks intact, because the impact foam is single-use. A helmet that has been dropped hard or is more than 5 years old should also be replaced. Helmet fit matters: the helmet should sit level on the head about two fingers above the eyebrows, the straps should form a V under each ear, and the chin strap should be snug with only one finger of space. A helmet worn too far back or with loose straps provides much less protection. School crossing guard programs and the League of American Bicyclists offer free fit checks at community events in Rochester. Bicycle safety education is also required under NY Education Law Section 807(2) for public school students in grades 4 through 6 — so most Monroe County elementary school children receive helmet instruction at school."
+    en: "New York Vehicle and Traffic Law Section 1238 requires a safety helmet meeting the U.S. Consumer Product Safety Commission or Snell Memorial Foundation standards on every person under age 14 riding a bicycle, skateboard, in-line skates, or scooter in a public area. The rule covers streets, sidewalks, bike paths, parks, and any place accessible to the public. The helmet must be properly fitted and fastened. A child passenger age 1 to 4 riding on a parent's bike in an approved child seat must also wear a helmet under VTL 1238(5). A child under age 1 is not allowed to ride on a bike at all — even in a seat. Adults age 14 and older are not required to wear a helmet in New York, though helmet use reduces head injury by about 85 percent per CDC studies. A few NY localities have adopted stricter rules — New York City requires helmets for all commercial cyclists regardless of age. Monroe County does not have a local helmet ordinance beyond the state rule. Penalties for a child under 14 without a helmet are up to 50 dollars under VTL 1238. Many Monroe County courts will waive the fine if the parent shows proof of helmet purchase within 30 days of the ticket. A second offense within a year is typically 100 dollars. The citation goes to the parent or guardian, not the child. A parent ticketed cannot have the ticket appear on the child's record — children under 14 do not have driving records in NY since they cannot drive. Free or low-cost helmets are widely available in Monroe County. The Monroe County Department of Public Health distributes free helmets through school nurse offices, pediatric clinics, and at community events. The Rochester Police Department has a bike safety program that gives away helmets at summer festivals. Walmart, Target, and most sporting goods stores sell CPSC-approved helmets for 15 to 30 dollars — the CPSC sticker on the inside of the helmet confirms compliance. A helmet that has been in a crash should be replaced even if it looks intact, because the impact foam is single-use. A helmet that has been dropped hard or is more than 5 years old should also be replaced. Helmet fit matters: the helmet should sit level on the head about two fingers above the eyebrows, the straps should form a V under each ear, and the chin strap should be snug with only one finger of space. A helmet worn too far back or with loose straps provides much less protection. School crossing guard programs and the League of American Bicyclists offer free fit checks at community events in Rochester. Bicycle and highway-safety instruction is part of the elementary curriculum required under NY Education Law Section 806 (highway safety and traffic regulation) and the State Education Department's elementary instruction rules — so most Monroe County elementary school children receive bicycle-safety material at school."
   },
 
   yourRights: {
@@ -33,17 +33,17 @@ export const BICYCLE_HELMET_UNDER_14_NY = {
       "A parent ticketed for a child under 14 without helmet has the right to present proof of helmet purchase to waive the fine in most Monroe County courts.",
       "A child 14 and older has no legal duty to wear a helmet but has the right to do so regardless.",
       "A parent has the right to require the child to wear a helmet even in private settings (backyard, driveway) where the law does not technically apply.",
-      "A parent has the right to a school-based bicycle safety curriculum for public school grades 4-6 under Ed Law 807."
+      "A parent has the right to a school-based highway and bicycle safety curriculum under NY Education Law 806 and State Education Department elementary instruction rules."
     ]
   },
 
   legalOptions: {
     en: [
       "Monroe County Department of Public Health at (585) 753-5150 distributes free helmets to income-qualifying families.",
-      "Rochester Police Department Bike Safety Program at (585) 428-7000 provides free helmets at community events.",
+      "Rochester Police Department non-emergency line at (585) 428-6720 connects to RPD community programs that distribute free helmets at events.",
       "For a VTL 1238 ticket, town justice court or Rochester City Court is the venue.",
       "Monroe County School nurse offices typically keep a small supply of free helmets for at-risk children.",
-      "Golisano Children's Hospital Injury Prevention program at (585) 275-4000 offers fit checks and free helmets.",
+      "Golisano Children's Hospital Injury Free Coalition for Kids in Rochester offers fit checks and free helmets — main hospital line (585) 275-7520.",
       "NYS Governor's Traffic Safety Committee at (518) 474-5111 maintains the statewide helmet distribution list."
     ]
   },
@@ -73,7 +73,7 @@ export const BICYCLE_HELMET_UNDER_14_NY = {
       qualifier: "Any Monroe County family",
       access: "Phone, in-person clinics at URMC",
       outcome: "Free helmet, professional fit check",
-      phone: "(585) 275-4000",
+      phone: "(585) 275-7520",
       url: "https://www.urmc.rochester.edu/childrens-hospital",
       verified: true,
       bilingual: true,
@@ -109,7 +109,8 @@ export const BICYCLE_HELMET_UNDER_14_NY = {
     "https://trafficsafety.ny.gov/bicycle-safety"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

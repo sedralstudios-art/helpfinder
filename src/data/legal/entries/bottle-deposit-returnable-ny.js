@@ -39,8 +39,8 @@ export const BOTTLE_DEPOSIT_RETURNABLE_NY = {
   legalOptions: {
     en: [
       "NYS Department of Environmental Conservation at (518) 402-8706 enforces the Bottle Bill and accepts consumer complaints.",
-      "For complaints about a specific retailer refusing refunds, DEC Region 8 at (585) 226-5380 handles Monroe County.",
-      "A 2-1-1 call at (585) 442-0220 connects to local redemption centers.",
+      "For complaints about a specific retailer refusing refunds, DEC Region 8 at (585) 226-5400 handles Monroe County.",
+      "A 2-1-1 call (or 1-877-356-9211) through 211 LifeLine connects to local redemption center referrals.",
       "Reverse vending machines are available at every Wegmans, Tops, and Aldi in Monroe County.",
       "For bottle drive fundraisers, organizations can contact local redemption centers directly for bulk pickup."
     ]
@@ -71,7 +71,7 @@ export const BOTTLE_DEPOSIT_RETURNABLE_NY = {
       qualifier: "Any Monroe County resident",
       access: "Phone, regional office in Avon NY",
       outcome: "Investigation, retailer compliance",
-      phone: "(585) 226-5380",
+      phone: "(585) 226-5400",
       url: "https://www.dec.ny.gov/about/region-8",
       verified: true,
       bilingual: false,
@@ -107,7 +107,8 @@ export const BOTTLE_DEPOSIT_RETURNABLE_NY = {
     "https://www.dec.ny.gov/chemical/8500.html"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

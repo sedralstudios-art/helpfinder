@@ -102,6 +102,7 @@ export const CONSTRUCTIVE_EVICTION_NY = {
   ],
 
   lastVerified: "2026-04-23",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

@@ -46,8 +46,8 @@ export const CONCERT_TICKET_RESALE_RIGHTS_NY = {
       "NY Attorney General Bureau of Consumer Frauds and Protection at (800) 771-7755.",
       "NY Attorney General Arts Division at (212) 416-8035.",
       "Federal Trade Commission Consumer Response at (877) 382-4357 — BOTS Act violations.",
-      "Monroe County Consumer Protection at (585) 753-1661.",
-      "Rochester Small Claims Court at (585) 428-6650 — refund disputes up to $3,000.",
+      "Monroe County Department of Public Safety (consumer fraud) at (585) 753-3014.",
+      "Rochester City Court Small Claims at (585) 428-6650 — refund disputes up to $5,000.",
       "Better Business Bureau Upstate NY at (716) 881-5222 — platform mediation.",
       "Consumer Financial Protection Bureau at (855) 411-2372 — if payment processing is involved.",
       "Legal Aid Society of Rochester at (585) 232-4090 — low-income consumer disputes."
@@ -115,7 +115,8 @@ export const CONCERT_TICKET_RESALE_RIGHTS_NY = {
     "https://www.law.cornell.edu/uscode/text/15/45c"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

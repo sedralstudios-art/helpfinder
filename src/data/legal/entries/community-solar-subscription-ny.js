@@ -23,13 +23,13 @@ export const COMMUNITY_SOLAR_SUBSCRIPTION_NY = {
   },
 
   whatItMeans: {
-    en: "Community solar (also called community distributed generation) is a shared solar array whose production is allocated to subscribers. Instead of owning panels, the subscriber buys a share of the array's output. The utility credits the subscriber's bill for their share of the electricity the array produces. The subscriber pays the community solar provider (not the utility) for those credits, usually at a discount to the utility rate. The result is net savings on the electric bill. New York community solar is regulated by the Public Service Commission under Value of Distributed Energy Resources (VDER) tariffs and consumer protection orders. Key consumer protections: required disclosures before sign-up, including the subscription price, the utility bill credit expected, any fees, contract term, and cancellation terms. A standard contract summary must be provided. A 5-business-day cooling-off period after sign-up during which the subscriber can cancel without penalty. Early termination fees are capped. Fixed or escalating pricing must be clearly disclosed. Low-income protections: the state's Solar for All and Expanded Solar for All programs provide enhanced benefits to income-qualified customers — no-cost subscriptions in some cases, with projected savings of 10 to 25 percent. Subscribers do not have to own or finance panels. The community solar provider owns the array. The utility bills and credits flow normally. When moving within the same utility service area, the subscription often transfers. Moving to a different utility requires a new subscription or cancellation (which should be penalty-free under the consumer protection rules). Credits appear on the monthly utility bill as a line item. Some subscribers also receive a separate bill from the community solar provider for the subscription cost. Net savings is bill credit minus subscription cost. Complaints about community solar providers go to the NYS DPS. Most contracts run 20 years to match the array's design life, with portability and termination terms specified at sign-up that should be reviewed against any anticipated move."
+    en: "Community solar (also called community distributed generation) is a shared solar array whose production is allocated to subscribers. Instead of owning panels, the subscriber buys a share of the array's output. The utility credits the subscriber's bill for their share of the electricity the array produces. The subscriber pays the community solar provider (not the utility) for those credits, usually at a discount to the utility rate. The result is net savings on the electric bill. New York community solar is regulated by the Public Service Commission under Value of Distributed Energy Resources (VDER) tariffs and consumer protection orders. Key consumer protections: required disclosures before sign-up, including the subscription price, the utility bill credit expected, any fees, contract term, and cancellation terms. A standard contract summary must be provided. A 3-business-day cooling-off period after sign-up during which the subscriber can cancel without penalty under the PSC's Uniform Business Practices for Distributed Energy Resource Suppliers (UBP-DERS). Early termination fees are capped at $200, with a notification period of 90 days or less, and the fee must be waived if the notification requirement is met. Fixed or escalating pricing must be clearly disclosed. Low-income protections: the state's Solar for All and Expanded Solar for All programs provide enhanced benefits to income-qualified customers — no-cost subscriptions in some cases, with projected savings of 10 to 25 percent. Subscribers do not have to own or finance panels. The community solar provider owns the array. The utility bills and credits flow normally. When moving within the same utility service area, the subscription often transfers. Moving to a different utility requires a new subscription or cancellation (which should be penalty-free under the consumer protection rules). Credits appear on the monthly utility bill as a line item. Some subscribers also receive a separate bill from the community solar provider for the subscription cost. Net savings is bill credit minus subscription cost. Complaints about community solar providers go to the NYS DPS. Most contracts run 20 years to match the array's design life, with portability and termination terms specified at sign-up that should be reviewed against any anticipated move."
   },
 
   yourRights: {
     en: [
       "A subscriber has the right to clear disclosures about subscription price, utility credit, fees, and contract term before sign-up.",
-      "A subscriber has a 5-business-day cooling-off period after signing.",
+      "A subscriber has a 3-business-day cooling-off period after signing under the PSC's UBP-DERS.",
       "Early termination fees are capped by PSC consumer protection rules.",
       "Income-qualified subscribers have the right to enhanced benefits through Solar for All and Expanded Solar for All.",
       "A subscriber has the right to transfer the subscription when moving within the same utility service area.",
@@ -43,7 +43,7 @@ export const COMMUNITY_SOLAR_SUBSCRIPTION_NY = {
       "NYSERDA Solar for All and Expanded Solar for All: call (877) 697-6278 or visit nyserda.ny.gov/all-programs/solar-for-all.",
       "Before signing with a provider, compare at least two community solar options in the area — many providers serve the same geographic zone.",
       "Request the standard contract summary in writing before committing.",
-      "To cancel within the cooling-off period, send written notice to the provider within 5 business days of signing.",
+      "To cancel within the cooling-off period, written notice can be sent to the provider before midnight of the third business day after the effective date.",
       "For billing disputes (utility credit not showing, incorrect subscription cost), contact the provider first, then escalate to DPS if not resolved.",
       "Low-income customers can also access HEAP for bill assistance (see heap-utility-assistance-ny) alongside community solar."
     ]
@@ -110,7 +110,8 @@ export const COMMUNITY_SOLAR_SUBSCRIPTION_NY = {
     "https://dps.ny.gov/community-distributed-generation"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

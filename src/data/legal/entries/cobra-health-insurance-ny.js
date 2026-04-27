@@ -111,7 +111,8 @@ export const COBRA_HEALTH_INSURANCE_NY = {
     "https://nystateofhealth.ny.gov"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

@@ -100,7 +100,8 @@ export const CABLE_INTERNET_BILLING_NY = {
     "https://www3.dps.ny.gov/W/PSCWeb.nsf/All/CA0B47FF2F57E31085257687006F396B"
   ],
 
-  lastVerified: "2026-04-23",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

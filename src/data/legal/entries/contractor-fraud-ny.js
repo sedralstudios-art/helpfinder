@@ -10,7 +10,7 @@ export const CONTRACTOR_FRAUD_NY = {
   title: { en: "Contractor Fraud — What to Do After a Contractor Takes Payment and Disappears" },
 
   summary: {
-    en: "Contractor fraud is one of the most common consumer complaints in New York. A contractor takes a deposit, starts little or no work, and stops returning calls. Or the work is done so poorly it needs to be redone. New York's Home Improvement Fraud statute makes it a crime to take more than $250 for home improvement work and fail to perform. The homeowner can file a criminal complaint, a civil lawsuit, and a complaint with the AG — and may recover the money plus damages."
+    en: "Contractor fraud is one of the most common consumer complaints in New York. A contractor takes a deposit, starts little or no work, and stops returning calls. Or the work is done so poorly it needs to be redone. A contractor who takes payment by false promise and willfully fails to perform may be charged criminally under New York's scheme to defraud statutes (Penal Law 190.60 misdemeanor, 190.65 felony when property over $1,000), and a contractor who diverts deposit or progress funds may be liable for larceny under Lien Law 79-a. The homeowner can file a criminal complaint, a civil lawsuit, and a complaint with the AG — and may recover the money plus damages."
   },
 
   whoQualifies: {
@@ -23,13 +23,13 @@ export const CONTRACTOR_FRAUD_NY = {
   },
 
   whatItMeans: {
-    en: "Under Penal Law § 190.60 (scheme to defraud) and Lien Law § 79-a (home improvement fraud), it is a crime in New York for a contractor to: receive more than $250 in advance payment for home improvement work and willfully fail to perform the work or return the money. The crime is a class A misdemeanor (up to 1 year in jail) and a class E felony if the amount exceeds $1,000. Under General Business Law § 771, home improvement contractors in many areas must register with the county or municipality and must provide a written contract for any job over $500. The contract must include: the contractor's name, address, and registration number, a description of the work, start and completion dates, total price and payment schedule, and any warranties. If the contractor did not provide a written contract, the homeowner may have additional grounds for a claim. Remedies: the homeowner can file a police report (criminal complaint), file a complaint with the NY AG's Consumer Bureau, and file a civil lawsuit for the money paid plus damages. Small claims court handles amounts up to $5,000 (town/village) or $10,000 (city). For larger amounts, Supreme Court. Insurance coverage for contractor jobs varies. Reputable contractors carry general liability insurance and workers' compensation coverage; ask for a certificate of insurance before any work starts and verify the coverage is current by calling the insurance carrier directly. A contractor without insurance leaves the homeowner exposed to liability if a worker is injured on the property — under NY Labor Law 240, owners can face strict liability for elevation-related injuries to construction workers. Payment timing is also a fraud-prevention tool. A reasonable schedule for a typical home improvement project is a small deposit (10 to 33 percent), progress payments tied to completion of identifiable phases, and a final payment held back until the work is complete and any required inspection passes. Paying the full amount upfront eliminates the homeowner's leverage to require quality work. Cash-only contractors are a red flag because cash leaves no paper trail and often signals the contractor is avoiding tax reporting and possibly licensing."
+    en: "Under Penal Law 190.60 (scheme to defraud in the second degree, a class A misdemeanor) and Penal Law 190.65 (scheme to defraud in the first degree, a class E felony when the contractor obtains property exceeding $1,000), a contractor who induces payment by false or fraudulent pretenses and willfully fails to perform may be prosecuted criminally. Under Lien Law 79-a, a contractor who diverts deposit or progress funds away from the project may be liable for larceny because those funds are held in trust under Lien Law Article 3-A. Under General Business Law Article 36-A (Sections 770 to 776), home improvement work where the aggregate price exceeds $500 requires a written contract that includes: the contractor's name, address, telephone number, and license number where applicable, a description of the work and materials, the approximate start and completion dates, the total price and payment schedule, mechanic's lien notices, and the consumer's right to cancel. Lien Law 71-a requires the contractor to deposit consumer payments received before substantial completion in an escrow account in a New York bank within five business days, unless the contractor posts a bond or substitutes a contract of indemnity. If the contractor did not provide a written contract, the homeowner may have additional grounds for a claim. Remedies: the homeowner can file a police report (criminal complaint), file a complaint with the NY AG's Consumer Bureau, and file a civil lawsuit for the money paid plus damages. Small claims court handles amounts up to $3,000 in town and village courts and up to $5,000 in city court. For larger amounts, Supreme Court. Insurance coverage for contractor jobs varies. Reputable contractors carry general liability insurance and workers' compensation coverage; ask for a certificate of insurance before any work starts and verify the coverage is current by calling the insurance carrier directly. A contractor without insurance leaves the homeowner exposed to liability if a worker is injured on the property — under NY Labor Law 240, owners can face strict liability for elevation-related injuries to construction workers. Payment timing is also a fraud-prevention tool. A reasonable schedule for a typical home improvement project is a small deposit (10 to 33 percent), progress payments tied to completion of identifiable phases, and a final payment held back until the work is complete and any required inspection passes. Paying the full amount upfront eliminates the homeowner's leverage to require quality work. Cash-only contractors are a red flag because cash leaves no paper trail and often signals the contractor is avoiding tax reporting and possibly licensing."
   },
 
   yourRights: {
     en: [
-      "Taking $250+ and failing to perform is a crime — not just a civil dispute.",
-      "A written contract is required for jobs over $500.",
+      "Taking payment by false promise and failing to perform can be prosecuted as scheme to defraud (Penal Law 190.60 or 190.65).",
+      "A written contract is required when the aggregate home improvement price exceeds $500 (GBL Article 36-A).",
       "The contractor must be registered in municipalities that require it.",
       "The homeowner can file a criminal complaint, a civil lawsuit, and an AG complaint — all at the same time.",
       "If the contractor is unlicensed in an area that requires licensing, the contract may be voidable and the homeowner may recover all payments.",
@@ -41,7 +41,7 @@ export const CONTRACTOR_FRAUD_NY = {
     en: [
       "File a police report — contractor fraud is a crime. Rochester PD non-emergency: (585) 428-7033. In suburban towns, contact the local police.",
       "File a complaint with the NY Attorney General's Consumer Bureau at (800) 771-7755 or at ag.ny.gov.",
-      "File a small claims case for amounts up to $5,000 (town/village) or $10,000 (city court). The filing fee is minimal.",
+      "File a small claims case for amounts up to $3,000 in town/village courts or $5,000 in Rochester City Court. The filing fee is minimal.",
       "Check whether the contractor was registered/licensed — in Rochester, contractors must register with the city. Unlicensed work gives the homeowner additional leverage.",
       "Free legal help with contractor disputes is available through Legal Aid Society of Rochester at (585) 232-4090.",
       "If the contractor filed a mechanic's lien against the property for unpaid work, the homeowner can challenge it in court if the work was not performed or was defective."
@@ -49,7 +49,7 @@ export const CONTRACTOR_FRAUD_NY = {
   },
 
   example: {
-    en: "A homeowner in Greece pays a roofer $4,000 upfront for a new roof. The roofer tears off the old shingles and then disappears — no calls returned, no work completed. The homeowner files a police report for home improvement fraud (over $1,000 — a felony). He also files a small claims case for the $4,000 and a complaint with the AG. The roofer is charged criminally and ordered to pay restitution."
+    en: "A homeowner in Greece pays a roofer $4,000 upfront for a new roof. The roofer tears off the old shingles and then disappears — no calls returned, no work completed. The homeowner files a police report referencing scheme to defraud in the first degree under Penal Law 190.65 (over $1,000 — a class E felony) and diversion of trust funds under Lien Law 79-a. He also files a small claims case in city court for $4,000 (the city court small claims cap) and a complaint with the AG. The roofer is charged criminally and ordered to pay restitution."
   },
 
   counsel: [
@@ -94,10 +94,15 @@ export const CONTRACTOR_FRAUD_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/PEN/190.60",
-    "https://www.nysenate.gov/legislation/laws/LIE/79-A"
+    "https://www.nysenate.gov/legislation/laws/PEN/190.65",
+    "https://www.nysenate.gov/legislation/laws/LIE/79-A",
+    "https://www.nysenate.gov/legislation/laws/GBS/A36-A",
+    "https://www.nysenate.gov/legislation/laws/GBS/771",
+    "https://www.nysenate.gov/legislation/laws/LIE/71-A"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

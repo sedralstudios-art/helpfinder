@@ -39,7 +39,7 @@ export const CHILD_SUPPORT_ENFORCEMENT_NY = {
 
   legalOptions: {
     en: [
-      "The Monroe County Support Collection Unit handles enforcement and can be reached at (585) 753-6071.",
+      "The Monroe County Child Support Enforcement Unit handles enforcement at (585) 753-1441; the NY State Child Support Helpline is (888) 208-4485.",
       "A violation petition can be filed in Monroe County Family Court at the Hall of Justice, 99 Exchange Blvd. No filing fee is required.",
       "Under Family Court Act Section 454, a parent found in willful violation of a support order can be jailed for up to six months.",
       "Under Domestic Relations Law Section 244-b, driver's license suspension is available for parents who are at least four months behind.",
@@ -58,9 +58,9 @@ export const CHILD_SUPPORT_ENFORCEMENT_NY = {
       name: "Monroe County Support Collection Unit",
       focus: "Child support enforcement, wage garnishment, tax intercepts, license suspension",
       qualifier: "Any parent with a child support order in Monroe County",
-      access: "Phone at (585) 753-6071",
+      access: "Phone at (585) 753-1441",
       outcome: "Enforcement actions, payment collection, violation petitions",
-      phone: "(585) 753-6071",
+      phone: "(585) 753-1441",
       url: "https://www.monroecounty.gov/hs-child-support",
       verified: true,
       bilingual: true,
@@ -109,7 +109,8 @@ export const CHILD_SUPPORT_ENFORCEMENT_NY = {
     "https://www.nysenate.gov/legislation/laws/DOM/244-B"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

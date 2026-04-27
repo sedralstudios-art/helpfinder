@@ -125,7 +125,8 @@ export const CLEAN_SLATE_NY = {
     "https://www.lawny.org/node/571/new-york-state-clean-slate-act"
   ],
 
-  lastVerified: "2026-04-21",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

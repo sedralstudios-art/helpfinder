@@ -34,23 +34,23 @@ export const BURIAL_CREMATION_RIGHTS_LOW_INCOME_NY = {
       "A family has the right to bring their own casket or urn from an outside seller. The funeral home cannot charge extra for this.",
       "Families of a person on public assistance can apply to Monroe County DSS for a basic burial or cremation at county expense.",
       "Veterans and their spouses may be eligible for free burial in a national or state veterans cemetery.",
-      "Families affected by a federally declared disaster (including COVID-19 deaths) can apply to FEMA for funeral assistance."
+      "Families affected by a federally declared disaster may qualify for FEMA funeral assistance. The COVID-19 funeral assistance program closed for new applications on September 30, 2025; current disaster funeral assistance is available only for active federally declared disasters."
     ]
   },
 
   legalOptions: {
     en: [
       "Under the FTC Funeral Rule, every funeral home must give families an itemized General Price List. Failure to do so is a federal violation reportable to the FTC at (877) 382-4357.",
-      "Monroe County DSS handles burial assistance for low-income families at (585) 753-6010.",
+      "Monroe County DSS handles burial assistance for low-income families at (585) 753-6000.",
       "VA burial benefits can be applied for at va.gov/burials-memorials or by calling (800) 827-1000. The VA provides a burial allowance, a headstone, and burial in a national cemetery.",
       "The NYS Division of Veterans Services can help with burial benefits at (888) 838-7697.",
-      "FEMA funeral assistance for disaster-related deaths (including COVID-19) can be applied for at disasterassistance.gov or (800) 621-3362.",
+      "FEMA funeral assistance for an active federally declared disaster can be applied for at disasterassistance.gov or (800) 621-3362. The COVID-19 funeral assistance program no longer accepts new applications after September 30, 2025.",
       "If a funeral home overcharges or refuses to provide an itemized list, a complaint can be filed with the NYS Division of Cemeteries at (518) 474-6226 or the FTC."
     ]
   },
 
   example: {
-    en: "When Rosa's father died, the family had no savings and no life insurance. Rosa called Monroe County DSS and learned that because her father had been receiving Medicaid, the county would cover a basic cremation. She chose direct cremation, which the county paid for. A friend organized a memorial gathering at their church at no cost. The family also applied for the VA burial allowance because Rosa's father was a veteran, and received $300 toward the cremation costs."
+    en: "When Rosa's father died, the family had no savings and no life insurance. Rosa called Monroe County DSS and learned that because her father had been receiving Medicaid, the county would cover a basic cremation. She chose direct cremation, which the county paid for. A friend organized a memorial gathering at their church at no cost. The family also applied for the VA burial allowance because Rosa's father was a veteran, and received about $1,000 toward the cremation costs (the current non-service-connected burial allowance)."
   },
 
   counsel: [
@@ -59,9 +59,9 @@ export const BURIAL_CREMATION_RIGHTS_LOW_INCOME_NY = {
       name: "Monroe County DSS — Burial Assistance",
       focus: "Burial and cremation assistance for low-income families",
       qualifier: "Monroe County residents or families of deceased residents who were on public assistance",
-      access: "Phone at (585) 753-6010",
+      access: "Phone at (585) 753-6000",
       outcome: "County-funded basic burial or cremation",
-      phone: "(585) 753-6010",
+      phone: "(585) 753-6000",
       url: "https://www.monroecounty.gov/hs-socialservices",
       verified: true,
       bilingual: true,
@@ -115,7 +115,8 @@ export const BURIAL_CREMATION_RIGHTS_LOW_INCOME_NY = {
     "https://www.fema.gov/disaster/coronavirus/economic/funeral-assistance"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

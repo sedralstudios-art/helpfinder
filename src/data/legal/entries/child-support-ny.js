@@ -41,9 +41,9 @@ export const CHILD_SUPPORT_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Family Court at 99 Exchange Boulevard, Rochester — (585) 428-2480 — accepts child support petitions with no filing fee.",
+      "Monroe County Family Court at 99 Exchange Boulevard, Rochester — (585) 371-3544 — accepts child support petitions with no filing fee.",
       "NY Division of Child Support Services at childsupport.ny.gov or (888) 208-4485 — handles establishment, enforcement, and modification through Title IV-D.",
-      "Monroe County Support Collection Unit at (585) 753-6690 — receives and distributes NY child support payments locally.",
+      "Monroe County Child Support Enforcement Unit at (585) 753-1441 — receives and distributes NY child support payments locally.",
       "NYS Child Support Standards Chart at childsupport.ny.gov/pdfs/CSSA.pdf — current combined-income cap and self-support reserve.",
       "Legal Aid Society of Rochester at (585) 232-4090 — represents low-income parents in support petitions and modifications.",
       "LawNY at (585) 325-2520 — handles family law across the 14-county Western NY service area.",
@@ -126,7 +126,8 @@ export const CHILD_SUPPORT_NY = {
     "https://childsupport.ny.gov/"
   ],
 
-  lastVerified: "2026-04-21",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "moderate",
   emergencyFlag: false,
   disclaimer: true,

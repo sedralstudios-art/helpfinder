@@ -111,6 +111,7 @@ export const CONDO_UNIT_OWNER_INSURANCE_NY = {
   ],
 
   lastVerified: "2026-04-20",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

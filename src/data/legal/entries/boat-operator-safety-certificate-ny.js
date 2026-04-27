@@ -4,13 +4,13 @@ export const BOAT_OPERATOR_SAFETY_CERTIFICATE_NY = {
   tier: "state",
   jurisdiction: "us-ny",
   authorityType: "state-statute",
-  primaryStatute: "NY NFC 78-A",
+  primaryStatute: "NY NAV 78",
   status: "active",
 
   title: { en: "NY Boating Safety Certificate — Required for All Motor Boat Operators Under Brianna's Law" },
 
   summary: {
-    en: "Brianna's Law phased in a boating safety certificate requirement for all New York motor boat operators regardless of age. As of 2025 every operator must complete an 8-hour approved course. The certificate is a lifetime credential. Monroe County courses run through NYS Parks, US Coast Guard Auxiliary, and US Power Squadrons. Fines for operating without a certificate start at 100 dollars."
+    en: "Brianna's Law phased in a boating safety certificate requirement for all New York motor boat operators regardless of age. As of January 1, 2025 every operator must complete an approved course of at least 8 hours plus a proctored exam. The certificate is a lifetime credential. Monroe County courses run through NYS Parks, US Coast Guard Auxiliary, and US Power Squadrons. A first-offense fine for operating without a certificate ranges from 25 to 100 dollars."
   },
 
   whoQualifies: {
@@ -24,7 +24,7 @@ export const BOAT_OPERATOR_SAFETY_CERTIFICATE_NY = {
   },
 
   whatItMeans: {
-    en: "Brianna's Law, found in New York Navigation and Finance Law Section 78-a and implementing regulations at 9 NYCRR Part 476, phased in a universal boating safety certificate requirement between 2020 and 2025. The law is named for Brianna Lieneck, a 10-year-old killed in a 2005 boating crash where the adult operator had no safety training. Before Brianna's Law, only operators born on or after May 1, 1996 had to complete a boating course. Starting in 2025, every motor boat operator regardless of age must have completed an approved boating safety course. The course covers NY navigation rules, right of way, channel markers, safety equipment requirements, emergency procedures, personal flotation device rules, boating while intoxicated rules, environmental protection, and anchoring. The course is 8 hours total, typically offered as a single all-day class or spread over 2 to 3 evenings. Approved providers include NYS Parks, Recreation, and Historic Preservation at parks.ny.gov/recreation/boating, the U.S. Coast Guard Auxiliary, U.S. Power Squadrons, the BoatUS Foundation (online), and NY Sea Grant. Course formats include in-person classes, live virtual classes, and approved online self-paced courses. Course cost ranges from free (many US Coast Guard Auxiliary classes are no-charge) to 40 dollars for online self-paced options. The certificate is a one-time lifetime credential — no renewal required. Once issued, a plastic card with the operator's name and certificate number can be carried on the boat, or a digital version can be stored on a phone. An out-of-state operator can carry their home state's equivalent certificate if the NY program accepts reciprocity (most states' courses count). Penalties: operating a boat without a certificate is a violation carrying a 100 dollar fine for first offense, 250 to 500 for subsequent offenses under NFC 78-a. Rental operators (paddle boat companies, marinas renting motor boats) require every renter to show a certificate or provide on-site training before releasing the boat under NFC 73-d. NY also requires all boats to carry US Coast Guard-approved personal flotation devices (life jackets) for every person on board, with children under 12 required to wear one at all times, and specific signaling equipment (visual distress signals, sound-making device, fire extinguisher) per boat size. These are separate from the operator certificate. Alcohol rules: operating a boat with BAC of 0.08 or higher is Boating While Intoxicated (BWI) under NFC 49-a, a misdemeanor punishable by up to 1 year in jail, fines, and boat operation privileges suspension. The standard is the same as driving. A BWI conviction can also affect a driver license — NY treats BWI as a motor vehicle offense for DMV record purposes. For Monroe County boaters on Lake Ontario or the Finger Lakes, the NYS Parks Office of Boating Safety at (518) 474-2117 lists local courses. Rochester area courses are frequently offered at the Genesee Valley Park Boat House and the Irondequoit Bay Marine Park during spring. Lifetime certificates are transferable across all NY waters — no separate certificate needed for different lakes or rivers."
+    en: "Brianna's Law, found in New York Navigation Law Section 78, phased in a universal boating safety certificate requirement between 2020 and 2025. The law is named for Brianna Lieneck, an 11-year-old Long Island girl killed in a 2005 boating crash where the adult operator had no safety training. Before Brianna's Law, only operators born on or after May 1, 1996 had to complete a boating course. As of January 1, 2025, every motor boat operator regardless of age must have completed an approved boating safety course. The course covers NY navigation rules, right of way, channel markers, safety equipment requirements, emergency procedures, personal flotation device rules, boating while intoxicated rules, environmental protection, and anchoring. The course is at least 8 hours of classroom training plus a proctored exam, typically offered as a single all-day class or spread over 2 to 3 evenings. Approved providers include NYS Parks, Recreation, and Historic Preservation at parks.ny.gov/recreation/boating, the U.S. Coast Guard Auxiliary, U.S. Power Squadrons, the BoatUS Foundation (online), and NY Sea Grant. Course formats include in-person classes, live virtual classes, and approved online self-paced courses. Course cost ranges from free (many US Coast Guard Auxiliary classes are no-charge) to about 35 dollars for online self-paced options. The certificate is a one-time lifetime credential — no renewal required. Once issued, a plastic card with the operator's name and certificate number can be carried on the boat, or a digital version can be stored on a phone. An out-of-state operator can carry their home state's equivalent NASBLA-approved certificate (most states' courses count). Penalties under Navigation Law 78: a first violation carries a fine of not less than 25 nor more than 100 dollars, or imprisonment for not more than 7 days, or both; repeat offenders may face fines up to 250 dollars. NY also requires all boats to carry US Coast Guard-approved personal flotation devices (life jackets) for every person on board, with children under 12 required to wear one at all times, and specific signaling equipment (visual distress signals, sound-making device, fire extinguisher) per boat size. These are separate from the operator certificate. Alcohol rules: operating a boat with BAC of 0.08 or higher is Boating While Intoxicated (BWI) under Navigation Law 49-a, a misdemeanor punishable by up to 1 year in jail, a fine of up to 1,000 dollars, and boat operation privileges suspension. The standard is the same as driving. For Monroe County boaters on Lake Ontario or the Finger Lakes, the NYS Parks Office of Boating Safety at (518) 474-2117 lists local courses. Rochester area courses are frequently offered at the Genesee Valley Park Boat House and the Irondequoit Bay Marine Park during spring. Lifetime certificates are transferable across all NY waters — no separate certificate needed for different lakes or rivers."
   },
 
   yourRights: {
@@ -33,7 +33,7 @@ export const BOAT_OPERATOR_SAFETY_CERTIFICATE_NY = {
       "An out-of-state operator has the right to reciprocity for most states' equivalent courses.",
       "A low-income boater has access to free US Coast Guard Auxiliary courses.",
       "A certified operator has the right to operate any motorboat in NY waters.",
-      "A boat rental customer has the right to required training if no certificate is in hand under NFC 73-d.",
+      "A boat rental customer has the right to required training if no certificate is in hand.",
       "A person cited for operating without certificate has the right to contest the ticket in town justice court."
     ]
   },
@@ -95,22 +95,23 @@ export const BOAT_OPERATOR_SAFETY_CERTIFICATE_NY = {
   tags: [
     "NY boating safety certificate",
     "Brianna's Law",
-    "NFC 78-a",
-    "9 NYCRR 476",
+    "NAV 78",
     "boat operator license",
     "US Coast Guard Auxiliary",
     "boating while intoxicated",
-    "NFC 49-a BWI",
+    "NAV 49-a BWI",
     "NYS Parks boating",
-    "BoatUS Foundation"
+    "BoatUS Foundation",
+    "NASBLA approved course"
   ],
 
   sources: [
-    "https://www.nysenate.gov/legislation/laws/NAV/78-A",
+    "https://www.nysenate.gov/legislation/laws/NAV/78",
     "https://parks.ny.gov/recreation/boating"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

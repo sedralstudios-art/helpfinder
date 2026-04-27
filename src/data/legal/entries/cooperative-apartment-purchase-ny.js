@@ -40,7 +40,7 @@ export const COOPERATIVE_APARTMENT_PURCHASE_NY = {
 
   legalOptions: {
     en: [
-      "NY Attorney General Real Estate Finance Bureau enforces the Martin Act on cooperative offering plans. Phone (212) 416-8128.",
+      "NY Attorney General Real Estate Finance Bureau enforces the Martin Act on cooperative offering plans. Phone (212) 416-8121 (general) or (212) 416-8122 (public information line).",
       "NY State Division of Human Rights at (888) 392-3644 receives discrimination complaints in housing including co-op board approval.",
       "NY Attorney General Civil Rights Bureau also receives co-op discrimination complaints.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 connects buyers and sellers with real estate attorneys experienced in co-ops.",
@@ -61,7 +61,7 @@ export const COOPERATIVE_APARTMENT_PURCHASE_NY = {
       qualifier: "Buyers and shareholders in NY co-ops and condos",
       access: "Phone or online complaint",
       outcome: "Investigation of offering plan and disclosure violations",
-      phone: "(212) 416-8128",
+      phone: "(212) 416-8121",
       url: "https://ag.ny.gov/real-estate-finance",
       verified: true,
       bilingual: true,
@@ -124,7 +124,8 @@ export const COOPERATIVE_APARTMENT_PURCHASE_NY = {
     "https://www.nysenate.gov/legislation/laws/GBS/A23-A"
   ],
 
-  lastVerified: "2026-04-24",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

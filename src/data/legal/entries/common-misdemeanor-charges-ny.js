@@ -96,7 +96,8 @@ export const COMMON_MISDEMEANOR_CHARGES_NY = {
     "https://www.nysenate.gov/legislation/laws/CPL/170.55"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

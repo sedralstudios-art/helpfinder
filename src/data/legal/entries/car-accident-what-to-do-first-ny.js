@@ -32,7 +32,7 @@ export const CAR_ACCIDENT_WHAT_TO_DO_FIRST_NY = {
       "A driver has the right to file a no-fault (PIP) claim with their own insurance for medical bills and lost wages — regardless of who caused the accident.",
       "The PIP application must be filed within 30 days of the accident. Missing this deadline can result in losing coverage.",
       "A driver has the right to choose their own doctor for treatment — the insurance company cannot dictate which provider to see.",
-      "A driver has the right to a copy of the police report. In Rochester, call (585) 428-7033 for accident report copies.",
+      "A driver has the right to a copy of the police report. In Rochester, call (585) 428-7493 for accident report copies.",
       "A passenger injured in an accident has the right to no-fault coverage from the vehicle's insurance policy.",
       "A driver has the right to file a DMV accident report (Form MV-104) — this is required within 10 days if anyone was injured or damage exceeded $1,000."
     ]
@@ -44,8 +44,8 @@ export const CAR_ACCIDENT_WHAT_TO_DO_FIRST_NY = {
       "File the DMV accident report (Form MV-104) online at dmv.ny.gov or by mail within 10 days.",
       "File a no-fault (PIP) application with the driver's own insurance company within 30 days.",
       "If the other driver was uninsured, file an uninsured motorist claim with the driver's own insurance.",
-      "For personal injury claims beyond PIP, a personal injury attorney can assess the case — Monroe County Bar Association referral at (585) 546-2130.",
-      "Rochester Police accident reports: Records Division at (585) 428-7033.",
+      "For personal injury claims beyond PIP, a personal injury attorney can assess the case — Monroe County Bar Association referral at (585) 546-1817.",
+      "Rochester Police accident reports: Records Division at (585) 428-7493.",
       "Photos from the scene, the other driver's information, witness names, and medical records are the most important evidence — preserve them."
     ]
   },
@@ -101,7 +101,8 @@ export const CAR_ACCIDENT_WHAT_TO_DO_FIRST_NY = {
     "https://www.nysenate.gov/legislation/laws/ISC/5102"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

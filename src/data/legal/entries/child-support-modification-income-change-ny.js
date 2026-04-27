@@ -40,8 +40,8 @@ export const CHILD_SUPPORT_MODIFICATION_INCOME_CHANGE_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Family Court at (585) 371-3553 handles child support modification petitions.",
-      "Monroe County Child Support Enforcement Unit at (585) 753-6048 can explain the modification process.",
+      "Monroe County Family Court at (585) 371-3544 handles child support modification petitions.",
+      "Monroe County Child Support Enforcement Unit at (585) 753-1441 or the NY State Child Support Helpline at (888) 208-4485 can explain the modification process.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income parents in child support matters.",
       "LawNY at (585) 325-2520 handles family law cases for low-income clients.",
       "Free court forms for modification petitions are available at nycourts.gov.",
@@ -98,7 +98,8 @@ export const CHILD_SUPPORT_MODIFICATION_INCOME_CHANGE_NY = {
     "https://www.nycourts.gov/courthelp/Family/childSupportModification.shtml"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

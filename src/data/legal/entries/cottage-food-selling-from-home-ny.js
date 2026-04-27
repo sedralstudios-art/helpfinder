@@ -10,7 +10,7 @@ export const COTTAGE_FOOD_SELLING_FROM_HOME_NY = {
   title: { en: "Selling Food from Home — New York Cottage Food Laws" },
 
   summary: {
-    en: "New York allows people to make and sell certain foods from a home kitchen without a commercial license. Baked goods, jams, candies, and some other shelf-stable foods qualify. The food must be sold directly to the customer — not through a store or restaurant. There are labeling rules and a sales cap."
+    en: "New York allows people to make and sell certain shelf-stable foods from a home kitchen under a Home Processor Exemption to Article 20-C licensing. Baked goods, jams, candies, and similar foods qualify. The producer must register with the NYS Department of Agriculture and Markets (free, one-time) and follow labeling rules. New York no longer caps annual sales under this exemption."
   },
 
   whoQualifies: {
@@ -22,13 +22,13 @@ export const COTTAGE_FOOD_SELLING_FROM_HOME_NY = {
   },
 
   whatItMeans: {
-    en: "Under New York Agriculture and Markets Law Article 20-C, a home processor can make and sell certain foods without a commercial kitchen or food establishment license. The foods must be non-potentially-hazardous — meaning they do not need refrigeration to stay safe. Common examples include cookies, bread, muffins, granola, jams, fruit pies, candy, dried herbs, and roasted nuts. Foods that need refrigeration — like cheesecake, cream pies, meat, dairy, or anything with custard — are not allowed. The food must be sold directly to the end consumer. Selling wholesale to a store or restaurant is not allowed. Every package must have a label showing the name and address of the person who made it, the ingredients, the date it was made, and the statement: \"This product was made in a home kitchen that is not subject to New York State food processing regulations.\" There is no annual sales cap in New York for home processors, but the home kitchen must be clean and safe. The local health department does not inspect home kitchens for cottage food, but can investigate complaints. Allergen disclosure is a separate requirement that catches some new producers off guard. Food labeled with the cottage food disclaimer must still identify the major allergens — milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soybeans, and sesame — when those ingredients are present. The disclosure can appear in the ingredient list itself or in a separate Contains statement following the ingredients. A producer who advertises a product as gluten-free or nut-free must take precautions to avoid cross-contamination in the home kitchen, since claims that prove false can support a deceptive business practices claim. Sales tax also applies to most cottage food sales in NY; food sold for off-premises consumption (the typical cottage food situation) is generally tax-exempt, but candy, soft drinks, and some other categories are taxable. Registering for a sales tax certificate of authority is required even when the products themselves are exempt, because tax-exempt status has to be documented."
+    en: "Under New York Agriculture and Markets Law Article 20-C, a home processor can make and sell certain foods without a commercial kitchen or food establishment license. The home producer must apply for a free Home Processor Exemption through the NYS Department of Agriculture and Markets, which keeps the operation outside the Article 20-C licensing system but still on the agency's record. The foods must be non-potentially-hazardous — meaning they do not need refrigeration to stay safe. Common examples include cookies, bread, muffins, granola, jams, fruit pies, candy, dried herbs, and roasted nuts. Foods that need refrigeration — like cheesecake, cream pies, meat, dairy, or anything with custard — are not allowed. The food can be sold directly to consumers and, under the current rule, to retail outlets at agricultural farm venues. Every package must have a label showing the name and address of the person who made it, the ingredients, the date it was made, and a statement that the product was made in a home kitchen not subject to New York State food processing regulations. The state removed the dollar cap on annual sales for home processors, so the exemption no longer turns on revenue. The local health department does not inspect home kitchens for cottage food, but can investigate complaints. Allergen disclosure is a separate requirement that catches some new producers off guard. Food labeled with the cottage food disclaimer must still identify the major allergens — milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soybeans, and sesame — when those ingredients are present. The disclosure can appear in the ingredient list itself or in a separate Contains statement following the ingredients. A producer who advertises a product as gluten-free or nut-free must take precautions to avoid cross-contamination in the home kitchen, since claims that prove false can support a deceptive business practices claim. Sales tax also applies to most cottage food sales in NY; food sold for off-premises consumption (the typical cottage food situation) is generally tax-exempt, but candy, soft drinks, and some other categories are taxable. Registering for a sales tax certificate of authority is required even when the products themselves are exempt, because tax-exempt status has to be documented."
   },
 
   yourRights: {
     en: [
-      "A home food producer in New York does not need a license or permit to sell shelf-stable foods directly to consumers.",
-      "A home food producer has the right to sell at farmers markets, fairs, and online (for local pickup) without a commercial kitchen.",
+      "A home food producer in New York can operate under a free Home Processor Exemption rather than the full Article 20-C food processing license.",
+      "A home food producer who has registered may sell at farmers markets, fairs, and online (for local pickup) without a commercial kitchen.",
       "A local health department cannot require a permit or inspection for cottage food operations — state law preempts local rules on this.",
       "A farmers market can set its own rules about what vendors may sell, but cannot override the state cottage food law.",
       "A home food producer must label every product with their name, address, ingredients, date made, and the required disclaimer.",
@@ -47,7 +47,7 @@ export const COTTAGE_FOOD_SELLING_FROM_HOME_NY = {
   },
 
   example: {
-    en: "Maria in Greece bakes pan dulce and tres leches cookies from her home kitchen. She labels each package with her name, home address, ingredients, baking date, and the required home kitchen disclaimer. She sells at the Rochester Public Market every Saturday and takes orders online for local pickup. She does not need a license because her products are shelf-stable. She earns about $400 a month. When a neighbor asked if she needed a health permit, Maria showed them the state cottage food law — no permit required."
+    en: "Maria in Greece bakes pan dulce and tres leches cookies from her home kitchen. She mailed in a Home Processor Exemption registration to NYS Agriculture and Markets and got back a confirmation. She labels each package with her name, home address, ingredients, baking date, and the required home kitchen disclaimer. She sells at the Rochester Public Market every Saturday and takes orders online for local pickup. Because her products are shelf-stable and she has registered, she does not need an Article 20-C food processing license. She earns about $400 a month. When a neighbor asked about a health permit, Maria explained the state Home Processor Exemption."
   },
 
   counsel: [
@@ -108,7 +108,8 @@ export const COTTAGE_FOOD_SELLING_FROM_HOME_NY = {
     "https://www.nysenate.gov/legislation/laws/AGM/A20-C"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

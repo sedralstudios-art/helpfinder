@@ -25,7 +25,7 @@ export const CELL_PHONE_WHILE_DRIVING_NY = {
   },
 
   whatItMeans: {
-    en: "VTL 1225-c and 1225-d ban most handheld phone and portable electronic device use while driving. Handheld phone ban (1225-c): a driver may not use a mobile telephone to engage in a call while the vehicle is in motion. A presumption applies: holding a phone to the ear is presumed to be using it. Exceptions: emergency calls to 911, police, fire, medical emergencies, or similar emergency services; calls from a stationary vehicle (fully stopped, not just paused in traffic); and built-in, integrated, or truly hands-free phones. Portable electronic device ban (1225-d): a driver may not use any portable electronic device to compose, send, read, access, browse, transmit, save, or retrieve electronic data while the vehicle is in motion. This covers texting, GPS (unless hands-free and not requiring typing while moving), emails, social media, reading messages, and taking photos. A device sitting in a cradle or mounted for hands-free use is OK if the driver does not hold or touch it beyond a minimal single tap. Definition of 'in motion': VTL 1225 applies whenever the vehicle is on a roadway, even when stopped at a red light or in traffic. A driver stopped on the shoulder or in a parking lot is generally not 'in motion.' Enforcement: police can stop a vehicle solely for a cell phone violation (primary enforcement). No other violation is needed. First-time fine: $50 to $200 (VTL 1225-c(2)(b)), plus state surcharges of about $93 and a mandatory $93 surcharge. Repeat offenses within 18 months: $50 to $250 second; $50 to $450 third and subsequent. Points: a conviction adds 5 points to the driver's license (NY's worst point count for a single traffic violation — more than a DWI). Accumulating 11 points within 18 months results in license suspension. Commercial drivers: federal rules (49 CFR 392.80-82) prohibit any handheld use by commercial drivers, with stricter penalties including potential CDL disqualification. NY applies parallel rules with higher fines and automatic CDL suspension for repeat violations. Junior and learner drivers: Leandra's Law and related provisions result in automatic 120-day license suspension for the first cell phone conviction for drivers under 21 with a learner's permit or junior (Class DJ) license. A second violation is permanent revocation for the junior period. Insurance consequences: 5 points on a cell phone ticket typically raises auto insurance 15-30 percent for 3 years. Multiple tickets compound the increase. The NY Insurance Law 2335 allows insurers to non-renew for excessive points. Defending a ticket: a driver can plead not guilty and contest. Defenses include: phone was in a mount and hands-free; the officer could not see a phone (reasonable doubt); emergency call exception; vehicle was not 'in motion' (disputed facts). A driver can request the officer's notes and body-camera footage. Traffic court in Rochester handles most ticket disputes; traffic violations bureau (TVB) model is used for NYC. Plea reductions: prosecutors may reduce a 1225-c ticket to a non-moving or lower-point violation in plea negotiations. Legal Aid does not typically handle traffic tickets, but a private traffic attorney often handles for a few hundred dollars. Cost-benefit: a 5-point conviction's insurance cost can exceed $2,000 over 3 years. Distracted driving research: cell phone use while driving is associated with 4x crash risk, per the CDC. NY invests in public education through Highway Safety Program grants."
+    en: "VTL 1225-c and 1225-d ban most handheld phone and portable electronic device use while driving. Handheld phone ban (1225-c): a driver may not use a mobile telephone to engage in a call while the vehicle is in motion. A presumption applies: holding a phone to the ear is presumed to be using it. Exceptions: emergency calls to 911, police, fire, medical emergencies, or similar emergency services; calls from a stationary vehicle (fully stopped, not just paused in traffic); and built-in, integrated, or truly hands-free phones. Portable electronic device ban (1225-d): a driver may not use any portable electronic device to compose, send, read, access, browse, transmit, save, or retrieve electronic data while the vehicle is in motion. This covers texting, GPS (unless hands-free and not requiring typing while moving), emails, social media, reading messages, and taking photos. A device sitting in a cradle or mounted for hands-free use is OK if the driver does not hold or touch it beyond a minimal single tap. Definition of 'in motion': VTL 1225 applies whenever the vehicle is on a roadway, even when stopped at a red light or in traffic. A driver stopped on the shoulder or in a parking lot is generally not 'in motion.' Enforcement: police can stop a vehicle solely for a cell phone violation (primary enforcement). No other violation is needed. First-time fine: $50 to $200 (VTL 1225-c(2)(b)), plus a state surcharge of about $88 to $93 depending on where the ticket is issued. Repeat offenses within 18 months: $50 to $250 second; $50 to $450 third and subsequent. Points: a conviction adds 5 points to the driver's license (NY's worst point count for a single traffic violation — more than a DWI). Accumulating 11 points within 18 months results in license suspension. Commercial drivers: federal rules (49 CFR 392.80-82) prohibit any handheld use by commercial drivers, with stricter penalties including potential CDL disqualification. NY applies parallel rules with higher fines and automatic CDL suspension for repeat violations. Junior and learner drivers: under the Graduated License Law, the first cell phone or texting conviction triggers an automatic 120-day license suspension for a driver with a learner's permit or junior (Class DJ) license. A second conviction during the junior period leads to license revocation. Insurance consequences: 5 points on a cell phone ticket typically raises auto insurance 15-30 percent for 3 years. Multiple tickets compound the increase. The NY Insurance Law 2335 allows insurers to non-renew for excessive points. Defending a ticket: a driver can plead not guilty and contest. Defenses include: phone was in a mount and hands-free; the officer could not see a phone (reasonable doubt); emergency call exception; vehicle was not 'in motion' (disputed facts). A driver can request the officer's notes and body-camera footage. Traffic court in Rochester handles most ticket disputes; traffic violations bureau (TVB) model is used for NYC. Plea reductions: prosecutors may reduce a 1225-c ticket to a non-moving or lower-point violation in plea negotiations. Legal Aid does not typically handle traffic tickets, but a private traffic attorney often handles for a few hundred dollars. Cost-benefit: a 5-point conviction's insurance cost can exceed $2,000 over 3 years. Distracted driving research: cell phone use while driving is associated with 4x crash risk, per the CDC. NY invests in public education through Highway Safety Program grants."
   },
 
   yourRights: {
@@ -44,8 +44,7 @@ export const CELL_PHONE_WHILE_DRIVING_NY = {
   legalOptions: {
     en: [
       "NYS Department of Motor Vehicles at (518) 473-5595.",
-      "Rochester City Court Traffic Violations at (585) 428-6520.",
-      "Monroe County Courts Traffic Division at (585) 428-6520.",
+      "Rochester Traffic Violations Agency at (585) 428-6555.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 — traffic attorneys.",
       "NYS Governor's Traffic Safety Committee at (518) 474-5111.",
       "NY Attorney General Consumer Frauds at (800) 771-7755 — if dealer misrepresented vehicle features.",
@@ -74,12 +73,12 @@ export const CELL_PHONE_WHILE_DRIVING_NY = {
     },
     {
       type: "government",
-      name: "Rochester City Court Traffic Violations",
+      name: "Rochester Traffic Violations Agency",
       focus: "Traffic ticket appearances, not-guilty pleas, scheduling",
       qualifier: "Any driver ticketed in Rochester",
-      access: "Phone at (585) 428-6520",
+      access: "Phone at (585) 428-6555",
       outcome: "Plea and hearing scheduling",
-      phone: "(585) 428-6520",
+      phone: "(585) 428-6555",
       url: "https://www.nycourts.gov/courts/cityrochester/",
       verified: true,
       bilingual: true,
@@ -115,7 +114,8 @@ export const CELL_PHONE_WHILE_DRIVING_NY = {
     "https://dmv.ny.gov/tickets/tickets-and-fines"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
