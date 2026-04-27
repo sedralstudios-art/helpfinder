@@ -868,9 +868,25 @@ function main() {
   const cw = global.__contentWarnings || [];
   if (cw.length) {
     console.log('');
+    // Group warnings by type so the fact-check queue (potentially 900+) does
+    // not drown shorter signal classes. factCheckedBy gets its own line count
+    // and is summarized rather than enumerated unless --verbose is passed.
+    const factCheck = cw.filter(w => w.includes('no factCheckedBy'));
+    const stale = cw.filter(w => w.includes('factCheckedBy date'));
+    const other = cw.filter(w => !w.includes('factCheckedBy'));
     console.log(`WARN: ${cw.length} content-quality nudge(s) (not blocking, review):`);
-    for (const w of cw.slice(0, 60)) console.log(`  ${w}`);
-    if (cw.length > 60) console.log(`  ... and ${cw.length - 60} more`);
+    if (other.length) {
+      for (const w of other.slice(0, 80)) console.log(`  ${w}`);
+      if (other.length > 80) console.log(`  ... and ${other.length - 80} more (non-factCheckedBy)`);
+    }
+    if (factCheck.length) {
+      console.log(`  [fact-check queue] ${factCheck.length} statute-heavy entries lack factCheckedBy — list at scripts/list-factcheck-queue.cjs`);
+    }
+    if (stale.length) {
+      console.log(`  [fact-check stale] ${stale.length} entries with factCheckedBy older than threshold:`);
+      for (const w of stale.slice(0, 20)) console.log(`    ${w}`);
+      if (stale.length > 20) console.log(`    ... and ${stale.length - 20} more`);
+    }
   }
 
   console.log('OK');
