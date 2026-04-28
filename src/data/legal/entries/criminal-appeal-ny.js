@@ -43,10 +43,10 @@ export const CRIMINAL_APPEAL_NY = {
       "Monroe County Public Defender Appellate Bureau at (585) 753-4210 — assists with notice of appeal filing and connects to assigned appellate counsel.",
       "Assigned Counsel Program Fourth Department 18-B panel — assigns qualified appellate attorneys to indigent criminal appellants; applications go through the Monroe County Public Defender.",
       "Appellate Division, Fourth Department at 50 East Avenue, Rochester, phone (585) 530-3100 — handles Monroe County felony appeals.",
-      "Rochester City Court Clerk at (585) 428-6990 — accepts notice of appeal for Rochester City Court convictions.",
-      "Monroe County Court Clerk at 99 Exchange Boulevard, Rochester, (585) 428-5477 — handles felony trial record and notice of appeal filings.",
+      "Rochester City Court Criminal Division at (585) 371-3413 — accepts notice of appeal for Rochester City Court convictions.",
+      "Monroe County Court at 99 Exchange Boulevard, Rochester — handles felony trial record and notice of appeal filings.",
       "Legal Aid Society of Rochester at (585) 232-4090 — limited role on criminal appeals but may assist on collateral issues.",
-      "Empire State Justice Center at (585) 454-4060 — policy and systemic advocacy on appellate rights."
+      "Empire Justice Center at (585) 454-4060 — policy and systemic advocacy on appellate rights."
     ]
   },
 
@@ -122,7 +122,8 @@ export const CRIMINAL_APPEAL_NY = {
     "https://www.nysenate.gov/legislation/laws/CPL/460.10"
   ],
 
-  lastVerified: "2026-04-21",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

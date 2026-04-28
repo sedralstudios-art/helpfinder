@@ -43,7 +43,7 @@ export const CRIMINAL_CASE_PROCESS_NY = {
     en: [
       "Monroe County Public Defender at (585) 753-4210 — represents indigent defendants from arraignment through trial, plea, or appeal.",
       "Monroe County Assigned Counsel Program (18-B panel) — handles conflict cases and some felony assignments; reached through the court or Public Defender.",
-      "Rochester City Court at (585) 428-6990 — arraigns misdemeanor arrests within city limits and handles city-court trials.",
+      "Rochester City Court Criminal Division at (585) 371-3413 — arraigns misdemeanor arrests within city limits and handles city-court trials.",
       "Monroe County Court at 99 Exchange Boulevard, Rochester — superior court for felony arraignment on indictment and felony trials.",
       "CPL § 170.55 adjournment in contemplation of dismissal (ACD) is available for many misdemeanors — the case is adjourned and dismissed if no new arrest occurs during the period.",
       "Legal Aid Society of Rochester at (585) 232-4090 — collateral-consequences advice, record sealing, reentry services after criminal case resolution.",
@@ -87,9 +87,9 @@ export const CRIMINAL_CASE_PROCESS_NY = {
       name: "Rochester City Court",
       focus: "Arraignment and misdemeanor trials within Rochester city limits",
       qualifier: "Defendant arrested within Rochester",
-      access: "Court appearance 295 Exchange Boulevard",
+      access: "Court appearance at 150 South Plymouth Avenue (criminal) or 99 Exchange Blvd (civil)",
       outcome: "Arraignment, plea, hearings, misdemeanor trials",
-      phone: "(585) 428-6990",
+      phone: "(585) 371-3413",
       url: "https://www.nycourts.gov/courts/7jd/rochester",
       verified: true,
       bilingual: false,
@@ -125,7 +125,8 @@ export const CRIMINAL_CASE_PROCESS_NY = {
     "https://www.nycourts.gov"
   ],
 
-  lastVerified: "2026-04-21",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

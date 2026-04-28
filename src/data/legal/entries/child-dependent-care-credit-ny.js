@@ -40,10 +40,10 @@ export const CHILD_DEPENDENT_CARE_CREDIT_NY = {
 
   legalOptions: {
     en: [
-      "NY State Department of Taxation and Finance at (518) 457-5431 handles IT-216 questions.",
-      "VITA (Volunteer Income Tax Assistance) sites in Monroe County — call 211 at (585) 442-0220 for locations.",
+      "NY State Department of Taxation and Finance Personal Income Tax line at (518) 457-5181 handles IT-216 questions.",
+      "VITA (Volunteer Income Tax Assistance) sites in Monroe County — call 211 Lifeline at (585) 275-5151 for locations.",
       "IRS Child and Dependent Care Credit guidance at (800) 829-1040 or irs.gov/taxtopics/tc602.",
-      "Monroe County Department of Human Services at (585) 753-6960 for Child Care Subsidy (CCAP) eligibility alongside the tax credit.",
+      "Monroe County Department of Human Services Child Care Assistance at (585) 753-6316 for Child Care Subsidy (CCAP) eligibility alongside the tax credit.",
       "AARP Foundation Tax-Aide for seniors and low-income adults — (800) 227-7669 for Rochester-area locations.",
       "Legal Aid Society of Rochester at (585) 232-4090 for tax-related legal issues."
     ]
@@ -61,7 +61,7 @@ export const CHILD_DEPENDENT_CARE_CREDIT_NY = {
       qualifier: "Any NY tax filer",
       access: "Phone, website forms, free online filing portal",
       outcome: "Form clarification, filing support, refund processing",
-      phone: "(518) 457-5431",
+      phone: "(518) 457-5181",
       url: "https://www.tax.ny.gov/pit/credits/child_and_dependent_care_credit.htm",
       verified: true,
       bilingual: true,
@@ -74,7 +74,7 @@ export const CHILD_DEPENDENT_CARE_CREDIT_NY = {
       qualifier: "Household income under approximately 67,000 dollars",
       access: "Phone 211, seasonal appointments",
       outcome: "Free federal and NY tax preparation including IT-216",
-      phone: "(585) 442-0220",
+      phone: "(585) 275-5151",
       url: "https://www.211rochester.org",
       verified: true,
       bilingual: true,
@@ -110,7 +110,8 @@ export const CHILD_DEPENDENT_CARE_CREDIT_NY = {
     "https://www.tax.ny.gov/pit/credits/child_and_dependent_care_credit.htm"
   ],
 
-  lastVerified: "2026-04-20",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,

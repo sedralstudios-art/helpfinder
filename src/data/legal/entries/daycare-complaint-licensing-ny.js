@@ -41,7 +41,7 @@ export const DAYCARE_COMPLAINT_LICENSING_NY = {
     en: [
       "OCFS Child Care Complaint Line at (800) 732-5207 — file a complaint about any licensed or registered child care program.",
       "Search for a provider's license and inspection history at ocfs.ny.gov/main/childcare/.",
-      "Monroe County Department of Human Services at (585) 753-6000 handles local daycare complaints and licensing.",
+      "Monroe County Department of Human Services Child Care office at (585) 753-6316 handles the local Child Care Assistance Program and child care subsidy questions.",
       "To report an unlicensed daycare, call the OCFS hotline at (800) 732-5207.",
       "If a child was injured at a daycare due to negligence, a personal injury attorney can assess the case — Monroe County Bar Association referral at (585) 546-2130.",
       "Child Care Council of Rochester at (585) 654-4720 helps parents find licensed child care and answers questions about quality and safety."
@@ -110,7 +110,8 @@ export const DAYCARE_COMPLAINT_LICENSING_NY = {
     "https://ocfs.ny.gov/programs/childcare/"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-27",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-27" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
