@@ -10,7 +10,7 @@ export const DEBT_STATUTE_OF_LIMITATIONS_NY = {
   title: { en: "Statute of Limitations on Debt — When a Creditor Can No Longer Sue in New York" },
 
   summary: {
-    en: "Every type of debt has a deadline for the creditor to file a lawsuit — this is called the statute of limitations. In New York, the statute of limitations for most consumer debts is 6 years. After the deadline passes, the debt is 'time-barred' — the creditor can no longer sue to collect. But the debt does not disappear, and debt collectors may still try to collect. Making a partial payment or acknowledging the debt in writing can restart the clock."
+    en: "Every type of debt has a deadline for the creditor to file a lawsuit — this is called the statute of limitations. In New York, consumer credit transactions (credit cards, store cards, personal loans) carry a 3-year limit under CPLR 214-i (effective April 7, 2022). Other written contract debts carry the older 6-year limit under CPLR 213. After the deadline passes, the debt is 'time-barred' — the creditor can no longer sue to collect. But the debt does not disappear, and debt collectors may still try to collect."
   },
 
   whoQualifies: {
@@ -23,15 +23,15 @@ export const DEBT_STATUTE_OF_LIMITATIONS_NY = {
   },
 
   whatItMeans: {
-    en: "Under CPLR § 213, the statute of limitations for most contract-based debts in New York is 6 years from the date of default (the date the debtor stopped paying). After 6 years, the debt is time-barred — the creditor cannot file a lawsuit to collect. If the creditor files anyway, the debtor can raise the statute of limitations as an affirmative defense and the case will be dismissed. Important: the debt still exists — it does not go away. The creditor or a debt collector can still call, send letters, and ask for payment. But they cannot sue. Restarting the clock: making a partial payment on a time-barred debt restarts the 6-year period from the date of the payment. Acknowledging the debt in a signed writing can also restart the clock (under General Obligations Law § 17-101). A verbal acknowledgment alone does not restart it. Debt collectors who sue on time-barred debt: under the FDCPA and NY law, a debt collector who files a lawsuit on a time-barred debt may be violating the law — especially if they did not disclose that the statute had expired. Credit reporting: time-barred debt can still appear on a credit report for up to 7 years from the date of the first delinquency (this is a separate clock from the statute of limitations). Different debt types have different statutes of limitations in NY, even though the most common — written consumer contracts — runs six years. Oral contracts also have a six-year limit but are harder to prove. Open-account debts like utility bills or unpaid medical balances also fall under the six-year written-contract rule when documented. Federal student loans have no statute of limitations and remain enforceable indefinitely; private student loans follow the state contract limit. Tax debts to the IRS have their own ten-year collection statute under the Internal Revenue Code, and NY State tax debts follow a separate twenty-year rule under Tax Law 174. Judgments themselves are enforceable for twenty years in NY (CPLR 211(b)), so a creditor who obtained a judgment within the original six-year window then has another twenty years to enforce it. Time-barred debt can be sold and resold among debt buyers; the new buyer cannot revive the statute by virtue of the sale alone."
+    en: "New York has more than one statute of limitations for debt depending on the kind of debt. Under CPLR § 213(2), the statute of limitations for most written contract claims in New York is 6 years from the date of breach. The Consumer Credit Fairness Act (Chapter 593 of 2021) added CPLR § 214-i, which sets a shorter 3-year limit on actions arising out of a consumer credit transaction (credit cards, store cards, and other consumer credit). CPLR 214-i took effect April 7, 2022. After the limitations period runs, the debt is time-barred — the creditor cannot file a lawsuit to collect. If the creditor files anyway, the debtor can raise the statute of limitations as an affirmative defense and the case will be dismissed. Important: the debt still exists — it does not go away. The creditor or a debt collector can still call, send letters, and ask for payment. But they cannot sue. Restarting the clock: for ordinary contract debts under CPLR 213, a signed written acknowledgment under General Obligations Law § 17-101 can restart the limitations period; a partial payment or other voluntary act may also restart the clock for non-consumer-credit debts. For consumer credit transactions, CPLR 214-i provides that a partial payment, oral or written acknowledgment, or other activity on the debt does NOT revive or extend the limitations period once it has expired. Debt collectors who sue on time-barred debt: under the FDCPA and NY law, a debt collector who files a lawsuit on a time-barred debt may be violating the law — especially if they did not disclose that the statute had expired. Credit reporting: time-barred debt can still appear on a credit report for up to 7 years from the date of the first delinquency (this is a separate clock from the statute of limitations). Different debt types have different statutes of limitations in NY. Oral contracts have a six-year limit under CPLR 213 but are harder to prove. Open-account debts that are not consumer credit transactions also fall under the six-year written-contract rule when documented. Federal student loans have no statute of limitations and remain enforceable indefinitely; private student loans follow the state contract limit. Tax debts to the IRS have their own ten-year collection statute under the Internal Revenue Code, and NY State tax debts follow a separate twenty-year rule under Tax Law 174-b. Judgments themselves are enforceable for twenty years in NY (CPLR 211(b)), so a creditor who obtained a judgment within the original limitations window then has another twenty years to enforce it. Time-barred debt can be sold and resold among debt buyers; the new buyer cannot revive the statute by virtue of the sale alone."
   },
 
   yourRights: {
     en: [
-      "In New York, most consumer debts have a 6-year statute of limitations.",
+      "In New York, consumer credit transactions have a 3-year statute of limitations under CPLR 214-i; other written contract debts have a 6-year limit under CPLR 213.",
       "After the deadline, the creditor cannot sue — but can still try to collect informally.",
-      "Making a partial payment restarts the 6-year clock — do not pay without understanding the consequences.",
-      "A signed written acknowledgment can restart the clock — a verbal one cannot.",
+      "For non-consumer-credit contract debts, a partial payment can restart the clock — for consumer credit debts, CPLR 214-i prevents revival.",
+      "A signed written acknowledgment can restart the clock for non-consumer-credit debts under GOL 17-101 — a verbal one cannot.",
       "If sued on a time-barred debt, the statute of limitations is an affirmative defense that must be raised.",
       "Time-barred debt can still appear on a credit report for up to 7 years from first delinquency."
     ]
@@ -39,7 +39,7 @@ export const DEBT_STATUTE_OF_LIMITATIONS_NY = {
 
   legalOptions: {
     en: [
-      "If being contacted about an old debt, determine when the last payment was made — if more than 6 years ago, the debt may be time-barred.",
+      "If being contacted about an old debt, determine when the last payment was made — if more than 3 years ago for a consumer credit debt, or more than 6 years ago for other contract debt, the debt may be time-barred.",
       "If sued on a time-barred debt, respond to the lawsuit and raise the statute of limitations as an affirmative defense. Do not ignore the lawsuit — a default judgment can be entered even on time-barred debt if the debtor does not respond.",
       "Do not make a partial payment or sign anything acknowledging the debt without consulting an attorney — this can restart the clock.",
       "Free legal help with debt defense and statute of limitations issues is available through Legal Aid Society of Rochester at (585) 232-4090.",
@@ -48,7 +48,7 @@ export const DEBT_STATUTE_OF_LIMITATIONS_NY = {
   },
 
   example: {
-    en: "A woman in Rochester receives a call from a debt collector about a credit card she stopped paying 7 years ago. The collector offers to settle for 50% if she makes a payment today. The 6-year statute of limitations has expired — the debt is time-barred. If she makes the payment, the clock restarts and the collector can sue for the full balance. She declines the offer. The collector can keep calling, but cannot sue."
+    en: "A woman in Rochester receives a call from a debt collector about a credit card she stopped paying 7 years ago. The collector offers to settle for less if she makes a payment today. The 3-year statute of limitations under CPLR 214-i for consumer credit transactions expired long ago — the debt is time-barred. Under CPLR 214-i, a partial payment on a consumer credit debt does not revive the limitations period, but engaging at all carries other risks. She declines the offer. The collector can keep calling, but cannot sue."
   },
 
   counsel: [
@@ -95,10 +95,12 @@ export const DEBT_STATUTE_OF_LIMITATIONS_NY = {
 
   sources: [
     "https://www.nysenate.gov/legislation/laws/CVP/213",
+    "https://www.nysenate.gov/legislation/laws/CVP/214-I",
     "https://www.nysenate.gov/legislation/laws/GOB/17-101"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

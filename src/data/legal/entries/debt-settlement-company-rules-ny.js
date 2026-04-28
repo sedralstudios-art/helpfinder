@@ -10,7 +10,7 @@ export const DEBT_SETTLEMENT_COMPANY_RULES_NY = {
   title: { en: "Debt Settlement Companies — Consumer Protections and Why Most Customers Are Worse Off" },
 
   summary: {
-    en: "Debt settlement companies promise to reduce unsecured debt (credit cards, medical bills) by negotiating lump-sum payoffs. New York General Business Law Section 456 and federal FTC rules regulate these companies — including fee structures and disclosures. Most customers end up with damaged credit, lawsuits, tax debt on forgiven balances, and fees for little benefit. Free alternatives through nonprofit credit counseling agencies often work better."
+    en: "Debt settlement companies promise to reduce unsecured debt (credit cards, medical bills) by negotiating lump-sum payoffs. The federal FTC Telemarketing Sales Rule (16 CFR Part 310) bans upfront fees by debt settlement companies, and New York General Business Law Section 456 prohibits unauthorized 'budget planning' for compensation. Most customers end up with damaged credit, lawsuits, tax debt on forgiven balances, and fees for little benefit. Free alternatives through nonprofit credit counseling agencies often work better."
   },
 
   whoQualifies: {
@@ -23,13 +23,13 @@ export const DEBT_SETTLEMENT_COMPANY_RULES_NY = {
   },
 
   whatItMeans: {
-    en: "Debt settlement companies offer to negotiate with creditors to accept less than the full debt as payment in full. The typical model: the consumer stops paying creditors and instead makes monthly payments into an escrow account controlled by the debt settlement company. When the account accumulates enough to offer a lump-sum settlement, the company negotiates with creditors one at a time. The process takes 2 to 4 years. During that time, the consumer is not paying creditors — so accounts go delinquent, late fees and interest accumulate, credit score drops 100 or more points, creditors may sue, and tax consequences attach to any forgiven balance (1099-C for amounts over $600 generally counts as taxable income). Federal FTC Telemarketing Sales Rule (16 CFR 310) bans upfront fees by debt settlement companies — fees can only be charged after a settlement is reached and the consumer makes at least one payment on the settled amount. New York General Business Law Section 456 requires licensure for debt settlement services in NY and sets maximum fees. A licensed debt settlement company cannot charge more than 15 percent of the enrolled debt as fees, and fees must be proportionate to the benefit. An unlicensed operator doing business in NY is in violation of state law and fees can be voided. The NY Attorney General has sued multiple debt settlement companies for unfair practices. Alternative: nonprofit credit counseling agencies (accredited by the National Foundation for Credit Counseling or the Financial Counseling Association of America) can help develop a Debt Management Plan (DMP) — a consolidated monthly payment that creditors agree to accept with reduced interest and fees. DMPs keep accounts current, so credit damage is minimized. Fees are small (often under $50/month total) and some agencies are free. Bankruptcy (Chapter 7 or 13) is another option — see the bankruptcy entries. For many consumers with substantial debt, bankruptcy is faster, cleaner, and legally sealed against collection than debt settlement."
+    en: "Debt settlement companies offer to negotiate with creditors to accept less than the full debt as payment in full. The typical model: the consumer stops paying creditors and instead makes monthly payments into an escrow account controlled by the debt settlement company. When the account accumulates enough to offer a lump-sum settlement, the company negotiates with creditors one at a time. The process takes 2 to 4 years. During that time, the consumer is not paying creditors — so accounts go delinquent, late fees and interest accumulate, credit score drops 100 or more points, creditors may sue, and tax consequences attach to any forgiven balance (1099-C for amounts over $600 generally counts as taxable income). Federal FTC Telemarketing Sales Rule (16 CFR 310) bans upfront fees by debt settlement companies — fees can only be charged after a settlement is reached and the consumer makes at least one payment on the settled amount. New York General Business Law Section 456 prohibits unauthorized 'budget planning' for compensation, and only nonprofits licensed by NYS DFS as 'budget planners' may engage in that activity in NY. New York does not currently have a separate state licensure regime or statutory fee cap specific to for-profit debt settlement companies, though proposed legislation (Bill A01730) would change that. The NY Attorney General has sued multiple debt settlement companies for unfair practices under GBL 349. Alternative: nonprofit credit counseling agencies (accredited by the National Foundation for Credit Counseling or the Financial Counseling Association of America) can help develop a Debt Management Plan (DMP) — a consolidated monthly payment that creditors agree to accept with reduced interest and fees. DMPs keep accounts current, so credit damage is minimized. Fees are small (often under $50/month total) and some agencies are free. Bankruptcy (Chapter 7 or 13) is another option — see the bankruptcy entries. For many consumers with substantial debt, bankruptcy is faster, cleaner, and legally sealed against collection than debt settlement."
   },
 
   yourRights: {
     en: [
       "A debt settlement company cannot charge upfront fees under federal FTC rules (16 CFR 310).",
-      "A NY-licensed debt settlement company cannot charge more than 15 percent of enrolled debt.",
+      "Fees may only be charged after a settlement is reached and the consumer makes at least one payment on the settled amount.",
       "A consumer has the right to cancel a debt settlement contract within 3 business days without penalty.",
       "A consumer has the right to all enrolled funds in the escrow account if they leave the program.",
       "A consumer has the right to file a complaint with the FTC, CFPB, or NYS Attorney General if the company is not following the rules.",
@@ -39,7 +39,7 @@ export const DEBT_SETTLEMENT_COMPANY_RULES_NY = {
 
   legalOptions: {
     en: [
-      "Before signing with any debt settlement company, check NYS DFS for licensure at dfs.ny.gov or call (800) 342-3736.",
+      "Before signing with any debt settlement company, check whether the company is registered or operating lawfully — NYS DFS at dfs.ny.gov or (800) 342-3736 oversees budget planner licensing and consumer financial complaints.",
       "Nonprofit credit counseling: Consumer Credit Counseling Service of Rochester at (585) 546-3440 — accredited, low-cost, DMP available.",
       "Consolidated Credit Counseling at (844) 596-8643 — national nonprofit, free initial consultation.",
       "For bankruptcy: consult a bankruptcy attorney for advice. Monroe County Bar Association referral at (585) 546-2130. See bankruptcy-chapter7-ny and bankruptcy-chapter13-ny.",
@@ -112,7 +112,8 @@ export const DEBT_SETTLEMENT_COMPANY_RULES_NY = {
     "https://www.law.cornell.edu/uscode/text/26/108"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,

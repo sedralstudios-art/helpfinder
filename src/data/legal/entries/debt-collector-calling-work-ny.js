@@ -112,6 +112,7 @@ export const DEBT_COLLECTOR_CALLING_WORK_NY = {
   ],
 
   lastVerified: "2026-04-17",
+  factCheckedBy: { tool: "websearch+webfetch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
