@@ -40,7 +40,7 @@ export const DISMISSED_CASE_SEALING_NY = {
 
   legalOptions: {
     en: [
-      "Ordering a personal RAP sheet from DCJS requires fingerprints and a fee (around $65 as of April 2026). Current cost is posted at criminaljustice.ny.gov/ojis/recordreview.htm.",
+      "Ordering a personal RAP sheet from DCJS requires fingerprints. Current fees: $17.50 for the NY-only state criminal history (Personal Record Review), or $47.50 for the combined state and FBI history. Cost and forms posted at criminaljustice.ny.gov/ojis/recordreview.htm; Record Review Unit at (518) 457-9847.",
       "If the RAP sheet shows the case is sealed but a background-check company still lists it, a written FCRA dispute letter with the RAP sheet attached usually gets it corrected within 30 days.",
       "If the RAP sheet shows the case is not sealed, contacting the clerk at the original court is the usual first step. Many clerks fix these without further paperwork.",
       "If the clerk cannot fix it, a short motion to the judge can be filed. There is no filing fee for a CPL 160.50 motion. Templates are posted at nycourts.gov.",
@@ -131,7 +131,8 @@ export const DISMISSED_CASE_SEALING_NY = {
     "https://www.lac.org/"
   ],
 
-  lastVerified: "2026-04-22",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
