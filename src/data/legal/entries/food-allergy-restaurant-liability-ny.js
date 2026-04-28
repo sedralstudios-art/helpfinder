@@ -40,7 +40,7 @@ export const FOOD_ALLERGY_RESTAURANT_LIABILITY_NY = {
   legalOptions: {
     en: [
       "For an allergic reaction that required medical treatment, a personal injury attorney can assess the case — Monroe County Bar Association referral at (585) 546-2130.",
-      "Monroe County Health Department at (585) 753-5171 inspects restaurants and can investigate food allergy complaints.",
+      "Monroe County Health Department at (585) 753-5555 inspects restaurants and can investigate food allergy complaints.",
       "The NYS Department of Health at (518) 474-7354 oversees food allergy awareness compliance.",
       "Preserve evidence: keep the restaurant receipt, take photos of the food and menu, write down what was said to the server, and get a copy of the medical records.",
       "If the restaurant is a chain or franchise, the corporate office should also be notified — they may have an allergy incident protocol.",
@@ -58,9 +58,9 @@ export const FOOD_ALLERGY_RESTAURANT_LIABILITY_NY = {
       name: "Monroe County Health Department — Food Safety",
       focus: "Restaurant inspections, food allergy complaints, food safety",
       qualifier: "Monroe County residents and businesses",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Restaurant inspection, complaint investigation, compliance enforcement",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

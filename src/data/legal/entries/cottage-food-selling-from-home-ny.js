@@ -42,7 +42,7 @@ export const COTTAGE_FOOD_SELLING_FROM_HOME_NY = {
       "Cornell Cooperative Extension of Monroe County at (585) 753-2550 offers food safety training and guidance on starting a cottage food business.",
       "The Rochester Public Market allows home processors to sell — contact the market office at (585) 428-6907 for vendor rules.",
       "For foods that do not qualify as cottage food (anything needing refrigeration), a home processor would need a food processing license from Agriculture and Markets.",
-      "The Monroe County Health Department at (585) 753-5171 handles complaints but does not license cottage food operations."
+      "The Monroe County Health Department at (585) 753-5555 handles complaints but does not license cottage food operations."
     ]
   },
 

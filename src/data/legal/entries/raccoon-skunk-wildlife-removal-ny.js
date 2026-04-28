@@ -39,10 +39,10 @@ export const RACCOON_SKUNK_WILDLIFE_REMOVAL_NY = {
   legalOptions: {
     en: [
       "Under 6 NYCRR Part 11, raccoons and skunks cannot be relocated. They must be released on-site or euthanized by a licensed NWCO.",
-      "If a bat is found in a room where someone was sleeping, the Monroe County Health Department should be contacted at (585) 753-5171 for rabies guidance.",
+      "If a bat is found in a room where someone was sleeping, the Monroe County Health Department should be contacted at (585) 753-5555 for rabies guidance.",
       "Licensed Nuisance Wildlife Control Operators in Monroe County can be found through the DEC at dec.ny.gov or by calling DEC Region 8 at (585) 226-5380.",
       "If a wild animal bites a person or pet, the animal should be captured (if safe) for rabies testing. The health department coordinates testing.",
-      "Rabies post-exposure treatment is available through emergency rooms. The Monroe County Health Department rabies line is (585) 753-5171.",
+      "Rabies post-exposure treatment is available through emergency rooms. The Monroe County Health Department rabies line is (585) 753-5555.",
       "A homeowner can seal entry points (gaps in soffits, open vents, chimney caps) to prevent wildlife from entering. This is the most effective long-term solution."
     ]
   },
@@ -70,9 +70,9 @@ export const RACCOON_SKUNK_WILDLIFE_REMOVAL_NY = {
       name: "Monroe County Health Department — Rabies Program",
       focus: "Rabies exposure guidance, bat testing, post-exposure treatment",
       qualifier: "Monroe County residents",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Rabies risk assessment, bat testing, treatment referral",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

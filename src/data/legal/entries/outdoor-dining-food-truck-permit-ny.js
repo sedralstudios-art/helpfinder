@@ -38,10 +38,10 @@ export const OUTDOOR_DINING_FOOD_TRUCK_PERMIT_NY = {
 
   legalOptions: {
     en: [
-      "Mobile food vendor permits are issued by the Monroe County Health Department at (585) 753-5171. Annual inspections are required.",
+      "Mobile food vendor permits are issued by the Monroe County Health Department at (585) 753-5555. Annual inspections are required.",
       "Rochester food truck parking rules and sidewalk cafe permits are handled by the Bureau of Inspection and Compliance at (585) 428-6520.",
       "The Rochester Public Market allows food vendors — contact the market office at (585) 428-6907 for vendor applications.",
-      "Food safety complaints can be filed with the Monroe County Health Department at (585) 753-5171.",
+      "Food safety complaints can be filed with the Monroe County Health Department at (585) 753-5555.",
       "For event planners bringing food trucks to an event, a temporary food service permit may be required from the health department.",
       "The NYS Department of Agriculture and Markets also regulates food safety at the state level and can be reached at (800) 554-4501 for complaints."
     ]
@@ -57,9 +57,9 @@ export const OUTDOOR_DINING_FOOD_TRUCK_PERMIT_NY = {
       name: "Monroe County Health Department — Food Safety",
       focus: "Food truck permits, restaurant inspections, food safety complaints",
       qualifier: "Anyone operating or concerned about a food establishment in Monroe County",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Permit processing, inspections, complaint investigation",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

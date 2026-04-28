@@ -42,7 +42,7 @@ export const GARAGE_SALE_YARD_SALE_LAW_NY = {
       "Rochester city code allows up to four garage sales per year, each lasting no more than three consecutive days. No permit is required.",
       "In most Monroe County suburbs, similar limits apply. Some towns require a free permit from the town clerk. Contact the local clerk's office for the exact number of allowed sales per year.",
       "If a code enforcement officer issues a citation, the resident can appear at the scheduled hearing and explain the situation. Many first-offense citations are resolved with a warning.",
-      "Selling food at a garage sale usually requires a temporary food service permit from the Monroe County Health Department at (585) 753-5171.",
+      "Selling food at a garage sale usually requires a temporary food service permit from the Monroe County Health Department at (585) 753-5555.",
       "For questions about whether a regular pattern of sales crosses the line into running a business, a call to the local assessor or building department can clarify zoning rules.",
       "These rules were verified as of April 2026. Town codes change — contact the local department to confirm current rules."
     ]

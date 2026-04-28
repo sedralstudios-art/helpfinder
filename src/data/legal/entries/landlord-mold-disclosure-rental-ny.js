@@ -39,7 +39,7 @@ export const LANDLORD_MOLD_DISCLOSURE_RENTAL_NY = {
 
   legalOptions: {
     en: [
-      "Monroe County Health Department at (585) 753-5171 can inspect rental units for mold and issue orders to the landlord.",
+      "Monroe County Health Department at (585) 753-5555 can inspect rental units for mold and issue orders to the landlord.",
       "Legal Aid Society of Rochester at (585) 232-4090 represents tenants in habitability cases including mold.",
       "LawNY at (585) 325-2520 handles housing and tenant protection cases.",
       "Rochester Code Enforcement (call 311) can inspect and cite landlords for mold and habitability violations.",
@@ -58,9 +58,9 @@ export const LANDLORD_MOLD_DISCLOSURE_RENTAL_NY = {
       name: "Monroe County Health Department",
       focus: "Mold inspections, housing complaints, environmental health",
       qualifier: "Monroe County tenants and homeowners",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Inspection, landlord orders, referrals",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

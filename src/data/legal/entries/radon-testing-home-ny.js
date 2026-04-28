@@ -38,7 +38,7 @@ export const RADON_TESTING_HOME_NY = {
 
   legalOptions: {
     en: [
-      "Free or low-cost radon test kits may be available from the Monroe County Health Department at (585) 753-5171.",
+      "Free or low-cost radon test kits may be available from the Monroe County Health Department at (585) 753-5555.",
       "Test kits can also be purchased at hardware stores or online for $10 to $25.",
       "If the test result is 4 pCi/L or above, the EPA recommends mitigation. The NYS Department of Health radon program can provide guidance at (800) 458-1158.",
       "Radon mitigation contractors in the Rochester area can be found through the National Radon Proficiency Program (NRPP) at nrpp.info.",
@@ -57,9 +57,9 @@ export const RADON_TESTING_HOME_NY = {
       name: "Monroe County Health Department — Radon Program",
       focus: "Radon testing, free test kits, mitigation guidance",
       qualifier: "Monroe County residents",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Free or low-cost test kits, guidance on results, mitigation referrals",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

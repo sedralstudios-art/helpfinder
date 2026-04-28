@@ -42,7 +42,7 @@ export const HOTEL_GUEST_RIGHTS_NY = {
       "If a hotel refuses a refund for unacceptable conditions, file a complaint with the NYS Attorney General at (800) 771-7755.",
       "For discrimination by a hotel, file a complaint with the NYS Division of Human Rights at (888) 392-3644.",
       "Dispute the charge with the credit card company if the hotel refuses to resolve the issue.",
-      "For bedbug or health code violations, file a complaint with the local health department. Monroe County Health Department at (585) 753-5171.",
+      "For bedbug or health code violations, file a complaint with the local health department. Monroe County Health Department at (585) 753-5555.",
       "NYS Division of Consumer Protection at (800) 697-1220 handles hotel complaint and deceptive advertising issues.",
       "Document everything — photos of the room conditions, screenshots of the original listing, and copies of correspondence with the hotel."
     ]

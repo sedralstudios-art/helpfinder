@@ -42,7 +42,7 @@ export const GREASE_TRAP_RESTAURANT_NY = {
       "New food businesses must submit a FOG management plan as part of the building permit process through the local building department.",
       "Grease trap pumping must be done by a licensed hauler. Pure Waters maintains a list of approved haulers.",
       "A business that causes a sewer overflow due to grease can be billed for the cleanup costs, which can run thousands of dollars.",
-      "The Monroe County Health Department also inspects food establishments for general sanitation at (585) 753-5171.",
+      "The Monroe County Health Department also inspects food establishments for general sanitation at (585) 753-5555.",
       "For businesses in Rochester, the city's plumbing code also applies. Contact the Bureau of Inspection at (585) 428-6520."
     ]
   },

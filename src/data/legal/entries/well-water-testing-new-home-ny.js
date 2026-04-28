@@ -38,7 +38,7 @@ export const WELL_WATER_TESTING_NEW_HOME_NY = {
 
   legalOptions: {
     en: [
-      "The Monroe County Health Department tests well water for bacteria and nitrates. Call (585) 753-5171 for information and sample kits.",
+      "The Monroe County Health Department tests well water for bacteria and nitrates. Call (585) 753-5555 for information and sample kits.",
       "Private labs in the Rochester area offer comprehensive well water testing panels for $100 to $300. Common labs include Parratt-Wolff and ESC Lab Sciences.",
       "If the test shows coliform bacteria, the well should be disinfected (shock chlorinated) and retested. If bacteria persist, a UV treatment system ($500-$1,500) may be needed.",
       "If the test shows elevated nitrates (above 10 mg/L), a reverse osmosis system ($200-$500 under-sink) is the standard treatment.",
@@ -57,9 +57,9 @@ export const WELL_WATER_TESTING_NEW_HOME_NY = {
       name: "Monroe County Health Department — Well Water Testing",
       focus: "Private well water testing, bacteria, nitrates, contamination guidance",
       qualifier: "Monroe County residents with private wells",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Water testing, results interpretation, treatment recommendations",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

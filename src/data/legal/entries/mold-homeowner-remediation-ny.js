@@ -42,7 +42,7 @@ export const MOLD_HOMEOWNER_REMEDIATION_NY = {
       "NYS Department of Labor Mold Program at (518) 457-2735 verifies licenses and investigates complaints about unlicensed mold work.",
       "To verify a mold company license, search at labor.ny.gov/mold.",
       "If homeowner's insurance denies a mold claim, file an appeal with the insurer, then escalate to the NYS DFS at (800) 342-3736.",
-      "Monroe County Health Department at (585) 753-5171 can advise on health concerns related to mold.",
+      "Monroe County Health Department at (585) 753-5555 can advise on health concerns related to mold.",
       "For disputes with a mold remediation company, file a complaint with the NYS Division of Consumer Protection at (800) 697-1220.",
       "A homeowner who was harmed by unlicensed or negligent mold work can consult an attorney — Monroe County Bar Association referral at (585) 546-2130."
     ]

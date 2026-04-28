@@ -39,7 +39,7 @@ export const SHARED_WELL_WATER_RIGHTS_NY = {
 
   legalOptions: {
     en: [
-      "The Monroe County Health Department can test well water for bacteria and nitrates. Testing information is available at (585) 753-5171.",
+      "The Monroe County Health Department can test well water for bacteria and nitrates. Testing information is available at (585) 753-5555.",
       "If a shared well agreement exists, it is usually recorded in the deed and can be found at the Monroe County Clerk's Office at (585) 753-1600.",
       "If a neighbor is contaminating the well, a complaint can be filed with the Monroe County Health Department. The department can investigate and order remediation.",
       "For disputes about shared well costs or access, mediation through the court system or a private mediator is often faster and cheaper than a lawsuit.",
@@ -58,9 +58,9 @@ export const SHARED_WELL_WATER_RIGHTS_NY = {
       name: "Monroe County Health Department — Well Water Testing",
       focus: "Private well water testing, contamination complaints",
       qualifier: "Monroe County residents with private wells",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Water testing, contamination investigation",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

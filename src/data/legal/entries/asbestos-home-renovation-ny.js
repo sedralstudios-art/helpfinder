@@ -42,7 +42,7 @@ export const ASBESTOS_HOME_RENOVATION_NY = {
       "Under Industrial Code Rule 56, asbestos abatement in commercial and multi-family buildings must be done by a licensed contractor. The NYS Department of Labor maintains a list of licensed abatement contractors.",
       "Asbestos testing can be done by collecting a small sample (with safety precautions) and sending it to a certified lab. Labs in the Rochester area offer analysis for $25 to $75 per sample.",
       "The NYS Department of Labor's Asbestos Control Bureau handles complaints about improper removal at (518) 457-1255.",
-      "The Monroe County Health Department can provide guidance on asbestos in homes at (585) 753-5171.",
+      "The Monroe County Health Department can provide guidance on asbestos in homes at (585) 753-5555.",
       "If a contractor disturbs asbestos without proper handling, the homeowner can report it to the Department of Labor and may have a claim for cleanup costs and health monitoring.",
       "Asbestos waste must be disposed of at an approved facility — it cannot go in regular trash or a dumpster."
     ]
@@ -71,9 +71,9 @@ export const ASBESTOS_HOME_RENOVATION_NY = {
       name: "Monroe County Health Department",
       focus: "Environmental health, asbestos guidance, lead and radon",
       qualifier: "Monroe County residents",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Guidance, referrals, testing information",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

@@ -39,7 +39,7 @@ export const SEPTIC_SYSTEM_RULES_NY = {
 
   legalOptions: {
     en: [
-      "Septic permits and inspections in Monroe County are handled by the Health Department at (585) 753-5171.",
+      "Septic permits and inspections in Monroe County are handled by the Health Department at (585) 753-5555.",
       "A permit is required before any septic installation, repair, or replacement. The application includes a site plan and perc test results.",
       "If a septic system is contaminating a well or surface water, the health department can order the homeowner to repair or replace it.",
       "When selling a home, the septic condition is typically part of the home inspection. Many buyers require a clean inspection report before closing.",
@@ -58,9 +58,9 @@ export const SEPTIC_SYSTEM_RULES_NY = {
       name: "Monroe County Health Department — Septic Program",
       focus: "Septic permits, inspections, failing system enforcement",
       qualifier: "Monroe County residents with septic systems",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Permit processing, inspections, enforcement, guidance",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,

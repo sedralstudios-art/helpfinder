@@ -39,7 +39,7 @@ export const NEIGHBOR_SMOKING_SECONDHAND_APARTMENT_NY = {
 
   legalOptions: {
     en: [
-      "If smoke is in common areas, file a Clean Indoor Air Act complaint with the Monroe County Health Department at (585) 753-5171.",
+      "If smoke is in common areas, file a Clean Indoor Air Act complaint with the Monroe County Health Department at (585) 753-5555.",
       "If the lease prohibits smoking and the neighbor is violating it, report the violation to the landlord in writing.",
       "If the landlord does not act, Legal Aid Society of Rochester at (585) 232-4090 can advise on habitability claims.",
       "LawNY at (585) 325-2520 handles housing cases.",
@@ -58,9 +58,9 @@ export const NEIGHBOR_SMOKING_SECONDHAND_APARTMENT_NY = {
       name: "Monroe County Health Department — Clean Indoor Air",
       focus: "Smoke complaints in common areas, indoor air quality, Clean Indoor Air Act",
       qualifier: "Monroe County residents",
-      access: "Phone at (585) 753-5171",
+      access: "Phone at (585) 753-5555",
       outcome: "Complaint investigation, enforcement in common areas",
-      phone: "(585) 753-5171",
+      phone: "(585) 753-5555",
       url: "https://www.monroecounty.gov/health",
       verified: true,
       bilingual: false,
