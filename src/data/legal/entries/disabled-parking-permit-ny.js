@@ -37,7 +37,7 @@ export const DISABLED_PARKING_PERMIT_NY = {
 
   legalOptions: {
     en: [
-      "In Rochester, applications are processed at the City Clerk's office at City Hall, 30 Church St, Rochester NY 14614. Phone: (585) 428-7121.",
+      "In Rochester, applications are processed at the City Clerk's Licensing office at City Hall Room 100A, 30 Church St, Rochester NY 14614, or at any Neighborhood Service Center. Phone: (585) 428-6617.",
       "In suburban Monroe County towns, the town clerk's office handles applications. The town clerk contact is available on the town's website or by calling the town hall.",
       "The application form requires a medical certification section completed by the person's doctor. The doctor does not need to provide a specific diagnosis — only a certification that the condition meets the criteria.",
       "If a business does not have accessible parking spaces, a complaint can be filed with the ADA Information Line at (800) 514-0301.",
@@ -57,7 +57,7 @@ export const DISABLED_PARKING_PERMIT_NY = {
       qualifier: "Rochester residents",
       access: "In person",
       outcome: "Permit issuance (often same-day)",
-      phone: "(585) 428-7121",
+      phone: "(585) 428-6617",
       url: "https://www.cityofrochester.gov/clerk/",
       verified: true,
       bilingual: false,
@@ -91,7 +91,8 @@ export const DISABLED_PARKING_PERMIT_NY = {
     "https://dmv.ny.gov/registration/parking-permits-people-severe-disabilities"
   ],
 
-  lastVerified: "2026-04-16",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
