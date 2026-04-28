@@ -116,7 +116,8 @@ export const DISABLED_HOMEOWNER_PROPERTY_TAX_EXEMPTION_NY = {
     "https://www.tax.ny.gov/research/property/assess/manuals/vol4/pt1/sec4_01/sec459_c.htm"
   ],
 
-  lastVerified: "2026-04-18",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "medium",
   emergencyFlag: false,
   disclaimer: true,
