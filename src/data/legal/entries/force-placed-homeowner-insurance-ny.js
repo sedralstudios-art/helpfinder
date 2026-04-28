@@ -45,7 +45,7 @@ export const FORCE_PLACED_HOMEOWNER_INSURANCE_NY = {
       "Legal Aid Society of Rochester at (585) 232-4090 represents low-income homeowners in improper force-placement cases.",
       "NY Homeowner Assistance Fund at 1-844-77-NYHAF provides mortgage and insurance help.",
       "For restoring regular insurance, any NY-licensed insurance broker can help — local options include ESL Insurance, Allstate, State Farm, Liberty Mutual, GEICO.",
-      "JustCause (formerly VLSP) at (585) 295-3100 offers free legal help on mortgage and insurance disputes for low-income homeowners."
+      "JustCause (formerly VLSP) at (585) 232-3051 offers free legal help on mortgage and insurance disputes for low-income homeowners."
     ]
   },
 

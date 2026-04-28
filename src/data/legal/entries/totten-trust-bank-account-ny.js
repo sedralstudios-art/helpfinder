@@ -42,7 +42,7 @@ export const TOTTEN_TRUST_BANK_ACCOUNT_NY = {
       "NYS Department of Financial Services at (800) 342-3736 answers questions about bank account rules.",
       "Monroe County Surrogate's Court at (585) 371-3717 is only needed if the estate has other assets outside POD designations.",
       "Legal Aid Society of Rochester at (585) 232-4090 helps low-income families plan simple estate setups.",
-      "JustCause (formerly VLSP) at (585) 295-3100 offers free estate planning clinics."
+      "JustCause (formerly VLSP) at (585) 232-3051 offers free estate planning clinics."
     ]
   },
 
@@ -71,7 +71,7 @@ export const TOTTEN_TRUST_BANK_ACCOUNT_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake, clinic appointments",
       outcome: "Free legal help with simple estate planning",
-      phone: "(585) 295-3100",
+      phone: "(585) 232-3051",
       url: "https://justcauseny.org",
       verified: true,
       bilingual: true,

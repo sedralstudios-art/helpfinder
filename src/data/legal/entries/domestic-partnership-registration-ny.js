@@ -40,7 +40,7 @@ export const DOMESTIC_PARTNERSHIP_REGISTRATION_NY = {
     en: [
       "Monroe County Clerk at (585) 753-1600 accepts domestic partnership registrations and dissolutions.",
       "City of Rochester Clerk at (585) 428-7421 accepts city-level registrations for Rochester-specific benefits.",
-      "For inheritance protection, Legal Aid Society of Rochester at (585) 232-4090 and JustCause (formerly VLSP) at (585) 295-3100 help low-income partners set up wills and POAs.",
+      "For inheritance protection, Legal Aid Society of Rochester at (585) 232-4090 and JustCause (formerly VLSP) at (585) 232-3051 help low-income partners set up wills and POAs.",
       "Monroe County Bar Association Lawyer Referral at (585) 546-2130 for paid legal help with partnership, will, or end-of-life documents.",
       "For city or private employer benefits, the employer's HR department handles recognition based on partnership certificate."
     ]
@@ -71,7 +71,7 @@ export const DOMESTIC_PARTNERSHIP_REGISTRATION_NY = {
       qualifier: "Monroe County resident at or under 200 percent of poverty",
       access: "Phone intake, clinic appointments",
       outcome: "Free legal help with estate-planning documents",
-      phone: "(585) 295-3100",
+      phone: "(585) 232-3051",
       url: "https://justcauseny.org",
       verified: true,
       bilingual: true,
