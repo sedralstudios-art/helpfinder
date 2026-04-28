@@ -96,7 +96,8 @@ export const DIGITAL_ASSETS_AFTER_DEATH_NY = {
     "https://www.nycourts.gov/courthelp/WhenSomeoneDies/administration.shtml"
   ],
 
-  lastVerified: "2026-04-17",
+  lastVerified: "2026-04-28",
+  factCheckedBy: { tool: "websearch", date: "2026-04-28" },
   volatility: "low",
   emergencyFlag: false,
   disclaimer: true,
